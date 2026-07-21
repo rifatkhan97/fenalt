@@ -96,23 +96,24 @@ export default function OperationsPage() {
   return (
     <>
       {/* ─── Section 1: Header ───────────────────────────────── */}
-      <section className="pt-32 pb-20 lg:pt-44 lg:pb-28 bg-[#1A1A1A] text-[#FAF9F6] relative overflow-hidden">
-        <div className="absolute inset-0 opacity-5">
-          <div className="absolute bottom-0 left-0 w-[600px] h-[400px] bg-[#2D5016] blur-3xl rounded-full" />
+      <section className="pt-32 pb-20 lg:pt-44 lg:pb-28 bg-[#F2EFE9] relative overflow-hidden">
+        <div className="absolute inset-0 opacity-10">
+          <div className="absolute top-0 right-0 w-96 h-96 rounded-full bg-[#C8A882] blur-3xl" />
         </div>
         <div className="max-w-7xl mx-auto px-6 lg:px-8 relative z-10">
           <p className="text-xs font-semibold uppercase tracking-[0.25em] text-[#C8A882] mb-6">
             How It Works
           </p>
-          <h1 className="font-display text-5xl lg:text-8xl font-light text-[#FAF9F6] leading-[1.05] max-w-4xl">
+          <h1 className="font-display text-5xl lg:text-8xl font-light text-[#1A1A1A] leading-[1.05] max-w-4xl">
             Boots on the{" "}
-            <span className="italic font-medium text-[#C8A882]">Ground.</span>
+            <span className="italic font-medium text-[#2D5016]">Ground.</span>
           </h1>
-          <p className="mt-8 text-lg text-[#E5DDD3] max-w-2xl leading-relaxed">
+          <p className="mt-8 text-lg text-[#6B6560] max-w-2xl leading-relaxed">
             We are not software. We are an operational team embedded in the
             manufacturing ecosystem, ensuring every order is physically
             supervised from first stitch to final freight.
           </p>
+          <div className="mt-10 h-px max-w-sm bg-[#C8A882]" />
         </div>
       </section>
 
