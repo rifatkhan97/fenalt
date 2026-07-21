@@ -1,15 +1,8 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
-import {
-  MessageSquare,
-  Leaf,
-  Heart,
-  ArrowRight,
-  Quote,
-  ChevronLeft,
-  ChevronRight,
-} from "lucide-react";
+import { MessageSquare, Leaf, Heart, ArrowRight } from "lucide-react";
+import TestimonialsCarousel from "@/components/TestimonialsCarousel";
 
 export const metadata: Metadata = {
   title: "FenoRise - Sustainable, Low-MOQ Manufacturing. Fully Managed.",
@@ -250,47 +243,8 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ─── Section 5: Testimonial ──────────────────────────── */}
-      <section className="py-24 lg:py-32 bg-[#F2EFE9]">
-        <div className="max-w-5xl mx-auto px-6 lg:px-8 text-center">
-          <p className="text-xs font-semibold uppercase tracking-[0.25em] text-[#C8A882] mb-12">
-            Client Stories
-          </p>
-
-          <div className="relative">
-            <Quote
-              size={48}
-              className="text-[#C8A882]/30 mx-auto mb-8"
-              strokeWidth={1}
-            />
-            <blockquote className="font-display text-3xl lg:text-5xl font-light text-[#1A1A1A] leading-snug mb-10 italic">
-              &ldquo;Fenorise took the fear out of overseas manufacturing. They
-              managed the entire process and delivered a sustainable capsule that
-              exceeded our expectations.&rdquo;
-            </blockquote>
-            <div className="flex items-center justify-center gap-4">
-              <div className="h-px w-12 bg-[#C8A882]" />
-              <p className="text-sm font-semibold text-[#6B6560] uppercase tracking-widest">
-                Independent Studio
-              </p>
-              <div className="h-px w-12 bg-[#C8A882]" />
-            </div>
-          </div>
-
-          {/* Carousel Dots */}
-          <div className="flex items-center justify-center gap-3 mt-12">
-            {[0, 1, 2].map((i) => (
-              <button
-                key={i}
-                aria-label={`Testimonial ${i + 1}`}
-                className={`h-1.5 rounded-full transition-all duration-300 ${
-                  i === 0 ? "w-8 bg-[#C8A882]" : "w-3 bg-[#E5DDD3]"
-                }`}
-              />
-            ))}
-          </div>
-        </div>
-      </section>
+      {/* ─── Section 5: Testimonial Carousel ─────────────────── */}
+      <TestimonialsCarousel />
 
       {/* ─── Section 6: Final CTA Banner ─────────────────────── */}
       <section className="py-24 lg:py-32 bg-[#2D5016]">
