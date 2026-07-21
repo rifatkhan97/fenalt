@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import Link from "next/link";
 import Image from "next/image";
@@ -282,8 +282,8 @@ export default function OperationsPage() {
             {/* Image */}
             <div className="relative aspect-[4/3] overflow-hidden">
               <Image
-                src="/images/micro_factory_workshop.jpg"
-                alt="FenoRise team on the ground at a micro-factory"
+                src="/images/factory_presence.jpg"
+                alt="Sewing machines and thread cones on the factory floor - FenoRise local presence"
                 fill
                 className="object-cover"
               />
