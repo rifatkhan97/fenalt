@@ -23,6 +23,10 @@ export const metadata: Metadata = {
     "Fenorise connects independent fashion brands with highly capable, ethical micro-factories. Launch your collection using sustainable circular fabrics, with zero communication barriers and fully managed quality control.",
   keywords:
     "sustainable manufacturing, micro-factory, low MOQ, ethical fashion, circular fabrics, deadstock, B2B fashion supply chain",
+  icons: {
+    icon: "/icon.png",
+    apple: "/apple-icon.png",
+  },
   openGraph: {
     title: "Fenorise - Rewiring the Global Supply Chain",
     description:
