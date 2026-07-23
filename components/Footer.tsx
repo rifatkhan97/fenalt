@@ -109,6 +109,31 @@ export default function Footer() {
                 </button>
               </form>
             )}
+
+            {/* Direct Contact Details */}
+            <div className="mt-8 space-y-2 text-sm text-[#E5DDD3]">
+              <p className="leading-relaxed">
+                Dhaka Housing Main Road, Holding - 4, Level - 9, Dhaka -1207
+              </p>
+              <p>
+                <a
+                  href="mailto:hello@fenorise.com"
+                  className="hover:text-[#C8A882] transition-colors duration-200"
+                >
+                  hello@fenorise.com
+                </a>
+              </p>
+              <p>
+                <a
+                  href="https://wa.me/8801781345299"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-[#C8A882] transition-colors duration-200"
+                >
+                  WhatsApp: +88 017 8134 5299
+                </a>
+              </p>
+            </div>
           </div>
         </div>
 
