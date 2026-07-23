@@ -1,8 +1,7 @@
-﻿"use client";
+"use client";
 
 import { useState } from "react";
 import {
-  Upload,
   Shield,
   CheckCircle2,
   Leaf,
@@ -69,7 +68,6 @@ const faqItems = [
 ];
 
 export default function IntakePage() {
-  const [fileName, setFileName] = useState<string>("");
   const [openFaq, setOpenFaq] = useState<number | null>(null);
   const [submitted, setSubmitted] = useState(false);
   const [formData, setFormData] = useState({
@@ -87,11 +85,6 @@ export default function IntakePage() {
     >
   ) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
-  };
-
-  const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const file = e.target.files?.[0];
-    if (file) setFileName(file.name);
   };
 
   const handleSubmit = (e: React.FormEvent) => {
@@ -315,38 +308,7 @@ export default function IntakePage() {
                   </div>
                 </div>
 
-                {/* Row 4: File Upload */}
-                <div>
-                  <label
-                    htmlFor="file-upload"
-                    className="block text-xs font-semibold uppercase tracking-widest text-[#6B6560] mb-2"
-                  >
-                    Tech Pack / Reference Files
-                  </label>
-                  <label
-                    htmlFor="file-upload"
-                    className="flex items-center gap-4 px-4 py-4 border-2 border-dashed border-[#E5DDD3] bg-[#F2EFE9] cursor-pointer hover:border-[#C8A882] transition-colors group"
-                  >
-                    <Upload
-                      size={20}
-                      className="text-[#6B6560] group-hover:text-[#C8A882] transition-colors flex-shrink-0"
-                    />
-                    <span className="text-sm text-[#6B6560]">
-                      {fileName
-                        ? fileName
-                        : "Click to upload PDF, AI, PSD, DXF, PNG, JPG"}
-                    </span>
-                    <input
-                      id="file-upload"
-                      type="file"
-                      className="hidden"
-                      accept=".pdf,.ai,.psd,.dxf,.dwg,.png,.jpg,.jpeg"
-                      onChange={handleFileChange}
-                    />
-                  </label>
-                </div>
-
-                {/* Row 5: Description */}
+                {/* Row 4: Description */}
                 <div>
                   <label
                     htmlFor="description"
@@ -361,7 +323,7 @@ export default function IntakePage() {
                     required
                     value={formData.description}
                     onChange={handleChange}
-                    placeholder="Describe your garment, fabric preferences, construction details, timeline, and any other relevant information..."
+                    placeholder="Describe your garment, fabric preferences, construction details, and timeline. (Note: We will request your tech packs and reference images via email after you submit this request.)"
                     className="w-full px-4 py-3 bg-[#F2EFE9] border border-[#E5DDD3] text-sm text-[#1A1A1A] placeholder-[#6B6560] focus:outline-none focus:border-[#2D5016] transition-colors resize-none"
                   />
                 </div>
