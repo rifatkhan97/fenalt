@@ -54,7 +54,7 @@ export default function MissionPage() {
           <div className="flex items-center gap-6 mt-16">
             <div className="h-px flex-1 bg-[#2A2A2A]" />
             <span className="text-xs text-[#6B6560] uppercase tracking-widest">
-              FenoRise, 2024
+              FenoRise, 2026
             </span>
             <div className="h-px flex-1 bg-[#2A2A2A]" />
           </div>
