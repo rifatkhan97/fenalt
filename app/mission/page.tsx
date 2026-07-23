@@ -244,6 +244,18 @@ export default function MissionPage() {
                 <p className="mt-4">
                   FenoRise was built to bridge this exact gap. Combining deep on-the-ground manufacturing experience with modern operational infrastructure, our specialized team is here to solve both problems. We exist to give independent brands the reliable quality they need to grow, while ensuring local makers get the fair pricing and consistent access they need to see their own dreams come true.
                 </p>
+                <p className="mt-6 font-display text-base lg:text-lg italic text-[#C8A882]">
+                  —{" "}
+                  <a
+                    href="https://www.linkedin.com/in/rifatiller/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:underline hover:text-[#1A1A1A] transition-colors"
+                  >
+                    Rifat
+                  </a>{" "}
+                  &amp; the FenoRise Team
+                </p>
               </div>
             </div>
 
