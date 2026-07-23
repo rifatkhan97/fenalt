@@ -79,8 +79,8 @@ const textiles = [
 
 const finishingItems = [
   {
-    title: "Eco-Friendly Packaging",
-    desc: "Recycled tissue, compostable mailers, and FSC-certified hang tags.",
+    title: "Retail-Ready Finishing",
+    desc: "Polybagging, barcode sticker application, and folding to your exact fulfillment center specifications.",
   },
   {
     title: "Custom Woven Labels",
