@@ -225,8 +225,40 @@ export default function MissionPage() {
         </div>
       </section>
 
-      {/* ─── Section 6: Join the Movement ────────────────────── */}
+      {/* ─── Section 6: Our Story ────────────────────────────── */}
       <section className="py-24 lg:py-32 bg-[#F2EFE9]">
+        <div className="max-w-7xl mx-auto px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-center">
+            {/* Left Column: Text */}
+            <div>
+              <p className="text-xs font-semibold uppercase tracking-[0.25em] text-[#C8A882] mb-4">
+                THE STORY
+              </p>
+              <h2 className="font-display text-4xl lg:text-6xl font-light text-[#1A1A1A] mb-8 leading-tight">
+                Born from the factory floor. Built for the global market.
+              </h2>
+              <div className="text-[#6B6560] text-base lg:text-lg leading-relaxed">
+                <p>
+                  FenoRise is a deeply personal mission. It began in 2017 on the apparel side, experiencing firsthand how incredibly difficult it is for an independent clothing line to find reliable makers and ensure consistent quality. But spending years on the factory floors of Bangladesh revealed the other side of the equation. We listened to highly skilled micro-factory operators who took a massive leap of faith to start their own businesses, only to watch them close. Their dreams shattered not from a lack of talent, but because they simply couldn&apos;t secure enough work orders at a fair price.
+                </p>
+                <p className="mt-4">
+                  FenoRise was built to bridge this exact gap. Combining deep on-the-ground manufacturing experience with modern operational infrastructure, our specialized team is here to solve both problems. We exist to give independent brands the reliable quality they need to grow, while ensuring local makers get the fair pricing and consistent access they need to see their own dreams come true.
+                </p>
+              </div>
+            </div>
+
+            {/* Right Column: Image Placeholder */}
+            <div className="relative aspect-[4/3] bg-[#E5DDD3] border border-[#D4C9B8] flex items-center justify-center p-8 text-center">
+              <p className="text-xs font-medium uppercase tracking-widest text-[#6B6560] leading-relaxed max-w-sm">
+                [Insert high-quality candid image of factory floor collaboration or fabric inspection]
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ─── Section 7: Join the Movement ────────────────────── */}
+      <section className="py-24 lg:py-32 bg-[#FAF9F6]">
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
           <p className="text-xs font-semibold uppercase tracking-[0.25em] text-[#C8A882] mb-8">
             Be Part of It
