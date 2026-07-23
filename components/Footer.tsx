@@ -65,7 +65,7 @@ export default function Footer() {
               {[
                 { href: "/privacy", label: "Privacy Policy" },
                 { href: "/terms", label: "Terms of Service" },
-                { href: "mailto:hello@fenorise.com", label: "Contact Us" },
+                { href: "/contact", label: "Contact Us" },
               ].map((link) => (
                 <li key={link.href}>
                   <Link
