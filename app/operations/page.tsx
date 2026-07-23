@@ -230,8 +230,8 @@ export default function OperationsPage() {
                 <p>
                   Air-freight is available for samples and urgent orders.
                   Full sea-freight LCL and FCL options are structured for
-                  scaling production runs of 200+ units, dramatically lowering
-                  your per-unit logistics cost.
+                  scaling production runs, dramatically lowering your per-unit
+                  logistics cost.
                 </p>
                 <p>
                   Our partners ensure{" "}
@@ -247,9 +247,9 @@ export default function OperationsPage() {
             {/* Visual Side */}
             <div className="bg-[#F2EFE9] p-12 lg:p-16 flex flex-col gap-8 justify-center">
               {[
-                { mode: "Air Freight", time: "3–7 days", use: "Samples & urgent orders" },
-                { mode: "Sea Freight LCL", time: "18–25 days", use: "200–499 units" },
-                { mode: "Sea Freight FCL", time: "21–30 days", use: "500+ units, best cost" },
+                { mode: "Air Freight", time: "3–7 days", use: "Samples & time-sensitive drops" },
+                { mode: "Sea Freight LCL", time: "35–45 days", use: "Cost-effective for standard capsule runs" },
+                { mode: "Sea Freight FCL", time: "30–40 days", use: "Dedicated containers for high-volume scaling" },
               ].map((item, i) => (
                 <div
                   key={i}
