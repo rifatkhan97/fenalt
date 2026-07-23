@@ -23,8 +23,8 @@ export default function Footer() {
           {/* Brand */}
           <div className="lg:col-span-1">
             <Link href="/" className="inline-flex items-baseline mb-6">
-              <span className="text-2xl font-light text-[#FAF9F6] tracking-wider uppercase">Feno</span>
-              <span className="text-2xl font-bold text-[#FAF9F6] tracking-wider uppercase">Rise</span>
+              <span className="text-2xl font-light text-[#FAF9F6] tracking-wider">FENO</span>
+              <span className="text-2xl font-bold text-[#FAF9F6] tracking-wider">RISE</span>
             </Link>
             <p className="text-sm text-[#C8A882] font-light leading-relaxed italic mt-2">
               Rewiring the Global Supply Chain.
