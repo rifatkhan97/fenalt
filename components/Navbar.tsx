@@ -15,6 +15,7 @@ export default function Navbar() {
   }, []);
 
   const navLinks = [
+    { href: "/", label: "Home" },
     { href: "/capabilities", label: "Capabilities" },
     { href: "/operations", label: "Operations" },
     { href: "/mission", label: "Our Mission" },
