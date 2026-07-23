@@ -98,15 +98,24 @@ export default function MissionPage() {
             {/* Visual accent */}
             <div className="space-y-4">
               {[
-                { num: "70%", desc: "of micro-factories have no digital presence" },
-                { num: "80%", desc: "are founded by former factory floor workers" },
-                { num: "3M+", desc: "garment workers dependent on micro-factories" },
+                {
+                  num: "Offline",
+                  desc: "The vast majority of micro-factories operate entirely without a digital footprint.",
+                },
+                {
+                  num: "Grassroots",
+                  desc: "Founded overwhelmingly by highly skilled, former factory line operators.",
+                },
+                {
+                  num: "Millions",
+                  desc: "Of livelihoods and families depend entirely on the informal manufacturing sector.",
+                },
               ].map((stat, i) => (
                 <div
                   key={i}
                   className="flex items-center gap-8 p-8 bg-[#FAF9F6] border-l-4 border-[#C8A882]"
                 >
-                  <span className="font-display text-4xl font-light text-[#C8A882] min-w-[5rem]">
+                  <span className="font-display text-3xl sm:text-4xl font-light text-[#C8A882] min-w-[8rem] flex-shrink-0">
                     {stat.num}
                   </span>
                   <p className="text-[#6B6560] text-sm leading-relaxed">
