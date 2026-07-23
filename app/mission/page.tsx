@@ -259,11 +259,14 @@ export default function MissionPage() {
               </div>
             </div>
 
-            {/* Right Column: Image Placeholder */}
-            <div className="relative aspect-[4/3] bg-[#E5DDD3] border border-[#D4C9B8] flex items-center justify-center p-8 text-center">
-              <p className="text-xs font-medium uppercase tracking-widest text-[#6B6560] leading-relaxed max-w-sm">
-                [Insert high-quality candid image of factory floor collaboration or fabric inspection]
-              </p>
+            {/* Right Column: Image */}
+            <div className="relative aspect-[4/3] overflow-hidden border border-[#D4C9B8]">
+              <Image
+                src="/images/our_story_factory.jpg"
+                alt="Micro-factory floor and sewing equipment"
+                fill
+                className="object-cover"
+              />
             </div>
           </div>
         </div>
