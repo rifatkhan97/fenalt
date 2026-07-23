@@ -355,7 +355,7 @@ export default function IntakePage() {
               Our Commitment
             </p>
             <h2 className="font-display text-4xl lg:text-6xl font-light text-[#1A1A1A]">
-              The FenoRise Guarantee
+              The Fenorise Guarantee
             </h2>
           </div>
 

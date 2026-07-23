@@ -5,7 +5,7 @@ import { ArrowRight } from "lucide-react";
 import MissionNewsletter from "@/components/MissionNewsletter";
 
 export const metadata: Metadata = {
-  title: "Our Mission - FenoRise",
+  title: "Our Mission - Fenorise",
   description:
     "Rewiring the Global Supply Chain. Fenorise connects ethical micro-factories with global fashion brands through the circular Jhoot economy.",
 };
@@ -54,7 +54,7 @@ export default function MissionPage() {
           <div className="flex items-center gap-6 mt-16">
             <div className="h-px flex-1 bg-[#2A2A2A]" />
             <span className="text-xs text-[#6B6560] uppercase tracking-widest">
-              FenoRise, 2026
+              Fenorise, 2026
             </span>
             <div className="h-px flex-1 bg-[#2A2A2A]" />
           </div>
@@ -239,10 +239,10 @@ export default function MissionPage() {
               </h2>
               <div className="text-[#6B6560] text-base lg:text-lg leading-relaxed">
                 <p>
-                  FenoRise is a deeply personal mission. It began in 2017 on the apparel side, experiencing firsthand how incredibly difficult it is for an independent clothing line to find reliable makers and ensure consistent quality. But spending years on the factory floors of Bangladesh revealed the other side of the equation. We listened to highly skilled micro-factory operators who took a massive leap of faith to start their own businesses, only to watch them close. Their dreams shattered not from a lack of talent, but because they simply couldn&apos;t secure enough work orders at a fair price.
+                  Fenorise is a deeply personal mission. It began in 2017 on the apparel side, experiencing firsthand how incredibly difficult it is for an independent clothing line to find reliable makers and ensure consistent quality. But spending years on the factory floors of Bangladesh revealed the other side of the equation. We listened to highly skilled micro-factory operators who took a massive leap of faith to start their own businesses, only to watch them close. Their dreams shattered not from a lack of talent, but because they simply couldn&apos;t secure enough work orders at a fair price.
                 </p>
                 <p className="mt-4">
-                  FenoRise was built to bridge this exact gap. Combining deep on-the-ground manufacturing experience with modern operational infrastructure, our specialized team is here to solve both problems. We exist to give independent brands the reliable quality they need to grow, while ensuring local makers get the fair pricing and consistent access they need to see their own dreams come true.
+                  Fenorise was built to bridge this exact gap. Combining deep on-the-ground manufacturing experience with modern operational infrastructure, our specialized team is here to solve both problems. We exist to give independent brands the reliable quality they need to grow, while ensuring local makers get the fair pricing and consistent access they need to see their own dreams come true.
                 </p>
                 <p className="mt-6 font-display text-base lg:text-lg italic text-[#C8A882]">
                   —{" "}
@@ -254,7 +254,7 @@ export default function MissionPage() {
                   >
                     Rifat
                   </a>{" "}
-                  &amp; the FenoRise Team
+                  &amp; the Fenorise Team
                 </p>
               </div>
             </div>

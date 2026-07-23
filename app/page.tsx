@@ -5,7 +5,7 @@ import { MessageSquare, Leaf, Heart, ArrowRight } from "lucide-react";
 import TestimonialsCarousel from "@/components/TestimonialsCarousel";
 
 export const metadata: Metadata = {
-  title: "FenoRise - Sustainable, Low-MOQ Manufacturing. Fully Managed.",
+  title: "Fenorise - Sustainable, Low-MOQ Manufacturing. Fully Managed.",
   description:
     "We connect independent fashion brands with ethical micro-factories. Sustainable circular fabrics, zero communication barriers, fully managed quality control.",
 };
@@ -123,10 +123,10 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="mb-16">
             <p className="text-xs font-semibold uppercase tracking-[0.25em] text-[#C8A882] mb-4">
-              Why FenoRise
+              Why Fenorise
             </p>
             <h2 className="font-display text-4xl lg:text-6xl font-light text-[#1A1A1A]">
-              The FenoRise Advantage
+              The Fenorise Advantage
             </h2>
           </div>
 

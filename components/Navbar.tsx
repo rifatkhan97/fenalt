@@ -34,10 +34,10 @@ export default function Navbar() {
           <div className="flex items-center justify-between h-16 lg:h-20">
             {/* Logo */}
             <Link href="/" className="flex items-center group">
-              <span className="text-xl lg:text-2xl font-light text-[#1A1A1A] tracking-tight group-hover:opacity-80 transition-opacity">
+              <span className="text-xl lg:text-2xl font-light text-[#1A1A1A] tracking-wider uppercase group-hover:opacity-80 transition-opacity">
                 Feno
               </span>
-              <span className="text-xl lg:text-2xl font-bold text-[#1A1A1A] tracking-tight group-hover:opacity-80 transition-opacity">
+              <span className="text-xl lg:text-2xl font-bold text-[#1A1A1A] tracking-wider uppercase group-hover:opacity-80 transition-opacity">
                 Rise
               </span>
             </Link>

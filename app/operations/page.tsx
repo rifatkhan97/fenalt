@@ -78,7 +78,7 @@ const faqs = [
   },
   {
     q: "What happens if there's a defect in my order?",
-    a: "FenoRise operates a zero-tolerance defect policy above our AQL threshold. If units fail inspection on delivery, we coordinate replacement production at no additional cost. Our on-site QC is designed to prevent this - but our guarantee means you're always protected.",
+    a: "Fenorise operates a zero-tolerance defect policy above our AQL threshold. If units fail inspection on delivery, we coordinate replacement production at no additional cost. Our on-site QC is designed to prevent this - but our guarantee means you're always protected.",
   },
   {
     q: "Can I visit the factory myself?",
@@ -284,7 +284,7 @@ export default function OperationsPage() {
             <div className="relative aspect-[4/3] overflow-hidden">
               <Image
                 src="/images/factory_presence.jpg"
-                alt="Sewing machines and thread cones on the factory floor - FenoRise local presence"
+                alt="Sewing machines and thread cones on the factory floor - Fenorise local presence"
                 fill
                 className="object-cover"
               />
@@ -318,7 +318,7 @@ export default function OperationsPage() {
                   costly issue.
                 </p>
                 <p>
-                  This physical presence is what separates FenoRise from
+                  This physical presence is what separates Fenorise from
                   sourcing platforms that merely broker introductions and
                   disappear. We stay until you have your product in hand.
                 </p>

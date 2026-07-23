@@ -1,10 +1,10 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy - FenoRise",
+  title: "Privacy Policy - Fenorise",
   description:
-    "FenoRise Privacy Policy. Learn how we collect, use, and protect your personal information.",
+    "Fenorise Privacy Policy. Learn how we collect, use, and protect your personal information.",
 };
 
 const sections = [
@@ -43,7 +43,7 @@ const sections = [
     content: [
       {
         subtitle: "Strict Confidentiality",
-        body: "All design files, tech packs, brand assets, and project details submitted to FenoRise are treated as strictly confidential. Upon project initiation, a mutual Non-Disclosure Agreement (NDA) is executed between FenoRise and the client. Factory partners involved in production sign separate confidentiality agreements.",
+        body: "All design files, tech packs, brand assets, and project details submitted to Fenorise are treated as strictly confidential. Upon project initiation, a mutual Non-Disclosure Agreement (NDA) is executed between Fenorise and the client. Factory partners involved in production sign separate confidentiality agreements.",
       },
       {
         subtitle: "No Third-Party Sharing",
@@ -56,7 +56,7 @@ const sections = [
     content: [
       {
         subtitle: "How We Store Your Data",
-        body: "Project files and personal information are stored on encrypted, access-controlled systems. Access to your project data is restricted to FenoRise team members and factory partners with a direct role in your order.",
+        body: "Project files and personal information are stored on encrypted, access-controlled systems. Access to your project data is restricted to Fenorise team members and factory partners with a direct role in your order.",
       },
       {
         subtitle: "Retention",
@@ -113,7 +113,7 @@ export default function PrivacyPage() {
             Last updated: July 2024 &nbsp;·&nbsp; Effective immediately
           </p>
           <p className="mt-4 text-[#6B6560] leading-relaxed max-w-2xl">
-            At FenoRise, your privacy and the security of your intellectual
+            At Fenorise, your privacy and the security of your intellectual
             property are not afterthoughts - they are foundational to how we
             operate. This policy explains how we collect, use, and protect your
             information.
