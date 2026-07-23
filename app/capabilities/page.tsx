@@ -1,4 +1,4 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import {
@@ -254,7 +254,7 @@ export default function CapabilitiesPage() {
                     <h3 className="font-display text-2xl lg:text-3xl font-medium text-[#1A1A1A] mb-3">
                       {textile.name}
                     </h3>
-                    <p className="text-sm text-[#6B6560] leading-relaxed opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <p className="text-sm text-[#6B6560] leading-relaxed">
                       {textile.desc}
                     </p>
                   </div>
