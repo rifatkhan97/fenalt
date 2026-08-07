@@ -3,27 +3,55 @@
 import Link from "next/link";
 import { useState } from "react";
 import { MapPin, Mail, Phone, ArrowRight, CheckCircle2 } from "lucide-react";
+import { useForm } from "react-hook-form";
+import { zodResolver } from "@hookform/resolvers/zod";
+import * as z from "zod";
+import { sendContactEmail } from "../actions/send-contact-email";
+
+const schema = z.object({
+  name: z.string().min(1, "Full name is required"),
+  email: z.string().email("Invalid email address"),
+  subject: z.string().min(1, "Subject is required"),
+  message: z.string().min(5, "Message must be at least 5 characters"),
+});
+
+type FormData = z.infer<typeof schema>;
 
 export default function ContactPage() {
   const [submitted, setSubmitted] = useState(false);
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    subject: "General Inquiry",
-    message: "",
+  const [serverError, setServerError] = useState<string | null>(null);
+
+  const {
+    register,
+    handleSubmit,
+    reset,
+    formState: { errors, isSubmitting },
+  } = useForm<FormData>({
+    resolver: zodResolver(schema),
+    defaultValues: {
+      name: "",
+      email: "",
+      subject: "General Inquiry",
+      message: "",
+    },
   });
 
-  const handleChange = (
-    e: React.ChangeEvent<
-      HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement
-    >
-  ) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
-  };
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    setSubmitted(true);
+  const onSubmit = async (data: FormData) => {
+    console.log("Contact form submission started", data);
+    setServerError(null);
+    try {
+      const result = await sendContactEmail(data);
+      console.log("Server response:", result);
+      if (result.error) {
+        setServerError(result.error);
+      } else if (result.success) {
+        setSubmitted(true);
+        reset();
+      }
+    } catch (err: any) {
+      console.error("Submission rejected:", err);
+      setServerError(err.message || "A network or server error occurred. Please try again.");
+    }
   };
 
   return (
@@ -133,7 +161,12 @@ export default function ContactPage() {
                   </p>
                 </div>
               ) : (
-                <form onSubmit={handleSubmit} className="space-y-6">
+                <form
+                  onSubmit={handleSubmit(onSubmit, (errors) =>
+                    console.log("Validation Errors:", errors)
+                  )}
+                  className="space-y-6"
+                >
                   {/* Full Name */}
                   <div>
                     <label
@@ -144,14 +177,14 @@ export default function ContactPage() {
                     </label>
                     <input
                       id="contact-name"
-                      name="name"
                       type="text"
-                      required
-                      value={formData.name}
-                      onChange={handleChange}
+                      {...register("name")}
                       placeholder="Jane Smith"
                       className="w-full px-4 py-3 bg-[#F2EFE9] border border-[#E5DDD3] text-sm text-[#1A1A1A] placeholder-[#6B6560] focus:outline-none focus:border-[#2D5016] transition-colors"
                     />
+                    {errors.name && (
+                      <p className="mt-1 text-xs text-red-600">{errors.name.message}</p>
+                    )}
                   </div>
 
                   {/* Email Address */}
@@ -164,14 +197,14 @@ export default function ContactPage() {
                     </label>
                     <input
                       id="contact-email"
-                      name="email"
                       type="email"
-                      required
-                      value={formData.email}
-                      onChange={handleChange}
+                      {...register("email")}
                       placeholder="jane@yourbrand.com"
                       className="w-full px-4 py-3 bg-[#F2EFE9] border border-[#E5DDD3] text-sm text-[#1A1A1A] placeholder-[#6B6560] focus:outline-none focus:border-[#2D5016] transition-colors"
                     />
+                    {errors.email && (
+                      <p className="mt-1 text-xs text-red-600">{errors.email.message}</p>
+                    )}
                   </div>
 
                   {/* Subject */}
@@ -184,9 +217,7 @@ export default function ContactPage() {
                     </label>
                     <select
                       id="contact-subject"
-                      name="subject"
-                      value={formData.subject}
-                      onChange={handleChange}
+                      {...register("subject")}
                       className="w-full px-4 py-3 bg-[#F2EFE9] border border-[#E5DDD3] text-sm text-[#1A1A1A] focus:outline-none focus:border-[#2D5016] transition-colors appearance-none cursor-pointer"
                     >
                       <option value="General Inquiry">General Inquiry</option>
@@ -194,6 +225,9 @@ export default function ContactPage() {
                       <option value="Press & Media">Press &amp; Media</option>
                       <option value="Other">Other</option>
                     </select>
+                    {errors.subject && (
+                      <p className="mt-1 text-xs text-red-600">{errors.subject.message}</p>
+                    )}
                   </div>
 
                   {/* Message */}
@@ -206,24 +240,31 @@ export default function ContactPage() {
                     </label>
                     <textarea
                       id="contact-message"
-                      name="message"
                       rows={6}
-                      required
-                      value={formData.message}
-                      onChange={handleChange}
+                      {...register("message")}
                       placeholder="How can we help you?"
                       className="w-full px-4 py-3 bg-[#F2EFE9] border border-[#E5DDD3] text-sm text-[#1A1A1A] placeholder-[#6B6560] focus:outline-none focus:border-[#2D5016] transition-colors resize-none"
                     />
+                    {errors.message && (
+                      <p className="mt-1 text-xs text-red-600">{errors.message.message}</p>
+                    )}
                   </div>
+
+                  {serverError && (
+                    <div className="p-4 bg-red-50 border border-red-200 text-red-800 text-sm font-semibold mb-4">
+                      {serverError}
+                    </div>
+                  )}
 
                   {/* Submit Button */}
                   <div className="pt-2">
                     <button
                       id="contact-submit"
                       type="submit"
-                      className="inline-flex items-center justify-center gap-2 w-full sm:w-auto px-10 py-4 bg-[#1A1A1A] text-[#FAF9F6] text-sm font-semibold tracking-wide hover:bg-[#2D5016] transition-colors duration-300"
+                      disabled={isSubmitting}
+                      className="inline-flex items-center justify-center gap-2 w-full sm:w-auto px-10 py-4 bg-[#1A1A1A] text-[#FAF9F6] text-sm font-semibold tracking-wide hover:bg-[#2D5016] transition-colors duration-300 disabled:opacity-50 disabled:cursor-not-allowed"
                     >
-                      Send Message <ArrowRight size={14} />
+                      {isSubmitting ? "Sending..." : "Send Message"} <ArrowRight size={14} />
                     </button>
                   </div>
                 </form>
