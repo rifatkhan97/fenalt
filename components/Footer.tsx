@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useState } from "react";
 import { ArrowRight, MapPin, Mail, Phone } from "lucide-react";
 
@@ -22,19 +23,14 @@ export default function Footer() {
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-12 lg:gap-8">
           {/* Brand */}
           <div className="lg:col-span-1">
-            <Link href="/" className="inline-flex items-baseline mb-6 uppercase font-sans">
-              <span className="text-2xl font-light text-[#FAF9F6] tracking-wide">
-                FEN
-              </span>
-              <span className="text-2xl font-bold text-[#FAF9F6] tracking-wide">
-                ALT
-              </span>
-              <span className="text-2xl font-bold text-[#2D5016] ml-0.5">
-                /
-              </span>
-              <span className="text-2xl font-extrabold text-[#2D5016] -ml-0.5">
-                .
-              </span>
+            <Link href="/" className="inline-block bg-white px-3 py-1.5 rounded-sm mb-6 shadow-sm border border-[#E5DDD3] hover:opacity-90 transition-opacity">
+              <Image
+                src="/logo.png"
+                alt="Fenalt Logo"
+                width={120}
+                height={28}
+                className="h-6 w-auto object-contain"
+              />
             </Link>
             <p className="text-sm text-[#C8A882] font-light leading-relaxed italic mt-2">
               Rewiring the Global Supply Chain.
