@@ -72,7 +72,7 @@ export async function sendIntakeEmail(data: IntakeInput) {
       </div>
     `;
 
-    const { data: responseData, error } = await resend.emails.send({
+    const internalEmailPromise = resend.emails.send({
       from: "Fenalt Intake <hello@fenalt.com>",
       to: "hello@fenalt.com",
       replyTo: email,
@@ -80,9 +80,47 @@ export async function sendIntakeEmail(data: IntakeInput) {
       html: htmlContent,
     });
 
-    if (error) {
-      console.error("Resend API Error:", error);
-      return { error: error.message };
+    const customerEmailPromise = resend.emails.send({
+      from: "Fenalt Intake <hello@fenalt.com>",
+      to: email,
+      subject: "We've received your project details | Fenalt",
+      html: `
+        <div style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; max-width: 600px; margin: 0 auto; border: 1px solid #E5DDD3; background-color: #FAF9F6; padding: 30px; color: #1A1A1A;">
+          <div style="border-bottom: 2px solid #2D5016; padding-bottom: 15px; margin-bottom: 20px;">
+            <h2 style="color: #2D5016; font-size: 24px; font-weight: 300; margin: 0; letter-spacing: 1px;">FENALT</h2>
+            <p style="color: #6B6560; font-size: 14px; margin: 5px 0 0 0;">Intake Confirmation</p>
+          </div>
+          
+          <p style="font-size: 16px; line-height: 1.6; color: #1A1A1A; margin-bottom: 20px;">Hi ${brandName},</p>
+          
+          <p style="font-size: 14px; line-height: 1.6; color: #1A1A1A; margin-bottom: 25px;">
+            Thank you for submitting your project details. Our team is reviewing your tech pack and estimated quantities. We typically respond within 24 to 48 business hours with an initial capability assessment and pricing strategy for your collection.
+          </p>
+          
+          <div style="border-top: 1px solid #E5DDD3; padding-top: 20px; font-size: 13px; line-height: 1.6; color: #6B6560;">
+            Best regards,<br />
+            The Fenalt Team<br />
+            Sustainable, Low-MOQ Manufacturing<br />
+            Email: hello@fenalt.com<br />
+            WhatsApp: +88 017 8134 5299<br />
+            Address: Dhaka Housing Main Road, Holding - 4, Level - 9, Dhaka - 1207, Bangladesh
+          </div>
+        </div>
+      `,
+    });
+
+    const [internalRes, customerRes] = await Promise.all([
+      internalEmailPromise,
+      customerEmailPromise,
+    ]);
+
+    if (internalRes.error) {
+      console.error("Resend API Error (Internal Alert):", internalRes.error);
+      return { error: internalRes.error.message };
+    }
+
+    if (customerRes.error) {
+      console.warn("Resend API Warning (Customer Auto-responder):", customerRes.error);
     }
 
     return { success: true };
