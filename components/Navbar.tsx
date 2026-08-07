@@ -38,9 +38,9 @@ export default function Navbar() {
               <Image
                 src="/logo.png"
                 alt="Fenalt Logo"
-                width={220}
-                height={55}
-                className="h-10 lg:h-12 w-auto object-contain"
+                width={280}
+                height={70}
+                className="h-12 lg:h-14 w-auto object-contain"
                 priority
               />
             </Link>

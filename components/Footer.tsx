@@ -23,13 +23,13 @@ export default function Footer() {
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-12 lg:gap-8">
           {/* Brand */}
           <div className="lg:col-span-1">
-            <Link href="/" className="inline-block bg-white px-5 py-2.5 rounded-sm mb-6 shadow-sm border border-[#E5DDD3] hover:opacity-90 transition-opacity">
+            <Link href="/" className="inline-block mb-6 hover:opacity-90 transition-opacity">
               <Image
-                src="/logo.png"
+                src="/logo-white.png"
                 alt="Fenalt Logo"
-                width={195}
-                height={45}
-                className="h-9 w-auto object-contain"
+                width={250}
+                height={60}
+                className="h-11 lg:h-13 w-auto object-contain"
               />
             </Link>
             <p className="text-sm text-[#C8A882] font-light leading-relaxed italic mt-2">
