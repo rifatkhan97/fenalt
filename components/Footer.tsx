@@ -23,8 +23,8 @@ export default function Footer() {
           {/* Brand */}
           <div className="lg:col-span-1">
             <Link href="/" className="inline-flex items-baseline mb-6">
-              <span className="text-2xl font-light text-[#FAF9F6] tracking-wider">FENO</span>
-              <span className="text-2xl font-bold text-[#FAF9F6] tracking-wider">RISE</span>
+              <span className="text-2xl font-light text-[#FAF9F6] tracking-wider">FEN</span>
+              <span className="text-2xl font-bold text-[#FAF9F6] tracking-wider">ALT</span>
             </Link>
             <p className="text-sm text-[#C8A882] font-light leading-relaxed italic mt-2">
               Rewiring the Global Supply Chain.
@@ -117,10 +117,10 @@ export default function Footer() {
               </p>
               <p>
                 <a
-                  href="mailto:hello@fenorise.com"
+                  href="mailto:hello@fenalt.com"
                   className="hover:text-[#C8A882] transition-colors duration-200"
                 >
-                  hello@fenorise.com
+                  hello@fenalt.com
                 </a>
               </p>
               <p>
@@ -140,7 +140,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="mt-16 pt-8 border-t border-[#2A2A2A] flex flex-col sm:flex-row justify-between items-center gap-4">
           <p className="text-xs text-[#6B6560]">
-            © {new Date().getFullYear()} Fenorise. All rights reserved.
+            © {new Date().getFullYear()} Fenalt. All rights reserved.
           </p>
           <p className="text-xs text-[#6B6560]">
             Built with purpose. Manufactured with care.

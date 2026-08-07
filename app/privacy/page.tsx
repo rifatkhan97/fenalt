@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy - Fenorise",
+  title: "Privacy Policy - Fenalt",
   description:
-    "Fenorise Privacy Policy. Learn how we collect, use, and protect your personal information.",
+    "Fenalt Privacy Policy. Learn how we collect, use, and protect your personal information.",
 };
 
 const sections = [
@@ -43,7 +43,7 @@ const sections = [
     content: [
       {
         subtitle: "Strict Confidentiality",
-        body: "All design files, tech packs, brand assets, and project details submitted to Fenorise are treated as strictly confidential. Upon project initiation, a mutual Non-Disclosure Agreement (NDA) is executed between Fenorise and the client. Factory partners involved in production sign separate confidentiality agreements.",
+        body: "All design files, tech packs, brand assets, and project details submitted to Fenalt are treated as strictly confidential. Upon project initiation, a mutual Non-Disclosure Agreement (NDA) is executed between Fenalt and the client. Factory partners involved in production sign separate confidentiality agreements.",
       },
       {
         subtitle: "No Third-Party Sharing",
@@ -56,7 +56,7 @@ const sections = [
     content: [
       {
         subtitle: "How We Store Your Data",
-        body: "Project files and personal information are stored on encrypted, access-controlled systems. Access to your project data is restricted to Fenorise team members and factory partners with a direct role in your order.",
+        body: "Project files and personal information are stored on encrypted, access-controlled systems. Access to your project data is restricted to Fenalt team members and factory partners with a direct role in your order.",
       },
       {
         subtitle: "Retention",
@@ -78,7 +78,7 @@ const sections = [
     content: [
       {
         subtitle: "Access & Deletion",
-        body: "You have the right to request access to the personal data we hold about you, request corrections, or request deletion. To exercise these rights, please contact us at privacy@fenorise.com. We will respond to all requests within 30 days.",
+        body: "You have the right to request access to the personal data we hold about you, request corrections, or request deletion. To exercise these rights, please contact us at privacy@fenalt.com. We will respond to all requests within 30 days.",
       },
       {
         subtitle: "Marketing Opt-Out",
@@ -113,7 +113,7 @@ export default function PrivacyPage() {
             Last updated: July 2024 &nbsp;·&nbsp; Effective immediately
           </p>
           <p className="mt-4 text-[#6B6560] leading-relaxed max-w-2xl">
-            At Fenorise, your privacy and the security of your intellectual
+            At Fenalt, your privacy and the security of your intellectual
             property are not afterthoughts - they are foundational to how we
             operate. This policy explains how we collect, use, and protect your
             information.
@@ -156,10 +156,10 @@ export default function PrivacyPage() {
               Privacy Policy, please contact our team directly.
             </p>
             <a
-              href="mailto:privacy@fenorise.com"
+              href="mailto:privacy@fenalt.com"
               className="inline-flex items-center gap-2 px-6 py-3 bg-[#1A1A1A] text-[#FAF9F6] text-sm font-semibold tracking-wide hover:bg-[#2D5016] transition-colors duration-300"
             >
-              privacy@fenorise.com
+              privacy@fenalt.com
             </a>
           </div>
 

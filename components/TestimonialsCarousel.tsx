@@ -6,12 +6,12 @@ import { Quote } from "lucide-react";
 const testimonials = [
   {
     quote:
-      "Fenorise took the fear out of overseas manufacturing. They managed the entire process and delivered a sustainable capsule that exceeded our expectations.",
+      "Fenalt took the fear out of overseas manufacturing. They managed the entire process and delivered a sustainable capsule that exceeded our expectations.",
     author: "INDEPENDENT STUDIO",
   },
   {
     quote:
-      "Finding a reliable partner for a 150-unit drop using deadstock fabric felt impossible. Fenorise executed it flawlessly, and the traceability report was a massive win for our marketing.",
+      "Finding a reliable partner for a 150-unit drop using deadstock fabric felt impossible. Fenalt executed it flawlessly, and the traceability report was a massive win for our marketing.",
     author: "EMERGING LONDON LABEL",
   },
   {

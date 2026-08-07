@@ -18,9 +18,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Fenorise - Sustainable, Low-MOQ Manufacturing. Fully Managed.",
+  title: "Fenalt - Sustainable, Low-MOQ Manufacturing. Fully Managed.",
   description:
-    "Fenorise connects independent fashion brands with highly capable, ethical micro-factories. Launch your collection using sustainable circular fabrics, with zero communication barriers and fully managed quality control.",
+    "Fenalt connects independent fashion brands with highly capable, ethical micro-factories. Launch your collection using sustainable circular fabrics, with zero communication barriers and fully managed quality control.",
   keywords:
     "sustainable manufacturing, micro-factory, low MOQ, ethical fashion, circular fabrics, deadstock, B2B fashion supply chain",
   icons: {
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     apple: "/apple-icon.png",
   },
   openGraph: {
-    title: "Fenorise - Rewiring the Global Supply Chain",
+    title: "Fenalt - Rewiring the Global Supply Chain",
     description:
       "Sustainable, Low-MOQ Manufacturing. Fully Managed. Ethical micro-factories, circular fabrics, zero friction.",
     type: "website",

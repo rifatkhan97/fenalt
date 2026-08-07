@@ -5,7 +5,7 @@ import { MessageSquare, Leaf, Heart, ArrowRight } from "lucide-react";
 import TestimonialsCarousel from "@/components/TestimonialsCarousel";
 
 export const metadata: Metadata = {
-  title: "Fenorise - Sustainable, Low-MOQ Manufacturing. Fully Managed.",
+  title: "Fenalt - Sustainable, Low-MOQ Manufacturing. Fully Managed.",
   description:
     "We connect independent fashion brands with ethical micro-factories. Sustainable circular fabrics, zero communication barriers, fully managed quality control.",
 };
@@ -118,15 +118,15 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ─── Section 2: The Fenorise Advantage ──────────────── */}
+      {/* ─── Section 2: The Fenalt Advantage ──────────────── */}
       <section className="py-24 lg:py-32 bg-[#FAF9F6]">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="mb-16">
             <p className="text-xs font-semibold uppercase tracking-[0.25em] text-[#C8A882] mb-4">
-              Why Fenorise
+              Why Fenalt
             </p>
             <h2 className="font-display text-4xl lg:text-6xl font-light text-[#1A1A1A]">
-              The Fenorise Advantage
+              The Fenalt Advantage
             </h2>
           </div>
 

@@ -5,9 +5,9 @@ import { ArrowRight } from "lucide-react";
 import MissionNewsletter from "@/components/MissionNewsletter";
 
 export const metadata: Metadata = {
-  title: "Our Mission - Fenorise",
+  title: "Our Mission - Fenalt",
   description:
-    "Rewiring the Global Supply Chain. Fenorise connects ethical micro-factories with global fashion brands through the circular Jhoot economy.",
+    "Rewiring the Global Supply Chain. Fenalt connects ethical micro-factories with global fashion brands through the circular Jhoot economy.",
 };
 
 export default function MissionPage() {
@@ -54,7 +54,7 @@ export default function MissionPage() {
           <div className="flex items-center gap-6 mt-16">
             <div className="h-px flex-1 bg-[#2A2A2A]" />
             <span className="text-xs text-[#6B6560] uppercase tracking-widest">
-              Fenorise, 2026
+              Fenalt, 2026
             </span>
             <div className="h-px flex-1 bg-[#2A2A2A]" />
           </div>
@@ -139,7 +139,7 @@ export default function MissionPage() {
           </h2>
           <div className="max-w-3xl mx-auto">
             <p className="text-xl lg:text-2xl text-[#E5DDD3] leading-relaxed font-light">
-              Fenorise is the{" "}
+              Fenalt is the{" "}
               <span className="text-[#C8A882] italic font-medium">
                 operational bridge.
               </span>{" "}
@@ -239,10 +239,10 @@ export default function MissionPage() {
               </h2>
               <div className="text-[#6B6560] text-base lg:text-lg leading-relaxed">
                 <p>
-                  Fenorise is a deeply personal mission. It began in 2017 on the apparel side, experiencing firsthand how incredibly difficult it is for an independent clothing line to find reliable makers and ensure consistent quality. But spending years on the factory floors of Bangladesh revealed the other side of the equation. We listened to highly skilled micro-factory operators who took a massive leap of faith to start their own businesses, only to watch them close. Their dreams shattered not from a lack of talent, but because they simply couldn&apos;t secure enough work orders at a fair price.
+                  Fenalt is a deeply personal mission. It began in 2017 on the apparel side, experiencing firsthand how incredibly difficult it is for an independent clothing line to find reliable makers and ensure consistent quality. But spending years on the factory floors of Bangladesh revealed the other side of the equation. We listened to highly skilled micro-factory operators who took a massive leap of faith to start their own businesses, only to watch them close. Their dreams shattered not from a lack of talent, but because they simply couldn&apos;t secure enough work orders at a fair price.
                 </p>
                 <p className="mt-4">
-                  Fenorise was built to bridge this exact gap. Combining deep on-the-ground manufacturing experience with modern operational infrastructure, our specialized team is here to solve both problems. We exist to give independent brands the reliable quality they need to grow, while ensuring local makers get the fair pricing and consistent access they need to see their own dreams come true.
+                  Fenalt was built to bridge this exact gap. Combining deep on-the-ground manufacturing experience with modern operational infrastructure, our specialized team is here to solve both problems. We exist to give independent brands the reliable quality they need to grow, while ensuring local makers get the fair pricing and consistent access they need to see their own dreams come true.
                 </p>
                 <p className="mt-6 font-display text-base lg:text-lg italic text-[#C8A882]">
                   —{" "}
@@ -254,7 +254,7 @@ export default function MissionPage() {
                   >
                     Rifat
                   </a>{" "}
-                  &amp; the Fenorise Team
+                  &amp; the Fenalt Team
                 </p>
               </div>
             </div>
@@ -297,7 +297,7 @@ export default function MissionPage() {
               Start a Project <ArrowRight size={14} />
             </Link>
             <a
-              href="mailto:hello@fenorise.com"
+              href="mailto:hello@fenalt.com"
               className="inline-flex items-center justify-center gap-2 px-8 py-4 border border-[#1A1A1A] text-[#1A1A1A] text-sm font-semibold tracking-wide hover:bg-[#1A1A1A] hover:text-[#FAF9F6] transition-colors duration-300"
             >
               Join Our Network

@@ -347,7 +347,7 @@ export default function IntakePage() {
         </div>
       </section>
 
-      {/* ─── Section 4: The Fenorise Guarantee ───────────────── */}
+      {/* ─── Section 4: The Fenalt Guarantee ───────────────── */}
       <section className="py-24 lg:py-32 bg-[#F2EFE9]">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="text-center mb-16">
@@ -355,7 +355,7 @@ export default function IntakePage() {
               Our Commitment
             </p>
             <h2 className="font-display text-4xl lg:text-6xl font-light text-[#1A1A1A]">
-              The Fenorise Guarantee
+              The Fenalt Guarantee
             </h2>
           </div>
 
@@ -444,16 +444,16 @@ export default function IntakePage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="mailto:hello@fenorise.com"
+              href="mailto:hello@fenalt.com"
               className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-[#1A1A1A] text-[#FAF9F6] text-sm font-semibold tracking-wide hover:bg-[#2D5016] transition-colors duration-300"
             >
-              hello@fenorise.com
+              hello@fenalt.com
             </a>
             <a
-              href="mailto:press@fenorise.com"
+              href="mailto:press@fenalt.com"
               className="inline-flex items-center justify-center gap-2 px-8 py-4 border border-[#1A1A1A] text-[#1A1A1A] text-sm font-semibold tracking-wide hover:bg-[#1A1A1A] hover:text-[#FAF9F6] transition-colors duration-300"
             >
-              press@fenorise.com
+              press@fenalt.com
             </a>
           </div>
         </div>

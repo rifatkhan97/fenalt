@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Terms of Service - Fenorise",
+  title: "Terms of Service - Fenalt",
   description:
-    "Fenorise Terms of Service. Understand the agreement governing the use of our manufacturing platform and services.",
+    "Fenalt Terms of Service. Understand the agreement governing the use of our manufacturing platform and services.",
 };
 
 const sections = [
@@ -13,11 +13,11 @@ const sections = [
     content: [
       {
         subtitle: "Agreement",
-        body: "By accessing the Fenorise website, submitting a project intake form, or engaging Fenorise for any manufacturing or sourcing service, you confirm that you have read, understood, and agree to be bound by these Terms of Service and our Privacy Policy. If you do not agree, please do not use our services.",
+        body: "By accessing the Fenalt website, submitting a project intake form, or engaging Fenalt for any manufacturing or sourcing service, you confirm that you have read, understood, and agree to be bound by these Terms of Service and our Privacy Policy. If you do not agree, please do not use our services.",
       },
       {
         subtitle: "Eligibility",
-        body: "Our services are intended for businesses and professional brand operators. By engaging Fenorise, you represent that you are operating on behalf of a business entity and have the authority to enter into legally binding agreements.",
+        body: "Our services are intended for businesses and professional brand operators. By engaging Fenalt, you represent that you are operating on behalf of a business entity and have the authority to enter into legally binding agreements.",
       },
     ],
   },
@@ -26,11 +26,11 @@ const sections = [
     content: [
       {
         subtitle: "Scope of Services",
-        body: "Fenorise provides supply chain facilitation services, including but not limited to: factory matching and liaison, sample development coordination, production management, in-line and final quality control audits, and international freight coordination. The specific scope of services for your project is defined in your individual project agreement and quote.",
+        body: "Fenalt provides supply chain facilitation services, including but not limited to: factory matching and liaison, sample development coordination, production management, in-line and final quality control audits, and international freight coordination. The specific scope of services for your project is defined in your individual project agreement and quote.",
       },
       {
         subtitle: "Service Modifications",
-        body: "Fenorise reserves the right to modify, suspend, or discontinue any aspect of its services at any time. We will provide reasonable notice of any material changes that affect active projects.",
+        body: "Fenalt reserves the right to modify, suspend, or discontinue any aspect of its services at any time. We will provide reasonable notice of any material changes that affect active projects.",
       },
     ],
   },
@@ -39,7 +39,7 @@ const sections = [
     content: [
       {
         subtitle: "Quote Validity",
-        body: "All quotes issued by Fenorise are valid for 14 calendar days from the date of issue unless otherwise stated. Quotes are subject to revision if project specifications change materially after the quote is issued.",
+        body: "All quotes issued by Fenalt are valid for 14 calendar days from the date of issue unless otherwise stated. Quotes are subject to revision if project specifications change materially after the quote is issued.",
       },
       {
         subtitle: "Project Confirmation",
@@ -47,7 +47,7 @@ const sections = [
       },
       {
         subtitle: "Changes to Confirmed Orders",
-        body: "Design or specification changes to a confirmed order may incur additional costs and affect lead times. Any changes must be submitted in writing and are subject to Fenorise approval and revised pricing. Fenorise cannot be held responsible for delays or defects resulting from client-initiated mid-production changes.",
+        body: "Design or specification changes to a confirmed order may incur additional costs and affect lead times. Any changes must be submitted in writing and are subject to Fenalt approval and revised pricing. Fenalt cannot be held responsible for delays or defects resulting from client-initiated mid-production changes.",
       },
     ],
   },
@@ -60,7 +60,7 @@ const sections = [
       },
       {
         subtitle: "Late Payments",
-        body: "Payments not received by the due date may result in production delays. Fenorise reserves the right to suspend or cancel production for orders with overdue balances, without liability for resulting delays.",
+        body: "Payments not received by the due date may result in production delays. Fenalt reserves the right to suspend or cancel production for orders with overdue balances, without liability for resulting delays.",
       },
       {
         subtitle: "Currency",
@@ -73,15 +73,15 @@ const sections = [
     content: [
       {
         subtitle: "Client Ownership",
-        body: "All designs, tech packs, and brand assets submitted by the client remain the exclusive intellectual property of the client. Fenorise claims no ownership over client-submitted creative works.",
+        body: "All designs, tech packs, and brand assets submitted by the client remain the exclusive intellectual property of the client. Fenalt claims no ownership over client-submitted creative works.",
       },
       {
         subtitle: "Confidentiality",
-        body: "Fenorise will not reproduce, distribute, display, or share client designs beyond what is strictly required to fulfil the agreed project scope. All factory partners are bound by confidentiality agreements before accessing client files.",
+        body: "Fenalt will not reproduce, distribute, display, or share client designs beyond what is strictly required to fulfil the agreed project scope. All factory partners are bound by confidentiality agreements before accessing client files.",
       },
       {
-        subtitle: "Fenorise Materials",
-        body: "All content on the Fenorise website - including text, graphics, logos, and processes - is the intellectual property of Fenorise and may not be copied, reproduced, or distributed without prior written consent.",
+        subtitle: "Fenalt Materials",
+        body: "All content on the Fenalt website - including text, graphics, logos, and processes - is the intellectual property of Fenalt and may not be copied, reproduced, or distributed without prior written consent.",
       },
     ],
   },
@@ -90,15 +90,15 @@ const sections = [
     content: [
       {
         subtitle: "QC Standard",
-        body: "Fenorise performs in-line and final quality control inspections in accordance with ANSI/ASQ Z1.4 AQL standards. Our guarantee covers defects that fall outside the agreed AQL tolerance threshold.",
+        body: "Fenalt performs in-line and final quality control inspections in accordance with ANSI/ASQ Z1.4 AQL standards. Our guarantee covers defects that fall outside the agreed AQL tolerance threshold.",
       },
       {
         subtitle: "Defect Resolution",
-        body: "If delivered units contain defects exceeding the agreed AQL tolerance, Fenorise will coordinate replacement production at no additional cost to the client. The client must notify Fenorise of any defects within 14 days of delivery with photographic evidence.",
+        body: "If delivered units contain defects exceeding the agreed AQL tolerance, Fenalt will coordinate replacement production at no additional cost to the client. The client must notify Fenalt of any defects within 14 days of delivery with photographic evidence.",
       },
       {
         subtitle: "Limitations",
-        body: "Fenorise is not liable for defects arising from client-provided materials, client-approved samples, or design specifications that were approved prior to production. Subjective aesthetic preferences that were not documented in the original tech pack are not covered by our defect policy.",
+        body: "Fenalt is not liable for defects arising from client-provided materials, client-approved samples, or design specifications that were approved prior to production. Subjective aesthetic preferences that were not documented in the original tech pack are not covered by our defect policy.",
       },
     ],
   },
@@ -107,11 +107,11 @@ const sections = [
     content: [
       {
         subtitle: "Lead Times",
-        body: "All lead times quoted by Fenorise are estimates based on current factory capacity and standard logistics timelines. Fenorise shall not be liable for delays caused by force majeure events, customs clearance complications, carrier delays, or circumstances outside our reasonable control.",
+        body: "All lead times quoted by Fenalt are estimates based on current factory capacity and standard logistics timelines. Fenalt shall not be liable for delays caused by force majeure events, customs clearance complications, carrier delays, or circumstances outside our reasonable control.",
       },
       {
         subtitle: "Risk of Loss",
-        body: "Risk of loss or damage transfers to the client at the point defined by the agreed incoterm (DDP or FOB) in the project agreement. Fenorise recommends that clients arrange cargo insurance for all shipments.",
+        body: "Risk of loss or damage transfers to the client at the point defined by the agreed incoterm (DDP or FOB) in the project agreement. Fenalt recommends that clients arrange cargo insurance for all shipments.",
       },
     ],
   },
@@ -120,11 +120,11 @@ const sections = [
     content: [
       {
         subtitle: "Liability Cap",
-        body: "To the maximum extent permitted by applicable law, Fenorise's total liability to any client for any claim arising from our services shall not exceed the total amount paid by that client for the specific project giving rise to the claim.",
+        body: "To the maximum extent permitted by applicable law, Fenalt's total liability to any client for any claim arising from our services shall not exceed the total amount paid by that client for the specific project giving rise to the claim.",
       },
       {
         subtitle: "Consequential Damages",
-        body: "Fenorise shall not be liable for any indirect, incidental, special, or consequential damages, including but not limited to lost profits, lost revenue, brand damage, or business interruption, even if Fenorise has been advised of the possibility of such damages.",
+        body: "Fenalt shall not be liable for any indirect, incidental, special, or consequential damages, including but not limited to lost profits, lost revenue, brand damage, or business interruption, even if Fenalt has been advised of the possibility of such damages.",
       },
     ],
   },
@@ -142,7 +142,7 @@ const sections = [
     content: [
       {
         subtitle: "Updates",
-        body: "Fenorise reserves the right to update these Terms of Service at any time. Material changes will be communicated to active clients via email. Continued use of our services following notification of changes constitutes acceptance of the revised terms.",
+        body: "Fenalt reserves the right to update these Terms of Service at any time. Material changes will be communicated to active clients via email. Continued use of our services following notification of changes constitutes acceptance of the revised terms.",
       },
     ],
   },
@@ -164,7 +164,7 @@ export default function TermsPage() {
             Last updated: July 2024 &nbsp;·&nbsp; Effective immediately
           </p>
           <p className="mt-4 text-[#E5DDD3] leading-relaxed max-w-2xl">
-            These Terms of Service govern your use of the Fenorise platform and
+            These Terms of Service govern your use of the Fenalt platform and
             manufacturing services. Please read them carefully. By engaging our
             services, you agree to these terms in full.
           </p>
@@ -242,10 +242,10 @@ export default function TermsPage() {
               a project. We&apos;re committed to full transparency.
             </p>
             <a
-              href="mailto:legal@fenorise.com"
+              href="mailto:legal@fenalt.com"
               className="inline-flex items-center gap-2 px-6 py-3 bg-[#C8A882] text-[#1A1A1A] text-sm font-semibold tracking-wide hover:bg-[#FAF9F6] transition-colors duration-300"
             >
-              legal@fenorise.com
+              legal@fenalt.com
             </a>
           </div>
 

@@ -35,10 +35,10 @@ export default function Navbar() {
             {/* Logo */}
             <Link href="/" className="flex items-center group">
               <span className="text-xl lg:text-2xl font-light text-[#1A1A1A] tracking-wider group-hover:opacity-80 transition-opacity">
-                FENO
+                FEN
               </span>
               <span className="text-xl lg:text-2xl font-bold text-[#1A1A1A] tracking-wider group-hover:opacity-80 transition-opacity">
-                RISE
+                ALT
               </span>
             </Link>
 

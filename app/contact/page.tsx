@@ -84,10 +84,10 @@ export default function ContactPage() {
                       Direct Email
                     </h3>
                     <a
-                      href="mailto:hello@fenorise.com"
+                      href="mailto:hello@fenalt.com"
                       className="text-sm text-[#1A1A1A] hover:text-[#2D5016] transition-colors"
                     >
-                      hello@fenorise.com
+                      hello@fenalt.com
                     </a>
                   </div>
                 </div>

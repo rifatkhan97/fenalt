@@ -14,9 +14,9 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Capabilities - Fenorise Manufacturing Solutions",
+  title: "Capabilities - Fenalt Manufacturing Solutions",
   description:
-    "Explore Fenorise's tailored manufacturing solutions: sample development, low-MOQ capsule runs, and scaling production with full quality management.",
+    "Explore Fenalt's tailored manufacturing solutions: sample development, low-MOQ capsule runs, and scaling production with full quality management.",
 };
 
 const bookingOptions = [
@@ -117,7 +117,7 @@ export default function CapabilitiesPage() {
           </h1>
           <p className="mt-8 text-lg text-[#6B6560] max-w-2xl leading-relaxed">
             From your first prototype to scaling runs of thousands - every
-            capability at Fenorise is designed to remove friction, maintain
+            capability at Fenalt is designed to remove friction, maintain
             quality, and protect your brand.
           </p>
         </div>
@@ -414,7 +414,7 @@ export default function CapabilitiesPage() {
             </h2>
             <div className="space-y-6 text-[#6B6560] leading-relaxed text-lg">
               <p>
-                Every quote from Fenorise is a{" "}
+                Every quote from Fenalt is a{" "}
                 <strong className="text-[#1A1A1A] font-semibold">
                   fully landed price
                 </strong>
