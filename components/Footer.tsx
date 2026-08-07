@@ -23,8 +23,15 @@ export default function Footer() {
           {/* Brand */}
           <div className="lg:col-span-1">
             <Link href="/" className="inline-flex items-baseline mb-6">
-              <span className="text-2xl font-light text-[#FAF9F6] tracking-wider">FEN</span>
-              <span className="text-2xl font-bold text-[#FAF9F6] tracking-wider">ALT</span>
+              <span className="text-2xl font-bold text-[#FAF9F6] tracking-wide uppercase font-sans">
+                FENALT
+              </span>
+              <span className="text-2xl font-medium text-[#2D5016] ml-1">
+                /
+              </span>
+              <span className="text-2xl font-extrabold text-[#2D5016] -ml-0.5">
+                .
+              </span>
             </Link>
             <p className="text-sm text-[#C8A882] font-light leading-relaxed italic mt-2">
               Rewiring the Global Supply Chain.

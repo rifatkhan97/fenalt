@@ -26,8 +26,8 @@ export const metadata: Metadata = {
   keywords:
     "sustainable manufacturing, micro-factory, low MOQ, ethical fashion, circular fabrics, deadstock, B2B fashion supply chain",
   icons: {
-    icon: "/icon.png?v=2",
-    apple: "/apple-icon.png?v=2",
+    icon: "/icon.png?v=3",
+    apple: "/apple-icon.png?v=3",
   },
   openGraph: {
     title: "Fenalt - Sustainable B2B Apparel Manufacturing Platform",
