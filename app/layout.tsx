@@ -40,8 +40,37 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Fenalt",
+    "description": "Sustainable B2B apparel manufacturing platform.",
+    "url": "https://fenalt.com",
+    "logo": "https://fenalt.com/icon.png",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Dhaka Housing Main Road, Holding - 4, Level - 9",
+      "addressLocality": "Dhaka",
+      "postalCode": "1207",
+      "addressCountry": "BD"
+    },
+    "email": "hello@fenalt.com",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+8801781345299",
+      "contactType": "customer service",
+      "availableLanguage": ["en", "bn"]
+    }
+  };
+
   return (
     <html lang="en" className={`${cormorant.variable} ${inter.variable}`}>
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+      </head>
       <body className="bg-[#FAF9F6] text-[#1A1A1A] font-sans antialiased">
         <Navbar />
         <main>{children}</main>

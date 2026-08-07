@@ -5,9 +5,9 @@ import { ArrowRight } from "lucide-react";
 import MissionNewsletter from "@/components/MissionNewsletter";
 
 export const metadata: Metadata = {
-  title: "Our Mission - Fenalt",
+  title: "Our Mission: Ethical & Circular Fashion Supply Chain | Fenalt",
   description:
-    "Rewiring the Global Supply Chain. Fenalt connects ethical micro-factories with global fashion brands through the circular Jhoot economy.",
+    "Learn about Fenalt's mission to rewire the global apparel supply chain. By connecting independent brands with ethical micro-factories, we facilitate a sustainable, circular economy using recycled fabrics.",
 };
 
 export default function MissionPage() {
@@ -22,7 +22,7 @@ export default function MissionPage() {
           </p>
           <h1 className="font-display text-5xl lg:text-8xl font-light text-[#1A1A1A] leading-[1.05] max-w-5xl">
             Rewiring the{" "}
-            <span className="italic font-medium text-[#2D5016]">Global</span>{" "}
+            <span className="italic font-medium text-[#2D5016]">Apparel</span>{" "}
             Supply Chain.
           </h1>
           <div className="mt-10 h-px max-w-sm bg-[#C8A882]" />

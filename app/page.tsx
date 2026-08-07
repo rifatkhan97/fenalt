@@ -5,9 +5,9 @@ import { MessageSquare, Leaf, Heart, ArrowRight } from "lucide-react";
 import TestimonialsCarousel from "@/components/TestimonialsCarousel";
 
 export const metadata: Metadata = {
-  title: "Fenalt - Sustainable, Low-MOQ Manufacturing. Fully Managed.",
+  title: "Fenalt | Sustainable Low-MOQ Apparel Manufacturing (Fully Managed)",
   description:
-    "We connect independent fashion brands with ethical micro-factories. Sustainable circular fabrics, zero communication barriers, fully managed quality control.",
+    "Fenalt is a premium B2B clothing manufacturing platform connecting fashion brands with ethical micro-factories. Source with low MOQ, zero communication barriers, circular fabrics, and fully managed on-site quality control.",
 };
 
 const advantages = [
@@ -79,8 +79,8 @@ export default function HomePage() {
           <h1 className="font-display text-5xl sm:text-6xl lg:text-8xl font-light text-[#1A1A1A] leading-[1.05] max-w-4xl mb-8 animate-fade-in-up delay-100">
             Sustainable,{" "}
             <span className="italic font-medium">Low-MOQ</span>{" "}
-            Manufacturing.{" "}
-            <span className="text-[#2D5016]">Fully Managed.</span>
+            Apparel Manufacturing by{" "}
+            <span className="text-[#2D5016]">Fenalt.</span>
           </h1>
 
           {/* Subheadline */}

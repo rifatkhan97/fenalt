@@ -14,9 +14,9 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Capabilities - Fenalt Manufacturing Solutions",
+  title: "B2B Apparel Manufacturing & Sourcing Capabilities | Fenalt",
   description:
-    "Explore Fenalt's tailored manufacturing solutions: sample development, low-MOQ capsule runs, and scaling production with full quality management.",
+    "Discover Fenalt's end-to-end B2B garment manufacturing capabilities. We offer professional sample development, low-MOQ capsule runs, custom finishing, and scaling production with on-site quality control.",
 };
 
 const bookingOptions = [
@@ -109,11 +109,11 @@ export default function CapabilitiesPage() {
             What We Offer
           </p>
           <h1 className="font-display text-5xl lg:text-8xl font-light text-[#1A1A1A] leading-[1.05] max-w-4xl">
-            Tailored{" "}
+            Tailored B2B{" "}
             <span className="italic font-medium text-[#2D5016]">
-              Manufacturing
+              Garment Sourcing
             </span>{" "}
-            Solutions.
+            &amp; Production.
           </h1>
           <p className="mt-8 text-lg text-[#6B6560] max-w-2xl leading-relaxed">
             From your first prototype to scaling runs of thousands - every
