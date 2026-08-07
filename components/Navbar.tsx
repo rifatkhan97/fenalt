@@ -33,11 +33,14 @@ export default function Navbar() {
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="flex items-center justify-between h-16 lg:h-20">
             {/* Logo */}
-            <Link href="/" className="flex items-center group">
-              <span className="text-xl lg:text-2xl font-bold text-[#1A1A1A] tracking-wide group-hover:opacity-80 transition-opacity uppercase font-sans">
-                FENALT
+            <Link href="/" className="flex items-center group uppercase font-sans">
+              <span className="text-xl lg:text-2xl font-light text-[#1A1A1A] tracking-wide group-hover:opacity-80 transition-opacity">
+                FEN
               </span>
-              <span className="text-xl lg:text-2xl font-medium text-[#2D5016] group-hover:opacity-80 transition-opacity ml-1">
+              <span className="text-xl lg:text-2xl font-bold text-[#1A1A1A] tracking-wide group-hover:opacity-80 transition-opacity">
+                ALT
+              </span>
+              <span className="text-xl lg:text-2xl font-bold text-[#2D5016] group-hover:opacity-80 transition-opacity ml-0.5">
                 /
               </span>
               <span className="text-xl lg:text-2xl font-extrabold text-[#2D5016] group-hover:opacity-80 transition-opacity -ml-0.5">

@@ -22,11 +22,14 @@ export default function Footer() {
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-12 lg:gap-8">
           {/* Brand */}
           <div className="lg:col-span-1">
-            <Link href="/" className="inline-flex items-baseline mb-6">
-              <span className="text-2xl font-bold text-[#FAF9F6] tracking-wide uppercase font-sans">
-                FENALT
+            <Link href="/" className="inline-flex items-baseline mb-6 uppercase font-sans">
+              <span className="text-2xl font-light text-[#FAF9F6] tracking-wide">
+                FEN
               </span>
-              <span className="text-2xl font-medium text-[#2D5016] ml-1">
+              <span className="text-2xl font-bold text-[#FAF9F6] tracking-wide">
+                ALT
+              </span>
+              <span className="text-2xl font-bold text-[#2D5016] ml-0.5">
                 /
               </span>
               <span className="text-2xl font-extrabold text-[#2D5016] -ml-0.5">
