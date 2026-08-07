@@ -19,6 +19,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://fenalt.com"),
   title: "Fenalt - Sustainable, Low-MOQ Manufacturing. Fully Managed.",
   description:
     "Fenalt connects independent fashion brands with highly capable, ethical micro-factories. Launch your collection using sustainable circular fabrics, with zero communication barriers and fully managed quality control.",
@@ -29,10 +30,28 @@ export const metadata: Metadata = {
     apple: "/apple-icon.png?v=2",
   },
   openGraph: {
-    title: "Fenalt - Rewiring the Global Supply Chain",
+    title: "Fenalt - Sustainable B2B Apparel Manufacturing Platform",
     description:
-      "Sustainable, Low-MOQ Manufacturing. Fully Managed. Ethical micro-factories, circular fabrics, zero friction.",
+      "Connect with ethical micro-factories. Launch clothing collections with low MOQs, circular fabrics, and fully managed quality control.",
+    url: "https://fenalt.com",
+    siteName: "Fenalt",
+    locale: "en_US",
     type: "website",
+    images: [
+      {
+        url: "/opengraph-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Fenalt - Sustainable B2B Apparel Manufacturing Platform",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Fenalt - Sustainable B2B Apparel Manufacturing Platform",
+    description:
+      "Connect with ethical micro-factories. Launch clothing collections with low MOQs, circular fabrics, and fully managed quality control.",
+    images: ["/opengraph-image.png"],
   },
 };
 

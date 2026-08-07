@@ -17,6 +17,12 @@ export const metadata: Metadata = {
   title: "B2B Apparel Manufacturing & Sourcing Capabilities | Fenalt",
   description:
     "Discover Fenalt's end-to-end B2B garment manufacturing capabilities. We offer professional sample development, low-MOQ capsule runs, custom finishing, and scaling production with on-site quality control.",
+  openGraph: {
+    title: "B2B Apparel Manufacturing & Sourcing Capabilities | Fenalt",
+    description:
+      "Discover Fenalt's end-to-end B2B garment manufacturing capabilities. We offer professional sample development, low-MOQ capsule runs, custom finishing, and scaling production with on-site quality control.",
+    url: "https://fenalt.com/capabilities",
+  },
 };
 
 const bookingOptions = [

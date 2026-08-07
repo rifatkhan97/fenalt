@@ -8,6 +8,12 @@ export const metadata: Metadata = {
   title: "Our Mission: Ethical & Circular Fashion Supply Chain | Fenalt",
   description:
     "Learn about Fenalt's mission to rewire the global apparel supply chain. By connecting independent brands with ethical micro-factories, we facilitate a sustainable, circular economy using recycled fabrics.",
+  openGraph: {
+    title: "Our Mission: Ethical & Circular Fashion Supply Chain | Fenalt",
+    description:
+      "Learn about Fenalt's mission to rewire the global apparel supply chain. By connecting independent brands with ethical micro-factories, we facilitate a sustainable, circular economy using recycled fabrics.",
+    url: "https://fenalt.com/mission",
+  },
 };
 
 export default function MissionPage() {
