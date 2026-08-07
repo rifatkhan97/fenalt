@@ -1,6 +1,10 @@
 "use client";
 
 import { useState } from "react";
+import { useForm } from "react-hook-form";
+import { zodResolver } from "@hookform/resolvers/zod";
+import * as z from "zod";
+import { sendIntakeEmail } from "../actions/send-email";
 import {
   Shield,
   CheckCircle2,
@@ -11,6 +15,17 @@ import {
   Layers,
   Package,
 } from "lucide-react";
+
+const schema = z.object({
+  name: z.string().min(1, "Full name is required"),
+  brandName: z.string().min(1, "Brand name is required"),
+  email: z.string().email("Invalid email address"),
+  category: z.string().min(1, "Garment category is required"),
+  units: z.string().min(1, "Estimated units is required"),
+  description: z.string().min(10, "Project description must be at least 10 characters"),
+});
+
+type FormData = z.infer<typeof schema>;
 
 const categories = [
   "T-Shirts & Tops",
@@ -70,26 +85,34 @@ const faqItems = [
 export default function IntakePage() {
   const [openFaq, setOpenFaq] = useState<number | null>(null);
   const [submitted, setSubmitted] = useState(false);
-  const [formData, setFormData] = useState({
-    name: "",
-    brandName: "",
-    email: "",
-    category: "",
-    units: "",
-    description: "",
+  const [submitError, setSubmitError] = useState<string | null>(null);
+
+  const {
+    register,
+    handleSubmit,
+    reset,
+    formState: { errors, isSubmitting },
+  } = useForm<FormData>({
+    resolver: zodResolver(schema),
+    defaultValues: {
+      name: "",
+      brandName: "",
+      email: "",
+      category: "",
+      units: "",
+      description: "",
+    },
   });
 
-  const handleChange = (
-    e: React.ChangeEvent<
-      HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement
-    >
-  ) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
-  };
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    setSubmitted(true);
+  const onSubmit = async (data: FormData) => {
+    setSubmitError(null);
+    const result = await sendIntakeEmail(data);
+    if (result.error) {
+      setSubmitError(result.error);
+    } else if (result.success) {
+      setSubmitted(true);
+      reset();
+    }
   };
 
   return (
@@ -193,7 +216,13 @@ export default function IntakePage() {
               <h2 className="font-display text-3xl font-light text-[#1A1A1A] mb-8">
                 Project Details
               </h2>
-              <form onSubmit={handleSubmit} className="space-y-6">
+              <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
+                {submitError && (
+                  <div className="p-4 bg-red-50 border border-red-200 text-red-800 text-sm">
+                    {submitError}
+                  </div>
+                )}
+
                 {/* Row 1: Name + Brand */}
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                   <div>
@@ -205,14 +234,14 @@ export default function IntakePage() {
                     </label>
                     <input
                       id="name"
-                      name="name"
                       type="text"
-                      required
-                      value={formData.name}
-                      onChange={handleChange}
+                      {...register("name")}
                       placeholder="Jane Smith"
                       className="w-full px-4 py-3 bg-[#F2EFE9] border border-[#E5DDD3] text-sm text-[#1A1A1A] placeholder-[#6B6560] focus:outline-none focus:border-[#2D5016] transition-colors"
                     />
+                    {errors.name && (
+                      <p className="mt-1 text-xs text-red-600">{errors.name.message}</p>
+                    )}
                   </div>
                   <div>
                     <label
@@ -223,14 +252,14 @@ export default function IntakePage() {
                     </label>
                     <input
                       id="brandName"
-                      name="brandName"
                       type="text"
-                      required
-                      value={formData.brandName}
-                      onChange={handleChange}
+                      {...register("brandName")}
                       placeholder="Your Brand"
                       className="w-full px-4 py-3 bg-[#F2EFE9] border border-[#E5DDD3] text-sm text-[#1A1A1A] placeholder-[#6B6560] focus:outline-none focus:border-[#2D5016] transition-colors"
                     />
+                    {errors.brandName && (
+                      <p className="mt-1 text-xs text-red-600">{errors.brandName.message}</p>
+                    )}
                   </div>
                 </div>
 
@@ -244,14 +273,14 @@ export default function IntakePage() {
                   </label>
                   <input
                     id="email"
-                    name="email"
                     type="email"
-                    required
-                    value={formData.email}
-                    onChange={handleChange}
+                    {...register("email")}
                     placeholder="jane@yourbrand.com"
                     className="w-full px-4 py-3 bg-[#F2EFE9] border border-[#E5DDD3] text-sm text-[#1A1A1A] placeholder-[#6B6560] focus:outline-none focus:border-[#2D5016] transition-colors"
                   />
+                  {errors.email && (
+                    <p className="mt-1 text-xs text-red-600">{errors.email.message}</p>
+                  )}
                 </div>
 
                 {/* Row 3: Category + Units */}
@@ -265,10 +294,7 @@ export default function IntakePage() {
                     </label>
                     <select
                       id="category"
-                      name="category"
-                      required
-                      value={formData.category}
-                      onChange={handleChange}
+                      {...register("category")}
                       className="w-full px-4 py-3 bg-[#F2EFE9] border border-[#E5DDD3] text-sm text-[#1A1A1A] focus:outline-none focus:border-[#2D5016] transition-colors appearance-none cursor-pointer"
                     >
                       <option value="" disabled>
@@ -280,6 +306,9 @@ export default function IntakePage() {
                         </option>
                       ))}
                     </select>
+                    {errors.category && (
+                      <p className="mt-1 text-xs text-red-600">{errors.category.message}</p>
+                    )}
                   </div>
                   <div>
                     <label
@@ -290,10 +319,7 @@ export default function IntakePage() {
                     </label>
                     <select
                       id="units"
-                      name="units"
-                      required
-                      value={formData.units}
-                      onChange={handleChange}
+                      {...register("units")}
                       className="w-full px-4 py-3 bg-[#F2EFE9] border border-[#E5DDD3] text-sm text-[#1A1A1A] focus:outline-none focus:border-[#2D5016] transition-colors appearance-none cursor-pointer"
                     >
                       <option value="" disabled>
@@ -305,6 +331,9 @@ export default function IntakePage() {
                         </option>
                       ))}
                     </select>
+                    {errors.units && (
+                      <p className="mt-1 text-xs text-red-600">{errors.units.message}</p>
+                    )}
                   </div>
                 </div>
 
@@ -318,14 +347,14 @@ export default function IntakePage() {
                   </label>
                   <textarea
                     id="description"
-                    name="description"
                     rows={5}
-                    required
-                    value={formData.description}
-                    onChange={handleChange}
+                    {...register("description")}
                     placeholder="Describe your garment, fabric preferences, construction details, and timeline. (Note: We will request your tech packs and reference images via email after you submit this request.)"
                     className="w-full px-4 py-3 bg-[#F2EFE9] border border-[#E5DDD3] text-sm text-[#1A1A1A] placeholder-[#6B6560] focus:outline-none focus:border-[#2D5016] transition-colors resize-none"
                   />
+                  {errors.description && (
+                    <p className="mt-1 text-xs text-red-600">{errors.description.message}</p>
+                  )}
                 </div>
 
                 {/* Submit */}
@@ -333,9 +362,10 @@ export default function IntakePage() {
                   <button
                     id="intake-submit"
                     type="submit"
-                    className="inline-flex items-center justify-center gap-2 w-full sm:w-auto px-10 py-4 bg-[#1A1A1A] text-[#FAF9F6] text-sm font-semibold tracking-wide hover:bg-[#2D5016] transition-colors duration-300"
+                    disabled={isSubmitting}
+                    className="inline-flex items-center justify-center gap-2 w-full sm:w-auto px-10 py-4 bg-[#1A1A1A] text-[#FAF9F6] text-sm font-semibold tracking-wide hover:bg-[#2D5016] transition-colors duration-300 disabled:opacity-50 disabled:cursor-not-allowed"
                   >
-                    Request Quote <ArrowRight size={14} />
+                    {isSubmitting ? "Sending..." : "Request Quote"} <ArrowRight size={14} />
                   </button>
                   <p className="mt-3 text-xs text-[#6B6560]">
                     By submitting, you agree to our Privacy Policy and NDA terms.
