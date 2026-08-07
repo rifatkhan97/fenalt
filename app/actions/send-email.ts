@@ -2,8 +2,6 @@
 
 import { Resend } from "resend";
 
-const resend = new Resend(process.env.RESEND_API_KEY);
-
 interface IntakeInput {
   name: string;
   brandName: string;
@@ -16,8 +14,10 @@ interface IntakeInput {
 export async function sendIntakeEmail(data: IntakeInput) {
   try {
     if (!process.env.RESEND_API_KEY) {
-      return { error: "RESEND_API_KEY is not configured on the server." };
+      return { error: "RESEND_API_KEY is not configured on the server. Please check your environment variables." };
     }
+
+    const resend = new Resend(process.env.RESEND_API_KEY);
 
     const { name, brandName, email, category, units, description } = data;
 

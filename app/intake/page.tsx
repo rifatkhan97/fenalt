@@ -107,13 +107,18 @@ export default function IntakePage() {
   const onSubmit = async (data: FormData) => {
     console.log("Form submission started", data);
     setServerError(null);
-    const result = await sendIntakeEmail(data);
-    console.log("Server response:", result);
-    if (result.error) {
-      setServerError(result.error);
-    } else if (result.success) {
-      setSubmitted(true);
-      reset();
+    try {
+      const result = await sendIntakeEmail(data);
+      console.log("Server response:", result);
+      if (result.error) {
+        setServerError(result.error);
+      } else if (result.success) {
+        setSubmitted(true);
+        reset();
+      }
+    } catch (err: any) {
+      console.error("Submission rejected:", err);
+      setServerError(err.message || "A network or server error occurred. Please try again.");
     }
   };
 
