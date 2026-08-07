@@ -85,7 +85,7 @@ const faqItems = [
 export default function IntakePage() {
   const [openFaq, setOpenFaq] = useState<number | null>(null);
   const [submitted, setSubmitted] = useState(false);
-  const [submitError, setSubmitError] = useState<string | null>(null);
+  const [serverError, setServerError] = useState<string | null>(null);
 
   const {
     register,
@@ -105,10 +105,12 @@ export default function IntakePage() {
   });
 
   const onSubmit = async (data: FormData) => {
-    setSubmitError(null);
+    console.log("Form submission started", data);
+    setServerError(null);
     const result = await sendIntakeEmail(data);
+    console.log("Server response:", result);
     if (result.error) {
-      setSubmitError(result.error);
+      setServerError(result.error);
     } else if (result.success) {
       setSubmitted(true);
       reset();
@@ -216,12 +218,12 @@ export default function IntakePage() {
               <h2 className="font-display text-3xl font-light text-[#1A1A1A] mb-8">
                 Project Details
               </h2>
-              <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
-                {submitError && (
-                  <div className="p-4 bg-red-50 border border-red-200 text-red-800 text-sm">
-                    {submitError}
-                  </div>
+              <form
+                onSubmit={handleSubmit(onSubmit, (errors) =>
+                  console.log("Validation Errors:", errors)
                 )}
+                className="space-y-6"
+              >
 
                 {/* Row 1: Name + Brand */}
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
@@ -356,6 +358,12 @@ export default function IntakePage() {
                     <p className="mt-1 text-xs text-red-600">{errors.description.message}</p>
                   )}
                 </div>
+
+                {serverError && (
+                  <div className="p-4 bg-red-50 border border-red-200 text-red-800 text-sm font-semibold mb-4">
+                    {serverError}
+                  </div>
+                )}
 
                 {/* Submit */}
                 <div className="pt-2">
