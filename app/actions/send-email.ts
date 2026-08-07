@@ -73,7 +73,7 @@ export async function sendIntakeEmail(data: IntakeInput) {
     `;
 
     const { data: responseData, error } = await resend.emails.send({
-      from: "onboarding@resend.dev",
+      from: "Fenalt Intake <hello@fenalt.com>",
       to: "hello@fenalt.com",
       replyTo: email,
       subject: `New Project Intake from Fenalt - ${brandName}`,
