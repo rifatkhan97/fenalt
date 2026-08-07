@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useState } from "react";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, MapPin, Mail, Phone } from "lucide-react";
 
 export default function Footer() {
   const [email, setEmail] = useState("");
@@ -111,19 +111,24 @@ export default function Footer() {
             )}
 
             {/* Direct Contact Details */}
-            <div className="mt-8 space-y-2 text-sm text-[#E5DDD3]">
-              <p className="leading-relaxed">
-                Dhaka Housing Main Road, Holding - 4, Level - 9, Dhaka -1207
-              </p>
-              <p>
+            <div className="mt-8 space-y-3.5 text-sm text-[#E5DDD3]">
+              <div className="flex items-start gap-3">
+                <MapPin size={16} className="text-[#C8A882] mt-0.5 flex-shrink-0" />
+                <span className="leading-relaxed">
+                  Dhaka Housing Main Road, Holding - 4, Level - 9, Dhaka -1207
+                </span>
+              </div>
+              <div className="flex items-center gap-3">
+                <Mail size={16} className="text-[#C8A882] flex-shrink-0" />
                 <a
                   href="mailto:hello@fenalt.com"
                   className="hover:text-[#C8A882] transition-colors duration-200"
                 >
                   hello@fenalt.com
                 </a>
-              </p>
-              <p>
+              </div>
+              <div className="flex items-center gap-3">
+                <Phone size={16} className="text-[#C8A882] flex-shrink-0" />
                 <a
                   href="https://wa.me/8801781345299"
                   target="_blank"
@@ -132,7 +137,7 @@ export default function Footer() {
                 >
                   WhatsApp: +88 017 8134 5299
                 </a>
-              </p>
+              </div>
             </div>
           </div>
         </div>
