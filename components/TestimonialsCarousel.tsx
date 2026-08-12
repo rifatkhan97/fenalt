@@ -60,7 +60,11 @@ export default function TestimonialsCarousel() {
     if (!isDragging) return;
     const delta = dragStartX - clientX;
     if (Math.abs(delta) > 40) {
-      delta > 0 ? next() : prev();
+      if (delta > 0) {
+        next();
+      } else {
+        prev();
+      }
     }
     setIsDragging(false);
   };

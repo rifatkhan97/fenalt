@@ -20,11 +20,26 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://fenalt.com"),
-  title: "Fenalt - Sustainable, Low-MOQ Manufacturing. Fully Managed.",
+  title: {
+    default: "Fenalt | Sustainable Low-MOQ Apparel Manufacturing (Fully Managed)",
+    template: "%s | Fenalt",
+  },
   description:
     "Fenalt connects independent fashion brands with highly capable, ethical micro-factories. Launch your collection using sustainable circular fabrics, with zero communication barriers and fully managed quality control.",
-  keywords:
-    "sustainable manufacturing, micro-factory, low MOQ, ethical fashion, circular fabrics, deadstock, B2B fashion supply chain",
+  keywords: [
+    "sustainable manufacturing",
+    "micro-factory",
+    "low MOQ apparel",
+    "ethical fashion",
+    "circular fabrics",
+    "deadstock apparel",
+    "B2B fashion supply chain",
+    "clothing manufacturer",
+    "garment sourcing Bangladesh",
+  ],
+  alternates: {
+    canonical: "/",
+  },
   icons: {
     icon: "/icon.png?v=3",
     apple: "/apple-icon.png?v=3",
@@ -60,13 +75,13 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const jsonLd = {
+  const organizationJsonLd = {
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "Fenalt",
-    "description": "Sustainable B2B apparel manufacturing platform.",
+    "description": "Sustainable B2B apparel manufacturing platform connecting fashion brands with ethical micro-factories.",
     "url": "https://fenalt.com",
-    "logo": "https://fenalt.com/icon.png",
+    "logo": "https://fenalt.com/logo.png",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Dhaka Housing Main Road, Holding - 4, Level - 9",
@@ -79,8 +94,20 @@ export default function RootLayout({
       "@type": "ContactPoint",
       "telephone": "+8801781345299",
       "contactType": "customer service",
-      "availableLanguage": ["en", "bn"]
-    }
+      "availableLanguage": ["English", "Bengali"]
+    },
+    "sameAs": [
+      "https://www.linkedin.com/company/fenalt",
+      "https://www.instagram.com/fenalthq",
+      "https://www.facebook.com/fenalthq"
+    ]
+  };
+
+  const websiteJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Fenalt",
+    "url": "https://fenalt.com"
   };
 
   return (
@@ -88,7 +115,9 @@ export default function RootLayout({
       <head>
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify([organizationJsonLd, websiteJsonLd]),
+          }}
         />
         {/* Google tag (gtag.js) */}
         <Script

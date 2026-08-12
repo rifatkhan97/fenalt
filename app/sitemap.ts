@@ -1,23 +1,35 @@
-import { MetadataRoute } from "next";
+import type { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://fenalt.com";
 
-  const routes = [
-    "",
-    "/capabilities",
-    "/operations",
-    "/mission",
-    "/intake",
-    "/contact",
-    "/privacy",
-    "/terms",
+  const routes: Array<{
+    path: string;
+    changeFrequency: "always" | "hourly" | "daily" | "weekly" | "monthly" | "yearly" | "never";
+    priority: number;
+  }> = [
+    { path: "", changeFrequency: "daily", priority: 1.0 },
+    { path: "/capabilities", changeFrequency: "weekly", priority: 0.9 },
+    { path: "/operations", changeFrequency: "weekly", priority: 0.8 },
+    { path: "/low-moq-apparel-manufacturing", changeFrequency: "weekly", priority: 0.9 },
+    { path: "/streetwear-manufacturing", changeFrequency: "weekly", priority: 0.9 },
+    { path: "/clothing-manufacturer-bangladesh", changeFrequency: "weekly", priority: 0.9 },
+    { path: "/hoodie-manufacturing", changeFrequency: "weekly", priority: 0.8 },
+    { path: "/de/bekleidungshersteller", changeFrequency: "weekly", priority: 0.9 },
+    { path: "/de/streetwear-hersteller", changeFrequency: "weekly", priority: 0.9 },
+    { path: "/de/low-moq-bekleidungshersteller", changeFrequency: "weekly", priority: 0.9 },
+    { path: "/mission", changeFrequency: "monthly", priority: 0.7 },
+    { path: "/intake", changeFrequency: "weekly", priority: 0.9 },
+    { path: "/contact", changeFrequency: "monthly", priority: 0.8 },
+    { path: "/privacy", changeFrequency: "yearly", priority: 0.3 },
+    { path: "/terms", changeFrequency: "yearly", priority: 0.3 },
   ];
 
   return routes.map((route) => ({
-    url: `${baseUrl}${route}`,
+    url: `${baseUrl}${route.path}`,
     lastModified: new Date(),
-    changeFrequency: route === "" ? "daily" : "weekly",
-    priority: route === "" ? 1.0 : route === "/intake" || route === "/contact" ? 0.8 : 0.5,
+    changeFrequency: route.changeFrequency,
+    priority: route.priority,
   }));
 }
+

@@ -109,8 +109,9 @@ export async function sendContactEmail(data: ContactInput) {
     }
 
     return { success: true };
-  } catch (err: any) {
+  } catch (err: unknown) {
+    const message = err instanceof Error ? err.message : "An unexpected error occurred.";
     console.error("Server Action Exception in sendContactEmail:", err);
-    return { error: err.message || "An unexpected error occurred." };
+    return { error: message };
   }
 }

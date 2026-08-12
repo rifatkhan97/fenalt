@@ -17,6 +17,14 @@ export const metadata: Metadata = {
   title: "B2B Apparel Manufacturing & Sourcing Capabilities | Fenalt",
   description:
     "Discover Fenalt's end-to-end B2B garment manufacturing capabilities. We offer professional sample development, low-MOQ capsule runs, custom finishing, and scaling production with on-site quality control.",
+  alternates: {
+    canonical: "https://fenalt.com/capabilities",
+    languages: {
+      "en": "https://fenalt.com/capabilities",
+      "de": "https://fenalt.com/de/bekleidungshersteller",
+      "x-default": "https://fenalt.com/capabilities",
+    },
+  },
   openGraph: {
     title: "B2B Apparel Manufacturing & Sourcing Capabilities | Fenalt",
     description:
@@ -103,8 +111,26 @@ const finishingItems = [
 ];
 
 export default function CapabilitiesPage() {
+  const serviceJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "B2B Apparel Manufacturing & Sourcing",
+    "provider": {
+      "@type": "Organization",
+      "name": "Fenalt",
+      "url": "https://fenalt.com"
+    },
+    "serviceType": "Apparel Sourcing, Sample Development, Low-MOQ Capsule Production, Quality Control Management",
+    "areaServed": ["United States", "United Kingdom", "European Union", "Australia", "Canada"],
+    "description": "End-to-end B2B garment manufacturing capabilities including pattern making, sample development, low-MOQ capsule runs, custom finishing, on-site QC, and global freight."
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceJsonLd) }}
+      />
       {/* ─── Section 1: Header ───────────────────────────────── */}
       <section className="pt-32 pb-20 lg:pt-44 lg:pb-28 bg-[#F2EFE9] relative overflow-hidden">
         <div className="absolute inset-0 opacity-5">

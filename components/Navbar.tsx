@@ -3,11 +3,29 @@
 import Link from "next/link";
 import Image from "next/image";
 import { useState, useEffect } from "react";
+import { usePathname } from "next/navigation";
 import { Menu, X } from "lucide-react";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const pathname = usePathname() || "/";
+
+  const isGerman = pathname.startsWith("/de");
+
+  const getLanguageLink = (targetLang: "en" | "de") => {
+    if (targetLang === "de") {
+      if (pathname === "/streetwear-manufacturing") return "/de/streetwear-hersteller";
+      if (pathname === "/low-moq-apparel-manufacturing") return "/de/low-moq-bekleidungshersteller";
+      if (pathname === "/capabilities") return "/de/bekleidungshersteller";
+      return "/de/bekleidungshersteller";
+    } else {
+      if (pathname === "/de/streetwear-hersteller") return "/streetwear-manufacturing";
+      if (pathname === "/de/low-moq-bekleidungshersteller") return "/low-moq-apparel-manufacturing";
+      if (pathname === "/de/bekleidungshersteller") return "/capabilities";
+      return "/";
+    }
+  };
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 20);
@@ -58,13 +76,34 @@ export default function Navbar() {
               ))}
             </div>
 
-            {/* Desktop CTA */}
-            <div className="hidden lg:flex">
+            {/* Desktop CTA & Language Selector */}
+            <div className="hidden lg:flex items-center gap-6">
+              {/* Language Selector */}
+              <div className="flex items-center text-xs font-semibold uppercase tracking-widest text-[#6B6560] border-r border-[#E5DDD3] pr-6">
+                <Link
+                  href={getLanguageLink("en")}
+                  className={`px-1.5 py-0.5 transition-colors ${
+                    !isGerman ? "text-[#1A1A1A] font-bold border-b border-[#2D5016]" : "hover:text-[#1A1A1A]"
+                  }`}
+                >
+                  EN
+                </Link>
+                <span className="mx-1 text-[#E5DDD3]">/</span>
+                <Link
+                  href={getLanguageLink("de")}
+                  className={`px-1.5 py-0.5 transition-colors ${
+                    isGerman ? "text-[#2D5016] font-bold border-b border-[#2D5016]" : "hover:text-[#1A1A1A]"
+                  }`}
+                >
+                  DE
+                </Link>
+              </div>
+
               <Link
                 href="/intake"
                 className="inline-flex items-center px-5 py-2.5 bg-[#1A1A1A] text-[#FAF9F6] text-sm font-medium rounded-none hover:bg-[#2D5016] transition-colors duration-300 tracking-wide"
               >
-                Start Your Project
+                {isGerman ? "Projekt Starten" : "Start Your Project"}
               </Link>
             </div>
 
