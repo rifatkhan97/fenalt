@@ -265,7 +265,7 @@ export default function Navbar() {
             </Link>
 
             {/* Language Switcher in Mobile Drawer */}
-            <div className="pt-4 pb-2">
+            <div className="pt-4 pb-6">
               <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-widest text-[#6B6560] mb-3">
                 <Globe size={14} className="text-[#C8A882]" />
                 <span>Region / Language</span>
@@ -295,31 +295,9 @@ export default function Navbar() {
                 </Link>
               </div>
             </div>
-
-            {/* Primary Action Button inside Drawer */}
-            <div className="pt-4 pb-6">
-              <Link
-                href="/intake"
-                onClick={() => setIsOpen(false)}
-                className="w-full inline-flex items-center justify-center gap-2 px-6 py-4 bg-[#1A1A1A] text-[#FAF9F6] text-sm font-semibold tracking-wide hover:bg-[#2D5016] transition-colors duration-300 shadow-md"
-              >
-                {isGerman ? "Projekt Starten" : "Start Your Project"}
-                <ArrowRight size={16} />
-              </Link>
-            </div>
           </div>
         </div>
       </nav>
-
-      {/* Sticky Mobile Bottom CTA Bar */}
-      <div className="lg:hidden fixed bottom-0 left-0 right-0 z-40 p-4 bg-[#FAF9F6]/95 backdrop-blur-md border-t border-[#E5DDD3] shadow-lg">
-        <Link
-          href="/intake"
-          className="block w-full text-center px-5 py-3.5 bg-[#1A1A1A] text-[#FAF9F6] text-sm font-semibold tracking-wide hover:bg-[#2D5016] transition-colors duration-300"
-        >
-          {isGerman ? "Projekt Starten" : "Start Your Project"}
-        </Link>
-      </div>
     </>
   );
 }
