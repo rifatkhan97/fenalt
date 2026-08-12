@@ -15,19 +15,22 @@ import {
   Compass,
   TrendingUp,
   Languages,
+  BookOpen,
+  GraduationCap,
+  Sparkles,
 } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "HTML Sitemap & Complete Website Directory | Fenalt",
   description:
-    "Complete human-readable HTML sitemap and website directory for Fenalt. Explore all commercial apparel manufacturing services, boutique solutions, and trade guides.",
+    "Complete human-readable HTML sitemap and website directory for Fenalt. Explore all commercial apparel manufacturing services, boutique solutions, educational library guides, and trade resources.",
   alternates: {
     canonical: "https://fenalt.com/sitemap",
   },
   openGraph: {
     title: "HTML Sitemap & Complete Website Directory | Fenalt",
     description:
-      "Complete human-readable HTML sitemap and website directory for Fenalt. Explore all commercial apparel manufacturing services, boutique solutions, and trade guides.",
+      "Complete human-readable HTML sitemap and website directory for Fenalt. Explore all commercial apparel manufacturing services, boutique solutions, educational library guides, and trade resources.",
     url: "https://fenalt.com/sitemap",
   },
 };
@@ -36,18 +39,18 @@ export default function HTMLSitemapPage() {
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
-    "itemListElement": [
+    itemListElement: [
       {
         "@type": "ListItem",
-        "position": 1,
-        "name": "Home",
-        "item": "https://fenalt.com",
+        position: 1,
+        name: "Home",
+        item: "https://fenalt.com",
       },
       {
         "@type": "ListItem",
-        "position": 2,
-        "name": "Sitemap",
-        "item": "https://fenalt.com/sitemap",
+        position: 2,
+        name: "Sitemap",
+        item: "https://fenalt.com/sitemap",
       },
     ],
   };
@@ -61,6 +64,7 @@ export default function HTMLSitemapPage() {
         { href: "/capabilities", label: "Capabilities | End-to-End Production & Sourcing" },
         { href: "/operations", label: "Operations | Quality Control & Freight Logistics" },
         { href: "/resources", label: "Resources Hub | Sourcing Guides & Trade Base" },
+        { href: "/learn", label: "Educational Library | 88 Apparel Guides" },
         { href: "/mission", label: "Our Mission | Sustainable & Ethical Supply Chain" },
         { href: "/contact", label: "Contact Us | Dhaka Headquarters & Inquiries" },
         { href: "/intake", label: "Start a Project | Project Submission Form" },
@@ -153,6 +157,34 @@ export default function HTMLSitemapPage() {
       ],
     },
     {
+      icon: GraduationCap,
+      title: "Educational Library | Fundamentals & Tech Packs",
+      links: [
+        { href: "/learn/how-clothing-manufacturing-works", label: "How Clothing Manufacturing Works: Complete Guide" },
+        { href: "/learn/cut-and-sew-manufacturing-explained", label: "Cut-and-Sew Manufacturing Explained" },
+        { href: "/learn/apparel-production-process-explained", label: "The Apparel Production Process Step by Step" },
+        { href: "/learn/what-is-a-tech-pack", label: "What Is a Tech Pack in Apparel Manufacturing?" },
+        { href: "/learn/tech-pack-mistakes", label: "Common Tech Pack Mistakes That Delay Production" },
+        { href: "/learn/points-of-measure-garment", label: "What Are Points of Measure (POM) in Apparel?" },
+        { href: "/learn/bill-of-materials-apparel", label: "What Is a Bill of Materials (BOM) in Apparel?" },
+        { href: "/learn/apparel-size-grading-explained", label: "How Apparel Size Grading Works Across Sizes" },
+      ],
+    },
+    {
+      icon: Sparkles,
+      title: "Educational Library | Sampling, Fabrics & QC",
+      links: [
+        { href: "/learn/types-of-apparel-samples", label: "The Different Types of Apparel Samples Explained" },
+        { href: "/learn/sample-approval-checklist", label: "Sample Approval Checklist for Fashion Brands" },
+        { href: "/learn/how-to-choose-fabric-for-clothing-brand", label: "How to Choose Fabric for a Clothing Brand" },
+        { href: "/learn/cotton-fabric-types-explained", label: "Cotton Fabric Types Explained for Fashion Brands" },
+        { href: "/learn/garment-customization-options-explained", label: "Garment Customization Options Explained" },
+        { href: "/learn/apparel-quality-control-explained", label: "Apparel Quality Control Explained: Framework" },
+        { href: "/learn/what-is-aql-in-apparel-quality-control", label: "What Is AQL in Apparel Quality Control?" },
+        { href: "/learn/how-to-find-a-reliable-clothing-manufacturer", label: "How to Find a Reliable Clothing Manufacturer" },
+      ],
+    },
+    {
       icon: TrendingUp,
       title: "International Sourcing & Country Comparisons",
       links: [
@@ -213,7 +245,7 @@ export default function HTMLSitemapPage() {
             <span className="italic font-medium text-[#2D5016]">Website Directory.</span>
           </h1>
           <p className="text-lg text-[#6B6560] leading-relaxed max-w-2xl">
-            Explore all public pages, commercial manufacturing services, specialized boutique solutions, technical guides, and localized European production routes across the Fenalt platform.
+            Explore all public pages, commercial manufacturing services, specialized boutique solutions, 88 educational library guides, and localized European production routes across the Fenalt platform.
           </p>
         </div>
       </section>
@@ -249,36 +281,29 @@ export default function HTMLSitemapPage() {
                             <span className="leading-snug">{link.label}</span>
                             <ArrowRight
                               size={14}
-                              className="text-[#6B6560] group-hover:text-[#2D5016] group-hover:translate-x-1 transition-all duration-200 flex-shrink-0 ml-4"
+                              className="shrink-0 text-[#6B6560] group-hover:text-[#2D5016] group-hover:translate-x-1 transition-all"
                             />
                           </Link>
                         </li>
                       ))}
                     </ul>
                   </div>
+
+                  {cat.title.includes("Educational Library") && (
+                    <div className="mt-8 pt-4 border-t border-[#E5DDD3]">
+                      <Link
+                        href="/learn"
+                        className="inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-[#2D5016] hover:underline"
+                      >
+                        <span>Browse All 88 Educational Library Guides</span>
+                        <ArrowRight size={12} />
+                      </Link>
+                    </div>
+                  )}
                 </div>
               );
             })}
           </div>
-        </div>
-      </section>
-
-      {/* Bottom CTA */}
-      <section className="py-20 bg-[#FAF9F6] border-t border-[#E5DDD3]">
-        <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
-          <ShieldCheck size={28} className="text-[#C8A882] mx-auto mb-4" />
-          <h2 className="font-display text-3xl lg:text-4xl font-light text-[#1A1A1A] mb-4">
-            Need custom manufacturing assistance?
-          </h2>
-          <p className="text-[#6B6560] leading-relaxed text-base mb-8 max-w-xl mx-auto">
-            Submit your design sketches or tech pack for a fast, all-inclusive quote from our Dhaka operations team.
-          </p>
-          <Link
-            href="/intake"
-            className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-[#1A1A1A] text-[#FAF9F6] text-sm font-semibold tracking-wide hover:bg-[#2D5016] transition-colors duration-300"
-          >
-            Start Project <ArrowRight size={16} />
-          </Link>
         </div>
       </section>
     </>
