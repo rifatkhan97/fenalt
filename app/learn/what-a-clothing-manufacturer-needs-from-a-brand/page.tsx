@@ -168,6 +168,29 @@ export default function WhatManufacturerNeedsFromBrandPage() {
             </div>
           </div>
 
+          {/* For startups (Merged topic #69) */}
+          <div className="p-8 bg-[#1A1A1A] text-[#FAF9F6] border border-[#2A2A2A]">
+            <span className="inline-block px-3 py-1 bg-[#C8A882] text-[#1A1A1A] text-xs font-semibold uppercase tracking-wider mb-4">Startup Focus</span>
+            <h2 className="font-display text-2xl lg:text-3xl font-light mb-4">What Startups Specifically Need to Prepare</h2>
+            <p className="text-sm text-[#E5DDD3] leading-relaxed mb-6">
+              New brands often assume manufacturers expect complete industrial fluency. In reality, reliable partners understand that early-stage startups have knowledge gaps. However, to work together effectively, startups must provide three non-negotiables:
+            </p>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              <div className="p-4 bg-[#2A2A2A] border border-[#3A3A3A]">
+                <h3 className="font-display text-lg font-medium text-[#C8A882] mb-2">1. Realistic Expectations</h3>
+                <p className="text-xs text-[#E5DDD3] leading-relaxed">Understanding realistic lead times (typically 8–12 weeks from sampling to delivery) and accepting standard fabric minimums.</p>
+              </div>
+              <div className="p-4 bg-[#2A2A2A] border border-[#3A3A3A]">
+                <h3 className="font-display text-lg font-medium text-[#C8A882] mb-2">2. Single Point of Contact</h3>
+                <p className="text-xs text-[#E5DDD3] leading-relaxed">Designating one decision-maker for approvals to prevent conflicting feedback during sampling and production.</p>
+              </div>
+              <div className="p-4 bg-[#2A2A2A] border border-[#3A3A3A]">
+                <h3 className="font-display text-lg font-medium text-[#C8A882] mb-2">3. Defined Budget Range</h3>
+                <p className="text-xs text-[#E5DDD3] leading-relaxed">Sharing your target cost per unit (FOB or landed) so the factory can recommend viable fabrics and construction methods within budget.</p>
+              </div>
+            </div>
+          </div>
+
         </div>
       </section>
 

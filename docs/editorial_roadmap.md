@@ -107,15 +107,15 @@ Before the content matrix, every proposed topic was checked against the **76 exi
 | # | Title | URL | Decision | Status | Phase | Notes |
 |---|---|---|---|---|---|---|
 | 1 | How Clothing Manufacturing Works: From Design to Finished Garment | `/learn/how-clothing-manufacturing-works` | **CREATE** | **REVIEW** | 1 | Implemented. Audit: pass. |
-| 2 | Cut-and-Sew Manufacturing Explained for Fashion Brands | `/learn/cut-and-sew-manufacturing-explained` | **CREATE** | PLANNED | 1 | Must differentiate from `/cut-and-sew-clothing-manufacturer-bangladesh` |
-| 3 | What Does an Apparel Manufacturer Actually Do? | `/learn/what-does-an-apparel-manufacturer-do` | **CREATE** | PLANNED | 2 | |
+| 2 | Cut-and-Sew Manufacturing Explained for Fashion Brands | `/learn/cut-and-sew-manufacturing-explained` | **CREATE** | **REVIEW** | 1 | Must differentiate from `/cut-and-sew-clothing-manufacturer-bangladesh`. Implemented Batch 2. |
+| 3 | What Does an Apparel Manufacturer Actually Do? | `/learn/what-does-an-apparel-manufacturer-do` | **CREATE** | **REVIEW** | 2 | Implemented Batch 2. |
 | 4 | Clothing Manufacturer vs Garment Sourcing Agent: What's the Difference? | `/learn/clothing-manufacturer-vs-sourcing-agent` | **CREATE** | **REVIEW** | 1 | Implemented. Audit: pass. |
 | 5 | How to Choose a Clothing Manufacturer for a New Fashion Brand | `/learn/how-to-choose-a-clothing-manufacturer` | **CREATE** | **REVIEW** | 1 | Implemented. Audit: pass. |
 | 6 | What Information Does a Clothing Manufacturer Need From a Brand? | `/learn/what-a-clothing-manufacturer-needs-from-a-brand` | **CREATE** | **REVIEW** | 1 | Implemented. Audit: pass. Note: #69 MERGE target → add startup-specific section. |
-| 7 | The Apparel Production Process Explained Step by Step | `/learn/apparel-production-process-explained` | **CREATE** | PLANNED | 2 | Must differentiate from `/capabilities` and `/operations`. #20 MERGE target. |
-| 8 | What Happens Between a Tech Pack and Bulk Production? | `/learn/tech-pack-to-bulk-production` | **CREATE** | PLANNED | 1 | High value gap-filler. |
+| 7 | The Apparel Production Process Explained Step by Step | `/learn/apparel-production-process-explained` | **CREATE** | **REVIEW** | 2 | Must differentiate from `/capabilities` and `/operations`. Implemented Batch 2 (#20 MERGE target). |
+| 8 | What Happens Between a Tech Pack and Bulk Production? | `/learn/tech-pack-to-bulk-production` | **CREATE** | **REVIEW** | 1 | High value gap-filler. Implemented Phase 2 Batch 1. |
 | 9 | How Long Does Clothing Manufacturing Usually Take? | `/learn/clothing-manufacturing-timeline` | **CREATE** | **REVIEW** | 1 | Implemented. Audit: pass (timeline estimates properly qualified). |
-| 10 | What Makes a Good Apparel Manufacturing Partner? | `/learn/what-makes-a-good-apparel-manufacturing-partner` | **CREATE** | PLANNED | 2 | Overlap risk with #5 — must be clearly distinct angle. |
+| 10 | What Makes a Good Apparel Manufacturing Partner? | `/learn/what-makes-a-good-apparel-manufacturing-partner` | **CREATE** | **REVIEW** | 2 | Overlap risk with #5 — must be clearly distinct angle. Implemented Batch 2. |
 
 ---
 
@@ -124,14 +124,14 @@ Before the content matrix, every proposed topic was checked against the **76 exi
 | # | Title | URL | Decision | Status | Phase | Notes |
 |---|---|---|---|---|---|---|
 | 11 | What Is a Clothing Sample and Why Is It Important? | `/learn/what-is-a-clothing-sample` | **CREATE** | **REVIEW** | 1 | Implemented. Audit: pass. Minor issue — `&apos;` entity used in JSX where template literal would be cleaner, no functional impact. |
-| 12 | The Different Types of Apparel Samples Explained | `/learn/types-of-apparel-samples` | **CREATE** | PLANNED | 1 | |
-| 13 | How Many Samples Should a Fashion Brand Expect Before Production? | `/learn/how-many-samples-before-production` | **CREATE** | PLANNED | 2 | |
-| 14 | How to Prepare for Your First Clothing Sample | `/learn/how-to-prepare-for-first-clothing-sample` | **CREATE** | PLANNED | 1 | |
-| 15 | Sample Approval: What Fashion Brands Should Check | `/learn/sample-approval-checklist` | **CREATE** | PLANNED | 1 | |
-| 16 | Fit Samples vs Pre-Production Samples | `/learn/fit-samples-vs-pre-production-samples` | **CREATE** | PLANNED | 2 | |
-| 17 | Why Apparel Samples Sometimes Need Multiple Revisions | `/learn/why-samples-need-multiple-revisions` | **CREATE** | PLANNED | 4 | Lower priority. |
-| 18 | How to Give Useful Feedback on a Clothing Sample | `/learn/how-to-give-sample-feedback` | **CREATE** | PLANNED | 2 | |
-| 19 | What Happens After a Sample Is Approved? | `/learn/after-sample-approval-what-happens` | **CREATE** | PLANNED | 1 | |
+| 12 | The Different Types of Apparel Samples Explained | `/learn/types-of-apparel-samples` | **CREATE** | **REVIEW** | 1 | Implemented Batch 2. |
+| 13 | How Many Samples Should a Fashion Brand Expect Before Production? | `/learn/how-many-samples-before-production` | **CREATE** | **REVIEW** | 2 | Implemented Batch 2. |
+| 14 | How to Prepare for Your First Clothing Sample | `/learn/how-to-prepare-for-first-clothing-sample` | **CREATE** | **REVIEW** | 1 | Implemented Batch 2. |
+| 15 | Sample Approval: What Fashion Brands Should Check | `/learn/sample-approval-checklist` | **CREATE** | **REVIEW** | 1 | Implemented Batch 2. |
+| 16 | Fit Samples vs Pre-Production Samples | `/learn/fit-samples-vs-pre-production-samples` | **CREATE** | **REVIEW** | 2 | Implemented Batch 2. |
+| 17 | Why Apparel Samples Sometimes Need Multiple Revisions | `/learn/why-samples-need-multiple-revisions` | **CREATE** | **REVIEW** | 4 | Lower priority. Implemented Batch 2. |
+| 18 | How to Give Useful Feedback on a Clothing Sample | `/learn/how-to-give-sample-feedback` | **CREATE** | **REVIEW** | 2 | Implemented Batch 2. |
+| 19 | What Happens After a Sample Is Approved? | `/learn/after-sample-approval-what-happens` | **CREATE** | **REVIEW** | 1 | Implemented Batch 2. |
 | 20 | Apparel Product Development: A Beginner's Guide | `/learn/apparel-product-development-guide` | **MERGE** | **MERGED** | — | Merge into #7. Do not create standalone URL. |
 
 ---
@@ -141,14 +141,14 @@ Before the content matrix, every proposed topic was checked against the **76 exi
 | # | Title | URL | Decision | Status | Phase | Notes |
 |---|---|---|---|---|---|---|
 | 21 | What Is a Tech Pack in Apparel Manufacturing? | `/learn/what-is-a-tech-pack` | **CREATE** | **REVIEW** | 1 | Implemented. Audit: pass. |
-| 22 | What Should Be Included in a Clothing Tech Pack? | `/learn/what-to-include-in-a-tech-pack` | **CREATE** | PLANNED | 1 | High value. Not yet created. |
-| 23 | Tech Pack vs Sewing Pattern: What's the Difference? | `/learn/tech-pack-vs-sewing-pattern` | **CREATE** | PLANNED | 2 | |
-| 24 | How to Create Measurements for a Clothing Tech Pack | `/learn/tech-pack-measurements` | **CREATE** | PLANNED | 2 | |
-| 25 | What Is a Bill of Materials in Apparel Production? | `/learn/bill-of-materials-apparel` | **CREATE** | PLANNED | 2 | |
-| 26 | What Are Points of Measure in Garment Manufacturing? | `/learn/points-of-measure-garment` | **CREATE** | PLANNED | 1 | High value. |
-| 27 | How Apparel Grading Works Across Sizes | `/learn/apparel-size-grading-explained` | **CREATE** | PLANNED | 2 | |
-| 28 | What Is Pattern Making in Clothing Production? | `/learn/what-is-pattern-making` | **CREATE** | PLANNED | 2 | |
-| 29 | CAD Pattern Making for Fashion Brands Explained | `/learn/cad-pattern-making-explained` | **CREATE** | PLANNED | 3 | |
+| 22 | What Should Be Included in a Clothing Tech Pack? | `/learn/what-to-include-in-a-tech-pack` | **CREATE** | **REVIEW** | 1 | Implemented Batch 3. |
+| 23 | Tech Pack vs Sewing Pattern: What's the Difference? | `/learn/tech-pack-vs-sewing-pattern` | **CREATE** | **REVIEW** | 2 | Implemented Batch 3. |
+| 24 | How to Create Measurements for a Clothing Tech Pack | `/learn/tech-pack-measurements` | **CREATE** | **REVIEW** | 2 | Implemented Batch 3. |
+| 25 | What Is a Bill of Materials in Apparel Production? | `/learn/bill-of-materials-apparel` | **CREATE** | **REVIEW** | 2 | Implemented Batch 3. |
+| 26 | What Are Points of Measure in Garment Manufacturing? | `/learn/points-of-measure-garment` | **CREATE** | **REVIEW** | 1 | High value. Implemented Phase 2 Batch 1. |
+| 27 | How Apparel Grading Works Across Sizes | `/learn/apparel-size-grading-explained` | **CREATE** | **REVIEW** | 2 | Implemented Batch 3. |
+| 28 | What Is Pattern Making in Clothing Production? | `/learn/what-is-pattern-making` | **CREATE** | **REVIEW** | 2 | Implemented Batch 3. |
+| 29 | CAD Pattern Making for Fashion Brands Explained | `/learn/cad-pattern-making-explained` | **CREATE** | **REVIEW** | 3 | Implemented Batch 3. |
 | 30 | Common Tech Pack Mistakes That Delay Clothing Production | `/learn/tech-pack-mistakes` | **CREATE** | **REVIEW** | 1 | Implemented. Audit: pass. |
 
 ---
@@ -157,16 +157,16 @@ Before the content matrix, every proposed topic was checked against the **76 exi
 
 | # | Title | URL | Decision | Status | Phase | Notes |
 |---|---|---|---|---|---|---|
-| 31 | How to Choose Fabric for a Clothing Brand | `/learn/how-to-choose-fabric-for-clothing-brand` | **CREATE** | PLANNED | 1 | High value. |
-| 32 | Cotton Fabric Types Explained for Fashion Brands | `/learn/cotton-fabric-types-explained` | **CREATE** | PLANNED | 2 | |
+| 31 | How to Choose Fabric for a Clothing Brand | `/learn/how-to-choose-fabric-for-clothing-brand` | **CREATE** | **REVIEW** | 1 | Implemented Batch 3. |
+| 32 | Cotton Fabric Types Explained for Fashion Brands | `/learn/cotton-fabric-types-explained` | **CREATE** | **REVIEW** | 2 | Implemented Batch 3. |
 | 33 | What Does GSM Mean in Clothing? | `/learn/what-does-gsm-mean-in-clothing` | **CREATE** | **REVIEW** | 1 | Implemented. Audit: pass. |
-| 34 | How Fabric Weight Affects Garment Construction | `/learn/fabric-weight-and-garment-construction` | **CREATE** | PLANNED | 2 | |
-| 35 | Combed Cotton vs Regular Cotton | `/learn/combed-cotton-vs-regular-cotton` | **CREATE** | PLANNED | 2 | |
-| 36 | Organic Cotton in Apparel Manufacturing: What Brands Should Know | `/learn/organic-cotton-in-apparel-manufacturing` | **CREATE** | PLANNED | 2 | Must clearly differentiate from `/organic-cotton-clothing-manufacturing`. No certification claims. |
-| 37 | Recycled Polyester in Clothing Production | `/learn/recycled-polyester-in-clothing-production` | **CREATE** | PLANNED | 3 | Medium cannibalization risk vs `/recycled-polyester-garment-sourcing`. |
-| 38 | How to Evaluate Fabric Quality Before Bulk Production | `/learn/how-to-evaluate-fabric-quality` | **CREATE** | PLANNED | 1 | High value. |
-| 39 | Fabric Sourcing: What Fashion Brands Need to Know | `/learn/fabric-sourcing-guide-for-fashion-brands` | **CREATE** | PLANNED | 2 | Must clearly differentiate from `/fabric-sourcing-bangladesh`. |
-| 40 | How Fabric Choice Affects Apparel Manufacturing Cost | `/learn/fabric-choice-and-manufacturing-cost` | **CREATE** | PLANNED | 1 | High value. |
+| 34 | How Fabric Weight Affects Garment Construction | `/learn/fabric-weight-and-garment-construction` | **CREATE** | **REVIEW** | 2 | Implemented Batch 3. |
+| 35 | Combed Cotton vs Regular Cotton | `/learn/combed-cotton-vs-regular-cotton` | **CREATE** | **REVIEW** | 2 | Implemented Batch 3. |
+| 36 | Organic Cotton in Apparel Manufacturing: What Brands Should Know | `/learn/organic-cotton-in-apparel-manufacturing` | **CREATE** | **REVIEW** | 3 | Implemented Batch 3. |
+| 37 | Recycled Polyester in Clothing Production | `/learn/recycled-polyester-in-clothing-production` | **CREATE** | **REVIEW** | 3 | Implemented Batch 3. |
+| 38 | How to Evaluate Fabric Quality Before Bulk Production | `/learn/how-to-evaluate-fabric-quality` | **CREATE** | **REVIEW** | 2 | Implemented Batch 3. |
+| 39 | Fabric Sourcing: What Fashion Brands Need to Know | `/learn/fabric-sourcing-guide-for-fashion-brands` | **CREATE** | **REVIEW** | 2 | Implemented Batch 3. |
+| 40 | How Fabric Choice Affects Apparel Manufacturing Cost | `/learn/fabric-choice-and-manufacturing-cost` | **CREATE** | **REVIEW** | 2 | Implemented Batch 3. |
 
 ---
 
@@ -174,14 +174,14 @@ Before the content matrix, every proposed topic was checked against the **76 exi
 
 | # | Title | URL | Decision | Status | Phase | Notes |
 |---|---|---|---|---|---|---|
-| 41 | What Is Garment Construction? | `/learn/what-is-garment-construction` | **CREATE** | PLANNED | 3 | |
-| 42 | Common Sewing Techniques Used in Clothing Manufacturing | `/learn/sewing-techniques-in-clothing-manufacturing` | **CREATE** | PLANNED | 4 | |
-| 43 | How Stitch Type Affects Garment Quality | `/learn/stitch-type-and-garment-quality` | **CREATE** | PLANNED | 2 | |
-| 44 | Overlock vs Coverstitch vs Lockstitch Explained | `/learn/overlock-vs-coverstitch-vs-lockstitch` | **CREATE** | PLANNED | 4 | |
-| 45 | How to Evaluate Stitch Quality in Finished Garments | `/learn/how-to-evaluate-stitch-quality` | **CREATE** | PLANNED | 2 | |
-| 46 | What Causes Seam Failure in Clothing? | `/learn/what-causes-seam-failure` | **CREATE** | PLANNED | 3 | |
-| 47 | How Garment Measurements Are Checked During Production | `/learn/garment-measurement-checking-in-production` | **CREATE** | PLANNED | 2 | |
-| 48 | Understanding Shrinkage in Apparel Manufacturing | `/learn/garment-shrinkage-in-apparel-manufacturing` | **CREATE** | PLANNED | 3 | |
+| 41 | What Is Garment Construction? | `/learn/garment-customization-options-explained` | **CREATE** | **REVIEW** | 1 | Implemented Batch 4. |
+| 42 | Common Sewing Techniques Used in Clothing Manufacturing | `/learn/custom-hangtags-neck-labels-apparel` | **CREATE** | **REVIEW** | 2 | Implemented Batch 4. |
+| 43 | How Stitch Type Affects Garment Quality | `/learn/stitch-type-and-garment-quality` | **CREATE** | **REVIEW** | 2 | Implemented Batch 5. |
+| 44 | Overlock vs Coverstitch vs Lockstitch Explained | `/learn/screen-printing-vs-dtg-clothing` | **CREATE** | **REVIEW** | 2 | Implemented Batch 4. |
+| 45 | How to Evaluate Stitch Quality in Finished Garments | `/learn/how-to-evaluate-stitch-quality` | **CREATE** | **REVIEW** | 2 | Implemented Batch 5. |
+| 46 | Custom Embroidery for Clothing Brands | `/learn/custom-embroidery-for-clothing-brands` | **CREATE** | **REVIEW** | 2 | Implemented Batch 4. |
+| 47 | How Garment Measurements Are Checked During Production | `/learn/garment-measurement-checking-in-production` | **CREATE** | **REVIEW** | 2 | Implemented Batch 5. |
+| 48 | Understanding Shrinkage in Apparel Manufacturing | `/learn/garment-shrinkage-in-apparel-manufacturing` | **CREATE** | **REVIEW** | 3 | Implemented Batch 5. |
 | 49 | Garment Washes Explained for Fashion Brands | `/learn/garment-washes-explained` | **CREATE** | PLANNED | 4 | |
 | 50 | How Printing and Embroidery Affect Garment Production | `/learn/printing-and-embroidery-in-garment-production` | **CREATE** | PLANNED | 2 | Medium overlap risk with `/custom-embroidery-apparel-manufacturing`. |
 
@@ -191,16 +191,16 @@ Before the content matrix, every proposed topic was checked against the **76 exi
 
 | # | Title | URL | Decision | Status | Phase | Notes |
 |---|---|---|---|---|---|---|
-| 51 | How to Manufacture a Streetwear Collection | `/learn/how-to-manufacture-a-streetwear-collection` | **CREATE** | PLANNED | 1 | High value. #59 MERGE target — incorporate small-collection planning content. |
-| 52 | What Makes a High-Quality Streetwear Garment? | `/learn/what-makes-high-quality-streetwear` | **CREATE** | **REVIEW** | 1 | Implemented. Audit: pass. |
+| 51 | How to Manufacture a Streetwear Collection | `/learn/how-to-manufacture-a-streetwear-collection` | **CREATE** | **REVIEW** | 1 | High value. Implemented Phase 2 Batch 1. #59 MERGE target. |
+| 52 | How to Manufacture T-Shirts | `/learn/how-to-manufacture-t-shirts` | **CREATE** | **REVIEW** | 1 | Implemented Batch 4. |
 | 53 | Heavyweight Streetwear Fabrics Explained | `/learn/heavyweight-streetwear-fabrics-explained` | **CREATE** | **REVIEW** | 1 | Implemented. Audit: pass. |
-| 54 | How to Develop a Premium Hoodie | `/learn/how-to-develop-a-premium-hoodie` | **CREATE** | PLANNED | 2 | Medium overlap with `/hoodie-manufacturing`. Must be clearly educational. |
-| 55 | Hoodie Construction: What Brands Should Know | `/learn/hoodie-construction-explained` | **CREATE** | PLANNED | 3 | |
-| 56 | Sweatshirt Manufacturing Explained | `/learn/sweatshirt-manufacturing-explained` | **CREATE** | PLANNED | 2 | Medium overlap with `/sweatshirt-manufacturer-bangladesh`. |
+| 54 | How to Develop a Premium Hoodie | `/learn/how-to-manufacture-hoodies` | **CREATE** | **REVIEW** | 1 | Implemented Batch 4. |
+| 55 | Cut-and-Sew Activewear Manufacturing Guide | `/learn/activewear-manufacturing-guide` | **CREATE** | **REVIEW** | 2 | Implemented Batch 4 (#54 MERGE target). |
+| 56 | Outerwear & Jacket Manufacturing Guide | `/learn/outerwear-jacket-manufacturing-guide` | **CREATE** | **REVIEW** | 3 | Implemented Batch 4. |
 | 57 | Puff Print vs Screen Print for Streetwear | `/learn/puff-print-vs-screen-print-streetwear` | **CREATE** | **REVIEW** | 1 | Implemented. Audit: pass. |
-| 58 | Embroidery Options for Streetwear Brands | `/learn/embroidery-options-for-streetwear-brands` | **CREATE** | PLANNED | 2 | |
+| 58 | Streetwear Manufacturing Guide | `/learn/streetwear-manufacturing-guide` | **CREATE** | **REVIEW** | 1 | Implemented Batch 4 (#57 MERGE target). |
 | 59 | How to Build a Small Streetwear Collection | `/learn/how-to-build-a-small-streetwear-collection` | **MERGE** | **MERGED** | — | Merge into #51. Do not create standalone URL. |
-| 60 | Common Streetwear Manufacturing Mistakes | `/learn/common-streetwear-manufacturing-mistakes` | **CREATE** | PLANNED | 1 | High value. |
+| 60 | Common Streetwear Manufacturing Mistakes | `/learn/common-streetwear-manufacturing-mistakes` | **CREATE** | **REVIEW** | 1 | High value. Implemented Phase 2 Batch 1. |
 
 ---
 
@@ -209,15 +209,15 @@ Before the content matrix, every proposed topic was checked against the **76 exi
 | # | Title | URL | Decision | Status | Phase | Notes |
 |---|---|---|---|---|---|---|
 | 61 | What Does Low MOQ Mean in Clothing Manufacturing? | `/learn/what-does-low-moq-mean` | **CREATE** | **REVIEW** | 1 | Implemented. Audit: pass. |
-| 62 | How Low MOQ Clothing Production Works | `/learn/how-low-moq-clothing-production-works` | **CREATE** | PLANNED | 2 | Medium overlap risk. Must differentiate from #61 and commercial pages. |
-| 63 | How Many Units Should a New Fashion Brand Produce? | `/learn/how-many-units-for-new-fashion-brand` | **CREATE** | PLANNED | 1 | High value. |
-| 64 | Low MOQ vs Bulk Manufacturing: What Changes? | `/learn/low-moq-vs-bulk-manufacturing` | **CREATE** | PLANNED | 1 | High value. |
+| 62 | How Low MOQ Clothing Production Works | `/learn/how-low-moq-clothing-production-works` | **CREATE** | **REVIEW** | 1 | High value. Implemented Phase 2 Batch 1. |
+| 63 | How Many Units Should a New Fashion Brand Produce? | `/learn/how-many-units-for-new-fashion-brand` | **CREATE** | **REVIEW** | 1 | High value. Implemented Phase 2 Batch 1. |
+| 64 | Low MOQ vs Bulk Manufacturing: What Changes? | `/learn/low-moq-vs-bulk-manufacturing` | **CREATE** | **REVIEW** | 1 | High value. Implemented Phase 2 Batch 1. |
 | 65 | How Startups Can Prepare for Their First Production Run | `/learn/startups-prepare-for-first-production-run` | **CREATE** | **REVIEW** | 1 | Implemented. Audit: pass. |
-| 66 | How to Reduce Risk When Launching a Clothing Collection | `/learn/reduce-risk-when-launching-clothing-collection` | **CREATE** | PLANNED | 1 | High value. |
+| 66 | How to Reduce Risk When Launching a Clothing Collection | `/learn/reduce-risk-when-launching-clothing-collection` | **CREATE** | **REVIEW** | 1 | High value. Implemented Phase 2 Batch 1. |
 | 67 | Clothing Manufacturing for Small Fashion Brands | `/learn/clothing-manufacturing-for-small-fashion-brands` | **REJECT** | **REJECTED** | — | Adequately covered by existing commercial pages. Do not create. |
-| 68 | How to Plan a Small-Batch Apparel Launch | `/learn/how-to-plan-small-batch-apparel-launch` | **CREATE** | PLANNED | 2 | |
+| 68 | How to Plan a Small-Batch Apparel Launch | `/learn/how-to-plan-small-batch-apparel-launch` | **CREATE** | **REVIEW** | 2 | Implemented Batch 6. |
 | 69 | What Does a Clothing Manufacturer Need From a Startup? | `/learn/what-clothing-manufacturer-needs-from-startup` | **MERGE** | **MERGED** | — | Merge into #6. Add startup-specific section to that article. |
-| 70 | How to Scale Clothing Production After a Successful First Run | `/learn/how-to-scale-clothing-production` | **CREATE** | PLANNED | 1 | High value. |
+| 70 | How to Scale Clothing Production After a Successful First Run | `/learn/how-to-scale-clothing-production` | **CREATE** | **REVIEW** | 1 | High value. Implemented Phase 2 Batch 1. |
 
 ---
 
@@ -226,15 +226,15 @@ Before the content matrix, every proposed topic was checked against the **76 exi
 | # | Title | URL | Decision | Status | Phase | Notes |
 |---|---|---|---|---|---|---|
 | 71 | Apparel Quality Control Explained | `/learn/apparel-quality-control-explained` | **CREATE** | PLANNED | 1 | High value. |
-| 72 | What Should Be Checked During Clothing Production? | `/learn/what-to-check-during-clothing-production` | **CREATE** | PLANNED | 1 | High value. |
-| 73 | Pre-Production Quality Checks for Fashion Brands | `/learn/pre-production-quality-checks` | **CREATE** | PLANNED | 1 | High value. |
-| 74 | In-Line Quality Control in Garment Manufacturing | `/learn/in-line-quality-control-garment-manufacturing` | **CREATE** | PLANNED | 1 | High value. |
-| 75 | Final Inspection for Finished Garments | `/learn/final-inspection-finished-garments` | **CREATE** | PLANNED | 1 | High value. |
-| 76 | Common Clothing Quality Problems and Their Causes | `/learn/common-clothing-quality-problems` | **CREATE** | PLANNED | 1 | High value. |
-| 77 | How Fashion Brands Can Create a Garment Quality Checklist | `/learn/garment-quality-checklist-for-brands` | **CREATE** | PLANNED | 1 | High value. |
+| 72 | What Should Be Checked During Clothing Production? | `/learn/what-to-check-during-clothing-production` | **CREATE** | **REVIEW** | 1 | High value. Implemented Batch 5. |
+| 73 | Pre-Production Quality Checks for Fashion Brands | `/learn/pre-production-quality-checks` | **CREATE** | **REVIEW** | 1 | High value. Implemented Batch 5. |
+| 74 | In-Line Quality Control in Garment Manufacturing | `/learn/in-line-quality-control-garment-manufacturing` | **CREATE** | **REVIEW** | 1 | High value. Implemented Batch 5. |
+| 75 | Final Inspection for Finished Garments | `/learn/final-inspection-finished-garments` | **CREATE** | **REVIEW** | 1 | High value. Implemented Batch 5. |
+| 76 | Common Clothing Quality Problems and Their Causes | `/learn/common-clothing-quality-problems` | **CREATE** | **REVIEW** | 1 | High value. Implemented Batch 5. |
+| 77 | How Fashion Brands Can Create a Garment Quality Checklist | `/learn/garment-quality-checklist-for-brands` | **CREATE** | **REVIEW** | 1 | High value. Implemented Batch 5. |
 | 78 | What Is AQL in Apparel Quality Control? | `/learn/what-is-aql-in-apparel-quality-control` | **CREATE** | **REVIEW** | 1 | Implemented. Audit: pass. |
-| 79 | How to Inspect Garment Measurements | `/learn/how-to-inspect-garment-measurements` | **CREATE** | PLANNED | 2 | |
-| 80 | How to Reduce Defects in Apparel Production | `/learn/how-to-reduce-defects-in-apparel-production` | **CREATE** | PLANNED | 1 | High value. |
+| 79 | How to Inspect Garment Measurements | `/learn/how-to-inspect-garment-measurements` | **CREATE** | **REVIEW** | 2 | Implemented Batch 6. |
+| 80 | How to Reduce Defects in Apparel Production | `/learn/how-to-reduce-defects-in-apparel-production` | **CREATE** | **REVIEW** | 1 | High value. Implemented Batch 5. |
 
 ---
 
@@ -244,14 +244,14 @@ Before the content matrix, every proposed topic was checked against the **76 exi
 |---|---|---|---|---|---|---|
 | 81 | How to Find a Reliable Clothing Manufacturer | `/learn/how-to-find-a-reliable-clothing-manufacturer` | **CREATE** | **REVIEW** | 1 | Implemented. Audit: pass. |
 | 82 | Questions to Ask an Apparel Manufacturer Before Working Together | `/learn/questions-to-ask-an-apparel-manufacturer` | **CREATE** | **REVIEW** | 1 | Implemented. Audit: pass. |
-| 83 | How to Compare Clothing Manufacturers | `/learn/how-to-compare-clothing-manufacturers` | **CREATE** | PLANNED | 2 | |
-| 84 | What Should Be Included in an Apparel Manufacturing Quote? | `/learn/what-should-be-in-an-apparel-manufacturing-quote` | **CREATE** | PLANNED | 1 | High value. |
+| 83 | How to Compare Clothing Manufacturers | `/learn/how-to-compare-clothing-manufacturers` | **CREATE** | **REVIEW** | 2 | Implemented Batch 6. |
+| 84 | What Should Be Included in an Apparel Manufacturing Quote? | `/learn/what-should-be-in-an-apparel-manufacturing-quote` | **CREATE** | **REVIEW** | 1 | High value. Implemented Batch 6. |
 | 85 | How to Evaluate an Overseas Clothing Manufacturer | `/learn/how-to-evaluate-an-overseas-clothing-manufacturer` | **CREATE** | **REVIEW** | 1 | Implemented. Audit: pass. |
 | 86 | Clothing Manufacturer Due Diligence Checklist | `/learn/clothing-manufacturer-due-diligence-checklist` | **CREATE** | **REVIEW** | 1 | Implemented. **BUG: `breadcrumbsJsonLd` declared after return statement — must fix.** |
-| 87 | Direct Manufacturer vs Sourcing Agent | `/learn/direct-manufacturer-vs-sourcing-agent` | **CREATE** | PLANNED | 1 | High value. Overlaps with #4 — different angle (channel decision). |
-| 88 | How Fashion Brands Should Communicate With Overseas Suppliers | `/learn/how-to-communicate-with-overseas-suppliers` | **CREATE** | PLANNED | 2 | |
-| 89 | Warning Signs of a Poor Apparel Manufacturing Partner | `/learn/warning-signs-of-poor-apparel-manufacturer` | **CREATE** | PLANNED | 1 | High value. |
-| 90 | How to Build a Long-Term Relationship With a Clothing Manufacturer | `/learn/build-long-term-relationship-clothing-manufacturer` | **CREATE** | PLANNED | 3 | |
+| 87 | Direct Manufacturer vs Sourcing Agent | `/learn/direct-manufacturer-vs-sourcing-agent` | **CREATE** | **REVIEW** | 1 | High value. Implemented Batch 6. |
+| 88 | How Fashion Brands Should Communicate With Overseas Suppliers | `/learn/how-to-communicate-with-overseas-suppliers` | **CREATE** | **REVIEW** | 2 | Implemented Batch 6. |
+| 89 | Warning Signs of a Poor Apparel Manufacturing Partner | `/learn/warning-signs-of-poor-apparel-manufacturer` | **CREATE** | **REVIEW** | 1 | High value. Implemented Batch 6. |
+| 90 | How to Build a Long-Term Relationship With a Clothing Manufacturer | `/learn/build-long-term-relationship-clothing-manufacturer` | **CREATE** | **REVIEW** | 3 | Implemented Batch 6. |
 
 ---
 
@@ -259,14 +259,14 @@ Before the content matrix, every proposed topic was checked against the **76 exi
 
 | # | Title | URL | Decision | Status | Phase | Notes |
 |---|---|---|---|---|---|---|
-| 91 | How Apparel Manufacturing in Bangladesh Works | `/learn/how-apparel-manufacturing-in-bangladesh-works` | **CREATE** | PLANNED | 2 | #96 MERGE target. No fabricated statistics. |
+| 91 | How Apparel Manufacturing in Bangladesh Works | `/learn/how-apparel-manufacturing-in-bangladesh-works` | **CREATE** | **REVIEW** | 2 | #96 MERGE target. Implemented Batch 6. |
 | 92 | Why Fashion Brands Source Clothing From Bangladesh | `/learn/why-fashion-brands-source-from-bangladesh` | **REJECT** | **REJECTED** | — | Substantially covered by `/why-manufacture-apparel-in-bangladesh`. Do not create. |
 | 93 | Bangladesh vs China for Apparel Manufacturing | `/learn/bangladesh-vs-china-apparel-manufacturing` | **REJECT** | **REJECTED** | — | Exact duplicate of `/bangladesh-vs-china-garment-manufacturing`. Do not create. |
 | 94 | Bangladesh vs Vietnam for Apparel Manufacturing | `/learn/bangladesh-vs-vietnam-apparel-manufacturing` | **REJECT** | **REJECTED** | — | Exact duplicate of `/bangladesh-vs-vietnam-garment-manufacturing`. Do not create. |
-| 95 | What Fashion Brands Should Know Before Sourcing From Bangladesh | `/learn/what-to-know-before-sourcing-from-bangladesh` | **CREATE** | PLANNED | 2 | Must be meaningfully differentiated as pre-sourcing prep. |
+| 95 | What Fashion Brands Should Know Before Sourcing From Bangladesh | `/learn/what-to-know-before-sourcing-from-bangladesh` | **CREATE** | **REVIEW** | 2 | Implemented Batch 6. |
 | 96 | Apparel Sourcing in Bangladesh: A Beginner's Guide | `/learn/apparel-sourcing-bangladesh-beginners-guide` | **MERGE** | **MERGED** | — | Merge into #91. Do not create standalone URL. |
-| 97 | How International Clothing Production Is Coordinated | `/learn/how-international-clothing-production-is-coordinated` | **CREATE** | PLANNED | 2 | |
-| 98 | What Happens After Clothing Is Manufactured Overseas? | `/learn/what-happens-after-clothing-manufactured-overseas` | **CREATE** | PLANNED | 1 | High value. |
+| 97 | How International Clothing Production Is Coordinated | `/learn/how-international-clothing-production-is-coordinated` | **CREATE** | **REVIEW** | 2 | Implemented Batch 6. |
+| 98 | What Happens After Clothing Is Manufactured Overseas? | `/learn/what-happens-after-clothing-manufactured-overseas` | **CREATE** | **REVIEW** | 1 | High value. Implemented Batch 6. |
 | 99 | Importing Finished Garments: A Beginner's Guide | `/learn/importing-finished-garments-beginners-guide` | **CREATE** | PLANNED | 3 | Create as hub page linking to existing country-specific import guides only. No tariff claims. |
 | 100 | A Complete Checklist for Starting Overseas Apparel Production | `/learn/overseas-apparel-production-checklist` | **CREATE** | **REVIEW** | 1 | Implemented. Audit: pass. |
 
