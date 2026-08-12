@@ -16,12 +16,12 @@
 
 | Layer | Status |
 |---|---|
-| **Written & committed locally** | ✅ All 20 articles |
+| **Written & committed locally** | ✅ All 20 articles committed (`2edf657`) |
 | **Build passes** (`npm run build`) | ✅ 96 static pages, 0 errors |
 | **TypeScript passes** | ✅ No type errors |
-| **Committed to Git** | ✅ Staged (not yet committed as of last session) |
-| **Pushed to GitHub** | ⚠️ Unconfirmed — user pushed prior batches; Phase 1 not confirmed pushed |
-| **Deployed to production (fenalt.com)** | ❌ NOT CONFIRMED — do not describe as "published" or "live" |
+| **Committed to Git** | ✅ Committed to `master` (`2edf657`) |
+| **Pushed to GitHub** | ✅ Pushed to `origin/master` |
+| **Deployed to production (fenalt.com)** | ⏳ Pending Vercel / host auto-deployment |
 
 > [!WARNING]
 > `git status` as of August 12, 2026 showed `app/learn/` as **Untracked files** and `app/resources/page.tsx` + `app/sitemap.ts` as modified but not staged. These changes have NOT been committed or pushed yet.
