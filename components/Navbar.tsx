@@ -133,6 +133,12 @@ export default function Navbar() {
                 Operations
               </Link>
               <Link
+                href="/resources"
+                className="text-sm font-medium text-[#6B6560] hover:text-[#1A1A1A] transition-colors duration-200 tracking-wide uppercase"
+              >
+                Resources
+              </Link>
+              <Link
                 href="/mission"
                 className="text-sm font-medium text-[#6B6560] hover:text-[#1A1A1A] transition-colors duration-200 tracking-wide uppercase"
               >

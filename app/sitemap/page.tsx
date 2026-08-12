@@ -45,6 +45,7 @@ export default function HTMLSitemapPage() {
         { href: "/", label: "Homepage — B2B Apparel Manufacturing Platform" },
         { href: "/capabilities", label: "Capabilities — End-to-End Production & Sourcing" },
         { href: "/operations", label: "Operations — Quality Control & Freight Logistics" },
+        { href: "/resources", label: "Resources Hub — Sourcing Guides & Trade Base" },
         { href: "/mission", label: "Our Mission — Sustainable & Ethical Supply Chain" },
         { href: "/contact", label: "Contact Us — Dhaka Headquarters & Inquiries" },
         { href: "/intake", label: "Start a Project — Project Submission Form" },
