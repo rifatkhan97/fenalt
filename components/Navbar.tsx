@@ -4,10 +4,11 @@ import Link from "next/link";
 import Image from "next/image";
 import { useState, useEffect } from "react";
 import { usePathname } from "next/navigation";
-import { Menu, X } from "lucide-react";
+import { Menu, X, ChevronDown, Globe, ArrowRight } from "lucide-react";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
+  const [servicesOpen, setServicesOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const pathname = usePathname() || "/";
 
@@ -33,19 +34,34 @@ export default function Navbar() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const navLinks = [
-    { href: "/", label: "Home" },
-    { href: "/capabilities", label: "Capabilities" },
-    { href: "/operations", label: "Operations" },
-    { href: "/mission", label: "Our Mission" },
+  // Lock background scroll when mobile menu is open
+  useEffect(() => {
+    if (isOpen) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "";
+    }
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, [isOpen]);
+
+  const serviceLinks = [
+    { href: "/low-moq-apparel-manufacturing", label: isGerman ? "Low-MOQ Produktion" : "Low MOQ Apparel Manufacturing" },
+    { href: "/small-batch-clothing-manufacturer", label: isGerman ? "Kleines Batch-Hersteller" : "Small Batch Manufacturing" },
+    { href: "/boutique-clothing-manufacturer", label: isGerman ? "Boutique-Bekleidung" : "Boutique Clothing Manufacturing" },
+    { href: "/streetwear-manufacturing", label: isGerman ? "Streetwear Produktion" : "Streetwear Manufacturing" },
+    { href: "/hoodie-manufacturing", label: isGerman ? "Hoodie & Fleece Produktion" : "Hoodie & Fleece Manufacturing" },
+    { href: "/clothing-manufacturer-bangladesh", label: isGerman ? "Bekleidungshersteller Bangladesh" : "Clothing Manufacturer Bangladesh" },
+    { href: "/sitemap", label: isGerman ? "Alle Services (Sitemap)" : "All Services & Directory" },
   ];
 
   return (
     <>
       <nav
         className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-          scrolled
-            ? "bg-[#FAF9F6]/95 backdrop-blur-md shadow-sm border-b border-[#E5DDD3]"
+          scrolled || isOpen
+            ? "bg-[#FAF9F6] backdrop-blur-md shadow-sm border-b border-[#E5DDD3]"
             : "bg-transparent"
         }`}
       >
@@ -77,52 +93,26 @@ export default function Navbar() {
               >
                 Capabilities
               </Link>
-              
-              {/* Manufacturing Services Dropdown */}
+
+              {/* Services Dropdown (Desktop) */}
               <div className="relative group">
                 <button className="text-sm font-medium text-[#6B6560] group-hover:text-[#1A1A1A] transition-colors duration-200 tracking-wide uppercase flex items-center gap-1 py-2">
                   Services
+                  <ChevronDown size={14} className="group-hover:rotate-180 transition-transform duration-200" />
                 </button>
                 <div className="absolute left-0 top-full hidden group-hover:block w-72 bg-[#FAF9F6] border border-[#E5DDD3] shadow-lg py-3 px-4 space-y-2 z-50">
                   <p className="text-[10px] font-semibold uppercase tracking-widest text-[#C8A882] px-2 mb-1">
                     Manufacturing Categories
                   </p>
-                  <Link
-                    href="/low-moq-apparel-manufacturing"
-                    className="block px-2 py-1.5 text-xs text-[#1A1A1A] hover:bg-[#F2EFE9] hover:text-[#2D5016] transition-colors font-medium"
-                  >
-                    Low MOQ Apparel Manufacturing
-                  </Link>
-                  <Link
-                    href="/small-batch-clothing-manufacturer"
-                    className="block px-2 py-1.5 text-xs text-[#1A1A1A] hover:bg-[#F2EFE9] hover:text-[#2D5016] transition-colors font-medium"
-                  >
-                    Small Batch Manufacturing
-                  </Link>
-                  <Link
-                    href="/boutique-clothing-manufacturer"
-                    className="block px-2 py-1.5 text-xs text-[#1A1A1A] hover:bg-[#F2EFE9] hover:text-[#2D5016] transition-colors font-medium"
-                  >
-                    Boutique Clothing Manufacturing
-                  </Link>
-                  <Link
-                    href="/streetwear-manufacturing"
-                    className="block px-2 py-1.5 text-xs text-[#1A1A1A] hover:bg-[#F2EFE9] hover:text-[#2D5016] transition-colors font-medium"
-                  >
-                    Streetwear Manufacturing
-                  </Link>
-                  <Link
-                    href="/hoodie-manufacturing"
-                    className="block px-2 py-1.5 text-xs text-[#1A1A1A] hover:bg-[#F2EFE9] hover:text-[#2D5016] transition-colors font-medium"
-                  >
-                    Hoodie &amp; Fleece Manufacturing
-                  </Link>
-                  <Link
-                    href="/clothing-manufacturer-bangladesh"
-                    className="block px-2 py-1.5 text-xs text-[#1A1A1A] hover:bg-[#F2EFE9] hover:text-[#2D5016] transition-colors font-medium"
-                  >
-                    Clothing Manufacturer Bangladesh
-                  </Link>
+                  {serviceLinks.map((link, idx) => (
+                    <Link
+                      key={idx}
+                      href={link.href}
+                      className="block px-2 py-1.5 text-xs text-[#1A1A1A] hover:bg-[#F2EFE9] hover:text-[#2D5016] transition-colors font-medium"
+                    >
+                      {link.label}
+                    </Link>
+                  ))}
                 </div>
               </div>
 
@@ -180,42 +170,154 @@ export default function Navbar() {
             {/* Mobile Menu Button */}
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="lg:hidden text-[#1A1A1A] p-2"
-              aria-label="Toggle menu"
+              className="lg:hidden text-[#1A1A1A] p-2 focus:outline-none"
+              aria-label="Toggle mobile menu"
             >
-              {isOpen ? <X size={22} /> : <Menu size={22} />}
+              {isOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
           </div>
         </div>
 
-        {/* Mobile Menu */}
+        {/* Mobile Navigation Drawer */}
         <div
-          className={`lg:hidden transition-all duration-300 overflow-hidden ${
-            isOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
-          } bg-[#FAF9F6] border-t border-[#E5DDD3]`}
+          className={`lg:hidden transition-all duration-300 overflow-y-auto ${
+            isOpen ? "max-h-[calc(100vh-4rem)] opacity-100 py-6" : "max-h-0 opacity-0 py-0"
+          } bg-[#FAF9F6] border-t border-[#E5DDD3] px-6 shadow-2xl`}
         >
-          <div className="px-6 py-6 flex flex-col gap-5">
-            {navLinks.map((link) => (
-              <Link
-                key={link.href}
-                href={link.href}
-                onClick={() => setIsOpen(false)}
-                className="text-base font-medium text-[#6B6560] hover:text-[#1A1A1A] transition-colors uppercase tracking-wide"
+          <div className="flex flex-col space-y-4">
+            {/* Primary Nav Links */}
+            <Link
+              href="/"
+              onClick={() => setIsOpen(false)}
+              className="text-lg font-display font-medium text-[#1A1A1A] hover:text-[#2D5016] transition-colors py-2 border-b border-[#E5DDD3]/60 flex items-center justify-between"
+            >
+              <span>Home</span>
+              <ArrowRight size={16} className="text-[#C8A882]" />
+            </Link>
+
+            <Link
+              href="/capabilities"
+              onClick={() => setIsOpen(false)}
+              className="text-lg font-display font-medium text-[#1A1A1A] hover:text-[#2D5016] transition-colors py-2 border-b border-[#E5DDD3]/60 flex items-center justify-between"
+            >
+              <span>Capabilities</span>
+              <ArrowRight size={16} className="text-[#C8A882]" />
+            </Link>
+
+            {/* Mobile Services Accordion */}
+            <div className="border-b border-[#E5DDD3]/60 pb-2">
+              <button
+                onClick={() => setServicesOpen(!servicesOpen)}
+                className="w-full text-lg font-display font-medium text-[#1A1A1A] hover:text-[#2D5016] transition-colors py-2 flex items-center justify-between"
               >
-                {link.label}
+                <span>Services</span>
+                <ChevronDown
+                  size={18}
+                  className={`text-[#C8A882] transition-transform duration-200 ${
+                    servicesOpen ? "rotate-180" : ""
+                  }`}
+                />
+              </button>
+
+              <div
+                className={`transition-all duration-200 overflow-hidden pl-4 space-y-3 ${
+                  servicesOpen ? "max-h-96 py-2" : "max-h-0"
+                }`}
+              >
+                {serviceLinks.map((link, idx) => (
+                  <Link
+                    key={idx}
+                    href={link.href}
+                    onClick={() => setIsOpen(false)}
+                    className="block text-sm text-[#6B6560] hover:text-[#2D5016] transition-colors py-1"
+                  >
+                    {link.label}
+                  </Link>
+                ))}
+              </div>
+            </div>
+
+            <Link
+              href="/operations"
+              onClick={() => setIsOpen(false)}
+              className="text-lg font-display font-medium text-[#1A1A1A] hover:text-[#2D5016] transition-colors py-2 border-b border-[#E5DDD3]/60 flex items-center justify-between"
+            >
+              <span>Operations</span>
+              <ArrowRight size={16} className="text-[#C8A882]" />
+            </Link>
+
+            <Link
+              href="/resources"
+              onClick={() => setIsOpen(false)}
+              className="text-lg font-display font-medium text-[#1A1A1A] hover:text-[#2D5016] transition-colors py-2 border-b border-[#E5DDD3]/60 flex items-center justify-between"
+            >
+              <span>Resources Hub</span>
+              <ArrowRight size={16} className="text-[#C8A882]" />
+            </Link>
+
+            <Link
+              href="/mission"
+              onClick={() => setIsOpen(false)}
+              className="text-lg font-display font-medium text-[#1A1A1A] hover:text-[#2D5016] transition-colors py-2 border-b border-[#E5DDD3]/60 flex items-center justify-between"
+            >
+              <span>Our Mission</span>
+              <ArrowRight size={16} className="text-[#C8A882]" />
+            </Link>
+
+            {/* Language Switcher in Mobile Drawer */}
+            <div className="pt-4 pb-2">
+              <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-widest text-[#6B6560] mb-3">
+                <Globe size={14} className="text-[#C8A882]" />
+                <span>Region / Language</span>
+              </div>
+              <div className="grid grid-cols-2 gap-3">
+                <Link
+                  href={getLanguageLink("en")}
+                  onClick={() => setIsOpen(false)}
+                  className={`px-4 py-2.5 text-center text-xs font-semibold tracking-wider uppercase border transition-colors ${
+                    !isGerman
+                      ? "bg-[#1A1A1A] text-[#FAF9F6] border-[#1A1A1A]"
+                      : "bg-[#F2EFE9] text-[#1A1A1A] border-[#E5DDD3] hover:border-[#1A1A1A]"
+                  }`}
+                >
+                  English (EN)
+                </Link>
+                <Link
+                  href={getLanguageLink("de")}
+                  onClick={() => setIsOpen(false)}
+                  className={`px-4 py-2.5 text-center text-xs font-semibold tracking-wider uppercase border transition-colors ${
+                    isGerman
+                      ? "bg-[#2D5016] text-[#FAF9F6] border-[#2D5016]"
+                      : "bg-[#F2EFE9] text-[#1A1A1A] border-[#E5DDD3] hover:border-[#2D5016]"
+                  }`}
+                >
+                  Deutsch (DE)
+                </Link>
+              </div>
+            </div>
+
+            {/* Primary Action Button inside Drawer */}
+            <div className="pt-4 pb-6">
+              <Link
+                href="/intake"
+                onClick={() => setIsOpen(false)}
+                className="w-full inline-flex items-center justify-center gap-2 px-6 py-4 bg-[#1A1A1A] text-[#FAF9F6] text-sm font-semibold tracking-wide hover:bg-[#2D5016] transition-colors duration-300 shadow-md"
+              >
+                {isGerman ? "Projekt Starten" : "Start Your Project"}
+                <ArrowRight size={16} />
               </Link>
-            ))}
+            </div>
           </div>
         </div>
       </nav>
 
-      {/* Sticky Mobile CTA */}
-      <div className="lg:hidden fixed bottom-0 left-0 right-0 z-50 p-4 bg-[#FAF9F6] border-t border-[#E5DDD3]">
+      {/* Sticky Mobile Bottom CTA Bar */}
+      <div className="lg:hidden fixed bottom-0 left-0 right-0 z-40 p-4 bg-[#FAF9F6]/95 backdrop-blur-md border-t border-[#E5DDD3] shadow-lg">
         <Link
           href="/intake"
           className="block w-full text-center px-5 py-3.5 bg-[#1A1A1A] text-[#FAF9F6] text-sm font-semibold tracking-wide hover:bg-[#2D5016] transition-colors duration-300"
         >
-          Start Your Project
+          {isGerman ? "Projekt Starten" : "Start Your Project"}
         </Link>
       </div>
     </>
