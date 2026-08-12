@@ -1,18 +1,33 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { ArrowRight, Map, ShieldCheck, Factory, Layers, Store, Globe, FileText } from "lucide-react";
+import {
+  ArrowRight,
+  Map,
+  ShieldCheck,
+  Factory,
+  Layers,
+  Store,
+  Globe,
+  FileText,
+  Leaf,
+  Scissors,
+  Users,
+  Compass,
+  TrendingUp,
+  Languages,
+} from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "HTML Sitemap & Page Directory | Fenalt",
+  title: "HTML Sitemap & Complete Website Directory | Fenalt",
   description:
-    "Complete human-readable sitemap and page directory for Fenalt. Explore our apparel manufacturing capabilities, low MOQ services, and global operations.",
+    "Complete human-readable HTML sitemap and website directory for Fenalt. Explore all commercial apparel manufacturing services, boutique solutions, and trade guides.",
   alternates: {
     canonical: "https://fenalt.com/sitemap",
   },
   openGraph: {
-    title: "HTML Sitemap & Page Directory | Fenalt",
+    title: "HTML Sitemap & Complete Website Directory | Fenalt",
     description:
-      "Complete human-readable sitemap and page directory for Fenalt. Explore our apparel manufacturing capabilities, low MOQ services, and global operations.",
+      "Complete human-readable HTML sitemap and website directory for Fenalt. Explore all commercial apparel manufacturing services, boutique solutions, and trade guides.",
     url: "https://fenalt.com/sitemap",
   },
 };
@@ -53,22 +68,13 @@ export default function HTMLSitemapPage() {
     },
     {
       icon: Layers,
-      title: "Commercial Manufacturing Services",
+      title: "Commercial & Low MOQ Manufacturing",
       links: [
         { href: "/low-moq-apparel-manufacturing", label: "Low MOQ Apparel Manufacturing (From 50 Units)" },
         { href: "/streetwear-manufacturing", label: "Custom Streetwear Manufacturing (Heavyweight Fleece)" },
         { href: "/clothing-manufacturer-bangladesh", label: "Managed Clothing Manufacturing in Bangladesh" },
         { href: "/hoodie-manufacturing", label: "Custom Hoodie & Sweatshirt Manufacturing" },
-        { href: "/custom-streetwear-manufacturer-bangladesh", label: "Custom Streetwear Manufacturer Bangladesh" },
-        { href: "/sweatshirt-manufacturer-bangladesh", label: "Sweatshirt Manufacturer Bangladesh" },
         { href: "/cut-and-sew-clothing-manufacturer-bangladesh", label: "Cut & Sew Clothing Manufacturer Bangladesh" },
-        { href: "/private-label-streetwear-manufacturer", label: "Private Label Streetwear Manufacturer" },
-        { href: "/sustainable-streetwear-manufacturing", label: "Sustainable Streetwear Manufacturing" },
-        { href: "/apparel-pattern-making-services", label: "Apparel Pattern Making Services" },
-        { href: "/clothing-manufacturer-luxury-brands", label: "Clothing Manufacturer for Luxury Brands" },
-        { href: "/custom-embroidery-apparel-manufacturing", label: "Custom Embroidery Apparel Manufacturing" },
-        { href: "/eu-apparel-import-considerations", label: "EU Apparel Import Considerations" },
-        { href: "/garment-packaging-custom-labeling-services", label: "Garment Packaging & Custom Labeling Services" },
       ],
     },
     {
@@ -83,7 +89,94 @@ export default function HTMLSitemapPage() {
       ],
     },
     {
+      icon: Users,
+      title: "Startups & Fashion Brand Personas",
+      links: [
+        { href: "/clothing-manufacturer-for-startups", label: "Clothing Manufacturer for Startups" },
+        { href: "/apparel-sampling-services-startups", label: "Apparel Sampling Services for Startups" },
+        { href: "/clothing-production-for-instagram-brands", label: "Clothing Production for Instagram Brands" },
+        { href: "/manufacturing-partner-new-designers", label: "Manufacturing Partner for New Designers" },
+        { href: "/custom-clothing-manufacturer-small-businesses", label: "Custom Clothing Manufacturer for Small Businesses" },
+        { href: "/private-label-streetwear-manufacturer", label: "Private Label Streetwear Manufacturer" },
+        { href: "/clothing-manufacturer-luxury-brands", label: "Clothing Manufacturer for Luxury Brands" },
+      ],
+    },
+    {
+      icon: Scissors,
+      title: "Product Categories & Garment Specs",
+      links: [
+        { href: "/puff-print-hoodie-manufacturer", label: "Puff Print Hoodie Manufacturer" },
+        { href: "/heavyweight-cotton-t-shirt-manufacturer", label: "Heavyweight Cotton T-Shirt Manufacturer" },
+        { href: "/denim-jeans-manufacturer-bangladesh", label: "Denim Jeans Manufacturer Bangladesh" },
+        { href: "/activewear-manufacturing-bangladesh", label: "Activewear Manufacturing Bangladesh" },
+        { href: "/outerwear-manufacturing-bangladesh", label: "Outerwear Manufacturing Bangladesh" },
+        { href: "/knitwear-manufacturing-bangladesh", label: "Knitwear Manufacturing Bangladesh" },
+        { href: "/sweatshirt-manufacturer-bangladesh", label: "Sweatshirt Manufacturer Bangladesh" },
+        { href: "/custom-streetwear-manufacturer-bangladesh", label: "Custom Streetwear Manufacturer Bangladesh" },
+      ],
+    },
+    {
+      icon: FileText,
+      title: "Technical Production & Finishing Services",
+      links: [
+        { href: "/apparel-sampling-services", label: "Professional Apparel Sampling Services" },
+        { href: "/tech-pack-development-apparel", label: "Tech Pack Development for Apparel" },
+        { href: "/apparel-production-management", label: "Apparel Production Management Services" },
+        { href: "/garment-quality-control-services", label: "Garment Quality Control Services" },
+        { href: "/overseas-production-management-apparel", label: "Overseas Production Management for Apparel" },
+        { href: "/apparel-pattern-making-services", label: "Apparel Pattern Making Services" },
+        { href: "/custom-embroidery-apparel-manufacturing", label: "Custom Embroidery Apparel Manufacturing" },
+        { href: "/garment-packaging-custom-labeling-services", label: "Garment Packaging & Custom Labeling Services" },
+      ],
+    },
+    {
+      icon: Compass,
+      title: "Bangladesh Sourcing & Ground Operations",
+      links: [
+        { href: "/garment-sourcing-agent-bangladesh", label: "Garment Sourcing Agent Bangladesh" },
+        { href: "/fabric-sourcing-bangladesh", label: "Fabric Sourcing Bangladesh" },
+        { href: "/ethical-clothing-manufacturing-bangladesh", label: "Ethical Clothing Manufacturing Bangladesh" },
+        { href: "/factory-quality-control-bangladesh", label: "Factory Quality Control Bangladesh" },
+        { href: "/buying-sourcing-partner-bangladesh", label: "Buying & Sourcing Partner Bangladesh" },
+      ],
+    },
+    {
+      icon: Leaf,
+      title: "Sustainability & Circular Textiles",
+      links: [
+        { href: "/sustainable-apparel-manufacturing-bangladesh", label: "Sustainable Apparel Manufacturing Bangladesh" },
+        { href: "/organic-cotton-clothing-manufacturing", label: "Organic Cotton Clothing Manufacturing" },
+        { href: "/circular-fashion-manufacturing", label: "Circular Fashion Manufacturing" },
+        { href: "/sustainable-textile-sourcing", label: "Sustainable Textile Sourcing" },
+        { href: "/recycled-polyester-garment-sourcing", label: "Recycled Polyester Garment Sourcing" },
+        { href: "/sustainable-streetwear-manufacturing", label: "Sustainable Streetwear Manufacturing" },
+      ],
+    },
+    {
+      icon: TrendingUp,
+      title: "International Sourcing & Country Comparisons",
+      links: [
+        { href: "/bangladesh-vs-china-garment-manufacturing", label: "Bangladesh vs China Garment Manufacturing" },
+        { href: "/bangladesh-vs-vietnam-garment-manufacturing", label: "Bangladesh vs Vietnam Garment Manufacturing" },
+        { href: "/sourcing-garments-outside-china", label: "Sourcing Garments Outside China" },
+        { href: "/relocating-apparel-production-south-asia", label: "Relocating Apparel Production to South Asia" },
+        { href: "/why-manufacture-apparel-in-bangladesh", label: "Why Manufacture Apparel in Bangladesh" },
+      ],
+    },
+    {
       icon: Globe,
+      title: "Trade, Tariff & Import Guides",
+      links: [
+        { href: "/bangladesh-garment-rules-of-origin", label: "Bangladesh Garment Rules of Origin" },
+        { href: "/uk-apparel-import-considerations", label: "UK Apparel Import Considerations" },
+        { href: "/usa-apparel-import-considerations", label: "USA Apparel Import Considerations" },
+        { href: "/australia-canada-apparel-import-guide", label: "Australia & Canada Apparel Import Guide" },
+        { href: "/eu-apparel-import-considerations", label: "EU Apparel Import Considerations" },
+        { href: "/apparel-manufacturing-cost-considerations", label: "Apparel Manufacturing Cost Considerations" },
+      ],
+    },
+    {
+      icon: Languages,
       title: "Deutsche Bekleidungsproduktion (DACH)",
       links: [
         { href: "/de/bekleidungshersteller", label: "Bekleidungshersteller für europäische Modemarken" },
@@ -92,7 +185,7 @@ export default function HTMLSitemapPage() {
       ],
     },
     {
-      icon: FileText,
+      icon: ShieldCheck,
       title: "Legal & Compliance",
       links: [
         { href: "/privacy", label: "Privacy Policy" },
@@ -120,7 +213,7 @@ export default function HTMLSitemapPage() {
             <span className="italic font-medium text-[#2D5016]">Website Directory.</span>
           </h1>
           <p className="text-lg text-[#6B6560] leading-relaxed max-w-2xl">
-            Explore all public pages, commercial manufacturing services, specialized boutique solutions, and localized European production routes across the Fenalt platform.
+            Explore all public pages, commercial manufacturing services, specialized boutique solutions, technical guides, and localized European production routes across the Fenalt platform.
           </p>
         </div>
       </section>
@@ -182,9 +275,9 @@ export default function HTMLSitemapPage() {
           </p>
           <Link
             href="/intake"
-            className="inline-flex items-center justify-center gap-2 px-8 py-3.5 bg-[#1A1A1A] text-[#FAF9F6] text-sm font-semibold tracking-wide hover:bg-[#2D5016] transition-colors duration-300"
+            className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-[#1A1A1A] text-[#FAF9F6] text-sm font-semibold tracking-wide hover:bg-[#2D5016] transition-colors duration-300"
           >
-            Start Your Project <ArrowRight size={16} />
+            Start Project <ArrowRight size={16} />
           </Link>
         </div>
       </section>
