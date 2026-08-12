@@ -434,6 +434,56 @@ export default function CapabilitiesPage() {
         </div>
       </section>
 
+      {/* ─── Specialized Manufacturing Clusters ───────────── */}
+      <section className="py-20 bg-[#F2EFE9] border-t border-[#E5DDD3]">
+        <div className="max-w-7xl mx-auto px-6 lg:px-8">
+          <p className="text-xs font-semibold uppercase tracking-[0.25em] text-[#C8A882] mb-4">
+            Specialized Solutions
+          </p>
+          <h2 className="font-display text-3xl lg:text-5xl font-light text-[#1A1A1A] mb-12">
+            Production Tailored by Brand Type
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <Link
+              href="/boutique-clothing-manufacturer"
+              className="p-6 bg-[#FAF9F6] border border-[#E5DDD3] hover:border-[#2D5016] transition-colors group"
+            >
+              <h3 className="font-display text-xl font-medium text-[#1A1A1A] group-hover:text-[#2D5016] flex items-center justify-between">
+                Boutique Manufacturing <ArrowRight size={16} />
+              </h3>
+              <p className="text-xs text-[#6B6560] mt-2">Custom apparel production for retail boutique stores.</p>
+            </Link>
+            <Link
+              href="/small-batch-clothing-manufacturer"
+              className="p-6 bg-[#FAF9F6] border border-[#E5DDD3] hover:border-[#2D5016] transition-colors group"
+            >
+              <h3 className="font-display text-xl font-medium text-[#1A1A1A] group-hover:text-[#2D5016] flex items-center justify-between">
+                Small Batch Production <ArrowRight size={16} />
+              </h3>
+              <p className="text-xs text-[#6B6560] mt-2">Controlled unit runs starting from 50 pieces.</p>
+            </Link>
+            <Link
+              href="/private-label-clothing-manufacturer-small-brands"
+              className="p-6 bg-[#FAF9F6] border border-[#E5DDD3] hover:border-[#2D5016] transition-colors group"
+            >
+              <h3 className="font-display text-xl font-medium text-[#1A1A1A] group-hover:text-[#2D5016] flex items-center justify-between">
+                Private Labeling <ArrowRight size={16} />
+              </h3>
+              <p className="text-xs text-[#6B6560] mt-2">Full custom neck labeling, hangtags, and packaging.</p>
+            </Link>
+            <Link
+              href="/clothing-manufacturer-independent-brands"
+              className="p-6 bg-[#FAF9F6] border border-[#E5DDD3] hover:border-[#2D5016] transition-colors group"
+            >
+              <h3 className="font-display text-xl font-medium text-[#1A1A1A] group-hover:text-[#2D5016] flex items-center justify-between">
+                Independent Labels <ArrowRight size={16} />
+              </h3>
+              <p className="text-xs text-[#6B6560] mt-2">Dedicated sourcing for founder-led apparel brands.</p>
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* ─── Section 6: Pricing Transparency ────────────────── */}
       <section className="py-24 lg:py-32 bg-[#FAF9F6]">
         <div className="max-w-5xl mx-auto px-6 lg:px-8">

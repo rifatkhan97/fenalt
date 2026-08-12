@@ -65,15 +65,79 @@ export default function Navbar() {
 
             {/* Desktop Nav */}
             <div className="hidden lg:flex items-center gap-8">
-              {navLinks.map((link) => (
-                <Link
-                  key={link.href}
-                  href={link.href}
-                  className="text-sm font-medium text-[#6B6560] hover:text-[#1A1A1A] transition-colors duration-200 tracking-wide uppercase"
-                >
-                  {link.label}
-                </Link>
-              ))}
+              <Link
+                href="/"
+                className="text-sm font-medium text-[#6B6560] hover:text-[#1A1A1A] transition-colors duration-200 tracking-wide uppercase"
+              >
+                Home
+              </Link>
+              <Link
+                href="/capabilities"
+                className="text-sm font-medium text-[#6B6560] hover:text-[#1A1A1A] transition-colors duration-200 tracking-wide uppercase"
+              >
+                Capabilities
+              </Link>
+              
+              {/* Manufacturing Services Dropdown */}
+              <div className="relative group">
+                <button className="text-sm font-medium text-[#6B6560] group-hover:text-[#1A1A1A] transition-colors duration-200 tracking-wide uppercase flex items-center gap-1 py-2">
+                  Services
+                </button>
+                <div className="absolute left-0 top-full hidden group-hover:block w-72 bg-[#FAF9F6] border border-[#E5DDD3] shadow-lg py-3 px-4 space-y-2 z-50">
+                  <p className="text-[10px] font-semibold uppercase tracking-widest text-[#C8A882] px-2 mb-1">
+                    Manufacturing Categories
+                  </p>
+                  <Link
+                    href="/low-moq-apparel-manufacturing"
+                    className="block px-2 py-1.5 text-xs text-[#1A1A1A] hover:bg-[#F2EFE9] hover:text-[#2D5016] transition-colors font-medium"
+                  >
+                    Low MOQ Apparel Manufacturing
+                  </Link>
+                  <Link
+                    href="/small-batch-clothing-manufacturer"
+                    className="block px-2 py-1.5 text-xs text-[#1A1A1A] hover:bg-[#F2EFE9] hover:text-[#2D5016] transition-colors font-medium"
+                  >
+                    Small Batch Manufacturing
+                  </Link>
+                  <Link
+                    href="/boutique-clothing-manufacturer"
+                    className="block px-2 py-1.5 text-xs text-[#1A1A1A] hover:bg-[#F2EFE9] hover:text-[#2D5016] transition-colors font-medium"
+                  >
+                    Boutique Clothing Manufacturing
+                  </Link>
+                  <Link
+                    href="/streetwear-manufacturing"
+                    className="block px-2 py-1.5 text-xs text-[#1A1A1A] hover:bg-[#F2EFE9] hover:text-[#2D5016] transition-colors font-medium"
+                  >
+                    Streetwear Manufacturing
+                  </Link>
+                  <Link
+                    href="/hoodie-manufacturing"
+                    className="block px-2 py-1.5 text-xs text-[#1A1A1A] hover:bg-[#F2EFE9] hover:text-[#2D5016] transition-colors font-medium"
+                  >
+                    Hoodie &amp; Fleece Manufacturing
+                  </Link>
+                  <Link
+                    href="/clothing-manufacturer-bangladesh"
+                    className="block px-2 py-1.5 text-xs text-[#1A1A1A] hover:bg-[#F2EFE9] hover:text-[#2D5016] transition-colors font-medium"
+                  >
+                    Clothing Manufacturer Bangladesh
+                  </Link>
+                </div>
+              </div>
+
+              <Link
+                href="/operations"
+                className="text-sm font-medium text-[#6B6560] hover:text-[#1A1A1A] transition-colors duration-200 tracking-wide uppercase"
+              >
+                Operations
+              </Link>
+              <Link
+                href="/mission"
+                className="text-sm font-medium text-[#6B6560] hover:text-[#1A1A1A] transition-colors duration-200 tracking-wide uppercase"
+              >
+                Our Mission
+              </Link>
             </div>
 
             {/* Desktop CTA & Language Selector */}
