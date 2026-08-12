@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { ArrowRight, BookOpen, Globe, Scale, FileText, Leaf, Factory } from "lucide-react";
+import { ArrowRight, BookOpen, Globe, Scale, FileText, Leaf, Factory, GraduationCap } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Manufacturing & Sourcing Resources Hub | Fenalt",
@@ -38,6 +38,33 @@ export default function ResourcesHubPage() {
   };
 
   const sections = [
+    {
+      icon: GraduationCap,
+      title: "Educational Library — Manufacturing, Sampling & Sourcing Guides",
+      desc: "Plain-language guides to help clothing brands, startups, and sourcing managers understand every stage of apparel manufacturing — from first design to finished garment.",
+      links: [
+        { href: "/learn/how-clothing-manufacturing-works", label: "How Clothing Manufacturing Works" },
+        { href: "/learn/what-is-a-tech-pack", label: "What Is a Tech Pack in Apparel Manufacturing?" },
+        { href: "/learn/tech-pack-mistakes", label: "Common Tech Pack Mistakes That Delay Production" },
+        { href: "/learn/what-is-a-clothing-sample", label: "What Is a Clothing Sample and Why Is It Important?" },
+        { href: "/learn/clothing-manufacturing-timeline", label: "How Long Does Clothing Manufacturing Usually Take?" },
+        { href: "/learn/what-does-gsm-mean-in-clothing", label: "What Does GSM Mean in Clothing?" },
+        { href: "/learn/what-does-low-moq-mean", label: "What Does Low MOQ Mean in Clothing Manufacturing?" },
+        { href: "/learn/what-is-aql-in-apparel-quality-control", label: "What Is AQL in Apparel Quality Control?" },
+        { href: "/learn/clothing-manufacturer-vs-sourcing-agent", label: "Clothing Manufacturer vs Garment Sourcing Agent" },
+        { href: "/learn/how-to-choose-a-clothing-manufacturer", label: "How to Choose a Clothing Manufacturer" },
+        { href: "/learn/how-to-find-a-reliable-clothing-manufacturer", label: "How to Find a Reliable Clothing Manufacturer" },
+        { href: "/learn/questions-to-ask-an-apparel-manufacturer", label: "Questions to Ask an Apparel Manufacturer" },
+        { href: "/learn/clothing-manufacturer-due-diligence-checklist", label: "Manufacturer Due Diligence Checklist" },
+        { href: "/learn/how-to-evaluate-an-overseas-clothing-manufacturer", label: "How to Evaluate an Overseas Clothing Manufacturer" },
+        { href: "/learn/what-a-clothing-manufacturer-needs-from-a-brand", label: "What a Clothing Manufacturer Needs From a Brand" },
+        { href: "/learn/startups-prepare-for-first-production-run", label: "How Startups Can Prepare for Their First Production Run" },
+        { href: "/learn/overseas-apparel-production-checklist", label: "A Complete Checklist for Overseas Apparel Production" },
+        { href: "/learn/what-makes-high-quality-streetwear", label: "What Makes a High-Quality Streetwear Garment?" },
+        { href: "/learn/heavyweight-streetwear-fabrics-explained", label: "Heavyweight Streetwear Fabrics Explained" },
+        { href: "/learn/puff-print-vs-screen-print-streetwear", label: "Puff Print vs Screen Print for Streetwear" },
+      ],
+    },
     {
       icon: Globe,
       title: "International Sourcing & China Alternatives",

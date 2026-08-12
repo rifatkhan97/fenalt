@@ -94,6 +94,37 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/sitemap", changeFrequency: "monthly", priority: 0.5 },
     { path: "/privacy", changeFrequency: "yearly", priority: 0.3 },
     { path: "/terms", changeFrequency: "yearly", priority: 0.3 },
+
+    // Educational Library — Phase 1 (20 Articles)
+    // Cluster A: Manufacturing Fundamentals
+    { path: "/learn/how-clothing-manufacturing-works", changeFrequency: "monthly", priority: 0.7 },
+    { path: "/learn/clothing-manufacturer-vs-sourcing-agent", changeFrequency: "monthly", priority: 0.7 },
+    { path: "/learn/what-a-clothing-manufacturer-needs-from-a-brand", changeFrequency: "monthly", priority: 0.7 },
+    { path: "/learn/clothing-manufacturing-timeline", changeFrequency: "monthly", priority: 0.7 },
+    // Cluster B: Sampling
+    { path: "/learn/what-is-a-clothing-sample", changeFrequency: "monthly", priority: 0.7 },
+    // Cluster C: Tech Packs
+    { path: "/learn/what-is-a-tech-pack", changeFrequency: "monthly", priority: 0.7 },
+    { path: "/learn/tech-pack-mistakes", changeFrequency: "monthly", priority: 0.7 },
+    // Cluster D: Fabrics
+    { path: "/learn/what-does-gsm-mean-in-clothing", changeFrequency: "monthly", priority: 0.7 },
+    // Cluster F: Streetwear
+    { path: "/learn/what-makes-high-quality-streetwear", changeFrequency: "monthly", priority: 0.7 },
+    { path: "/learn/heavyweight-streetwear-fabrics-explained", changeFrequency: "monthly", priority: 0.7 },
+    { path: "/learn/puff-print-vs-screen-print-streetwear", changeFrequency: "monthly", priority: 0.7 },
+    // Cluster G: Low MOQ & Startups
+    { path: "/learn/what-does-low-moq-mean", changeFrequency: "monthly", priority: 0.7 },
+    { path: "/learn/startups-prepare-for-first-production-run", changeFrequency: "monthly", priority: 0.7 },
+    // Cluster H: Quality Control
+    { path: "/learn/what-is-aql-in-apparel-quality-control", changeFrequency: "monthly", priority: 0.7 },
+    // Cluster I: Sourcing & Supplier Selection
+    { path: "/learn/how-to-choose-a-clothing-manufacturer", changeFrequency: "monthly", priority: 0.7 },
+    { path: "/learn/how-to-find-a-reliable-clothing-manufacturer", changeFrequency: "monthly", priority: 0.7 },
+    { path: "/learn/questions-to-ask-an-apparel-manufacturer", changeFrequency: "monthly", priority: 0.7 },
+    { path: "/learn/clothing-manufacturer-due-diligence-checklist", changeFrequency: "monthly", priority: 0.7 },
+    { path: "/learn/how-to-evaluate-an-overseas-clothing-manufacturer", changeFrequency: "monthly", priority: 0.7 },
+    // Cluster J: Bangladesh & International Sourcing
+    { path: "/learn/overseas-apparel-production-checklist", changeFrequency: "monthly", priority: 0.7 },
   ];
 
   return routes.map((route) => ({
