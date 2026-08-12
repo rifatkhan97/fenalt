@@ -88,6 +88,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
     // Resources Hub & Core Infrastructure
     { path: "/resources", changeFrequency: "weekly", priority: 0.8 },
+    { path: "/learn", changeFrequency: "weekly", priority: 0.8 },
     { path: "/mission", changeFrequency: "monthly", priority: 0.7 },
     { path: "/intake", changeFrequency: "weekly", priority: 0.9 },
     { path: "/contact", changeFrequency: "monthly", priority: 0.8 },
