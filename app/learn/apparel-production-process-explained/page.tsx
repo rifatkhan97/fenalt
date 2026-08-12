@@ -149,18 +149,19 @@ export default function ApparelProductionProcessExplainedPage() {
       </section>
 
       {/* 8 Phases */}
-      <section className="py-20 lg:py-28 bg-[#F2EFE9]">
+      <section className="py-20 lg:py-28 bg-[#1A1A1A] text-[#FAF9F6]">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <p className="text-xs font-semibold uppercase tracking-[0.25em] text-[#C8A882] mb-4">Production Lifecycle</p>
-          <h2 className="font-display text-3xl lg:text-5xl font-light text-[#1A1A1A] mb-12">The 8 Production Phases</h2>
-          <div className="space-y-6">
+          <h2 className="font-display text-3xl lg:text-5xl font-light text-[#FAF9F6] mb-12">The 8 Production Phases</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {phases.map((p, i) => (
-              <div key={i} className="p-8 bg-[#FAF9F6] border border-[#E5DDD3]">
+              <div key={i} className="p-6 bg-[#262626] border border-[#333333]">
+                <div className="w-8 h-8 rounded-full bg-[#2D5016] text-[#FAF9F6] flex items-center justify-center mb-4 text-xs font-bold">✓</div>
                 <div className="flex items-start gap-4">
                   <span className="font-display text-3xl font-light text-[#C8A882] shrink-0 w-10">{p.num}</span>
                   <div>
-                    <h3 className="font-display text-xl font-medium text-[#1A1A1A] mb-2">{p.title}</h3>
-                    <p className="text-sm text-[#6B6560] leading-relaxed">{p.desc}</p>
+                    <h3 className="font-display text-xl font-medium text-[#FAF9F6] mb-2">{p.title}</h3>
+                    <p className="text-sm text-[#E5DDD3] leading-relaxed">{p.desc}</p>
                   </div>
                 </div>
               </div>

@@ -153,20 +153,21 @@ export default function WhatIsATechPackPage() {
       </section>
 
       {/* 8 sections */}
-      <section className="py-20 lg:py-28 bg-[#F2EFE9]">
+      <section className="py-20 lg:py-28 bg-[#1A1A1A] text-[#FAF9F6]">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <p className="text-xs font-semibold uppercase tracking-[0.25em] text-[#C8A882] mb-4">What Goes Inside</p>
-          <h2 className="font-display text-3xl lg:text-5xl font-light text-[#1A1A1A] mb-12">The 8 Core Sections of a Garment Tech Pack</h2>
-          <div className="space-y-6">
+          <h2 className="font-display text-3xl lg:text-5xl font-light text-[#FAF9F6] mb-12">The 8 Core Sections of a Garment Tech Pack</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {sections.map((sec, i) => (
-              <div key={i} className="p-8 bg-[#FAF9F6] border border-[#E5DDD3]">
+              <div key={i} className="p-6 bg-[#262626] border border-[#333333]">
+                <div className="w-8 h-8 rounded-full bg-[#2D5016] text-[#FAF9F6] flex items-center justify-center mb-4 text-xs font-bold">✓</div>
                 <div className="flex items-start gap-4">
                   <span className="font-display text-3xl font-light text-[#E5DDD3] shrink-0 w-8">
                     {String(i + 1).padStart(2, "0")}
                   </span>
                   <div>
-                    <h3 className="font-display text-xl font-medium text-[#1A1A1A] mb-2">{sec.title}</h3>
-                    <p className="text-sm text-[#6B6560] leading-relaxed">{sec.body}</p>
+                    <h3 className="font-display text-xl font-medium text-[#FAF9F6] mb-2">{sec.title}</h3>
+                    <p className="text-sm text-[#E5DDD3] leading-relaxed">{sec.body}</p>
                   </div>
                 </div>
               </div>

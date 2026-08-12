@@ -195,15 +195,15 @@ export default function ClothingManufacturingTimelinePage() {
       </section>
 
       {/* Delay causes */}
-      <section className="py-20 lg:py-24 bg-[#F2EFE9]">
+      <section className="py-20 lg:py-24 bg-[#1A1A1A] text-[#FAF9F6]">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <p className="text-xs font-semibold uppercase tracking-[0.25em] text-[#C8A882] mb-4">Most Common Causes of Delay</p>
-          <h2 className="font-display text-3xl lg:text-4xl font-light text-[#1A1A1A] mb-8">What Actually Pushes Timelines</h2>
+          <h2 className="font-display text-3xl lg:text-4xl font-light text-[#FAF9F6] mb-8">What Actually Pushes Timelines</h2>
           <div className="space-y-3">
             {delayFactors.map((factor, i) => (
-              <div key={i} className="flex items-start gap-3 p-5 bg-[#FAF9F6] border border-[#E5DDD3]">
+              <div key={i} className="flex items-start gap-3 p-5 bg-[#262626] border border-[#333333]">
                 <span className="text-[#C8A882] mt-0.5 shrink-0 text-lg">⚠</span>
-                <p className="text-sm text-[#6B6560] leading-relaxed">{factor}</p>
+                <p className="text-sm text-[#E5DDD3] leading-relaxed">{factor}</p>
               </div>
             ))}
           </div>

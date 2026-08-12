@@ -175,10 +175,10 @@ export default function HowClothingManufacturingWorksPage() {
       </section>
 
       {/* Key takeaways */}
-      <section className="py-20 lg:py-24 bg-[#F2EFE9]">
+      <section className="py-20 lg:py-24 bg-[#1A1A1A] text-[#FAF9F6]">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <p className="text-xs font-semibold uppercase tracking-[0.25em] text-[#C8A882] mb-4">Key Takeaways</p>
-          <h2 className="font-display text-3xl lg:text-4xl font-light text-[#1A1A1A] mb-8">What Brands Most Often Get Wrong</h2>
+          <h2 className="font-display text-3xl lg:text-4xl font-light text-[#FAF9F6] mb-8">What Brands Most Often Get Wrong</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {[
               "Insufficient tech pack detail causes most sampling delays and misaligned samples.",
@@ -188,9 +188,9 @@ export default function HowClothingManufacturingWorksPage() {
               "Import duty and freight cost planning should happen before order placement, not after.",
               "First-time brands frequently underestimate total timeline by 4 to 8 weeks.",
             ].map((point, i) => (
-              <div key={i} className="flex items-start gap-3 p-5 bg-[#FAF9F6] border border-[#E5DDD3]">
-                <CheckCircle2 size={16} className="text-[#2D5016] mt-0.5 shrink-0" />
-                <p className="text-sm text-[#6B6560] leading-relaxed">{point}</p>
+              <div key={i} className="flex items-start gap-3 p-5 bg-[#262626] border border-[#333333]">
+                <CheckCircle2 size={16} className="text-[#C8A882] mt-0.5 shrink-0" />
+                <p className="text-sm text-[#E5DDD3] leading-relaxed">{point}</p>
               </div>
             ))}
           </div>

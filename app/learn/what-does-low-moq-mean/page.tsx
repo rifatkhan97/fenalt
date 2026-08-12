@@ -113,11 +113,11 @@ export default function WhatDoesLowMoqMeanPage() {
       </section>
 
       {/* Why MOQs exist */}
-      <section className="py-20 lg:py-24 bg-[#F2EFE9]">
+      <section className="py-20 lg:py-24 bg-[#1A1A1A] text-[#FAF9F6]">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <p className="text-xs font-semibold uppercase tracking-[0.25em] text-[#C8A882] mb-4">The Reason</p>
-          <h2 className="font-display text-3xl lg:text-4xl font-light text-[#1A1A1A] mb-6">Why Do Factories Set MOQs?</h2>
-          <div className="space-y-4 text-base text-[#6B6560] leading-relaxed">
+          <h2 className="font-display text-3xl lg:text-4xl font-light text-[#FAF9F6] mb-6">Why Do Factories Set MOQs?</h2>
+          <div className="space-y-4 text-base text-[#E5DDD3] leading-relaxed">
             <p>Every production run has fixed costs that don&apos;t scale with volume: pattern making, sampling, machine setup and changeover, fabric dye-lot minimums at the mill level, and factory floor scheduling. A factory producing 50 garments must bear almost the same setup costs as one producing 500.</p>
             <p>MOQs exist to ensure those fixed costs can be spread across enough units for production to be economically viable for the factory — and for per-unit pricing to remain competitive for the brand.</p>
             <p>Low-MOQ factories have typically structured their operations to absorb these setup costs differently — often through premium per-unit pricing, smaller-scale equipment, or aggregated orders across multiple brands.</p>
@@ -146,15 +146,16 @@ export default function WhatDoesLowMoqMeanPage() {
       </section>
 
       {/* FAQs */}
-      <section className="py-20 lg:py-28 bg-[#F2EFE9]">
+      <section className="py-20 lg:py-28 bg-[#1A1A1A] text-[#FAF9F6]">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <p className="text-xs font-semibold uppercase tracking-[0.25em] text-[#C8A882] mb-4">Questions</p>
-          <h2 className="font-display text-3xl lg:text-4xl font-light text-[#1A1A1A] mb-10">Frequently Asked Questions</h2>
-          <div className="space-y-6">
+          <h2 className="font-display text-3xl lg:text-4xl font-light text-[#FAF9F6] mb-10">Frequently Asked Questions</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {faqs.map((faq, i) => (
-              <div key={i} className="p-8 bg-[#FAF9F6] border border-[#E5DDD3]">
-                <h3 className="font-display text-xl font-medium text-[#1A1A1A] mb-3">{faq.q}</h3>
-                <p className="text-sm text-[#6B6560] leading-relaxed">{faq.a}</p>
+              <div key={i} className="p-6 bg-[#262626] border border-[#333333]">
+                <div className="w-8 h-8 rounded-full bg-[#2D5016] text-[#FAF9F6] flex items-center justify-center mb-4 text-xs font-bold">✓</div>
+                <h3 className="font-display text-xl font-medium text-[#FAF9F6] mb-3">{faq.q}</h3>
+                <p className="text-sm text-[#E5DDD3] leading-relaxed">{faq.a}</p>
               </div>
             ))}
           </div>

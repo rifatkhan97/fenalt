@@ -122,11 +122,11 @@ export default function WhatIsAqlPage() {
       </section>
 
       {/* How it works */}
-      <section className="py-20 lg:py-28 bg-[#F2EFE9]">
+      <section className="py-20 lg:py-28 bg-[#1A1A1A] text-[#FAF9F6]">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <p className="text-xs font-semibold uppercase tracking-[0.25em] text-[#C8A882] mb-4">How It Works</p>
-          <h2 className="font-display text-3xl lg:text-5xl font-light text-[#1A1A1A] mb-8">Statistical Sampling, Not 100% Inspection</h2>
-          <div className="space-y-5 text-base text-[#6B6560] leading-relaxed">
+          <h2 className="font-display text-3xl lg:text-5xl font-light text-[#FAF9F6] mb-8">Statistical Sampling, Not 100% Inspection</h2>
+          <div className="space-y-5 text-base text-[#E5DDD3] leading-relaxed">
             <p>Rather than inspecting every single garment — which would be impractical for most bulk orders — AQL uses statistical sampling. The inspector selects a random sample of garments from the production lot, inspects them against the defined quality standard, and compares the number of defects found against the AQL acceptance number.</p>
             <p>If the number of defects found in the sample exceeds the acceptance number for the chosen AQL level, the lot is rejected for rework or re-inspection. If defects are within the acceptable range, the lot passes.</p>
             <p>The sample size and acceptance number are determined by the lot size and the inspection level chosen, as defined in ANSI/ASQ Z1.4 tables.</p>
@@ -155,18 +155,18 @@ export default function WhatIsAqlPage() {
       </section>
 
       {/* Defect types */}
-      <section className="py-20 lg:py-28 bg-[#F2EFE9]">
+      <section className="py-20 lg:py-28 bg-[#1A1A1A] text-[#FAF9F6]">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <p className="text-xs font-semibold uppercase tracking-[0.25em] text-[#C8A882] mb-4">Defect Classification</p>
-          <h2 className="font-display text-3xl lg:text-4xl font-light text-[#1A1A1A] mb-8">Critical, Major, and Minor Defects</h2>
+          <h2 className="font-display text-3xl lg:text-4xl font-light text-[#FAF9F6] mb-8">Critical, Major, and Minor Defects</h2>
           <div className="space-y-4">
             {defectTypes.map((d, i) => (
-              <div key={i} className="p-6 lg:p-8 bg-[#FAF9F6] border border-[#E5DDD3]">
+              <div key={i} className="p-6 lg:p-8 bg-[#262626] border border-[#333333]">
                 <div className="flex flex-col sm:flex-row sm:items-center gap-3 mb-3">
-                  <h3 className="font-display text-xl font-medium text-[#1A1A1A]">{d.type}</h3>
-                  <span className="inline-block px-3 py-1 bg-[#F2EFE9] text-[#2D5016] text-xs font-semibold uppercase tracking-wider">{d.badge}</span>
+                  <h3 className="font-display text-xl font-medium text-[#FAF9F6]">{d.type}</h3>
+                  <span className="inline-block px-3 py-1 bg-[#F2EFE9] text-[#C8A882] text-xs font-semibold uppercase tracking-wider">{d.badge}</span>
                 </div>
-                <p className="text-sm text-[#6B6560] leading-relaxed">{d.description}</p>
+                <p className="text-sm text-[#E5DDD3] leading-relaxed">{d.description}</p>
               </div>
             ))}
           </div>

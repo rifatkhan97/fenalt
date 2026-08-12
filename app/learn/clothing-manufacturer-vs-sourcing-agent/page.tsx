@@ -166,13 +166,14 @@ export default function ManufacturerVsSourcingAgentPage() {
       </section>
 
       {/* When to use which */}
-      <section className="py-20 lg:py-24 bg-[#F2EFE9]">
+      <section className="py-20 lg:py-24 bg-[#1A1A1A] text-[#FAF9F6]">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <p className="text-xs font-semibold uppercase tracking-[0.25em] text-[#C8A882] mb-4">Decision Guide</p>
-          <h2 className="font-display text-3xl lg:text-4xl font-light text-[#1A1A1A] mb-8">When Does Each Make Sense?</h2>
+          <h2 className="font-display text-3xl lg:text-4xl font-light text-[#FAF9F6] mb-8">When Does Each Make Sense?</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="p-8 bg-[#FAF9F6] border border-[#E5DDD3]">
-              <h3 className="font-display text-2xl font-medium text-[#1A1A1A] mb-4">Consider a Direct Manufacturer When:</h3>
+            <div className="p-6 bg-[#262626] border border-[#333333]">
+                <div className="w-8 h-8 rounded-full bg-[#2D5016] text-[#FAF9F6] flex items-center justify-center mb-4 text-xs font-bold">✓</div>
+              <h3 className="font-display text-2xl font-medium text-[#FAF9F6] mb-4">Consider a Direct Manufacturer When:</h3>
               <ul className="space-y-3">
                 {[
                   "Your brand has experienced in-house sourcing or production staff",
@@ -181,14 +182,15 @@ export default function ManufacturerVsSourcingAgentPage() {
                   "You can travel to inspect factories personally",
                   "You are fluent in factory technical communication",
                 ].map((item, i) => (
-                  <li key={i} className="flex items-start gap-2 text-sm text-[#6B6560]">
-                    <span className="text-[#2D5016] mt-0.5">✓</span> {item}
+                  <li key={i} className="flex items-start gap-2 text-sm text-[#E5DDD3]">
+                    <span className="text-[#C8A882] mt-0.5">✓</span> {item}
                   </li>
                 ))}
               </ul>
             </div>
-            <div className="p-8 bg-[#FAF9F6] border border-[#E5DDD3]">
-              <h3 className="font-display text-2xl font-medium text-[#1A1A1A] mb-4">Consider a Sourcing Agent When:</h3>
+            <div className="p-6 bg-[#262626] border border-[#333333]">
+                <div className="w-8 h-8 rounded-full bg-[#2D5016] text-[#FAF9F6] flex items-center justify-center mb-4 text-xs font-bold">✓</div>
+              <h3 className="font-display text-2xl font-medium text-[#FAF9F6] mb-4">Consider a Sourcing Agent When:</h3>
               <ul className="space-y-3">
                 {[
                   "You are launching a first or early collection",
@@ -197,8 +199,8 @@ export default function ManufacturerVsSourcingAgentPage() {
                   "Consistent quality oversight is a priority",
                   "You want to reduce the communication and management burden",
                 ].map((item, i) => (
-                  <li key={i} className="flex items-start gap-2 text-sm text-[#6B6560]">
-                    <span className="text-[#2D5016] mt-0.5">✓</span> {item}
+                  <li key={i} className="flex items-start gap-2 text-sm text-[#E5DDD3]">
+                    <span className="text-[#C8A882] mt-0.5">✓</span> {item}
                   </li>
                 ))}
               </ul>

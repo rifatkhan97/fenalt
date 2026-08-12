@@ -129,16 +129,17 @@ export default function ApparelQualityControlExplainedPage() {
       </section>
 
       {/* 4 Stages */}
-      <section className="py-20 lg:py-28 bg-[#F2EFE9]">
+      <section className="py-20 lg:py-28 bg-[#1A1A1A] text-[#FAF9F6]">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <p className="text-xs font-semibold uppercase tracking-[0.25em] text-[#C8A882] mb-4">Inspection Framework</p>
-          <h2 className="font-display text-3xl lg:text-5xl font-light text-[#1A1A1A] mb-12">The 4 Stages of Garment Inspection</h2>
-          <div className="space-y-6">
+          <h2 className="font-display text-3xl lg:text-5xl font-light text-[#FAF9F6] mb-12">The 4 Stages of Garment Inspection</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {stages.map((st, i) => (
-              <div key={i} className="p-8 bg-[#FAF9F6] border border-[#E5DDD3]">
+              <div key={i} className="p-6 bg-[#262626] border border-[#333333]">
+                <div className="w-8 h-8 rounded-full bg-[#2D5016] text-[#FAF9F6] flex items-center justify-center mb-4 text-xs font-bold">✓</div>
                 <span className="inline-block px-3 py-1 bg-[#1A1A1A] text-[#FAF9F6] text-xs font-semibold uppercase tracking-wider mb-3">{st.stage}</span>
-                <h3 className="font-display text-xl font-medium text-[#1A1A1A] mb-2">{st.title}</h3>
-                <p className="text-sm text-[#6B6560] leading-relaxed">{st.desc}</p>
+                <h3 className="font-display text-xl font-medium text-[#FAF9F6] mb-2">{st.title}</h3>
+                <p className="text-sm text-[#E5DDD3] leading-relaxed">{st.desc}</p>
               </div>
             ))}
           </div>

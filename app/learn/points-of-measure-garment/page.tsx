@@ -115,18 +115,19 @@ export default function PointsOfMeasureGarmentPage() {
       </section>
 
       {/* Common POMs */}
-      <section className="py-20 lg:py-28 bg-[#F2EFE9]">
+      <section className="py-20 lg:py-28 bg-[#1A1A1A] text-[#FAF9F6]">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <p className="text-xs font-semibold uppercase tracking-[0.25em] text-[#C8A882] mb-4">Core Measurements</p>
-          <h2 className="font-display text-3xl lg:text-5xl font-light text-[#1A1A1A] mb-12">Standard Tops Points of Measure</h2>
-          <div className="space-y-6">
+          <h2 className="font-display text-3xl lg:text-5xl font-light text-[#FAF9F6] mb-12">Standard Tops Points of Measure</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {commonPoms.map((pom, i) => (
-              <div key={i} className="p-6 bg-[#FAF9F6] border border-[#E5DDD3]">
+              <div key={i} className="p-6 bg-[#262626] border border-[#333333]">
+                <div className="w-8 h-8 rounded-full bg-[#2D5016] text-[#FAF9F6] flex items-center justify-center mb-4 text-xs font-bold">✓</div>
                 <div className="flex items-start gap-3">
-                  <CheckCircle2 size={16} className="text-[#2D5016] mt-1 shrink-0" />
+                  <CheckCircle2 size={16} className="text-[#C8A882] mt-1 shrink-0" />
                   <div>
-                    <h3 className="font-display text-lg font-medium text-[#1A1A1A] mb-1">{pom.code}</h3>
-                    <p className="text-xs text-[#6B6560] leading-relaxed">{pom.desc}</p>
+                    <h3 className="font-display text-lg font-medium text-[#FAF9F6] mb-1">{pom.code}</h3>
+                    <p className="text-xs text-[#E5DDD3] leading-relaxed">{pom.desc}</p>
                   </div>
                 </div>
               </div>

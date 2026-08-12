@@ -142,21 +142,21 @@ export default function HowToEvaluateOverseasManufacturerPage() {
       </section>
 
       {/* 8 methods */}
-      <section className="py-20 lg:py-28 bg-[#F2EFE9]">
+      <section className="py-20 lg:py-28 bg-[#1A1A1A] text-[#FAF9F6]">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <p className="text-xs font-semibold uppercase tracking-[0.25em] text-[#C8A882] mb-4">Evaluation Methods</p>
-          <h2 className="font-display text-3xl lg:text-5xl font-light text-[#1A1A1A] mb-12">8 Ways to Evaluate an Overseas Manufacturer</h2>
+          <h2 className="font-display text-3xl lg:text-5xl font-light text-[#FAF9F6] mb-12">8 Ways to Evaluate an Overseas Manufacturer</h2>
           <div className="space-y-5">
             {evaluationMethods.map((method, i) => (
-              <div key={i} className="p-6 lg:p-8 bg-[#FAF9F6] border border-[#E5DDD3]">
+              <div key={i} className="p-6 lg:p-8 bg-[#262626] border border-[#333333]">
                 <div className="flex items-start gap-4 mb-3">
                   <span className="font-display text-3xl font-light text-[#E5DDD3] shrink-0 w-8 mt-0.5">{String(i + 1).padStart(2, "0")}</span>
                   <div className="flex-1">
                     <div className="flex flex-col sm:flex-row sm:items-center gap-2 mb-2">
-                      <h3 className="font-display text-lg font-medium text-[#1A1A1A]">{method.title}</h3>
+                      <h3 className="font-display text-lg font-medium text-[#FAF9F6]">{method.title}</h3>
                       <span className={`inline-block px-2 py-0.5 text-xs font-semibold uppercase tracking-wider shrink-0 ${method.difficulty === "Essential" ? "bg-[#1A1A1A] text-[#FAF9F6]" : method.difficulty === "High Value" ? "bg-[#2D5016] text-[#FAF9F6]" : "bg-[#C8A882] text-[#1A1A1A]"}`}>{method.difficulty}</span>
                     </div>
-                    <p className="text-sm text-[#6B6560] leading-relaxed">{method.body}</p>
+                    <p className="text-sm text-[#E5DDD3] leading-relaxed">{method.body}</p>
                   </div>
                 </div>
               </div>

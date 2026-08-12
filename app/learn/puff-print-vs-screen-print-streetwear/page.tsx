@@ -124,18 +124,19 @@ export default function PuffPrintVsScreenPrintPage() {
       </section>
 
       {/* When to use */}
-      <section className="py-20 lg:py-24 bg-[#F2EFE9]">
+      <section className="py-20 lg:py-24 bg-[#1A1A1A] text-[#FAF9F6]">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <p className="text-xs font-semibold uppercase tracking-[0.25em] text-[#C8A882] mb-4">Decision Guide</p>
-          <h2 className="font-display text-3xl lg:text-4xl font-light text-[#1A1A1A] mb-8">When to Use Each Technique</h2>
+          <h2 className="font-display text-3xl lg:text-4xl font-light text-[#FAF9F6] mb-8">When to Use Each Technique</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {whenToUse.map((item, i) => (
-              <div key={i} className="p-8 bg-[#FAF9F6] border border-[#E5DDD3]">
-                <h3 className="font-display text-xl font-medium text-[#1A1A1A] mb-4">{item.technique}</h3>
+              <div key={i} className="p-6 bg-[#262626] border border-[#333333]">
+                <div className="w-8 h-8 rounded-full bg-[#2D5016] text-[#FAF9F6] flex items-center justify-center mb-4 text-xs font-bold">✓</div>
+                <h3 className="font-display text-xl font-medium text-[#FAF9F6] mb-4">{item.technique}</h3>
                 <ul className="space-y-2">
                   {item.points.map((point, j) => (
-                    <li key={j} className="flex items-start gap-2 text-sm text-[#6B6560]">
-                      <span className="text-[#2D5016] mt-0.5">✓</span> {point}
+                    <li key={j} className="flex items-start gap-2 text-sm text-[#E5DDD3]">
+                      <span className="text-[#C8A882] mt-0.5">✓</span> {point}
                     </li>
                   ))}
                 </ul>

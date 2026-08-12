@@ -102,18 +102,18 @@ export default function WhatIsAClothingSamplePage() {
         </div>
       </section>
 
-      <section className="py-20 lg:py-28 bg-[#F2EFE9]">
+      <section className="py-20 lg:py-28 bg-[#1A1A1A] text-[#FAF9F6]">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <p className="text-xs font-semibold uppercase tracking-[0.25em] text-[#C8A882] mb-4">Sample Types</p>
-          <h2 className="font-display text-3xl lg:text-5xl font-light text-[#1A1A1A] mb-12">The 5 Main Types of Clothing Samples</h2>
+          <h2 className="font-display text-3xl lg:text-5xl font-light text-[#FAF9F6] mb-12">The 5 Main Types of Clothing Samples</h2>
           <div className="space-y-5">
             {sampleTypes.map((s, i) => (
-              <div key={i} className="p-6 lg:p-8 bg-[#FAF9F6] border border-[#E5DDD3]">
+              <div key={i} className="p-6 lg:p-8 bg-[#262626] border border-[#333333]">
                 <div className="flex flex-col sm:flex-row sm:items-center gap-3 mb-3">
-                  <h3 className="font-display text-xl font-medium text-[#1A1A1A]">{s.name}</h3>
-                  <span className="inline-block px-3 py-1 bg-[#F2EFE9] text-[#2D5016] text-xs font-semibold uppercase tracking-wider">{s.stage}</span>
+                  <h3 className="font-display text-xl font-medium text-[#FAF9F6]">{s.name}</h3>
+                  <span className="inline-block px-3 py-1 bg-[#F2EFE9] text-[#C8A882] text-xs font-semibold uppercase tracking-wider">{s.stage}</span>
                 </div>
-                <p className="text-sm text-[#6B6560] leading-relaxed mb-2">{s.purpose}</p>
+                <p className="text-sm text-[#E5DDD3] leading-relaxed mb-2">{s.purpose}</p>
                 <p className="text-xs text-[#9B948E]"><strong>Fabric:</strong> {s.material}</p>
               </div>
             ))}
@@ -143,15 +143,16 @@ export default function WhatIsAClothingSamplePage() {
         </div>
       </section>
 
-      <section className="py-20 lg:py-28 bg-[#F2EFE9]">
+      <section className="py-20 lg:py-28 bg-[#1A1A1A] text-[#FAF9F6]">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <p className="text-xs font-semibold uppercase tracking-[0.25em] text-[#C8A882] mb-4">Questions</p>
-          <h2 className="font-display text-3xl lg:text-4xl font-light text-[#1A1A1A] mb-10">Frequently Asked Questions</h2>
-          <div className="space-y-6">
+          <h2 className="font-display text-3xl lg:text-4xl font-light text-[#FAF9F6] mb-10">Frequently Asked Questions</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {faqs.map((faq, i) => (
-              <div key={i} className="p-8 bg-[#FAF9F6] border border-[#E5DDD3]">
-                <h3 className="font-display text-xl font-medium text-[#1A1A1A] mb-3">{faq.q}</h3>
-                <p className="text-sm text-[#6B6560] leading-relaxed">{faq.a}</p>
+              <div key={i} className="p-6 bg-[#262626] border border-[#333333]">
+                <div className="w-8 h-8 rounded-full bg-[#2D5016] text-[#FAF9F6] flex items-center justify-center mb-4 text-xs font-bold">✓</div>
+                <h3 className="font-display text-xl font-medium text-[#FAF9F6] mb-3">{faq.q}</h3>
+                <p className="text-sm text-[#E5DDD3] leading-relaxed">{faq.a}</p>
               </div>
             ))}
           </div>
