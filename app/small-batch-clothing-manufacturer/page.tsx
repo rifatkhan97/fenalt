@@ -59,7 +59,7 @@ export default function SmallBatchClothingManufacturerPage() {
     },
     {
       q: "How does small batch manufacturing help reduce inventory risk?",
-      a: "By ordering smaller quantities, fashion brands test design concepts and real customer demand before scaling production—avoiding tied-up capital and excess unsold inventory.",
+      a: "By ordering smaller quantities, fashion brands test design concepts and real customer demand before scaling production - avoiding tied-up capital and excess unsold inventory.",
     },
     {
       q: "Can I easily reorder a small batch if a style sells out?",

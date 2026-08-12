@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, FileSpreadsheet } from "lucide-reac
 export const metadata: Metadata = {
   title: "What Is a Bill of Materials (BOM) in Apparel Production?",
   description:
-    "Learn what a Bill of Materials (BOM) is in garment manufacturing — including fabric specs, trims, threads, labels, hardware, and yield calculations.",
+    "Learn what a Bill of Materials (BOM) is in garment manufacturing - including fabric specs, trims, threads, labels, hardware, and yield calculations.",
   alternates: {
     canonical: "https://fenalt.com/learn/bill-of-materials-apparel",
   },
   openGraph: {
     title: "What Is a Bill of Materials (BOM) in Apparel Production?",
     description:
-      "Learn what a Bill of Materials (BOM) is in garment manufacturing — including fabric specs, trims, threads, labels, hardware, and yield calculations.",
+      "Learn what a Bill of Materials (BOM) is in garment manufacturing - including fabric specs, trims, threads, labels, hardware, and yield calculations.",
     url: "https://fenalt.com/learn/bill-of-materials-apparel",
   },
 };
@@ -94,7 +94,7 @@ export default function BillOfMaterialsApparelPage() {
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
             A Bill of Materials (BOM) is an exhaustive itemized ingredient list for every physical component required to manufacture a single garment.
           </p>
-          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge — reviewed by Fenalt editorial team</p>
+          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>
       </section>
 

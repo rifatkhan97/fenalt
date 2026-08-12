@@ -1,10 +1,10 @@
-# FENALT — EDITORIAL ROADMAP (PERMANENT SOURCE OF TRUTH)
+# FENALT - EDITORIAL ROADMAP (PERMANENT SOURCE OF TRUTH)
 
-**Version**: 1.1 — Post Phase 1 Reconciliation  
+**Version**: 1.1 - Post Phase 1 Reconciliation  
 **Date Created**: August 12, 2026  
 **Date Updated**: August 12, 2026 (added implementation status, reconciled counts, flagged discrepancies)  
-**Prepared by**: Antigravity AI — Editorial & SEO Strategy  
-**Status**: LOCKED — DO NOT MODIFY WITHOUT EDITORIAL REVIEW
+**Prepared by**: Antigravity AI - Editorial & SEO Strategy  
+**Status**: LOCKED - DO NOT MODIFY WITHOUT EDITORIAL REVIEW
 
 ---
 
@@ -40,7 +40,7 @@ The original roadmap summary table contained a counting error. This section docu
 | **Discrepancy from original** | The original claimed CREATE=83. Actual = **88** |
 
 > [!WARNING]
-> The original "83" CREATE count appears to have been a rough estimate. The corrected figure is **88 standalone CREATE articles** plus 4 MERGE contributions. The editorial decisions themselves are unchanged — only the count is corrected.
+> The original "83" CREATE count appears to have been a rough estimate. The corrected figure is **88 standalone CREATE articles** plus 4 MERGE contributions. The editorial decisions themselves are unchanged - only the count is corrected.
 
 ---
 
@@ -88,14 +88,14 @@ Before the content matrix, every proposed topic was checked against the **76 exi
 ## PART 2: COMPLETE CONTENT MATRIX (100 Proposed Titles)
 
 **Status column values:**
-- `PLANNED` — approved in roadmap, not yet started
-- `IN_PROGRESS` — currently being written
-- `DRAFTED` — written but not reviewed
-- `REVIEW` — built and deployed locally/to GitHub, awaiting editorial review
-- `APPROVED` — editorially approved, ready for production
-- `PUBLISHED` — live on production domain fenalt.com
-- `MERGED` — content merged into another article (no standalone URL)
-- `REJECTED` — decided against creating; not to be created
+- `PLANNED` - approved in roadmap, not yet started
+- `IN_PROGRESS` - currently being written
+- `DRAFTED` - written but not reviewed
+- `REVIEW` - built and deployed locally/to GitHub, awaiting editorial review
+- `APPROVED` - editorially approved, ready for production
+- `PUBLISHED` - live on production domain fenalt.com
+- `MERGED` - content merged into another article (no standalone URL)
+- `REJECTED` - decided against creating; not to be created
 
 > [!NOTE]
 > Articles #1–#20 are marked REVIEW. They are committed locally, built successfully, and pushed to GitHub, but as of August 12, 2026 have **not been confirmed live on the production domain fenalt.com**. They must not be described as PUBLISHED until production deployment is confirmed.
@@ -115,7 +115,7 @@ Before the content matrix, every proposed topic was checked against the **76 exi
 | 7 | The Apparel Production Process Explained Step by Step | `/learn/apparel-production-process-explained` | **CREATE** | **REVIEW** | 2 | Must differentiate from `/capabilities` and `/operations`. Implemented Batch 2 (#20 MERGE target). |
 | 8 | What Happens Between a Tech Pack and Bulk Production? | `/learn/tech-pack-to-bulk-production` | **CREATE** | **REVIEW** | 1 | High value gap-filler. Implemented Phase 2 Batch 1. |
 | 9 | How Long Does Clothing Manufacturing Usually Take? | `/learn/clothing-manufacturing-timeline` | **CREATE** | **REVIEW** | 1 | Implemented. Audit: pass (timeline estimates properly qualified). |
-| 10 | What Makes a Good Apparel Manufacturing Partner? | `/learn/what-makes-a-good-apparel-manufacturing-partner` | **CREATE** | **REVIEW** | 2 | Overlap risk with #5 — must be clearly distinct angle. Implemented Batch 2. |
+| 10 | What Makes a Good Apparel Manufacturing Partner? | `/learn/what-makes-a-good-apparel-manufacturing-partner` | **CREATE** | **REVIEW** | 2 | Overlap risk with #5 - must be clearly distinct angle. Implemented Batch 2. |
 
 ---
 
@@ -123,7 +123,7 @@ Before the content matrix, every proposed topic was checked against the **76 exi
 
 | # | Title | URL | Decision | Status | Phase | Notes |
 |---|---|---|---|---|---|---|
-| 11 | What Is a Clothing Sample and Why Is It Important? | `/learn/what-is-a-clothing-sample` | **CREATE** | **REVIEW** | 1 | Implemented. Audit: pass. Minor issue — `&apos;` entity used in JSX where template literal would be cleaner, no functional impact. |
+| 11 | What Is a Clothing Sample and Why Is It Important? | `/learn/what-is-a-clothing-sample` | **CREATE** | **REVIEW** | 1 | Implemented. Audit: pass. Minor issue - `&apos;` entity used in JSX where template literal would be cleaner, no functional impact. |
 | 12 | The Different Types of Apparel Samples Explained | `/learn/types-of-apparel-samples` | **CREATE** | **REVIEW** | 1 | Implemented Batch 2. |
 | 13 | How Many Samples Should a Fashion Brand Expect Before Production? | `/learn/how-many-samples-before-production` | **CREATE** | **REVIEW** | 2 | Implemented Batch 2. |
 | 14 | How to Prepare for Your First Clothing Sample | `/learn/how-to-prepare-for-first-clothing-sample` | **CREATE** | **REVIEW** | 1 | Implemented Batch 2. |
@@ -132,7 +132,7 @@ Before the content matrix, every proposed topic was checked against the **76 exi
 | 17 | Why Apparel Samples Sometimes Need Multiple Revisions | `/learn/why-samples-need-multiple-revisions` | **CREATE** | **REVIEW** | 4 | Lower priority. Implemented Batch 2. |
 | 18 | How to Give Useful Feedback on a Clothing Sample | `/learn/how-to-give-sample-feedback` | **CREATE** | **REVIEW** | 2 | Implemented Batch 2. |
 | 19 | What Happens After a Sample Is Approved? | `/learn/after-sample-approval-what-happens` | **CREATE** | **REVIEW** | 1 | Implemented Batch 2. |
-| 20 | Apparel Product Development: A Beginner's Guide | `/learn/apparel-product-development-guide` | **MERGE** | **MERGED** | — | Merge into #7. Do not create standalone URL. |
+| 20 | Apparel Product Development: A Beginner's Guide | `/learn/apparel-product-development-guide` | **MERGE** | **MERGED** | - | Merge into #7. Do not create standalone URL. |
 
 ---
 
@@ -199,7 +199,7 @@ Before the content matrix, every proposed topic was checked against the **76 exi
 | 56 | Outerwear & Jacket Manufacturing Guide | `/learn/outerwear-jacket-manufacturing-guide` | **CREATE** | **REVIEW** | 3 | Implemented Batch 4. |
 | 57 | Puff Print vs Screen Print for Streetwear | `/learn/puff-print-vs-screen-print-streetwear` | **CREATE** | **REVIEW** | 1 | Implemented. Audit: pass. |
 | 58 | Streetwear Manufacturing Guide | `/learn/streetwear-manufacturing-guide` | **CREATE** | **REVIEW** | 1 | Implemented Batch 4 (#57 MERGE target). |
-| 59 | How to Build a Small Streetwear Collection | `/learn/how-to-build-a-small-streetwear-collection` | **MERGE** | **MERGED** | — | Merge into #51. Do not create standalone URL. |
+| 59 | How to Build a Small Streetwear Collection | `/learn/how-to-build-a-small-streetwear-collection` | **MERGE** | **MERGED** | - | Merge into #51. Do not create standalone URL. |
 | 60 | Common Streetwear Manufacturing Mistakes | `/learn/common-streetwear-manufacturing-mistakes` | **CREATE** | **REVIEW** | 1 | High value. Implemented Phase 2 Batch 1. |
 
 ---
@@ -214,9 +214,9 @@ Before the content matrix, every proposed topic was checked against the **76 exi
 | 64 | Low MOQ vs Bulk Manufacturing: What Changes? | `/learn/low-moq-vs-bulk-manufacturing` | **CREATE** | **REVIEW** | 1 | High value. Implemented Phase 2 Batch 1. |
 | 65 | How Startups Can Prepare for Their First Production Run | `/learn/startups-prepare-for-first-production-run` | **CREATE** | **REVIEW** | 1 | Implemented. Audit: pass. |
 | 66 | How to Reduce Risk When Launching a Clothing Collection | `/learn/reduce-risk-when-launching-clothing-collection` | **CREATE** | **REVIEW** | 1 | High value. Implemented Phase 2 Batch 1. |
-| 67 | Clothing Manufacturing for Small Fashion Brands | `/learn/clothing-manufacturing-for-small-fashion-brands` | **REJECT** | **REJECTED** | — | Adequately covered by existing commercial pages. Do not create. |
+| 67 | Clothing Manufacturing for Small Fashion Brands | `/learn/clothing-manufacturing-for-small-fashion-brands` | **REJECT** | **REJECTED** | - | Adequately covered by existing commercial pages. Do not create. |
 | 68 | How to Plan a Small-Batch Apparel Launch | `/learn/how-to-plan-small-batch-apparel-launch` | **CREATE** | **REVIEW** | 2 | Implemented Batch 6. |
-| 69 | What Does a Clothing Manufacturer Need From a Startup? | `/learn/what-clothing-manufacturer-needs-from-startup` | **MERGE** | **MERGED** | — | Merge into #6. Add startup-specific section to that article. |
+| 69 | What Does a Clothing Manufacturer Need From a Startup? | `/learn/what-clothing-manufacturer-needs-from-startup` | **MERGE** | **MERGED** | - | Merge into #6. Add startup-specific section to that article. |
 | 70 | How to Scale Clothing Production After a Successful First Run | `/learn/how-to-scale-clothing-production` | **CREATE** | **REVIEW** | 1 | High value. Implemented Phase 2 Batch 1. |
 
 ---
@@ -247,7 +247,7 @@ Before the content matrix, every proposed topic was checked against the **76 exi
 | 83 | How to Compare Clothing Manufacturers | `/learn/how-to-compare-clothing-manufacturers` | **CREATE** | **REVIEW** | 2 | Implemented Batch 6. |
 | 84 | What Should Be Included in an Apparel Manufacturing Quote? | `/learn/what-should-be-in-an-apparel-manufacturing-quote` | **CREATE** | **REVIEW** | 1 | High value. Implemented Batch 6. |
 | 85 | How to Evaluate an Overseas Clothing Manufacturer | `/learn/how-to-evaluate-an-overseas-clothing-manufacturer` | **CREATE** | **REVIEW** | 1 | Implemented. Audit: pass. |
-| 86 | Clothing Manufacturer Due Diligence Checklist | `/learn/clothing-manufacturer-due-diligence-checklist` | **CREATE** | **REVIEW** | 1 | Implemented. **BUG: `breadcrumbsJsonLd` declared after return statement — must fix.** |
+| 86 | Clothing Manufacturer Due Diligence Checklist | `/learn/clothing-manufacturer-due-diligence-checklist` | **CREATE** | **REVIEW** | 1 | Implemented. **BUG: `breadcrumbsJsonLd` declared after return statement - must fix.** |
 | 87 | Direct Manufacturer vs Sourcing Agent | `/learn/direct-manufacturer-vs-sourcing-agent` | **CREATE** | **REVIEW** | 1 | High value. Implemented Batch 6. |
 | 88 | How Fashion Brands Should Communicate With Overseas Suppliers | `/learn/how-to-communicate-with-overseas-suppliers` | **CREATE** | **REVIEW** | 2 | Implemented Batch 6. |
 | 89 | Warning Signs of a Poor Apparel Manufacturing Partner | `/learn/warning-signs-of-poor-apparel-manufacturer` | **CREATE** | **REVIEW** | 1 | High value. Implemented Batch 6. |
@@ -260,11 +260,11 @@ Before the content matrix, every proposed topic was checked against the **76 exi
 | # | Title | URL | Decision | Status | Phase | Notes |
 |---|---|---|---|---|---|---|
 | 91 | How Apparel Manufacturing in Bangladesh Works | `/learn/how-apparel-manufacturing-in-bangladesh-works` | **CREATE** | **REVIEW** | 2 | #96 MERGE target. Implemented Batch 6. |
-| 92 | Why Fashion Brands Source Clothing From Bangladesh | `/learn/why-fashion-brands-source-from-bangladesh` | **REJECT** | **REJECTED** | — | Substantially covered by `/why-manufacture-apparel-in-bangladesh`. Do not create. |
-| 93 | Bangladesh vs China for Apparel Manufacturing | `/learn/bangladesh-vs-china-apparel-manufacturing` | **REJECT** | **REJECTED** | — | Exact duplicate of `/bangladesh-vs-china-garment-manufacturing`. Do not create. |
-| 94 | Bangladesh vs Vietnam for Apparel Manufacturing | `/learn/bangladesh-vs-vietnam-apparel-manufacturing` | **REJECT** | **REJECTED** | — | Exact duplicate of `/bangladesh-vs-vietnam-garment-manufacturing`. Do not create. |
+| 92 | Why Fashion Brands Source Clothing From Bangladesh | `/learn/why-fashion-brands-source-from-bangladesh` | **REJECT** | **REJECTED** | - | Substantially covered by `/why-manufacture-apparel-in-bangladesh`. Do not create. |
+| 93 | Bangladesh vs China for Apparel Manufacturing | `/learn/bangladesh-vs-china-apparel-manufacturing` | **REJECT** | **REJECTED** | - | Exact duplicate of `/bangladesh-vs-china-garment-manufacturing`. Do not create. |
+| 94 | Bangladesh vs Vietnam for Apparel Manufacturing | `/learn/bangladesh-vs-vietnam-apparel-manufacturing` | **REJECT** | **REJECTED** | - | Exact duplicate of `/bangladesh-vs-vietnam-garment-manufacturing`. Do not create. |
 | 95 | What Fashion Brands Should Know Before Sourcing From Bangladesh | `/learn/what-to-know-before-sourcing-from-bangladesh` | **CREATE** | **REVIEW** | 2 | Implemented Batch 6. |
-| 96 | Apparel Sourcing in Bangladesh: A Beginner's Guide | `/learn/apparel-sourcing-bangladesh-beginners-guide` | **MERGE** | **MERGED** | — | Merge into #91. Do not create standalone URL. |
+| 96 | Apparel Sourcing in Bangladesh: A Beginner's Guide | `/learn/apparel-sourcing-bangladesh-beginners-guide` | **MERGE** | **MERGED** | - | Merge into #91. Do not create standalone URL. |
 | 97 | How International Clothing Production Is Coordinated | `/learn/how-international-clothing-production-is-coordinated` | **CREATE** | **REVIEW** | 2 | Implemented Batch 6. |
 | 98 | What Happens After Clothing Is Manufactured Overseas? | `/learn/what-happens-after-clothing-manufactured-overseas` | **CREATE** | **REVIEW** | 1 | High value. Implemented Batch 6. |
 | 99 | Importing Finished Garments: A Beginner's Guide | `/learn/importing-finished-garments-beginners-guide` | **CREATE** | PLANNED | 3 | Create as hub page linking to existing country-specific import guides only. No tariff claims. |
@@ -279,8 +279,8 @@ Before the content matrix, every proposed topic was checked against the **76 exi
 | **CREATE** | **88** | 83 | +5 (original undercounted) |
 | **MERGE** | **4** | 4 | None |
 | **REJECT** | **4** | 3 | +1 (original missed #94) |
-| **Total accounted for** | **96** | 90 | — |
-| **Note** | 4 MERGE articles do not generate standalone URLs — they contribute content to target articles. | | |
+| **Total accounted for** | **96** | 90 | - |
+| **Note** | 4 MERGE articles do not generate standalone URLs - they contribute content to target articles. | | |
 
 ---
 
@@ -333,7 +333,7 @@ Before the content matrix, every proposed topic was checked against the **76 exi
 
 ---
 
-## PART 6: PHASE 1 — TOP 20 ARTICLES (REFERENCE)
+## PART 6: PHASE 1 - TOP 20 ARTICLES (REFERENCE)
 
 These were the 20 recommended Phase 1 articles. All have been implemented and are in REVIEW status.
 
@@ -364,11 +364,11 @@ These were the 20 recommended Phase 1 articles. All have been implemented and ar
 
 ## PART 7: OPEN DECISIONS (RESOLVED)
 
-1. **URL structure**: RESOLVED — `/learn/[slug]` confirmed.
-2. **Phase 1 scope**: RESOLVED — 20 articles confirmed.
-3. **Author field**: RESOLVED — "General industry knowledge — reviewed by Fenalt editorial team" (no named individual).
-4. **External linking policy**: RESOLVED — linking to authoritative sources is approved.
-5. **Article layout**: RESOLVED — same design system as commercial pages, with `/learn/` cluster badge breadcrumb.
+1. **URL structure**: RESOLVED - `/learn/[slug]` confirmed.
+2. **Phase 1 scope**: RESOLVED - 20 articles confirmed.
+3. **Author field**: RESOLVED - "General industry knowledge • Reviewed by Fenalt editorial team" (no named individual).
+4. **External linking policy**: RESOLVED - linking to authoritative sources is approved.
+5. **Article layout**: RESOLVED - same design system as commercial pages, with `/learn/` cluster badge breadcrumb.
 
 ---
 

@@ -22,7 +22,7 @@ export default function WhatDoesLowMoqMeanPage() {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: "What Does Low MOQ Mean in Clothing Manufacturing?",
-    description: "MOQ (minimum order quantity) explained — what it means, why factories set MOQs, and what low MOQ means for small fashion brands.",
+    description: "MOQ (minimum order quantity) explained - what it means, why factories set MOQs, and what low MOQ means for small fashion brands.",
     author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
     publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
     url: "https://fenalt.com/learn/what-does-low-moq-mean",
@@ -39,7 +39,7 @@ export default function WhatDoesLowMoqMeanPage() {
   };
 
   const moqRanges = [
-    { label: "Sample / Prototype", range: "1–10 units", context: "For fit and quality approval before production. Not priced for retail economics.", note: "Not a production MOQ — a development stage." },
+    { label: "Sample / Prototype", range: "1–10 units", context: "For fit and quality approval before production. Not priced for retail economics.", note: "Not a production MOQ - a development stage." },
     { label: "Low MOQ Production", range: "50–150 units per style", context: "Accessible for startups, capsule collections, and pilot runs. Typically involves a premium per-unit cost vs bulk.", note: "Fenalt supports production from 50 units per style for qualifying projects, depending on design complexity and fabric." },
     { label: "Standard MOQ", range: "150–300 units per style", context: "Common threshold for most mid-tier factories. Per-unit cost begins to improve meaningfully.", note: "Most flexible in terms of factory options and fabric access." },
     { label: "Bulk / Wholesale MOQ", range: "300–1,000+ units per style", context: "Unlocks significantly better per-unit economics. Preferred by established brands placing repeat orders.", note: "Fabric minimums at mill level often drive this threshold." },
@@ -48,7 +48,7 @@ export default function WhatDoesLowMoqMeanPage() {
   const faqs = [
     {
       q: "Why do clothing manufacturers have minimum order quantities?",
-      a: "MOQs exist because garment production has substantial fixed costs that do not scale linearly — pattern making, sampling, factory setup, and machine changeover all happen regardless of whether 50 or 500 units are produced. A minimum order ensures the factory can operate economically.",
+      a: "MOQs exist because garment production has substantial fixed costs that do not scale linearly - pattern making, sampling, factory setup, and machine changeover all happen regardless of whether 50 or 500 units are produced. A minimum order ensures the factory can operate economically.",
     },
     {
       q: "Does low MOQ mean lower quality?",
@@ -94,9 +94,9 @@ export default function WhatDoesLowMoqMeanPage() {
             <span className="italic font-medium text-[#2D5016]">in Clothing Manufacturing?</span>
           </h1>
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
-            MOQ — minimum order quantity — is one of the first terms every new fashion brand encounters. Understanding what it means, why it exists, and how it affects cost is fundamental to planning a production project.
+            MOQ - minimum order quantity - is one of the first terms every new fashion brand encounters. Understanding what it means, why it exists, and how it affects cost is fundamental to planning a production project.
           </p>
-          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge — reviewed by Fenalt editorial team</p>
+          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>
       </section>
 
@@ -106,7 +106,7 @@ export default function WhatDoesLowMoqMeanPage() {
           <div className="bg-[#1A1A1A] text-[#FAF9F6] p-8 lg:p-12">
             <p className="text-xs font-semibold uppercase tracking-[0.25em] text-[#C8A882] mb-4">Definition</p>
             <p className="font-display text-2xl lg:text-3xl font-light leading-relaxed">
-              MOQ (Minimum Order Quantity) is the smallest number of units a manufacturer is willing to produce in a single production run. &ldquo;Low MOQ&rdquo; refers to manufacturers that accept smaller production runs — typically under 300 units per style — making them accessible to startups and emerging brands.
+              MOQ (Minimum Order Quantity) is the smallest number of units a manufacturer is willing to produce in a single production run. &ldquo;Low MOQ&rdquo; refers to manufacturers that accept smaller production runs - typically under 300 units per style - making them accessible to startups and emerging brands.
             </p>
           </div>
         </div>
@@ -119,8 +119,8 @@ export default function WhatDoesLowMoqMeanPage() {
           <h2 className="font-display text-3xl lg:text-4xl font-light text-[#FAF9F6] mb-6">Why Do Factories Set MOQs?</h2>
           <div className="space-y-4 text-base text-[#E5DDD3] leading-relaxed">
             <p>Every production run has fixed costs that don&apos;t scale with volume: pattern making, sampling, machine setup and changeover, fabric dye-lot minimums at the mill level, and factory floor scheduling. A factory producing 50 garments must bear almost the same setup costs as one producing 500.</p>
-            <p>MOQs exist to ensure those fixed costs can be spread across enough units for production to be economically viable for the factory — and for per-unit pricing to remain competitive for the brand.</p>
-            <p>Low-MOQ factories have typically structured their operations to absorb these setup costs differently — often through premium per-unit pricing, smaller-scale equipment, or aggregated orders across multiple brands.</p>
+            <p>MOQs exist to ensure those fixed costs can be spread across enough units for production to be economically viable for the factory - and for per-unit pricing to remain competitive for the brand.</p>
+            <p>Low-MOQ factories have typically structured their operations to absorb these setup costs differently - often through premium per-unit pricing, smaller-scale equipment, or aggregated orders across multiple brands.</p>
           </div>
         </div>
       </section>

@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, Network } from "lucide-react";
 export const metadata: Metadata = {
   title: "How International Clothing Production Is Coordinated",
   description:
-    "Discover how global supply chain teams orchestrate overseas garment manufacturing — tech pack handoffs, lab-dip approvals, inline inspections, and freight booking.",
+    "Discover how global supply chain teams orchestrate overseas garment manufacturing - tech pack handoffs, lab-dip approvals, inline inspections, and freight booking.",
   alternates: {
     canonical: "https://fenalt.com/learn/how-international-clothing-production-is-coordinated",
   },
   openGraph: {
     title: "How International Clothing Production Is Coordinated",
     description:
-      "Discover how global supply chain teams orchestrate overseas garment manufacturing — tech pack handoffs, lab-dip approvals, inline inspections, and freight booking.",
+      "Discover how global supply chain teams orchestrate overseas garment manufacturing - tech pack handoffs, lab-dip approvals, inline inspections, and freight booking.",
     url: "https://fenalt.com/learn/how-international-clothing-production-is-coordinated",
   },
 };
@@ -50,7 +50,7 @@ export default function HowInternationalClothingProductionIsCoordinatedPage() {
   const faqs = [
     {
       q: "What role does a merchandising manager play in overseas coordination?",
-      a: "The factory merchandiser acts as the single central hub — coordinating raw yarn mill purchases, printing house schedules, QC audits, and shipping document releases.",
+      a: "The factory merchandiser acts as the single central hub - coordinating raw yarn mill purchases, printing house schedules, QC audits, and shipping document releases.",
     },
     {
       q: "How long does global supply chain coordination take for a bulk collection?",
@@ -93,7 +93,7 @@ export default function HowInternationalClothingProductionIsCoordinatedPage() {
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
             Coordinating overseas garment production across multiple time zones requires rigorous project management, clear milestone gates, and dedicated merchandising.
           </p>
-          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge — reviewed by Fenalt editorial team</p>
+          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>
       </section>
 
@@ -170,7 +170,7 @@ export default function HowInternationalClothingProductionIsCoordinatedPage() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
           <h2 className="font-display text-3xl lg:text-5xl font-light text-[#1A1A1A] mb-4">End-to-end global supply chain coordination</h2>
           <p className="text-[#6B6560] leading-relaxed text-base mb-10 max-w-xl mx-auto">
-            Fenalt manages cross-border manufacturing end-to-end — overseeing mill sourcing, sampling, sewing, QC, and door-to-door freight.
+            Fenalt manages cross-border manufacturing end-to-end - overseeing mill sourcing, sampling, sewing, QC, and door-to-door freight.
           </p>
           <Link href="/intake" className="inline-flex items-center justify-center gap-2 px-10 py-4 bg-[#1A1A1A] text-[#FAF9F6] text-sm font-semibold tracking-wide hover:bg-[#2D5016] transition-colors duration-300">
             Submit Your Project <ArrowRight size={16} />

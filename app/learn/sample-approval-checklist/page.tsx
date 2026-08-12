@@ -70,7 +70,7 @@ export default function SampleApprovalChecklistPage() {
     },
     {
       q: "Should I sign off on a sample if only minor trims are incorrect?",
-      a: "Yes — provided you issue a conditional approval specifying that the pre-production (PP) sample must incorporate the corrected trims.",
+      a: "Yes - provided you issue a conditional approval specifying that the pre-production (PP) sample must incorporate the corrected trims.",
     },
   ];
 
@@ -109,7 +109,7 @@ export default function SampleApprovalChecklistPage() {
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
             Never approve a sample based on visual glance alone. Use this structured checklist to conduct a thorough technical evaluation before bulk authorization.
           </p>
-          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge — reviewed by Fenalt editorial team</p>
+          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>
       </section>
 
@@ -193,7 +193,7 @@ export default function SampleApprovalChecklistPage() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
           <h2 className="font-display text-3xl lg:text-5xl font-light text-[#1A1A1A] mb-4">Professional sample auditing</h2>
           <p className="text-[#6B6560] leading-relaxed text-base mb-10 max-w-xl mx-auto">
-            Fenalt inspects every sample against your tech pack specifications — issuing clear measurement audit reports before shipping.
+            Fenalt inspects every sample against your tech pack specifications - issuing clear measurement audit reports before shipping.
           </p>
           <Link href="/intake" className="inline-flex items-center justify-center gap-2 px-10 py-4 bg-[#1A1A1A] text-[#FAF9F6] text-sm font-semibold tracking-wide hover:bg-[#2D5016] transition-colors duration-300">
             Submit Your Project <ArrowRight size={16} />

@@ -55,7 +55,7 @@ export default function StartupClothingManufacturerPage() {
   const faqs = [
     {
       q: "What makes Fenalt ideal for startup apparel brands?",
-      a: "Fenalt lowers traditional factory barriers for startups—offering capsule order minimums from 50 units, direct English-speaking communication, tech pack guidance, and physical floor supervision in Dhaka.",
+      a: "Fenalt lowers traditional factory barriers for startups - offering capsule order minimums from 50 units, direct English-speaking communication, tech pack guidance, and physical floor supervision in Dhaka.",
     },
     {
       q: "How much upfront capital is required to start a production run?",
@@ -132,7 +132,7 @@ export default function StartupClothingManufacturerPage() {
                 First-time fashion founders face steep obstacles when approaching overseas factories: high minimum order quantities (1,000+ pieces), complex manufacturing terminology, delayed communication, and unverified stitching quality.
               </p>
               <p>
-                <strong>Fenalt functions as your startup operational liaison:</strong> We guide emerging designers through tech pack translation, pattern development, sample approvals, and micro-factory matching—making 50–300 unit runs safe, transparent, and manageable.
+                <strong>Fenalt functions as your startup operational liaison:</strong> We guide emerging designers through tech pack translation, pattern development, sample approvals, and micro-factory matching - making 50–300 unit runs safe, transparent, and manageable.
               </p>
             </div>
           </div>
@@ -209,7 +209,7 @@ export default function StartupClothingManufacturerPage() {
               On-Site QC Management in Dhaka
             </h2>
             <p className="text-lg text-[#E5DDD3] leading-relaxed font-light mb-8">
-              Startup production runs receive full on-site inspection by our local Dhaka team—protecting your brand reputation from day one.
+              Startup production runs receive full on-site inspection by our local Dhaka team - protecting your brand reputation from day one.
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-12">

@@ -93,7 +93,7 @@ export default function RecycledPolyesterInClothingProductionPage() {
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
             Recycled polyester (rPET) diverts plastic waste from landfills while providing high-performance moisture management for activewear and outerwear.
           </p>
-          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge — reviewed by Fenalt editorial team</p>
+          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>
       </section>
 

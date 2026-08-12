@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, AlertTriangle } from "lucide-react"
 export const metadata: Metadata = {
   title: "Common Clothing Quality Problems and Their Causes",
   description:
-    "Troubleshoot garment manufacturing defects — puckered seams, shade variation, fabric pilling, skipped stitches, print cracking, and crooked hems.",
+    "Troubleshoot garment manufacturing defects - puckered seams, shade variation, fabric pilling, skipped stitches, print cracking, and crooked hems.",
   alternates: {
     canonical: "https://fenalt.com/learn/common-clothing-quality-problems",
   },
   openGraph: {
     title: "Common Clothing Quality Problems and Their Causes",
     description:
-      "Troubleshoot garment manufacturing defects — puckered seams, shade variation, fabric pilling, skipped stitches, print cracking, and crooked hems.",
+      "Troubleshoot garment manufacturing defects - puckered seams, shade variation, fabric pilling, skipped stitches, print cracking, and crooked hems.",
     url: "https://fenalt.com/learn/common-clothing-quality-problems",
   },
 };
@@ -93,7 +93,7 @@ export default function CommonClothingQualityProblemsPage() {
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
             Understanding the root causes of apparel defects allows brand founders to specify preventive technical measures before production begins.
           </p>
-          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge — reviewed by Fenalt editorial team</p>
+          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>
       </section>
 

@@ -55,7 +55,7 @@ export default function ApparelProductionManagementPage() {
   const faqs = [
     {
       q: "What does Fenalt's production management service cover?",
-      a: "We manage the entire manufacturing cycle—fabric sourcing, pattern approval, line scheduling, in-line floor audits, AQL 2.5 carton sampling, customs clearance, and global DDP freight.",
+      a: "We manage the entire manufacturing cycle - fabric sourcing, pattern approval, line scheduling, in-line floor audits, AQL 2.5 carton sampling, customs clearance, and global DDP freight.",
     },
     {
       q: "How does Fenalt keep fashion brand founders updated during production?",
@@ -126,7 +126,7 @@ export default function ApparelProductionManagementPage() {
                 Managing overseas factory lines independently exposes brands to missed delivery windows, unverified seam stitching, communication lags, and unexpected customs surcharges.
               </p>
               <p>
-                <strong>Fenalt serves as your dedicated production team:</strong> Our Dhaka managers maintain physical daily presence across micro-factory floors—tracking material arrival, sewing line productivity, and AQL quality compliance.
+                <strong>Fenalt serves as your dedicated production team:</strong> Our Dhaka managers maintain physical daily presence across micro-factory floors - tracking material arrival, sewing line productivity, and AQL quality compliance.
               </p>
             </div>
           </div>

@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, Users } from "lucide-react";
 export const metadata: Metadata = {
   title: "Direct Manufacturer vs Sourcing Agent: Channel Choice Guide",
   description:
-    "Evaluate whether to work directly with a clothing factory or partner with a sourcing agent — comparing communication overhead, MOQ flexibility, and quality control.",
+    "Evaluate whether to work directly with a clothing factory or partner with a sourcing agent - comparing communication overhead, MOQ flexibility, and quality control.",
   alternates: {
     canonical: "https://fenalt.com/learn/direct-manufacturer-vs-sourcing-agent",
   },
   openGraph: {
     title: "Direct Manufacturer vs Sourcing Agent: Channel Choice Guide",
     description:
-      "Evaluate whether to work directly with a clothing factory or partner with a sourcing agent — comparing communication overhead, MOQ flexibility, and quality control.",
+      "Evaluate whether to work directly with a clothing factory or partner with a sourcing agent - comparing communication overhead, MOQ flexibility, and quality control.",
     url: "https://fenalt.com/learn/direct-manufacturer-vs-sourcing-agent",
   },
 };
@@ -93,7 +93,7 @@ export default function DirectManufacturerVsSourcingAgentPage() {
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
             Deciding whether to manage direct factory relationships or work through a dedicated sourcing partner dictates your supply chain workload and execution speed.
           </p>
-          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge — reviewed by Fenalt editorial team</p>
+          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>
       </section>
 
@@ -179,7 +179,7 @@ export default function DirectManufacturerVsSourcingAgentPage() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
           <h2 className="font-display text-3xl lg:text-5xl font-light text-[#1A1A1A] mb-4">Hybrid manufacturing partner in Dhaka</h2>
           <p className="text-[#6B6560] leading-relaxed text-base mb-10 max-w-xl mx-auto">
-            Fenalt combines direct manufacturing ownership with full-service sourcing management — providing low MOQs and dedicated English support.
+            Fenalt combines direct manufacturing ownership with full-service sourcing management - providing low MOQs and dedicated English support.
           </p>
           <Link href="/intake" className="inline-flex items-center justify-center gap-2 px-10 py-4 bg-[#1A1A1A] text-[#FAF9F6] text-sm font-semibold tracking-wide hover:bg-[#2D5016] transition-colors duration-300">
             Submit Your Project <ArrowRight size={16} />

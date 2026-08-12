@@ -229,7 +229,7 @@ export default function LowMOQPage() {
                   One of the biggest hurdles to low MOQs in conventional manufacturing is fabric minimum order quantities imposed by textile mills. Custom dye lots often require thousands of meters.
                 </p>
                 <p>
-                  Fenalt solves this by sourcing high-grade <strong className="text-[#C8A882] font-medium">Jhoot deadstock textiles</strong>—premium cottons and knits leftover from major production runs. This enables low-unit drops using luxury-weight fabrics without incurring custom mill minimums.
+                  Fenalt solves this by sourcing high-grade <strong className="text-[#C8A882] font-medium">Jhoot deadstock textiles</strong> - premium cottons and knits leftover from major production runs. This enables low-unit drops using luxury-weight fabrics without incurring custom mill minimums.
                 </p>
               </div>
               <div className="mt-10">

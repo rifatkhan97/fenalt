@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, Globe } from "lucide-react";
 export const metadata: Metadata = {
   title: "Fabric Sourcing Guide for Fashion Brands: Step-by-Step",
   description:
-    "Master fabric procurement — working with textile mills, understanding greige fabric stock, negotiating minimums (MOQs), and approving lab-dips.",
+    "Master fabric procurement - working with textile mills, understanding greige fabric stock, negotiating minimums (MOQs), and approving lab-dips.",
   alternates: {
     canonical: "https://fenalt.com/learn/fabric-sourcing-guide-for-fashion-brands",
   },
   openGraph: {
     title: "Fabric Sourcing Guide for Fashion Brands: Step-by-Step",
     description:
-      "Master fabric procurement — working with textile mills, understanding greige fabric stock, negotiating minimums (MOQs), and approving lab-dips.",
+      "Master fabric procurement - working with textile mills, understanding greige fabric stock, negotiating minimums (MOQs), and approving lab-dips.",
     url: "https://fenalt.com/learn/fabric-sourcing-guide-for-fashion-brands",
   },
 };
@@ -93,7 +93,7 @@ export default function FabricSourcingGuideForFashionBrandsPage() {
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
             Sourcing fabric is the first bottleneck in apparel production. Learn how to work with textile mills, manage lead times, and negotiate mill minimums.
           </p>
-          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge — reviewed by Fenalt editorial team</p>
+          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>
       </section>
 

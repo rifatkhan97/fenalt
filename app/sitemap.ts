@@ -96,7 +96,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/privacy", changeFrequency: "yearly", priority: 0.3 },
     { path: "/terms", changeFrequency: "yearly", priority: 0.3 },
 
-    // Educational Library — Phase 1 (20 Articles)
+    // Educational Library - Phase 1 (20 Articles)
     // Cluster A: Manufacturing Fundamentals
     { path: "/learn/how-clothing-manufacturing-works", changeFrequency: "monthly", priority: 0.7 },
     { path: "/learn/clothing-manufacturer-vs-sourcing-agent", changeFrequency: "monthly", priority: 0.7 },
@@ -127,7 +127,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // Cluster J: Bangladesh & International Sourcing
     { path: "/learn/overseas-apparel-production-checklist", changeFrequency: "monthly", priority: 0.7 },
 
-    // Educational Library — Phase 2 Batch 1 (10 Articles)
+    // Educational Library - Phase 2 Batch 1 (10 Articles)
     { path: "/learn/tech-pack-to-bulk-production", changeFrequency: "monthly", priority: 0.7 },
     { path: "/learn/what-to-include-in-a-tech-pack", changeFrequency: "monthly", priority: 0.7 },
     { path: "/learn/points-of-measure-garment", changeFrequency: "monthly", priority: 0.7 },
@@ -139,7 +139,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/learn/how-to-scale-clothing-production", changeFrequency: "monthly", priority: 0.7 },
     { path: "/learn/apparel-quality-control-explained", changeFrequency: "monthly", priority: 0.7 },
 
-    // Educational Library — Phase 2 Batch 2 (12 Articles)
+    // Educational Library - Phase 2 Batch 2 (12 Articles)
     { path: "/learn/cut-and-sew-manufacturing-explained", changeFrequency: "monthly", priority: 0.7 },
     { path: "/learn/what-does-an-apparel-manufacturer-do", changeFrequency: "monthly", priority: 0.7 },
     { path: "/learn/apparel-production-process-explained", changeFrequency: "monthly", priority: 0.7 },
@@ -153,7 +153,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/learn/how-to-give-sample-feedback", changeFrequency: "monthly", priority: 0.7 },
     { path: "/learn/after-sample-approval-what-happens", changeFrequency: "monthly", priority: 0.7 },
 
-    // Educational Library — Phase 2 Batch 3 (15 Articles)
+    // Educational Library - Phase 2 Batch 3 (15 Articles)
     { path: "/learn/tech-pack-vs-sewing-pattern", changeFrequency: "monthly", priority: 0.7 },
     { path: "/learn/tech-pack-measurements", changeFrequency: "monthly", priority: 0.7 },
     { path: "/learn/bill-of-materials-apparel", changeFrequency: "monthly", priority: 0.7 },
@@ -170,7 +170,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/learn/fabric-sourcing-guide-for-fashion-brands", changeFrequency: "monthly", priority: 0.7 },
     { path: "/learn/fabric-choice-and-manufacturing-cost", changeFrequency: "monthly", priority: 0.7 },
 
-    // Educational Library — Phase 2 Batch 4 (11 Articles)
+    // Educational Library - Phase 2 Batch 4 (11 Articles)
     { path: "/learn/garment-customization-options-explained", changeFrequency: "monthly", priority: 0.7 },
     { path: "/learn/custom-hangtags-neck-labels-apparel", changeFrequency: "monthly", priority: 0.7 },
     { path: "/learn/screen-printing-vs-dtg-clothing", changeFrequency: "monthly", priority: 0.7 },
@@ -183,7 +183,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/learn/outerwear-jacket-manufacturing-guide", changeFrequency: "monthly", priority: 0.7 },
     { path: "/learn/streetwear-manufacturing-guide", changeFrequency: "monthly", priority: 0.7 },
 
-    // Educational Library — Phase 2 Batch 5 (11 Articles)
+    // Educational Library - Phase 2 Batch 5 (11 Articles)
     { path: "/learn/stitch-type-and-garment-quality", changeFrequency: "monthly", priority: 0.7 },
     { path: "/learn/how-to-evaluate-stitch-quality", changeFrequency: "monthly", priority: 0.7 },
     { path: "/learn/garment-measurement-checking-in-production", changeFrequency: "monthly", priority: 0.7 },
@@ -196,7 +196,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/learn/garment-quality-checklist-for-brands", changeFrequency: "monthly", priority: 0.7 },
     { path: "/learn/how-to-reduce-defects-in-apparel-production", changeFrequency: "monthly", priority: 0.7 },
 
-    // Educational Library — Phase 2 Batch 6 (12 Articles)
+    // Educational Library - Phase 2 Batch 6 (12 Articles)
     { path: "/learn/how-to-plan-small-batch-apparel-launch", changeFrequency: "monthly", priority: 0.7 },
     { path: "/learn/how-to-inspect-garment-measurements", changeFrequency: "monthly", priority: 0.7 },
     { path: "/learn/how-to-compare-clothing-manufacturers", changeFrequency: "monthly", priority: 0.7 },

@@ -23,7 +23,7 @@ export default function WhatIsATechPackPage() {
     "@type": "Article",
     headline: "What Is a Tech Pack in Apparel Manufacturing?",
     description:
-      "A guide to tech packs — what they are, what they contain, and why they are essential for clothing production.",
+      "A guide to tech packs - what they are, what they contain, and why they are essential for clothing production.",
     author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
     publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
     url: "https://fenalt.com/learn/what-is-a-tech-pack",
@@ -55,7 +55,7 @@ export default function WhatIsATechPackPage() {
     },
     {
       title: "Bill of Materials (BOM)",
-      body: "A complete itemised list of every component — fabric, thread, label, zipper, button, hangtag, polybag — with supplier preference notes, unit cost (if known), and quantity per garment.",
+      body: "A complete itemised list of every component - fabric, thread, label, zipper, button, hangtag, polybag - with supplier preference notes, unit cost (if known), and quantity per garment.",
     },
     {
       title: "Construction Details",
@@ -123,9 +123,9 @@ export default function WhatIsATechPackPage() {
             <span className="italic font-medium text-[#2D5016]">in Apparel Manufacturing?</span>
           </h1>
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
-            A tech pack is the single most important document in clothing production. Without one, manufacturers cannot produce consistent samples — or accurate quotes. Here is exactly what it contains and why it matters.
+            A tech pack is the single most important document in clothing production. Without one, manufacturers cannot produce consistent samples - or accurate quotes. Here is exactly what it contains and why it matters.
           </p>
-          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge — reviewed by Fenalt editorial team</p>
+          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>
       </section>
 
@@ -138,12 +138,12 @@ export default function WhatIsATechPackPage() {
               <span className="text-xs font-semibold uppercase tracking-[0.25em] text-[#C8A882]">Definition</span>
             </div>
             <p className="font-display text-2xl lg:text-3xl font-light text-[#1A1A1A] leading-relaxed">
-              A <strong className="font-medium">tech pack</strong> (technical package) is a structured document — typically a multi-page PDF or spreadsheet — that communicates every detail of a garment to a manufacturer: construction, materials, measurements, colours, trims, labels, and packaging.
+              A <strong className="font-medium">tech pack</strong> (technical package) is a structured document - typically a multi-page PDF or spreadsheet - that communicates every detail of a garment to a manufacturer: construction, materials, measurements, colours, trims, labels, and packaging.
             </p>
           </div>
           <div className="prose prose-lg max-w-none text-[#6B6560] leading-relaxed space-y-5">
             <p>
-              It functions as the binding contract between a brand and a factory. When a manufacturer sews a garment from a tech pack, they are not interpreting — they are following instructions. If those instructions are vague, incomplete, or contradictory, the output will reflect that.
+              It functions as the binding contract between a brand and a factory. When a manufacturer sews a garment from a tech pack, they are not interpreting - they are following instructions. If those instructions are vague, incomplete, or contradictory, the output will reflect that.
             </p>
             <p>
               Tech packs exist because verbal instructions, email threads, and hand-drawn sketches are unreliable at scale. A factory floor producing 500 identical garments cannot operate from a photograph.
@@ -183,7 +183,7 @@ export default function WhatIsATechPackPage() {
           <h2 className="font-display text-3xl lg:text-5xl font-light text-[#FAF9F6] mb-8">What Happens Without a Tech Pack</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
             {[
-              "Manufacturers must make assumptions — leading to sample misalignment",
+              "Manufacturers must make assumptions - leading to sample misalignment",
               "Pricing quotes will be inaccurate and require multiple revisions",
               "Sample revision rounds increase, adding weeks and cost",
               "Inconsistency between samples from different factories",

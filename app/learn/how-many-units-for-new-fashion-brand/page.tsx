@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, PieChart } from "lucide-react";
 export const metadata: Metadata = {
   title: "How Many Units Should a New Fashion Brand Produce?",
   description:
-    "A realistic unit volume guide for emerging apparel labels — balancing minimum order quantities (MOQs), cash flow, inventory risk, and sizing breakdowns.",
+    "A realistic unit volume guide for emerging apparel labels - balancing minimum order quantities (MOQs), cash flow, inventory risk, and sizing breakdowns.",
   alternates: {
     canonical: "https://fenalt.com/learn/how-many-units-for-new-fashion-brand",
   },
   openGraph: {
     title: "How Many Units Should a New Fashion Brand Produce?",
     description:
-      "A realistic unit volume guide for emerging apparel labels — balancing minimum order quantities (MOQs), cash flow, inventory risk, and sizing breakdowns.",
+      "A realistic unit volume guide for emerging apparel labels - balancing minimum order quantities (MOQs), cash flow, inventory risk, and sizing breakdowns.",
     url: "https://fenalt.com/learn/how-many-units-for-new-fashion-brand",
   },
 };
@@ -92,7 +92,7 @@ export default function HowManyUnitsForNewFashionBrandPage() {
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
             Overordering inventory is the leading cause of early startup failure. Here is how to determine your initial production volume and allocate unit ratios responsibly.
           </p>
-          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge — reviewed by Fenalt editorial team</p>
+          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>
       </section>
 
@@ -105,7 +105,7 @@ export default function HowManyUnitsForNewFashionBrandPage() {
               <span className="text-xs font-semibold uppercase tracking-[0.25em] text-[#C8A882]">Inventory Strategy</span>
             </div>
             <p className="font-display text-2xl lg:text-3xl font-light text-[#1A1A1A] leading-relaxed">
-              Your first production run is not meant to maximize profit margins — it is designed to <strong className="font-medium">validate product-market fit</strong> and establish operating velocity.
+              Your first production run is not meant to maximize profit margins - it is designed to <strong className="font-medium">validate product-market fit</strong> and establish operating velocity.
             </p>
           </div>
         </div>

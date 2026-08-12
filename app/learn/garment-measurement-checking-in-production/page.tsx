@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, Ruler } from "lucide-react";
 export const metadata: Metadata = {
   title: "How Garment Measurements Are Checked During Production",
   description:
-    "Discover how factory QC teams audit flat garment measurements on the production line — using measurement spec sheets, POM templates, and tolerance allowances.",
+    "Discover how factory QC teams audit flat garment measurements on the production line - using measurement spec sheets, POM templates, and tolerance allowances.",
   alternates: {
     canonical: "https://fenalt.com/learn/garment-measurement-checking-in-production",
   },
   openGraph: {
     title: "How Garment Measurements Are Checked During Production",
     description:
-      "Discover how factory QC teams audit flat garment measurements on the production line — using measurement spec sheets, POM templates, and tolerance allowances.",
+      "Discover how factory QC teams audit flat garment measurements on the production line - using measurement spec sheets, POM templates, and tolerance allowances.",
     url: "https://fenalt.com/learn/garment-measurement-checking-in-production",
   },
 };
@@ -44,7 +44,7 @@ export default function GarmentMeasurementCheckingInProductionPage() {
     { title: "1. Flat Table Conditioning & Relaxing", desc: "Garments are laid completely flat on a smooth inspection table. Knits are allowed to relax for 2 hours post-ironing before measuring." },
     { title: "2. Point of Measure (POM) Alignment", desc: "Inspectors place steel measuring tapes flat along designated POM anchor paths without pulling or distorting seams." },
     { title: "3. Tolerance Spec Verification", desc: "Each measurement is logged against the approved tech pack spec sheet. Variations must fall within allowed tolerances (e.g. ±1.0 cm)." },
-    { title: "4. Symmetric Balance Audits", desc: "Checking left-to-right symmetry — verifying left sleeve length equals right sleeve length, and pocket placements match." },
+    { title: "4. Symmetric Balance Audits", desc: "Checking left-to-right symmetry - verifying left sleeve length equals right sleeve length, and pocket placements match." },
   ];
 
   const faqs = [
@@ -93,7 +93,7 @@ export default function GarmentMeasurementCheckingInProductionPage() {
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
             Sizing consistency requires rigorous measurement checking. Learn how factory quality inspectors audit garments against technical spec sheets.
           </p>
-          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge — reviewed by Fenalt editorial team</p>
+          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>
       </section>
 
@@ -170,7 +170,7 @@ export default function GarmentMeasurementCheckingInProductionPage() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
           <h2 className="font-display text-3xl lg:text-5xl font-light text-[#1A1A1A] mb-4">Comprehensive measurement inspection</h2>
           <p className="text-[#6B6560] leading-relaxed text-base mb-10 max-w-xl mx-auto">
-            Fenalt issues itemized measurement inspection reports for every production order — auditing all POM dimensions before export packaging.
+            Fenalt issues itemized measurement inspection reports for every production order - auditing all POM dimensions before export packaging.
           </p>
           <Link href="/intake" className="inline-flex items-center justify-center gap-2 px-10 py-4 bg-[#1A1A1A] text-[#FAF9F6] text-sm font-semibold tracking-wide hover:bg-[#2D5016] transition-colors duration-300">
             Submit Your Project <ArrowRight size={16} />

@@ -126,7 +126,7 @@ export default function InstagramBrandProductionPage() {
                 Instagram and TikTok fashion brands rely on momentum, high-impact visuals, and limited-edition product drops. Mass-production minimums destroy this agility by forcing brands to buy thousands of standard blanks.
               </p>
               <p>
-                <strong>Fenalt powers small-batch social brand production:</strong> We enable 50–100 unit capsule drops using custom heavy-gsm knits, custom neck labels, high-density embroidery, and puff printing—all supervised on-site in Dhaka.
+                <strong>Fenalt powers small-batch social brand production:</strong> We enable 50–100 unit capsule drops using custom heavy-gsm knits, custom neck labels, high-density embroidery, and puff printing - all supervised on-site in Dhaka.
               </p>
             </div>
           </div>
@@ -195,7 +195,7 @@ export default function InstagramBrandProductionPage() {
               On-Site Quality Control in Dhaka
             </h2>
             <p className="text-lg text-[#E5DDD3] leading-relaxed font-light mb-8">
-              Our Dhaka floor managers inspect every seam, print, and label before export—ensuring your social drop arrives in unblemished retail condition.
+              Our Dhaka floor managers inspect every seam, print, and label before export - ensuring your social drop arrives in unblemished retail condition.
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-12">

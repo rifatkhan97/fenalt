@@ -59,7 +59,7 @@ export default function OverseasProductionManagementApparelPage() {
     },
     {
       q: "How does Fenalt protect brands during overseas manufacturing?",
-      a: "Our Dhaka team acts as your physically present representative—auditing raw materials, managing line timelines, performing AQL carton audits, and delivering landed DDP freight.",
+      a: "Our Dhaka team acts as your physically present representative - auditing raw materials, managing line timelines, performing AQL carton audits, and delivering landed DDP freight.",
     },
   ];
 
@@ -126,7 +126,7 @@ export default function OverseasProductionManagementApparelPage() {
                 Navigating offshore apparel manufacturing from the US, UK, Europe, or Australia can present massive time zone gaps, language barriers, and lack of quality accountability.
               </p>
               <p>
-                <strong>Fenalt serves as your on-the-ground team:</strong> Our Dhaka staff physically manages your production run—verifying fabric GSMs, inspecting sewing lines daily, and coordinating seamless door-to-door DDP shipping.
+                <strong>Fenalt serves as your on-the-ground team:</strong> Our Dhaka staff physically manages your production run - verifying fabric GSMs, inspecting sewing lines daily, and coordinating seamless door-to-door DDP shipping.
               </p>
             </div>
           </div>

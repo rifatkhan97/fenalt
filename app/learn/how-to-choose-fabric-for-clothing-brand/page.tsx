@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, Layers } from "lucide-react";
 export const metadata: Metadata = {
   title: "How to Choose Fabric for a Clothing Brand: Complete Guide",
   description:
-    "Learn how to select the right fabric for your apparel line — evaluating fiber content, weight (GSM), drape, stretch, shrinkage, and manufacturing cost.",
+    "Learn how to select the right fabric for your apparel line - evaluating fiber content, weight (GSM), drape, stretch, shrinkage, and manufacturing cost.",
   alternates: {
     canonical: "https://fenalt.com/learn/how-to-choose-fabric-for-clothing-brand",
   },
   openGraph: {
     title: "How to Choose Fabric for a Clothing Brand: Complete Guide",
     description:
-      "Learn how to select the right fabric for your apparel line — evaluating fiber content, weight (GSM), drape, stretch, shrinkage, and manufacturing cost.",
+      "Learn how to select the right fabric for your apparel line - evaluating fiber content, weight (GSM), drape, stretch, shrinkage, and manufacturing cost.",
     url: "https://fenalt.com/learn/how-to-choose-fabric-for-clothing-brand",
   },
 };
@@ -93,7 +93,7 @@ export default function HowToChooseFabricForClothingBrandPage() {
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
             Fabric selection dictates 60% of your garment cost, handfeel, drape, and durability. Master the fundamentals of material selection.
           </p>
-          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge — reviewed by Fenalt editorial team</p>
+          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>
       </section>
 

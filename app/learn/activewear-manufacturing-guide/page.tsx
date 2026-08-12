@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, Activity } from "lucide-react";
 export const metadata: Metadata = {
   title: "Activewear Manufacturing Guide for Fitness Brands",
   description:
-    "Learn how activewear is manufactured — technical polyester/spandex blends, 4-needle 6-thread flatlock stitching, moisture wicking, and compression testing.",
+    "Learn how activewear is manufactured - technical polyester/spandex blends, 4-needle 6-thread flatlock stitching, moisture wicking, and compression testing.",
   alternates: {
     canonical: "https://fenalt.com/learn/activewear-manufacturing-guide",
   },
   openGraph: {
     title: "Activewear Manufacturing Guide for Fitness Brands",
     description:
-      "Learn how activewear is manufactured — technical polyester/spandex blends, 4-needle 6-thread flatlock stitching, moisture wicking, and compression testing.",
+      "Learn how activewear is manufactured - technical polyester/spandex blends, 4-needle 6-thread flatlock stitching, moisture wicking, and compression testing.",
     url: "https://fenalt.com/learn/activewear-manufacturing-guide",
   },
 };
@@ -91,9 +91,9 @@ export default function ActivewearManufacturingGuidePage() {
             <span className="italic font-medium text-[#2D5016]">for Fitness Brands.</span>
           </h1>
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
-            Activewear manufacturing demands specialized technical performance — from 4-way stretch fabrics to chafe-free 4-needle flatlock stitching.
+            Activewear manufacturing demands specialized technical performance - from 4-way stretch fabrics to chafe-free 4-needle flatlock stitching.
           </p>
-          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge — reviewed by Fenalt editorial team</p>
+          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>
       </section>
 

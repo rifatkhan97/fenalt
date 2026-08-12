@@ -61,7 +61,7 @@ export default function BangladeshManufacturerPage() {
     {
       icon: ShieldCheck,
       title: "Boots-on-the-Ground QC",
-      body: "We physically audit stitching, measurement tolerances, and finishing on the factory floor—catching defects before garments leave Dhaka.",
+      body: "We physically audit stitching, measurement tolerances, and finishing on the factory floor - catching defects before garments leave Dhaka.",
     },
     {
       icon: Heart,

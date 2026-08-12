@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, Leaf } from "lucide-react";
 export const metadata: Metadata = {
   title: "Organic Cotton in Apparel Manufacturing: What Brands Should Know",
   description:
-    "A guide to organic cotton in clothing manufacturing — certification standards (GOTS, OCS), water reduction, fabric sourcing, and realistic mill MOQs.",
+    "A guide to organic cotton in clothing manufacturing - certification standards (GOTS, OCS), water reduction, fabric sourcing, and realistic mill MOQs.",
   alternates: {
     canonical: "https://fenalt.com/learn/organic-cotton-in-apparel-manufacturing",
   },
   openGraph: {
     title: "Organic Cotton in Apparel Manufacturing: What Brands Should Know",
     description:
-      "A guide to organic cotton in clothing manufacturing — certification standards (GOTS, OCS), water reduction, fabric sourcing, and realistic mill MOQs.",
+      "A guide to organic cotton in clothing manufacturing - certification standards (GOTS, OCS), water reduction, fabric sourcing, and realistic mill MOQs.",
     url: "https://fenalt.com/learn/organic-cotton-in-apparel-manufacturing",
   },
 };
@@ -93,7 +93,7 @@ export default function OrganicCottonInApparelManufacturingPage() {
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
             Sourcing organic cotton requires understanding chain-of-custody documentation, mill minimums, and environmental certification standards.
           </p>
-          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge — reviewed by Fenalt editorial team</p>
+          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>
       </section>
 

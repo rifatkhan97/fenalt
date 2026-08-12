@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, Factory } from "lucide-react";
 export const metadata: Metadata = {
   title: "What Does an Apparel Manufacturer Actually Do?",
   description:
-    "Discover the exact responsibilities of a garment manufacturer — from material sourcing and pattern development to sewing, quality control, and export packing.",
+    "Discover the exact responsibilities of a garment manufacturer - from material sourcing and pattern development to sewing, quality control, and export packing.",
   alternates: {
     canonical: "https://fenalt.com/learn/what-does-an-apparel-manufacturer-do",
   },
   openGraph: {
     title: "What Does an Apparel Manufacturer Actually Do?",
     description:
-      "Discover the exact responsibilities of a garment manufacturer — from material sourcing and pattern development to sewing, quality control, and export packing.",
+      "Discover the exact responsibilities of a garment manufacturer - from material sourcing and pattern development to sewing, quality control, and export packing.",
     url: "https://fenalt.com/learn/what-does-an-apparel-manufacturer-do",
   },
 };
@@ -95,7 +95,7 @@ export default function WhatDoesAnApparelManufacturerDoPage() {
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
             A garment manufacturer is far more than a sewing workshop. They manage a complex industrial supply chain to convert design documentation into retail-ready apparel.
           </p>
-          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge — reviewed by Fenalt editorial team</p>
+          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>
       </section>
 
@@ -108,7 +108,7 @@ export default function WhatDoesAnApparelManufacturerDoPage() {
               <span className="text-xs font-semibold uppercase tracking-[0.25em] text-[#C8A882]">Core Operational Scope</span>
             </div>
             <p className="font-display text-2xl lg:text-3xl font-light text-[#1A1A1A] leading-relaxed">
-              An apparel manufacturer handles <strong className="font-medium">material procurement, technical engineering, production management, and quality control</strong> — acting as the physical engine of your fashion brand.
+              An apparel manufacturer handles <strong className="font-medium">material procurement, technical engineering, production management, and quality control</strong> - acting as the physical engine of your fashion brand.
             </p>
           </div>
         </div>
@@ -172,7 +172,7 @@ export default function WhatDoesAnApparelManufacturerDoPage() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
           <h2 className="font-display text-3xl lg:text-5xl font-light text-[#1A1A1A] mb-4">Partner with a dedicated manufacturer</h2>
           <p className="text-[#6B6560] leading-relaxed text-base mb-10 max-w-xl mx-auto">
-            Fenalt handles complete FOB garment manufacturing — managing fabric sourcing, technical development, quality control, and global shipping.
+            Fenalt handles complete FOB garment manufacturing - managing fabric sourcing, technical development, quality control, and global shipping.
           </p>
           <Link href="/intake" className="inline-flex items-center justify-center gap-2 px-10 py-4 bg-[#1A1A1A] text-[#FAF9F6] text-sm font-semibold tracking-wide hover:bg-[#2D5016] transition-colors duration-300">
             Submit Your Project <ArrowRight size={16} />

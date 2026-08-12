@@ -126,7 +126,7 @@ export default function RecycledPolyesterGarmentSourcingPage() {
                 Petroleum-based virgin polyester requires heavy oil extraction and energy. Modern activewear brands are shifting toward recycled polyethylene terephthalate (rPET) fibers to reduce environmental impact.
               </p>
               <p>
-                <strong>Fenalt sources high-performance rPET textiles:</strong> We procure moisture-wicking recycled polyester knits and woven ripstops in Dhaka—delivering durable activewear and outerwear with small-batch flexibility.
+                <strong>Fenalt sources high-performance rPET textiles:</strong> We procure moisture-wicking recycled polyester knits and woven ripstops in Dhaka - delivering durable activewear and outerwear with small-batch flexibility.
               </p>
             </div>
           </div>

@@ -126,7 +126,7 @@ export default function TechPackDevelopmentApparelPage() {
                 Sending vague photos or rough sketches to overseas factories inevitably leads to wrong seam placements, inaccurate sizing curves, and wasted sample iterations.
               </p>
               <p>
-                <strong>Fenalt creates precise tech packs:</strong> Our pattern engineers in Dhaka construct standardized technical specification packages—defining stitch density, measurement tolerances (±1.5cm), trim details, and fabric compositions.
+                <strong>Fenalt creates precise tech packs:</strong> Our pattern engineers in Dhaka construct standardized technical specification packages - defining stitch density, measurement tolerances (±1.5cm), trim details, and fabric compositions.
               </p>
             </div>
           </div>

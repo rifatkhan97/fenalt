@@ -42,7 +42,7 @@ export default function QuestionsToAskManufacturerPage() {
       questions: [
         { q: "What garment types and categories do you specialise in?", why: "Establishes whether their expertise matches your product type." },
         { q: "What is your minimum order quantity per style?", why: "Critical for budget and first-production viability." },
-        { q: "Can you produce our specific fabric types — and what weights do you work with?", why: "Some factories cannot sew very heavy fleece or technical fabrics without specialist equipment." },
+        { q: "Can you produce our specific fabric types - and what weights do you work with?", why: "Some factories cannot sew very heavy fleece or technical fabrics without specialist equipment." },
         { q: "Do you own the production facility or work with partner factories?", why: "Affects your visibility and control over the actual manufacturing environment." },
       ],
     },
@@ -51,7 +51,7 @@ export default function QuestionsToAskManufacturerPage() {
       icon: "02",
       questions: [
         { q: "What is your typical sample turnaround time?", why: "Sets realistic pre-production timeline expectations." },
-        { q: "How do you handle sampling revisions — and what is the cost per revision round?", why: "Revision costs and policies vary widely across manufacturers." },
+        { q: "How do you handle sampling revisions - and what is the cost per revision round?", why: "Revision costs and policies vary widely across manufacturers." },
         { q: "Do you work from our tech pack, or do we need to use your templates?", why: "Manufacturer-imposed templates can constrain design specifications." },
         { q: "Can we see samples of garments you have produced for comparable brands?", why: "Physical samples reveal construction quality better than photographs." },
       ],
@@ -61,8 +61,8 @@ export default function QuestionsToAskManufacturerPage() {
       icon: "03",
       questions: [
         { q: "What is your quality inspection process during and after production?", why: "Distinguishes manufacturers with systematic QC from those doing end-of-line spot checks only." },
-        { q: "What measurement tolerance do you work to?", why: "Establishes the precision standard — ±1.5cm is a common benchmark for fashion garments." },
-        { q: "How are defective garments handled — rework, rejection, or credit?", why: "The answer reveals post-production accountability policy." },
+        { q: "What measurement tolerance do you work to?", why: "Establishes the precision standard - ±1.5cm is a common benchmark for fashion garments." },
+        { q: "How are defective garments handled - rework, rejection, or credit?", why: "The answer reveals post-production accountability policy." },
         { q: "Do you conduct needle and metal detection on finished garments?", why: "Required for brands selling through major retailers." },
       ],
     },
@@ -70,8 +70,8 @@ export default function QuestionsToAskManufacturerPage() {
       category: "Timelines & Logistics",
       icon: "04",
       questions: [
-        { q: "What is your bulk production lead time from sample sign-off?", why: "Must be qualified — 'it depends on fabric sourcing' is an honest answer; '2 weeks always' is a red flag." },
-        { q: "What shipping terms do you offer — FOB, DDP, or other?", why: "Determines who is responsible for freight, insurance, and customs costs." },
+        { q: "What is your bulk production lead time from sample sign-off?", why: "Must be qualified - 'it depends on fabric sourcing' is an honest answer; '2 weeks always' is a red flag." },
+        { q: "What shipping terms do you offer - FOB, DDP, or other?", why: "Determines who is responsible for freight, insurance, and customs costs." },
         { q: "What happens if the production timeline slips?", why: "Reveals whether there is accountability and communication protocol for delays." },
       ],
     },
@@ -79,8 +79,8 @@ export default function QuestionsToAskManufacturerPage() {
       category: "Pricing & Payment",
       icon: "05",
       questions: [
-        { q: "Can you provide a fully itemised quote — unit cost, sampling fees, packaging, freight?", why: "Lump-sum quotes make cost comparison and future dispute resolution impossible." },
-        { q: "What are your payment terms?", why: "Standard practice is a deposit (30–50%) on bulk order placement and balance before shipment — be wary of 100% upfront." },
+        { q: "Can you provide a fully itemised quote - unit cost, sampling fees, packaging, freight?", why: "Lump-sum quotes make cost comparison and future dispute resolution impossible." },
+        { q: "What are your payment terms?", why: "Standard practice is a deposit (30–50%) on bulk order placement and balance before shipment - be wary of 100% upfront." },
         { q: "How does per-unit pricing change across different MOQ tiers?", why: "Understanding the volume-price relationship helps plan future scaling." },
       ],
     },
@@ -111,9 +111,9 @@ export default function QuestionsToAskManufacturerPage() {
             <span className="italic font-medium text-[#2D5016]">Before Working Together.</span>
           </h1>
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
-            How a manufacturer answers these questions reveals far more than their marketing materials. Use this checklist to structure your evaluation — and pay close attention to what they avoid answering.
+            How a manufacturer answers these questions reveals far more than their marketing materials. Use this checklist to structure your evaluation - and pay close attention to what they avoid answering.
           </p>
-          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge — reviewed by Fenalt editorial team</p>
+          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>
       </section>
 
@@ -188,7 +188,7 @@ export default function QuestionsToAskManufacturerPage() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
           <h2 className="font-display text-3xl lg:text-5xl font-light text-[#1A1A1A] mb-4">Have questions for Fenalt?</h2>
           <p className="text-[#6B6560] leading-relaxed text-base mb-10 max-w-xl mx-auto">
-            Submit your project brief and our Dhaka operations team will respond with a detailed production overview — no vague answers.
+            Submit your project brief and our Dhaka operations team will respond with a detailed production overview - no vague answers.
           </p>
           <Link href="/intake" className="inline-flex items-center justify-center gap-2 px-10 py-4 bg-[#1A1A1A] text-[#FAF9F6] text-sm font-semibold tracking-wide hover:bg-[#2D5016] transition-colors duration-300">
             Submit Your Project <ArrowRight size={16} />

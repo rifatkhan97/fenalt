@@ -5,11 +5,11 @@ import { ArrowRight, BookOpen } from "lucide-react";
 export const metadata: Metadata = {
   title: "How to Find a Reliable Clothing Manufacturer",
   description:
-    "A practical guide to finding a reliable clothing manufacturer — where to look, how to evaluate options, and what distinguishes a trustworthy manufacturing partner from an unreliable one.",
+    "A practical guide to finding a reliable clothing manufacturer - where to look, how to evaluate options, and what distinguishes a trustworthy manufacturing partner from an unreliable one.",
   alternates: { canonical: "https://fenalt.com/learn/how-to-find-a-reliable-clothing-manufacturer" },
   openGraph: {
     title: "How to Find a Reliable Clothing Manufacturer",
-    description: "A practical guide to finding a reliable clothing manufacturer — where to look, how to evaluate options, and what distinguishes a trustworthy partner.",
+    description: "A practical guide to finding a reliable clothing manufacturer - where to look, how to evaluate options, and what distinguishes a trustworthy partner.",
     url: "https://fenalt.com/learn/how-to-find-a-reliable-clothing-manufacturer",
   },
 };
@@ -38,7 +38,7 @@ export default function HowToFindAReliableManufacturerPage() {
   const sources = [
     {
       method: "Production Management Partners & Sourcing Agents",
-      description: "A production management firm or sourcing agent with physical presence in a manufacturing hub (such as Dhaka) provides access to pre-vetted, audited factory networks — removing the need to independently identify and evaluate factories from scratch. This is the most practical route for brands new to overseas production.",
+      description: "A production management firm or sourcing agent with physical presence in a manufacturing hub (such as Dhaka) provides access to pre-vetted, audited factory networks - removing the need to independently identify and evaluate factories from scratch. This is the most practical route for brands new to overseas production.",
       pros: ["Pre-vetted factory access", "On-the-ground QC oversight", "Local expertise and communication", "Reduces independent due diligence burden"],
       cons: ["Service fees apply", "Requires trusting the agent's vetting process"],
     },
@@ -50,19 +50,19 @@ export default function HowToFindAReliableManufacturerPage() {
     },
     {
       method: "Industry B2B Directories",
-      description: "Online directories (such as Maker's Row for US manufacturing, or Kompass) list manufacturers by product category and geography. Use these as a starting point for discovery — not as a substitute for independent verification.",
+      description: "Online directories (such as Maker's Row for US manufacturing, or Kompass) list manufacturers by product category and geography. Use these as a starting point for discovery - not as a substitute for independent verification.",
       pros: ["Large database, searchable", "No travel required"],
-      cons: ["Listings are self-reported — no quality vetting", "Significant variation in reliability"],
+      cons: ["Listings are self-reported - no quality vetting", "Significant variation in reliability"],
     },
     {
       method: "Brand Referrals",
-      description: "Other fashion brands — particularly those producing comparable products at similar volumes — are often the most reliable source of manufacturer referrals. Industry communities, brand founder networks, and fashion incubators can facilitate these introductions.",
+      description: "Other fashion brands - particularly those producing comparable products at similar volumes - are often the most reliable source of manufacturer referrals. Industry communities, brand founder networks, and fashion incubators can facilitate these introductions.",
       pros: ["First-hand experience from a comparable brand", "High reliability of recommendation"],
       cons: ["Manufacturers may not accept new brands if at capacity", "May not be willing to share competitive supplier information"],
     },
     {
       method: "LinkedIn & Direct Outreach",
-      description: "Sourcing managers, production directors, and factory owners are findable on LinkedIn. Direct outreach is possible, but requires careful vetting — any response should be followed by the same due diligence process as any other lead.",
+      description: "Sourcing managers, production directors, and factory owners are findable on LinkedIn. Direct outreach is possible, but requires careful vetting - any response should be followed by the same due diligence process as any other lead.",
       pros: ["Access to contacts not on directories", "Direct communication"],
       cons: ["No prior vetting", "High volume of non-credible leads possible"],
     },
@@ -70,11 +70,11 @@ export default function HowToFindAReliableManufacturerPage() {
 
   const evaluationSteps = [
     "Request physical samples of existing products before discussing your own project",
-    "Verify MOQ, lead times, and pricing in writing — not just verbally",
+    "Verify MOQ, lead times, and pricing in writing - not just verbally",
     "Ask specifically about their QC process and request documentation",
-    "Ask who actually produces the garments — owned facility or subcontractor",
+    "Ask who actually produces the garments - owned facility or subcontractor",
     "Request references from comparable brands and follow them up",
-    "Review their response quality during enquiry — it predicts future communication",
+    "Review their response quality during enquiry - it predicts future communication",
     "Start with a small test order or sampling project before committing to bulk",
   ];
 
@@ -85,7 +85,7 @@ export default function HowToFindAReliableManufacturerPage() {
     },
     {
       q: "Should I visit a factory in person?",
-      a: "In-person factory visits are valuable for high-volume or long-term relationships. For first engagements or smaller volumes, a production management partner with on-the-ground presence in the manufacturing country serves a similar function — providing physical oversight without requiring brand travel.",
+      a: "In-person factory visits are valuable for high-volume or long-term relationships. For first engagements or smaller volumes, a production management partner with on-the-ground presence in the manufacturing country serves a similar function - providing physical oversight without requiring brand travel.",
     },
   ];
 
@@ -112,9 +112,9 @@ export default function HowToFindAReliableManufacturerPage() {
             <span className="italic font-medium text-[#2D5016]">Clothing Manufacturer.</span>
           </h1>
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
-            Finding a reliable manufacturing partner involves knowing where to look and how to evaluate what you find. This guide covers five real methods — with honest pros and cons for each.
+            Finding a reliable manufacturing partner involves knowing where to look and how to evaluate what you find. This guide covers five real methods - with honest pros and cons for each.
           </p>
-          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge — reviewed by Fenalt editorial team</p>
+          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>
       </section>
 
@@ -147,7 +147,7 @@ export default function HowToFindAReliableManufacturerPage() {
                     <ul className="space-y-1.5">
                       {source.cons.map((con, j) => (
                         <li key={j} className="flex items-start gap-2 text-sm text-[#6B6560]">
-                          <span className="text-[#C8A882] mt-0.5 shrink-0">—</span> {con}
+                          <span className="text-[#C8A882] mt-0.5 shrink-0"> - </span> {con}
                         </li>
                       ))}
                     </ul>
@@ -213,7 +213,7 @@ export default function HowToFindAReliableManufacturerPage() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
           <h2 className="font-display text-3xl lg:text-5xl font-light text-[#1A1A1A] mb-4">Skip the search. Work with Fenalt.</h2>
           <p className="text-[#6B6560] leading-relaxed text-base mb-10 max-w-xl mx-auto">
-            Fenalt connects brands with audited partner micro-factories in Dhaka, Bangladesh — with full production oversight from sampling to export.
+            Fenalt connects brands with audited partner micro-factories in Dhaka, Bangladesh - with full production oversight from sampling to export.
           </p>
           <Link href="/intake" className="inline-flex items-center justify-center gap-2 px-10 py-4 bg-[#1A1A1A] text-[#FAF9F6] text-sm font-semibold tracking-wide hover:bg-[#2D5016] transition-colors duration-300">
             Submit Your Project <ArrowRight size={16} />

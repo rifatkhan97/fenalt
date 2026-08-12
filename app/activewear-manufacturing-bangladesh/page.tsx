@@ -126,7 +126,7 @@ export default function ActivewearManufacturingBangladeshPage() {
                 Activewear manufacturing demands specialized flatlock stitching, high-elasticity thread, and moisture-wicking textile treatments to prevent seam popping during high-intensity training.
               </p>
               <p>
-                <strong>Fenalt delivers technical activewear manufacturing:</strong> We pair activewear brands with specialized Dhaka knit units equipped with 4-needle 6-thread flatlock machinery—managing stretch recovery and seam strength.
+                <strong>Fenalt delivers technical activewear manufacturing:</strong> We pair activewear brands with specialized Dhaka knit units equipped with 4-needle 6-thread flatlock machinery - managing stretch recovery and seam strength.
               </p>
             </div>
           </div>

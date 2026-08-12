@@ -23,7 +23,7 @@ export default function BangladeshVsVietnamPage() {
     "@type": "Article",
     "headline": "Bangladesh vs Vietnam Garment Manufacturing Sourcing Guide",
     "description":
-      "An analytical comparison of apparel manufacturing in Bangladesh and Vietnam—evaluating knitwear strength, outerwear capabilities, labor cost differentials, and low MOQ management.",
+      "An analytical comparison of apparel manufacturing in Bangladesh and Vietnam - evaluating knitwear strength, outerwear capabilities, labor cost differentials, and low MOQ management.",
     "author": {
       "@type": "Organization",
       "name": "Fenalt",
@@ -96,7 +96,7 @@ export default function BangladeshVsVietnamPage() {
             <span className="italic font-medium text-[#2D5016]">A Sourcing Guide.</span>
           </h1>
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl mb-12">
-            An objective guide comparing two leading apparel export hubs—analyzing cotton knitwear specialization, synthetic activewear, labor economics, and low MOQ management.
+            An objective guide comparing two leading apparel export hubs - analyzing cotton knitwear specialization, synthetic activewear, labor economics, and low MOQ management.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link

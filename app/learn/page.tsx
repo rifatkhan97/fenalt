@@ -176,7 +176,7 @@ export default function LearnLibraryPage() {
             Ready to apply this to your production?
           </h2>
           <p className="text-[#6B6560] leading-relaxed text-base mb-10 max-w-xl mx-auto">
-            Fenalt translates technical manufacturing expertise into reliable production runs in Dhaka — starting at 50 units per style.
+            Fenalt translates technical manufacturing expertise into reliable production runs in Dhaka - starting at 50 units per style.
           </p>
           <Link
             href="/intake"

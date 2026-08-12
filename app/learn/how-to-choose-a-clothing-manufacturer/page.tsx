@@ -5,11 +5,11 @@ import { ArrowRight, BookOpen, CheckCircle2 } from "lucide-react";
 export const metadata: Metadata = {
   title: "How to Choose a Clothing Manufacturer for a New Fashion Brand",
   description:
-    "A practical decision guide for fashion brands evaluating clothing manufacturers — the criteria that matter, the questions to ask, and the warning signs to avoid.",
+    "A practical decision guide for fashion brands evaluating clothing manufacturers - the criteria that matter, the questions to ask, and the warning signs to avoid.",
   alternates: { canonical: "https://fenalt.com/learn/how-to-choose-a-clothing-manufacturer" },
   openGraph: {
     title: "How to Choose a Clothing Manufacturer for a New Fashion Brand",
-    description: "A practical decision guide for fashion brands evaluating clothing manufacturers — the criteria that matter, the questions to ask, and the warning signs to avoid.",
+    description: "A practical decision guide for fashion brands evaluating clothing manufacturers - the criteria that matter, the questions to ask, and the warning signs to avoid.",
     url: "https://fenalt.com/learn/how-to-choose-a-clothing-manufacturer",
   },
 };
@@ -38,17 +38,17 @@ export default function HowToChooseAClothingManufacturerPage() {
   const criteria = [
     {
       title: "Product Category Match",
-      body: "Manufacturers typically specialise. A factory excellent at heavyweight fleece hoodies may have limited capability for woven denim or technical activewear. Verify the manufacturer has genuine experience with your specific product type — not just a claim on their website.",
+      body: "Manufacturers typically specialise. A factory excellent at heavyweight fleece hoodies may have limited capability for woven denim or technical activewear. Verify the manufacturer has genuine experience with your specific product type - not just a claim on their website.",
       importance: "Essential",
     },
     {
       title: "MOQ Compatibility",
-      body: "A manufacturer whose minimum order quantity is 1,000 units per style is not a suitable partner for a 100-unit capsule launch. Confirm that the manufacturer's MOQ structure is compatible with your current production volume — not just your aspirational future volume.",
+      body: "A manufacturer whose minimum order quantity is 1,000 units per style is not a suitable partner for a 100-unit capsule launch. Confirm that the manufacturer's MOQ structure is compatible with your current production volume - not just your aspirational future volume.",
       importance: "Essential",
     },
     {
       title: "Sample Quality & Communication",
-      body: "Request a first sample before committing to bulk production. How the manufacturer communicates during sampling — response time, attention to tech pack detail, willingness to address revisions — is a strong predictor of how they will perform during bulk production.",
+      body: "Request a first sample before committing to bulk production. How the manufacturer communicates during sampling - response time, attention to tech pack detail, willingness to address revisions - is a strong predictor of how they will perform during bulk production.",
       importance: "Essential",
     },
     {
@@ -58,7 +58,7 @@ export default function HowToChooseAClothingManufacturerPage() {
     },
     {
       title: "Production Timeline Honesty",
-      body: "Ask for realistic lead times — including sampling rounds, fabric procurement, and production. Be cautious of manufacturers who promise unusually short timelines without qualification. An honest manufacturer gives you a realistic window; an unreliable one tells you what they think you want to hear.",
+      body: "Ask for realistic lead times - including sampling rounds, fabric procurement, and production. Be cautious of manufacturers who promise unusually short timelines without qualification. An honest manufacturer gives you a realistic window; an unreliable one tells you what they think you want to hear.",
       importance: "High",
     },
     {
@@ -83,7 +83,7 @@ export default function HowToChooseAClothingManufacturerPage() {
     "Cannot or will not show previous work or provide references",
     "Claims certifications (GOTS, WRAP, OEKO-TEX, etc.) without documentation",
     "Requires full payment upfront before any sample is produced",
-    "Refuses to work from your tech pack — insists on their own templates without clear reason",
+    "Refuses to work from your tech pack - insists on their own templates without clear reason",
     "Communication is delayed, vague, or evasive during the enquiry stage",
     "Cannot explain their quality control process in specific terms",
     "Offers per-unit pricing that appears implausibly low for the product type",
@@ -125,7 +125,7 @@ export default function HowToChooseAClothingManufacturerPage() {
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
             Choosing the right manufacturing partner is one of the highest-stakes decisions a fashion brand makes. This guide covers the eight criteria that matter, the red flags to watch for, and how to evaluate options effectively.
           </p>
-          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge — reviewed by Fenalt editorial team</p>
+          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>
       </section>
 
@@ -222,7 +222,7 @@ export default function HowToChooseAClothingManufacturerPage() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
           <h2 className="font-display text-3xl lg:text-5xl font-light text-[#1A1A1A] mb-4">Work with a pre-vetted manufacturing partner</h2>
           <p className="text-[#6B6560] leading-relaxed text-base mb-10 max-w-xl mx-auto">
-            Fenalt connects brands with audited independent micro-factories in Dhaka — with transparent production oversight from day one.
+            Fenalt connects brands with audited independent micro-factories in Dhaka - with transparent production oversight from day one.
           </p>
           <Link href="/intake" className="inline-flex items-center justify-center gap-2 px-10 py-4 bg-[#1A1A1A] text-[#FAF9F6] text-sm font-semibold tracking-wide hover:bg-[#2D5016] transition-colors duration-300">
             Submit Your Project <ArrowRight size={16} />

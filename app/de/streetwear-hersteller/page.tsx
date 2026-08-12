@@ -124,7 +124,7 @@ export default function GermanStreetwearHerstellerPage() {
             <span className="italic font-medium text-[#2D5016]">Heavyweight Kollektionen.</span>
           </h1>
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl mb-12">
-            Produzieren Sie hochwertige Streetwear mit 320gsm+ Stoffen, French Terry Fleece, Oversized-Schnitten und spezialisierten Druckverarbeitungen—abgesichert durch Vor-Ort Qualitätskontrolle.
+            Produzieren Sie hochwertige Streetwear mit 320gsm+ Stoffen, French Terry Fleece, Oversized-Schnitten und spezialisierten Druckverarbeitungen - abgesichert durch Vor-Ort Qualitätskontrolle.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link

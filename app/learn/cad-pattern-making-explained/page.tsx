@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, Monitor } from "lucide-react";
 export const metadata: Metadata = {
   title: "CAD Pattern Making for Fashion Brands Explained",
   description:
-    "Discover how Computer-Aided Design (CAD) pattern making works — digital vector drafting, automated marker efficiency, DXF export, and rapid size grading.",
+    "Discover how Computer-Aided Design (CAD) pattern making works - digital vector drafting, automated marker efficiency, DXF export, and rapid size grading.",
   alternates: {
     canonical: "https://fenalt.com/learn/cad-pattern-making-explained",
   },
   openGraph: {
     title: "CAD Pattern Making for Fashion Brands Explained",
     description:
-      "Discover how Computer-Aided Design (CAD) pattern making works — digital vector drafting, automated marker efficiency, DXF export, and rapid size grading.",
+      "Discover how Computer-Aided Design (CAD) pattern making works - digital vector drafting, automated marker efficiency, DXF export, and rapid size grading.",
     url: "https://fenalt.com/learn/cad-pattern-making-explained",
   },
 };
@@ -44,7 +44,7 @@ export default function CadPatternMakingExplainedPage() {
     { title: "1. Precise Digital Seam Allowances & Notches", desc: "CAD eliminates manual paper drawing errors, enforcing exact 0.1 mm precision on seam allowances, grainlines, and notch anchors." },
     { title: "2. Instant Computerized Size Grading", desc: "Applying digital grade rule tables instantly scales master patterns across XS through 3XL without manual re-drafting." },
     { title: "3. Automated Fabric Marker Optimization", desc: "CAD nesting software arranges pattern pieces on fabric rolls to achieve maximum yield (reducing fabric waste by up to 8%)." },
-    { title: "4. Universal DXF / AAMA File Portability", desc: "Digital pattern files can be emailed instantly to mills and factories globally — eliminating paper pattern shipping costs." },
+    { title: "4. Universal DXF / AAMA File Portability", desc: "Digital pattern files can be emailed instantly to mills and factories globally - eliminating paper pattern shipping costs." },
   ];
 
   const faqs = [
@@ -91,9 +91,9 @@ export default function CadPatternMakingExplainedPage() {
             <span className="italic font-medium text-[#2D5016]">Explained.</span>
           </h1>
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
-            Computer-Aided Design (CAD) has transformed garment pattern engineering — delivering pinpoint accuracy, fast size grading, and optimized fabric yield.
+            Computer-Aided Design (CAD) has transformed garment pattern engineering - delivering pinpoint accuracy, fast size grading, and optimized fabric yield.
           </p>
-          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge — reviewed by Fenalt editorial team</p>
+          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>
       </section>
 
@@ -106,7 +106,7 @@ export default function CadPatternMakingExplainedPage() {
               <span className="text-xs font-semibold uppercase tracking-[0.25em] text-[#C8A882]">Digital Engineering</span>
             </div>
             <p className="font-display text-2xl lg:text-3xl font-light text-[#1A1A1A] leading-relaxed">
-              <strong className="font-medium">CAD Pattern Making</strong> replaces cardboard templates with digital vector files — enabling automated marker nesting and global file exchange.
+              <strong className="font-medium">CAD Pattern Making</strong> replaces cardboard templates with digital vector files - enabling automated marker nesting and global file exchange.
             </p>
           </div>
         </div>

@@ -5,11 +5,11 @@ import { ArrowRight, BookOpen } from "lucide-react";
 export const metadata: Metadata = {
   title: "How to Evaluate an Overseas Clothing Manufacturer",
   description:
-    "A due diligence guide for evaluating overseas clothing manufacturers — what to verify, how to assess quality and reliability from a distance, and what red flags to look for.",
+    "A due diligence guide for evaluating overseas clothing manufacturers - what to verify, how to assess quality and reliability from a distance, and what red flags to look for.",
   alternates: { canonical: "https://fenalt.com/learn/how-to-evaluate-an-overseas-clothing-manufacturer" },
   openGraph: {
     title: "How to Evaluate an Overseas Clothing Manufacturer",
-    description: "A due diligence guide for evaluating overseas clothing manufacturers — what to verify, how to assess quality and reliability from a distance.",
+    description: "A due diligence guide for evaluating overseas clothing manufacturers - what to verify, how to assess quality and reliability from a distance.",
     url: "https://fenalt.com/learn/how-to-evaluate-an-overseas-clothing-manufacturer",
   },
 };
@@ -19,7 +19,7 @@ export default function HowToEvaluateOverseasManufacturerPage() {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: "How to Evaluate an Overseas Clothing Manufacturer",
-    description: "Guide to evaluating overseas clothing manufacturers — verification, quality assessment, and red flags.",
+    description: "Guide to evaluating overseas clothing manufacturers - verification, quality assessment, and red flags.",
     author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
     publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
     url: "https://fenalt.com/learn/how-to-evaluate-an-overseas-clothing-manufacturer",
@@ -37,7 +37,7 @@ export default function HowToEvaluateOverseasManufacturerPage() {
 
   const evaluationMethods = [
     {
-      title: "Request Physical Samples of Existing Work — Not Your Own Designs",
+      title: "Request Physical Samples of Existing Work | Not Your Own Designs",
       body: "Ask to see samples of garments the manufacturer has produced for other clients. Evaluate stitching consistency, seam quality, label attachment, measurement accuracy, and overall construction finish. This reveals actual production capability independent of your project.",
       difficulty: "Essential",
     },
@@ -47,8 +47,8 @@ export default function HowToEvaluateOverseasManufacturerPage() {
       difficulty: "Essential",
     },
     {
-      title: "Start With a Sampling Project — Not a Bulk Order",
-      body: "Your first engagement with an overseas manufacturer should be a sampling project. This tests their communication, responsiveness, tech pack comprehension, sample quality, and revision turnaround — all before you commit to bulk production. The cost of a sample round is far less than the cost of a failed bulk order.",
+      title: "Start With a Sampling Project | Not a Bulk Order",
+      body: "Your first engagement with an overseas manufacturer should be a sampling project. This tests their communication, responsiveness, tech pack comprehension, sample quality, and revision turnaround - all before you commit to bulk production. The cost of a sample round is far less than the cost of a failed bulk order.",
       difficulty: "Essential",
     },
     {
@@ -58,12 +58,12 @@ export default function HowToEvaluateOverseasManufacturerPage() {
     },
     {
       title: "Request and Follow Up References",
-      body: "A reputable manufacturer will provide client references. Contact those references — a short call or message asking about on-time delivery, communication quality, and how problems were handled provides far more information than any marketing material.",
+      body: "A reputable manufacturer will provide client references. Contact those references - a short call or message asking about on-time delivery, communication quality, and how problems were handled provides far more information than any marketing material.",
       difficulty: "High Value",
     },
     {
       title: "Understand Their Subcontracting Policy",
-      body: "Ask whether production is conducted in-house or whether they use subcontractor factories. Subcontracting itself is not a red flag — it is common across the industry — but undisclosed subcontracting creates accountability gaps. Know who is actually producing your garments.",
+      body: "Ask whether production is conducted in-house or whether they use subcontractor factories. Subcontracting itself is not a red flag - it is common across the industry - but undisclosed subcontracting creates accountability gaps. Know who is actually producing your garments.",
       difficulty: "High Value",
     },
     {
@@ -82,7 +82,7 @@ export default function HowToEvaluateOverseasManufacturerPage() {
     { challenge: "Distance", response: "Time zone differences, language barriers, and the inability to physically inspect production require systematic processes rather than trust-based relationships." },
     { challenge: "Information Asymmetry", response: "A manufacturer knows far more about their own capabilities and limitations than a brand conducting remote evaluation. Third-party oversight or production management partners reduce this gap." },
     { challenge: "Verification Difficulty", response: "Claims about certifications, capacity, and capability are difficult to verify remotely. Physical samples and client references are the most reliable verification tools available without a factory visit." },
-    { challenge: "Communication Barriers", response: "Technical garment language requires precision. Misunderstandings — through language differences or imprecise communication — are more costly in production than in other industries." },
+    { challenge: "Communication Barriers", response: "Technical garment language requires precision. Misunderstandings - through language differences or imprecise communication - are more costly in production than in other industries." },
   ];
 
   const faqs = [
@@ -92,7 +92,7 @@ export default function HowToEvaluateOverseasManufacturerPage() {
     },
     {
       q: "How does Fenalt verify partner factories?",
-      a: "Fenalt's Dhaka-based operations team has physical presence in Bangladesh — enabling direct factory floor access, sample review, in-line inspection, and pre-shipment quality auditing that remote brand evaluation cannot replicate.",
+      a: "Fenalt's Dhaka-based operations team has physical presence in Bangladesh - enabling direct factory floor access, sample review, in-line inspection, and pre-shipment quality auditing that remote brand evaluation cannot replicate.",
     },
   ];
 
@@ -119,9 +119,9 @@ export default function HowToEvaluateOverseasManufacturerPage() {
             <span className="italic font-medium text-[#2D5016]">Clothing Manufacturer.</span>
           </h1>
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
-            Evaluating a manufacturer you cannot visit requires more rigour, not less. This guide covers the eight evaluation methods that work from a distance — and the four unique challenges of overseas sourcing.
+            Evaluating a manufacturer you cannot visit requires more rigour, not less. This guide covers the eight evaluation methods that work from a distance - and the four unique challenges of overseas sourcing.
           </p>
-          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge — reviewed by Fenalt editorial team</p>
+          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>
       </section>
 

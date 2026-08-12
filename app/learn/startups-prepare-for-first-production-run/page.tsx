@@ -5,11 +5,11 @@ import { ArrowRight, BookOpen, CheckCircle2 } from "lucide-react";
 export const metadata: Metadata = {
   title: "How Startups Can Prepare for Their First Production Run",
   description:
-    "A step-by-step preparation guide for fashion startups approaching their first clothing production run — what to have ready, what to expect, and how to reduce risk.",
+    "A step-by-step preparation guide for fashion startups approaching their first clothing production run - what to have ready, what to expect, and how to reduce risk.",
   alternates: { canonical: "https://fenalt.com/learn/startups-prepare-for-first-production-run" },
   openGraph: {
     title: "How Startups Can Prepare for Their First Production Run",
-    description: "A step-by-step preparation guide for fashion startups approaching their first clothing production run — what to have ready, what to expect, and how to reduce risk.",
+    description: "A step-by-step preparation guide for fashion startups approaching their first clothing production run - what to have ready, what to expect, and how to reduce risk.",
     url: "https://fenalt.com/learn/startups-prepare-for-first-production-run",
   },
 };
@@ -39,7 +39,7 @@ export default function StartupsPrepareForFirstProductionRunPage() {
     {
       num: "01",
       title: "Finalise Your Designs Before Contacting Manufacturers",
-      body: "The most expensive thing a brand can do is involve a manufacturer before designs are settled. Every design change after sampling begins costs time and money. Have a clear, finalised design direction — even if not yet in full tech pack format — before making manufacturer contact.",
+      body: "The most expensive thing a brand can do is involve a manufacturer before designs are settled. Every design change after sampling begins costs time and money. Have a clear, finalised design direction - even if not yet in full tech pack format - before making manufacturer contact.",
     },
     {
       num: "02",
@@ -49,7 +49,7 @@ export default function StartupsPrepareForFirstProductionRunPage() {
     {
       num: "03",
       title: "Determine a Realistic Order Quantity",
-      body: "Your first production order quantity should be informed by realistic demand forecasting — not wishful thinking. Overproducing a first run is a common and costly mistake. Consider starting with a smaller pilot batch to validate market response before scaling.",
+      body: "Your first production order quantity should be informed by realistic demand forecasting - not wishful thinking. Overproducing a first run is a common and costly mistake. Consider starting with a smaller pilot batch to validate market response before scaling.",
     },
     {
       num: "04",
@@ -59,7 +59,7 @@ export default function StartupsPrepareForFirstProductionRunPage() {
     {
       num: "05",
       title: "Build a Realistic Timeline",
-      body: "Most first-time brands underestimate the full timeline. From initial manufacturer contact to goods in your warehouse, a realistic minimum for a first custom production run is 16 to 24 weeks — accounting for design finalisation, tech pack creation, fabric sourcing, 2 to 3 sample rounds, bulk production, and freight.",
+      body: "Most first-time brands underestimate the full timeline. From initial manufacturer contact to goods in your warehouse, a realistic minimum for a first custom production run is 16 to 24 weeks - accounting for design finalisation, tech pack creation, fabric sourcing, 2 to 3 sample rounds, bulk production, and freight.",
     },
     {
       num: "06",
@@ -69,12 +69,12 @@ export default function StartupsPrepareForFirstProductionRunPage() {
     {
       num: "07",
       title: "Understand the Sampling Process Before It Starts",
-      body: "Expect multiple sample rounds. Know what you are checking in each sample — fit, fabric, construction, label placement — and be prepared to provide specific, written feedback rather than general impressions. Unclear feedback prolongs revision cycles.",
+      body: "Expect multiple sample rounds. Know what you are checking in each sample - fit, fabric, construction, label placement - and be prepared to provide specific, written feedback rather than general impressions. Unclear feedback prolongs revision cycles.",
     },
     {
       num: "08",
       title: "Do Not Rush Sample Sign-Off",
-      body: "The approved pre-production sample becomes the quality standard for your entire bulk order. Sign off only when you are genuinely satisfied — every issue you overlook in sampling will be replicated across your entire run.",
+      body: "The approved pre-production sample becomes the quality standard for your entire bulk order. Sign off only when you are genuinely satisfied - every issue you overlook in sampling will be replicated across your entire run.",
     },
     {
       num: "09",
@@ -90,7 +90,7 @@ export default function StartupsPrepareForFirstProductionRunPage() {
 
   const commonMistakes = [
     "Committing to bulk production before approving a sample",
-    "Underestimating the total timeline — especially fabric sourcing lead times",
+    "Underestimating the total timeline - especially fabric sourcing lead times",
     "Providing vague or verbal instructions instead of a tech pack",
     "Overproducing on a first run without market validation",
     "Ignoring import duty and freight cost in the total unit economics calculation",
@@ -104,7 +104,7 @@ export default function StartupsPrepareForFirstProductionRunPage() {
     },
     {
       q: "Can Fenalt help with a brand's first production run?",
-      a: "Yes. Fenalt specialises in supporting independent brands, emerging designers, and startups through their first production projects in Bangladesh — including sampling, production oversight, QC, and export coordination.",
+      a: "Yes. Fenalt specialises in supporting independent brands, emerging designers, and startups through their first production projects in Bangladesh - including sampling, production oversight, QC, and export coordination.",
     },
   ];
 
@@ -131,9 +131,9 @@ export default function StartupsPrepareForFirstProductionRunPage() {
             <span className="italic font-medium text-[#2D5016]">for Their First Production Run.</span>
           </h1>
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
-            The gap between a design idea and finished garments in a warehouse is larger than most first-time brand founders anticipate. This guide walks through the ten things to prepare — so you don&apos;t learn them the expensive way.
+            The gap between a design idea and finished garments in a warehouse is larger than most first-time brand founders anticipate. This guide walks through the ten things to prepare - so you don&apos;t learn them the expensive way.
           </p>
-          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge — reviewed by Fenalt editorial team</p>
+          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>
       </section>
 
@@ -208,7 +208,7 @@ export default function StartupsPrepareForFirstProductionRunPage() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
           <h2 className="font-display text-3xl lg:text-5xl font-light text-[#1A1A1A] mb-4">Ready to start your first production run?</h2>
           <p className="text-[#6B6560] leading-relaxed text-base mb-10 max-w-xl mx-auto">
-            Fenalt guides brands through every stage of their first production project — from sampling to export — with a dedicated Dhaka operations team.
+            Fenalt guides brands through every stage of their first production project - from sampling to export - with a dedicated Dhaka operations team.
           </p>
           <Link href="/intake" className="inline-flex items-center justify-center gap-2 px-10 py-4 bg-[#1A1A1A] text-[#FAF9F6] text-sm font-semibold tracking-wide hover:bg-[#2D5016] transition-colors duration-300">
             Submit Your Project <ArrowRight size={16} />

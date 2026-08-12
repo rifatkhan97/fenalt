@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, Scissors } from "lucide-react";
 export const metadata: Metadata = {
   title: "How Stitch Type Affects Garment Quality",
   description:
-    "Learn how industrial sewing stitch classes (ISO 4915 / ASTM D6193) — Lockstitch 301, Overlock 504, Coverstitch 605, and Chainstitch 401 — dictate seam strength and flexibility.",
+    "Learn how industrial sewing stitch classes (ISO 4915 / ASTM D6193) - Lockstitch 301, Overlock 504, Coverstitch 605, and Chainstitch 401 - dictate seam strength and flexibility.",
   alternates: {
     canonical: "https://fenalt.com/learn/stitch-type-and-garment-quality",
   },
   openGraph: {
     title: "How Stitch Type Affects Garment Quality",
     description:
-      "Learn how industrial sewing stitch classes (ISO 4915 / ASTM D6193) — Lockstitch 301, Overlock 504, Coverstitch 605, and Chainstitch 401 — dictate seam strength and flexibility.",
+      "Learn how industrial sewing stitch classes (ISO 4915 / ASTM D6193) - Lockstitch 301, Overlock 504, Coverstitch 605, and Chainstitch 401 - dictate seam strength and flexibility.",
     url: "https://fenalt.com/learn/stitch-type-and-garment-quality",
   },
 };
@@ -93,7 +93,7 @@ export default function StitchTypeAndGarmentQualityPage() {
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
             Stitch selection dictates seam elasticity, tensile strength, and wash durability. Understand how lockstitch, overlock, and coverstitch differ.
           </p>
-          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge — reviewed by Fenalt editorial team</p>
+          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>
       </section>
 

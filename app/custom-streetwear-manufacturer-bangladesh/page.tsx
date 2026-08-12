@@ -93,7 +93,7 @@ export default function CustomStreetwearManufacturerBangladeshPage() {
             <span className="italic font-medium text-[#2D5016]">Dhaka, Bangladesh.</span>
           </h1>
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl mb-12">
-            Build high-spec streetwear collections with heavy drape textiles, custom drop-shoulder patterns, and 3D puff graphics—backed by physically managed quality control in Dhaka.
+            Build high-spec streetwear collections with heavy drape textiles, custom drop-shoulder patterns, and 3D puff graphics - backed by physically managed quality control in Dhaka.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link
@@ -123,7 +123,7 @@ export default function CustomStreetwearManufacturerBangladeshPage() {
             </h2>
             <div className="space-y-6 text-[#6B6560] text-base lg:text-lg leading-relaxed">
               <p>
-                Modern streetwear brands require custom silhouettes—oversized boxy cuts, double-layered hoods, thick 1x1 ribbing, and substantial textile weights that retain structure after washing.
+                Modern streetwear brands require custom silhouettes - oversized boxy cuts, double-layered hoods, thick 1x1 ribbing, and substantial textile weights that retain structure after washing.
               </p>
               <p>
                 <strong>Fenalt bridges design vision with Dhaka manufacturing:</strong> Our pattern team in Dhaka translates tech pack line drawings into graded CAD patterns, pairing your capsule drop with specialized micro-factories under strict AQL 2.5 floor supervision.

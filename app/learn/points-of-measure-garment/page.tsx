@@ -95,7 +95,7 @@ export default function PointsOfMeasureGarmentPage() {
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
             Points of Measure form the technical backbone of sizing, pattern grading, and quality control. Understand how POMs are defined, measured, and inspected.
           </p>
-          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge — reviewed by Fenalt editorial team</p>
+          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>
       </section>
 
@@ -108,7 +108,7 @@ export default function PointsOfMeasureGarmentPage() {
               <span className="text-xs font-semibold uppercase tracking-[0.25em] text-[#C8A882]">Definition</span>
             </div>
             <p className="font-display text-2xl lg:text-3xl font-light text-[#1A1A1A] leading-relaxed">
-              A <strong className="font-medium">Point of Measure (POM)</strong> is a designated location on a garment where a specific measurement is taken — complete with a precise instruction on how to lay flat and measure.
+              A <strong className="font-medium">Point of Measure (POM)</strong> is a designated location on a garment where a specific measurement is taken - complete with a precise instruction on how to lay flat and measure.
             </p>
           </div>
         </div>

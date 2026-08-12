@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, ShieldCheck } from "lucide-react";
 export const metadata: Metadata = {
   title: "Pre-Production Quality Checks for Fashion Brands",
   description:
-    "Master Pre-Production (PP) quality audits — verifying lab-dip colors, approved golden samples, fabric shrinkage reports, trim approvals, and cutting markers.",
+    "Master Pre-Production (PP) quality audits - verifying lab-dip colors, approved golden samples, fabric shrinkage reports, trim approvals, and cutting markers.",
   alternates: {
     canonical: "https://fenalt.com/learn/pre-production-quality-checks",
   },
   openGraph: {
     title: "Pre-Production Quality Checks for Fashion Brands",
     description:
-      "Master Pre-Production (PP) quality audits — verifying lab-dip colors, approved golden samples, fabric shrinkage reports, trim approvals, and cutting markers.",
+      "Master Pre-Production (PP) quality audits - verifying lab-dip colors, approved golden samples, fabric shrinkage reports, trim approvals, and cutting markers.",
     url: "https://fenalt.com/learn/pre-production-quality-checks",
   },
 };
@@ -93,7 +93,7 @@ export default function PreProductionQualityChecksPage() {
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
             The Pre-Production (PP) phase is your last line of defense before bulk fabric cutting begins. Learn how to conduct a thorough pre-flight audit.
           </p>
-          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge — reviewed by Fenalt editorial team</p>
+          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>
       </section>
 

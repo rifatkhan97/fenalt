@@ -23,7 +23,7 @@ export default function WhyManufactureInBangladeshPage() {
     "@type": "Article",
     "headline": "Why Manufacture Apparel in Bangladesh: Sourcing Overview",
     "description":
-      "An in-depth analysis of Bangladesh's garment industry—the world's 2nd largest apparel exporter, vertical spinning mill integration, labor efficiency, and small batch micro-factory sourcing.",
+      "An in-depth analysis of Bangladesh's garment industry - the world's 2nd largest apparel exporter, vertical spinning mill integration, labor efficiency, and small batch micro-factory sourcing.",
     "author": {
       "@type": "Organization",
       "name": "Fenalt",

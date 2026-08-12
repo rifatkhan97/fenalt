@@ -123,7 +123,7 @@ export default function PrivateLabelStreetwearManufacturerPage() {
             </h2>
             <div className="space-y-6 text-[#6B6560] text-base lg:text-lg leading-relaxed">
               <p>
-                Streetwear consumers assess garment quality through both tactile fabric weight and small brand details—crisp woven neck tags, hem labels, and custom retail packaging.
+                Streetwear consumers assess garment quality through both tactile fabric weight and small brand details - crisp woven neck tags, hem labels, and custom retail packaging.
               </p>
               <p>
                 <strong>Fenalt delivers complete private label execution:</strong> We stitch your custom woven labels, apply care tags, pack garments into printed polybags in Dhaka, and manage floor QC before export.

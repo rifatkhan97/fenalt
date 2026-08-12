@@ -23,7 +23,7 @@ export default function USAApparelImportPage() {
     "@type": "Article",
     "headline": "USA Apparel Import Considerations: Bangladesh Sourcing Guide",
     "description":
-      "An educational guide for US fashion brands importing clothing from Bangladesh—covering Harmonized Tariff Schedule (HTS) codes, U.S. Customs and Border Protection (CBP) clearance, and DDP freight.",
+      "An educational guide for US fashion brands importing clothing from Bangladesh - covering Harmonized Tariff Schedule (HTS) codes, U.S. Customs and Border Protection (CBP) clearance, and DDP freight.",
     "author": {
       "@type": "Organization",
       "name": "Fenalt",

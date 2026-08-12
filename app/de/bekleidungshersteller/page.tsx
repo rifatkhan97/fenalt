@@ -127,7 +127,7 @@ export default function GermanBekleidungsherstellerPage() {
             <span className="italic font-medium text-[#2D5016]">europäische Modemarken.</span>
           </h1>
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl mb-12">
-            Fenalt verbindet unabhängige Modemarken aus Deutschland, Österreich und der Schweiz mit geprüften Micro-Factories. Kleidung produzieren lassen ab 50 Stück—mit Vor-Ort-Qualitätskontrolle und ohne Sprachbarrieren.
+            Fenalt verbindet unabhängige Modemarken aus Deutschland, Österreich und der Schweiz mit geprüften Micro-Factories. Kleidung produzieren lassen ab 50 Stück - mit Vor-Ort-Qualitätskontrolle und ohne Sprachbarrieren.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link

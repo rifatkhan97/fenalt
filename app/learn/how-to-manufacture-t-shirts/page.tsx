@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, Shirt } from "lucide-react";
 export const metadata: Metadata = {
   title: "How to Manufacture T-Shirts: Complete Production Guide",
   description:
-    "A step-by-step manufacturing guide for custom t-shirts — fabric GSM selection (180–300 GSM), pattern fits, collar ribbing, screen printing, and line sewing.",
+    "A step-by-step manufacturing guide for custom t-shirts - fabric GSM selection (180–300 GSM), pattern fits, collar ribbing, screen printing, and line sewing.",
   alternates: {
     canonical: "https://fenalt.com/learn/how-to-manufacture-t-shirts",
   },
   openGraph: {
     title: "How to Manufacture T-Shirts: Complete Production Guide",
     description:
-      "A step-by-step manufacturing guide for custom t-shirts — fabric GSM selection (180–300 GSM), pattern fits, collar ribbing, screen printing, and line sewing.",
+      "A step-by-step manufacturing guide for custom t-shirts - fabric GSM selection (180–300 GSM), pattern fits, collar ribbing, screen printing, and line sewing.",
     url: "https://fenalt.com/learn/how-to-manufacture-t-shirts",
   },
 };
@@ -23,7 +23,7 @@ export default function HowToManufactureTShirtsPage() {
     "@type": "Article",
     headline: "How to Manufacture T-Shirts: Complete Production Guide",
     description:
-      "A complete technical guide on custom t-shirt production — fabric sourcing, pattern drafting, collar rib attachment, printing, and quality control.",
+      "A complete technical guide on custom t-shirt production - fabric sourcing, pattern drafting, collar rib attachment, printing, and quality control.",
     author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
     publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
     url: "https://fenalt.com/learn/how-to-manufacture-t-shirts",
@@ -93,7 +93,7 @@ export default function HowToManufactureTShirtsPage() {
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
             T-shirts are the anchor of any apparel brand. Learn how fabric weight, collar construction, and shoulder taping dictate garment quality.
           </p>
-          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge — reviewed by Fenalt editorial team</p>
+          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>
       </section>
 
@@ -170,7 +170,7 @@ export default function HowToManufactureTShirtsPage() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
           <h2 className="font-display text-3xl lg:text-5xl font-light text-[#1A1A1A] mb-4">Manufacture custom t-shirts in Bangladesh</h2>
           <p className="text-[#6B6560] leading-relaxed text-base mb-10 max-w-xl mx-auto">
-            Fenalt specializes in custom heavyweight t-shirt production — offering 240–300 GSM combed cotton jersey and custom screen printing.
+            Fenalt specializes in custom heavyweight t-shirt production - offering 240–300 GSM combed cotton jersey and custom screen printing.
           </p>
           <Link href="/intake" className="inline-flex items-center justify-center gap-2 px-10 py-4 bg-[#1A1A1A] text-[#FAF9F6] text-sm font-semibold tracking-wide hover:bg-[#2D5016] transition-colors duration-300">
             Submit Your Project <ArrowRight size={16} />

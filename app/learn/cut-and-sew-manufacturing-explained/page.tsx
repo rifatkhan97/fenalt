@@ -105,7 +105,7 @@ export default function CutAndSewManufacturingExplainedPage() {
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
             Cut-and-sew manufacturing gives apparel brands total creative control over fabric choice, silhouette proportions, and custom construction details.
           </p>
-          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge — reviewed by Fenalt editorial team</p>
+          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>
       </section>
 
@@ -118,7 +118,7 @@ export default function CutAndSewManufacturingExplainedPage() {
               <span className="text-xs font-semibold uppercase tracking-[0.25em] text-[#C8A882]">Definition</span>
             </div>
             <p className="font-display text-2xl lg:text-3xl font-light text-[#1A1A1A] leading-relaxed">
-              <strong className="font-medium">Cut-and-Sew Manufacturing</strong> is the process of creating custom garments from scratch — unrolling raw fabric, cutting flat pattern panels, and sewing them into finished garments according to custom brand specifications.
+              <strong className="font-medium">Cut-and-Sew Manufacturing</strong> is the process of creating custom garments from scratch - unrolling raw fabric, cutting flat pattern panels, and sewing them into finished garments according to custom brand specifications.
             </p>
           </div>
         </div>
@@ -182,7 +182,7 @@ export default function CutAndSewManufacturingExplainedPage() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
           <h2 className="font-display text-3xl lg:text-5xl font-light text-[#1A1A1A] mb-4">Build custom cut-and-sew collections</h2>
           <p className="text-[#6B6560] leading-relaxed text-base mb-10 max-w-xl mx-auto">
-            Fenalt delivers full cut-and-sew production for independent brands — offering custom pattern making, high-GSM fabric sourcing, and low MOQs.
+            Fenalt delivers full cut-and-sew production for independent brands - offering custom pattern making, high-GSM fabric sourcing, and low MOQs.
           </p>
           <Link href="/intake" className="inline-flex items-center justify-center gap-2 px-10 py-4 bg-[#1A1A1A] text-[#FAF9F6] text-sm font-semibold tracking-wide hover:bg-[#2D5016] transition-colors duration-300">
             Submit Your Project <ArrowRight size={16} />

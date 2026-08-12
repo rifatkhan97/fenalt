@@ -23,7 +23,7 @@ export default function BangladeshVsChinaPage() {
     "@type": "Article",
     "headline": "Bangladesh vs China Garment Manufacturing Comparison Guide",
     "description":
-      "An analytical comparison of apparel manufacturing in Bangladesh and China—covering labor cost structures, cotton knits vs synthetics, tariff considerations, and low MOQ management.",
+      "An analytical comparison of apparel manufacturing in Bangladesh and China - covering labor cost structures, cotton knits vs synthetics, tariff considerations, and low MOQ management.",
     "author": {
       "@type": "Organization",
       "name": "Fenalt",
@@ -129,7 +129,7 @@ export default function BangladeshVsChinaPage() {
                 Rising labor costs and tariff friction in China have compelled international apparel brands to re-evaluate their supply chain concentration. Bangladesh has emerged as the premier global alternative for cotton knits, denim, and woven garments.
               </p>
               <p>
-                <strong>How Fenalt bridges the gap:</strong> We combine the cost advantages of Bangladesh manufacturing with Western project management—offering low 50-unit minimums, physical floor QC in Dhaka, and seamless DDP freight handling.
+                <strong>How Fenalt bridges the gap:</strong> We combine the cost advantages of Bangladesh manufacturing with Western project management - offering low 50-unit minimums, physical floor QC in Dhaka, and seamless DDP freight handling.
               </p>
             </div>
           </div>

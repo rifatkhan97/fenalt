@@ -55,7 +55,7 @@ export default function SustainableApparelManufacturingBangladeshPage() {
   const faqs = [
     {
       q: "How does Fenalt enable sustainable clothing production in Bangladesh?",
-      a: "We prioritize circular deadstock ('Jhoot') textiles—reclaiming high-grade leftover cotton fabrics from major export mill overruns in Dhaka. This prevents textile waste while enabling low MOQ production without virgin fabric mill minimums.",
+      a: "We prioritize circular deadstock ('Jhoot') textiles - reclaiming high-grade leftover cotton fabrics from major export mill overruns in Dhaka. This prevents textile waste while enabling low MOQ production without virgin fabric mill minimums.",
     },
     {
       q: "Are Fenalt's sustainability claims verified?",

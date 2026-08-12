@@ -89,7 +89,7 @@ export default function TestimonialsCarousel() {
 
         {/* Slide area */}
         <div className="relative overflow-hidden">
-          {/* Slides wrapper — translate based on current index */}
+          {/* Slides wrapper - translate based on current index */}
           <div
             className="flex transition-transform duration-500 ease-in-out"
             style={{ transform: `translateX(-${current * 100}%)` }}

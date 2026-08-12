@@ -126,7 +126,7 @@ export default function DenimJeansManufacturerBangladeshPage() {
                 Bangladesh is internationally recognized as a global leader in denim weaving, sewing, and industrial washing technology. However, accessing denim production for small capsule runs requires specialized operational coordination.
               </p>
               <p>
-                <strong>Fenalt makes small-batch denim manufacturing seamless:</strong> We connect fashion labels with vetted Dhaka denim units—managing pattern grading, heavy-duty chain stitching, laundry washing, and metal hardware riveting.
+                <strong>Fenalt makes small-batch denim manufacturing seamless:</strong> We connect fashion labels with vetted Dhaka denim units - managing pattern grading, heavy-duty chain stitching, laundry washing, and metal hardware riveting.
               </p>
             </div>
           </div>

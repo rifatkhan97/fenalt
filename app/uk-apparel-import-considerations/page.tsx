@@ -23,7 +23,7 @@ export default function UKApparelImportPage() {
     "@type": "Article",
     "headline": "UK Apparel Import Considerations: Bangladesh Sourcing Guide",
     "description":
-      "An educational guide for UK fashion brands importing clothing from Bangladesh under the UK Developing Countries Trading Scheme (DCTS)—covering duty preferences, VAT accounting, and DDP logistics.",
+      "An educational guide for UK fashion brands importing clothing from Bangladesh under the UK Developing Countries Trading Scheme (DCTS) - covering duty preferences, VAT accounting, and DDP logistics.",
     "author": {
       "@type": "Organization",
       "name": "Fenalt",
@@ -62,7 +62,7 @@ export default function UKApparelImportPage() {
     },
     {
       q: "Does Fenalt handle UK customs clearance and DDP shipping?",
-      a: "Yes. Fenalt provides complete DDP (Delivered Duty Paid) shipping to UK addresses—handling export declaration in Dhaka, international freight, UK customs entry, and door delivery.",
+      a: "Yes. Fenalt provides complete DDP (Delivered Duty Paid) shipping to UK addresses - handling export declaration in Dhaka, international freight, UK customs entry, and door delivery.",
     },
   ];
 

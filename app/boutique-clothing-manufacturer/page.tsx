@@ -63,7 +63,7 @@ export default function BoutiqueClothingManufacturerPage() {
     },
     {
       q: "How does Fenalt ensure the quality matches boutique standards?",
-      a: "Our Dhaka-based operational team physically audits every step on the factory floor—verifying fabric GSM, seam strength, measurement tolerances (±1.5cm), and conducting final AQL carton inspections before shipment.",
+      a: "Our Dhaka-based operational team physically audits every step on the factory floor - verifying fabric GSM, seam strength, measurement tolerances (±1.5cm), and conducting final AQL carton inspections before shipment.",
     },
   ];
 

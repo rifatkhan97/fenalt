@@ -23,7 +23,7 @@ export default function AustraliaCanadaApparelImportGuidePage() {
     "@type": "Article",
     "headline": "Australia & Canada Apparel Import Sourcing Guide",
     "description":
-      "An educational guide for Australian and Canadian apparel brands importing clothing from Bangladesh—covering duty-free tariff preferences, customs entry, and DDP freight.",
+      "An educational guide for Australian and Canadian apparel brands importing clothing from Bangladesh - covering duty-free tariff preferences, customs entry, and DDP freight.",
     "author": {
       "@type": "Organization",
       "name": "Fenalt",
@@ -62,7 +62,7 @@ export default function AustraliaCanadaApparelImportGuidePage() {
     },
     {
       q: "Does Fenalt ship DDP to Australia and Canada?",
-      a: "Yes. Fenalt manages door-to-door DDP (Delivered Duty Paid) shipping to addresses across Australia and Canada—handling export clearance, customs entry, and final delivery.",
+      a: "Yes. Fenalt manages door-to-door DDP (Delivered Duty Paid) shipping to addresses across Australia and Canada - handling export clearance, customs entry, and final delivery.",
     },
   ];
 

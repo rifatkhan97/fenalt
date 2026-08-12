@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, TrendingUp } from "lucide-react";
 export const metadata: Metadata = {
   title: "How to Scale Clothing Production After a Successful First Run",
   description:
-    "Learn how to transition from small-batch initial orders to scaled bulk production — managing supply chain capacity, custom fabric knits, and working capital.",
+    "Learn how to transition from small-batch initial orders to scaled bulk production - managing supply chain capacity, custom fabric knits, and working capital.",
   alternates: {
     canonical: "https://fenalt.com/learn/how-to-scale-clothing-production",
   },
   openGraph: {
     title: "How to Scale Clothing Production After a Successful First Run",
     description:
-      "Learn how to transition from small-batch initial orders to scaled bulk production — managing supply chain capacity, custom fabric knits, and working capital.",
+      "Learn how to transition from small-batch initial orders to scaled bulk production - managing supply chain capacity, custom fabric knits, and working capital.",
     url: "https://fenalt.com/learn/how-to-scale-clothing-production",
   },
 };
@@ -105,7 +105,7 @@ export default function HowToScaleClothingProductionPage() {
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
             Sold out your first drop? Congratulations. Scaling from 100 units to 2,000 units requires shifting from reactive sourcing to structured supply chain planning.
           </p>
-          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge — reviewed by Fenalt editorial team</p>
+          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>
       </section>
 

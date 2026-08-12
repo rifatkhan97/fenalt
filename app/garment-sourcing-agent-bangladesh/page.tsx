@@ -55,7 +55,7 @@ export default function GarmentSourcingAgentBangladeshPage() {
   const faqs = [
     {
       q: "How does Fenalt differ from traditional Bangladesh buying houses?",
-      a: "Traditional buying houses focus on mega-volume orders (10,000+ units) and pass-through broker fees. Fenalt acts as an active operational liaison—managing small batch runs from 50 units with physical floor audits by our own Dhaka staff.",
+      a: "Traditional buying houses focus on mega-volume orders (10,000+ units) and pass-through broker fees. Fenalt acts as an active operational liaison - managing small batch runs from 50 units with physical floor audits by our own Dhaka staff.",
     },
     {
       q: "Where is Fenalt's operational team located?",

@@ -55,7 +55,7 @@ export default function BuyingSourcingPartnerBangladeshPage() {
   const faqs = [
     {
       q: "What role does Fenalt serve as a sourcing partner?",
-      a: "Fenalt manages the complete overseas operational loop—translating tech specs, sourcing fabrics in Dhaka, matching orders with vetted micro-factories, auditing floor assembly, and arranging landed freight.",
+      a: "Fenalt manages the complete overseas operational loop - translating tech specs, sourcing fabrics in Dhaka, matching orders with vetted micro-factories, auditing floor assembly, and arranging landed freight.",
     },
     {
       q: "Can Fenalt handle small order volumes from 50 units?",

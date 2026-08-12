@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, Layers } from "lucide-react";
 export const metadata: Metadata = {
   title: "The Different Types of Apparel Samples Explained",
   description:
-    "Understand the 7 major garment sample types — Proto, Fit, Salesperson, Pre-Production (PP), TOP, and Shipping samples — and when each is required.",
+    "Understand the 7 major garment sample types - Proto, Fit, Salesperson, Pre-Production (PP), TOP, and Shipping samples - and when each is required.",
   alternates: {
     canonical: "https://fenalt.com/learn/types-of-apparel-samples",
   },
   openGraph: {
     title: "The Different Types of Apparel Samples Explained",
     description:
-      "Understand the 7 major garment sample types — Proto, Fit, Salesperson, Pre-Production (PP), TOP, and Shipping samples — and when each is required.",
+      "Understand the 7 major garment sample types - Proto, Fit, Salesperson, Pre-Production (PP), TOP, and Shipping samples - and when each is required.",
     url: "https://fenalt.com/learn/types-of-apparel-samples",
   },
 };
@@ -45,7 +45,7 @@ export default function TypesOfApparelSamplesPage() {
     { name: "2. Fit Sample", purpose: "Evaluate anatomical drape and sizing accuracy on a physical fit model." },
     { name: "3. Size Set Samples", purpose: "Verify pattern grading across the complete size spectrum (e.g. S, M, L, XL)." },
     { name: "4. Salesperson Sample (SMS)", purpose: "Showcase finished garments in exact bulk fabrics for trade shows, lookbooks, and wholesale buyers." },
-    { name: "5. Pre-Production (PP) Sample", purpose: "The 'Golden Sample' — constructed with actual bulk fabric, trims, labels, and wash treatments." },
+    { name: "5. Pre-Production (PP) Sample", purpose: "The 'Golden Sample' - constructed with actual bulk fabric, trims, labels, and wash treatments." },
     { name: "6. Top of Production (TOP) Sample", purpose: "Pulled directly from the first 10% of bulk sewing to audit line quality." },
     { name: "7. Shipping Sample", purpose: "Pulled from final packed export cartons to verify polybagging, hangtags, and carton ratio." },
   ];
@@ -96,7 +96,7 @@ export default function TypesOfApparelSamplesPage() {
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
             Not all apparel samples serve the same purpose. Understand the sampling hierarchy to streamline your product development timeline.
           </p>
-          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge — reviewed by Fenalt editorial team</p>
+          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>
       </section>
 
@@ -109,7 +109,7 @@ export default function TypesOfApparelSamplesPage() {
               <span className="text-xs font-semibold uppercase tracking-[0.25em] text-[#C8A882]">Sampling Taxonomy</span>
             </div>
             <p className="font-display text-2xl lg:text-3xl font-light text-[#1A1A1A] leading-relaxed">
-              Each sample stage isolates specific variables — <strong className="font-medium">silhouette (proto), fit &amp; drape (fit sample), aesthetics (SMS), and final production standard (PP sample)</strong>.
+              Each sample stage isolates specific variables - <strong className="font-medium">silhouette (proto), fit &amp; drape (fit sample), aesthetics (SMS), and final production standard (PP sample)</strong>.
             </p>
           </div>
         </div>
@@ -173,7 +173,7 @@ export default function TypesOfApparelSamplesPage() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
           <h2 className="font-display text-3xl lg:text-5xl font-light text-[#1A1A1A] mb-4">Develop your prototype samples</h2>
           <p className="text-[#6B6560] leading-relaxed text-base mb-10 max-w-xl mx-auto">
-            Fenalt offers fast-turnaround sampling services — developing precision proto, fit, and pre-production samples in Dhaka.
+            Fenalt offers fast-turnaround sampling services - developing precision proto, fit, and pre-production samples in Dhaka.
           </p>
           <Link href="/intake" className="inline-flex items-center justify-center gap-2 px-10 py-4 bg-[#1A1A1A] text-[#FAF9F6] text-sm font-semibold tracking-wide hover:bg-[#2D5016] transition-colors duration-300">
             Submit Sampling Request <ArrowRight size={16} />

@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, Truck } from "lucide-react";
 export const metadata: Metadata = {
   title: "What Happens After Clothing Is Manufactured Overseas?",
   description:
-    "Explore post-production clothing logistics — final packing, FRI inspection sign-off, container stuffing, ocean vs air freight, customs clearance, and 3PL warehouse intake.",
+    "Explore post-production clothing logistics - final packing, FRI inspection sign-off, container stuffing, ocean vs air freight, customs clearance, and 3PL warehouse intake.",
   alternates: {
     canonical: "https://fenalt.com/learn/what-happens-after-clothing-manufactured-overseas",
   },
   openGraph: {
     title: "What Happens After Clothing Is Manufactured Overseas?",
     description:
-      "Explore post-production clothing logistics — final packing, FRI inspection sign-off, container stuffing, ocean vs air freight, customs clearance, and 3PL warehouse intake.",
+      "Explore post-production clothing logistics - final packing, FRI inspection sign-off, container stuffing, ocean vs air freight, customs clearance, and 3PL warehouse intake.",
     url: "https://fenalt.com/learn/what-happens-after-clothing-manufactured-overseas",
   },
 };
@@ -93,7 +93,7 @@ export default function WhatHappensAfterClothingManufacturedOverseasPage() {
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
             When bulk sewing finishes, the post-production shipping journey begins. Master the steps from Master Carton packing to 3PL warehouse delivery.
           </p>
-          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge — reviewed by Fenalt editorial team</p>
+          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>
       </section>
 

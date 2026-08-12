@@ -55,7 +55,7 @@ export default function CutAndSewClothingManufacturerBangladeshPage() {
   const faqs = [
     {
       q: "What is the difference between cut-and-sew manufacturing and blank garment printing?",
-      a: "Cut-and-sew manufacturing creates garments completely from raw fabric rolls based on your unique CAD patterns, custom measurements, and specified ribbing—unlike printing graphics onto pre-made wholesale blanks.",
+      a: "Cut-and-sew manufacturing creates garments completely from raw fabric rolls based on your unique CAD patterns, custom measurements, and specified ribbing - unlike printing graphics onto pre-made wholesale blanks.",
     },
     {
       q: "Can Fenalt create digital CAD patterns from physical sample garments?",

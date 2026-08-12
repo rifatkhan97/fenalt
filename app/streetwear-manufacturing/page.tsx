@@ -111,7 +111,7 @@ export default function StreetwearManufacturingPage() {
             <span className="italic font-medium text-[#2D5016]">Apparel Manufacturing.</span>
           </h1>
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl mb-12">
-            Build high-spec streetwear collections using 320gsm+ heavyweight cottons, French Terry fleece, custom drop-shoulder patterns, and specialized print/embroidery finishing—all backed by on-site QC.
+            Build high-spec streetwear collections using 320gsm+ heavyweight cottons, French Terry fleece, custom drop-shoulder patterns, and specialized print/embroidery finishing - all backed by on-site QC.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link

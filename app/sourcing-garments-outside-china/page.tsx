@@ -23,7 +23,7 @@ export default function SourcingOutsideChinaPage() {
     "@type": "Article",
     "headline": "Sourcing Garments Outside China: Supply Chain Diversification Guide",
     "description":
-      "A strategic guide for international apparel brands seeking to diversify production away from China—evaluating Bangladesh as a high-efficiency cotton knit and denim manufacturing hub.",
+      "A strategic guide for international apparel brands seeking to diversify production away from China - evaluating Bangladesh as a high-efficiency cotton knit and denim manufacturing hub.",
     "author": {
       "@type": "Organization",
       "name": "Fenalt",
@@ -129,7 +129,7 @@ export default function SourcingOutsideChinaPage() {
                 Over-reliance on a single manufacturing country exposes apparel brands to tariff fluctuations and supply disruptions. Diversifying production across South Asia creates long-term resilience.
               </p>
               <p>
-                <strong>Fenalt makes China-plus-one sourcing effortless:</strong> We serve as your operational team on the ground in Dhaka—handling pattern transition, sample development, floor QC, and DDP freight handling.
+                <strong>Fenalt makes China-plus-one sourcing effortless:</strong> We serve as your operational team on the ground in Dhaka - handling pattern transition, sample development, floor QC, and DDP freight handling.
               </p>
             </div>
           </div>

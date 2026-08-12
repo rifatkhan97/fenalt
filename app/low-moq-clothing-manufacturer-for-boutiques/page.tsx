@@ -55,7 +55,7 @@ export default function LowMOQBoutiquesPage() {
   const faqs = [
     {
       q: "How does Fenalt customize low MOQ production for boutique retail buyers?",
-      a: "We structure production around retail store economics—offering low 50-unit minimums, custom neck labels, hangtag attachment, and size ratio splits to keep boutique inventory lean and profitable.",
+      a: "We structure production around retail store economics - offering low 50-unit minimums, custom neck labels, hangtag attachment, and size ratio splits to keep boutique inventory lean and profitable.",
     },
     {
       q: "Can boutique stores supply their own fabrics or rely on deadstock?",

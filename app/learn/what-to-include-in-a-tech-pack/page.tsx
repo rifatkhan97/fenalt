@@ -121,7 +121,7 @@ export default function WhatToIncludeInATechPackPage() {
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
             A tech pack must contain zero ambiguity. Omitting even minor specifications leads to factory guesswork and sampling delays. Use this full checklist to build production-ready technical documents.
           </p>
-          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge — reviewed by Fenalt editorial team</p>
+          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>
       </section>
 
@@ -134,7 +134,7 @@ export default function WhatToIncludeInATechPackPage() {
               <span className="text-xs font-semibold uppercase tracking-[0.25em] text-[#C8A882]">Anatomy of a Tech Pack</span>
             </div>
             <p className="font-display text-2xl lg:text-3xl font-light text-[#1A1A1A] leading-relaxed">
-              Think of a tech pack as an <strong className="font-medium">architectural blueprint for clothing</strong>. If a detail is missing from the page, the factory floor will improvise — and their interpretation may not match your brand vision.
+              Think of a tech pack as an <strong className="font-medium">architectural blueprint for clothing</strong>. If a detail is missing from the page, the factory floor will improvise - and their interpretation may not match your brand vision.
             </p>
           </div>
         </div>

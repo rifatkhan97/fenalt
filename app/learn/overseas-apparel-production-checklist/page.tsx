@@ -5,7 +5,7 @@ import { ArrowRight, BookOpen, CheckCircle2 } from "lucide-react";
 export const metadata: Metadata = {
   title: "A Complete Checklist for Starting Overseas Apparel Production",
   description:
-    "Everything a fashion brand needs to check before starting an overseas clothing production project — from manufacturer selection through to import planning.",
+    "Everything a fashion brand needs to check before starting an overseas clothing production project - from manufacturer selection through to import planning.",
   alternates: { canonical: "https://fenalt.com/learn/overseas-apparel-production-checklist" },
   openGraph: {
     title: "A Complete Checklist for Starting Overseas Apparel Production",
@@ -41,10 +41,10 @@ export default function OverseasApparelProductionChecklistPage() {
       color: "bg-[#1A1A1A] text-[#FAF9F6]",
       items: [
         "Designs finalised and not subject to further significant revision",
-        "Tech pack created for each style — measurements, BOM, fabric spec, construction details",
+        "Tech pack created for each style - measurements, BOM, fabric spec, construction details",
         "Pantone or lab-dip colour references prepared for all colourways",
         "Print or embroidery artwork prepared in vector format",
-        "Label content drafted — care/content labels, country of origin, size labels",
+        "Label content drafted - care/content labels, country of origin, size labels",
         "Target fabric direction identified (composition, GSM range)",
       ],
     },
@@ -119,9 +119,9 @@ export default function OverseasApparelProductionChecklistPage() {
             <span className="italic font-medium text-[#2D5016]">Overseas Apparel Production.</span>
           </h1>
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
-            Five phases, 35 checkpoints. Use this as a master reference for your first — or any — overseas clothing production project.
+            Five phases, 35 checkpoints. Use this as a master reference for your first - or any - overseas clothing production project.
           </p>
-          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge — reviewed by Fenalt editorial team</p>
+          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>
       </section>
 
@@ -175,7 +175,7 @@ export default function OverseasApparelProductionChecklistPage() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
           <h2 className="font-display text-3xl lg:text-5xl font-light text-[#1A1A1A] mb-4">Start your overseas production project with Fenalt</h2>
           <p className="text-[#6B6560] leading-relaxed text-base mb-10 max-w-xl mx-auto">
-            Fenalt manages overseas apparel production from Dhaka, Bangladesh — covering sampling, production oversight, quality control, and DDP or FOB export coordination.
+            Fenalt manages overseas apparel production from Dhaka, Bangladesh - covering sampling, production oversight, quality control, and DDP or FOB export coordination.
           </p>
           <Link href="/intake" className="inline-flex items-center justify-center gap-2 px-10 py-4 bg-[#1A1A1A] text-[#FAF9F6] text-sm font-semibold tracking-wide hover:bg-[#2D5016] transition-colors duration-300">
             Submit Your Project <ArrowRight size={16} />

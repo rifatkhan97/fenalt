@@ -93,7 +93,7 @@ export default function NewDesignersPartnerPage() {
             <span className="italic font-medium text-[#2D5016]">New Designers.</span>
           </h1>
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl mb-12">
-            Transform your design vision into physical retail reality. Fenalt acts as your operational liaison—managing pattern development, fabric sourcing, physical sampling, and small batch production from 50 units.
+            Transform your design vision into physical retail reality. Fenalt acts as your operational liaison - managing pattern development, fabric sourcing, physical sampling, and small batch production from 50 units.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link

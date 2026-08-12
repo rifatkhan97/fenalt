@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, MessageSquare } from "lucide-react"
 export const metadata: Metadata = {
   title: "How to Give Useful Feedback on a Clothing Sample",
   description:
-    "Learn how to write actionable, precise sample fit feedback for your clothing manufacturer — using measuring tapes, reference photos, and clear POM delta callouts.",
+    "Learn how to write actionable, precise sample fit feedback for your clothing manufacturer - using measuring tapes, reference photos, and clear POM delta callouts.",
   alternates: {
     canonical: "https://fenalt.com/learn/how-to-give-sample-feedback",
   },
   openGraph: {
     title: "How to Give Useful Feedback on a Clothing Sample",
     description:
-      "Learn how to write actionable, precise sample fit feedback for your clothing manufacturer — using measuring tapes, reference photos, and clear POM delta callouts.",
+      "Learn how to write actionable, precise sample fit feedback for your clothing manufacturer - using measuring tapes, reference photos, and clear POM delta callouts.",
     url: "https://fenalt.com/learn/how-to-give-sample-feedback",
   },
 };
@@ -93,7 +93,7 @@ export default function HowToGiveSampleFeedbackPage() {
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
             Clear, technical sample feedback prevents misinterpretation and cuts revision cycles in half. Master the art of actionable fit notes.
           </p>
-          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge — reviewed by Fenalt editorial team</p>
+          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>
       </section>
 

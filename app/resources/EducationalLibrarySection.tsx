@@ -58,7 +58,7 @@ export default function EducationalLibrarySection({ articles }: { articles: Arti
             </span>
           </div>
           <p className="text-sm text-[#6B6560] max-w-2xl">
-            Filter or search our plain-language educational guides by topic right here — covering tech packs, pattern making, fabric choice, quality control, and sourcing.
+            Filter or search our plain-language educational guides by topic right here - covering tech packs, pattern making, fabric choice, quality control, and sourcing.
           </p>
         </div>
 

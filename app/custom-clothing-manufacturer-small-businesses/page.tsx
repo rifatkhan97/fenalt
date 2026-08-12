@@ -55,7 +55,7 @@ export default function SmallBusinessClothingManufacturerPage() {
   const faqs = [
     {
       q: "What makes Fenalt suitable for small business apparel sourcing?",
-      a: "We structure production around small business needs—low MOQs from 50 units, transparent all-inclusive landed pricing, physical sample development, and DDP freight handling.",
+      a: "We structure production around small business needs - low MOQs from 50 units, transparent all-inclusive landed pricing, physical sample development, and DDP freight handling.",
     },
     {
       q: "Can small businesses produce fully custom garments with private branding?",
@@ -195,7 +195,7 @@ export default function SmallBusinessClothingManufacturerPage() {
               On-Site Floor Audits in Dhaka
             </h2>
             <p className="text-lg text-[#E5DDD3] leading-relaxed font-light mb-8">
-              Our Dhaka floor managers inspect every seam, measurement, and label before export—ensuring your small business order arrives in unblemished retail condition.
+              Our Dhaka floor managers inspect every seam, measurement, and label before export - ensuring your small business order arrives in unblemished retail condition.
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-12">

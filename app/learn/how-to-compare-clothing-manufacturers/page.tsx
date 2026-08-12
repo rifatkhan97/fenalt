@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, Scale } from "lucide-react";
 export const metadata: Metadata = {
   title: "How to Compare Clothing Manufacturers: Decision Matrix",
   description:
-    "Evaluate garment manufacturers using a technical scorecards — comparing FOB unit cost, MOQs, sample lead times, social compliance, and fabric sourcing depth.",
+    "Evaluate garment manufacturers using a technical scorecards - comparing FOB unit cost, MOQs, sample lead times, social compliance, and fabric sourcing depth.",
   alternates: {
     canonical: "https://fenalt.com/learn/how-to-compare-clothing-manufacturers",
   },
   openGraph: {
     title: "How to Compare Clothing Manufacturers: Decision Matrix",
     description:
-      "Evaluate garment manufacturers using a technical scorecards — comparing FOB unit cost, MOQs, sample lead times, social compliance, and fabric sourcing depth.",
+      "Evaluate garment manufacturers using a technical scorecards - comparing FOB unit cost, MOQs, sample lead times, social compliance, and fabric sourcing depth.",
     url: "https://fenalt.com/learn/how-to-compare-clothing-manufacturers",
   },
 };
@@ -93,7 +93,7 @@ export default function HowToCompareClothingManufacturersPage() {
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
             Choosing a manufacturing partner defines product quality and margin profitability. Use this structured evaluation scorecard to compare factory options.
           </p>
-          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge — reviewed by Fenalt editorial team</p>
+          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>
       </section>
 
@@ -106,7 +106,7 @@ export default function HowToCompareClothingManufacturersPage() {
               <span className="text-xs font-semibold uppercase tracking-[0.25em] text-[#C8A882]">Evaluation Framework</span>
             </div>
             <p className="font-display text-2xl lg:text-3xl font-light text-[#1A1A1A] leading-relaxed">
-              Comparing manufacturers requires looking beyond unit price — evaluating <strong className="font-medium">MOQs, sampling speed, itemized FOB transparency, and ethical compliance</strong>.
+              Comparing manufacturers requires looking beyond unit price - evaluating <strong className="font-medium">MOQs, sampling speed, itemized FOB transparency, and ethical compliance</strong>.
             </p>
           </div>
         </div>

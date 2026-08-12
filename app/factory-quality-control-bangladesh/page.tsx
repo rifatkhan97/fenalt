@@ -126,7 +126,7 @@ export default function FactoryQualityControlBangladeshPage() {
                 Relying on factory self-inspections or unverified photo reports often results in unexpected defects, size chart deviations, or missing brand labels after shipments arrive overseas.
               </p>
               <p>
-                <strong>Fenalt places auditors on the factory floor:</strong> Our Dhaka staff physically checks every cut, seam, print alignment, and carton build—ensuring zero defective products leave Bangladesh.
+                <strong>Fenalt places auditors on the factory floor:</strong> Our Dhaka staff physically checks every cut, seam, print alignment, and carton build - ensuring zero defective products leave Bangladesh.
               </p>
             </div>
           </div>

@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, Globe2 } from "lucide-react";
 export const metadata: Metadata = {
   title: "How Apparel Manufacturing in Bangladesh Works",
   description:
-    "An insider's guide to Bangladesh's garment industry — understanding vertical mill integration, Dhaka infrastructure, Chittagong port logistics, and duty-free import benefits.",
+    "An insider's guide to Bangladesh's garment industry - understanding vertical mill integration, Dhaka infrastructure, Chittagong port logistics, and duty-free import benefits.",
   alternates: {
     canonical: "https://fenalt.com/learn/how-apparel-manufacturing-in-bangladesh-works",
   },
   openGraph: {
     title: "How Apparel Manufacturing in Bangladesh Works",
     description:
-      "An insider's guide to Bangladesh's garment industry — understanding vertical mill integration, Dhaka infrastructure, Chittagong port logistics, and duty-free import benefits.",
+      "An insider's guide to Bangladesh's garment industry - understanding vertical mill integration, Dhaka infrastructure, Chittagong port logistics, and duty-free import benefits.",
     url: "https://fenalt.com/learn/how-apparel-manufacturing-in-bangladesh-works",
   },
 };
@@ -93,7 +93,7 @@ export default function HowApparelManufacturingInBangladeshWorksPage() {
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
             Bangladesh produces apparel for the world's premier fashion houses. Understand the vertical mill ecosystem, compliance standards, and export logistics.
           </p>
-          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge — reviewed by Fenalt editorial team</p>
+          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>
       </section>
 

@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, MessageSquare } from "lucide-react"
 export const metadata: Metadata = {
   title: "How to Communicate With Overseas Apparel Suppliers",
   description:
-    "Master cross-border communication with clothing manufacturers — tech pack clarity, visual feedback PDFs, time zone management, and clear payment terms.",
+    "Master cross-border communication with clothing manufacturers - tech pack clarity, visual feedback PDFs, time zone management, and clear payment terms.",
   alternates: {
     canonical: "https://fenalt.com/learn/how-to-communicate-with-overseas-suppliers",
   },
   openGraph: {
     title: "How to Communicate With Overseas Apparel Suppliers",
     description:
-      "Master cross-border communication with clothing manufacturers — tech pack clarity, visual feedback PDFs, time zone management, and clear payment terms.",
+      "Master cross-border communication with clothing manufacturers - tech pack clarity, visual feedback PDFs, time zone management, and clear payment terms.",
     url: "https://fenalt.com/learn/how-to-communicate-with-overseas-suppliers",
   },
 };
@@ -93,7 +93,7 @@ export default function HowToCommunicateWithOverseasSuppliersPage() {
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
             Clear cross-border communication eliminates production delays and prevents factory misinterpretations. Master the rules of supplier messaging.
           </p>
-          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge — reviewed by Fenalt editorial team</p>
+          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>
       </section>
 

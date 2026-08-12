@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, PackageCheck } from "lucide-react";
 export const metadata: Metadata = {
   title: "Final Inspection for Finished Garments: AQL Protocol",
   description:
-    "Learn how Final Random Inspection (FRI) works — applying ANSI/ASQ Z1.4 AQL sampling tables, visual defect classification (Critical/Major/Minor), and carton audits.",
+    "Learn how Final Random Inspection (FRI) works - applying ANSI/ASQ Z1.4 AQL sampling tables, visual defect classification (Critical/Major/Minor), and carton audits.",
   alternates: {
     canonical: "https://fenalt.com/learn/final-inspection-finished-garments",
   },
   openGraph: {
     title: "Final Inspection for Finished Garments: AQL Protocol",
     description:
-      "Learn how Final Random Inspection (FRI) works — applying ANSI/ASQ Z1.4 AQL sampling tables, visual defect classification (Critical/Major/Minor), and carton audits.",
+      "Learn how Final Random Inspection (FRI) works - applying ANSI/ASQ Z1.4 AQL sampling tables, visual defect classification (Critical/Major/Minor), and carton audits.",
     url: "https://fenalt.com/learn/final-inspection-finished-garments",
   },
 };
@@ -93,7 +93,7 @@ export default function FinalInspectionFinishedGarmentsPage() {
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
             Final Random Inspection (FRI) is the decisive gatekeeping audit before garments are released for ocean or air shipping.
           </p>
-          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge — reviewed by Fenalt editorial team</p>
+          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>
       </section>
 

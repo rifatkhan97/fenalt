@@ -5,11 +5,11 @@ import { ArrowRight, BookOpen } from "lucide-react";
 export const metadata: Metadata = {
   title: "Puff Print vs Screen Print for Streetwear",
   description:
-    "A practical comparison of puff print and screen print for streetwear garments — how each technique works, the visual and tactile differences, and when to use which.",
+    "A practical comparison of puff print and screen print for streetwear garments - how each technique works, the visual and tactile differences, and when to use which.",
   alternates: { canonical: "https://fenalt.com/learn/puff-print-vs-screen-print-streetwear" },
   openGraph: {
     title: "Puff Print vs Screen Print for Streetwear",
-    description: "A practical comparison of puff print and screen print for streetwear — how each technique works, differences, and when to use which.",
+    description: "A practical comparison of puff print and screen print for streetwear - how each technique works, differences, and when to use which.",
     url: "https://fenalt.com/learn/puff-print-vs-screen-print-streetwear",
   },
 };
@@ -36,14 +36,14 @@ export default function PuffPrintVsScreenPrintPage() {
   };
 
   const comparison = [
-    { aspect: "How It Works", puff: "Screen printing with a puff (foaming) additive mixed into the ink. When heat-cured, the additive expands and raises the ink above the fabric surface, creating a three-dimensional, embossed effect.", screen: "Ink is pushed through a mesh screen onto the fabric surface. No additive — ink sits flat on the fabric or penetrates slightly into the fibres depending on ink type." },
-    { aspect: "Visual Effect", puff: "Raised, three-dimensional. The design literally stands proud of the fabric surface — visible and palpable depth.", screen: "Flat. Clean, sharp edges. The full visual impact comes from colour density and opacity rather than texture." },
-    { aspect: "Tactile Feel", puff: "Soft, raised texture — satisfying to touch. The dimensional effect is a significant part of the garment's premium feel.", screen: "Flat and smooth on the fabric. Plastisol (standard) inks can feel slightly rubbery; water-based inks integrate more with the fabric." },
-    { aspect: "Design Suitability", puff: "Works best with bold, simple designs — logos, block text, simple graphic shapes. Fine detail and thin lines are less suitable as puff expansion can blur edges slightly.", screen: "Very versatile — handles fine detail, gradients (with halftones), multi-colour designs, and large coverage areas." },
-    { aspect: "Colour Range", puff: "Typically one or two colours — puff printing multicolour designs requires precise registration and adds complexity.", screen: "Each colour is a separate screen and print pass. Complex multi-colour designs are achievable but cost increases per colour." },
+    { aspect: "How It Works", puff: "Screen printing with a puff (foaming) additive mixed into the ink. When heat-cured, the additive expands and raises the ink above the fabric surface, creating a three-dimensional, embossed effect.", screen: "Ink is pushed through a mesh screen onto the fabric surface. No additive - ink sits flat on the fabric or penetrates slightly into the fibres depending on ink type." },
+    { aspect: "Visual Effect", puff: "Raised, three-dimensional. The design literally stands proud of the fabric surface - visible and palpable depth.", screen: "Flat. Clean, sharp edges. The full visual impact comes from colour density and opacity rather than texture." },
+    { aspect: "Tactile Feel", puff: "Soft, raised texture - satisfying to touch. The dimensional effect is a significant part of the garment's premium feel.", screen: "Flat and smooth on the fabric. Plastisol (standard) inks can feel slightly rubbery; water-based inks integrate more with the fabric." },
+    { aspect: "Design Suitability", puff: "Works best with bold, simple designs - logos, block text, simple graphic shapes. Fine detail and thin lines are less suitable as puff expansion can blur edges slightly.", screen: "Very versatile - handles fine detail, gradients (with halftones), multi-colour designs, and large coverage areas." },
+    { aspect: "Colour Range", puff: "Typically one or two colours - puff printing multicolour designs requires precise registration and adds complexity.", screen: "Each colour is a separate screen and print pass. Complex multi-colour designs are achievable but cost increases per colour." },
     { aspect: "Durability", puff: "Good durability when properly cured. The raised elements can break down over many wash cycles, especially with aggressive washing.", screen: "Excellent durability when using quality inks and proper curing. Plastisol screen prints are among the most durable print methods on fabric." },
     { aspect: "Cost", puff: "Generally slightly more expensive than standard screen printing due to the additive and the additional curing control required.", screen: "Cost depends on number of colours and setup. Simple one or two-colour screen prints are among the most cost-effective print methods at volume." },
-    { aspect: "Premium Positioning", puff: "The three-dimensional effect is strongly associated with premium streetwear — particularly on hoodies and heavyweight tees. It is a deliberate premium signal.", screen: "Can be positioned at any tier. Premium positioning comes from design quality and ink quality rather than the technique itself." },
+    { aspect: "Premium Positioning", puff: "The three-dimensional effect is strongly associated with premium streetwear - particularly on hoodies and heavyweight tees. It is a deliberate premium signal.", screen: "Can be positioned at any tier. Premium positioning comes from design quality and ink quality rather than the technique itself." },
   ];
 
   const whenToUse = [
@@ -89,9 +89,9 @@ export default function PuffPrintVsScreenPrintPage() {
             <span className="italic font-medium text-[#2D5016]">for Streetwear.</span>
           </h1>
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
-            Both are widely used in streetwear — but they produce very different results. Understanding the difference helps you make the right call for your garment, your design, and your positioning.
+            Both are widely used in streetwear - but they produce very different results. Understanding the difference helps you make the right call for your garment, your design, and your positioning.
           </p>
-          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge — reviewed by Fenalt editorial team</p>
+          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>
       </section>
 

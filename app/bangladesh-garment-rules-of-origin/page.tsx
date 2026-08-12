@@ -58,11 +58,11 @@ export default function RulesOfOriginPage() {
   const faqs = [
     {
       q: "What are Rules of Origin in apparel international trade?",
-      a: "Rules of Origin define the criteria required to determine the national origin of a product for custom tariff treatment—specifically verifying where fabrics are knitted/woven and where cutting and sewing occur.",
+      a: "Rules of Origin define the criteria required to determine the national origin of a product for custom tariff treatment - specifically verifying where fabrics are knitted/woven and where cutting and sewing occur.",
     },
     {
       q: "How does Fenalt ensure import documentation compliance?",
-      a: "Fenalt manages export documentation through our Dhaka operational network—providing complete Certificates of Origin, commercial invoices, and packing lists to support preferential tariff claims.",
+      a: "Fenalt manages export documentation through our Dhaka operational network - providing complete Certificates of Origin, commercial invoices, and packing lists to support preferential tariff claims.",
     },
   ];
 

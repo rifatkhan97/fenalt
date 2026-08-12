@@ -123,7 +123,7 @@ export default function OuterwearManufacturingBangladeshPage() {
             </h2>
             <div className="space-y-6 text-[#6B6560] text-base lg:text-lg leading-relaxed">
               <p>
-                Technical jacket manufacturing requires precise pattern grading across multiple layers—shell fabrics, synthetic insulation, interior linings, waterproof zippers, and storm flaps.
+                Technical jacket manufacturing requires precise pattern grading across multiple layers - shell fabrics, synthetic insulation, interior linings, waterproof zippers, and storm flaps.
               </p>
               <p>
                 <strong>Fenalt manages technical outerwear complexity:</strong> Our Dhaka operational team oversees assembly line setup, seam sealing, zipper alignment, and physical water-resistance testing prior to shipment.

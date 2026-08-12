@@ -132,7 +132,7 @@ export default function PrivateLabelSmallBrandsPage() {
                 Launching a private-label clothing brand requires more than basic garment sewing. Small fashion brands need exact pattern translation, consistent sizing curves, custom main neck labels, and retail-ready packaging.
               </p>
               <p>
-                <strong>Fenalt delivers managed private-label manufacturing:</strong> We handle the complete operational workflow in Dhaka—translating your tech pack, matching your garments with ethical micro-factories, applying custom trims, and inspecting every finished piece before global delivery.
+                <strong>Fenalt delivers managed private-label manufacturing:</strong> We handle the complete operational workflow in Dhaka - translating your tech pack, matching your garments with ethical micro-factories, applying custom trims, and inspecting every finished piece before global delivery.
               </p>
             </div>
           </div>

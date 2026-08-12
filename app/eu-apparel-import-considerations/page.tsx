@@ -23,7 +23,7 @@ export default function EUApparelImportPage() {
     "@type": "Article",
     "headline": "EU Apparel Import Considerations: Bangladesh Sourcing Guide",
     "description":
-      "An educational guide for European apparel brands importing clothing from Bangladesh under EU Generalized System of Preferences (GSP) and Everything But Arms (EBA) schemes—covering preferential tariff entry, customs VAT, and DDP logistics.",
+      "An educational guide for European apparel brands importing clothing from Bangladesh under EU Generalized System of Preferences (GSP) and Everything But Arms (EBA) schemes - covering preferential tariff entry, customs VAT, and DDP logistics.",
     "author": {
       "@type": "Organization",
       "name": "Fenalt",
@@ -62,7 +62,7 @@ export default function EUApparelImportPage() {
     },
     {
       q: "Does Fenalt ship DDP to European Union destination addresses?",
-      a: "Yes. Fenalt coordinates door-to-door DDP (Delivered Duty Paid) freight—managing export documentation in Dhaka, international freight, EU customs clearance, and warehouse delivery.",
+      a: "Yes. Fenalt coordinates door-to-door DDP (Delivered Duty Paid) freight - managing export documentation in Dhaka, international freight, EU customs clearance, and warehouse delivery.",
     },
   ];
 

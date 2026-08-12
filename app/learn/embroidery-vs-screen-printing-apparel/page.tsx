@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, Scale } from "lucide-react";
 export const metadata: Metadata = {
   title: "Embroidery vs Screen Printing for Clothing Brands",
   description:
-    "Compare custom embroidery against screen printing — evaluating aesthetic appeal, fabric weight requirements, longevity, pricing structures, and best garment use-cases.",
+    "Compare custom embroidery against screen printing - evaluating aesthetic appeal, fabric weight requirements, longevity, pricing structures, and best garment use-cases.",
   alternates: {
     canonical: "https://fenalt.com/learn/embroidery-vs-screen-printing-apparel",
   },
   openGraph: {
     title: "Embroidery vs Screen Printing for Clothing Brands",
     description:
-      "Compare custom embroidery against screen printing — evaluating aesthetic appeal, fabric weight requirements, longevity, pricing structures, and best garment use-cases.",
+      "Compare custom embroidery against screen printing - evaluating aesthetic appeal, fabric weight requirements, longevity, pricing structures, and best garment use-cases.",
     url: "https://fenalt.com/learn/embroidery-vs-screen-printing-apparel",
   },
 };
@@ -93,7 +93,7 @@ export default function EmbroideryVsScreenPrintingApparelPage() {
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
             Deciding between embroidery and screen printing shapes your garment aesthetics, unit production costs, and brand positioning.
           </p>
-          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge — reviewed by Fenalt editorial team</p>
+          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>
       </section>
 

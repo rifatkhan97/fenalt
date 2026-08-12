@@ -19,7 +19,7 @@ export default function WhatIsAClothingSamplePage() {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: "What Is a Clothing Sample and Why Is It Important?",
-    description: "Clothing samples explained — types, purpose, and why they are essential before bulk production.",
+    description: "Clothing samples explained - types, purpose, and why they are essential before bulk production.",
     author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
     publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
     url: "https://fenalt.com/learn/what-is-a-clothing-sample",
@@ -36,7 +36,7 @@ export default function WhatIsAClothingSamplePage() {
   };
 
   const sampleTypes = [
-    { name: "Proto Sample (Prototype)", purpose: "The first physical garment sewn from the pattern. Used to check overall silhouette, proportions, and construction concept.", material: "Often in substitute fabric — exact target fabric may not be sourced yet.", stage: "Very Early" },
+    { name: "Proto Sample (Prototype)", purpose: "The first physical garment sewn from the pattern. Used to check overall silhouette, proportions, and construction concept.", material: "Often in substitute fabric - exact target fabric may not be sourced yet.", stage: "Very Early" },
     { name: "Fit Sample (First Fit)", purpose: "Sewn with closer-to-final fabric to assess how the garment fits on a body or dress form. Measurements are checked against the tech pack POM sheet.", material: "Target or similar fabric.", stage: "Development" },
     { name: "Pre-Production Sample (PP Sample)", purpose: "Made from the actual production fabric, by the actual production factory. This is the critical approval gate before bulk production begins.", material: "Exact production fabric, trims, and labels.", stage: "Pre-Production" },
     { name: "Golden Sample / SMS (Salesman&apos;s Sample)", purpose: "The final approved sample that serves as the binding quality standard for the bulk production run. QC inspectors check bulk production against this sample.", material: "Production-grade in all respects.", stage: "Production Reference" },
@@ -85,9 +85,9 @@ export default function WhatIsAClothingSamplePage() {
             <span className="italic font-medium text-[#2D5016]">and Why Is It Important?</span>
           </h1>
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
-            A clothing sample is a physical garment made before bulk production — the step that determines whether your design translates correctly from a technical document into a real, wearable garment.
+            A clothing sample is a physical garment made before bulk production - the step that determines whether your design translates correctly from a technical document into a real, wearable garment.
           </p>
-          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge — reviewed by Fenalt editorial team</p>
+          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>
       </section>
 
@@ -135,7 +135,7 @@ export default function WhatIsAClothingSamplePage() {
               "Construction errors replicated across 1,000 units multiply into significant cost",
             ].map((point, i) => (
               <div key={i} className="flex items-start gap-3 p-5 bg-[#F2EFE9] border border-[#E5DDD3]">
-                <span className="text-[#C8A882] mt-0.5 shrink-0">—</span>
+                <span className="text-[#C8A882] mt-0.5 shrink-0"> - </span>
                 <p className="text-sm text-[#6B6560] leading-relaxed">{point}</p>
               </div>
             ))}

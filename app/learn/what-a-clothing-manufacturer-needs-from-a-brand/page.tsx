@@ -46,9 +46,9 @@ export default function WhatManufacturerNeedsFromBrandPage() {
 
   const forSampling = [
     { item: "Complete tech pack", detail: "Measurements, construction details, fabric spec, colourway, BOM, print placement, and label specifications." },
-    { item: "Pantone or lab-dip colour references", detail: "Not colour names alone — specific Pantone codes or reference swatches for accurate colour matching." },
+    { item: "Pantone or lab-dip colour references", detail: "Not colour names alone - specific Pantone codes or reference swatches for accurate colour matching." },
     { item: "Fabric swatch or fabric reference", detail: "Physical swatch or specific mill/fabric reference where possible, especially for unusual materials." },
-    { item: "Size run to be sampled", detail: "Which sizes the initial sample should be made in — typically a mid-size (M or L) for first-fit evaluation." },
+    { item: "Size run to be sampled", detail: "Which sizes the initial sample should be made in - typically a mid-size (M or L) for first-fit evaluation." },
     { item: "Sampling notes or priorities", detail: "Any specific areas of construction or fit to pay particular attention to in the first round." },
   ];
 
@@ -56,7 +56,7 @@ export default function WhatManufacturerNeedsFromBrandPage() {
     { item: "Signed-off golden/pre-production sample", detail: "The approved reference standard for bulk production." },
     { item: "Confirmed fabric and trim selections", detail: "Approved dye lots, confirmed trim specifications, and label copy." },
     { item: "Label and packaging artwork", detail: "Final print-ready artwork for all labels, hangtags, polybag printing, and carton markings." },
-    { item: "Final size breakdown", detail: "Units per size per colourway — the production manifest." },
+    { item: "Final size breakdown", detail: "Units per size per colourway - the production manifest." },
     { item: "Destination warehouse and address", detail: "For shipment planning and carton marking." },
     { item: "Purchase order", detail: "A formal PO creates a binding production agreement and establishes commercial terms." },
   ];
@@ -64,11 +64,11 @@ export default function WhatManufacturerNeedsFromBrandPage() {
   const faqs = [
     {
       q: "Can I get a quote without a tech pack?",
-      a: "Yes — most manufacturers will provide a rough indicative quote based on garment type, fabric direction, and order quantity. However, an accurate quote with a reliable pricing commitment requires a complete tech pack. Significant discrepancies between indicative and final quotes are common without one.",
+      a: "Yes - most manufacturers will provide a rough indicative quote based on garment type, fabric direction, and order quantity. However, an accurate quote with a reliable pricing commitment requires a complete tech pack. Significant discrepancies between indicative and final quotes are common without one.",
     },
     {
       q: "What if I don't have a tech pack yet?",
-      a: "Start by compiling what you do have — design sketches, reference garments, fabric preferences, and size requirements. Some manufacturers and production management partners (including Fenalt) offer tech pack development services to help brands create the necessary documentation.",
+      a: "Start by compiling what you do have - design sketches, reference garments, fabric preferences, and size requirements. Some manufacturers and production management partners (including Fenalt) offer tech pack development services to help brands create the necessary documentation.",
     },
   ];
 
@@ -95,9 +95,9 @@ export default function WhatManufacturerNeedsFromBrandPage() {
             <span className="italic font-medium text-[#2D5016]">Need From a Brand?</span>
           </h1>
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
-            The most common reason a production project stalls is not the manufacturer — it is the brand being unprepared. Here is exactly what you need to provide at each stage.
+            The most common reason a production project stalls is not the manufacturer - it is the brand being unprepared. Here is exactly what you need to provide at each stage.
           </p>
-          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge — reviewed by Fenalt editorial team</p>
+          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>
       </section>
 
@@ -234,7 +234,7 @@ export default function WhatManufacturerNeedsFromBrandPage() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
           <h2 className="font-display text-3xl lg:text-5xl font-light text-[#1A1A1A] mb-4">Ready to submit your project?</h2>
           <p className="text-[#6B6560] leading-relaxed text-base mb-10 max-w-xl mx-auto">
-            Fenalt&apos;s intake form walks you through exactly what we need — making the first step as clear as possible.
+            Fenalt&apos;s intake form walks you through exactly what we need - making the first step as clear as possible.
           </p>
           <Link href="/intake" className="inline-flex items-center justify-center gap-2 px-10 py-4 bg-[#1A1A1A] text-[#FAF9F6] text-sm font-semibold tracking-wide hover:bg-[#2D5016] transition-colors duration-300">
             Start Your Project <ArrowRight size={16} />

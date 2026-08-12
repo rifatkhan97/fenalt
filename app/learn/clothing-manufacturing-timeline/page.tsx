@@ -5,11 +5,11 @@ import { ArrowRight, BookOpen } from "lucide-react";
 export const metadata: Metadata = {
   title: "How Long Does Clothing Manufacturing Usually Take?",
   description:
-    "A realistic guide to clothing manufacturing timelines — what each stage takes, what causes delays, and how to build a production schedule that actually works.",
+    "A realistic guide to clothing manufacturing timelines - what each stage takes, what causes delays, and how to build a production schedule that actually works.",
   alternates: { canonical: "https://fenalt.com/learn/clothing-manufacturing-timeline" },
   openGraph: {
     title: "How Long Does Clothing Manufacturing Usually Take?",
-    description: "A realistic guide to clothing manufacturing timelines — what each stage takes, what causes delays, and how to build a production schedule that actually works.",
+    description: "A realistic guide to clothing manufacturing timelines - what each stage takes, what causes delays, and how to build a production schedule that actually works.",
     url: "https://fenalt.com/learn/clothing-manufacturing-timeline",
   },
 };
@@ -19,7 +19,7 @@ export default function ClothingManufacturingTimelinePage() {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: "How Long Does Clothing Manufacturing Usually Take?",
-    description: "Realistic guide to clothing manufacturing timelines — stage-by-stage breakdown and delay causes.",
+    description: "Realistic guide to clothing manufacturing timelines - stage-by-stage breakdown and delay causes.",
     author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
     publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
     url: "https://fenalt.com/learn/clothing-manufacturing-timeline",
@@ -40,31 +40,31 @@ export default function ClothingManufacturingTimelinePage() {
       stage: "Design Finalisation & Tech Pack",
       timeRange: "1–4 weeks",
       notes: "Varies widely depending on whether the brand has design documentation ready or is starting from scratch. Brands with complete tech packs can move immediately to the next stage. Brands beginning with a sketch may need 2 to 4 weeks to develop a complete tech pack.",
-      variable: "High — brand's readiness is the primary factor",
+      variable: "High - brand's readiness is the primary factor",
     },
     {
       stage: "Manufacturer Selection & Brief Submission",
       timeRange: "1–3 weeks",
-      notes: "Sending a brief, receiving responses, evaluating options, and confirming a manufacturer. This stage is often underestimated — manufacturers have intake queues and may not begin immediately on receipt.",
-      variable: "Medium — depends on manufacturer availability",
+      notes: "Sending a brief, receiving responses, evaluating options, and confirming a manufacturer. This stage is often underestimated - manufacturers have intake queues and may not begin immediately on receipt.",
+      variable: "Medium - depends on manufacturer availability",
     },
     {
       stage: "Fabric Sourcing & Material Procurement",
       timeRange: "2–5 weeks",
       notes: "The most frequently overlooked stage. Fabric mills often have minimum run quantities and their own production queues. Lab dip approval (dyeing a fabric swatch to your colour and waiting for sign-off) adds 1 to 2 weeks per colourway. This stage often runs in parallel with sampling but limits total timeline if fabrics are not sourced early.",
-      variable: "High — mill lead times are outside brand and manufacturer control",
+      variable: "High - mill lead times are outside brand and manufacturer control",
     },
     {
       stage: "First Fit Sample",
       timeRange: "1–3 weeks",
       notes: "The time to produce the first physical prototype after pattern approval. Fenalt's estimated turnaround for prototype fit samples is 10 to 14 days following tech pack and pattern approval, subject to material availability.",
-      variable: "Low to Medium — depends on tech pack quality and material availability",
+      variable: "Low to Medium - depends on tech pack quality and material availability",
     },
     {
       stage: "Sample Revision Rounds",
       timeRange: "1–3 weeks per round",
       notes: "Each revision round requires the manufacturer to rework or re-sew the sample and return it. For international shipping, allow 5 to 10 business days per sample transit. Brands often require 2 to 4 revision rounds on a first collection with a new manufacturer.",
-      variable: "High — number of rounds depends on tech pack completeness and feedback clarity",
+      variable: "High - number of rounds depends on tech pack completeness and feedback clarity",
     },
     {
       stage: "Pre-Production Sample (PP Sample)",
@@ -76,19 +76,19 @@ export default function ClothingManufacturingTimelinePage() {
       stage: "Bulk Production",
       timeRange: "4–8 weeks",
       notes: "Depends on order size, garment complexity, and factory scheduling. Fenalt estimates bulk production at 4 to 6 weeks following final fit approval, depending on order scale and material procurement. Complex constructions or high-embellishment garments may take longer.",
-      variable: "Medium — larger orders and complex constructions add time",
+      variable: "Medium - larger orders and complex constructions add time",
     },
     {
       stage: "Pre-Shipment Quality Inspection",
       timeRange: "3–7 days",
-      notes: "A pre-shipment inspection must be booked in advance. Allow 3 to 7 business days for inspection and report — and additional time for any rework if issues are found.",
+      notes: "A pre-shipment inspection must be booked in advance. Allow 3 to 7 business days for inspection and report - and additional time for any rework if issues are found.",
       variable: "Low (unless rework is required)",
     },
     {
       stage: "Shipping & Customs Clearance",
       timeRange: "Sea: 20–40 days | Air: 5–10 days",
       notes: "Sea freight from Bangladesh to Europe, North America, or Australia typically takes 20 to 35 days by ocean. Air freight is 5 to 10 days but is significantly more expensive per kilogram. Customs clearance adds 2 to 5 business days after arrival depending on destination country.",
-      variable: "Low (routing is predictable) — high only if customs delays occur",
+      variable: "Low (routing is predictable) - high only if customs delays occur",
     },
   ];
 
@@ -100,21 +100,21 @@ export default function ClothingManufacturingTimelinePage() {
 
   const delayFactors = [
     "Incomplete or frequently changed tech pack requiring multiple revision rounds",
-    "Fabric sourcing delays — mill lead times, lab dip re-approvals, minimum run quantities",
-    "Unclear or late feedback on samples — adding days to revision cycles",
-    "Factory scheduling conflicts — peak production seasons (pre-CNY, pre-Q4)",
-    "Customs delays on import — particularly for first-time importers or new HS codes",
-    "Public holidays in the manufacturing country (e.g. Eid in Bangladesh) — typically 1–2 week closure periods",
+    "Fabric sourcing delays - mill lead times, lab dip re-approvals, minimum run quantities",
+    "Unclear or late feedback on samples - adding days to revision cycles",
+    "Factory scheduling conflicts - peak production seasons (pre-CNY, pre-Q4)",
+    "Customs delays on import - particularly for first-time importers or new HS codes",
+    "Public holidays in the manufacturing country (e.g. Eid in Bangladesh) - typically 1–2 week closure periods",
   ];
 
   const faqs = [
     {
       q: "What is the fastest possible manufacturing timeline?",
-      a: "For a brand with a complete tech pack, working with an established manufacturer, using in-stock fabric, and accepting air freight — a first order can potentially be completed in 10 to 14 weeks from brief to delivery. However, this scenario requires everything to go smoothly and multiple stages to proceed without delays or revision rounds. It is not a reliable planning assumption for a first project.",
+      a: "For a brand with a complete tech pack, working with an established manufacturer, using in-stock fabric, and accepting air freight - a first order can potentially be completed in 10 to 14 weeks from brief to delivery. However, this scenario requires everything to go smoothly and multiple stages to proceed without delays or revision rounds. It is not a reliable planning assumption for a first project.",
     },
     {
       q: "What are Fenalt's production timeline estimates?",
-      a: "Fenalt estimates prototype fit sample turnaround at 10 to 14 days following tech pack and pattern approval. Bulk production runs are estimated at 4 to 6 weeks following final fit approval, depending on order scale and material procurement. These are estimates — actual timelines depend on garment complexity, fabric sourcing, and revision rounds.",
+      a: "Fenalt estimates prototype fit sample turnaround at 10 to 14 days following tech pack and pattern approval. Bulk production runs are estimated at 4 to 6 weeks following final fit approval, depending on order scale and material procurement. These are estimates - actual timelines depend on garment complexity, fabric sourcing, and revision rounds.",
     },
     {
       q: "How much time buffer should a brand plan?",
@@ -145,9 +145,9 @@ export default function ClothingManufacturingTimelinePage() {
             <span className="italic font-medium text-[#2D5016]">Usually Take?</span>
           </h1>
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
-            The most common planning mistake in fashion production is an underestimated timeline. This guide gives you a realistic, stage-by-stage breakdown — with the honest variables that most production guides skip over.
+            The most common planning mistake in fashion production is an underestimated timeline. This guide gives you a realistic, stage-by-stage breakdown - with the honest variables that most production guides skip over.
           </p>
-          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">Estimates based on general industry knowledge — Fenalt-specific estimates are qualified and verified</p>
+          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">Estimates based on general industry knowledge - Fenalt-specific estimates are qualified and verified</p>
         </div>
       </section>
 
@@ -190,7 +190,7 @@ export default function ClothingManufacturingTimelinePage() {
               </div>
             ))}
           </div>
-          <p className="mt-6 text-xs text-[#9B948E]">Timeline estimates are general industry guidance. Actual timelines vary by garment complexity, fabric availability, revision rounds, and logistics. Plan with buffer — not best-case assumptions.</p>
+          <p className="mt-6 text-xs text-[#9B948E]">Timeline estimates are general industry guidance. Actual timelines vary by garment complexity, fabric availability, revision rounds, and logistics. Plan with buffer - not best-case assumptions.</p>
         </div>
       </section>
 
@@ -249,7 +249,7 @@ export default function ClothingManufacturingTimelinePage() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
           <h2 className="font-display text-3xl lg:text-5xl font-light text-[#1A1A1A] mb-4">Managed production with transparent timelines</h2>
           <p className="text-[#6B6560] leading-relaxed text-base mb-10 max-w-xl mx-auto">
-            Fenalt provides realistic production timeline estimates from day one — with Dhaka-based oversight at every stage to keep projects on track.
+            Fenalt provides realistic production timeline estimates from day one - with Dhaka-based oversight at every stage to keep projects on track.
           </p>
           <Link href="/intake" className="inline-flex items-center justify-center gap-2 px-10 py-4 bg-[#1A1A1A] text-[#FAF9F6] text-sm font-semibold tracking-wide hover:bg-[#2D5016] transition-colors duration-300">
             Submit Your Project <ArrowRight size={16} />

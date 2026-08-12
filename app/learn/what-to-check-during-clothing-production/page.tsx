@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, ClipboardList } from "lucide-react"
 export const metadata: Metadata = {
   title: "What Should Be Checked During Clothing Production?",
   description:
-    "A guide for fashion brands on inline quality control checkpoints — checking cutting markers, bundle labeling, initial sewing line setup, and ironing finish.",
+    "A guide for fashion brands on inline quality control checkpoints - checking cutting markers, bundle labeling, initial sewing line setup, and ironing finish.",
   alternates: {
     canonical: "https://fenalt.com/learn/what-to-check-during-clothing-production",
   },
   openGraph: {
     title: "What Should Be Checked During Clothing Production?",
     description:
-      "A guide for fashion brands on inline quality control checkpoints — checking cutting markers, bundle labeling, initial sewing line setup, and ironing finish.",
+      "A guide for fashion brands on inline quality control checkpoints - checking cutting markers, bundle labeling, initial sewing line setup, and ironing finish.",
     url: "https://fenalt.com/learn/what-to-check-during-clothing-production",
   },
 };
@@ -93,7 +93,7 @@ export default function WhatToCheckDuringClothingProductionPage() {
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
             Waiting until final packing to check quality is a recipe for disaster. Discover the critical inline quality checkpoints across cutting, sewing, and finishing.
           </p>
-          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge — reviewed by Fenalt editorial team</p>
+          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>
       </section>
 
@@ -170,7 +170,7 @@ export default function WhatToCheckDuringClothingProductionPage() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
           <h2 className="font-display text-3xl lg:text-5xl font-light text-[#1A1A1A] mb-4">Dedicated inline production oversight</h2>
           <p className="text-[#6B6560] leading-relaxed text-base mb-10 max-w-xl mx-auto">
-            Fenalt station full-time quality inspectors inside partner factories in Dhaka — conducting inline audits across every stage of sewing.
+            Fenalt station full-time quality inspectors inside partner factories in Dhaka - conducting inline audits across every stage of sewing.
           </p>
           <Link href="/intake" className="inline-flex items-center justify-center gap-2 px-10 py-4 bg-[#1A1A1A] text-[#FAF9F6] text-sm font-semibold tracking-wide hover:bg-[#2D5016] transition-colors duration-300">
             Submit Your Project <ArrowRight size={16} />

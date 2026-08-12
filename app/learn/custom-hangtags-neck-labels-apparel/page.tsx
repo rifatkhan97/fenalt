@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, Tag } from "lucide-react";
 export const metadata: Metadata = {
   title: "Custom Hangtags & Neck Labels in Apparel Manufacturing",
   description:
-    "Explore brand labeling options — woven damask neck labels, heat-transfer neck prints, legal care labels, and custom hangtags with safety pin locks.",
+    "Explore brand labeling options - woven damask neck labels, heat-transfer neck prints, legal care labels, and custom hangtags with safety pin locks.",
   alternates: {
     canonical: "https://fenalt.com/learn/custom-hangtags-neck-labels-apparel",
   },
   openGraph: {
     title: "Custom Hangtags & Neck Labels in Apparel Manufacturing",
     description:
-      "Explore brand labeling options — woven damask neck labels, heat-transfer neck prints, legal care labels, and custom hangtags with safety pin locks.",
+      "Explore brand labeling options - woven damask neck labels, heat-transfer neck prints, legal care labels, and custom hangtags with safety pin locks.",
     url: "https://fenalt.com/learn/custom-hangtags-neck-labels-apparel",
   },
 };
@@ -93,7 +93,7 @@ export default function CustomHangtagsNeckLabelsApparelPage() {
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
             Labels and hangtags are the signature touchpoints of your physical brand. Master the technical choices between woven tags, tagless prints, and care labels.
           </p>
-          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge — reviewed by Fenalt editorial team</p>
+          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>
       </section>
 

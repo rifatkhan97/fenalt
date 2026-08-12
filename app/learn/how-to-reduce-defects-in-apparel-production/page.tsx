@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, ShieldCheck } from "lucide-react";
 export const metadata: Metadata = {
   title: "How to Reduce Defects in Apparel Production: Factory Guide",
   description:
-    "Explore proven strategies to minimize garment manufacturing defects — implementing poka-yoke jigs, preventative machine maintenance, operator training, and AQL 2.5 auditing.",
+    "Explore proven strategies to minimize garment manufacturing defects - implementing poka-yoke jigs, preventative machine maintenance, operator training, and AQL 2.5 auditing.",
   alternates: {
     canonical: "https://fenalt.com/learn/how-to-reduce-defects-in-apparel-production",
   },
   openGraph: {
     title: "How to Reduce Defects in Apparel Production: Factory Guide",
     description:
-      "Explore proven strategies to minimize garment manufacturing defects — implementing poka-yoke jigs, preventative machine maintenance, operator training, and AQL 2.5 auditing.",
+      "Explore proven strategies to minimize garment manufacturing defects - implementing poka-yoke jigs, preventative machine maintenance, operator training, and AQL 2.5 auditing.",
     url: "https://fenalt.com/learn/how-to-reduce-defects-in-apparel-production",
   },
 };
@@ -93,7 +93,7 @@ export default function HowToReduceDefectsInApparelProductionPage() {
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
             Defect reduction protects brand reputation and profitability. Discover industrial lean manufacturing strategies for zero-defect apparel production.
           </p>
-          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge — reviewed by Fenalt editorial team</p>
+          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>
       </section>
 

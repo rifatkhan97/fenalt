@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, DollarSign } from "lucide-react";
 export const metadata: Metadata = {
   title: "What Should Be Included in an Apparel Manufacturing Quote?",
   description:
-    "Learn how to review garment manufacturing FOB quotes — itemized fabric yields, cut-and-sew labor, printing surcharges, packaging, shipping terms, and payment milestones.",
+    "Learn how to review garment manufacturing FOB quotes - itemized fabric yields, cut-and-sew labor, printing surcharges, packaging, shipping terms, and payment milestones.",
   alternates: {
     canonical: "https://fenalt.com/learn/what-should-be-in-an-apparel-manufacturing-quote",
   },
   openGraph: {
     title: "What Should Be Included in an Apparel Manufacturing Quote?",
     description:
-      "Learn how to review garment manufacturing FOB quotes — itemized fabric yields, cut-and-sew labor, printing surcharges, packaging, shipping terms, and payment milestones.",
+      "Learn how to review garment manufacturing FOB quotes - itemized fabric yields, cut-and-sew labor, printing surcharges, packaging, shipping terms, and payment milestones.",
     url: "https://fenalt.com/learn/what-should-be-in-an-apparel-manufacturing-quote",
   },
 };
@@ -93,7 +93,7 @@ export default function WhatShouldBeInAnApparelManufacturingQuotePage() {
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
             A professional manufacturing quotation must be completely transparent. Learn the line-item components required to audit a factory FOB price quote.
           </p>
-          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge — reviewed by Fenalt editorial team</p>
+          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>
       </section>
 

@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, Scale } from "lucide-react";
 export const metadata: Metadata = {
   title: "Low MOQ vs Bulk Manufacturing: What Changes?",
   description:
-    "Compare low minimum order quantity (MOQ) production against high-volume bulk apparel manufacturing — analyzing unit economics, fabric sourcing options, and turnarounds.",
+    "Compare low minimum order quantity (MOQ) production against high-volume bulk apparel manufacturing - analyzing unit economics, fabric sourcing options, and turnarounds.",
   alternates: {
     canonical: "https://fenalt.com/learn/low-moq-vs-bulk-manufacturing",
   },
   openGraph: {
     title: "Low MOQ vs Bulk Manufacturing: What Changes?",
     description:
-      "Compare low minimum order quantity (MOQ) production against high-volume bulk apparel manufacturing — analyzing unit economics, fabric sourcing options, and turnarounds.",
+      "Compare low minimum order quantity (MOQ) production against high-volume bulk apparel manufacturing - analyzing unit economics, fabric sourcing options, and turnarounds.",
     url: "https://fenalt.com/learn/low-moq-vs-bulk-manufacturing",
   },
 };
@@ -94,7 +94,7 @@ export default function LowMoqVsBulkManufacturingPage() {
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
             Choosing between low minimum order quantity production and traditional high-volume manufacturing is a trade-off between margin efficiency and cash-flow agility.
           </p>
-          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge — reviewed by Fenalt editorial team</p>
+          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>
       </section>
 

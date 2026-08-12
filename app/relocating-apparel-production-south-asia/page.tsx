@@ -23,7 +23,7 @@ export default function RelocatingApparelProductionSouthAsiaPage() {
     "@type": "Article",
     "headline": "Relocating Apparel Production to South Asia Sourcing Guide",
     "description":
-      "A step-by-step roadmap for fashion brands transitioning garment manufacturing to South Asia—focusing on Dhaka, Bangladesh for cotton knits, fleece, and denim production.",
+      "A step-by-step roadmap for fashion brands transitioning garment manufacturing to South Asia - focusing on Dhaka, Bangladesh for cotton knits, fleece, and denim production.",
     "author": {
       "@type": "Organization",
       "name": "Fenalt",
@@ -126,7 +126,7 @@ export default function RelocatingApparelProductionSouthAsiaPage() {
             </h2>
             <div className="space-y-6 text-[#6B6560] text-base lg:text-lg leading-relaxed">
               <p>
-                Switching manufacturing facilities is often fraught with risk—lost pattern grading, altered size fits, fabric weight discrepancies, and delayed shipping windows.
+                Switching manufacturing facilities is often fraught with risk - lost pattern grading, altered size fits, fabric weight discrepancies, and delayed shipping windows.
               </p>
               <p>
                 <strong>Fenalt eliminates transition friction:</strong> We reverse-engineer your proven bestseller fits, match fabrics in Dhaka, and audit physical floor assembly daily to guarantee identical garment quality.

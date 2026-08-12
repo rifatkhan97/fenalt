@@ -126,7 +126,7 @@ export default function SustainableTextileSourcingPage() {
                 Sourcing sustainable textiles overseas is often complicated by high fabric minimums (1,000kg+ per dye lot) and opaque supply chain claims.
               </p>
               <p>
-                <strong>Fenalt makes eco-textile sourcing accessible:</strong> Our Dhaka team inspects and reclaims export-quality deadstock knits, organic cottons, and recycled polyester blends—delivering physical swatches directly to your studio.
+                <strong>Fenalt makes eco-textile sourcing accessible:</strong> Our Dhaka team inspects and reclaims export-quality deadstock knits, organic cottons, and recycled polyester blends - delivering physical swatches directly to your studio.
               </p>
             </div>
           </div>

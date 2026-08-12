@@ -23,7 +23,7 @@ export default function CostConsiderationsPage() {
     "@type": "Article",
     "headline": "Apparel Manufacturing Cost Breakdown: FOB vs DDP Guide",
     "description":
-      "An educational resource for fashion brand founders breaking down garment production cost components—fabric GSM impact, tech pack pattern fees, sampling costs, and landed DDP freight.",
+      "An educational resource for fashion brand founders breaking down garment production cost components - fabric GSM impact, tech pack pattern fees, sampling costs, and landed DDP freight.",
     "author": {
       "@type": "Organization",
       "name": "Fenalt",
@@ -62,7 +62,7 @@ export default function CostConsiderationsPage() {
     },
     {
       q: "Why does Fenalt provide all-inclusive landed pricing?",
-      a: "All-inclusive landed pricing eliminates surprise freight surcharges, import duty spikes, and hidden handling fees—giving brand founders exact unit margin clarity before order approval.",
+      a: "All-inclusive landed pricing eliminates surprise freight surcharges, import duty spikes, and hidden handling fees - giving brand founders exact unit margin clarity before order approval.",
     },
   ];
 
@@ -129,7 +129,7 @@ export default function CostConsiderationsPage() {
                 First-time fashion brand founders often focus exclusively on the per-unit sewing cost, overlooking critical expense components such as fabric weight (GSM), trim customization, customs duty, and international freight.
               </p>
               <p>
-                <strong>Fenalt delivers total pricing transparency:</strong> Every quote we issue is a fully landed price—covering raw materials, pattern grading, physical sampling, in-line floor QC, customs entry, and door-to-door freight.
+                <strong>Fenalt delivers total pricing transparency:</strong> Every quote we issue is a fully landed price - covering raw materials, pattern grading, physical sampling, in-line floor QC, customs entry, and door-to-door freight.
               </p>
               <div className="p-4 bg-[#F2EFE9] border-l-2 border-[#C8A882] text-xs text-[#6B6560] leading-relaxed">
                 <em>Disclaimer: Total landed unit cost varies based on product design, order quantity, fabric weight (GSM), customization techniques, freight mode, and destination country tariffs. Final quotes are confirmed during project intake.</em>

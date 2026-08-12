@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, CheckSquare } from "lucide-react";
 export const metadata: Metadata = {
   title: "What Happens After a Sample Is Approved?",
   description:
-    "Discover the next steps immediately following sample approval — from golden sample sealing and bulk fabric milling to PO issuance and cutting.",
+    "Discover the next steps immediately following sample approval - from golden sample sealing and bulk fabric milling to PO issuance and cutting.",
   alternates: {
     canonical: "https://fenalt.com/learn/after-sample-approval-what-happens",
   },
   openGraph: {
     title: "What Happens After a Sample Is Approved?",
     description:
-      "Discover the next steps immediately following sample approval — from golden sample sealing and bulk fabric milling to PO issuance and cutting.",
+      "Discover the next steps immediately following sample approval - from golden sample sealing and bulk fabric milling to PO issuance and cutting.",
     url: "https://fenalt.com/learn/after-sample-approval-what-happens",
   },
 };
@@ -94,7 +94,7 @@ export default function AfterSampleApprovalWhatHappensPage() {
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
             Sample approval triggers the transition from prototype development to bulk manufacturing. Understand the administrative and factory milestones that follow sign-off.
           </p>
-          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge — reviewed by Fenalt editorial team</p>
+          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>
       </section>
 
@@ -107,7 +107,7 @@ export default function AfterSampleApprovalWhatHappensPage() {
               <span className="text-xs font-semibold uppercase tracking-[0.25em] text-[#C8A882]">Transition Protocol</span>
             </div>
             <p className="font-display text-2xl lg:text-3xl font-light text-[#1A1A1A] leading-relaxed">
-              Sample approval converts technical specs into <strong className="font-medium">binding production commitments</strong> — authorizing material milling, cutting, and line allocation.
+              Sample approval converts technical specs into <strong className="font-medium">binding production commitments</strong> - authorizing material milling, cutting, and line allocation.
             </p>
           </div>
         </div>

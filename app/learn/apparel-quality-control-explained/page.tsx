@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, ShieldAlert } from "lucide-react";
 export const metadata: Metadata = {
   title: "Apparel Quality Control Explained: Complete Framework",
   description:
-    "Understand the 4 stages of garment quality control — fabric inspection, pre-production, in-line, and final AQL audit — to prevent defects and protect your brand reputation.",
+    "Understand the 4 stages of garment quality control - fabric inspection, pre-production, in-line, and final AQL audit - to prevent defects and protect your brand reputation.",
   alternates: {
     canonical: "https://fenalt.com/learn/apparel-quality-control-explained",
   },
   openGraph: {
     title: "Apparel Quality Control Explained: Complete Framework",
     description:
-      "Understand the 4 stages of garment quality control — fabric inspection, pre-production, in-line, and final AQL audit — to prevent defects and protect your brand reputation.",
+      "Understand the 4 stages of garment quality control - fabric inspection, pre-production, in-line, and final AQL audit - to prevent defects and protect your brand reputation.",
     url: "https://fenalt.com/learn/apparel-quality-control-explained",
   },
 };
@@ -54,7 +54,7 @@ export default function ApparelQualityControlExplainedPage() {
     {
       stage: "Stage 3",
       title: "In-Line Quality Control (DUPRO)",
-      desc: "Inspectors check garments while they are being sewn on the line — catching stitch tension flaws, seam puckering, or pocket misalignments early.",
+      desc: "Inspectors check garments while they are being sewn on the line - catching stitch tension flaws, seam puckering, or pocket misalignments early.",
     },
     {
       stage: "Stage 4",
@@ -107,9 +107,9 @@ export default function ApparelQualityControlExplainedPage() {
             <span className="italic font-medium text-[#2D5016]">Explained.</span>
           </h1>
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
-            Quality control is not a single inspection at the end of production — it is a continuous multi-stage system that prevents defects before garments enter export cartons.
+            Quality control is not a single inspection at the end of production - it is a continuous multi-stage system that prevents defects before garments enter export cartons.
           </p>
-          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge — reviewed by Fenalt editorial team</p>
+          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>
       </section>
 
@@ -122,7 +122,7 @@ export default function ApparelQualityControlExplainedPage() {
               <span className="text-xs font-semibold uppercase tracking-[0.25em] text-[#C8A882]">Systemic Protection</span>
             </div>
             <p className="font-display text-2xl lg:text-3xl font-light text-[#1A1A1A] leading-relaxed">
-              Effective <strong className="font-medium">Apparel Quality Control (QC)</strong> catches flaws at the source — raw fabric, seam construction, and measurements — before garments ship to customers.
+              Effective <strong className="font-medium">Apparel Quality Control (QC)</strong> catches flaws at the source - raw fabric, seam construction, and measurements - before garments ship to customers.
             </p>
           </div>
         </div>
@@ -187,7 +187,7 @@ export default function ApparelQualityControlExplainedPage() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
           <h2 className="font-display text-3xl lg:text-5xl font-light text-[#1A1A1A] mb-4">On-the-ground factory quality control</h2>
           <p className="text-[#6B6560] leading-relaxed text-base mb-10 max-w-xl mx-auto">
-            Fenalt inspects every production run in Dhaka using AQL 2.5 standards — providing full transparency and inspection reports before shipment.
+            Fenalt inspects every production run in Dhaka using AQL 2.5 standards - providing full transparency and inspection reports before shipment.
           </p>
           <Link href="/intake" className="inline-flex items-center justify-center gap-2 px-10 py-4 bg-[#1A1A1A] text-[#FAF9F6] text-sm font-semibold tracking-wide hover:bg-[#2D5016] transition-colors duration-300">
             Submit Your Project <ArrowRight size={16} />

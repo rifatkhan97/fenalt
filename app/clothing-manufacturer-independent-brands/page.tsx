@@ -55,7 +55,7 @@ export default function IndependentBrandsPage() {
   const faqs = [
     {
       q: "How does Fenalt support independent fashion founders with limited manufacturing experience?",
-      a: "Our Dhaka-based engineering team guides independent founders through tech pack review, pattern grading, fabric selection, and fit sample approvals—eliminating supply chain jargon and communication friction.",
+      a: "Our Dhaka-based engineering team guides independent founders through tech pack review, pattern grading, fabric selection, and fit sample approvals - eliminating supply chain jargon and communication friction.",
     },
     {
       q: "What is the minimum quantity needed to start a production run?",

@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2 } from "lucide-react";
 export const metadata: Metadata = {
   title: "How Clothing Manufacturing Works: From Design to Finished Garment",
   description:
-    "A complete, plain-language guide to how clothing manufacturing works — from initial design sketches and tech packs through sampling, production, quality control, and export.",
+    "A complete, plain-language guide to how clothing manufacturing works - from initial design sketches and tech packs through sampling, production, quality control, and export.",
   alternates: {
     canonical: "https://fenalt.com/learn/how-clothing-manufacturing-works",
   },
   openGraph: {
     title: "How Clothing Manufacturing Works: From Design to Finished Garment",
     description:
-      "A complete, plain-language guide to how clothing manufacturing works — from initial design sketches and tech packs through sampling, production, quality control, and export.",
+      "A complete, plain-language guide to how clothing manufacturing works - from initial design sketches and tech packs through sampling, production, quality control, and export.",
     url: "https://fenalt.com/learn/how-clothing-manufacturing-works",
   },
 };
@@ -23,7 +23,7 @@ export default function HowClothingManufacturingWorksPage() {
     "@type": "Article",
     headline: "How Clothing Manufacturing Works: From Design to Finished Garment",
     description:
-      "A plain-language overview of the full apparel manufacturing process — design, tech pack, sampling, production, QC, and export.",
+      "A plain-language overview of the full apparel manufacturing process - design, tech pack, sampling, production, QC, and export.",
     author: {
       "@type": "Organization",
       name: "Fenalt",
@@ -57,7 +57,7 @@ export default function HowClothingManufacturingWorksPage() {
     {
       number: "01",
       title: "Design & Concept",
-      body: "The process starts with a design — a sketch, mood board, or reference garment. At this stage, the brand decides on silhouette, fabric direction, colourway, and any special techniques (embroidery, printing, washes). This design intent needs to eventually be translated into precise technical documents.",
+      body: "The process starts with a design - a sketch, mood board, or reference garment. At this stage, the brand decides on silhouette, fabric direction, colourway, and any special techniques (embroidery, printing, washes). This design intent needs to eventually be translated into precise technical documents.",
     },
     {
       number: "02",
@@ -67,7 +67,7 @@ export default function HowClothingManufacturingWorksPage() {
     {
       number: "03",
       title: "Pattern Making",
-      body: "Once the tech pack is finalised, a pattern maker converts measurements and construction details into physical or digital cut patterns — the templates used to cut fabric pieces. Most modern manufacturers use CAD (computer-aided design) pattern software, though some traditional techniques persist for complex tailored garments.",
+      body: "Once the tech pack is finalised, a pattern maker converts measurements and construction details into physical or digital cut patterns - the templates used to cut fabric pieces. Most modern manufacturers use CAD (computer-aided design) pattern software, though some traditional techniques persist for complex tailored garments.",
     },
     {
       number: "04",
@@ -77,7 +77,7 @@ export default function HowClothingManufacturingWorksPage() {
     {
       number: "05",
       title: "Prototype / Fit Sampling",
-      body: "The first physical garment — called a prototype or first fit sample — is sewn to test how the pattern translates into a real garment. It checks fit, drape, proportion, and stitching. Multiple sample rounds may follow before the brand signs off on a final approved sample (sometimes called a golden sample or SMS — salesman's sample).",
+      body: "The first physical garment - called a prototype or first fit sample - is sewn to test how the pattern translates into a real garment. It checks fit, drape, proportion, and stitching. Multiple sample rounds may follow before the brand signs off on a final approved sample (sometimes called a golden sample or SMS - salesman's sample).",
     },
     {
       number: "06",
@@ -87,24 +87,24 @@ export default function HowClothingManufacturingWorksPage() {
     {
       number: "07",
       title: "Bulk Production",
-      body: "With PP approval given, fabric is cut at scale, sewn in production line sequences, and assembled. In-line quality inspections happen during production — checking measurements, stitching, and construction at regular intervals, not just at the end.",
+      body: "With PP approval given, fabric is cut at scale, sewn in production line sequences, and assembled. In-line quality inspections happen during production - checking measurements, stitching, and construction at regular intervals, not just at the end.",
     },
     {
       number: "08",
       title: "Final Inspection & Quality Control",
-      body: "Before garments are packed, a final pre-shipment inspection is conducted. This typically follows a sampling methodology (such as ANSI/ASQ Z1.4 AQL 2.5) to catch defects statistically across the order. Passed garments are then finished — hung, tagged, folded, and packed into cartons.",
+      body: "Before garments are packed, a final pre-shipment inspection is conducted. This typically follows a sampling methodology (such as ANSI/ASQ Z1.4 AQL 2.5) to catch defects statistically across the order. Passed garments are then finished - hung, tagged, folded, and packed into cartons.",
     },
     {
       number: "09",
       title: "Export, Shipping & Import",
-      body: "Finished cartons are loaded and shipped — either by sea freight (for bulk orders) or air freight (for urgent or small volumes). The brand or their freight forwarder handles customs entry, import duties, and delivery to the final warehouse or fulfilment centre.",
+      body: "Finished cartons are loaded and shipped - either by sea freight (for bulk orders) or air freight (for urgent or small volumes). The brand or their freight forwarder handles customs entry, import duties, and delivery to the final warehouse or fulfilment centre.",
     },
   ];
 
   const faqs = [
     {
       q: "How long does the full clothing manufacturing process take?",
-      a: "It varies significantly by order complexity. Sampling alone — from tech pack to approved sample — can take 3 to 6 weeks with revisions. Bulk production typically adds 4 to 6 weeks. Shipping time depends on destination and method. Allow a minimum of 12–20 weeks for a first collection from scratch.",
+      a: "It varies significantly by order complexity. Sampling alone - from tech pack to approved sample - can take 3 to 6 weeks with revisions. Bulk production typically adds 4 to 6 weeks. Shipping time depends on destination and method. Allow a minimum of 12–20 weeks for a first collection from scratch.",
     },
     {
       q: "Can a brand skip sampling and go straight to bulk production?",
@@ -149,9 +149,9 @@ export default function HowClothingManufacturingWorksPage() {
             <span className="italic font-medium text-[#2D5016]">From Design to Finished Garment.</span>
           </h1>
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
-            A plain-language guide to the full apparel production process — what happens at each stage, what brands need to prepare, and where things commonly go wrong.
+            A plain-language guide to the full apparel production process - what happens at each stage, what brands need to prepare, and where things commonly go wrong.
           </p>
-          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge — reviewed by Fenalt editorial team</p>
+          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>
       </section>
 
@@ -183,7 +183,7 @@ export default function HowClothingManufacturingWorksPage() {
             {[
               "Insufficient tech pack detail causes most sampling delays and misaligned samples.",
               "Skipping sampling entirely is one of the most expensive decisions a brand can make.",
-              "Fabric lead times are often overlooked — sourcing and approvals add weeks before a stitch is sewn.",
+              "Fabric lead times are often overlooked - sourcing and approvals add weeks before a stitch is sewn.",
               "In-line inspection matters more than end-of-line inspection for quality consistency.",
               "Import duty and freight cost planning should happen before order placement, not after.",
               "First-time brands frequently underestimate total timeline by 4 to 8 weeks.",
@@ -244,7 +244,7 @@ export default function HowClothingManufacturingWorksPage() {
             Ready to start your production project?
           </h2>
           <p className="text-[#6B6560] leading-relaxed text-base mb-10 max-w-xl mx-auto">
-            Fenalt manages the full process — from sampling to export — with on-the-ground oversight in Dhaka, Bangladesh.
+            Fenalt manages the full process - from sampling to export - with on-the-ground oversight in Dhaka, Bangladesh.
           </p>
           <Link
             href="/intake"

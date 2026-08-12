@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, Scissors } from "lucide-react";
 export const metadata: Metadata = {
   title: "What Is Pattern Making in Clothing Production?",
   description:
-    "Explore pattern making in apparel manufacturing — translating 3D fashion designs into 2D flat paper or digital CAD cutting templates.",
+    "Explore pattern making in apparel manufacturing - translating 3D fashion designs into 2D flat paper or digital CAD cutting templates.",
   alternates: {
     canonical: "https://fenalt.com/learn/what-is-pattern-making",
   },
   openGraph: {
     title: "What Is Pattern Making in Clothing Production?",
     description:
-      "Explore pattern making in apparel manufacturing — translating 3D fashion designs into 2D flat paper or digital CAD cutting templates.",
+      "Explore pattern making in apparel manufacturing - translating 3D fashion designs into 2D flat paper or digital CAD cutting templates.",
     url: "https://fenalt.com/learn/what-is-pattern-making",
   },
 };
@@ -92,7 +92,7 @@ export default function WhatIsPatternMakingPage() {
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
             Pattern making is the bridge between artistic fashion design and technical manufacturing. It creates the 2D template panels that dictate garment fit.
           </p>
-          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge — reviewed by Fenalt editorial team</p>
+          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>
       </section>
 
@@ -169,7 +169,7 @@ export default function WhatIsPatternMakingPage() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
           <h2 className="font-display text-3xl lg:text-5xl font-light text-[#1A1A1A] mb-4">Custom master pattern development</h2>
           <p className="text-[#6B6560] leading-relaxed text-base mb-10 max-w-xl mx-auto">
-            Fenalt drafts custom master paper and CAD patterns for emerging clothing labels — tailored to your exact brand fit vision.
+            Fenalt drafts custom master paper and CAD patterns for emerging clothing labels - tailored to your exact brand fit vision.
           </p>
           <Link href="/intake" className="inline-flex items-center justify-center gap-2 px-10 py-4 bg-[#1A1A1A] text-[#FAF9F6] text-sm font-semibold tracking-wide hover:bg-[#2D5016] transition-colors duration-300">
             Submit Your Project <ArrowRight size={16} />

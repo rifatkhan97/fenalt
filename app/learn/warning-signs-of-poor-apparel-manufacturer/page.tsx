@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, AlertOctagon } from "lucide-react";
 export const metadata: Metadata = {
   title: "Warning Signs of a Poor Apparel Manufacturing Partner",
   description:
-    "Spot red flags when vetting clothing factories — un-itemized quotes, reluctance to sign NDAs, vague sampling lead times, and missing social audit certificates.",
+    "Spot red flags when vetting clothing factories - un-itemized quotes, reluctance to sign NDAs, vague sampling lead times, and missing social audit certificates.",
   alternates: {
     canonical: "https://fenalt.com/learn/warning-signs-of-poor-apparel-manufacturer",
   },
   openGraph: {
     title: "Warning Signs of a Poor Apparel Manufacturing Partner",
     description:
-      "Spot red flags when vetting clothing factories — un-itemized quotes, reluctance to sign NDAs, vague sampling lead times, and missing social audit certificates.",
+      "Spot red flags when vetting clothing factories - un-itemized quotes, reluctance to sign NDAs, vague sampling lead times, and missing social audit certificates.",
     url: "https://fenalt.com/learn/warning-signs-of-poor-apparel-manufacturer",
   },
 };
@@ -50,7 +50,7 @@ export default function WarningSignsOfPoorApparelManufacturerPage() {
   const faqs = [
     {
       q: "What is an NNN agreement in overseas manufacturing?",
-      a: "An NNN agreement protects Non-disclosure, Non-use, and Non-circumvention — legally preventing factories from stealing design IP or selling your designs directly.",
+      a: "An NNN agreement protects Non-disclosure, Non-use, and Non-circumvention - legally preventing factories from stealing design IP or selling your designs directly.",
     },
     {
       q: "How can I check if a factory is illegally subcontracting my order?",
@@ -93,7 +93,7 @@ export default function WarningSignsOfPoorApparelManufacturerPage() {
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
             Spotting red flags early saves fashion brands thousands of dollars and months of lost production time. Protect your supply chain.
           </p>
-          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge — reviewed by Fenalt editorial team</p>
+          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>
       </section>
 

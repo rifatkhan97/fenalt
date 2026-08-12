@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, Search } from "lucide-react";
 export const metadata: Metadata = {
   title: "How to Evaluate Stitch Quality in Finished Garments",
   description:
-    "Learn how to audit garment sewing quality — checking SPI density, seam tension, skipped stitches, puckering, raw edge overhangs, and seam strength testing.",
+    "Learn how to audit garment sewing quality - checking SPI density, seam tension, skipped stitches, puckering, raw edge overhangs, and seam strength testing.",
   alternates: {
     canonical: "https://fenalt.com/learn/how-to-evaluate-stitch-quality",
   },
   openGraph: {
     title: "How to Evaluate Stitch Quality in Finished Garments",
     description:
-      "Learn how to audit garment sewing quality — checking SPI density, seam tension, skipped stitches, puckering, raw edge overhangs, and seam strength testing.",
+      "Learn how to audit garment sewing quality - checking SPI density, seam tension, skipped stitches, puckering, raw edge overhangs, and seam strength testing.",
     url: "https://fenalt.com/learn/how-to-evaluate-stitch-quality",
   },
 };
@@ -93,7 +93,7 @@ export default function HowToEvaluateStitchQualityPage() {
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
             Stitch quality is the truest indicator of factory craftsmanship. Learn how to inspect SPI density, seam tension, and structural durability.
           </p>
-          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge — reviewed by Fenalt editorial team</p>
+          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>
       </section>
 
@@ -170,7 +170,7 @@ export default function HowToEvaluateStitchQualityPage() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
           <h2 className="font-display text-3xl lg:text-5xl font-light text-[#1A1A1A] mb-4">Quality control audit services</h2>
           <p className="text-[#6B6560] leading-relaxed text-base mb-10 max-w-xl mx-auto">
-            Fenalt performs inline and end-of-line AQL quality inspections in Dhaka — auditing stitch density and seam strength on every order.
+            Fenalt performs inline and end-of-line AQL quality inspections in Dhaka - auditing stitch density and seam strength on every order.
           </p>
           <Link href="/intake" className="inline-flex items-center justify-center gap-2 px-10 py-4 bg-[#1A1A1A] text-[#FAF9F6] text-sm font-semibold tracking-wide hover:bg-[#2D5016] transition-colors duration-300">
             Submit Your Project <ArrowRight size={16} />

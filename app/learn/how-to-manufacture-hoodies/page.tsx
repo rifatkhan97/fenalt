@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, Flame } from "lucide-react";
 export const metadata: Metadata = {
   title: "How to Manufacture Hoodies: Complete Technical Guide",
   description:
-    "Learn how luxury hoodies are manufactured — selecting 400–500+ GSM fleece/French Terry, double-layered hood construction, kangaroo pocket attachment, and heavy ribbing.",
+    "Learn how luxury hoodies are manufactured - selecting 400–500+ GSM fleece/French Terry, double-layered hood construction, kangaroo pocket attachment, and heavy ribbing.",
   alternates: {
     canonical: "https://fenalt.com/learn/how-to-manufacture-hoodies",
   },
   openGraph: {
     title: "How to Manufacture Hoodies: Complete Technical Guide",
     description:
-      "Learn how luxury hoodies are manufactured — selecting 400–500+ GSM fleece/French Terry, double-layered hood construction, kangaroo pocket attachment, and heavy ribbing.",
+      "Learn how luxury hoodies are manufactured - selecting 400–500+ GSM fleece/French Terry, double-layered hood construction, kangaroo pocket attachment, and heavy ribbing.",
     url: "https://fenalt.com/learn/how-to-manufacture-hoodies",
   },
 };
@@ -23,7 +23,7 @@ export default function HowToManufactureHoodiesPage() {
     "@type": "Article",
     headline: "How to Manufacture Hoodies: Complete Technical Guide",
     description:
-      "A technical manufacturing guide for heavy luxury streetwear hoodies — covering fleece GSM weights, double-layer hoods, flatlock stitching, and pocket construction.",
+      "A technical manufacturing guide for heavy luxury streetwear hoodies - covering fleece GSM weights, double-layer hoods, flatlock stitching, and pocket construction.",
     author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
     publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
     url: "https://fenalt.com/learn/how-to-manufacture-hoodies",
@@ -93,7 +93,7 @@ export default function HowToManufactureHoodiesPage() {
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
             The heavyweight hoodie is the flagship piece of modern streetwear. Master the technical manufacturing specs required to produce luxury-grade hoodies.
           </p>
-          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge — reviewed by Fenalt editorial team</p>
+          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>
       </section>
 

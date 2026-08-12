@@ -1,7 +1,7 @@
-# FENALT — EDITORIAL PROGRESS LOG
+# FENALT - EDITORIAL PROGRESS LOG
 
 **Last Updated**: August 12, 2026  
-**Phase**: Phase 1 Complete — Review in Progress  
+**Phase**: Phase 1 Complete - Review in Progress  
 **Next Action**: Awaiting editorial approval before Phase 2 begins
 
 ---
@@ -28,7 +28,7 @@
 
 ---
 
-## PHASE 1 — COMPLETED ARTICLES (20/20)
+## PHASE 1 - COMPLETED ARTICLES (20/20)
 
 | # | Article | URL | Status | Build | Bug |
 |---|---|---|---|---|---|
@@ -42,7 +42,7 @@
 | 8 (roadmap #5) | How to Choose a Clothing Manufacturer | `/learn/how-to-choose-a-clothing-manufacturer` | REVIEW | ✅ | None |
 | 9 (roadmap #81) | How to Find a Reliable Clothing Manufacturer | `/learn/how-to-find-a-reliable-clothing-manufacturer` | REVIEW | ✅ | None |
 | 10 (roadmap #82) | Questions to Ask an Apparel Manufacturer | `/learn/questions-to-ask-an-apparel-manufacturer` | REVIEW | ✅ | None |
-| 11 (roadmap #86) | Manufacturer Due Diligence Checklist | `/learn/clothing-manufacturer-due-diligence-checklist` | REVIEW | ✅ | ⚠️ **CRITICAL: `breadcrumbsJsonLd` declared after return — variable hoisting issue. Fix required.** |
+| 11 (roadmap #86) | Manufacturer Due Diligence Checklist | `/learn/clothing-manufacturer-due-diligence-checklist` | REVIEW | ✅ | ⚠️ **CRITICAL: `breadcrumbsJsonLd` declared after return - variable hoisting issue. Fix required.** |
 | 12 (roadmap #6) | What a Manufacturer Needs From a Brand | `/learn/what-a-clothing-manufacturer-needs-from-a-brand` | REVIEW | ✅ | None |
 | 13 (roadmap #65) | Startups Prepare for First Production Run | `/learn/startups-prepare-for-first-production-run` | REVIEW | ✅ | None |
 | 14 (roadmap #100) | Overseas Production Checklist | `/learn/overseas-apparel-production-checklist` | REVIEW | ✅ | None |
@@ -55,56 +55,56 @@
 
 ---
 
-## PHASE 1 — ISSUES REQUIRING FIXES
+## PHASE 1 - ISSUES REQUIRING FIXES
 
-### BUG-001 — CRITICAL: `breadcrumbsJsonLd` variable scoping
+### BUG-001 - CRITICAL: `breadcrumbsJsonLd` variable scoping
 - **File**: `app/learn/clothing-manufacturer-due-diligence-checklist/page.tsx`
-- **Status**: ✅ **RESOLVED** — `breadcrumbsJsonLd` is properly placed inside component function scope before return statement.
+- **Status**: ✅ **RESOLVED** - `breadcrumbsJsonLd` is properly placed inside component function scope before return statement.
 
-### ISSUE-002 — MINOR: Inconsistent canonical URL format
+### ISSUE-002 - MINOR: Inconsistent canonical URL format
 - **Issue**: Some articles use `alternates: { canonical: "..." }` and some use `alternates: { canonical: "..." }` nested inside `alternates: {}`. All are functionally correct as Next.js accepts both patterns, but the format is inconsistent across articles.
 - **Fix**: Standardise to the flat `alternates: { canonical: "..." }` pattern in next Phase 2 batch template.
 - **Priority**: LOW
 
-### ISSUE-003 — RECOMMENDATION: Article #6 missing startup-specific section
+### ISSUE-003 - RECOMMENDATION: Article #6 missing startup-specific section
 - **Context**: Roadmap decision specifies that #69 (What Does a Clothing Manufacturer Need From a Startup?) should be MERGED into #6.
-- **Status**: ✅ **RESOLVED** — Added "What Startups Specifically Need to Prepare" focus section to `app/learn/what-a-clothing-manufacturer-needs-from-a-brand/page.tsx`.
+- **Status**: ✅ **RESOLVED** - Added "What Startups Specifically Need to Prepare" focus section to `app/learn/what-a-clothing-manufacturer-needs-from-a-brand/page.tsx`.
 
-### ISSUE-004 — RECOMMENDATION: `how-to-choose-a-clothing-manufacturer` internal link points to non-existent page
+### ISSUE-004 - RECOMMENDATION: `how-to-choose-a-clothing-manufacturer` internal link points to non-existent page
 - **File**: `app/learn/how-to-choose-a-clothing-manufacturer/page.tsx`
-- **Issue**: Contains a link to `/learn/clothing-manufacturer-due-diligence-checklist` — this page EXISTS. Also links to `/learn/warning-signs-of-poor-apparel-manufacturer` which does NOT exist yet (roadmap #89, PLANNED).
-- **Status**: Link to non-existent page is acceptable for PLANNED content — standard forward-linking practice. But should be tracked.
-- **Priority**: LOW — monitor; fix when #89 is created
+- **Issue**: Contains a link to `/learn/clothing-manufacturer-due-diligence-checklist` - this page EXISTS. Also links to `/learn/warning-signs-of-poor-apparel-manufacturer` which does NOT exist yet (roadmap #89, PLANNED).
+- **Status**: Link to non-existent page is acceptable for PLANNED content - standard forward-linking practice. But should be tracked.
+- **Priority**: LOW - monitor; fix when #89 is created
 
-### ISSUE-005 — FORWARD LINKS TO UNBUILT PAGES (across multiple articles)
+### ISSUE-005 - FORWARD LINKS TO UNBUILT PAGES (across multiple articles)
 - Multiple articles contain `<Link>` elements to `/learn/` URLs that have not yet been built (e.g. `/learn/types-of-apparel-samples`, `/learn/how-many-units-for-new-fashion-brand`, `/learn/low-moq-vs-bulk-manufacturing`, etc.).
-- In Next.js, these will not 404 from link components alone — they will 404 when a user tries to navigate to them. This is expected and acceptable for PLANNED content.
+- In Next.js, these will not 404 from link components alone - they will 404 when a user tries to navigate to them. This is expected and acceptable for PLANNED content.
 - **Fix**: As each article is built, internal links from existing articles pointing to it will activate correctly.
-- **Priority**: ACCEPTABLE — track per batch
+- **Priority**: ACCEPTABLE - track per batch
 
 ---
 
-## PHASE 1 — ARTICLES REQUIRING REVISION
+## PHASE 1 - ARTICLES REQUIRING REVISION
 
 | Article | Issue | Priority | Status |
 |---|---|---|---|
-| Due Diligence Checklist | `breadcrumbsJsonLd` variable declared after return — BUG-001 | HIGH | ✅ RESOLVED |
+| Due Diligence Checklist | `breadcrumbsJsonLd` variable declared after return - BUG-001 | HIGH | ✅ RESOLVED |
 | What a Manufacturer Needs From a Brand | Missing startup merge content (ISSUE-003) | MEDIUM | ✅ RESOLVED |
 
 ---
 
-## PHASE 1 — MERGED ARTICLES
+## PHASE 1 - MERGED ARTICLES
 
 | Roadmap # | Title | Merged Into | Status |
 |---|---|---|---|
-| 20 | Apparel Product Development: A Beginner's Guide | #7 (`/learn/apparel-production-process-explained`) | MERGED — content to be incorporated when #7 is created |
-| 59 | How to Build a Small Streetwear Collection | #51 (`/learn/how-to-manufacture-a-streetwear-collection`) | MERGED — content to be incorporated when #51 is created |
-| 69 | What Does a Clothing Manufacturer Need From a Startup? | #6 (`/learn/what-a-clothing-manufacturer-needs-from-a-brand`) | ✅ MERGED — startup focus section added to #6 |
-| 96 | Apparel Sourcing in Bangladesh: A Beginner's Guide | #91 (`/learn/how-apparel-manufacturing-in-bangladesh-works`) | MERGED — content to be incorporated when #91 is created |
+| 20 | Apparel Product Development: A Beginner's Guide | #7 (`/learn/apparel-production-process-explained`) | MERGED - content to be incorporated when #7 is created |
+| 59 | How to Build a Small Streetwear Collection | #51 (`/learn/how-to-manufacture-a-streetwear-collection`) | MERGED - content to be incorporated when #51 is created |
+| 69 | What Does a Clothing Manufacturer Need From a Startup? | #6 (`/learn/what-a-clothing-manufacturer-needs-from-a-brand`) | ✅ MERGED - startup focus section added to #6 |
+| 96 | Apparel Sourcing in Bangladesh: A Beginner's Guide | #91 (`/learn/how-apparel-manufacturing-in-bangladesh-works`) | MERGED - content to be incorporated when #91 is created |
 
 ---
 
-## PHASE 1 — REJECTED ARTICLES
+## PHASE 1 - REJECTED ARTICLES
 
 | Roadmap # | Title | Reason |
 |---|---|---|
@@ -115,9 +115,9 @@
 
 ---
 
-## PHASE 2 — NEXT BATCH (NOT STARTED)
+## PHASE 2 - NEXT BATCH (NOT STARTED)
 
-## PHASE 2 BATCH 6 — COMPLETED ARTICLES (12/12)
+## PHASE 2 BATCH 6 - COMPLETED ARTICLES (12/12)
 
 | # | Article | URL | Status | Build | Notes |
 |---|---|---|---|---|---|
@@ -150,7 +150,7 @@
 | 2026-08-12 | Phase 1 articles created (1–20) | All 20 articles written and built |
 | 2026-08-12 | Sitemap updated | 20 `/learn/` routes added to `app/sitemap.ts` |
 | 2026-08-12 | Resources page updated | Educational Library section added |
-| 2026-08-12 | Build verified | `npm run build` — 96 pages, 0 errors |
+| 2026-08-12 | Build verified | `npm run build` - 96 pages, 0 errors |
 | 2026-08-12 | Phase 1 audit completed | 1 bug found (BUG-001), 4 issues logged |
 | 2026-08-12 | Roadmap saved to `/docs/editorial_roadmap.md` | Count reconciled: CREATE=88, MERGE=4, REJECT=4 |
 | 2026-08-12 | Progress log created | `/docs/editorial_progress.md` |
@@ -160,4 +160,4 @@
 | 2026-08-12 | Phase 2 Batch 3 created | 15 new articles created, sitemap & resources updated |
 | 2026-08-12 | Phase 2 Batch 4 created | 11 new articles created, sitemap & resources updated |
 | 2026-08-12 | Phase 2 Batch 5 created | 11 new articles created, sitemap & resources updated |
-| 2026-08-12 | Phase 2 Batch 6 created | 12 new articles created, sitemap & resources updated — ALL COMPLETE! |
+| 2026-08-12 | Phase 2 Batch 6 created | 12 new articles created, sitemap & resources updated - ALL COMPLETE! |

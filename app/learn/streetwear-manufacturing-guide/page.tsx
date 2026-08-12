@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, Crown } from "lucide-react";
 export const metadata: Metadata = {
   title: "Streetwear Manufacturing Guide: Boxy Fits, Heavy Knits & Prints",
   description:
-    "A comprehensive guide to manufacturing luxury streetwear collections — oversized patterns, 240+ GSM t-shirts, 450+ GSM fleece, puff printing, and wash distress.",
+    "A comprehensive guide to manufacturing luxury streetwear collections - oversized patterns, 240+ GSM t-shirts, 450+ GSM fleece, puff printing, and wash distress.",
   alternates: {
     canonical: "https://fenalt.com/learn/streetwear-manufacturing-guide",
   },
   openGraph: {
     title: "Streetwear Manufacturing Guide: Boxy Fits, Heavy Knits & Prints",
     description:
-      "A comprehensive guide to manufacturing luxury streetwear collections — oversized patterns, 240+ GSM t-shirts, 450+ GSM fleece, puff printing, and wash distress.",
+      "A comprehensive guide to manufacturing luxury streetwear collections - oversized patterns, 240+ GSM t-shirts, 450+ GSM fleece, puff printing, and wash distress.",
     url: "https://fenalt.com/learn/streetwear-manufacturing-guide",
   },
 };
@@ -23,7 +23,7 @@ export default function StreetwearManufacturingGuidePage() {
     "@type": "Article",
     headline: "Streetwear Manufacturing Guide: Boxy Fits, Heavy Knits & Prints",
     description:
-      "A strategic manufacturing guide for independent streetwear brands — covering oversized pattern cuts, heavy cotton knits, puff screen prints, and vintage washes.",
+      "A strategic manufacturing guide for independent streetwear brands - covering oversized pattern cuts, heavy cotton knits, puff screen prints, and vintage washes.",
     author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
     publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
     url: "https://fenalt.com/learn/streetwear-manufacturing-guide",
@@ -93,7 +93,7 @@ export default function StreetwearManufacturingGuidePage() {
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
             Streetwear has redefined modern luxury. Understand the technical pattern geometry, heavy GSM knits, and specialized print finishes that define top-tier streetwear.
           </p>
-          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge — reviewed by Fenalt editorial team</p>
+          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>
       </section>
 
@@ -170,7 +170,7 @@ export default function StreetwearManufacturingGuidePage() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
           <h2 className="font-display text-3xl lg:text-5xl font-light text-[#1A1A1A] mb-4">Manufacture custom streetwear collections</h2>
           <p className="text-[#6B6560] leading-relaxed text-base mb-10 max-w-xl mx-auto">
-            Fenalt manufactures custom cut-and-sew streetwear for indie labels globally — featuring heavy cotton knits, puff printing, and vintage washes.
+            Fenalt manufactures custom cut-and-sew streetwear for indie labels globally - featuring heavy cotton knits, puff printing, and vintage washes.
           </p>
           <Link href="/intake" className="inline-flex items-center justify-center gap-2 px-10 py-4 bg-[#1A1A1A] text-[#FAF9F6] text-sm font-semibold tracking-wide hover:bg-[#2D5016] transition-colors duration-300">
             Submit Your Project <ArrowRight size={16} />

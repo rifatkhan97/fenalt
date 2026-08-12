@@ -126,7 +126,7 @@ export default function HeavyweightTShirtManufacturerPage() {
                 Standard promo t-shirts (140gsm–160gsm) feel thin, lose shape after washing, and fail to satisfy discerning streetwear consumers who expect structured silhouettes.
               </p>
               <p>
-                <strong>Fenalt crafts substantial heavyweight tees:</strong> We knit 240gsm, 280gsm, and 300gsm single jersey fabrics from 100% combed ring-spun cotton yarns in Dhaka—delivering thick collar construction and durable shape retention.
+                <strong>Fenalt crafts substantial heavyweight tees:</strong> We knit 240gsm, 280gsm, and 300gsm single jersey fabrics from 100% combed ring-spun cotton yarns in Dhaka - delivering thick collar construction and durable shape retention.
               </p>
             </div>
           </div>

@@ -55,7 +55,7 @@ export default function EthicalClothingManufacturingBangladeshPage() {
   const faqs = [
     {
       q: "How does Fenalt ensure ethical working conditions in partner factories?",
-      a: "Our local Dhaka operational team physically visits partner micro-factories daily—monitoring working conditions, floor safety, ventilation, and fair compensation.",
+      a: "Our local Dhaka operational team physically visits partner micro-factories daily - monitoring working conditions, floor safety, ventilation, and fair compensation.",
     },
     {
       q: "Can small brands produce ethically without high costs?",

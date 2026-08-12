@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, RefreshCw } from "lucide-react";
 export const metadata: Metadata = {
   title: "What Happens Between a Tech Pack and Bulk Production?",
   description:
-    "Explore the crucial intermediate steps between completing your apparel tech pack and launching bulk garment production — from prototype sampling to final sign-off.",
+    "Explore the crucial intermediate steps between completing your apparel tech pack and launching bulk garment production - from prototype sampling to final sign-off.",
   alternates: {
     canonical: "https://fenalt.com/learn/tech-pack-to-bulk-production",
   },
   openGraph: {
     title: "What Happens Between a Tech Pack and Bulk Production?",
     description:
-      "Explore the crucial intermediate steps between completing your apparel tech pack and launching bulk garment production — from prototype sampling to final sign-off.",
+      "Explore the crucial intermediate steps between completing your apparel tech pack and launching bulk garment production - from prototype sampling to final sign-off.",
     url: "https://fenalt.com/learn/tech-pack-to-bulk-production",
   },
 };
@@ -69,7 +69,7 @@ export default function TechPackToBulkProductionPage() {
     {
       step: "06",
       title: "Pre-Production (PP) Sample Sign-Off",
-      body: "Made with exact bulk fabric, trims, labels, and wash treatments. Once approved, this sample becomes the 'Golden Sample' — the binding quality standard for the entire production run.",
+      body: "Made with exact bulk fabric, trims, labels, and wash treatments. Once approved, this sample becomes the 'Golden Sample' - the binding quality standard for the entire production run.",
     },
   ];
 
@@ -119,7 +119,7 @@ export default function TechPackToBulkProductionPage() {
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
             Completing a tech pack is a critical milestone, but it is not the start of bulk production. Here is the step-by-step product development journey that turns technical drawings into production-ready garments.
           </p>
-          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge — reviewed by Fenalt editorial team</p>
+          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>
       </section>
 
@@ -229,7 +229,7 @@ export default function TechPackToBulkProductionPage() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
           <h2 className="font-display text-3xl lg:text-5xl font-light text-[#1A1A1A] mb-4">Navigating product development?</h2>
           <p className="text-[#6B6560] leading-relaxed text-base mb-10 max-w-xl mx-auto">
-            Fenalt manages the complete sampling and development phase — ensuring your tech pack translates accurately into production-ready garments.
+            Fenalt manages the complete sampling and development phase - ensuring your tech pack translates accurately into production-ready garments.
           </p>
           <Link href="/intake" className="inline-flex items-center justify-center gap-2 px-10 py-4 bg-[#1A1A1A] text-[#FAF9F6] text-sm font-semibold tracking-wide hover:bg-[#2D5016] transition-colors duration-300">
             Submit Your Project <ArrowRight size={16} />

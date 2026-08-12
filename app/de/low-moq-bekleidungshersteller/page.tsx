@@ -130,7 +130,7 @@ export default function GermanLowMOQBekleidungsherstellerPage() {
             <span className="italic font-medium text-[#2D5016]">ab 50 Stück.</span>
           </h1>
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl mb-12">
-            Verringern Sie Ihr Lagerrisiko. Produzieren Sie hochwertige Bekleidungskollektionen bereits ab 50 Einheiten—mit klaren Abläufen, nachhaltigen Stoffen und physischer Vor-Ort Qualitätskontrolle.
+            Verringern Sie Ihr Lagerrisiko. Produzieren Sie hochwertige Bekleidungskollektionen bereits ab 50 Einheiten - mit klaren Abläufen, nachhaltigen Stoffen und physischer Vor-Ort Qualitätskontrolle.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link
@@ -242,7 +242,7 @@ export default function GermanLowMOQBekleidungsherstellerPage() {
                   Bei herkömmlichen Textilherstellern verlangen Webereien oft hohe Mindestmengen für neue Einfärbungen.
                 </p>
                 <p>
-                  Fenalt nutzt hochwertigen <strong className="text-[#C8A882] font-medium">Jhoot Deadstock</strong>—erstklassige Baumwoll- und Strickstoffe aus Überproduktionen großer Marken. Dies ermöglicht kleine Kollektionsserien mit exzellenten Stoffqualitäten ohne unrentable Stoff-Mindestmengen.
+                  Fenalt nutzt hochwertigen <strong className="text-[#C8A882] font-medium">Jhoot Deadstock</strong> - erstklassige Baumwoll- und Strickstoffe aus Überproduktionen großer Marken. Dies ermöglicht kleine Kollektionsserien mit exzellenten Stoffqualitäten ohne unrentable Stoff-Mindestmengen.
                 </p>
               </div>
             </div>

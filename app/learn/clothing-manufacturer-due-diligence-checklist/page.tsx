@@ -5,11 +5,11 @@ import { ArrowRight, BookOpen, CheckCircle2 } from "lucide-react";
 export const metadata: Metadata = {
   title: "Clothing Manufacturer Due Diligence Checklist",
   description:
-    "A structured due diligence checklist for evaluating clothing manufacturers — covering capabilities, quality systems, compliance, references, and financial terms.",
+    "A structured due diligence checklist for evaluating clothing manufacturers - covering capabilities, quality systems, compliance, references, and financial terms.",
   alternates: { canonical: "https://fenalt.com/learn/clothing-manufacturer-due-diligence-checklist" },
   openGraph: {
     title: "Clothing Manufacturer Due Diligence Checklist",
-    description: "A structured due diligence checklist for evaluating clothing manufacturers — covering capabilities, quality systems, compliance, references, and financial terms.",
+    description: "A structured due diligence checklist for evaluating clothing manufacturers - covering capabilities, quality systems, compliance, references, and financial terms.",
     url: "https://fenalt.com/learn/clothing-manufacturer-due-diligence-checklist",
   },
 };
@@ -31,7 +31,7 @@ export default function ManufacturerDueDiligenceChecklistPage() {
       items: [
         "Verified physical business address in the manufacturing country",
         "Registered business entity (company registration or trade licence viewable)",
-        "Identifiable, named point of contact — not an anonymous inbox",
+        "Identifiable, named point of contact - not an anonymous inbox",
         "Online presence consistent with claimed history and scale",
         "No pattern of brand name changes or relocated business identity",
       ],
@@ -99,8 +99,8 @@ export default function ManufacturerDueDiligenceChecklistPage() {
     {
       section: "Ethical & Compliance Considerations",
       items: [
-        "No unsubstantiated third-party certification claims (GOTS, OEKO-TEX, WRAP, etc.) — documentation requested where claimed",
-        "Labour practices inquiry conducted — particularly for brands with explicit ethical sourcing commitments",
+        "No unsubstantiated third-party certification claims (GOTS, OEKO-TEX, WRAP, etc.) - documentation requested where claimed",
+        "Labour practices inquiry conducted - particularly for brands with explicit ethical sourcing commitments",
         "Applicable import compliance requirements for your destination market understood",
         "Any factory audit documentation requested (if available from partner facility)",
       ],
@@ -134,9 +134,9 @@ export default function ManufacturerDueDiligenceChecklistPage() {
             <span className="italic font-medium text-[#2D5016]">Due Diligence Checklist.</span>
           </h1>
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
-            Use this checklist before committing to a manufacturing relationship. It covers eight areas — from basic legitimacy through to ethical compliance — to help brands make informed decisions.
+            Use this checklist before committing to a manufacturing relationship. It covers eight areas - from basic legitimacy through to ethical compliance - to help brands make informed decisions.
           </p>
-          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge — reviewed by Fenalt editorial team</p>
+          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>
       </section>
 
@@ -190,7 +190,7 @@ export default function ManufacturerDueDiligenceChecklistPage() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
           <h2 className="font-display text-3xl lg:text-5xl font-light text-[#1A1A1A] mb-4">Work with a pre-vetted production partner</h2>
           <p className="text-[#6B6560] leading-relaxed text-base mb-10 max-w-xl mx-auto">
-            Fenalt conducts manufacturer vetting on your behalf — connecting brands with audited independent micro-factories in Dhaka, Bangladesh.
+            Fenalt conducts manufacturer vetting on your behalf - connecting brands with audited independent micro-factories in Dhaka, Bangladesh.
           </p>
           <Link href="/intake" className="inline-flex items-center justify-center gap-2 px-10 py-4 bg-[#1A1A1A] text-[#FAF9F6] text-sm font-semibold tracking-wide hover:bg-[#2D5016] transition-colors duration-300">
             Submit Your Project <ArrowRight size={16} />

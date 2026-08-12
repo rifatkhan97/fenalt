@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, Award } from "lucide-react";
 export const metadata: Metadata = {
   title: "What Makes a Good Apparel Manufacturing Partner?",
   description:
-    "Evaluate key traits of reliable clothing manufacturing partners — transparent communication, technical precision, low MOQs, ethical compliance, and sample accuracy.",
+    "Evaluate key traits of reliable clothing manufacturing partners - transparent communication, technical precision, low MOQs, ethical compliance, and sample accuracy.",
   alternates: {
     canonical: "https://fenalt.com/learn/what-makes-a-good-apparel-manufacturing-partner",
   },
   openGraph: {
     title: "What Makes a Good Apparel Manufacturing Partner?",
     description:
-      "Evaluate key traits of reliable clothing manufacturing partners — transparent communication, technical precision, low MOQs, ethical compliance, and sample accuracy.",
+      "Evaluate key traits of reliable clothing manufacturing partners - transparent communication, technical precision, low MOQs, ethical compliance, and sample accuracy.",
     url: "https://fenalt.com/learn/what-makes-a-good-apparel-manufacturing-partner",
   },
 };
@@ -92,9 +92,9 @@ export default function WhatMakesAGoodApparelManufacturingPartnerPage() {
             <span className="italic font-medium text-[#2D5016]">Manufacturing Partner?</span>
           </h1>
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
-            A great manufacturing partner is an extension of your team — protecting your brand standards, operational timelines, and product quality.
+            A great manufacturing partner is an extension of your team - protecting your brand standards, operational timelines, and product quality.
           </p>
-          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge — reviewed by Fenalt editorial team</p>
+          <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>
       </section>
 
@@ -171,7 +171,7 @@ export default function WhatMakesAGoodApparelManufacturingPartnerPage() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
           <h2 className="font-display text-3xl lg:text-5xl font-light text-[#1A1A1A] mb-4">Work with a pre-vetted manufacturing partner</h2>
           <p className="text-[#6B6560] leading-relaxed text-base mb-10 max-w-xl mx-auto">
-            Fenalt connects independent labels with audited micro-factories in Dhaka — managing sampling, quality control, and export execution.
+            Fenalt connects independent labels with audited micro-factories in Dhaka - managing sampling, quality control, and export execution.
           </p>
           <Link href="/intake" className="inline-flex items-center justify-center gap-2 px-10 py-4 bg-[#1A1A1A] text-[#FAF9F6] text-sm font-semibold tracking-wide hover:bg-[#2D5016] transition-colors duration-300">
             Submit Your Project <ArrowRight size={16} />
