@@ -1,39 +1,36 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { ArrowRight, ShieldCheck, DollarSign, Scale, Layers } from "lucide-react";
+import { ArrowRight, ShieldCheck, Scissors, Layers, FileText } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Apparel Manufacturing Cost Considerations | Fenalt Guide",
+  title: "Cut and Sew Clothing Manufacturer Bangladesh | Fenalt",
   description:
-    "Comprehensive guide breaking down garment manufacturing costs. Evaluate FOB vs DDP pricing, fabric GSM impacts, sampling fees, and low MOQ unit economics.",
+    "Cut and sew apparel manufacturing in Dhaka, Bangladesh. Custom pattern making, size grading, prototype fit sampling, and low MOQ production from 50 units.",
   alternates: {
-    canonical: "https://fenalt.com/apparel-manufacturing-cost-considerations",
+    canonical: "https://fenalt.com/cut-and-sew-clothing-manufacturer-bangladesh",
   },
   openGraph: {
-    title: "Apparel Manufacturing Cost Considerations | Fenalt Guide",
+    title: "Cut and Sew Clothing Manufacturer Bangladesh | Fenalt",
     description:
-      "Comprehensive guide breaking down garment manufacturing costs. Evaluate FOB vs DDP pricing, fabric GSM impacts, sampling fees, and low MOQ unit economics.",
-    url: "https://fenalt.com/apparel-manufacturing-cost-considerations",
+      "Cut and sew apparel manufacturing in Dhaka, Bangladesh. Custom pattern making, size grading, prototype fit sampling, and low MOQ production from 50 units.",
+    url: "https://fenalt.com/cut-and-sew-clothing-manufacturer-bangladesh",
   },
 };
 
-export default function CostConsiderationsPage() {
-  const articleJsonLd = {
+export default function CutAndSewClothingManufacturerBangladeshPage() {
+  const serviceJsonLd = {
     "@context": "https://schema.org",
-    "@type": "Article",
-    "headline": "Apparel Manufacturing Cost Breakdown: FOB vs DDP Guide",
+    "@type": "Service",
+    "name": "Cut and Sew Clothing Manufacturer Bangladesh",
+    "provider": {
+      "@type": "Organization",
+      "name": "Fenalt",
+      "url": "https://fenalt.com",
+    },
+    "serviceType": "Cut and Sew Apparel Manufacturing, Custom Pattern Grading, Prototype Fit Sampling",
+    "areaServed": ["United States", "United Kingdom", "European Union", "Australia", "Canada"],
     "description":
-      "An educational resource for fashion brand founders breaking down garment production cost components—fabric GSM impact, tech pack pattern fees, sampling costs, and landed DDP freight.",
-    "author": {
-      "@type": "Organization",
-      "name": "Fenalt",
-      "url": "https://fenalt.com",
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "Fenalt",
-      "url": "https://fenalt.com",
-    },
+      "Bespoke cut-and-sew apparel manufacturing in Dhaka, Bangladesh. Translating tech pack line drawings into custom CAD patterns, size grading curves, physical fit sampling, and small batch production.",
   };
 
   const breadcrumbsJsonLd = {
@@ -49,20 +46,20 @@ export default function CostConsiderationsPage() {
       {
         "@type": "ListItem",
         "position": 2,
-        "name": "Apparel Manufacturing Cost Considerations",
-        "item": "https://fenalt.com/apparel-manufacturing-cost-considerations",
+        "name": "Cut and Sew Clothing Manufacturer Bangladesh",
+        "item": "https://fenalt.com/cut-and-sew-clothing-manufacturer-bangladesh",
       },
     ],
   };
 
   const faqs = [
     {
-      q: "What is the difference between FOB and DDP pricing in clothing manufacturing?",
-      a: "FOB (Free on Board) covers production until garments are loaded on a ship/plane in Dhaka. DDP (Delivered Duty Paid) includes production, export duties, international ocean/air freight, customs entry, and door delivery to your warehouse.",
+      q: "What is the difference between cut-and-sew manufacturing and blank garment printing?",
+      a: "Cut-and-sew manufacturing creates garments completely from raw fabric rolls based on your unique CAD patterns, custom measurements, and specified ribbing—unlike printing graphics onto pre-made wholesale blanks.",
     },
     {
-      q: "Why does Fenalt provide all-inclusive landed pricing?",
-      a: "All-inclusive landed pricing eliminates surprise freight surcharges, import duty spikes, and hidden handling fees—giving brand founders exact unit margin clarity before order approval.",
+      q: "Can Fenalt create digital CAD patterns from physical sample garments?",
+      a: "Yes. Our Dhaka pattern engineering team can reverse-engineer your physical sample garment, digitizing its points of measure into a complete CAD pattern file with graded sizing tables.",
     },
   ];
 
@@ -83,33 +80,33 @@ export default function CostConsiderationsPage() {
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify([articleJsonLd, breadcrumbsJsonLd, faqJsonLd]) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify([serviceJsonLd, breadcrumbsJsonLd, faqJsonLd]) }}
       />
 
       <section className="pt-32 pb-20 lg:pt-44 lg:pb-28 bg-[#F2EFE9] relative overflow-hidden">
         <div className="max-w-7xl mx-auto px-6 lg:px-8 relative z-10">
           <p className="text-xs font-semibold uppercase tracking-[0.25em] text-[#C8A882] mb-6">
-            Unit Economics Guide
+            Bespoke Pattern Construction
           </p>
           <h1 className="font-display text-5xl sm:text-6xl lg:text-8xl font-light text-[#1A1A1A] leading-[1.05] max-w-5xl mb-8">
-            Apparel Manufacturing Cost Considerations:{" "}
-            <span className="italic font-medium text-[#2D5016]">FOB vs DDP.</span>
+            Cut &amp; Sew Clothing Manufacturer in{" "}
+            <span className="italic font-medium text-[#2D5016]">Bangladesh.</span>
           </h1>
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl mb-12">
-            Understand the financial anatomy of garment production. Learn how fabric GSM selection, order volume, pattern engineering, and freight incoterms dictate your true landed margin.
+            Move beyond standard wholesale blanks. Fenalt manufactures custom apparel built from your exact CAD patterns, bespoke measurements, and curated fabric rolls in Dhaka.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link
               href="/intake"
               className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-[#1A1A1A] text-[#FAF9F6] text-sm font-semibold tracking-wide hover:bg-[#2D5016] transition-colors duration-300"
             >
-              Get All-Inclusive Quote <ArrowRight size={16} />
+              Start Cut &amp; Sew Project <ArrowRight size={16} />
             </Link>
             <Link
-              href="/capabilities"
+              href="/apparel-sampling-services"
               className="inline-flex items-center justify-center gap-2 px-8 py-4 border border-[#1A1A1A] text-[#1A1A1A] text-sm font-semibold tracking-wide hover:bg-[#1A1A1A] hover:text-[#FAF9F6] transition-colors duration-300"
             >
-              Pricing Transparency
+              Sampling Services
             </Link>
           </div>
         </div>
@@ -119,21 +116,18 @@ export default function CostConsiderationsPage() {
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="max-w-3xl">
             <p className="text-xs font-semibold uppercase tracking-[0.25em] text-[#C8A882] mb-4">
-              Cost Breakdown
+              True Custom Garments
             </p>
             <h2 className="font-display text-3xl lg:text-5xl font-light text-[#1A1A1A] mb-8">
-              Deconstructing Garment Unit Costs
+              Full Pattern &amp; Fabric Customization
             </h2>
             <div className="space-y-6 text-[#6B6560] text-base lg:text-lg leading-relaxed">
               <p>
-                First-time fashion brand founders often focus exclusively on the per-unit sewing cost, overlooking critical expense components such as fabric weight (GSM), trim customization, customs duty, and international freight.
+                Wholesale blanks constrain your fashion brand to standard off-the-shelf fits and limited GSM weights. True brand identity requires bespoke collar proportions, custom sleeve lengths, and unique fabric blends.
               </p>
               <p>
-                <strong>Fenalt delivers total pricing transparency:</strong> Every quote we issue is a fully landed price—covering raw materials, pattern grading, physical sampling, in-line floor QC, customs entry, and door-to-door freight.
+                <strong>Fenalt delivers true cut-and-sew manufacturing:</strong> Our Dhaka team manages pattern creation, fabric roll inspection, precision cutting, and sewing assembly under physical floor supervision.
               </p>
-              <div className="p-4 bg-[#F2EFE9] border-l-2 border-[#C8A882] text-xs text-[#6B6560] leading-relaxed">
-                <em>Disclaimer: Total landed unit cost varies based on product design, order quantity, fabric weight (GSM), customization techniques, freight mode, and destination country tariffs. Final quotes are confirmed during project intake.</em>
-              </div>
             </div>
           </div>
         </div>
@@ -143,32 +137,32 @@ export default function CostConsiderationsPage() {
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="mb-16">
             <p className="text-xs font-semibold uppercase tracking-[0.25em] text-[#C8A882] mb-4">
-              Cost Drivers
+              Cut &amp; Sew Process
             </p>
             <h2 className="font-display text-4xl lg:text-6xl font-light text-[#1A1A1A]">
-              Primary Cost Elements Explained
+              Manufacturing Deliverables
             </h2>
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             {[
               {
+                icon: FileText,
+                title: "CAD Pattern & Size Grading",
+                tag: "Engineering",
+                body: "Translating vector flat sketches into digital CAD marker patterns across XS–3XL size curves.",
+              },
+              {
+                icon: Scissors,
+                title: "Precision Roll Cutting",
+                tag: "Assembly",
+                body: "Cutting raw fabric rolls to exact pattern dimensions before sewing line assembly in Dhaka.",
+              },
+              {
                 icon: Layers,
-                title: "1. Fabric Consumption & GSM",
-                tag: "55% – 65% Cost",
-                body: "Raw material cost is governed by fabric weight (e.g. 180gsm vs 480gsm fleece) and yield per garment.",
-              },
-              {
-                icon: Scale,
-                title: "2. Order Volume & Scale",
-                tag: "50 vs 500 Units",
-                body: "Fixed factory setup costs spread across larger unit volumes lower individual per-piece sewing expenses.",
-              },
-              {
-                icon: DollarSign,
-                title: "3. Freight & Customs Incoterms",
-                tag: "FOB vs DDP",
-                body: "DDP pricing absorbs ocean/air freight, customs entry brokerage, and import duties into one predictable figure.",
+                title: "Small Batch Capsule Runs",
+                tag: "Low MOQ",
+                body: "Production options start from 50 units per style for qualifying cut-and-sew projects.",
               },
             ].map((item, i) => {
               const Icon = item.icon;
@@ -198,7 +192,7 @@ export default function CostConsiderationsPage() {
               Quality Assurance
             </p>
             <h2 className="font-display text-4xl lg:text-6xl font-light text-[#FAF9F6] mb-8">
-              No Hidden Fees Guarantee
+              On-Site Quality Oversight in Dhaka
             </h2>
             <p className="text-lg text-[#E5DDD3] leading-relaxed font-light mb-8">
               We physically audit stitching, measurement accuracy, and label attachment on the factory floor before garments are approved for export.
@@ -227,7 +221,7 @@ export default function CostConsiderationsPage() {
               Questions
             </p>
             <h2 className="font-display text-4xl lg:text-6xl font-light text-[#1A1A1A]">
-              Cost Breakdown FAQ
+              Cut &amp; Sew FAQ
             </h2>
           </div>
 
@@ -249,16 +243,16 @@ export default function CostConsiderationsPage() {
       <section className="py-20 lg:py-24 bg-[#FAF9F6] border-t border-[#E5DDD3]">
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
           <h2 className="font-display text-4xl lg:text-5xl font-light text-[#1A1A1A] mb-6">
-            Request an all-inclusive landed quote
+            Ready to manufacture custom cut and sew apparel?
           </h2>
           <p className="text-[#6B6560] leading-relaxed text-base lg:text-lg mb-10 max-w-xl mx-auto">
-            Submit your apparel tech packs or design sketches for a transparent quote within 24–48 hours.
+            Submit your tech pack specs for a comprehensive production quote within 24–48 hours.
           </p>
           <Link
             href="/intake"
             className="inline-flex items-center justify-center gap-2 px-10 py-4 bg-[#1A1A1A] text-[#FAF9F6] text-sm font-semibold tracking-wide hover:bg-[#2D5016] transition-colors duration-300"
           >
-            Start Quote Request <ArrowRight size={16} />
+            Start Cut &amp; Sew Order <ArrowRight size={16} />
           </Link>
         </div>
       </section>

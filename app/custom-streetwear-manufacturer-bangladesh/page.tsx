@@ -1,39 +1,36 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { ArrowRight, ShieldCheck, DollarSign, Scale, Layers } from "lucide-react";
+import { ArrowRight, ShieldCheck, Scissors, Sparkles, Layers } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Apparel Manufacturing Cost Considerations | Fenalt Guide",
+  title: "Custom Streetwear Manufacturer Bangladesh | Fenalt",
   description:
-    "Comprehensive guide breaking down garment manufacturing costs. Evaluate FOB vs DDP pricing, fabric GSM impacts, sampling fees, and low MOQ unit economics.",
+    "Custom streetwear apparel manufacturing in Dhaka, Bangladesh. Produce 320gsm–480gsm French Terry hoodies, boxy tees, and cargo pants from 50 units with on-site QC.",
   alternates: {
-    canonical: "https://fenalt.com/apparel-manufacturing-cost-considerations",
+    canonical: "https://fenalt.com/custom-streetwear-manufacturer-bangladesh",
   },
   openGraph: {
-    title: "Apparel Manufacturing Cost Considerations | Fenalt Guide",
+    title: "Custom Streetwear Manufacturer Bangladesh | Fenalt",
     description:
-      "Comprehensive guide breaking down garment manufacturing costs. Evaluate FOB vs DDP pricing, fabric GSM impacts, sampling fees, and low MOQ unit economics.",
-    url: "https://fenalt.com/apparel-manufacturing-cost-considerations",
+      "Custom streetwear apparel manufacturing in Dhaka, Bangladesh. Produce 320gsm–480gsm French Terry hoodies, boxy tees, and cargo pants from 50 units with on-site QC.",
+    url: "https://fenalt.com/custom-streetwear-manufacturer-bangladesh",
   },
 };
 
-export default function CostConsiderationsPage() {
-  const articleJsonLd = {
+export default function CustomStreetwearManufacturerBangladeshPage() {
+  const serviceJsonLd = {
     "@context": "https://schema.org",
-    "@type": "Article",
-    "headline": "Apparel Manufacturing Cost Breakdown: FOB vs DDP Guide",
+    "@type": "Service",
+    "name": "Custom Streetwear Manufacturer Bangladesh",
+    "provider": {
+      "@type": "Organization",
+      "name": "Fenalt",
+      "url": "https://fenalt.com",
+    },
+    "serviceType": "Streetwear Apparel Manufacturing, Cut and Sew Streetwear Production, Heavyweight Fleece Sourcing",
+    "areaServed": ["United States", "United Kingdom", "European Union", "Australia", "Canada"],
     "description":
-      "An educational resource for fashion brand founders breaking down garment production cost components—fabric GSM impact, tech pack pattern fees, sampling costs, and landed DDP freight.",
-    "author": {
-      "@type": "Organization",
-      "name": "Fenalt",
-      "url": "https://fenalt.com",
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "Fenalt",
-      "url": "https://fenalt.com",
-    },
+      "Custom cut-and-sew streetwear apparel manufacturing in Dhaka, Bangladesh. Heavyweight cotton knits, drop-shoulder silhouettes, puff printing, embroidery, and low MOQ capsule drops.",
   };
 
   const breadcrumbsJsonLd = {
@@ -49,20 +46,20 @@ export default function CostConsiderationsPage() {
       {
         "@type": "ListItem",
         "position": 2,
-        "name": "Apparel Manufacturing Cost Considerations",
-        "item": "https://fenalt.com/apparel-manufacturing-cost-considerations",
+        "name": "Custom Streetwear Manufacturer Bangladesh",
+        "item": "https://fenalt.com/custom-streetwear-manufacturer-bangladesh",
       },
     ],
   };
 
   const faqs = [
     {
-      q: "What is the difference between FOB and DDP pricing in clothing manufacturing?",
-      a: "FOB (Free on Board) covers production until garments are loaded on a ship/plane in Dhaka. DDP (Delivered Duty Paid) includes production, export duties, international ocean/air freight, customs entry, and door delivery to your warehouse.",
+      q: "What fabric options are available for custom streetwear production?",
+      a: "Available options include 350gsm to 480gsm combed cotton French Terry fleece for hoodies, 240gsm to 300gsm single jersey for boxy tees, and durable cotton twill or ripstop for cargo pants.",
     },
     {
-      q: "Why does Fenalt provide all-inclusive landed pricing?",
-      a: "All-inclusive landed pricing eliminates surprise freight surcharges, import duty spikes, and hidden handling fees—giving brand founders exact unit margin clarity before order approval.",
+      q: "What is the minimum order quantity for custom streetwear drops?",
+      a: "Production options can start from 50 units per style for qualifying capsule drops, depending on fabric selection and construction complexity.",
     },
   ];
 
@@ -83,33 +80,33 @@ export default function CostConsiderationsPage() {
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify([articleJsonLd, breadcrumbsJsonLd, faqJsonLd]) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify([serviceJsonLd, breadcrumbsJsonLd, faqJsonLd]) }}
       />
 
       <section className="pt-32 pb-20 lg:pt-44 lg:pb-28 bg-[#F2EFE9] relative overflow-hidden">
         <div className="max-w-7xl mx-auto px-6 lg:px-8 relative z-10">
           <p className="text-xs font-semibold uppercase tracking-[0.25em] text-[#C8A882] mb-6">
-            Unit Economics Guide
+            Bespoke Cut &amp; Sew Streetwear
           </p>
           <h1 className="font-display text-5xl sm:text-6xl lg:text-8xl font-light text-[#1A1A1A] leading-[1.05] max-w-5xl mb-8">
-            Apparel Manufacturing Cost Considerations:{" "}
-            <span className="italic font-medium text-[#2D5016]">FOB vs DDP.</span>
+            Custom Streetwear Manufacturer in{" "}
+            <span className="italic font-medium text-[#2D5016]">Dhaka, Bangladesh.</span>
           </h1>
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl mb-12">
-            Understand the financial anatomy of garment production. Learn how fabric GSM selection, order volume, pattern engineering, and freight incoterms dictate your true landed margin.
+            Build high-spec streetwear collections with heavy drape textiles, custom drop-shoulder patterns, and 3D puff graphics—backed by physically managed quality control in Dhaka.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link
               href="/intake"
               className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-[#1A1A1A] text-[#FAF9F6] text-sm font-semibold tracking-wide hover:bg-[#2D5016] transition-colors duration-300"
             >
-              Get All-Inclusive Quote <ArrowRight size={16} />
+              Start Streetwear Drop <ArrowRight size={16} />
             </Link>
             <Link
-              href="/capabilities"
+              href="/streetwear-manufacturing"
               className="inline-flex items-center justify-center gap-2 px-8 py-4 border border-[#1A1A1A] text-[#1A1A1A] text-sm font-semibold tracking-wide hover:bg-[#1A1A1A] hover:text-[#FAF9F6] transition-colors duration-300"
             >
-              Pricing Transparency
+              Streetwear Overview
             </Link>
           </div>
         </div>
@@ -119,21 +116,18 @@ export default function CostConsiderationsPage() {
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="max-w-3xl">
             <p className="text-xs font-semibold uppercase tracking-[0.25em] text-[#C8A882] mb-4">
-              Cost Breakdown
+              Bespoke Streetwear Engineering
             </p>
             <h2 className="font-display text-3xl lg:text-5xl font-light text-[#1A1A1A] mb-8">
-              Deconstructing Garment Unit Costs
+              High-Spec Cut &amp; Sew Construction
             </h2>
             <div className="space-y-6 text-[#6B6560] text-base lg:text-lg leading-relaxed">
               <p>
-                First-time fashion brand founders often focus exclusively on the per-unit sewing cost, overlooking critical expense components such as fabric weight (GSM), trim customization, customs duty, and international freight.
+                Modern streetwear brands require custom silhouettes—oversized boxy cuts, double-layered hoods, thick 1x1 ribbing, and substantial textile weights that retain structure after washing.
               </p>
               <p>
-                <strong>Fenalt delivers total pricing transparency:</strong> Every quote we issue is a fully landed price—covering raw materials, pattern grading, physical sampling, in-line floor QC, customs entry, and door-to-door freight.
+                <strong>Fenalt bridges design vision with Dhaka manufacturing:</strong> Our pattern team in Dhaka translates tech pack line drawings into graded CAD patterns, pairing your capsule drop with specialized micro-factories under strict AQL 2.5 floor supervision.
               </p>
-              <div className="p-4 bg-[#F2EFE9] border-l-2 border-[#C8A882] text-xs text-[#6B6560] leading-relaxed">
-                <em>Disclaimer: Total landed unit cost varies based on product design, order quantity, fabric weight (GSM), customization techniques, freight mode, and destination country tariffs. Final quotes are confirmed during project intake.</em>
-              </div>
             </div>
           </div>
         </div>
@@ -143,10 +137,10 @@ export default function CostConsiderationsPage() {
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="mb-16">
             <p className="text-xs font-semibold uppercase tracking-[0.25em] text-[#C8A882] mb-4">
-              Cost Drivers
+              Streetwear Features
             </p>
             <h2 className="font-display text-4xl lg:text-6xl font-light text-[#1A1A1A]">
-              Primary Cost Elements Explained
+              Manufacturing Capabilities
             </h2>
           </div>
 
@@ -154,21 +148,21 @@ export default function CostConsiderationsPage() {
             {[
               {
                 icon: Layers,
-                title: "1. Fabric Consumption & GSM",
-                tag: "55% – 65% Cost",
-                body: "Raw material cost is governed by fabric weight (e.g. 180gsm vs 480gsm fleece) and yield per garment.",
+                title: "Heavyweight Knit Textiles",
+                tag: "350gsm–480gsm",
+                body: "Available options include 100% combed cotton French Terry fleece and dense single jersey knits.",
               },
               {
-                icon: Scale,
-                title: "2. Order Volume & Scale",
-                tag: "50 vs 500 Units",
-                body: "Fixed factory setup costs spread across larger unit volumes lower individual per-piece sewing expenses.",
+                icon: Sparkles,
+                title: "3D Graphics & Branding",
+                tag: "Finishing",
+                body: "High-density plastisol foam puff printing, direct embroidery, screen printing, and custom woven neck labels.",
               },
               {
-                icon: DollarSign,
-                title: "3. Freight & Customs Incoterms",
-                tag: "FOB vs DDP",
-                body: "DDP pricing absorbs ocean/air freight, customs entry brokerage, and import duties into one predictable figure.",
+                icon: Scissors,
+                title: "Low MOQ Capsule Runs",
+                tag: "From 50 Units",
+                body: "Production options start from 50 units per style for qualifying streetwear capsule drops.",
               },
             ].map((item, i) => {
               const Icon = item.icon;
@@ -198,10 +192,10 @@ export default function CostConsiderationsPage() {
               Quality Assurance
             </p>
             <h2 className="font-display text-4xl lg:text-6xl font-light text-[#FAF9F6] mb-8">
-              No Hidden Fees Guarantee
+              Dhaka On-Site Floor Supervision
             </h2>
             <p className="text-lg text-[#E5DDD3] leading-relaxed font-light mb-8">
-              We physically audit stitching, measurement accuracy, and label attachment on the factory floor before garments are approved for export.
+              Our Dhaka team physically audits sewing line assembly, print registration, and measurement accuracy before garments are approved for export.
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-12">
@@ -227,7 +221,7 @@ export default function CostConsiderationsPage() {
               Questions
             </p>
             <h2 className="font-display text-4xl lg:text-6xl font-light text-[#1A1A1A]">
-              Cost Breakdown FAQ
+              Streetwear FAQ
             </h2>
           </div>
 
@@ -249,16 +243,16 @@ export default function CostConsiderationsPage() {
       <section className="py-20 lg:py-24 bg-[#FAF9F6] border-t border-[#E5DDD3]">
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
           <h2 className="font-display text-4xl lg:text-5xl font-light text-[#1A1A1A] mb-6">
-            Request an all-inclusive landed quote
+            Build your custom streetwear collection
           </h2>
           <p className="text-[#6B6560] leading-relaxed text-base lg:text-lg mb-10 max-w-xl mx-auto">
-            Submit your apparel tech packs or design sketches for a transparent quote within 24–48 hours.
+            Submit your streetwear tech pack or design sketches for a comprehensive quote within 24–48 hours.
           </p>
           <Link
             href="/intake"
             className="inline-flex items-center justify-center gap-2 px-10 py-4 bg-[#1A1A1A] text-[#FAF9F6] text-sm font-semibold tracking-wide hover:bg-[#2D5016] transition-colors duration-300"
           >
-            Start Quote Request <ArrowRight size={16} />
+            Start Streetwear Project <ArrowRight size={16} />
           </Link>
         </div>
       </section>

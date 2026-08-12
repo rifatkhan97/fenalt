@@ -59,6 +59,7 @@ export default function ResourcesHubPage() {
         { href: "/uk-apparel-import-considerations", label: "UK Apparel Import Considerations" },
         { href: "/usa-apparel-import-considerations", label: "USA Apparel Import Considerations" },
         { href: "/australia-canada-apparel-import-guide", label: "Australia & Canada Apparel Import Guide" },
+        { href: "/eu-apparel-import-considerations", label: "EU Apparel Import Considerations" },
         { href: "/apparel-manufacturing-cost-considerations", label: "Apparel Manufacturing Cost Considerations" },
       ],
     },
@@ -72,6 +73,7 @@ export default function ResourcesHubPage() {
         { href: "/circular-fashion-manufacturing", label: "Circular Fashion Manufacturing" },
         { href: "/sustainable-textile-sourcing", label: "Sustainable Textile Sourcing" },
         { href: "/recycled-polyester-garment-sourcing", label: "Recycled Polyester Garment Sourcing" },
+        { href: "/sustainable-streetwear-manufacturing", label: "Sustainable Streetwear Manufacturing" },
       ],
     },
     {
@@ -84,6 +86,9 @@ export default function ResourcesHubPage() {
         { href: "/ethical-clothing-manufacturing-bangladesh", label: "Ethical Clothing Manufacturing Bangladesh" },
         { href: "/factory-quality-control-bangladesh", label: "Factory Quality Control Bangladesh" },
         { href: "/buying-sourcing-partner-bangladesh", label: "Buying & Sourcing Partner Bangladesh" },
+        { href: "/custom-streetwear-manufacturer-bangladesh", label: "Custom Streetwear Manufacturer Bangladesh" },
+        { href: "/sweatshirt-manufacturer-bangladesh", label: "Sweatshirt Manufacturer Bangladesh" },
+        { href: "/cut-and-sew-clothing-manufacturer-bangladesh", label: "Cut & Sew Clothing Manufacturer Bangladesh" },
       ],
     },
     {
@@ -96,6 +101,11 @@ export default function ResourcesHubPage() {
         { href: "/apparel-production-management", label: "Apparel Production Management Services" },
         { href: "/garment-quality-control-services", label: "Garment Quality Control Services" },
         { href: "/overseas-production-management-apparel", label: "Overseas Production Management for Apparel" },
+        { href: "/apparel-pattern-making-services", label: "Apparel Pattern Making Services" },
+        { href: "/custom-embroidery-apparel-manufacturing", label: "Custom Embroidery Apparel Manufacturing" },
+        { href: "/garment-packaging-custom-labeling-services", label: "Garment Packaging & Custom Labeling Services" },
+        { href: "/private-label-streetwear-manufacturer", label: "Private Label Streetwear Manufacturer" },
+        { href: "/clothing-manufacturer-luxury-brands", label: "Clothing Manufacturer for Luxury Brands" },
       ],
     },
   ];

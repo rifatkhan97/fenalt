@@ -131,6 +131,9 @@ export default function RulesOfOriginPage() {
               <p>
                 <strong>How Fenalt manages documentation:</strong> We ensure all export shipments originating from our Dhaka partner micro-factories carry valid Certificates of Origin and accurate HS tariff classifications for smooth customs clearance.
               </p>
+              <div className="p-4 bg-[#F2EFE9] border-l-2 border-[#C8A882] text-xs text-[#6B6560] leading-relaxed">
+                <em>Disclaimer: Rules of Origin standards and GSP/DCTS eligibility criteria differ across destination countries and product classifications. Importers must confirm origin rules and documentation requirements with official customs authorities.</em>
+              </div>
             </div>
           </div>
         </div>

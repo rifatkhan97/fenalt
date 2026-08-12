@@ -129,8 +129,11 @@ export default function USAApparelImportPage() {
                 Importing apparel into the United States requires strict adherence to U.S. Customs and Border Protection (CBP) regulations, accurate HTS coding, and textile country-of-origin labeling.
               </p>
               <p>
-                <strong>Fenalt eliminates US customs stress:</strong> Our Dhaka team prepares complete commercial export documentation and manages door-to-door DDP (Delivered Duty Paid) shipping to your US fulfillment facility.
+                <strong>Fenalt simplifies US import logistics:</strong> Our Dhaka team prepares commercial export documentation and coordinates door-to-door DDP (Delivered Duty Paid) shipping to your US fulfillment facility.
               </p>
+              <div className="p-4 bg-[#F2EFE9] border-l-2 border-[#C8A882] text-xs text-[#6B6560] leading-relaxed">
+                <em>Disclaimer: US trade regulations, HTS tariff rates, and CBP entry requirements vary by product construction and fiber blend. Importers should confirm specific duty classifications with a licensed US customs broker or customs attorney.</em>
+              </div>
             </div>
           </div>
         </div>

@@ -1,29 +1,29 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { ArrowRight, ShieldCheck, DollarSign, Scale, Layers } from "lucide-react";
+import { ArrowRight, ShieldCheck, Globe, FileText, CheckCircle2 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Apparel Manufacturing Cost Considerations | Fenalt Guide",
+  title: "EU Apparel Import Considerations | Fenalt Guide",
   description:
-    "Comprehensive guide breaking down garment manufacturing costs. Evaluate FOB vs DDP pricing, fabric GSM impacts, sampling fees, and low MOQ unit economics.",
+    "Guide for European fashion brands importing clothing from Bangladesh under EU GSP/EBA trade preferences. Tariff entry rules, customs documentation, and DDP freight.",
   alternates: {
-    canonical: "https://fenalt.com/apparel-manufacturing-cost-considerations",
+    canonical: "https://fenalt.com/eu-apparel-import-considerations",
   },
   openGraph: {
-    title: "Apparel Manufacturing Cost Considerations | Fenalt Guide",
+    title: "EU Apparel Import Considerations | Fenalt Guide",
     description:
-      "Comprehensive guide breaking down garment manufacturing costs. Evaluate FOB vs DDP pricing, fabric GSM impacts, sampling fees, and low MOQ unit economics.",
-    url: "https://fenalt.com/apparel-manufacturing-cost-considerations",
+      "Guide for European fashion brands importing clothing from Bangladesh under EU GSP/EBA trade preferences. Tariff entry rules, customs documentation, and DDP freight.",
+    url: "https://fenalt.com/eu-apparel-import-considerations",
   },
 };
 
-export default function CostConsiderationsPage() {
+export default function EUApparelImportPage() {
   const articleJsonLd = {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Apparel Manufacturing Cost Breakdown: FOB vs DDP Guide",
+    "headline": "EU Apparel Import Considerations: Bangladesh Sourcing Guide",
     "description":
-      "An educational resource for fashion brand founders breaking down garment production cost components—fabric GSM impact, tech pack pattern fees, sampling costs, and landed DDP freight.",
+      "An educational guide for European apparel brands importing clothing from Bangladesh under EU Generalized System of Preferences (GSP) and Everything But Arms (EBA) schemes—covering preferential tariff entry, customs VAT, and DDP logistics.",
     "author": {
       "@type": "Organization",
       "name": "Fenalt",
@@ -49,20 +49,20 @@ export default function CostConsiderationsPage() {
       {
         "@type": "ListItem",
         "position": 2,
-        "name": "Apparel Manufacturing Cost Considerations",
-        "item": "https://fenalt.com/apparel-manufacturing-cost-considerations",
+        "name": "EU Apparel Import Considerations",
+        "item": "https://fenalt.com/eu-apparel-import-considerations",
       },
     ],
   };
 
   const faqs = [
     {
-      q: "What is the difference between FOB and DDP pricing in clothing manufacturing?",
-      a: "FOB (Free on Board) covers production until garments are loaded on a ship/plane in Dhaka. DDP (Delivered Duty Paid) includes production, export duties, international ocean/air freight, customs entry, and door delivery to your warehouse.",
+      q: "How do EU trade schemes benefit European apparel brands importing from Bangladesh?",
+      a: "Eligible garments manufactured in Bangladesh may qualify for preferential tariff treatment under EU GSP/EBA trade frameworks, subject to rules of origin compliance and customs entry requirements.",
     },
     {
-      q: "Why does Fenalt provide all-inclusive landed pricing?",
-      a: "All-inclusive landed pricing eliminates surprise freight surcharges, import duty spikes, and hidden handling fees—giving brand founders exact unit margin clarity before order approval.",
+      q: "Does Fenalt ship DDP to European Union destination addresses?",
+      a: "Yes. Fenalt coordinates door-to-door DDP (Delivered Duty Paid) freight—managing export documentation in Dhaka, international freight, EU customs clearance, and warehouse delivery.",
     },
   ];
 
@@ -89,27 +89,27 @@ export default function CostConsiderationsPage() {
       <section className="pt-32 pb-20 lg:pt-44 lg:pb-28 bg-[#F2EFE9] relative overflow-hidden">
         <div className="max-w-7xl mx-auto px-6 lg:px-8 relative z-10">
           <p className="text-xs font-semibold uppercase tracking-[0.25em] text-[#C8A882] mb-6">
-            Unit Economics Guide
+            EU Market Trade Guide
           </p>
           <h1 className="font-display text-5xl sm:text-6xl lg:text-8xl font-light text-[#1A1A1A] leading-[1.05] max-w-5xl mb-8">
-            Apparel Manufacturing Cost Considerations:{" "}
-            <span className="italic font-medium text-[#2D5016]">FOB vs DDP.</span>
+            EU Apparel Import Considerations:{" "}
+            <span className="italic font-medium text-[#2D5016]">Bangladesh Sourcing.</span>
           </h1>
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl mb-12">
-            Understand the financial anatomy of garment production. Learn how fabric GSM selection, order volume, pattern engineering, and freight incoterms dictate your true landed margin.
+            A comprehensive guide for European fashion brands importing clothing from Bangladesh under EU trade preferences. Learn how preferential tariff entry and DDP freight streamline European supply chains.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link
               href="/intake"
               className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-[#1A1A1A] text-[#FAF9F6] text-sm font-semibold tracking-wide hover:bg-[#2D5016] transition-colors duration-300"
             >
-              Get All-Inclusive Quote <ArrowRight size={16} />
+              Get EU Landed Quote <ArrowRight size={16} />
             </Link>
             <Link
-              href="/capabilities"
+              href="/bangladesh-garment-rules-of-origin"
               className="inline-flex items-center justify-center gap-2 px-8 py-4 border border-[#1A1A1A] text-[#1A1A1A] text-sm font-semibold tracking-wide hover:bg-[#1A1A1A] hover:text-[#FAF9F6] transition-colors duration-300"
             >
-              Pricing Transparency
+              Rules of Origin
             </Link>
           </div>
         </div>
@@ -119,20 +119,20 @@ export default function CostConsiderationsPage() {
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="max-w-3xl">
             <p className="text-xs font-semibold uppercase tracking-[0.25em] text-[#C8A882] mb-4">
-              Cost Breakdown
+              EU Trade Framework
             </p>
             <h2 className="font-display text-3xl lg:text-5xl font-light text-[#1A1A1A] mb-8">
-              Deconstructing Garment Unit Costs
+              Navigating European Trade Preferences
             </h2>
             <div className="space-y-6 text-[#6B6560] text-base lg:text-lg leading-relaxed">
               <p>
-                First-time fashion brand founders often focus exclusively on the per-unit sewing cost, overlooking critical expense components such as fabric weight (GSM), trim customization, customs duty, and international freight.
+                European fashion founders importing cotton knits, fleece, and denim from Bangladesh may take advantage of EU preferential tariff schemes subject to rules of origin compliance.
               </p>
               <p>
-                <strong>Fenalt delivers total pricing transparency:</strong> Every quote we issue is a fully landed price—covering raw materials, pattern grading, physical sampling, in-line floor QC, customs entry, and door-to-door freight.
+                <strong>Fenalt simplifies EU import logistics:</strong> We facilitate export documentation in Dhaka and coordinate door-to-door DDP (Delivered Duty Paid) freight delivery to European warehouse destinations.
               </p>
               <div className="p-4 bg-[#F2EFE9] border-l-2 border-[#C8A882] text-xs text-[#6B6560] leading-relaxed">
-                <em>Disclaimer: Total landed unit cost varies based on product design, order quantity, fabric weight (GSM), customization techniques, freight mode, and destination country tariffs. Final quotes are confirmed during project intake.</em>
+                <em>Disclaimer: EU trade regulations, TARIC customs tariff rates, and VAT rules vary by member state and product composition. Importers should confirm specific duty rates with a licensed European customs broker or trade authority.</em>
               </div>
             </div>
           </div>
@@ -143,32 +143,32 @@ export default function CostConsiderationsPage() {
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="mb-16">
             <p className="text-xs font-semibold uppercase tracking-[0.25em] text-[#C8A882] mb-4">
-              Cost Drivers
+              Import Essentials
             </p>
             <h2 className="font-display text-4xl lg:text-6xl font-light text-[#1A1A1A]">
-              Primary Cost Elements Explained
+              Key EU Sourcing Factors
             </h2>
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             {[
               {
-                icon: Layers,
-                title: "1. Fabric Consumption & GSM",
-                tag: "55% – 65% Cost",
-                body: "Raw material cost is governed by fabric weight (e.g. 180gsm vs 480gsm fleece) and yield per garment.",
+                icon: Globe,
+                title: "EU Tariff Preferences",
+                tag: "Duty Efficiency",
+                body: "Eligible garments exported from Bangladesh may qualify for reduced or preferential EU import duty rates.",
               },
               {
-                icon: Scale,
-                title: "2. Order Volume & Scale",
-                tag: "50 vs 500 Units",
-                body: "Fixed factory setup costs spread across larger unit volumes lower individual per-piece sewing expenses.",
+                icon: FileText,
+                title: "Certificate of Origin (COO)",
+                tag: "Customs Entry",
+                body: "Issued directly in Dhaka to satisfy EU member state customs entry documentation.",
               },
               {
-                icon: DollarSign,
-                title: "3. Freight & Customs Incoterms",
-                tag: "FOB vs DDP",
-                body: "DDP pricing absorbs ocean/air freight, customs entry brokerage, and import duties into one predictable figure.",
+                icon: CheckCircle2,
+                title: "Door-to-Door DDP Freight",
+                tag: "Landed Cost",
+                body: "Fenalt coordinates ocean/air freight, European customs clearance, and final destination delivery.",
               },
             ].map((item, i) => {
               const Icon = item.icon;
@@ -198,7 +198,7 @@ export default function CostConsiderationsPage() {
               Quality Assurance
             </p>
             <h2 className="font-display text-4xl lg:text-6xl font-light text-[#FAF9F6] mb-8">
-              No Hidden Fees Guarantee
+              Dhaka Floor Supervision Standards
             </h2>
             <p className="text-lg text-[#E5DDD3] leading-relaxed font-light mb-8">
               We physically audit stitching, measurement accuracy, and label attachment on the factory floor before garments are approved for export.
@@ -227,7 +227,7 @@ export default function CostConsiderationsPage() {
               Questions
             </p>
             <h2 className="font-display text-4xl lg:text-6xl font-light text-[#1A1A1A]">
-              Cost Breakdown FAQ
+              EU Import FAQ
             </h2>
           </div>
 
@@ -249,16 +249,16 @@ export default function CostConsiderationsPage() {
       <section className="py-20 lg:py-24 bg-[#FAF9F6] border-t border-[#E5DDD3]">
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
           <h2 className="font-display text-4xl lg:text-5xl font-light text-[#1A1A1A] mb-6">
-            Request an all-inclusive landed quote
+            Import custom apparel to the EU with confidence
           </h2>
           <p className="text-[#6B6560] leading-relaxed text-base lg:text-lg mb-10 max-w-xl mx-auto">
-            Submit your apparel tech packs or design sketches for a transparent quote within 24–48 hours.
+            Submit your apparel specs for an all-inclusive landed EU quote within 24–48 hours.
           </p>
           <Link
             href="/intake"
             className="inline-flex items-center justify-center gap-2 px-10 py-4 bg-[#1A1A1A] text-[#FAF9F6] text-sm font-semibold tracking-wide hover:bg-[#2D5016] transition-colors duration-300"
           >
-            Start Quote Request <ArrowRight size={16} />
+            Start EU Import Project <ArrowRight size={16} />
           </Link>
         </div>
       </section>

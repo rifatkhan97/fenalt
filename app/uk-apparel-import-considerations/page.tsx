@@ -122,15 +122,18 @@ export default function UKApparelImportPage() {
               UK Trade Framework
             </p>
             <h2 className="font-display text-3xl lg:text-5xl font-light text-[#1A1A1A] mb-8">
-              Maximizing Margin Under UK DCTS Preferences
+              Navigating UK DCTS Tariff Preferences
             </h2>
             <div className="space-y-6 text-[#6B6560] text-base lg:text-lg leading-relaxed">
               <p>
-                UK clothing brands and streetwear labels importing from Bangladesh can take advantage of the Developing Countries Trading Scheme (DCTS), which offers zero or reduced tariff rates on eligible apparel.
+                UK clothing brands and streetwear labels importing from Bangladesh may take advantage of the Developing Countries Trading Scheme (DCTS), which provides preferential tariff rates for eligible apparel items meeting origin criteria.
               </p>
               <p>
-                <strong>Fenalt simplifies UK import logistics:</strong> We handle complete export paperwork in Dhaka and deliver garments directly to your UK warehouse via DDP (Delivered Duty Paid) freight—eliminating unexpected clearance surcharges.
+                <strong>Fenalt simplifies UK import logistics:</strong> We facilitate export documentation in Dhaka and coordinate door-to-door DDP (Delivered Duty Paid) freight delivery to UK warehouse addresses.
               </p>
+              <div className="p-4 bg-[#F2EFE9] border-l-2 border-[#C8A882] text-xs text-[#6B6560] leading-relaxed">
+                <em>Disclaimer: Trade regulations, tariff rates, and HMRC customs rules vary by product category and fabric composition, and are subject to change. Importers should confirm specific duty classifications with a licensed UK customs broker or relevant trade authority.</em>
+              </div>
             </div>
           </div>
         </div>
@@ -153,7 +156,7 @@ export default function UKApparelImportPage() {
                 icon: Globe,
                 title: "UK DCTS Tariff Preference",
                 tag: "Duty Efficiency",
-                body: "Qualifying garments exported from Bangladesh benefit from reduced or zero UK import duty rates.",
+                body: "Eligible garments exported from Bangladesh may qualify for reduced or preferential UK import duty rates under DCTS guidelines.",
               },
               {
                 icon: FileText,

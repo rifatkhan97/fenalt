@@ -1,39 +1,36 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { ArrowRight, ShieldCheck, DollarSign, Scale, Layers } from "lucide-react";
+import { ArrowRight, ShieldCheck, Sparkles, Layers, Scissors } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Apparel Manufacturing Cost Considerations | Fenalt Guide",
+  title: "Custom Embroidery Apparel Manufacturing | Fenalt",
   description:
-    "Comprehensive guide breaking down garment manufacturing costs. Evaluate FOB vs DDP pricing, fabric GSM impacts, sampling fees, and low MOQ unit economics.",
+    "Custom embroidered clothing manufacturing in Dhaka, Bangladesh. Direct-to-garment 3D puff embroidery, woven patches, and heavy fleece tops from 50 units.",
   alternates: {
-    canonical: "https://fenalt.com/apparel-manufacturing-cost-considerations",
+    canonical: "https://fenalt.com/custom-embroidery-apparel-manufacturing",
   },
   openGraph: {
-    title: "Apparel Manufacturing Cost Considerations | Fenalt Guide",
+    title: "Custom Embroidery Apparel Manufacturing | Fenalt",
     description:
-      "Comprehensive guide breaking down garment manufacturing costs. Evaluate FOB vs DDP pricing, fabric GSM impacts, sampling fees, and low MOQ unit economics.",
-    url: "https://fenalt.com/apparel-manufacturing-cost-considerations",
+      "Custom embroidered clothing manufacturing in Dhaka, Bangladesh. Direct-to-garment 3D puff embroidery, woven patches, and heavy fleece tops from 50 units.",
+    url: "https://fenalt.com/custom-embroidery-apparel-manufacturing",
   },
 };
 
-export default function CostConsiderationsPage() {
-  const articleJsonLd = {
+export default function CustomEmbroideryApparelManufacturingPage() {
+  const serviceJsonLd = {
     "@context": "https://schema.org",
-    "@type": "Article",
-    "headline": "Apparel Manufacturing Cost Breakdown: FOB vs DDP Guide",
+    "@type": "Service",
+    "name": "Custom Embroidery Apparel Manufacturing",
+    "provider": {
+      "@type": "Organization",
+      "name": "Fenalt",
+      "url": "https://fenalt.com",
+    },
+    "serviceType": "Apparel Embroidery Manufacturing, Direct Garment Embroidery, 3D Puff Embroidery",
+    "areaServed": ["United States", "United Kingdom", "European Union", "Australia", "Canada"],
     "description":
-      "An educational resource for fashion brand founders breaking down garment production cost components—fabric GSM impact, tech pack pattern fees, sampling costs, and landed DDP freight.",
-    "author": {
-      "@type": "Organization",
-      "name": "Fenalt",
-      "url": "https://fenalt.com",
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "Fenalt",
-      "url": "https://fenalt.com",
-    },
+      "Custom embroidered clothing manufacturing in Dhaka, Bangladesh. Direct-to-garment embroidery, 3D puff threadwork, chenille patches, and heavy fleece hoodies from 50 units.",
   };
 
   const breadcrumbsJsonLd = {
@@ -49,20 +46,20 @@ export default function CostConsiderationsPage() {
       {
         "@type": "ListItem",
         "position": 2,
-        "name": "Apparel Manufacturing Cost Considerations",
-        "item": "https://fenalt.com/apparel-manufacturing-cost-considerations",
+        "name": "Custom Embroidery Apparel Manufacturing",
+        "item": "https://fenalt.com/custom-embroidery-apparel-manufacturing",
       },
     ],
   };
 
   const faqs = [
     {
-      q: "What is the difference between FOB and DDP pricing in clothing manufacturing?",
-      a: "FOB (Free on Board) covers production until garments are loaded on a ship/plane in Dhaka. DDP (Delivered Duty Paid) includes production, export duties, international ocean/air freight, customs entry, and door delivery to your warehouse.",
+      q: "What embroidery techniques are available for custom apparel drops?",
+      a: "Available techniques include multi-head direct flat embroidery, 3D raised puff embroidery, chenille felt patches, and metallic threadwork.",
     },
     {
-      q: "Why does Fenalt provide all-inclusive landed pricing?",
-      a: "All-inclusive landed pricing eliminates surprise freight surcharges, import duty spikes, and hidden handling fees—giving brand founders exact unit margin clarity before order approval.",
+      q: "What is the minimum order quantity for embroidered clothing orders?",
+      a: "Production options can start from 50 units per style for qualifying embroidered apparel projects.",
     },
   ];
 
@@ -83,33 +80,33 @@ export default function CostConsiderationsPage() {
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify([articleJsonLd, breadcrumbsJsonLd, faqJsonLd]) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify([serviceJsonLd, breadcrumbsJsonLd, faqJsonLd]) }}
       />
 
       <section className="pt-32 pb-20 lg:pt-44 lg:pb-28 bg-[#F2EFE9] relative overflow-hidden">
         <div className="max-w-7xl mx-auto px-6 lg:px-8 relative z-10">
           <p className="text-xs font-semibold uppercase tracking-[0.25em] text-[#C8A882] mb-6">
-            Unit Economics Guide
+            Precision Threadwork
           </p>
           <h1 className="font-display text-5xl sm:text-6xl lg:text-8xl font-light text-[#1A1A1A] leading-[1.05] max-w-5xl mb-8">
-            Apparel Manufacturing Cost Considerations:{" "}
-            <span className="italic font-medium text-[#2D5016]">FOB vs DDP.</span>
+            Custom Embroidery Apparel Manufacturer in{" "}
+            <span className="italic font-medium text-[#2D5016]">Bangladesh.</span>
           </h1>
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl mb-12">
-            Understand the financial anatomy of garment production. Learn how fabric GSM selection, order volume, pattern engineering, and freight incoterms dictate your true landed margin.
+            Elevate your streetwear or athletic brand with high-stitch-density embroidery. We produce direct flat embroidery, 3D puff threadwork, and chenille patches starting at 50 units.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link
               href="/intake"
               className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-[#1A1A1A] text-[#FAF9F6] text-sm font-semibold tracking-wide hover:bg-[#2D5016] transition-colors duration-300"
             >
-              Get All-Inclusive Quote <ArrowRight size={16} />
+              Start Embroidery Order <ArrowRight size={16} />
             </Link>
             <Link
               href="/capabilities"
               className="inline-flex items-center justify-center gap-2 px-8 py-4 border border-[#1A1A1A] text-[#1A1A1A] text-sm font-semibold tracking-wide hover:bg-[#1A1A1A] hover:text-[#FAF9F6] transition-colors duration-300"
             >
-              Pricing Transparency
+              Capabilities Overview
             </Link>
           </div>
         </div>
@@ -119,21 +116,18 @@ export default function CostConsiderationsPage() {
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="max-w-3xl">
             <p className="text-xs font-semibold uppercase tracking-[0.25em] text-[#C8A882] mb-4">
-              Cost Breakdown
+              Threadwork Excellence
             </p>
             <h2 className="font-display text-3xl lg:text-5xl font-light text-[#1A1A1A] mb-8">
-              Deconstructing Garment Unit Costs
+              High-Stitch Density Embroidery on Heavy Fleece
             </h2>
             <div className="space-y-6 text-[#6B6560] text-base lg:text-lg leading-relaxed">
               <p>
-                First-time fashion brand founders often focus exclusively on the per-unit sewing cost, overlooking critical expense components such as fabric weight (GSM), trim customization, customs duty, and international freight.
+                Embroidery on heavy 380gsm–480gsm French Terry fleece requires digitized stitch density files and taut framing to prevent fabric puckering and thread breakage.
               </p>
               <p>
-                <strong>Fenalt delivers total pricing transparency:</strong> Every quote we issue is a fully landed price—covering raw materials, pattern grading, physical sampling, in-line floor QC, customs entry, and door-to-door freight.
+                <strong>Fenalt controls embroidery execution:</strong> Our Dhaka embroidery technicians digitize your logos into multi-head embroidery machine files, applying backing stabilizer and inspecting thread tension before sewing assembly.
               </p>
-              <div className="p-4 bg-[#F2EFE9] border-l-2 border-[#C8A882] text-xs text-[#6B6560] leading-relaxed">
-                <em>Disclaimer: Total landed unit cost varies based on product design, order quantity, fabric weight (GSM), customization techniques, freight mode, and destination country tariffs. Final quotes are confirmed during project intake.</em>
-              </div>
             </div>
           </div>
         </div>
@@ -143,32 +137,32 @@ export default function CostConsiderationsPage() {
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="mb-16">
             <p className="text-xs font-semibold uppercase tracking-[0.25em] text-[#C8A882] mb-4">
-              Cost Drivers
+              Embroidery Styles
             </p>
             <h2 className="font-display text-4xl lg:text-6xl font-light text-[#1A1A1A]">
-              Primary Cost Elements Explained
+              Embroidery Capabilities
             </h2>
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             {[
               {
+                icon: Sparkles,
+                title: "Direct Flat Embroidery",
+                tag: "High Density",
+                body: "Multi-head computer embroidery stitched directly onto chest, sleeve, or back panels.",
+              },
+              {
                 icon: Layers,
-                title: "1. Fabric Consumption & GSM",
-                tag: "55% – 65% Cost",
-                body: "Raw material cost is governed by fabric weight (e.g. 180gsm vs 480gsm fleece) and yield per garment.",
+                title: "3D Puff Threadwork",
+                tag: "Raised Graphic",
+                body: "High-density foam underlay embroidery creating 3D tactile lettering on heavy hoodies.",
               },
               {
-                icon: Scale,
-                title: "2. Order Volume & Scale",
-                tag: "50 vs 500 Units",
-                body: "Fixed factory setup costs spread across larger unit volumes lower individual per-piece sewing expenses.",
-              },
-              {
-                icon: DollarSign,
-                title: "3. Freight & Customs Incoterms",
-                tag: "FOB vs DDP",
-                body: "DDP pricing absorbs ocean/air freight, customs entry brokerage, and import duties into one predictable figure.",
+                icon: Scissors,
+                title: "Chenille & Woven Patches",
+                tag: "Applique",
+                body: "Custom embroidered felt patches and woven badges stitched onto varsity jackets and fleece.",
               },
             ].map((item, i) => {
               const Icon = item.icon;
@@ -198,7 +192,7 @@ export default function CostConsiderationsPage() {
               Quality Assurance
             </p>
             <h2 className="font-display text-4xl lg:text-6xl font-light text-[#FAF9F6] mb-8">
-              No Hidden Fees Guarantee
+              On-Site Quality Oversight in Dhaka
             </h2>
             <p className="text-lg text-[#E5DDD3] leading-relaxed font-light mb-8">
               We physically audit stitching, measurement accuracy, and label attachment on the factory floor before garments are approved for export.
@@ -227,7 +221,7 @@ export default function CostConsiderationsPage() {
               Questions
             </p>
             <h2 className="font-display text-4xl lg:text-6xl font-light text-[#1A1A1A]">
-              Cost Breakdown FAQ
+              Embroidery FAQ
             </h2>
           </div>
 
@@ -249,16 +243,16 @@ export default function CostConsiderationsPage() {
       <section className="py-20 lg:py-24 bg-[#FAF9F6] border-t border-[#E5DDD3]">
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
           <h2 className="font-display text-4xl lg:text-5xl font-light text-[#1A1A1A] mb-6">
-            Request an all-inclusive landed quote
+            Manufacture custom embroidered clothing
           </h2>
           <p className="text-[#6B6560] leading-relaxed text-base lg:text-lg mb-10 max-w-xl mx-auto">
-            Submit your apparel tech packs or design sketches for a transparent quote within 24–48 hours.
+            Submit your embroidery artwork files for a comprehensive quote within 24–48 hours.
           </p>
           <Link
             href="/intake"
             className="inline-flex items-center justify-center gap-2 px-10 py-4 bg-[#1A1A1A] text-[#FAF9F6] text-sm font-semibold tracking-wide hover:bg-[#2D5016] transition-colors duration-300"
           >
-            Start Quote Request <ArrowRight size={16} />
+            Start Embroidery Project <ArrowRight size={16} />
           </Link>
         </div>
       </section>

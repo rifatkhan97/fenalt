@@ -74,6 +74,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/australia-canada-apparel-import-guide", changeFrequency: "monthly", priority: 0.7 },
     { path: "/apparel-manufacturing-cost-considerations", changeFrequency: "monthly", priority: 0.8 },
 
+    // Expansion Phase 2 Routes (10 Approved Pages)
+    { path: "/custom-streetwear-manufacturer-bangladesh", changeFrequency: "weekly", priority: 0.8 },
+    { path: "/sweatshirt-manufacturer-bangladesh", changeFrequency: "weekly", priority: 0.8 },
+    { path: "/cut-and-sew-clothing-manufacturer-bangladesh", changeFrequency: "weekly", priority: 0.8 },
+    { path: "/private-label-streetwear-manufacturer", changeFrequency: "weekly", priority: 0.8 },
+    { path: "/sustainable-streetwear-manufacturing", changeFrequency: "weekly", priority: 0.8 },
+    { path: "/apparel-pattern-making-services", changeFrequency: "weekly", priority: 0.8 },
+    { path: "/clothing-manufacturer-luxury-brands", changeFrequency: "weekly", priority: 0.8 },
+    { path: "/custom-embroidery-apparel-manufacturing", changeFrequency: "weekly", priority: 0.8 },
+    { path: "/eu-apparel-import-considerations", changeFrequency: "monthly", priority: 0.7 },
+    { path: "/garment-packaging-custom-labeling-services", changeFrequency: "weekly", priority: 0.8 },
+
     // Resources Hub & Core Infrastructure
     { path: "/resources", changeFrequency: "weekly", priority: 0.8 },
     { path: "/mission", changeFrequency: "monthly", priority: 0.7 },

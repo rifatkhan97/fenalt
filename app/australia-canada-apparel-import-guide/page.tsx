@@ -122,15 +122,18 @@ export default function AustraliaCanadaApparelImportGuidePage() {
               Trade Advantages
             </p>
             <h2 className="font-display text-3xl lg:text-5xl font-light text-[#1A1A1A] mb-8">
-              Duty-Free Tariff Access for AU &amp; CA Brands
+              Preferential Tariff Treatment for AU &amp; CA Brands
             </h2>
             <div className="space-y-6 text-[#6B6560] text-base lg:text-lg leading-relaxed">
               <p>
-                Australian and Canadian fashion founders sourcing cotton knits, fleece, and denim from Bangladesh can leverage duty-free trade preferences—delivering significant gross margin advantages.
+                Australian and Canadian fashion founders sourcing cotton knits, fleece, and denim from Bangladesh may leverage preferential trade schemes subject to rules of origin compliance.
               </p>
               <p>
-                <strong>Fenalt handles complete landed logistics:</strong> We issue valid Dhaka Certificates of Origin, clear customs in Sydney, Melbourne, Toronto, or Vancouver, and deliver finished cartons directly to your warehouse.
+                <strong>Fenalt handles complete landed logistics:</strong> We facilitate Dhaka Certificates of Origin, coordinate customs clearance in Sydney, Melbourne, Toronto, or Vancouver, and deliver finished cartons directly to your warehouse.
               </p>
+              <div className="p-4 bg-[#F2EFE9] border-l-2 border-[#C8A882] text-xs text-[#6B6560] leading-relaxed">
+                <em>Disclaimer: Trade regulations, tariff rates, and customs requirements vary by garment classification and fiber composition, and are subject to change. Importers should confirm specific duty rates with a licensed customs broker or relevant trade authority.</em>
+              </div>
             </div>
           </div>
         </div>
@@ -151,9 +154,9 @@ export default function AustraliaCanadaApparelImportGuidePage() {
             {[
               {
                 icon: Globe,
-                title: "Duty-Free Tariff Treatment",
+                title: "Preferential Tariff Treatment",
                 tag: "AU & CA Preference",
-                body: "Qualifying garments exported from Bangladesh enter Australia and Canada with zero or reduced import duties.",
+                body: "Qualifying garments exported from Bangladesh may enter Australia and Canada with zero or reduced import duties subject to rules of origin.",
               },
               {
                 icon: FileText,
