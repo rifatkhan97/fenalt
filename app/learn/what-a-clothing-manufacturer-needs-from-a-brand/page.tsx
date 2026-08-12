@@ -230,13 +230,13 @@ export default function WhatManufacturerNeedsFromBrandPage() {
         </div>
       </section>
 
-      <section className="py-20 bg-[#1A1A1A]">
+      <section className="py-20 bg-[#FAF9F6] border-t border-[#E5DDD3]">
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
-          <h2 className="font-display text-3xl lg:text-5xl font-light text-[#FAF9F6] mb-4">Ready to submit your project?</h2>
-          <p className="text-[#E5DDD3] leading-relaxed text-base mb-10 max-w-xl mx-auto">
+          <h2 className="font-display text-3xl lg:text-5xl font-light text-[#1A1A1A] mb-4">Ready to submit your project?</h2>
+          <p className="text-[#6B6560] leading-relaxed text-base mb-10 max-w-xl mx-auto">
             Fenalt&apos;s intake form walks you through exactly what we need — making the first step as clear as possible.
           </p>
-          <Link href="/intake" className="inline-flex items-center justify-center gap-2 px-10 py-4 bg-[#FAF9F6] text-[#1A1A1A] text-sm font-semibold tracking-wide hover:bg-[#C8A882] transition-colors duration-300">
+          <Link href="/intake" className="inline-flex items-center justify-center gap-2 px-10 py-4 bg-[#1A1A1A] text-[#FAF9F6] text-sm font-semibold tracking-wide hover:bg-[#2D5016] transition-colors duration-300">
             Start Your Project <ArrowRight size={16} />
           </Link>
         </div>
