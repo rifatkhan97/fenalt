@@ -264,7 +264,7 @@ export default function ScreenPrintingVsDtgClothingPage() {
               { href: "/learn/garment-customization-options-explained", label: "Garment Customization Options Explained" },
               { href: "/learn/how-to-manufacture-t-shirts", label: "How to Manufacture Custom T-Shirts" },
               { href: "/learn/combed-cotton-vs-regular-cotton", label: "Combed Cotton vs Regular Cotton" },
-              { href: "/screen-printing-services-bangladesh", label: "Fenalt Screen Printing Services in Dhaka" },
+              { href: "/puff-print-hoodie-manufacturer", label: "Fenalt Screen Printing Services in Dhaka" },
             ].map((link, i) => (
               <Link key={i} href={link.href} className="group flex items-center justify-between p-5 bg-[#FAF9F6] border border-[#E5DDD3] hover:border-[#2D5016] transition-colors">
                 <span className="text-sm font-medium text-[#1A1A1A] group-hover:text-[#2D5016] pr-4">{link.label}</span>

@@ -230,7 +230,7 @@ export default function WhatToCheckDuringClothingProductionPage() {
               { href: "/learn/pre-production-quality-checks", label: "Pre-Production Quality Checks for Brands" },
               { href: "/learn/final-inspection-finished-garments", label: "Final Inspection of Finished Garments" },
               { href: "/learn/garment-quality-checklist-for-brands", label: "Garment Quality Checklist for Brands" },
-              { href: "/apparel-quality-control-services", label: "Fenalt Factory Inspection Services in Dhaka" },
+              { href: "/garment-quality-control-services", label: "Fenalt Factory Inspection Services in Dhaka" },
             ].map((link, i) => (
               <Link key={i} href={link.href} className="group flex items-center justify-between p-5 bg-[#FAF9F6] border border-[#E5DDD3] hover:border-[#2D5016] transition-colors">
                 <span className="text-sm font-medium text-[#1A1A1A] group-hover:text-[#2D5016] pr-4">{link.label}</span>

@@ -232,7 +232,7 @@ export default function WhatShouldBeInAnApparelManufacturingQuotePage() {
               { href: "/learn/low-moq-vs-bulk-manufacturing", label: "Low MOQ vs Bulk Manufacturing: What Changes?" },
               { href: "/learn/how-many-units-for-new-fashion-brand", label: "How Many Units Should a New Brand Produce?" },
               { href: "/learn/bill-of-materials-apparel", label: "How to Create an Apparel Bill of Materials (BOM)" },
-              { href: "/apparel-production-management-services", label: "Fenalt Transparent Production Services in Dhaka" },
+              { href: "/apparel-production-management", label: "Fenalt Transparent Production Services in Dhaka" },
             ].map((link, i) => (
               <Link key={i} href={link.href} className="group flex items-center justify-between p-5 bg-[#FAF9F6] border border-[#E5DDD3] hover:border-[#2D5016] transition-colors">
                 <span className="text-sm font-medium text-[#1A1A1A] group-hover:text-[#2D5016] pr-4">{link.label}</span>

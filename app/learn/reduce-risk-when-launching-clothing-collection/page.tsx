@@ -246,7 +246,7 @@ export default function ReduceRiskWhenLaunchingClothingCollectionPage() {
               { href: "/learn/low-moq-vs-bulk-manufacturing", label: "Low MOQ vs Bulk Manufacturing: What Changes?" },
               { href: "/learn/what-does-low-moq-mean", label: "What Does Low MOQ Mean in Clothing Manufacturing?" },
               { href: "/learn/how-to-plan-small-batch-apparel-launch", label: "How to Plan a Small-Batch Apparel Launch" },
-              { href: "/apparel-quality-control-services", label: "Fenalt Production Risk Management & QC Services" },
+              { href: "/garment-quality-control-services", label: "Fenalt Production Risk Management & QC Services" },
             ].map((link, i) => (
               <Link key={i} href={link.href} className="group flex items-center justify-between p-5 bg-[#FAF9F6] border border-[#E5DDD3] hover:border-[#2D5016] transition-colors">
                 <span className="text-sm font-medium text-[#1A1A1A] group-hover:text-[#2D5016] pr-4">{link.label}</span>

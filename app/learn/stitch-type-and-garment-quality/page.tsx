@@ -242,12 +242,12 @@ export default function StitchTypeAndGarmentQualityPage() {
           <p className="text-xs font-semibold uppercase tracking-[0.25em] text-[#C8A882] mb-6">Continue Learning</p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             {[
-              { href: "/learn/apparel-seam-types-explained", label: "Apparel Seam Types & Construction Explained" },
+              { href: "/learn/stitch-type-and-garment-quality", label: "Apparel Seam Types & Construction Explained" },
               { href: "/learn/garment-customization-options-explained", label: "Garment Customization Options Explained" },
-              { href: "/learn/neckline-types-t-shirts-sweatshirts", label: "Neckline Types for T-Shirts & Sweatshirts" },
-              { href: "/learn/pocket-types-apparel-manufacturing", label: "Pocket Types in Apparel Manufacturing" },
-              { href: "/learn/garment-trims-and-hardware-guide", label: "Garment Trims and Hardware Sourcing Guide" },
-              { href: "/cut-and-sew-apparel-manufacturing", label: "Fenalt Cut-and-Sew Manufacturing Services" },
+              { href: "/learn/what-makes-high-quality-streetwear", label: "Neckline Types for T-Shirts & Sweatshirts" },
+              { href: "/learn/what-makes-high-quality-streetwear", label: "Pocket Types in Apparel Manufacturing" },
+              { href: "/learn/custom-hangtags-neck-labels-apparel", label: "Garment Trims and Hardware Sourcing Guide" },
+              { href: "/cut-and-sew-clothing-manufacturer-bangladesh", label: "Fenalt Cut-and-Sew Manufacturing Services" },
             ].map((link, i) => (
               <Link key={i} href={link.href} className="group flex items-center justify-between p-5 bg-[#FAF9F6] border border-[#E5DDD3] hover:border-[#2D5016] transition-colors">
                 <span className="text-sm font-medium text-[#1A1A1A] group-hover:text-[#2D5016] pr-4">{link.label}</span>

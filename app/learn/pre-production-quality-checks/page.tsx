@@ -230,7 +230,7 @@ export default function PreProductionQualityChecksPage() {
               { href: "/learn/how-to-evaluate-fabric-quality", label: "How to Evaluate Fabric Quality (4-Point System)" },
               { href: "/learn/in-line-quality-control-garment-manufacturing", label: "In-Line Quality Control in Garment Manufacturing" },
               { href: "/learn/garment-quality-checklist-for-brands", label: "Garment Quality Checklist for Brands" },
-              { href: "/apparel-quality-control-services", label: "Fenalt Pre-Production Audit Services in Dhaka" },
+              { href: "/garment-quality-control-services", label: "Fenalt Pre-Production Audit Services in Dhaka" },
             ].map((link, i) => (
               <Link key={i} href={link.href} className="group flex items-center justify-between p-5 bg-[#FAF9F6] border border-[#E5DDD3] hover:border-[#2D5016] transition-colors">
                 <span className="text-sm font-medium text-[#1A1A1A] group-hover:text-[#2D5016] pr-4">{link.label}</span>

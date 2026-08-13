@@ -230,7 +230,7 @@ export default function WhatToKnowBeforeSourcingFromBangladeshPage() {
               { href: "/learn/what-happens-after-clothing-manufactured-overseas", label: "What Happens After Clothing Is Manufactured" },
               { href: "/learn/overseas-apparel-production-checklist", label: "Overseas Apparel Production Checklist" },
               { href: "/learn/how-to-communicate-with-overseas-suppliers", label: "How to Communicate With Overseas Suppliers" },
-              { href: "/apparel-production-management-services", label: "Fenalt Bangladesh Sourcing Services in Dhaka" },
+              { href: "/apparel-production-management", label: "Fenalt Bangladesh Sourcing Services in Dhaka" },
             ].map((link, i) => (
               <Link key={i} href={link.href} className="group flex items-center justify-between p-5 bg-[#FAF9F6] border border-[#E5DDD3] hover:border-[#2D5016] transition-colors">
                 <span className="text-sm font-medium text-[#1A1A1A] group-hover:text-[#2D5016] pr-4">{link.label}</span>

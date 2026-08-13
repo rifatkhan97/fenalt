@@ -245,8 +245,8 @@ export default function HowToManufactureHoodiesPage() {
               { href: "/learn/how-to-manufacture-a-streetwear-collection", label: "How to Manufacture a Streetwear Collection" },
               { href: "/learn/puff-print-vs-screen-print-streetwear", label: "Puff Print vs Screen Print for Streetwear" },
               { href: "/learn/what-makes-high-quality-streetwear", label: "What Makes High-Quality Streetwear?" },
-              { href: "/learn/garment-trims-and-hardware-guide", label: "Garment Trims and Hardware Sourcing Guide" },
-              { href: "/hoodie-manufacturing-bangladesh", label: "Fenalt Custom Hoodie Manufacturing Services" },
+              { href: "/learn/custom-hangtags-neck-labels-apparel", label: "Garment Trims and Hardware Sourcing Guide" },
+              { href: "/hoodie-manufacturing", label: "Fenalt Custom Hoodie Manufacturing Services" },
             ].map((link, i) => (
               <Link key={i} href={link.href} className="group flex items-center justify-between p-5 bg-[#FAF9F6] border border-[#E5DDD3] hover:border-[#2D5016] transition-colors">
                 <span className="text-sm font-medium text-[#1A1A1A] group-hover:text-[#2D5016] pr-4">{link.label}</span>

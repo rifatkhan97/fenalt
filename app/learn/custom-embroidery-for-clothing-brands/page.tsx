@@ -252,7 +252,7 @@ export default function CustomEmbroideryForClothingBrandsPage() {
               { href: "/learn/stitch-type-and-garment-quality", label: "How Stitch Type Affects Garment Quality" },
               { href: "/learn/how-to-manufacture-hoodies", label: "How to Manufacture Custom Hoodies" },
               { href: "/learn/heavyweight-streetwear-fabrics-explained", label: "Heavyweight Streetwear Fabrics Explained" },
-              { href: "/custom-embroidery-services-bangladesh", label: "Fenalt Custom Embroidery Services in Dhaka" },
+              { href: "/custom-embroidery-apparel-manufacturing", label: "Fenalt Custom Embroidery Services in Dhaka" },
             ].map((link, i) => (
               <Link key={i} href={link.href} className="group flex items-center justify-between p-5 bg-[#FAF9F6] border border-[#E5DDD3] hover:border-[#2D5016] transition-colors">
                 <span className="text-sm font-medium text-[#1A1A1A] group-hover:text-[#2D5016] pr-4">{link.label}</span>

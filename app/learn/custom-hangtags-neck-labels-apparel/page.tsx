@@ -224,11 +224,11 @@ export default function CustomHangtagsNeckLabelsApparelPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             {[
               { href: "/learn/garment-customization-options-explained", label: "Garment Customization Options Explained" },
-              { href: "/learn/garment-trims-and-hardware-guide", label: "Garment Trims and Hardware Sourcing Guide" },
+              { href: "/learn/custom-hangtags-neck-labels-apparel", label: "Garment Trims and Hardware Sourcing Guide" },
               { href: "/learn/stitch-type-and-garment-quality", label: "How Stitch Type Affects Garment Quality" },
               { href: "/learn/what-to-include-in-a-tech-pack", label: "What Should Be Included in a Tech Pack?" },
               { href: "/learn/how-to-manufacture-t-shirts", label: "How to Manufacture Custom T-Shirts" },
-              { href: "/custom-apparel-manufacturing-services", label: "Fenalt Custom Branding Services in Dhaka" },
+              { href: "/clothing-manufacturer-bangladesh", label: "Fenalt Custom Branding Services in Dhaka" },
             ].map((link, i) => (
               <Link key={i} href={link.href} className="group flex items-center justify-between p-5 bg-[#FAF9F6] border border-[#E5DDD3] hover:border-[#2D5016] transition-colors">
                 <span className="text-sm font-medium text-[#1A1A1A] group-hover:text-[#2D5016] pr-4">{link.label}</span>

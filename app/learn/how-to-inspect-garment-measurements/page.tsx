@@ -231,7 +231,7 @@ export default function HowToInspectGarmentMeasurementsPage() {
               { href: "/learn/tech-pack-measurements", label: "How to Create Measurements for a Tech Pack" },
               { href: "/learn/apparel-size-grading-explained", label: "How Apparel Size Grading Works Across Sizes" },
               { href: "/learn/apparel-quality-control-explained", label: "Apparel Quality Control Framework" },
-              { href: "/apparel-quality-control-services", label: "Fenalt Measurement Inspection Services in Dhaka" },
+              { href: "/garment-quality-control-services", label: "Fenalt Measurement Inspection Services in Dhaka" },
             ].map((link, i) => (
               <Link key={i} href={link.href} className="group flex items-center justify-between p-5 bg-[#FAF9F6] border border-[#E5DDD3] hover:border-[#2D5016] transition-colors">
                 <span className="text-sm font-medium text-[#1A1A1A] group-hover:text-[#2D5016] pr-4">{link.label}</span>

@@ -226,11 +226,11 @@ export default function HowToEvaluateStitchQualityPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             {[
               { href: "/learn/stitch-type-and-garment-quality", label: "How Stitch Type Affects Garment Quality" },
-              { href: "/learn/apparel-seam-types-explained", label: "Apparel Seam Types & Construction Explained" },
+              { href: "/learn/stitch-type-and-garment-quality", label: "Apparel Seam Types & Construction Explained" },
               { href: "/learn/garment-quality-checklist-for-brands", label: "Garment Quality Checklist for Brands" },
               { href: "/learn/apparel-quality-control-explained", label: "Apparel Quality Control Process Explained" },
               { href: "/learn/what-is-aql-in-apparel-quality-control", label: "What Is AQL in Apparel Quality Control?" },
-              { href: "/apparel-quality-control-services", label: "Fenalt Apparel Inspection Services in Dhaka" },
+              { href: "/garment-quality-control-services", label: "Fenalt Apparel Inspection Services in Dhaka" },
             ].map((link, i) => (
               <Link key={i} href={link.href} className="group flex items-center justify-between p-5 bg-[#FAF9F6] border border-[#E5DDD3] hover:border-[#2D5016] transition-colors">
                 <span className="text-sm font-medium text-[#1A1A1A] group-hover:text-[#2D5016] pr-4">{link.label}</span>

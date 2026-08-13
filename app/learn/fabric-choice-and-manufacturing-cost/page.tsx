@@ -251,7 +251,7 @@ export default function FabricChoiceAndManufacturingCostPage() {
               { href: "/learn/what-does-gsm-mean-in-clothing", label: "What Does GSM Mean in Clothing?" },
               { href: "/learn/fabric-sourcing-guide-for-fashion-brands", label: "Fabric Sourcing Guide for Fashion Brands" },
               { href: "/learn/how-to-evaluate-fabric-quality", label: "How to Evaluate Fabric Quality Before Production" },
-              { href: "/learn/clothing-manufacturing-cost-breakdown", label: "Clothing Manufacturing Cost Breakdown" },
+              { href: "/apparel-manufacturing-cost-considerations", label: "Clothing Manufacturing Cost Breakdown" },
               { href: "/apparel-production-management", label: "Fenalt Production Pricing & Sourcing Services" },
             ].map((link, i) => (
               <Link key={i} href={link.href} className="group flex items-center justify-between p-5 bg-[#FAF9F6] border border-[#E5DDD3] hover:border-[#2D5016] transition-colors">

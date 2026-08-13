@@ -229,7 +229,7 @@ export default function BuildLongTermRelationshipClothingManufacturerPage() {
               { href: "/learn/warning-signs-of-poor-apparel-manufacturer", label: "Warning Signs of a Poor Manufacturer" },
               { href: "/learn/clothing-manufacturer-due-diligence-checklist", label: "Clothing Manufacturer Due Diligence Checklist" },
               { href: "/learn/what-makes-a-good-apparel-manufacturing-partner", label: "What Makes a Good Manufacturing Partner" },
-              { href: "/apparel-production-management-services", label: "Fenalt Long-Term Production Services in Dhaka" },
+              { href: "/apparel-production-management", label: "Fenalt Long-Term Production Services in Dhaka" },
             ].map((link, i) => (
               <Link key={i} href={link.href} className="group flex items-center justify-between p-5 bg-[#FAF9F6] border border-[#E5DDD3] hover:border-[#2D5016] transition-colors">
                 <span className="text-sm font-medium text-[#1A1A1A] group-hover:text-[#2D5016] pr-4">{link.label}</span>

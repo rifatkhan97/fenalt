@@ -248,10 +248,10 @@ export default function OuterwearJacketManufacturingGuidePage() {
             {[
               { href: "/learn/recycled-polyester-in-clothing-production", label: "Recycled Polyester in Clothing Production" },
               { href: "/learn/how-to-manufacture-hoodies", label: "How to Manufacture Custom Hoodies" },
-              { href: "/learn/garment-trims-and-hardware-guide", label: "Garment Trims and Hardware Sourcing Guide" },
+              { href: "/learn/custom-hangtags-neck-labels-apparel", label: "Garment Trims and Hardware Sourcing Guide" },
               { href: "/learn/how-to-choose-fabric-for-clothing-brand", label: "How to Choose Fabric for a Clothing Brand" },
               { href: "/learn/how-to-evaluate-fabric-quality", label: "How to Evaluate Fabric Quality Before Production" },
-              { href: "/outerwear-jacket-manufacturing-services", label: "Fenalt Outerwear Manufacturing Services in Dhaka" },
+              { href: "/outerwear-manufacturing-bangladesh", label: "Fenalt Outerwear Manufacturing Services in Dhaka" },
             ].map((link, i) => (
               <Link key={i} href={link.href} className="group flex items-center justify-between p-5 bg-[#FAF9F6] border border-[#E5DDD3] hover:border-[#2D5016] transition-colors">
                 <span className="text-sm font-medium text-[#1A1A1A] group-hover:text-[#2D5016] pr-4">{link.label}</span>
