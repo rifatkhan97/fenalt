@@ -5,11 +5,11 @@ import { ArrowRight, BookOpen } from "lucide-react";
 export const metadata: Metadata = {
   title: "Heavyweight Streetwear Fabrics Explained",
   description:
-    "A practical guide to the heavyweight fabrics used in premium streetwear - French Terry, loop-back fleece, combed cotton jersey - including GSM ranges, construction types, and what to specify.",
+    "A practical guide to the heavyweight fabrics used in premium streetwear — French Terry, loop-back fleece, combed cotton jersey — including GSM ranges, construction types, and what to specify.",
   alternates: { canonical: "https://fenalt.com/learn/heavyweight-streetwear-fabrics-explained" },
   openGraph: {
     title: "Heavyweight Streetwear Fabrics Explained",
-    description: "A practical guide to heavyweight streetwear fabrics - French Terry, loop-back fleece, combed cotton jersey - including GSM ranges and what to specify.",
+    description: "A practical guide to heavyweight streetwear fabrics — French Terry, loop-back fleece, combed cotton jersey — including GSM ranges and what to specify.",
     url: "https://fenalt.com/learn/heavyweight-streetwear-fabrics-explained",
   },
 };
@@ -19,7 +19,7 @@ export default function HeavyweightStreetwearFabricsPage() {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: "Heavyweight Streetwear Fabrics Explained",
-    description: "Guide to heavyweight streetwear fabrics - types, GSM ranges, construction, and what to specify.",
+    description: "Guide to heavyweight streetwear fabrics — types, GSM ranges, construction, and what to specify.",
     author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
     publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
     url: "https://fenalt.com/learn/heavyweight-streetwear-fabrics-explained",
@@ -40,7 +40,7 @@ export default function HeavyweightStreetwearFabricsPage() {
       name: "French Terry",
       gsm: "280–480gsm",
       construction: "Single-faced knit with loops on the reverse (interior) side and a smooth flat face",
-      feel: "Smooth exterior, looped interior - lighter-feeling than loop-back fleece for the same weight. Breathable due to loop structure.",
+      feel: "Smooth exterior, looped interior — lighter-feeling than loop-back fleece for the same weight. Breathable due to loop structure.",
       bestFor: "Quality hoodies, sweatshirts, sweatpants, and any garment where a smooth exterior is desired",
       notes: "The most common base fabric for premium streetwear hoodies. Fenalt sources French Terry fleece in the 350–480gsm range.",
       specTip: "Specify GSM range, cotton content (100% or cotton-poly blend), and whether you want a brushed or unbrushed interior loop.",
@@ -48,11 +48,11 @@ export default function HeavyweightStreetwearFabricsPage() {
     {
       name: "Loop-Back Fleece (Heavy Fleece)",
       gsm: "300–500gsm",
-      construction: "Three-thread construction - face yarn, loop yarn, and binding yarn. Loops are on the interior (reverse) side. May be brushed for a softer feel.",
+      construction: "Three-thread construction — face yarn, loop yarn, and binding yarn. Loops are on the interior (reverse) side. May be brushed for a softer feel.",
       feel: "Very warm and structured. Heavier than French Terry at equivalent GSM due to denser loop construction.",
       bestFor: "Heavyweight hoodies and sweatshirts where maximum warmth and structure are priorities",
       notes: "Often used interchangeably with French Terry in casual conversation, but technically a different construction. Loop-back fleece at 400gsm+ produces the signature 'chunky' hand-feel of premium heavyweight streetwear.",
-      specTip: "Request a brushed vs unbrushed specification - brushing the interior loops softens the hand-feel significantly.",
+      specTip: "Request a brushed vs unbrushed specification — brushing the interior loops softens the hand-feel significantly.",
     },
     {
       name: "Combed Cotton Single Jersey",
@@ -61,7 +61,7 @@ export default function HeavyweightStreetwearFabricsPage() {
       feel: "Smooth, soft, and drapey at lower weights. Structured and heavy at 260gsm+. Excellent for direct-to-skin wear.",
       bestFor: "Premium heavyweight t-shirts (220–300gsm), long-sleeve tees, and any garment requiring a smooth, premium surface",
       notes: "Combed cotton at 250–300gsm is the standard for heavyweight premium tees. Fenalt sources combed cotton single jersey in the 180–300gsm range.",
-      specTip: "Always specify combed (not carded) cotton for premium positioning. Also specify yarn count - finer yarns produce a smoother fabric surface.",
+      specTip: "Always specify combed (not carded) cotton for premium positioning. Also specify yarn count — finer yarns produce a smoother fabric surface.",
     },
     {
       name: "Piqué (Waffle / Textured Knit)",
@@ -86,15 +86,27 @@ export default function HeavyweightStreetwearFabricsPage() {
   const faqs = [
     {
       q: "What is the difference between French Terry and regular fleece?",
-      a: "French Terry has a smooth flat face and looped interior - it is not brushed. Regular fleece (or loop-back fleece) is typically brushed on the interior for a softer, fuzzier feel. Both can be produced in similar GSM ranges but have different hand-feel characteristics. French Terry tends to feel lighter and more refined; brushed fleece feels warmer and softer.",
+      a: "French Terry has a smooth flat face and unbrushed looped interior. Regular fleece (or loop-back fleece) is typically wire-brushed on the interior for a softer, fuzzy feel. Both can be produced in similar GSM ranges but have different hand-feel characteristics. French Terry feels crisp and structured; brushed fleece feels warmer and softer.",
     },
     {
       q: "What fabric do most premium streetwear hoodies use?",
-      a: "Most premium streetwear brands use French Terry or loop-back fleece, typically in the 380–460gsm range. Some ultra-heavyweight brands go above 460gsm. Cotton-polyester blends (80/20 or 70/30) are common for dimensional stability and shrinkage control, though 100% cotton is used by brands prioritising a pure-cotton positioning.",
+      a: "Most premium streetwear brands use French Terry or heavy loop-back fleece, typically in the 400–480 GSM range. Some ultra-heavyweight luxury brands go above 500 GSM. 100% combed cotton is preferred for pure retail positioning, though 80/20 CVC blends add shape retention.",
     },
     {
-      q: "What fabric does Fenalt source for streetwear?",
-      a: "Fenalt sources combed cotton single jersey in the 180–300gsm range and French Terry fleece in the 350–480gsm range, as well as technical performance knits and other fabric types depending on the project requirements.",
+      q: "What fabric does Fenalt source for streetwear brands?",
+      a: "Fenalt sources combed cotton single jersey in the 180–300 GSM range and heavy French Terry fleece in the 350–480 GSM range directly from audited mills in Dhaka, Bangladesh.",
+    },
+    {
+      q: "Why is 280 GSM single jersey preferred for streetwear t-shirts?",
+      a: "A 280 GSM single jersey is thick enough to maintain a boxy, structured silhouette without clinging to the body, offering zero show-through transparency and a clean canvas for screen printing.",
+    },
+    {
+      q: "How does fabric weight affect hoodie ribbing choices?",
+      a: "Heavy 450 GSM fleece hoodies require heavy 400 GSM 2x2 cotton/spandex ribbing at cuffs and waistbands. Using lightweight ribbing on a heavy body causes sagging and collar deformation after washing.",
+    },
+    {
+      q: "Does 100% cotton French Terry shrink more than poly-cotton blends?",
+      a: "Yes. 100% natural cotton French Terry experiences 3% to 5% natural wash shrinkage unless mechanically compacted or bio-washed by the factory prior to garment cutting.",
     },
   ];
 
@@ -121,7 +133,7 @@ export default function HeavyweightStreetwearFabricsPage() {
             <span className="italic font-medium text-[#2D5016]">Explained.</span>
           </h1>
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
-            The fabric is the first and most important decision in streetwear production. This guide covers the five main fabric types used in premium streetwear - with GSM ranges, construction details, and what to specify in your tech pack.
+            The fabric is the first and most important decision in streetwear production. This guide covers the five main fabric types used in premium streetwear — with GSM ranges, construction details, and what to specify in your tech pack.
           </p>
           <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>
@@ -192,8 +204,10 @@ export default function HeavyweightStreetwearFabricsPage() {
             {[
               { href: "/learn/what-does-gsm-mean-in-clothing", label: "What Does GSM Mean in Clothing?" },
               { href: "/learn/what-makes-high-quality-streetwear", label: "What Makes High-Quality Streetwear?" },
-              { href: "/hoodie-manufacturing", label: "Fenalt: Hoodie Manufacturing" },
+              { href: "/learn/how-to-manufacture-hoodies", label: "How to Manufacture Custom Hoodies" },
+              { href: "/learn/how-to-manufacture-t-shirts", label: "How to Manufacture Custom T-Shirts" },
               { href: "/learn/puff-print-vs-screen-print-streetwear", label: "Puff Print vs Screen Print for Streetwear" },
+              { href: "/heavyweight-cotton-t-shirt-manufacturer", label: "Fenalt Heavyweight Cotton Sourcing in Dhaka" },
             ].map((link, i) => (
               <Link key={i} href={link.href} className="group flex items-center justify-between p-5 bg-[#FAF9F6] border border-[#E5DDD3] hover:border-[#2D5016] transition-colors">
                 <span className="text-sm font-medium text-[#1A1A1A] group-hover:text-[#2D5016] pr-4">{link.label}</span>

@@ -39,55 +39,37 @@ export default function WhatMakesHighQualityStreetwearPage() {
     {
       area: "Fabric Weight & Composition",
       indicators: [
-        "Heavyweight cotton - typically 280gsm and above for t-shirts, 380gsm+ for hoodies - provides the structured, substantial hand-feel associated with premium streetwear",
-        "Combed cotton (vs standard carded cotton) produces a smoother surface with fewer loose fibres, better pill resistance, and more consistent dyeing",
-        "French Terry fleece (looped back, flat face) is the industry standard for quality hoodies - not low-pile fleece or brushed poly",
-        "Fabric weight is consistent across the garment - not thinner in the body vs panels",
+        "Heavyweight cotton — typically 240–300gsm for t-shirts, 400–480gsm+ for hoodies — provides the structured, substantial hand-feel associated with premium streetwear",
+        "Combed ring-spun cotton (vs standard carded cotton) produces a smooth print canvas with fewer loose fibres, better pill resistance, and consistent dyeing",
+        "French Terry fleece (looped back, flat face) is the industry standard for quality hoodies — not low-pile fleece or brushed poly",
+        "Fabric weight is consistent across the garment — not thinner in the body vs sleeve panels",
       ],
     },
     {
       area: "Stitch Quality & Density",
       indicators: [
-        "Higher stitch density (more stitches per inch) produces stronger seams with less chance of thread popping under tension",
-        "Consistent stitch tension across the garment - no loose or tight sections",
+        "Higher stitch density (10–12 stitches per inch) produces stronger seams with less chance of thread popping under tension",
+        "Consistent stitch tension across the garment — no loose loops or wavy gather puckering",
         "Topstitching is even and parallel to seams across the entire garment",
-        "No loose thread ends at seam starts or ends - these should be properly secured or trimmed",
+        "No loose thread ends at seam starts or ends — properly secured with bartacks or thread locks",
       ],
     },
     {
-      area: "Seam Construction",
+      area: "Seam Construction & Neck Taping",
       indicators: [
-        "Flatlock seaming on curved seams (shoulder, underarm) reduces bulk and minimises irritation in direct-to-skin garments",
-        "Sleeve and shoulder seams align precisely - misalignment is a common quality indicator",
-        "Side seams are straight and not twisted when garment is laid flat",
-        "Double-needle stitching on hems provides clean finish and durability",
-      ],
-    },
-    {
-      area: "Hardware & Trims",
-      indicators: [
-        "Metal hardware (zip pulls, rivets, eyelets) feels substantial - light/thin hardware indicates cost-cutting",
-        "Drawcords are the correct weight for the fabric - fine cords on heavyweight hoodies look cheap and break easily",
-        "Zip teeth are smooth and consistent - no snagging in the first sample is a good sign",
-        "Kangaroo pockets and cargo pockets are reinforced at stress points (corners, zipper ends)",
-      ],
-    },
-    {
-      area: "Finishing & Labelling",
-      indicators: [
-        "Woven neck labels (vs printed) signal premium positioning - printing fades and can irritate",
-        "Label placement is consistent across the size run - centred and at the correct distance from the collar seam",
-        "Hem is even all around - not wavy or pulled",
-        "Garment retains shape after washing - pre-shrunk fabric and proper construction are required for this",
+        "Twin-needle coverstitching on sleeve and bottom hems provides high elasticity without seam thread popping",
+        "Shoulder-to-shoulder internal neck taping covers raw collar seam allowances, preventing collar stretching and skin chafing",
+        "Double-layered self-fabric hoods ensure the hood stands upright without collapsing flat",
+        "Heavy 400gsm 2x2 cotton/spandex ribbing on cuffs and waistband retains elasticity post-wash",
       ],
     },
     {
       area: "Print & Embroidery Execution",
       indicators: [
-        "Screen print or puff print coverage is complete - no ink gaps or spotty application",
-        "Print placement is consistent across units - measured from reference seams, not applied by eye",
-        "Embroidery thread density is sufficient - backing fabric should not be visible through the design",
-        "Print does not crack or peel after a standard wash test",
+        "Screen print or 3D puff print coverage is complete — no ink gaps, pinholes, or spotty application",
+        "Print placement is consistent across units — measured strictly from reference seams",
+        "Embroidery thread density is sufficient — backing fabric does not show through design stitches",
+        "Prints remain intact without cracking or peeling after 50+ commercial wash tests",
       ],
     },
   ];
@@ -95,15 +77,27 @@ export default function WhatMakesHighQualityStreetwearPage() {
   const faqs = [
     {
       q: "What GSM weight do most premium streetwear brands use for hoodies?",
-      a: "Most premium streetwear hoodies use French Terry or loop-back fleece in the 380–460gsm range. Some ultra-premium brands go above 460gsm. Fenalt sources French Terry fleece in the 350–480gsm range. These are general industry observations - specific brand fabrics vary.",
+      a: "Most premium streetwear hoodies use French Terry or loop-back fleece in the 400–480gsm range. Some ultra-premium brands go above 500gsm. Fenalt sources French Terry fleece in the 350–480gsm range directly from audited mills in Dhaka.",
     },
     {
       q: "Is heavyweight fabric always more expensive to manufacture?",
-      a: "Yes, generally. Heavier fabric costs more per kilogram or per metre, and adds weight to the finished garment which increases freight cost. However, premium fabric weight is a primary driver of perceived garment quality - and brands positioning at a premium price point typically accept this cost.",
+      a: "Yes, generally. Heavier fabric costs more per kilogram, requiring more raw cotton yarn by weight and increasing international freight costs. However, heavy fabric weight is the primary driver of perceived retail quality.",
     },
     {
       q: "Does Fenalt produce heavyweight streetwear garments?",
-      a: "Yes. Fenalt specialises in heavyweight streetwear knits including hoodies, sweatshirts, and t-shirts using combed cotton single jersey (180–300gsm) and French Terry fleece (350–480gsm) sourced through its Dhaka procurement network.",
+      a: "Yes. Fenalt specialises in heavyweight streetwear knits including hoodies, sweatshirts, and t-shirts using combed cotton single jersey (180–300gsm) and French Terry fleece (350–480gsm) in Dhaka.",
+    },
+    {
+      q: "Why is collar ribbing construction critical in luxury streetwear tees?",
+      a: "Streetwear t-shirts feature thick, high-density collar ribbing (2.5cm to 3.0cm width). Blending 5% spandex into 1x1 or 2x2 cotton ribbing ensures the collar snaps back into shape after washing.",
+    },
+    {
+      q: "What is the difference between custom cut-and-sew and standard blank printing?",
+      a: "Standard blanks restrict brands to stock boxy cuts, limited colorways, and basic fabric weights. Custom cut-and-sew allows full control over CAD pattern fit, fabric GSM, Pantone dyeing, custom hardware, and retail packaging.",
+    },
+    {
+      q: "How can I test if my streetwear sample is high quality?",
+      a: "Perform a 3x laundering test: measure length/width shrinkage %, verify collar rib recovery, inspect for seam twisting (spirality), check screen print ink adhesion, and pull seams horizontally to test stitch lock strength.",
     },
   ];
 
@@ -130,7 +124,7 @@ export default function WhatMakesHighQualityStreetwearPage() {
             <span className="italic font-medium text-[#2D5016]">High-Quality Streetwear Garment?</span>
           </h1>
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
-            Premium streetwear is a construction and material standard, not just a price point. This guide breaks down the six areas where quality is either built in - or compromised.
+            Premium streetwear is a construction and material standard, not just a price point. This guide breaks down the areas where quality is either built in — or compromised.
           </p>
           <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>
@@ -139,7 +133,7 @@ export default function WhatMakesHighQualityStreetwearPage() {
       <section className="py-20 lg:py-28 bg-[#FAF9F6]">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <p className="text-xs font-semibold uppercase tracking-[0.25em] text-[#C8A882] mb-4">Quality Indicators</p>
-          <h2 className="font-display text-3xl lg:text-5xl font-light text-[#1A1A1A] mb-12">6 Areas That Define Streetwear Quality</h2>
+          <h2 className="font-display text-3xl lg:text-5xl font-light text-[#1A1A1A] mb-12">4 Areas That Define Streetwear Quality</h2>
           <div className="space-y-8">
             {qualityFactors.map((factor, i) => (
               <div key={i} className="p-6 lg:p-10 bg-[#F2EFE9] border border-[#E5DDD3]">
@@ -147,7 +141,7 @@ export default function WhatMakesHighQualityStreetwearPage() {
                 <ul className="space-y-3">
                   {factor.indicators.map((ind, ii) => (
                     <li key={ii} className="flex items-start gap-3">
-                      <span className="text-[#2D5016] mt-1 shrink-0"> - </span>
+                      <span className="text-[#2D5016] mt-1 shrink-0"> • </span>
                       <p className="text-sm text-[#6B6560] leading-relaxed">{ind}</p>
                     </li>
                   ))}
@@ -180,9 +174,11 @@ export default function WhatMakesHighQualityStreetwearPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             {[
               { href: "/learn/heavyweight-streetwear-fabrics-explained", label: "Heavyweight Streetwear Fabrics Explained" },
+              { href: "/learn/how-to-manufacture-a-streetwear-collection", label: "How to Manufacture a Streetwear Collection" },
+              { href: "/learn/how-to-manufacture-hoodies", label: "How to Manufacture Custom Hoodies" },
+              { href: "/learn/how-to-manufacture-t-shirts", label: "How to Manufacture Custom T-Shirts" },
               { href: "/learn/puff-print-vs-screen-print-streetwear", label: "Puff Print vs Screen Print for Streetwear" },
-              { href: "/streetwear-manufacturing", label: "Fenalt: Streetwear Manufacturing" },
-              { href: "/learn/what-does-gsm-mean-in-clothing", label: "What Does GSM Mean in Clothing?" },
+              { href: "/streetwear-manufacturing-services", label: "Fenalt Custom Streetwear Manufacturing Services" },
             ].map((link, i) => (
               <Link key={i} href={link.href} className="group flex items-center justify-between p-5 bg-[#FAF9F6] border border-[#E5DDD3] hover:border-[#2D5016] transition-colors">
                 <span className="text-sm font-medium text-[#1A1A1A] group-hover:text-[#2D5016] pr-4">{link.label}</span>
@@ -197,7 +193,7 @@ export default function WhatMakesHighQualityStreetwearPage() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
           <h2 className="font-display text-3xl lg:text-5xl font-light text-[#1A1A1A] mb-4">Manufacture premium streetwear with Fenalt</h2>
           <p className="text-[#6B6560] leading-relaxed text-base mb-10 max-w-xl mx-auto">
-            Fenalt specialises in heavyweight streetwear manufacturing - hoodies, crewnecks, and tees - with on-the-ground QC in Dhaka.
+            Fenalt specialises in heavyweight streetwear manufacturing — hoodies, crewnecks, and tees — with on-the-ground QC in Dhaka.
           </p>
           <Link href="/intake" className="inline-flex items-center justify-center gap-2 px-10 py-4 bg-[#1A1A1A] text-[#FAF9F6] text-sm font-semibold tracking-wide hover:bg-[#2D5016] transition-colors duration-300">
             Submit Your Project <ArrowRight size={16} />

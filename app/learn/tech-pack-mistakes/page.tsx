@@ -5,11 +5,11 @@ import { ArrowRight, BookOpen } from "lucide-react";
 export const metadata: Metadata = {
   title: "Common Tech Pack Mistakes That Delay Clothing Production",
   description:
-    "The most common tech pack mistakes that cause sample delays, inaccurate quotes, and production problems - and how to avoid each one.",
+    "The most common tech pack mistakes that cause sample delays, inaccurate quotes, and production problems — and exactly how to avoid each one.",
   alternates: { canonical: "https://fenalt.com/learn/tech-pack-mistakes" },
   openGraph: {
     title: "Common Tech Pack Mistakes That Delay Clothing Production",
-    description: "The most common tech pack mistakes that cause sample delays, inaccurate quotes, and production problems - and how to avoid each one.",
+    description: "The most common tech pack mistakes that cause sample delays, inaccurate quotes, and production problems — and exactly how to avoid each one.",
     url: "https://fenalt.com/learn/tech-pack-mistakes",
   },
 };
@@ -23,6 +23,7 @@ export default function TechPackMistakesPage() {
     author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
     publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
     url: "https://fenalt.com/learn/tech-pack-mistakes",
+    mainEntityOfPage: "https://fenalt.com/learn/tech-pack-mistakes",
   };
 
   const breadcrumbsJsonLd = {
@@ -38,7 +39,7 @@ export default function TechPackMistakesPage() {
   const mistakes = [
     {
       mistake: "Missing or Incomplete Measurements",
-      impact: "The most common cause of first-sample rejection. Without a complete POM (points of measure) table, the manufacturer must estimate measurements - or copy a standard sizing chart that may not match your design intent.",
+      impact: "The most common cause of first-sample rejection. Without a complete POM (points of measure) table, the manufacturer must estimate measurements — or copy a standard sizing chart that may not match your design intent.",
       fix: "Include a full measurement spec table covering every measurement point for every included size, with tolerance columns. Specify how each measurement is taken (e.g. 'chest: 1\" below armhole, laid flat, total width').",
     },
     {
@@ -58,7 +59,7 @@ export default function TechPackMistakesPage() {
     },
     {
       mistake: "No Bill of Materials (BOM)",
-      impact: "Without a BOM, the manufacturer makes assumptions about trims - zipper type, zip pull style, drawcord material, label positioning, button size. Every assumption is a potential revision.",
+      impact: "Without a BOM, the manufacturer makes assumptions about trims — zipper type, zip pull style, drawcord material, label positioning, button size. Every assumption is a potential revision.",
       fix: "List every component with specification: main zipper (e.g. YKK #5 nylon coil, auto-lock pull, antique brass), drawcord (6mm flat cotton, matching body colour), main label (woven neck label, 5cm x 2.5cm, own artwork supplied).",
     },
     {
@@ -73,12 +74,12 @@ export default function TechPackMistakesPage() {
     },
     {
       mistake: "Single Size Measurement Only (No Graded Table)",
-      impact: "If you only provide measurements for one size, the manufacturer grades the rest using their standard grade rules - which may not match your intended fit across the size curve.",
-      fix: "Provide a full graded measurement table - measurements for every size in your size run. Even if you are only sampling one size initially, the manufacturer needs to know the grade plan.",
+      impact: "If you only provide measurements for one size, the manufacturer grades the rest using their standard grade rules — which may not match your intended fit across the size curve.",
+      fix: "Provide a full graded measurement table — measurements for every size in your size run. Even if you are only sampling one size initially, the manufacturer needs to know the grade plan.",
     },
     {
       mistake: "No Tolerance Column in the Measurement Sheet",
-      impact: "Without tolerances, the manufacturer and QC inspector have no defined acceptable range. Every measurement either passes or fails against the exact number - creating constant disagreement.",
+      impact: "Without tolerances, the manufacturer and QC inspector have no defined acceptable range. Every measurement either passes or fails against the exact number — creating constant disagreement.",
       fix: "Add a tolerance column to each measurement row. Common garment measurement tolerance: ±1cm for smaller measurements, ±1.5cm for body width, length, and major dimensional measurements.",
     },
     {
@@ -91,11 +92,27 @@ export default function TechPackMistakesPage() {
   const faqs = [
     {
       q: "How many sample revisions can a bad tech pack cause?",
-      a: "A significantly incomplete tech pack can cause 4 to 7+ sample rounds rather than the typical 2 to 3. Each revision adds 1 to 3 weeks to the pre-production timeline. For brands with seasonal or drop-based deadlines, this can mean missed windows entirely.",
+      a: "A significantly incomplete tech pack can cause 4 to 7+ sample rounds rather than the typical 2 to 3. Each revision adds 1 to 3 weeks to the pre-production timeline. For brands with seasonal or drop-based deadlines, this can mean missing retail windows entirely.",
     },
     {
       q: "Does Fenalt help with tech pack development?",
-      a: "Yes. Fenalt's technical team can assist with tech pack creation and review as part of a managed production engagement. Brands with partial documentation or design concepts can request tech pack development support before sampling begins.",
+      a: "Yes. Fenalt's technical team in Dhaka reviews and assists with tech pack creation and POM drafting as part of a managed production engagement.",
+    },
+    {
+      q: "What is the single worst mistake to make in a tech pack?",
+      a: "Omitting point-of-measure (POM) specifications entirely or providing 3D conceptual renderings without flat dimensions. Pattern makers require 2D measurements to build CAD templates.",
+    },
+    {
+      q: "How can I check if my tech pack is factory-ready?",
+      a: "Conduct a pre-submission audit: verify that flat vector sketches match POM table descriptions, every trim is listed in the BOM, Pantone codes are specified, and tolerance limits are clearly defined.",
+    },
+    {
+      q: "Should I include wash care symbols in my tech pack?",
+      a: "Yes. Specifying care tag copy, fiber composition percentages, and ISO wash symbols ensures legal compliance for retail distribution in destination markets (US, UK, EU, AU).",
+    },
+    {
+      q: "How do version numbers prevent manufacturing errors?",
+      a: "Updating version numbers (e.g. TechPack_Style101_v2.pdf) whenever specs change ensures pattern makers, sample machinists, and QC inspectors all work from the exact same revision standard.",
     },
   ];
 
@@ -115,14 +132,14 @@ export default function TechPackMistakesPage() {
             <BookOpen size={16} />
             <Link href="/resources" className="text-xs font-semibold uppercase tracking-[0.25em] hover:text-[#2D5016] transition-colors">Fenalt Learn</Link>
             <span className="text-xs text-[#C8A882]">/</span>
-            <span className="text-xs font-semibold uppercase tracking-[0.25em] text-[#6B6560]">Tech Packs & Pattern Making</span>
+            <span className="text-xs font-semibold uppercase tracking-[0.25em] text-[#6B6560]">Tech Packs &amp; Patterns</span>
           </div>
           <h1 className="font-display text-4xl sm:text-5xl lg:text-7xl font-light text-[#1A1A1A] leading-[1.05] mb-6">
             Common Tech Pack Mistakes{" "}
             <span className="italic font-medium text-[#2D5016]">That Delay Clothing Production.</span>
           </h1>
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
-            Ten avoidable mistakes that add sample rounds, inflate costs, and push timelines - with exactly how to fix each one.
+            Ten avoidable mistakes that add sample rounds, inflate costs, and push timelines — with exactly how to fix each one.
           </p>
           <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>
@@ -131,7 +148,7 @@ export default function TechPackMistakesPage() {
       <section className="py-20 lg:py-28 bg-[#FAF9F6]">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <p className="text-xs font-semibold uppercase tracking-[0.25em] text-[#C8A882] mb-4">The 10 Mistakes</p>
-          <h2 className="font-display text-3xl lg:text-5xl font-light text-[#1A1A1A] mb-12">What Causes Production Delays - and How to Avoid Them</h2>
+          <h2 className="font-display text-3xl lg:text-5xl font-light text-[#1A1A1A] mb-12">What Causes Production Delays — and How to Avoid Them</h2>
           <div className="space-y-6">
             {mistakes.map((item, i) => (
               <div key={i} className="p-6 lg:p-8 bg-[#F2EFE9] border border-[#E5DDD3]">
@@ -178,10 +195,12 @@ export default function TechPackMistakesPage() {
           <p className="text-xs font-semibold uppercase tracking-[0.25em] text-[#C8A882] mb-6">Continue Learning</p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             {[
-              { href: "/learn/what-is-a-tech-pack", label: "What Is a Tech Pack?" },
+              { href: "/learn/what-is-a-tech-pack", label: "What Is a Tech Pack in Apparel Manufacturing?" },
               { href: "/learn/what-to-include-in-a-tech-pack", label: "What Should Be Included in a Tech Pack?" },
-              { href: "/tech-pack-development-apparel", label: "Fenalt: Tech Pack Development Services" },
-              { href: "/learn/what-is-a-clothing-sample", label: "What Is a Clothing Sample?" },
+              { href: "/learn/tech-pack-measurements", label: "How to Create Measurements for a Tech Pack" },
+              { href: "/learn/bill-of-materials-apparel", label: "What Is a Bill of Materials (BOM) in Apparel?" },
+              { href: "/learn/points-of-measure-garment", label: "What Are Points of Measure (POM) in Garments?" },
+              { href: "/tech-pack-development-apparel", label: "Fenalt Tech Pack Development Services" },
             ].map((link, i) => (
               <Link key={i} href={link.href} className="group flex items-center justify-between p-5 bg-[#FAF9F6] border border-[#E5DDD3] hover:border-[#2D5016] transition-colors">
                 <span className="text-sm font-medium text-[#1A1A1A] group-hover:text-[#2D5016] pr-4">{link.label}</span>

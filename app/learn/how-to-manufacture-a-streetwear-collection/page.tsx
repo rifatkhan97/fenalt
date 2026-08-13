@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, Layers } from "lucide-react";
 export const metadata: Metadata = {
   title: "How to Manufacture a Streetwear Collection: Step-by-Step Guide",
   description:
-    "A practical guide to manufacturing a streetwear collection - from heavyweight fabric sourcing and oversized pattern creation to drop strategy and small-batch planning.",
+    "A practical guide to manufacturing a streetwear collection — from heavyweight fabric sourcing and oversized pattern creation to drop strategy and small-batch planning.",
   alternates: {
     canonical: "https://fenalt.com/learn/how-to-manufacture-a-streetwear-collection",
   },
   openGraph: {
     title: "How to Manufacture a Streetwear Collection: Step-by-Step Guide",
     description:
-      "A practical guide to manufacturing a streetwear collection - from heavyweight fabric sourcing and oversized pattern creation to drop strategy and small-batch planning.",
+      "A practical guide to manufacturing a streetwear collection — from heavyweight fabric sourcing and oversized pattern creation to drop strategy and small-batch planning.",
     url: "https://fenalt.com/learn/how-to-manufacture-a-streetwear-collection",
   },
 };
@@ -47,7 +47,7 @@ export default function HowToManufactureStreetwearCollectionPage() {
     },
     {
       title: "2. Source High-GSM Streetwear Fabrics",
-      body: "Streetwear quality is dictated by fabric handfeel and weight. Select 300+ GSM combed cotton for t-shirts and 450–500 GSM French Terry or fleece for hoodies.",
+      body: "Streetwear quality is dictated by fabric handfeel and weight. Select 240–300 GSM combed cotton single jersey for t-shirts and 400–500 GSM French Terry or fleece for hoodies.",
     },
     {
       title: "3. Develop Streetwear Tech Packs & Oversized Patterns",
@@ -55,10 +55,10 @@ export default function HowToManufactureStreetwearCollectionPage() {
     },
     {
       title: "4. Select Specialty Graphic & Branding Techniques",
-      body: "Choose appropriate decoration methods: high-density puff printing, direct-to-garment (DTG), vintage screen prints, or heavy embroidery.",
+      body: "Choose appropriate decoration methods: high-density 3D puff printing, direct-to-garment (DTG), vintage screen prints, or heavy embroidery.",
     },
     {
-      title: "5. Sample & Stress Test Your Streetwear Blanks",
+      title: "5. Sample & Stress Test Your Custom Blanks",
       body: "Sample every piece with final wash treatments (silicone wash, vintage wash, garment dye). Wash and dry sample garments repeatedly to check shrinkage and print durability.",
     },
     {
@@ -75,6 +75,22 @@ export default function HowToManufactureStreetwearCollectionPage() {
     {
       q: "What fabric GSM is standard for premium streetwear hoodies?",
       a: "Premium streetwear hoodies typically range from 400 GSM to 500+ GSM using 100% cotton French Terry or heavy fleece.",
+    },
+    {
+      q: "What is the difference between custom cut-and-sew and printing on blanks?",
+      a: "Printing on pre-made blanks restricts you to standard fits, stock colors, and basic fabric weights. Custom cut-and-sew allows you to engineer custom boxy fits, custom GSM fabric weights, custom Pantone colors, and custom hardware.",
+    },
+    {
+      q: "How long does it take to manufacture a streetwear capsule?",
+      a: "A typical cut-and-sew streetwear production cycle takes 6 to 8 weeks — including 2 weeks for CAD patterns and proto sampling, 2 weeks for bulk fabric milling/dyeing, and 3 to 4 weeks for sewing, screen printing, QC, and packing.",
+    },
+    {
+      q: "What is the minimum order quantity (MOQ) for custom streetwear?",
+      a: "Fenalt manufactures custom streetwear starting at low MOQs of 50 to 100 units per style in Dhaka, enabling independent brands to launch capsule drops without massive upfront capital.",
+    },
+    {
+      q: "Should I offer presales for my streetwear drop?",
+      a: "Presales can fund initial production, but you must ensure your pre-production samples are fully approved and factory production lead times are secured to avoid customer shipping delays.",
     },
   ];
 
@@ -149,8 +165,8 @@ export default function HowToManufactureStreetwearCollectionPage() {
         </div>
       </section>
 
-      {/* Merged Section #59 Focus: Building Small Collections */}
-      <section className="py-20 lg:py-24 bg-[#1A1A1A] text-[#FAF9F6]">
+      {/* Capsule Collection Blueprint */}
+      <section className="py-20 lg:py-24 bg-[#1A1A1A] text-[#FAF9F6] border-t border-[#333333]">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <span className="inline-block px-3 py-1 bg-[#C8A882] text-[#1A1A1A] text-xs font-semibold uppercase tracking-wider mb-4">Capsule Collection Blueprint</span>
           <h2 className="font-display text-3xl lg:text-5xl font-light text-[#FAF9F6] mb-6">How to Structure a Small 4-Piece Streetwear Drop</h2>
@@ -172,7 +188,7 @@ export default function HowToManufactureStreetwearCollectionPage() {
             </div>
             <div className="p-5 bg-[#2A2A2A] border border-[#3A3A3A]">
               <h3 className="font-display text-lg font-medium text-[#C8A882] mb-2">4. Signature Accessory</h3>
-              <p className="text-xs text-[#E5DDD3] leading-relaxed">Woven headwear (beanie/cap) or tote bag - lower price point item to increase average order value.</p>
+              <p className="text-xs text-[#E5DDD3] leading-relaxed">Woven headwear (beanie/cap) or tote bag — lower price point item to increase average order value.</p>
             </div>
           </div>
         </div>
@@ -202,8 +218,10 @@ export default function HowToManufactureStreetwearCollectionPage() {
             {[
               { href: "/learn/what-makes-high-quality-streetwear", label: "What Makes a High-Quality Streetwear Garment?" },
               { href: "/learn/heavyweight-streetwear-fabrics-explained", label: "Heavyweight Streetwear Fabrics Explained" },
+              { href: "/learn/how-to-manufacture-hoodies", label: "How to Manufacture Custom Streetwear Hoodies" },
+              { href: "/learn/how-to-manufacture-t-shirts", label: "How to Manufacture Custom T-Shirts" },
               { href: "/learn/puff-print-vs-screen-print-streetwear", label: "Puff Print vs Screen Print for Streetwear" },
-              { href: "/streetwear-manufacturing", label: "Fenalt Custom Streetwear Manufacturing Services" },
+              { href: "/streetwear-manufacturing-services", label: "Fenalt Custom Streetwear Manufacturing Services" },
             ].map((link, i) => (
               <Link key={i} href={link.href} className="group flex items-center justify-between p-5 bg-[#FAF9F6] border border-[#E5DDD3] hover:border-[#2D5016] transition-colors">
                 <span className="text-sm font-medium text-[#1A1A1A] group-hover:text-[#2D5016] pr-4">{link.label}</span>
@@ -219,7 +237,7 @@ export default function HowToManufactureStreetwearCollectionPage() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
           <h2 className="font-display text-3xl lg:text-5xl font-light text-[#1A1A1A] mb-4">Manufacture your custom streetwear line</h2>
           <p className="text-[#6B6560] leading-relaxed text-base mb-10 max-w-xl mx-auto">
-            Fenalt specializes in heavy cotton knitwear, custom oversized patterns, puff printing, and low MOQ streetwear production.
+            Fenalt specializes in heavy cotton knitwear, custom oversized patterns, puff printing, and low MOQ streetwear production in Dhaka.
           </p>
           <Link href="/intake" className="inline-flex items-center justify-center gap-2 px-10 py-4 bg-[#1A1A1A] text-[#FAF9F6] text-sm font-semibold tracking-wide hover:bg-[#2D5016] transition-colors duration-300">
             Submit Your Project <ArrowRight size={16} />

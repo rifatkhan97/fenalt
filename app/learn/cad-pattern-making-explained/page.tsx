@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, Monitor } from "lucide-react";
 export const metadata: Metadata = {
   title: "CAD Pattern Making for Fashion Brands Explained",
   description:
-    "Discover how Computer-Aided Design (CAD) pattern making works - digital vector drafting, automated marker efficiency, DXF export, and rapid size grading.",
+    "Discover how Computer-Aided Design (CAD) pattern making works — digital vector drafting, automated marker efficiency, DXF export, 3D simulation, and rapid size grading.",
   alternates: {
     canonical: "https://fenalt.com/learn/cad-pattern-making-explained",
   },
   openGraph: {
     title: "CAD Pattern Making for Fashion Brands Explained",
     description:
-      "Discover how Computer-Aided Design (CAD) pattern making works - digital vector drafting, automated marker efficiency, DXF export, and rapid size grading.",
+      "Discover how Computer-Aided Design (CAD) pattern making works — digital vector drafting, automated marker efficiency, DXF export, 3D simulation, and rapid size grading.",
     url: "https://fenalt.com/learn/cad-pattern-making-explained",
   },
 };
@@ -41,20 +41,75 @@ export default function CadPatternMakingExplainedPage() {
   };
 
   const benefits = [
-    { title: "1. Precise Digital Seam Allowances & Notches", desc: "CAD eliminates manual paper drawing errors, enforcing exact 0.1 mm precision on seam allowances, grainlines, and notch anchors." },
-    { title: "2. Instant Computerized Size Grading", desc: "Applying digital grade rule tables instantly scales master patterns across XS through 3XL without manual re-drafting." },
-    { title: "3. Automated Fabric Marker Optimization", desc: "CAD nesting software arranges pattern pieces on fabric rolls to achieve maximum yield (reducing fabric waste by up to 8%)." },
-    { title: "4. Universal DXF / AAMA File Portability", desc: "Digital pattern files can be emailed instantly to mills and factories globally - eliminating paper pattern shipping costs." },
+    {
+      title: "1. 0.1mm Vector Seam Precision & Automatic Notching",
+      desc: "CAD software eliminates manual ruler and paper drafting inaccuracies, enforcing exact sub-millimetre precision on seam allowances, dart angles, grainlines, and matching notch cutouts.",
+    },
+    {
+      title: "2. Automated Differential Size Grading",
+      desc: "Applying computerized grade rule tables scales master base patterns across XS through 3XL in seconds, maintaining exact proportional relationships across complex panel joins.",
+    },
+    {
+      title: "3. Computerized Fabric Marker Optimization",
+      desc: "CAD nesting algorithms rotate and interlock panel shapes across fabric roll widths to achieve up to 88%+ fabric utilization, reducing costly raw fabric waste by 5% to 8%.",
+    },
+    {
+      title: "4. Universal Open File Compatibility (DXF / AAMA)",
+      desc: "Digital pattern files export to open DXF/AAMA standards, allowing brands to email patterns directly to sample rooms and cutting tables anywhere in the world without physical pattern shipping.",
+    },
+    {
+      title: "5. Integrated 3D Virtual Garment Fitting",
+      desc: "Modern CAD suites integrate 3D virtual avatars (like CLO3D or Optitex 3D) to test fabric drape, tension heatmaps, and pattern fit virtually before cutting physical sample cloth.",
+    },
+    {
+      title: "6. Cloud Archiving & Rapid Style Reorders",
+      desc: "Digital CAD libraries store approved brand master blocks permanently. Future seasonal reorders or style variations reuse existing proven patterns without redrafting fees.",
+    },
+  ];
+
+  const markerOptimizationFactors = [
+    {
+      factor: "Maximum Fabric Yield Calculation",
+      detail: "CAD software calculates exact fabric consumption per size ratio prior to cutting, enabling precise yarn and raw fabric purchasing.",
+    },
+    {
+      factor: "Automatic Directional Grain Alignment",
+      detail: "Ensures pattern panels respect fabric wale/warp directions and nap rules (e.g. for velvet or brushed fleece) during automated nesting.",
+    },
+    {
+      factor: "Integration with Automated CNC Cutting Tables",
+      detail: "CAD plot files drive computerized multi-ply knife cutters directly, cutting hundreds of fabric layers simultaneously with zero human cutting error.",
+    },
+    {
+      factor: "Shrinkage Compensation Adjustments",
+      detail: "Pattern makers can scale CAD markers globally by exact fabric wash shrinkage percentages (+2% warp, -1% weft) with a single click.",
+    },
   ];
 
   const faqs = [
     {
-      q: "What CAD software packages are standard in garment manufacturing?",
-      a: "Optitex, Lectra, Gerber Technology, and CLO 3D are the leading industrial CAD software systems used by pattern makers worldwide.",
+      q: "What CAD software programs are standard in garment manufacturing?",
+      a: "Lectra Modaris, Gerber Technology (AccuMark), Optitex, EFI Optitex, and CLO 3D are the primary industrial CAD pattern making software packages used by garment factories worldwide.",
     },
     {
-      q: "Can hand-drawn paper patterns be converted into CAD?",
-      a: "Yes. Factories use digitizing tablets or high-resolution optical cameras to scan physical paper patterns into vector CAD files.",
+      q: "Can physical paper patterns be converted into digital CAD files?",
+      a: "Yes. Factories convert physical paper patterns into vector CAD files using digitizing boards (stylus tracing), high-resolution photo digitizers, or optical scanner software.",
+    },
+    {
+      q: "What file extension should I ask for when requesting my CAD patterns?",
+      a: "Always request pattern exports in open DXF format with AAMA/ASTM specs (e.g. .DXF with associated .RUL grade rule files). This ensures your patterns can be opened by any factory regardless of their specific CAD software brand.",
+    },
+    {
+      q: "How does CAD marker making save money for fashion brands?",
+      a: "Fabric accounts for 60% to 70% of a garment's FOB manufacturing cost. CAD marker nesting optimizes panel placement to minimize fabric waste, saving 5% to 8% in total raw material cost per order.",
+    },
+    {
+      q: "Is 3D virtual CAD sampling accurate enough to replace physical samples?",
+      a: "3D virtual sampling accelerates early fit evaluation and silhouette testing, significantly reducing physical proto revisions. However, final pre-production approval still requires a physical PP sample to verify real-world fabric handfeel and wash behavior.",
+    },
+    {
+      q: "Does Fenalt use CAD pattern making for client projects?",
+      a: "Yes. Fenalt's technical design hub in Dhaka uses professional CAD pattern engineering for all sampling, size grading, marker nesting, and automated CNC cutting coordination.",
     },
   ];
 
@@ -84,14 +139,14 @@ export default function CadPatternMakingExplainedPage() {
               Fenalt Learn
             </Link>
             <span className="text-xs text-[#C8A882]">/</span>
-            <span className="text-xs font-semibold uppercase tracking-[0.25em] text-[#6B6560]">Tech Packs &amp; Pattern Making</span>
+            <span className="text-xs font-semibold uppercase tracking-[0.25em] text-[#6B6560]">Tech Packs &amp; Patterns</span>
           </div>
           <h1 className="font-display text-4xl sm:text-5xl lg:text-7xl font-light text-[#1A1A1A] leading-[1.05] mb-6">
-            CAD Pattern Making for Brands{" "}
-            <span className="italic font-medium text-[#2D5016]">Explained.</span>
+            CAD Pattern Making{" "}
+            <span className="italic font-medium text-[#2D5016]">for Fashion Brands Explained.</span>
           </h1>
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
-            Computer-Aided Design (CAD) has transformed garment pattern engineering - delivering pinpoint accuracy, fast size grading, and optimized fabric yield.
+            Computer-Aided Design (CAD) pattern making digitizes garment engineering — enabling sub-millimetre vector accuracy, instant size grading, and maximum fabric yield.
           </p>
           <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>
@@ -100,23 +155,26 @@ export default function CadPatternMakingExplainedPage() {
       {/* Overview */}
       <section className="py-20 lg:py-24 bg-[#FAF9F6]">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <div className="bg-[#F2EFE9] border border-[#E5DDD3] p-8 lg:p-12 mb-12">
+          <div className="bg-[#F2EFE9] border border-[#E5DDD3] p-8 lg:p-12 mb-10">
             <div className="flex items-center gap-3 mb-4">
               <Monitor size={20} className="text-[#C8A882]" />
               <span className="text-xs font-semibold uppercase tracking-[0.25em] text-[#C8A882]">Digital Engineering</span>
             </div>
             <p className="font-display text-2xl lg:text-3xl font-light text-[#1A1A1A] leading-relaxed">
-              <strong className="font-medium">CAD Pattern Making</strong> replaces cardboard templates with digital vector files - enabling automated marker nesting and global file exchange.
+              <strong className="font-medium">CAD pattern making</strong> replaces paper drafting with vector geometry, connecting design tech packs directly to automated factory cutting tables.
             </p>
           </div>
+          <p className="text-base text-[#6B6560] leading-relaxed">
+            Digital CAD software is the operational standard in modern industrial apparel manufacturing. Converting paper patterns into vector CAD files allows pattern engineers to modify seam lines instantly, grade size runs mathematically, and calculate optimal cutting markers that reduce fabric consumption.
+          </p>
         </div>
       </section>
 
-      {/* Benefits */}
+      {/* 6 Benefits */}
       <section className="py-20 lg:py-28 bg-[#1A1A1A] text-[#FAF9F6]">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <p className="text-xs font-semibold uppercase tracking-[0.25em] text-[#C8A882] mb-4">Core Advantages</p>
-          <h2 className="font-display text-3xl lg:text-5xl font-light text-[#FAF9F6] mb-12">4 Key Benefits of CAD Patterning</h2>
+          <p className="text-xs font-semibold uppercase tracking-[0.25em] text-[#C8A882] mb-4">Technical Advantages</p>
+          <h2 className="font-display text-3xl lg:text-5xl font-light text-[#FAF9F6] mb-12">6 Capabilities of Digital CAD Pattern Making</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {benefits.map((b, i) => (
               <div key={i} className="p-6 bg-[#262626] border border-[#333333]">
@@ -129,16 +187,32 @@ export default function CadPatternMakingExplainedPage() {
         </div>
       </section>
 
+      {/* Marker Optimization */}
+      <section className="py-20 lg:py-24 bg-[#FAF9F6]">
+        <div className="max-w-4xl mx-auto px-6 lg:px-8">
+          <p className="text-xs font-semibold uppercase tracking-[0.25em] text-[#C8A882] mb-4">Cost Efficiency</p>
+          <h2 className="font-display text-3xl lg:text-4xl font-light text-[#1A1A1A] mb-8">How CAD Marker Making Reduces Unit Costs</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {markerOptimizationFactors.map((m, i) => (
+              <div key={i} className="p-6 bg-[#F2EFE9] border border-[#E5DDD3]">
+                <h3 className="font-display text-lg font-medium text-[#1A1A1A] mb-2">{m.factor}</h3>
+                <p className="text-sm text-[#6B6560] leading-relaxed">{m.detail}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* FAQs */}
-      <section className="py-20 lg:py-28 bg-[#FAF9F6]">
+      <section className="py-20 lg:py-28 bg-[#1A1A1A] text-[#FAF9F6]">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <p className="text-xs font-semibold uppercase tracking-[0.25em] text-[#C8A882] mb-4">Questions</p>
-          <h2 className="font-display text-3xl lg:text-4xl font-light text-[#1A1A1A] mb-10">Frequently Asked Questions</h2>
+          <h2 className="font-display text-3xl lg:text-4xl font-light text-[#FAF9F6] mb-10">Frequently Asked Questions</h2>
           <div className="space-y-6">
             {faqs.map((faq, i) => (
-              <div key={i} className="p-8 bg-[#F2EFE9] border border-[#E5DDD3]">
-                <h3 className="font-display text-xl font-medium text-[#1A1A1A] mb-3">{faq.q}</h3>
-                <p className="text-sm text-[#6B6560] leading-relaxed">{faq.a}</p>
+              <div key={i} className="p-6 bg-[#262626] border border-[#333333]">
+                <h3 className="font-display text-lg font-medium text-[#FAF9F6] mb-3">{faq.q}</h3>
+                <p className="text-sm text-[#E5DDD3] leading-relaxed">{faq.a}</p>
               </div>
             ))}
           </div>
@@ -152,9 +226,11 @@ export default function CadPatternMakingExplainedPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             {[
               { href: "/learn/what-is-pattern-making", label: "What Is Pattern Making in Clothing Production?" },
+              { href: "/learn/tech-pack-vs-sewing-pattern", label: "Tech Pack vs Sewing Pattern: Key Differences" },
               { href: "/learn/apparel-size-grading-explained", label: "How Apparel Size Grading Works Across Sizes" },
-              { href: "/learn/tech-pack-vs-sewing-pattern", label: "Tech Pack vs Sewing Pattern: What's the Difference?" },
-              { href: "/apparel-pattern-making-services", label: "Fenalt Pattern Making Services" },
+              { href: "/learn/points-of-measure-garment", label: "What Are Points of Measure (POM) in Garments?" },
+              { href: "/learn/tech-pack-measurements", label: "How to Create Measurements for a Tech Pack" },
+              { href: "/apparel-pattern-making-services", label: "Fenalt CAD Pattern Making & Grading Services" },
             ].map((link, i) => (
               <Link key={i} href={link.href} className="group flex items-center justify-between p-5 bg-[#FAF9F6] border border-[#E5DDD3] hover:border-[#2D5016] transition-colors">
                 <span className="text-sm font-medium text-[#1A1A1A] group-hover:text-[#2D5016] pr-4">{link.label}</span>
@@ -168,9 +244,9 @@ export default function CadPatternMakingExplainedPage() {
       {/* CTA */}
       <section className="py-20 bg-[#FAF9F6] border-t border-[#E5DDD3]">
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
-          <h2 className="font-display text-3xl lg:text-5xl font-light text-[#1A1A1A] mb-4">Digital CAD pattern engineering</h2>
+          <h2 className="font-display text-3xl lg:text-5xl font-light text-[#1A1A1A] mb-4">Digitize your garment patterns</h2>
           <p className="text-[#6B6560] leading-relaxed text-base mb-10 max-w-xl mx-auto">
-            Fenalt drafts digital DXF CAD patterns and optimized markers to minimize fabric consumption and accelerate sampling.
+            Fenalt converts tech packs into production CAD patterns, nested size grading, and optimized cutting markers in Dhaka.
           </p>
           <Link href="/intake" className="inline-flex items-center justify-center gap-2 px-10 py-4 bg-[#1A1A1A] text-[#FAF9F6] text-sm font-semibold tracking-wide hover:bg-[#2D5016] transition-colors duration-300">
             Submit Your Project <ArrowRight size={16} />

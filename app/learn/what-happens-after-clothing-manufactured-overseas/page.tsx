@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, Truck } from "lucide-react";
 export const metadata: Metadata = {
   title: "What Happens After Clothing Is Manufactured Overseas?",
   description:
-    "Explore post-production clothing logistics - final packing, FRI inspection sign-off, container stuffing, ocean vs air freight, customs clearance, and 3PL warehouse intake.",
+    "Explore post-production clothing logistics — polybagging, FRI inspection sign-off, container stuffing, ocean vs air freight, customs clearance, and 3PL warehouse intake.",
   alternates: {
     canonical: "https://fenalt.com/learn/what-happens-after-clothing-manufactured-overseas",
   },
   openGraph: {
     title: "What Happens After Clothing Is Manufactured Overseas?",
     description:
-      "Explore post-production clothing logistics - final packing, FRI inspection sign-off, container stuffing, ocean vs air freight, customs clearance, and 3PL warehouse intake.",
+      "Explore post-production clothing logistics — polybagging, FRI inspection sign-off, container stuffing, ocean vs air freight, customs clearance, and 3PL warehouse intake.",
     url: "https://fenalt.com/learn/what-happens-after-clothing-manufactured-overseas",
   },
 };
@@ -41,20 +41,63 @@ export default function WhatHappensAfterClothingManufacturedOverseasPage() {
   };
 
   const steps = [
-    { title: "1. Polybagging & Master Carton Packing", desc: "Garments are folded with tissue paper, bagged in printed warning polybags, and packed into heavy 5-ply corrugated Master Cartons with ratio stickers." },
-    { title: "2. Final Random Inspection (FRI) & Release", desc: "Auditors issue a Passed Inspection Certificate, allowing the factory to release cargo to the freight forwarder." },
-    { title: "3. Export Port Trucking & Container Loading", desc: "Cartons are trucked to Chittagong port and stuffed into 20ft or 40ft ocean containers (FCL) or consolidated as LCL cargo." },
-    { title: "4. Import Customs Clearance & 3PL Intake", desc: "Licensed customs brokers clear duty documents upon port arrival, trucking cargo directly to your brand's 3PL fulfillment warehouse." },
+    {
+      title: "1. Polybagging & Export Master Carton Packing",
+      desc: "Finished garments are steam-ironed, folded with tissue paper, sealed in suffocation warning polybags, and packed into heavy 5-ply corrugated Master Cartons with ratio stickers.",
+    },
+    {
+      title: "2. Final Random Inspection (FRI) & Release Sign-Off",
+      desc: "QC auditors perform ANSI/ASQ Z1.4 sampling, verify needle detection scans, and issue a Passed Inspection Certificate, authorizing cargo release to the freight forwarder.",
+    },
+    {
+      title: "3. Factory Port Trucking & Container Stuffing (Chittagong)",
+      desc: "Cartons are trucked from Dhaka warehouses to Chittagong port, stuffed into 20ft or 40ft ocean containers (FCL) or consolidated as LCL pallet cargo.",
+    },
+    {
+      title: "4. Cross-Border Freight Transit (Ocean vs Air Cargo)",
+      desc: "Cargo is dispatched via sea freight (25–35 days) or express air cargo (4–7 days). Bill of Lading (B/L) and tracking documentation are transmitted digitally to the brand.",
+    },
+    {
+      title: "5. Import Customs Clearance & Tariff Duty Filing",
+      desc: "Licensed customs brokers clear import documentation (Commercial Invoice, Packing List, Certificate of Origin GSP/CO) and pay applicable import duties.",
+    },
+    {
+      title: "6. Destination Port Drayage & 3PL Warehouse Intake",
+      desc: "Drayage trucks transport ocean containers from arrival ports directly to your brand's 3PL fulfillment warehouse for barcode scanning and e-commerce inventory listing.",
+    },
+  ];
+
+  const logisticsRoadmapMatrix = [
+    { milestoneStage: "Factory Warehouse", keyActivity: "FRI Inspection + Needle Scan", documentationRequired: "Inspection Certificate + Inspection Report" },
+    { milestoneStage: "Chittagong Port", keyActivity: "Container Loading & Port Export Clearance", documentationRequired: "Master Bill of Lading (B/L) + Packing List" },
+    { milestoneStage: "Import Port", keyActivity: "Customs Entry & Duty Settlement", documentationRequired: "Commercial Invoice + Certificate of Origin" },
+    { milestoneStage: "3PL Warehouse", keyActivity: "Pallet Unloading & Barcode Inventory Scan", documentationRequired: "Warehouse Receiving Log + Inventory Sign-Off" },
   ];
 
   const faqs = [
     {
-      q: "What documents are required for clearing garment imports at customs?",
-      a: "Key import documents include the Commercial Invoice, Packing List, Bill of Lading (B/L), Certificate of Origin (Form GSP/CO), and ISF filing (for US ports).",
+      q: "What commercial documents are required to clear apparel imports through customs?",
+      a: "Key import documents include: 1) Commercial Invoice, 2) Packing List, 3) Master Bill of Lading (B/L), 4) Certificate of Origin (Form GSP/CO), and 5) ISF 10+2 Filing (for US ports).",
     },
     {
-      q: "What is the difference between FCL and LCL ocean shipping?",
-      a: "FCL (Full Container Load) reserves a private 20ft or 40ft container for your brand. LCL (Less than Container Load) consolidates your pallets with other cargo in a shared container.",
+      q: "What is the difference between FCL and LCL ocean freight shipping?",
+      a: "FCL (Full Container Load) reserves a private 20ft or 40ft ocean container for your brand. LCL (Less than Container Load) consolidates your palletized cartons with other cargo in a shared container.",
+    },
+    {
+      q: "What does DDP (Delivered Duty Paid) mean for fashion brand logistics?",
+      a: "DDP means the manufacturer or sourcing partner handles 100% of sea freight, export clearance, import customs clearance, duty payments, and final truck delivery directly to your 3PL warehouse.",
+    },
+    {
+      q: "How are garments protected against moisture and mold during 30-day sea transit?",
+      a: "Garments are thoroughly dried post-ironing (moisture content under 12%), packed with silica gel desiccant packs in sealed polybags, and shipped in moisture-barrier master cartons.",
+    },
+    {
+      q: "What is a Bill of Lading (B/L) in international shipping?",
+      a: "A Bill of Lading is the official legal document issued by the ocean carrier. It acts as a contract of carriage, cargo receipt, and title document required to claim goods at the destination port.",
+    },
+    {
+      q: "How does Fenalt manage post-production logistics from Bangladesh?",
+      a: "Fenalt manages the entire post-production pipeline in Dhaka — conducting FRI audits, booking ocean/air freight, managing export customs clearance, and organizing DDP delivery to your 3PL warehouse.",
     },
   ];
 
@@ -84,14 +127,14 @@ export default function WhatHappensAfterClothingManufacturedOverseasPage() {
               Fenalt Learn
             </Link>
             <span className="text-xs text-[#C8A882]">/</span>
-            <span className="text-xs font-semibold uppercase tracking-[0.25em] text-[#6B6560]">Sourcing &amp; Strategy</span>
+            <span className="text-xs font-semibold uppercase tracking-[0.25em] text-[#6B6560]">Bangladesh &amp; International</span>
           </div>
           <h1 className="font-display text-4xl sm:text-5xl lg:text-7xl font-light text-[#1A1A1A] leading-[1.05] mb-6">
             What Happens After Clothing{" "}
             <span className="italic font-medium text-[#2D5016]">Is Manufactured Overseas?</span>
           </h1>
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
-            When bulk sewing finishes, the post-production shipping journey begins. Master the steps from Master Carton packing to 3PL warehouse delivery.
+            A comprehensive guide to post-production clothing logistics — polybagging, FRI inspection sign-off, container stuffing, ocean vs air freight, customs clearance, and 3PL warehouse intake.
           </p>
           <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>
@@ -100,23 +143,26 @@ export default function WhatHappensAfterClothingManufacturedOverseasPage() {
       {/* Overview */}
       <section className="py-20 lg:py-24 bg-[#FAF9F6]">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <div className="bg-[#F2EFE9] border border-[#E5DDD3] p-8 lg:p-12 mb-12">
+          <div className="bg-[#F2EFE9] border border-[#E5DDD3] p-8 lg:p-12 mb-10">
             <div className="flex items-center gap-3 mb-4">
               <Truck size={20} className="text-[#C8A882]" />
-              <span className="text-xs font-semibold uppercase tracking-[0.25em] text-[#C8A882]">Post-Production Logistics</span>
+              <span className="text-xs font-semibold uppercase tracking-[0.25em] text-[#C8A882]">Post-Production Pipeline</span>
             </div>
             <p className="font-display text-2xl lg:text-3xl font-light text-[#1A1A1A] leading-relaxed">
-              Post-production logistics involves <strong className="font-medium">Master Carton packaging, FRI release sign-off, ocean/air freight dispatch, and 3PL warehouse intake</strong>.
+              Manufacturing completion is only halfway — <strong className="font-medium">post-production logistics deliver garments safely to retail shelves</strong>.
             </p>
           </div>
+          <p className="text-base text-[#6B6560] leading-relaxed">
+            The post-production journey transforms sewn clothing into sellable inventory. Passing final pre-shipment FRI audits, applying polybag suffocation warnings, stuffing ocean containers at Chittagong port, clearing import customs, and receiving stock at 3PL fulfillment warehouses require meticulous supply chain management.
+          </p>
         </div>
       </section>
 
-      {/* Steps */}
+      {/* 6 Steps */}
       <section className="py-20 lg:py-28 bg-[#1A1A1A] text-[#FAF9F6]">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <p className="text-xs font-semibold uppercase tracking-[0.25em] text-[#C8A882] mb-4">Post-Production Journey</p>
-          <h2 className="font-display text-3xl lg:text-5xl font-light text-[#FAF9F6] mb-12">4 Post-Production Milestones</h2>
+          <p className="text-xs font-semibold uppercase tracking-[0.25em] text-[#C8A882] mb-4">Logistics Workflow</p>
+          <h2 className="font-display text-3xl lg:text-5xl font-light text-[#FAF9F6] mb-12">6 Stages of Post-Production Logistics</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {steps.map((st, i) => (
               <div key={i} className="p-6 bg-[#262626] border border-[#333333]">
@@ -129,16 +175,44 @@ export default function WhatHappensAfterClothingManufacturedOverseasPage() {
         </div>
       </section>
 
+      {/* Logistics Table */}
+      <section className="py-20 lg:py-24 bg-[#FAF9F6]">
+        <div className="max-w-5xl mx-auto px-6 lg:px-8">
+          <p className="text-xs font-semibold uppercase tracking-[0.25em] text-[#C8A882] mb-4">Documentation Matrix</p>
+          <h2 className="font-display text-3xl lg:text-4xl font-light text-[#1A1A1A] mb-8">Post-Production Logistics &amp; Documentation Roadmap</h2>
+          <div className="overflow-x-auto">
+            <table className="w-full border-collapse">
+              <thead>
+                <tr className="bg-[#1A1A1A] text-[#FAF9F6]">
+                  <th className="text-left p-4 text-xs font-semibold uppercase tracking-widest w-1/4">Logistics Milestone</th>
+                  <th className="text-left p-4 text-xs font-semibold uppercase tracking-widest w-1/3">Key Operational Activity</th>
+                  <th className="text-left p-4 text-xs font-semibold uppercase tracking-widest w-[41.6%]">Mandatory Cargo Documentation</th>
+                </tr>
+              </thead>
+              <tbody>
+                {logisticsRoadmapMatrix.map((row, i) => (
+                  <tr key={i} className={i % 2 === 0 ? "bg-[#F2EFE9]" : "bg-[#FAF9F6]"}>
+                    <td className="p-4 text-sm font-semibold text-[#1A1A1A] border-t border-[#E5DDD3] align-top">{row.milestoneStage}</td>
+                    <td className="p-4 text-sm text-[#6B6560] border-t border-[#E5DDD3] align-top">{row.keyActivity}</td>
+                    <td className="p-4 text-sm text-[#2D5016] border-t border-[#E5DDD3] leading-relaxed align-top font-medium">{row.documentationRequired}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
       {/* FAQs */}
-      <section className="py-20 lg:py-28 bg-[#FAF9F6]">
+      <section className="py-20 lg:py-28 bg-[#1A1A1A] text-[#FAF9F6]">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <p className="text-xs font-semibold uppercase tracking-[0.25em] text-[#C8A882] mb-4">Questions</p>
-          <h2 className="font-display text-3xl lg:text-4xl font-light text-[#1A1A1A] mb-10">Frequently Asked Questions</h2>
+          <h2 className="font-display text-3xl lg:text-4xl font-light text-[#FAF9F6] mb-10">Frequently Asked Questions</h2>
           <div className="space-y-6">
             {faqs.map((faq, i) => (
-              <div key={i} className="p-8 bg-[#F2EFE9] border border-[#E5DDD3]">
-                <h3 className="font-display text-xl font-medium text-[#1A1A1A] mb-3">{faq.q}</h3>
-                <p className="text-sm text-[#6B6560] leading-relaxed">{faq.a}</p>
+              <div key={i} className="p-6 bg-[#262626] border border-[#333333]">
+                <h3 className="font-display text-lg font-medium text-[#FAF9F6] mb-3">{faq.q}</h3>
+                <p className="text-sm text-[#E5DDD3] leading-relaxed">{faq.a}</p>
               </div>
             ))}
           </div>
@@ -151,10 +225,12 @@ export default function WhatHappensAfterClothingManufacturedOverseasPage() {
           <p className="text-xs font-semibold uppercase tracking-[0.25em] text-[#C8A882] mb-6">Continue Learning</p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             {[
+              { href: "/learn/how-apparel-manufacturing-in-bangladesh-works", label: "How Apparel Manufacturing in Bangladesh Works" },
+              { href: "/learn/what-to-know-before-sourcing-from-bangladesh", label: "What to Know Before Sourcing From Bangladesh" },
               { href: "/learn/how-international-clothing-production-is-coordinated", label: "How International Production Is Coordinated" },
-              { href: "/learn/final-inspection-finished-garments", label: "Final Inspection for Finished Garments: AQL Protocol" },
-              { href: "/garment-packaging-custom-labeling-services", label: "Garment Packaging & Labeling Services" },
-              { href: "/overseas-production-management-apparel", label: "Fenalt Overseas Logistics Management" },
+              { href: "/learn/overseas-apparel-production-checklist", label: "Overseas Apparel Production Checklist" },
+              { href: "/learn/final-inspection-finished-garments", label: "Final Inspection of Finished Garments" },
+              { href: "/apparel-production-management-services", label: "Fenalt Export Logistics Services in Dhaka" },
             ].map((link, i) => (
               <Link key={i} href={link.href} className="group flex items-center justify-between p-5 bg-[#FAF9F6] border border-[#E5DDD3] hover:border-[#2D5016] transition-colors">
                 <span className="text-sm font-medium text-[#1A1A1A] group-hover:text-[#2D5016] pr-4">{link.label}</span>
@@ -168,9 +244,9 @@ export default function WhatHappensAfterClothingManufacturedOverseasPage() {
       {/* CTA */}
       <section className="py-20 bg-[#FAF9F6] border-t border-[#E5DDD3]">
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
-          <h2 className="font-display text-3xl lg:text-5xl font-light text-[#1A1A1A] mb-4">Door-to-door garment logistics</h2>
+          <h2 className="font-display text-3xl lg:text-5xl font-light text-[#1A1A1A] mb-4">Complete post-production export management</h2>
           <p className="text-[#6B6560] leading-relaxed text-base mb-10 max-w-xl mx-auto">
-            Fenalt manages export carton packing, FRI release certificates, and door-to-door DDP freight delivery directly to your door.
+            Fenalt handles pre-shipment FRI inspections, needle scanning, ocean container booking, and DDP freight clearance in Dhaka.
           </p>
           <Link href="/intake" className="inline-flex items-center justify-center gap-2 px-10 py-4 bg-[#1A1A1A] text-[#FAF9F6] text-sm font-semibold tracking-wide hover:bg-[#2D5016] transition-colors duration-300">
             Submit Your Project <ArrowRight size={16} />

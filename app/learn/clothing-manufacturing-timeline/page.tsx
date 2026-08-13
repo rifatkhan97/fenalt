@@ -99,26 +99,47 @@ export default function ClothingManufacturingTimelinePage() {
   ];
 
   const delayFactors = [
-    "Incomplete or frequently changed tech pack requiring multiple revision rounds",
-    "Fabric sourcing delays - mill lead times, lab dip re-approvals, minimum run quantities",
-    "Unclear or late feedback on samples - adding days to revision cycles",
-    "Factory scheduling conflicts - peak production seasons (pre-CNY, pre-Q4)",
-    "Customs delays on import - particularly for first-time importers or new HS codes",
-    "Public holidays in the manufacturing country (e.g. Eid in Bangladesh) - typically 1–2 week closure periods",
+    "Incomplete or frequently changed tech pack requiring multiple revision rounds before sampling can stabilise",
+    "Fabric sourcing delays — mill lead times, lab dip re-approvals, minimum run quantities that require custom fabric orders",
+    "Unclear or late feedback on samples — each day of delayed brand response adds a day to the revision cycle",
+    "Factory scheduling conflicts — peak production seasons (pre-CNY, pre-Q4) compress factory availability significantly",
+    "Customs delays on import — particularly for first-time importers, new HS codes, or markets with tighter documentation requirements",
+    "Public holidays in the manufacturing country — Eid al-Fitr and Eid al-Adha in Bangladesh typically result in 1–2 week factory closure periods",
+    "Multiple colourways requiring separate lab dip approval rounds — each colourway can add 1–2 weeks if dye matching is difficult",
+  ];
+
+  const planningTips = [
+    { tip: "Start fabric sourcing immediately", detail: "Don't wait for fit sample approval to begin fabric sourcing. Lab dip approval and fabric procurement can run in parallel with early sampling — this single habit saves 2 to 4 weeks on most projects." },
+    { tip: "Work backwards from your target launch date", detail: "Count backwards from your desired in-market date, including sea freight time, customs clearance, warehousing, and any pre-launch prep time. Then identify the latest acceptable date for bulk production to start — and work backwards from there." },
+    { tip: "Complete your tech pack before engaging manufacturers", detail: "Every week spent developing your tech pack after submitting to a manufacturer is a week the factory is idle waiting for information. Invest the time upfront to compress downstream stages." },
+    { tip: "Designate one approval decision-maker", detail: "Multiple stakeholders with different opinions slow every approval cycle. Designate a single person to sign off samples and provide feedback — this alone can shave days from each revision round." },
+    { tip: "Account for public holidays before setting deadlines", detail: "Check the factory country's public holiday calendar for your projected production window. A 1–2 week Eid closure in the middle of your bulk production window can significantly impact your delivery date." },
   ];
 
   const faqs = [
     {
       q: "What is the fastest possible manufacturing timeline?",
-      a: "For a brand with a complete tech pack, working with an established manufacturer, using in-stock fabric, and accepting air freight - a first order can potentially be completed in 10 to 14 weeks from brief to delivery. However, this scenario requires everything to go smoothly and multiple stages to proceed without delays or revision rounds. It is not a reliable planning assumption for a first project.",
+      a: "For a brand with a complete tech pack, working with an established manufacturer, using in-stock fabric, and accepting air freight — a first order can potentially be completed in 10 to 14 weeks from brief to delivery. However, this scenario requires everything to go smoothly and multiple stages to proceed without delays or revision rounds. It is not a reliable planning assumption for a first project. Plan for 16 to 20 weeks as a realistic best-case for a new brand.",
     },
     {
       q: "What are Fenalt's production timeline estimates?",
-      a: "Fenalt estimates prototype fit sample turnaround at 10 to 14 days following tech pack and pattern approval. Bulk production runs are estimated at 4 to 6 weeks following final fit approval, depending on order scale and material procurement. These are estimates - actual timelines depend on garment complexity, fabric sourcing, and revision rounds.",
+      a: "Fenalt estimates prototype fit sample turnaround at 10 to 14 days following tech pack and pattern approval. Bulk production runs are estimated at 4 to 6 weeks following final fit approval, depending on order scale and material procurement. These are estimates — actual timelines depend on garment complexity, fabric sourcing, and revision rounds. Fenalt provides project-specific timeline estimates at the time of brief submission.",
     },
     {
       q: "How much time buffer should a brand plan?",
-      a: "Allow at minimum 4 weeks of buffer beyond your estimated timeline for any production project. For a first collection with a new manufacturer, plan for 6 to 8 weeks of buffer. Buffer absorbs the most common delay sources: sample revision rounds, fabric sourcing delays, and shipping irregularities.",
+      a: "Allow at minimum 4 weeks of buffer beyond your estimated timeline for any production project. For a first collection with a new manufacturer, plan for 6 to 8 weeks of buffer. Buffer absorbs the most common delay sources: sample revision rounds, fabric sourcing delays, and shipping irregularities. Brands who plan to their estimated completion date — with no buffer — routinely miss their target launch windows.",
+    },
+    {
+      q: "How does the timeline differ for a reorder vs a first production run?",
+      a: "A reorder of an existing, proven style from the same manufacturer with the same fabric is significantly faster. Pattern and PP sample rounds may be eliminated or reduced to a single confirmation sample. Fabric may already be available from the same mill and dye lot. Realistically, a well-managed reorder can be 4 to 6 weeks shorter than the original production cycle. However, if any specifications have changed — new colourway, updated sizing, different fabric — treat those elements as a new development.",
+    },
+    {
+      q: "Does sea freight transit time count in the production timeline?",
+      a: "Yes. Sea freight is a significant component of total time-to-market. From Bangladesh to the UK or Europe, sea freight typically takes 20 to 28 days. To North America or Australia, allow 25 to 35 days. Customs clearance adds 2 to 5 business days at the destination port. Air freight reduces this to 5 to 10 days total but costs approximately 5 to 8 times more per kilogram — typically viable only for urgent shipments or lightweight parcels.",
+    },
+    {
+      q: "Why do so many first collections arrive late?",
+      a: "The most common causes are: underestimated tech pack development time, unexpected revision rounds during sampling, lab dip re-approval cycles for difficult custom colours, fabric mill lead times starting later than planned, and failure to account for factory holiday closures. Most brands plan to a best-case scenario and execute to an average-case scenario — the gap between those two assumptions is where delays accumulate.",
     },
   ];
 
@@ -210,6 +231,22 @@ export default function ClothingManufacturingTimelinePage() {
         </div>
       </section>
 
+      {/* Planning tips */}
+      <section className="py-20 lg:py-24 bg-[#FAF9F6]">
+        <div className="max-w-4xl mx-auto px-6 lg:px-8">
+          <p className="text-xs font-semibold uppercase tracking-[0.25em] text-[#C8A882] mb-4">How to Plan Effectively</p>
+          <h2 className="font-display text-3xl lg:text-4xl font-light text-[#1A1A1A] mb-8">5 Planning Habits That Compress Timelines</h2>
+          <div className="space-y-4">
+            {planningTips.map((pt, i) => (
+              <div key={i} className="p-6 bg-[#F2EFE9] border border-[#E5DDD3]">
+                <h3 className="font-display text-lg font-medium text-[#1A1A1A] mb-2">{pt.tip}</h3>
+                <p className="text-sm text-[#6B6560] leading-relaxed">{pt.detail}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* FAQs */}
       <section className="py-20 lg:py-28 bg-[#FAF9F6]">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
@@ -234,6 +271,8 @@ export default function ClothingManufacturingTimelinePage() {
               { href: "/learn/how-clothing-manufacturing-works", label: "How Clothing Manufacturing Works" },
               { href: "/learn/startups-prepare-for-first-production-run", label: "How Startups Prepare for Their First Production Run" },
               { href: "/learn/what-is-a-clothing-sample", label: "What Is a Clothing Sample?" },
+              { href: "/learn/tech-pack-to-bulk-production", label: "What Happens Between a Tech Pack and Bulk Production?" },
+              { href: "/learn/apparel-production-process-explained", label: "The Apparel Production Process Step by Step" },
               { href: "/apparel-production-management", label: "Fenalt: Apparel Production Management" },
             ].map((link, i) => (
               <Link key={i} href={link.href} className="group flex items-center justify-between p-5 bg-[#FAF9F6] border border-[#E5DDD3] hover:border-[#2D5016] transition-colors">

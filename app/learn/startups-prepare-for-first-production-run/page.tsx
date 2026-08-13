@@ -100,11 +100,27 @@ export default function StartupsPrepareForFirstProductionRunPage() {
   const faqs = [
     {
       q: "How long does a first production run realistically take?",
-      a: "For a brand new to a manufacturer with custom cut-and-sew garments, allow a minimum of 16 to 20 weeks from initial brief to goods received. This includes: 2 to 4 weeks for design and tech pack finalisation, 4 to 6 weeks for sampling and approval, 4 to 6 weeks for bulk production, and 3 to 5 weeks for sea freight. Air freight reduces shipping time but significantly increases cost.",
+      a: "For a brand new to a manufacturer with custom cut-and-sew garments, allow a minimum of 16 to 20 weeks from initial brief to goods received. This includes: 2 to 4 weeks for design and tech pack finalisation, 4 to 6 weeks for sampling and approval, 4 to 6 weeks for bulk production, and 3 to 5 weeks for sea freight. Air freight reduces shipping time but significantly increases cost. Add 4 to 8 weeks buffer for an unexpectedly smooth process on a first project.",
     },
     {
       q: "Can Fenalt help with a brand's first production run?",
-      a: "Yes. Fenalt specialises in supporting independent brands, emerging designers, and startups through their first production projects in Bangladesh - including sampling, production oversight, QC, and export coordination.",
+      a: "Yes. Fenalt specialises in supporting independent brands, emerging designers, and startups through their first production projects in Bangladesh — including tech pack review, sampling, production oversight, QC, and export coordination. Brands can submit a project brief directly through the intake form.",
+    },
+    {
+      q: "Do I need a full tech pack before contacting a manufacturer?",
+      a: "A complete tech pack is strongly recommended before submission for best results. However, some manufacturers and production management partners (including Fenalt) offer tech pack development support for brands who have a design concept and reference garment but lack the technical documentation. Submitting without any tech pack documentation will limit the accuracy of any initial quote and significantly extends the sampling process.",
+    },
+    {
+      q: "What is the minimum viable order quantity for a first production run?",
+      a: "This varies by manufacturer and product category. For cut-and-sew knit garments (hoodies, sweatshirts, t-shirts), many specialist manufacturers accept starting orders from 50 to 100 units per style. However, fabric mill minimums, label setup costs, and per-unit economics often make orders below 100 units difficult to cost effectively. A realistic first-run MOQ for most brands is 100 to 300 units per style.",
+    },
+    {
+      q: "What costs should I budget for beyond per-unit manufacturing cost?",
+      a: "Full landed cost per unit includes: FOB manufacturing price + sampling fees (typically $30–$300 per sample type depending on complexity) + sea or air freight + import duty (varies by HS code and destination country, commonly 10–20% for garments) + customs broker fees + warehousing upon arrival + any pre-shipment inspection fees. Brands often underestimate total landed cost by 30–50% when planning from manufacturing price alone.",
+    },
+    {
+      q: "What is the biggest mistake first-time brands make in production?",
+      a: "Committing to bulk production before approving a pre-production sample. This is the single most avoidable cause of bulk order defects. The PP sample approval is the contractual quality gate that defines the standard for the entire run. Brands who feel time pressure and approve a PP sample with known unresolved issues — or worse, begin bulk cutting before a PP sample is made — are accepting full financial responsibility for whatever defects result.",
     },
   ];
 
@@ -192,8 +208,10 @@ export default function StartupsPrepareForFirstProductionRunPage() {
             {[
               { href: "/learn/what-is-a-tech-pack", label: "What Is a Tech Pack?" },
               { href: "/learn/what-does-low-moq-mean", label: "What Does Low MOQ Mean?" },
-              { href: "/learn/clothing-manufacturing-timeline", label: "How Long Does Clothing Manufacturing Take?" },
-              { href: "/clothing-manufacturer-for-startups", label: "Fenalt: Manufacturing Partner for Startups" },
+              { href: "/learn/low-moq-vs-bulk-manufacturing", label: "Low MOQ vs Bulk Manufacturing: What Changes?" },
+              { href: "/learn/how-many-units-for-new-fashion-brand", label: "How Many Units Should a New Brand Produce?" },
+              { href: "/learn/reduce-risk-when-launching-clothing-collection", label: "How to Reduce Risk When Launching a Collection" },
+              { href: "/clothing-manufacturer-for-startups", label: "Fenalt: Manufacturing Partner for Startups in Dhaka" },
             ].map((link, i) => (
               <Link key={i} href={link.href} className="group flex items-center justify-between p-5 bg-[#FAF9F6] border border-[#E5DDD3] hover:border-[#2D5016] transition-colors">
                 <span className="text-sm font-medium text-[#1A1A1A] group-hover:text-[#2D5016] pr-4">{link.label}</span>
