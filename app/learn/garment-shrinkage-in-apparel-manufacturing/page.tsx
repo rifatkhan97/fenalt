@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, RefreshCw } from "lucide-react";
 export const metadata: Metadata = {
   title: "Understanding Shrinkage in Apparel Manufacturing",
   description:
-    "Explore fabric and garment shrinkage — understanding length vs width shrinkage rates, CAD pattern scale-up compensation, mill compacting, Sanforizing, and bio-washing treatments.",
+    "Explore fabric and garment shrinkage - understanding length vs width shrinkage rates, CAD pattern scale-up compensation, mill compacting, Sanforizing, and bio-washing treatments.",
   alternates: {
     canonical: "https://fenalt.com/learn/garment-shrinkage-in-apparel-manufacturing",
   },
   openGraph: {
     title: "Understanding Shrinkage in Apparel Manufacturing",
     description:
-      "Explore fabric and garment shrinkage — understanding length vs width shrinkage rates, CAD pattern scale-up compensation, mill compacting, Sanforizing, and bio-washing treatments.",
+      "Explore fabric and garment shrinkage - understanding length vs width shrinkage rates, CAD pattern scale-up compensation, mill compacting, Sanforizing, and bio-washing treatments.",
     url: "https://fenalt.com/learn/garment-shrinkage-in-apparel-manufacturing",
   },
 };
@@ -134,7 +134,7 @@ export default function GarmentShrinkageInApparelManufacturingPage() {
             <span className="italic font-medium text-[#2D5016]">in Apparel Manufacturing.</span>
           </h1>
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
-            A technical guide to managing fabric shrinkage — understanding length vs width contraction, CAD pattern scale-up compensation, mill compacting, and bio-washing.
+            A technical guide to managing fabric shrinkage - understanding length vs width contraction, CAD pattern scale-up compensation, mill compacting, and bio-washing.
           </p>
           <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>

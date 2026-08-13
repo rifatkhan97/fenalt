@@ -125,7 +125,7 @@ export default function WhatToIncludeInATechPackPage() {
     },
     {
       q: "How detailed should the Bill of Materials (BOM) be?",
-      a: "Your BOM should account for every single physical component of the garment — including shell fabric, lining, ribbing, interlining, sewing thread, main label, care tag, size tag, hangtag, polybag, and zippers.",
+      a: "Your BOM should account for every single physical component of the garment - including shell fabric, lining, ribbing, interlining, sewing thread, main label, care tag, size tag, hangtag, polybag, and zippers.",
     },
     {
       q: "What software is best for creating apparel tech packs?",

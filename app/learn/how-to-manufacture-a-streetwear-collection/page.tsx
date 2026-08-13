@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, Layers } from "lucide-react";
 export const metadata: Metadata = {
   title: "How to Manufacture a Streetwear Collection: Step-by-Step Guide",
   description:
-    "A practical guide to manufacturing a streetwear collection — from heavyweight fabric sourcing and oversized pattern creation to drop strategy and small-batch planning.",
+    "A practical guide to manufacturing a streetwear collection - from heavyweight fabric sourcing and oversized pattern creation to drop strategy and small-batch planning.",
   alternates: {
     canonical: "https://fenalt.com/learn/how-to-manufacture-a-streetwear-collection",
   },
   openGraph: {
     title: "How to Manufacture a Streetwear Collection: Step-by-Step Guide",
     description:
-      "A practical guide to manufacturing a streetwear collection — from heavyweight fabric sourcing and oversized pattern creation to drop strategy and small-batch planning.",
+      "A practical guide to manufacturing a streetwear collection - from heavyweight fabric sourcing and oversized pattern creation to drop strategy and small-batch planning.",
     url: "https://fenalt.com/learn/how-to-manufacture-a-streetwear-collection",
   },
 };
@@ -82,7 +82,7 @@ export default function HowToManufactureStreetwearCollectionPage() {
     },
     {
       q: "How long does it take to manufacture a streetwear capsule?",
-      a: "A typical cut-and-sew streetwear production cycle takes 6 to 8 weeks — including 2 weeks for CAD patterns and proto sampling, 2 weeks for bulk fabric milling/dyeing, and 3 to 4 weeks for sewing, screen printing, QC, and packing.",
+      a: "A typical cut-and-sew streetwear production cycle takes 6 to 8 weeks - including 2 weeks for CAD patterns and proto sampling, 2 weeks for bulk fabric milling/dyeing, and 3 to 4 weeks for sewing, screen printing, QC, and packing.",
     },
     {
       q: "What is the minimum order quantity (MOQ) for custom streetwear?",
@@ -188,7 +188,7 @@ export default function HowToManufactureStreetwearCollectionPage() {
             </div>
             <div className="p-5 bg-[#2A2A2A] border border-[#3A3A3A]">
               <h3 className="font-display text-lg font-medium text-[#C8A882] mb-2">4. Signature Accessory</h3>
-              <p className="text-xs text-[#E5DDD3] leading-relaxed">Woven headwear (beanie/cap) or tote bag — lower price point item to increase average order value.</p>
+              <p className="text-xs text-[#E5DDD3] leading-relaxed">Woven headwear (beanie/cap) or tote bag - lower price point item to increase average order value.</p>
             </div>
           </div>
         </div>

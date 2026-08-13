@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, Globe } from "lucide-react";
 export const metadata: Metadata = {
   title: "Fabric Sourcing Guide for Fashion Brands: Step-by-Step",
   description:
-    "Master fabric procurement — working with textile mills, understanding greige fabric stock, negotiating minimums (MOQs), approving lab-dips, and managing lead times.",
+    "Master fabric procurement - working with textile mills, understanding greige fabric stock, negotiating minimums (MOQs), approving lab-dips, and managing lead times.",
   alternates: {
     canonical: "https://fenalt.com/learn/fabric-sourcing-guide-for-fashion-brands",
   },
   openGraph: {
     title: "Fabric Sourcing Guide for Fashion Brands: Step-by-Step",
     description:
-      "Master fabric procurement — working with textile mills, understanding greige fabric stock, negotiating minimums (MOQs), approving lab-dips, and managing lead times.",
+      "Master fabric procurement - working with textile mills, understanding greige fabric stock, negotiating minimums (MOQs), approving lab-dips, and managing lead times.",
     url: "https://fenalt.com/learn/fabric-sourcing-guide-for-fashion-brands",
   },
 };
@@ -97,7 +97,7 @@ export default function FabricSourcingGuideForFashionBrandsPage() {
     },
     {
       q: "How does Fenalt assist with fabric sourcing in Dhaka?",
-      a: "Fenalt's Dhaka sourcing team acts as your local liaison with audited textile mills in Bangladesh — negotiating fabric prices, managing lab-dip approvals, verifying GSM weight, and conducting raw roll QC inspections.",
+      a: "Fenalt's Dhaka sourcing team acts as your local liaison with audited textile mills in Bangladesh - negotiating fabric prices, managing lab-dip approvals, verifying GSM weight, and conducting raw roll QC inspections.",
     },
   ];
 
@@ -134,7 +134,7 @@ export default function FabricSourcingGuideForFashionBrandsPage() {
             <span className="italic font-medium text-[#2D5016]">for Fashion Brands.</span>
           </h1>
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
-            A step-by-step guide to textile procurement — working with mills, choosing stock vs custom dyeing, approving lab-dips, and managing lead times.
+            A step-by-step guide to textile procurement - working with mills, choosing stock vs custom dyeing, approving lab-dips, and managing lead times.
           </p>
           <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>

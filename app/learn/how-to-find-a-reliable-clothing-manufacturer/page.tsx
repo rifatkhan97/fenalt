@@ -5,11 +5,11 @@ import { ArrowRight, BookOpen, CheckCircle2, Search } from "lucide-react";
 export const metadata: Metadata = {
   title: "How to Find a Reliable Clothing Manufacturer",
   description:
-    "A practical guide to finding a reliable clothing manufacturer — where to look, how to evaluate options, and what distinguishes a trustworthy manufacturing partner.",
+    "A practical guide to finding a reliable clothing manufacturer - where to look, how to evaluate options, and what distinguishes a trustworthy manufacturing partner.",
   alternates: { canonical: "https://fenalt.com/learn/how-to-find-a-reliable-clothing-manufacturer" },
   openGraph: {
     title: "How to Find a Reliable Clothing Manufacturer",
-    description: "A practical guide to finding a reliable clothing manufacturer — where to look, how to evaluate options, and what distinguishes a trustworthy partner.",
+    description: "A practical guide to finding a reliable clothing manufacturer - where to look, how to evaluate options, and what distinguishes a trustworthy partner.",
     url: "https://fenalt.com/learn/how-to-find-a-reliable-clothing-manufacturer",
   },
 };
@@ -39,7 +39,7 @@ export default function HowToFindAReliableManufacturerPage() {
   const sources = [
     {
       method: "1. On-the-Ground Production Liaison & Sourcing Managers",
-      description: "A dedicated production management firm with an active team in a major manufacturing hub (such as Dhaka, Bangladesh) provides direct access to pre-vetted micro-factories — eliminating unverified online supplier risks.",
+      description: "A dedicated production management firm with an active team in a major manufacturing hub (such as Dhaka, Bangladesh) provides direct access to pre-vetted micro-factories - eliminating unverified online supplier risks.",
       pros: ["Pre-vetted audited factory networks", "On-the-ground QC inspection oversight", "Native language communication & local bargaining", "Protects brand against subcontractor ghosting"],
       cons: ["Service fee integrated into quote", "Requires relying on liaison's vetting protocol"],
     },
@@ -102,7 +102,7 @@ export default function HowToFindAReliableManufacturerPage() {
     },
     {
       q: "How does Fenalt simplify finding a reliable manufacturer in Bangladesh?",
-      a: "Fenalt operates as your on-the-ground production management partner in Dhaka — providing instant access to audited partner micro-factories, pre-screened fabric mills, and transparent AQL 2.5 quality control.",
+      a: "Fenalt operates as your on-the-ground production management partner in Dhaka - providing instant access to audited partner micro-factories, pre-screened fabric mills, and transparent AQL 2.5 quality control.",
     },
   ];
 
@@ -130,7 +130,7 @@ export default function HowToFindAReliableManufacturerPage() {
             <span className="italic font-medium text-[#2D5016]">Clothing Manufacturer.</span>
           </h1>
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
-            Finding a reliable manufacturing partner involves knowing where to look and how to evaluate what you find. This guide covers five real methods — with honest pros and cons for each.
+            Finding a reliable manufacturing partner involves knowing where to look and how to evaluate what you find. This guide covers five real methods - with honest pros and cons for each.
           </p>
           <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>
@@ -251,7 +251,7 @@ export default function HowToFindAReliableManufacturerPage() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
           <h2 className="font-display text-3xl lg:text-5xl font-light text-[#1A1A1A] mb-4">Skip the search. Work with Fenalt.</h2>
           <p className="text-[#6B6560] leading-relaxed text-base mb-10 max-w-xl mx-auto">
-            Fenalt connects brands with audited partner micro-factories in Dhaka, Bangladesh — with full production oversight from sampling to export.
+            Fenalt connects brands with audited partner micro-factories in Dhaka, Bangladesh - with full production oversight from sampling to export.
           </p>
           <Link href="/intake" className="inline-flex items-center justify-center gap-2 px-10 py-4 bg-[#1A1A1A] text-[#FAF9F6] text-sm font-semibold tracking-wide hover:bg-[#2D5016] transition-colors duration-300">
             Submit Your Project <ArrowRight size={16} />

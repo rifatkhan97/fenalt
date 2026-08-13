@@ -153,7 +153,7 @@ export default function GarmentQualityChecklistForBrandsPage() {
             </p>
           </div>
           <p className="text-base text-[#6B6560] leading-relaxed">
-            Vague instructions lead to production errors. Building a formal garment quality control checklist ensures that factory floor supervisors, inline auditors, and third-party inspectors inspect your clothing against identical technical parameters — from fabric weight and POM tolerances to defect classifications and master carton packaging.
+            Vague instructions lead to production errors. Building a formal garment quality control checklist ensures that factory floor supervisors, inline auditors, and third-party inspectors inspect your clothing against identical technical parameters - from fabric weight and POM tolerances to defect classifications and master carton packaging.
           </p>
         </div>
       </section>

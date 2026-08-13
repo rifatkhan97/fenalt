@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, HelpCircle } from "lucide-react";
 export const metadata: Metadata = {
   title: "Why Apparel Samples Sometimes Need Multiple Revisions",
   description:
-    "Explore the top technical reasons garment samples require multiple revisions — fabric shrinkage, tech pack ambiguities, pattern drafting shifts, wash treatments, and trim calibration.",
+    "Explore the top technical reasons garment samples require multiple revisions - fabric shrinkage, tech pack ambiguities, pattern drafting shifts, wash treatments, and trim calibration.",
   alternates: {
     canonical: "https://fenalt.com/learn/why-samples-need-multiple-revisions",
   },
   openGraph: {
     title: "Why Apparel Samples Sometimes Need Multiple Revisions",
     description:
-      "Explore the top technical reasons garment samples require multiple revisions — fabric shrinkage, tech pack ambiguities, pattern drafting shifts, wash treatments, and trim calibration.",
+      "Explore the top technical reasons garment samples require multiple revisions - fabric shrinkage, tech pack ambiguities, pattern drafting shifts, wash treatments, and trim calibration.",
     url: "https://fenalt.com/learn/why-samples-need-multiple-revisions",
   },
 };
@@ -51,7 +51,7 @@ export default function WhySamplesNeedMultipleRevisionsPage() {
     },
     {
       title: "3. 2D Sketch to 3D Fit Model Translation",
-      desc: "Evaluating a prototype on a live fit model or calibrated dress form often reveals ergonomic and drape adjustments — such as dropping a shoulder slope by 1.5 cm or widening an armhole — that were not apparent in flat vector drawings.",
+      desc: "Evaluating a prototype on a live fit model or calibrated dress form often reveals ergonomic and drape adjustments - such as dropping a shoulder slope by 1.5 cm or widening an armhole - that were not apparent in flat vector drawings.",
     },
     {
       title: "4. Wash Treatments, Garment Dyeing & Softening",
@@ -93,7 +93,7 @@ export default function WhySamplesNeedMultipleRevisionsPage() {
     },
     {
       q: "How many sample revisions are considered normal for a custom hoodie?",
-      a: "Complex streetwear styles — such as heavyweight French Terry hoodies with custom washes, puff printing, or raglan seaming — typically require 2 to 3 revision rounds (Proto, Revised Fit, and Pre-Production Sample) before final sign-off.",
+      a: "Complex streetwear styles - such as heavyweight French Terry hoodies with custom washes, puff printing, or raglan seaming - typically require 2 to 3 revision rounds (Proto, Revised Fit, and Pre-Production Sample) before final sign-off.",
     },
     {
       q: "How can brands minimise sampling revision turnaround times?",
@@ -161,7 +161,7 @@ export default function WhySamplesNeedMultipleRevisionsPage() {
               <span className="text-xs font-semibold uppercase tracking-[0.25em] text-[#C8A882]">Technical Reality</span>
             </div>
             <p className="font-display text-2xl lg:text-3xl font-light text-[#1A1A1A] leading-relaxed">
-              Multiple sample rounds are not a sign of manufacturing failure — they are <strong className="font-medium">the standard mechanism for refining pattern dimensions and fabric behaviour</strong> before bulk cutting.
+              Multiple sample rounds are not a sign of manufacturing failure - they are <strong className="font-medium">the standard mechanism for refining pattern dimensions and fabric behaviour</strong> before bulk cutting.
             </p>
           </div>
           <p className="text-base text-[#6B6560] leading-relaxed">

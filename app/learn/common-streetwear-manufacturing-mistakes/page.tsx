@@ -5,14 +5,14 @@ import { AlertTriangle, ArrowRight, BookOpen, CheckCircle2 } from "lucide-react"
 export const metadata: Metadata = {
   title: "Common Streetwear Manufacturing Mistakes to Avoid",
   description:
-    "Discover the most frequent technical, fabric, pattern, and decoration pitfalls that emerging streetwear brands encounter during bulk manufacturing — and how to avoid each one.",
+    "Discover the most frequent technical, fabric, pattern, and decoration pitfalls that emerging streetwear brands encounter during bulk manufacturing - and how to avoid each one.",
   alternates: {
     canonical: "https://fenalt.com/learn/common-streetwear-manufacturing-mistakes",
   },
   openGraph: {
     title: "Common Streetwear Manufacturing Mistakes to Avoid",
     description:
-      "Discover the most frequent technical, fabric, pattern, and decoration pitfalls that emerging streetwear brands encounter during bulk manufacturing — and how to avoid each one.",
+      "Discover the most frequent technical, fabric, pattern, and decoration pitfalls that emerging streetwear brands encounter during bulk manufacturing - and how to avoid each one.",
     url: "https://fenalt.com/learn/common-streetwear-manufacturing-mistakes",
   },
 };
@@ -43,7 +43,7 @@ export default function CommonStreetwearManufacturingMistakesPage() {
   const mistakes = [
     {
       title: "1. Relying on Standard Catalog Blanks for Oversized Fits",
-      impact: "Off-the-shelf blanks simply scale up width without adjusting shoulder drops, armhole depth, or collar ribbing — leading to sloppy, shapeless silhouettes rather than crisp, structured boxy cuts.",
+      impact: "Off-the-shelf blanks simply scale up width without adjusting shoulder drops, armhole depth, or collar ribbing - leading to sloppy, shapeless silhouettes rather than crisp, structured boxy cuts.",
       solution: "Develop custom 2D CAD tech packs with dedicated oversized pattern grading for shoulder drops and chest width.",
     },
     {
@@ -148,7 +148,7 @@ export default function CommonStreetwearManufacturingMistakesPage() {
               <span className="text-xs font-semibold uppercase tracking-[0.25em] text-[#C8A882]">Risk Prevention</span>
             </div>
             <p className="font-display text-2xl lg:text-3xl font-light text-[#1A1A1A] leading-relaxed">
-              Streetwear customers pay a premium for handfeel, weight, and fit. A single production flaw — like a distorted collar or peeling puff print — destroys brand credibility.
+              Streetwear customers pay a premium for handfeel, weight, and fit. A single production flaw - like a distorted collar or peeling puff print - destroys brand credibility.
             </p>
           </div>
         </div>
@@ -218,7 +218,7 @@ export default function CommonStreetwearManufacturingMistakesPage() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
           <h2 className="font-display text-3xl lg:text-5xl font-light text-[#1A1A1A] mb-4">Eliminate manufacturing errors</h2>
           <p className="text-[#6B6560] leading-relaxed text-base mb-10 max-w-xl mx-auto">
-            Fenalt oversees every stage of streetwear production — enforcing rigid fabric shrinkage testing and screen print curing standards in Dhaka.
+            Fenalt oversees every stage of streetwear production - enforcing rigid fabric shrinkage testing and screen print curing standards in Dhaka.
           </p>
           <Link href="/intake" className="inline-flex items-center justify-center gap-2 px-10 py-4 bg-[#1A1A1A] text-[#FAF9F6] text-sm font-semibold tracking-wide hover:bg-[#2D5016] transition-colors duration-300">
             Submit Your Project <ArrowRight size={16} />

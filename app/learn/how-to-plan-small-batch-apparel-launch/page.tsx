@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, Rocket } from "lucide-react";
 export const metadata: Metadata = {
   title: "How to Plan a Small-Batch Apparel Launch",
   description:
-    "A strategic roadmap for fashion startups launching small-batch clothing collections — low MOQs, fabric stock sourcing, pre-orders, tech packs, and risk-managed inventory.",
+    "A strategic roadmap for fashion startups launching small-batch clothing collections - low MOQs, fabric stock sourcing, pre-orders, tech packs, and risk-managed inventory.",
   alternates: {
     canonical: "https://fenalt.com/learn/how-to-plan-small-batch-apparel-launch",
   },
   openGraph: {
     title: "How to Plan a Small-Batch Apparel Launch",
     description:
-      "A strategic roadmap for fashion startups launching small-batch clothing collections — low MOQs, fabric stock sourcing, pre-orders, tech packs, and risk-managed inventory.",
+      "A strategic roadmap for fashion startups launching small-batch clothing collections - low MOQs, fabric stock sourcing, pre-orders, tech packs, and risk-managed inventory.",
     url: "https://fenalt.com/learn/how-to-plan-small-batch-apparel-launch",
   },
 };
@@ -135,7 +135,7 @@ export default function HowToPlanSmallBatchApparelLaunchPage() {
             <span className="italic font-medium text-[#2D5016]">Small-Batch Apparel Launch.</span>
           </h1>
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
-            A step-by-step launch framework for fashion startups entering production — low MOQs, fabric stock sourcing, pre-orders, tech packs, and risk-managed inventory.
+            A step-by-step launch framework for fashion startups entering production - low MOQs, fabric stock sourcing, pre-orders, tech packs, and risk-managed inventory.
           </p>
           <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>

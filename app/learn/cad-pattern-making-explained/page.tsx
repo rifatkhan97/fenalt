@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, Monitor } from "lucide-react";
 export const metadata: Metadata = {
   title: "CAD Pattern Making for Fashion Brands Explained",
   description:
-    "Discover how Computer-Aided Design (CAD) pattern making works — digital vector drafting, automated marker efficiency, DXF export, 3D simulation, and rapid size grading.",
+    "Discover how Computer-Aided Design (CAD) pattern making works - digital vector drafting, automated marker efficiency, DXF export, 3D simulation, and rapid size grading.",
   alternates: {
     canonical: "https://fenalt.com/learn/cad-pattern-making-explained",
   },
   openGraph: {
     title: "CAD Pattern Making for Fashion Brands Explained",
     description:
-      "Discover how Computer-Aided Design (CAD) pattern making works — digital vector drafting, automated marker efficiency, DXF export, 3D simulation, and rapid size grading.",
+      "Discover how Computer-Aided Design (CAD) pattern making works - digital vector drafting, automated marker efficiency, DXF export, 3D simulation, and rapid size grading.",
     url: "https://fenalt.com/learn/cad-pattern-making-explained",
   },
 };
@@ -146,7 +146,7 @@ export default function CadPatternMakingExplainedPage() {
             <span className="italic font-medium text-[#2D5016]">for Fashion Brands Explained.</span>
           </h1>
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
-            Computer-Aided Design (CAD) pattern making digitizes garment engineering — enabling sub-millimetre vector accuracy, instant size grading, and maximum fabric yield.
+            Computer-Aided Design (CAD) pattern making digitizes garment engineering - enabling sub-millimetre vector accuracy, instant size grading, and maximum fabric yield.
           </p>
           <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>

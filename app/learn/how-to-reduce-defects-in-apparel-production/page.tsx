@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, ShieldCheck } from "lucide-react";
 export const metadata: Metadata = {
   title: "How to Reduce Defects in Apparel Production: Factory Guide",
   description:
-    "Explore proven strategies to minimize garment manufacturing defects — implementing poka-yoke jigs, preventative machine maintenance, operator training, and AQL 2.5 auditing.",
+    "Explore proven strategies to minimize garment manufacturing defects - implementing poka-yoke jigs, preventative machine maintenance, operator training, and AQL 2.5 auditing.",
   alternates: {
     canonical: "https://fenalt.com/learn/how-to-reduce-defects-in-apparel-production",
   },
   openGraph: {
     title: "How to Reduce Defects in Apparel Production: Factory Guide",
     description:
-      "Explore proven strategies to minimize garment manufacturing defects — implementing poka-yoke jigs, preventative machine maintenance, operator training, and AQL 2.5 auditing.",
+      "Explore proven strategies to minimize garment manufacturing defects - implementing poka-yoke jigs, preventative machine maintenance, operator training, and AQL 2.5 auditing.",
     url: "https://fenalt.com/learn/how-to-reduce-defects-in-apparel-production",
   },
 };
@@ -89,7 +89,7 @@ export default function HowToReduceDefectsInApparelProductionPage() {
     },
     {
       q: "What is Pareto Analysis in garment defect reduction?",
-      a: "Pareto Analysis applies the 80/20 rule to garment quality — identifying the 20% of sewing operations causing 80% of total factory defects, allowing quality managers to target corrective actions precisely.",
+      a: "Pareto Analysis applies the 80/20 rule to garment quality - identifying the 20% of sewing operations causing 80% of total factory defects, allowing quality managers to target corrective actions precisely.",
     },
     {
       q: "How does fabric relaxation reduce garment sizing defects?",
@@ -134,7 +134,7 @@ export default function HowToReduceDefectsInApparelProductionPage() {
             <span className="italic font-medium text-[#2D5016]">in Apparel Production: Guide.</span>
           </h1>
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
-            Explore proven strategies to minimize garment manufacturing defects — implementing Poka-Yoke jigs, preventative machine maintenance, operator training, and AQL 2.5 auditing.
+            Explore proven strategies to minimize garment manufacturing defects - implementing Poka-Yoke jigs, preventative machine maintenance, operator training, and AQL 2.5 auditing.
           </p>
           <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>

@@ -69,7 +69,7 @@ export default function QuestionsToAskManufacturerPage() {
       category: "4. Production Lead Times & Logistics",
       icon: "04",
       questions: [
-        { q: "What is your bulk production turnaround time after Golden Sample approval?", why: "Must be qualified based on fabric milling — 4 to 6 weeks is standard for custom knits." },
+        { q: "What is your bulk production turnaround time after Golden Sample approval?", why: "Must be qualified based on fabric milling - 4 to 6 weeks is standard for custom knits." },
         { q: "What Incoterms shipping terms do you quote (FOB Chittagong, EXW, or DDP)?", why: "Defines exactly who manages export customs, freight, and door delivery." },
       ],
     },
@@ -106,7 +106,7 @@ export default function QuestionsToAskManufacturerPage() {
     },
     {
       q: "How does Fenalt answer these due diligence questions for brands in Dhaka?",
-      a: "Fenalt provides total operational transparency in Bangladesh — providing itemized FOB quotes, 10–14 day sample lead times, 4–6 week bulk turnarounds, and documented ANSI/ASQ Z1.4 AQL 2.5 quality control.",
+      a: "Fenalt provides total operational transparency in Bangladesh - providing itemized FOB quotes, 10–14 day sample lead times, 4–6 week bulk turnarounds, and documented ANSI/ASQ Z1.4 AQL 2.5 quality control.",
     },
   ];
 

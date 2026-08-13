@@ -23,7 +23,7 @@ export default function WhatIsATechPackPage() {
     "@type": "Article",
     headline: "What Is a Tech Pack in Apparel Manufacturing?",
     description:
-      "A complete guide to tech packs — what they are, what sections they contain, and why they are essential for clothing production.",
+      "A complete guide to tech packs - what they are, what sections they contain, and why they are essential for clothing production.",
     author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
     publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
     url: "https://fenalt.com/learn/what-is-a-tech-pack",
@@ -51,7 +51,7 @@ export default function WhatIsATechPackPage() {
     },
     {
       title: "3. Fabric & Material Specifications",
-      body: "Specifies primary shell fabric, lining, ribbing, interlinings, and pocketing — including fibre composition, yarn count, weight in GSM, and finish requirements.",
+      body: "Specifies primary shell fabric, lining, ribbing, interlinings, and pocketing - including fibre composition, yarn count, weight in GSM, and finish requirements.",
     },
     {
       title: "4. Colorway Specification Sheet",
@@ -59,7 +59,7 @@ export default function WhatIsATechPackPage() {
     },
     {
       title: "5. Bill of Materials (BOM)",
-      body: "An itemised master table listing every component required to manufacture the garment — fabrics, threads, zippers, buttons, woven labels, care tags, hangtags, and polybags.",
+      body: "An itemised master table listing every component required to manufacture the garment - fabrics, threads, zippers, buttons, woven labels, care tags, hangtags, and polybags.",
     },
     {
       title: "6. Point of Measure (POM) Table & Tolerances",
@@ -105,7 +105,7 @@ export default function WhatIsATechPackPage() {
     },
     {
       q: "Can I get an accurate manufacturing quote without a tech pack?",
-      a: "No. Manufacturers can only provide rough estimates without a tech pack. Accurate unit pricing depends on fabric consumption, GSM weight, sewing complexity, trim specs, and size grading — all of which are defined inside a tech pack.",
+      a: "No. Manufacturers can only provide rough estimates without a tech pack. Accurate unit pricing depends on fabric consumption, GSM weight, sewing complexity, trim specs, and size grading - all of which are defined inside a tech pack.",
     },
     {
       q: "What file format should a tech pack be in?",

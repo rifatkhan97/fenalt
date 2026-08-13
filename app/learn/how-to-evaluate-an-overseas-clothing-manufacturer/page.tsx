@@ -5,11 +5,11 @@ import { ArrowRight, BookOpen, CheckCircle2, Globe } from "lucide-react";
 export const metadata: Metadata = {
   title: "How to Evaluate an Overseas Clothing Manufacturer",
   description:
-    "A due diligence guide for evaluating overseas clothing manufacturers — what to verify, how to assess quality and reliability from a distance, and what red flags to look for.",
+    "A due diligence guide for evaluating overseas clothing manufacturers - what to verify, how to assess quality and reliability from a distance, and what red flags to look for.",
   alternates: { canonical: "https://fenalt.com/learn/how-to-evaluate-an-overseas-clothing-manufacturer" },
   openGraph: {
     title: "How to Evaluate an Overseas Clothing Manufacturer",
-    description: "A due diligence guide for evaluating overseas clothing manufacturers — what to verify, how to assess quality and reliability from a distance.",
+    description: "A due diligence guide for evaluating overseas clothing manufacturers - what to verify, how to assess quality and reliability from a distance.",
     url: "https://fenalt.com/learn/how-to-evaluate-an-overseas-clothing-manufacturer",
   },
 };
@@ -19,7 +19,7 @@ export default function HowToEvaluateOverseasManufacturerPage() {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: "How to Evaluate an Overseas Clothing Manufacturer",
-    description: "Guide to evaluating overseas clothing manufacturers — verification, quality assessment, and red flags.",
+    description: "Guide to evaluating overseas clothing manufacturers - verification, quality assessment, and red flags.",
     author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
     publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
     url: "https://fenalt.com/learn/how-to-evaluate-an-overseas-clothing-manufacturer",
@@ -92,7 +92,7 @@ export default function HowToEvaluateOverseasManufacturerPage() {
     },
     {
       q: "How does Fenalt evaluate partner micro-factories in Bangladesh?",
-      a: "Fenalt's Dhaka technical team conducts on-site factory audits — verifying machinery, working conditions, BSCI/WRAP compliance, needle detection equipment, and AQL 2.5 quality control standards.",
+      a: "Fenalt's Dhaka technical team conducts on-site factory audits - verifying machinery, working conditions, BSCI/WRAP compliance, needle detection equipment, and AQL 2.5 quality control standards.",
     },
     {
       q: "What is the biggest risk when sourcing clothing overseas?",
@@ -136,7 +136,7 @@ export default function HowToEvaluateOverseasManufacturerPage() {
             <span className="italic font-medium text-[#2D5016]">Clothing Manufacturer.</span>
           </h1>
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
-            Evaluating a manufacturer you cannot visit requires more rigor, not less. This guide covers eight evaluation methods that work from a distance — and the four unique challenges of overseas sourcing.
+            Evaluating a manufacturer you cannot visit requires more rigor, not less. This guide covers eight evaluation methods that work from a distance - and the four unique challenges of overseas sourcing.
           </p>
           <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>

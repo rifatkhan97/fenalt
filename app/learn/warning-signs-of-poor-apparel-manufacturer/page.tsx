@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, AlertOctagon } from "lucide-react";
 export const metadata: Metadata = {
   title: "Warning Signs of a Poor Apparel Manufacturing Partner",
   description:
-    "Spot red flags when vetting clothing factories — un-itemized quotes, reluctance to sign NDAs, untraceable subcontracting, upfront payment demands, and missing AQL QC protocols.",
+    "Spot red flags when vetting clothing factories - un-itemized quotes, reluctance to sign NDAs, untraceable subcontracting, upfront payment demands, and missing AQL QC protocols.",
   alternates: {
     canonical: "https://fenalt.com/learn/warning-signs-of-poor-apparel-manufacturer",
   },
   openGraph: {
     title: "Warning Signs of a Poor Apparel Manufacturing Partner",
     description:
-      "Spot red flags when vetting clothing factories — un-itemized quotes, reluctance to sign NDAs, untraceable subcontracting, upfront payment demands, and missing AQL QC protocols.",
+      "Spot red flags when vetting clothing factories - un-itemized quotes, reluctance to sign NDAs, untraceable subcontracting, upfront payment demands, and missing AQL QC protocols.",
     url: "https://fenalt.com/learn/warning-signs-of-poor-apparel-manufacturer",
   },
 };
@@ -97,7 +97,7 @@ export default function WarningSignsOfPoorApparelManufacturerPage() {
     },
     {
       q: "How does Fenalt protect brands against poor factory practices in Bangladesh?",
-      a: "Fenalt operates as your local technical team in Dhaka — vetting partner micro-factories, enforcing NNN protection, providing itemized FOB quotes, and conducting mandatory AQL 2.5 QC audits.",
+      a: "Fenalt operates as your local technical team in Dhaka - vetting partner micro-factories, enforcing NNN protection, providing itemized FOB quotes, and conducting mandatory AQL 2.5 QC audits.",
     },
   ];
 
@@ -134,7 +134,7 @@ export default function WarningSignsOfPoorApparelManufacturerPage() {
             <span className="italic font-medium text-[#2D5016]">Apparel Manufacturing Partner.</span>
           </h1>
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
-            A technical risk-mitigation guide for fashion founders — spotting major red flags during supplier vetting, un-itemized quotes, NNN refusals, subcontracting risks, and payment traps.
+            A technical risk-mitigation guide for fashion founders - spotting major red flags during supplier vetting, un-itemized quotes, NNN refusals, subcontracting risks, and payment traps.
           </p>
           <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>

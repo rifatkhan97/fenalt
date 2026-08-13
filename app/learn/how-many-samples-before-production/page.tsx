@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, Repeat } from "lucide-react";
 export const metadata: Metadata = {
   title: "How Many Samples Should a Fashion Brand Expect Before Production?",
   description:
-    "Learn how many sampling rounds (typically 2 to 4) a clothing brand should expect before bulk manufacturing — and the specific factors that increase or reduce revision cycles.",
+    "Learn how many sampling rounds (typically 2 to 4) a clothing brand should expect before bulk manufacturing - and the specific factors that increase or reduce revision cycles.",
   alternates: {
     canonical: "https://fenalt.com/learn/how-many-samples-before-production",
   },
   openGraph: {
     title: "How Many Samples Should a Fashion Brand Expect Before Production?",
     description:
-      "Learn how many sampling rounds (typically 2 to 4) a clothing brand should expect before bulk manufacturing — and the specific factors that increase or reduce revision cycles.",
+      "Learn how many sampling rounds (typically 2 to 4) a clothing brand should expect before bulk manufacturing - and the specific factors that increase or reduce revision cycles.",
     url: "https://fenalt.com/learn/how-many-samples-before-production",
   },
 };
@@ -69,10 +69,10 @@ export default function HowManySamplesBeforeProductionPage() {
 
   const factorsMoreRounds = [
     { factor: "Incomplete or ambiguous tech pack", detail: "Missing measurements, imprecise construction notes, or colour references requiring interpretation by the factory increase interpretation errors in the first sample." },
-    { factor: "New manufacturer relationship", detail: "A factory working with a brand for the first time has no knowledge of the brand's fit preferences and aesthetic standards — more rounds to calibrate." },
+    { factor: "New manufacturer relationship", detail: "A factory working with a brand for the first time has no knowledge of the brand's fit preferences and aesthetic standards - more rounds to calibrate." },
     { factor: "Complex construction techniques", detail: "Garments with specialty washes, puff printing, heavy-duty hardware, flatlock seaming, bonded panels, or structured silhouettes require more iterations to perfect." },
     { factor: "Multiple colourways", detail: "Each colourway may have different fabric behaviour, particularly for different-weight dye lots, requiring separate lab dip and fit evaluation." },
-    { factor: "Inconsistent or conflicting brand feedback", detail: "Feedback that changes between rounds — or feedback from multiple stakeholders with differing opinions — forces additional revision cycles that resolve the conflict rather than improve the garment." },
+    { factor: "Inconsistent or conflicting brand feedback", detail: "Feedback that changes between rounds - or feedback from multiple stakeholders with differing opinions - forces additional revision cycles that resolve the conflict rather than improve the garment." },
     { factor: "High fit precision requirements", detail: "Brands targeting slim-fit silhouettes, athletic sizing, or body-conscious categories have tighter tolerances and more fit sensitivity per measurement deviation." },
   ];
 
@@ -87,19 +87,19 @@ export default function HowManySamplesBeforeProductionPage() {
   const faqs = [
     {
       q: "Is it normal to need 3 or 4 sample revisions for a complex hoodie?",
-      a: "Yes. Complex garments — hoodies with embellishments, heavy-duty zippers, custom washes, or puff printing — frequently require 3 rounds before achieving a PP-ready standard. Particularly for new manufacturer relationships, 3 rounds is common even for straightforward styles. Factor this into your production timeline rather than planning for a best-case 1-round scenario.",
+      a: "Yes. Complex garments - hoodies with embellishments, heavy-duty zippers, custom washes, or puff printing - frequently require 3 rounds before achieving a PP-ready standard. Particularly for new manufacturer relationships, 3 rounds is common even for straightforward styles. Factor this into your production timeline rather than planning for a best-case 1-round scenario.",
     },
     {
       q: "How can I avoid excessive sampling rounds?",
-      a: "The most effective single action is providing a detailed, complete tech pack before submission — with exact measurement specifications, point-of-measure tolerances, construction notes, and Pantone colour references. Beyond this: providing a physical reference garment, designating a single feedback decision-maker, and ensuring feedback is specific and written (not verbal or general impressions) significantly reduces revision cycles.",
+      a: "The most effective single action is providing a detailed, complete tech pack before submission - with exact measurement specifications, point-of-measure tolerances, construction notes, and Pantone colour references. Beyond this: providing a physical reference garment, designating a single feedback decision-maker, and ensuring feedback is specific and written (not verbal or general impressions) significantly reduces revision cycles.",
     },
     {
       q: "Does each sampling round add to the production cost?",
-      a: "Yes. Each revision round typically incurs a sampling fee (for labour and materials) and adds one to three weeks to the development timeline. For international brands, physical sample transit also adds cost and time. The upfront investment in a high-quality tech pack — which may cost a few hundred to a few thousand dollars — is typically recovered within the first or second revision round saved.",
+      a: "Yes. Each revision round typically incurs a sampling fee (for labour and materials) and adds one to three weeks to the development timeline. For international brands, physical sample transit also adds cost and time. The upfront investment in a high-quality tech pack - which may cost a few hundred to a few thousand dollars - is typically recovered within the first or second revision round saved.",
     },
     {
       q: "Can I skip from a first prototype directly to a PP sample?",
-      a: "Technically possible for simple, low-risk styles (e.g. a basic t-shirt reorder) if the first prototype is exceptionally accurate. For new styles, new manufacturers, or new fabrics — this approach is high risk. PP samples made from bulk production fabric made an inaccurate pattern produce a very expensive starting point for correction, because the approval threshold is the highest at this stage.",
+      a: "Technically possible for simple, low-risk styles (e.g. a basic t-shirt reorder) if the first prototype is exceptionally accurate. For new styles, new manufacturers, or new fabrics - this approach is high risk. PP samples made from bulk production fabric made an inaccurate pattern produce a very expensive starting point for correction, because the approval threshold is the highest at this stage.",
     },
     {
       q: "How much does each sample round cost?",
@@ -107,11 +107,11 @@ export default function HowManySamplesBeforeProductionPage() {
     },
     {
       q: "Is it possible to evaluate samples remotely without receiving them in person?",
-      a: "Yes — and many brands do. High-resolution photography against a white background, flat-lay measurement photos, and video walkthroughs from the factory are commonly used for remote evaluation. However, remote review has limitations: it cannot capture fabric hand-feel, drape, or subtle construction quality. For initial rounds on new styles, in-person or fit-model evaluation provides more reliable sign-off than photography alone.",
+      a: "Yes - and many brands do. High-resolution photography against a white background, flat-lay measurement photos, and video walkthroughs from the factory are commonly used for remote evaluation. However, remote review has limitations: it cannot capture fabric hand-feel, drape, or subtle construction quality. For initial rounds on new styles, in-person or fit-model evaluation provides more reliable sign-off than photography alone.",
     },
     {
       q: "What happens if I approve a PP sample and it doesn't match bulk production?",
-      a: "The signed PP sample becomes the contractual quality standard. If bulk units deviate from it in a measurable way — incorrect measurements, different fabric shade, wrong trim, missing label — the brand has grounds to reject the shipment or request rework. This is why the PP sample approval process must be rigorous, not perfunctory.",
+      a: "The signed PP sample becomes the contractual quality standard. If bulk units deviate from it in a measurable way - incorrect measurements, different fabric shade, wrong trim, missing label - the brand has grounds to reject the shipment or request rework. This is why the PP sample approval process must be rigorous, not perfunctory.",
     },
   ];
 
@@ -148,7 +148,7 @@ export default function HowManySamplesBeforeProductionPage() {
             <span className="italic font-medium text-[#2D5016]">Expect Before Production?</span>
           </h1>
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
-            Expecting a first sample to be 100% bulk-ready is the most common planning mistake in fashion product development. Most garments require 2 to 4 revision rounds — here is what actually drives that number.
+            Expecting a first sample to be 100% bulk-ready is the most common planning mistake in fashion product development. Most garments require 2 to 4 revision rounds - here is what actually drives that number.
           </p>
           <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>
@@ -168,10 +168,10 @@ export default function HowManySamplesBeforeProductionPage() {
           </div>
           <div className="prose prose-lg max-w-none text-[#6B6560] leading-relaxed space-y-4">
             <p>
-              Sampling is not a failure when revisions are needed — it is the system working as intended. Each revision round catches a category of problem before it can compound across your entire bulk production. The question is not whether to sample, but how to sample efficiently.
+              Sampling is not a failure when revisions are needed - it is the system working as intended. Each revision round catches a category of problem before it can compound across your entire bulk production. The question is not whether to sample, but how to sample efficiently.
             </p>
             <p>
-              Understanding what drives additional rounds allows brands to make targeted investments — in their tech pack, in their feedback process, or in their manufacturer selection — that compress the total development cycle.
+              Understanding what drives additional rounds allows brands to make targeted investments - in their tech pack, in their feedback process, or in their manufacturer selection - that compress the total development cycle.
             </p>
           </div>
         </div>

@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, Users } from "lucide-react";
 export const metadata: Metadata = {
   title: "Direct Manufacturer vs Sourcing Agent: Channel Choice Guide",
   description:
-    "Evaluate whether to work directly with a clothing factory or partner with a sourcing agent — comparing communication overhead, MOQ flexibility, quality control, and unit economics.",
+    "Evaluate whether to work directly with a clothing factory or partner with a sourcing agent - comparing communication overhead, MOQ flexibility, quality control, and unit economics.",
   alternates: {
     canonical: "https://fenalt.com/learn/direct-manufacturer-vs-sourcing-agent",
   },
   openGraph: {
     title: "Direct Manufacturer vs Sourcing Agent: Channel Choice Guide",
     description:
-      "Evaluate whether to work directly with a clothing factory or partner with a sourcing agent — comparing communication overhead, MOQ flexibility, quality control, and unit economics.",
+      "Evaluate whether to work directly with a clothing factory or partner with a sourcing agent - comparing communication overhead, MOQ flexibility, quality control, and unit economics.",
     url: "https://fenalt.com/learn/direct-manufacturer-vs-sourcing-agent",
   },
 };
@@ -82,11 +82,11 @@ export default function DirectManufacturerVsSourcingAgentPage() {
   const faqs = [
     {
       q: "Which option is best for a first-time fashion brand founder?",
-      a: "A full-service sourcing partner or hybrid production liaison is ideal for first-time founders — providing technical design guidance, low MOQ factory access, and local QC oversight without overseas travel.",
+      a: "A full-service sourcing partner or hybrid production liaison is ideal for first-time founders - providing technical design guidance, low MOQ factory access, and local QC oversight without overseas travel.",
     },
     {
       q: "Can a sourcing agent handle customs clearance and ocean freight?",
-      a: "Yes! Full-service sourcing partners manage end-to-end logistics — handling export customs clearance in Dhaka and arranging DDP delivery directly to your destination warehouse.",
+      a: "Yes! Full-service sourcing partners manage end-to-end logistics - handling export customs clearance in Dhaka and arranging DDP delivery directly to your destination warehouse.",
     },
     {
       q: "Does working with a sourcing agent cost more than going direct?",
@@ -94,7 +94,7 @@ export default function DirectManufacturerVsSourcingAgentPage() {
     },
     {
       q: "How do I know if a sourcing agent is a legitimate partner or just a middleman broker?",
-      a: "A legitimate sourcing partner has dedicated technical staff and QC inspectors physically stationed on factory floors in manufacturing hubs like Dhaka — providing daily photo reports and transparent itemized pricing.",
+      a: "A legitimate sourcing partner has dedicated technical staff and QC inspectors physically stationed on factory floors in manufacturing hubs like Dhaka - providing daily photo reports and transparent itemized pricing.",
     },
     {
       q: "Can I transition from a sourcing agent to direct factory contracts as I scale?",
@@ -102,7 +102,7 @@ export default function DirectManufacturerVsSourcingAgentPage() {
     },
     {
       q: "How does Fenalt combine direct factory pricing with sourcing oversight in Bangladesh?",
-      a: "Fenalt operates as a hybrid production management partner in Dhaka — giving brands direct access to audited partner micro-factories, transparent itemized quotes, low MOQs, and full AQL 2.5 quality control.",
+      a: "Fenalt operates as a hybrid production management partner in Dhaka - giving brands direct access to audited partner micro-factories, transparent itemized quotes, low MOQs, and full AQL 2.5 quality control.",
     },
   ];
 
@@ -139,7 +139,7 @@ export default function DirectManufacturerVsSourcingAgentPage() {
             <span className="italic font-medium text-[#2D5016]">Sourcing Agent: Channel Guide.</span>
           </h1>
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
-            Evaluate whether to work directly with an overseas clothing factory or partner with a sourcing agent — comparing communication overhead, MOQ flexibility, quality control, and unit economics.
+            Evaluate whether to work directly with an overseas clothing factory or partner with a sourcing agent - comparing communication overhead, MOQ flexibility, quality control, and unit economics.
           </p>
           <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>
@@ -259,7 +259,7 @@ export default function DirectManufacturerVsSourcingAgentPage() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
           <h2 className="font-display text-3xl lg:text-5xl font-light text-[#1A1A1A] mb-4">Streamline your overseas sourcing</h2>
           <p className="text-[#6B6560] leading-relaxed text-base mb-10 max-w-xl mx-auto">
-            Fenalt acts as your local technical team in Dhaka — managing partner micro-factories, sampling, and AQL 2.5 quality control.
+            Fenalt acts as your local technical team in Dhaka - managing partner micro-factories, sampling, and AQL 2.5 quality control.
           </p>
           <Link href="/intake" className="inline-flex items-center justify-center gap-2 px-10 py-4 bg-[#1A1A1A] text-[#FAF9F6] text-sm font-semibold tracking-wide hover:bg-[#2D5016] transition-colors duration-300">
             Submit Your Project <ArrowRight size={16} />

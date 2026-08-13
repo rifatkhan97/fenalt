@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, ShieldCheck } from "lucide-react";
 export const metadata: Metadata = {
   title: "How to Reduce Risk When Launching a Clothing Collection",
   description:
-    "A risk management framework for new apparel brands — covering pre-order models, sample wash testing, milestone payments, AQL 2.5 quality control, and low MOQ trial runs.",
+    "A risk management framework for new apparel brands - covering pre-order models, sample wash testing, milestone payments, AQL 2.5 quality control, and low MOQ trial runs.",
   alternates: {
     canonical: "https://fenalt.com/learn/reduce-risk-when-launching-clothing-collection",
   },
   openGraph: {
     title: "How to Reduce Risk When Launching a Clothing Collection",
     description:
-      "A risk management framework for new apparel brands — covering pre-order models, sample wash testing, milestone payments, AQL 2.5 quality control, and low MOQ trial runs.",
+      "A risk management framework for new apparel brands - covering pre-order models, sample wash testing, milestone payments, AQL 2.5 quality control, and low MOQ trial runs.",
     url: "https://fenalt.com/learn/reduce-risk-when-launching-clothing-collection",
   },
 };
@@ -93,7 +93,7 @@ export default function ReduceRiskWhenLaunchingClothingCollectionPage() {
   const faqs = [
     {
       q: "Is a pre-order model a good way to reduce initial inventory risk?",
-      a: "Yes — provided your pre-production golden sample is approved and factory lead times are secured. Pre-orders fund bulk manufacturing directly from consumer sales and provide accurate real-time data on size curve distribution.",
+      a: "Yes - provided your pre-production golden sample is approved and factory lead times are secured. Pre-orders fund bulk manufacturing directly from consumer sales and provide accurate real-time data on size curve distribution.",
     },
     {
       q: "What is the single biggest financial risk for a new fashion brand?",
@@ -113,7 +113,7 @@ export default function ReduceRiskWhenLaunchingClothingCollectionPage() {
     },
     {
       q: "How does Fenalt de-risk apparel production for brands in Dhaka?",
-      a: "Fenalt's Dhaka team acts as your on-the-ground technical liaison — managing tech pack validation, raw fabric shrinkage testing, low MOQ pilot runs (50–100 units), and AQL 2.5 pre-shipment audits.",
+      a: "Fenalt's Dhaka team acts as your on-the-ground technical liaison - managing tech pack validation, raw fabric shrinkage testing, low MOQ pilot runs (50–100 units), and AQL 2.5 pre-shipment audits.",
     },
   ];
 
@@ -165,7 +165,7 @@ export default function ReduceRiskWhenLaunchingClothingCollectionPage() {
               <span className="text-xs font-semibold uppercase tracking-[0.25em] text-[#C8A882]">Risk Management</span>
             </div>
             <p className="font-display text-2xl lg:text-3xl font-light text-[#1A1A1A] leading-relaxed">
-              Risk reduction is about <strong className="font-medium">controlling variables before capital is committed</strong> — verifying fit, testing fabric stability, and staging payment terms.
+              Risk reduction is about <strong className="font-medium">controlling variables before capital is committed</strong> - verifying fit, testing fabric stability, and staging payment terms.
             </p>
           </div>
           <p className="text-base text-[#6B6560] leading-relaxed">
@@ -262,7 +262,7 @@ export default function ReduceRiskWhenLaunchingClothingCollectionPage() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
           <h2 className="font-display text-3xl lg:text-5xl font-light text-[#1A1A1A] mb-4">De-risk your next collection drop</h2>
           <p className="text-[#6B6560] leading-relaxed text-base mb-10 max-w-xl mx-auto">
-            Fenalt acts as your on-the-ground production partner — conducting sample testing and in-factory quality control in Dhaka to safeguard your capital.
+            Fenalt acts as your on-the-ground production partner - conducting sample testing and in-factory quality control in Dhaka to safeguard your capital.
           </p>
           <Link href="/intake" className="inline-flex items-center justify-center gap-2 px-10 py-4 bg-[#1A1A1A] text-[#FAF9F6] text-sm font-semibold tracking-wide hover:bg-[#2D5016] transition-colors duration-300">
             Submit Your Project <ArrowRight size={16} />

@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, ShieldCheck } from "lucide-react";
 export const metadata: Metadata = {
   title: "How to Evaluate Fabric Quality Before Bulk Production",
   description:
-    "Learn how to audit fabric quality prior to bulk sewing — evaluating GSM weight accuracy, dimensional shrinkage, colorfastness, pilling resistance, and 4-Point System roll inspection.",
+    "Learn how to audit fabric quality prior to bulk sewing - evaluating GSM weight accuracy, dimensional shrinkage, colorfastness, pilling resistance, and 4-Point System roll inspection.",
   alternates: {
     canonical: "https://fenalt.com/learn/how-to-evaluate-fabric-quality",
   },
   openGraph: {
     title: "How to Evaluate Fabric Quality Before Bulk Production",
     description:
-      "Learn how to audit fabric quality prior to bulk sewing — evaluating GSM weight accuracy, dimensional shrinkage, colorfastness, pilling resistance, and 4-Point System roll inspection.",
+      "Learn how to audit fabric quality prior to bulk sewing - evaluating GSM weight accuracy, dimensional shrinkage, colorfastness, pilling resistance, and 4-Point System roll inspection.",
     url: "https://fenalt.com/learn/how-to-evaluate-fabric-quality",
   },
 };
@@ -134,7 +134,7 @@ export default function HowToEvaluateFabricQualityPage() {
             <span className="italic font-medium text-[#2D5016]">Before Bulk Production.</span>
           </h1>
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
-            Audit raw fabric quality prior to cutting — evaluating GSM weight accuracy, shrinkage stability, colorfastness, pilling resistance, and 4-Point System roll inspection.
+            Audit raw fabric quality prior to cutting - evaluating GSM weight accuracy, shrinkage stability, colorfastness, pilling resistance, and 4-Point System roll inspection.
           </p>
           <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>

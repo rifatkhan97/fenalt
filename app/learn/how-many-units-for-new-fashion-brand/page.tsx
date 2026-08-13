@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, PieChart } from "lucide-react";
 export const metadata: Metadata = {
   title: "How Many Units Should a New Fashion Brand Produce?",
   description:
-    "A realistic unit volume guide for emerging apparel labels — balancing minimum order quantities (MOQs), cash flow, inventory risk, and size ratio distribution.",
+    "A realistic unit volume guide for emerging apparel labels - balancing minimum order quantities (MOQs), cash flow, inventory risk, and size ratio distribution.",
   alternates: {
     canonical: "https://fenalt.com/learn/how-many-units-for-new-fashion-brand",
   },
   openGraph: {
     title: "How Many Units Should a New Fashion Brand Produce?",
     description:
-      "A realistic unit volume guide for emerging apparel labels — balancing minimum order quantities (MOQs), cash flow, inventory risk, and size ratio distribution.",
+      "A realistic unit volume guide for emerging apparel labels - balancing minimum order quantities (MOQs), cash flow, inventory risk, and size ratio distribution.",
     url: "https://fenalt.com/learn/how-many-units-for-new-fashion-brand",
   },
 };
@@ -112,7 +112,7 @@ export default function HowManyUnitsForNewFashionBrandPage() {
             <span className="italic font-medium text-[#2D5016]">New Fashion Brand Produce?</span>
           </h1>
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
-            A practical volume and size-ratio allocation guide for early-stage clothing brands — balancing minimum order quantities (MOQs), cash flow, inventory risk, and bell-curve sizing.
+            A practical volume and size-ratio allocation guide for early-stage clothing brands - balancing minimum order quantities (MOQs), cash flow, inventory risk, and bell-curve sizing.
           </p>
           <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>

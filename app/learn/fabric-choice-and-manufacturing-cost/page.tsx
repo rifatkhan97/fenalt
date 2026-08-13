@@ -97,7 +97,7 @@ export default function FabricChoiceAndManufacturingCostPage() {
   const faqs = [
     {
       q: "What percentage of a garment's total FOB manufacturing cost comes from fabric?",
-      a: "Fabric typically represents 50% to 70% of the total FOB (Free on Board) unit cost for basic and heavyweight knit apparel — making raw material choice the single largest factor in your manufacturing budget.",
+      a: "Fabric typically represents 50% to 70% of the total FOB (Free on Board) unit cost for basic and heavyweight knit apparel - making raw material choice the single largest factor in your manufacturing budget.",
     },
     {
       q: "How can brands lower fabric costs without sacrificing retail quality?",
@@ -154,7 +154,7 @@ export default function FabricChoiceAndManufacturingCostPage() {
             <span className="italic font-medium text-[#2D5016]">Apparel Manufacturing Cost.</span>
           </h1>
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
-            A financial and technical breakdown of fabric cost drivers — evaluating fiber selection, GSM yield math, marker efficiency, dye lot minimums, and unit FOB economics.
+            A financial and technical breakdown of fabric cost drivers - evaluating fiber selection, GSM yield math, marker efficiency, dye lot minimums, and unit FOB economics.
           </p>
           <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>

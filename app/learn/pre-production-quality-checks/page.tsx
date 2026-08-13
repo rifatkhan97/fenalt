@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, ShieldCheck } from "lucide-react";
 export const metadata: Metadata = {
   title: "Pre-Production Quality Checks for Fashion Brands",
   description:
-    "Master Pre-Production (PP) quality audits — verifying lab-dip colors, approved golden samples, fabric shrinkage reports, trim cards, and CAD cutting markers.",
+    "Master Pre-Production (PP) quality audits - verifying lab-dip colors, approved golden samples, fabric shrinkage reports, trim cards, and CAD cutting markers.",
   alternates: {
     canonical: "https://fenalt.com/learn/pre-production-quality-checks",
   },
   openGraph: {
     title: "Pre-Production Quality Checks for Fashion Brands",
     description:
-      "Master Pre-Production (PP) quality audits — verifying lab-dip colors, approved golden samples, fabric shrinkage reports, trim cards, and CAD cutting markers.",
+      "Master Pre-Production (PP) quality audits - verifying lab-dip colors, approved golden samples, fabric shrinkage reports, trim cards, and CAD cutting markers.",
     url: "https://fenalt.com/learn/pre-production-quality-checks",
   },
 };
@@ -89,7 +89,7 @@ export default function PreProductionQualityChecksPage() {
     },
     {
       q: "What is a Trim Card in apparel manufacturing?",
-      a: "A Trim Card is a physical board displaying approved samples of every non-fabric component — including thread colors, care labels, brand tags, zippers, buttons, aglets, and polybags — signed off by the brand prior to assembly.",
+      a: "A Trim Card is a physical board displaying approved samples of every non-fabric component - including thread colors, care labels, brand tags, zippers, buttons, aglets, and polybags - signed off by the brand prior to assembly.",
     },
     {
       q: "How does fabric shrinkage testing impact pre-production pattern cutting?",
@@ -134,7 +134,7 @@ export default function PreProductionQualityChecksPage() {
             <span className="italic font-medium text-[#2D5016]">for Fashion Brands.</span>
           </h1>
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
-            A comprehensive pre-flight quality audit guide — verifying lab-dip colors, approved golden samples, fabric shrinkage reports, trim cards, and CAD cutting markers before bulk cutting.
+            A comprehensive pre-flight quality audit guide - verifying lab-dip colors, approved golden samples, fabric shrinkage reports, trim cards, and CAD cutting markers before bulk cutting.
           </p>
           <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>

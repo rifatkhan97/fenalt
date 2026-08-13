@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, Maximize2 } from "lucide-react";
 export const metadata: Metadata = {
   title: "How Apparel Size Grading Works Across Sizes",
   description:
-    "Understand pattern size grading — how base size patterns (Medium) scale proportionally to XS, Small, Large, and 3XL using technical grade rules.",
+    "Understand pattern size grading - how base size patterns (Medium) scale proportionally to XS, Small, Large, and 3XL using technical grade rules.",
   alternates: {
     canonical: "https://fenalt.com/learn/apparel-size-grading-explained",
   },
   openGraph: {
     title: "How Apparel Size Grading Works Across Sizes",
     description:
-      "Understand pattern size grading — how base size patterns (Medium) scale proportionally to XS, Small, Large, and 3XL using technical grade rules.",
+      "Understand pattern size grading - how base size patterns (Medium) scale proportionally to XS, Small, Large, and 3XL using technical grade rules.",
     url: "https://fenalt.com/learn/apparel-size-grading-explained",
   },
 };
@@ -90,7 +90,7 @@ export default function ApparelSizeGradingExplainedPage() {
     },
     {
       q: "What happens if size grading is done incorrectly?",
-      a: "Incorrect size grading leads to fitting failures in outer sizes — such as Small garments with oversized collars or 2XL hoodies with tight armholes. Verifying grade rules in your tech pack prevents customer return issues.",
+      a: "Incorrect size grading leads to fitting failures in outer sizes - such as Small garments with oversized collars or 2XL hoodies with tight armholes. Verifying grade rules in your tech pack prevents customer return issues.",
     },
     {
       q: "What is the standard base size for streetwear collections?",
@@ -150,7 +150,7 @@ export default function ApparelSizeGradingExplainedPage() {
               <span className="text-xs font-semibold uppercase tracking-[0.25em] text-[#C8A882]">Pattern Scaling</span>
             </div>
             <p className="font-display text-2xl lg:text-3xl font-light text-[#1A1A1A] leading-relaxed">
-              Size grading is <strong className="font-medium">selective differential mathematical scaling</strong> — expanding circumference and length while preserving collar and sleeve ergonomics.
+              Size grading is <strong className="font-medium">selective differential mathematical scaling</strong> - expanding circumference and length while preserving collar and sleeve ergonomics.
             </p>
           </div>
           <p className="text-base text-[#6B6560] leading-relaxed">

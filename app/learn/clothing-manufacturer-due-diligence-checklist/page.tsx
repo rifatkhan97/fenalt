@@ -5,11 +5,11 @@ import { ArrowRight, BookOpen, CheckCircle2, ShieldCheck } from "lucide-react";
 export const metadata: Metadata = {
   title: "Clothing Manufacturer Due Diligence Checklist",
   description:
-    "A structured due diligence checklist for evaluating clothing manufacturers — covering capabilities, quality systems, compliance, references, and financial terms.",
+    "A structured due diligence checklist for evaluating clothing manufacturers - covering capabilities, quality systems, compliance, references, and financial terms.",
   alternates: { canonical: "https://fenalt.com/learn/clothing-manufacturer-due-diligence-checklist" },
   openGraph: {
     title: "Clothing Manufacturer Due Diligence Checklist",
-    description: "A structured due diligence checklist for evaluating clothing manufacturers — covering capabilities, quality systems, compliance, references, and financial terms.",
+    description: "A structured due diligence checklist for evaluating clothing manufacturers - covering capabilities, quality systems, compliance, references, and financial terms.",
     url: "https://fenalt.com/learn/clothing-manufacturer-due-diligence-checklist",
   },
 };
@@ -42,7 +42,7 @@ export default function ManufacturerDueDiligenceChecklistPage() {
       items: [
         "Verified physical business address in the manufacturing country (Dhaka, Bangladesh)",
         "Registered business trade license & export registration certificates viewable",
-        "Named operational technical contacts — not anonymous contact forms or brokers",
+        "Named operational technical contacts - not anonymous contact forms or brokers",
         "Verifiable company history consistent with claimed factory capacity and machinery",
         "Enforceable Non-disclosure, Non-use, Non-circumvention (NNN) IP agreement signed",
       ],
@@ -122,7 +122,7 @@ export default function ManufacturerDueDiligenceChecklistPage() {
     },
     {
       q: "How long should a thorough manufacturer due diligence process take?",
-      a: "A complete due diligence process takes 1 to 2 weeks — including reviewing company credentials, requesting physical benchmark samples, checking client references, and evaluating technical responsiveness.",
+      a: "A complete due diligence process takes 1 to 2 weeks - including reviewing company credentials, requesting physical benchmark samples, checking client references, and evaluating technical responsiveness.",
     },
     {
       q: "What credentials prove an apparel manufacturer is socially compliant?",
@@ -130,7 +130,7 @@ export default function ManufacturerDueDiligenceChecklistPage() {
     },
     {
       q: "How does Fenalt execute manufacturer due diligence in Bangladesh?",
-      a: "Fenalt's Dhaka team conducts rigorous physical factory audits — inspecting partner micro-factories for machinery, working conditions, AQL 2.5 compliance, and needle detection capabilities before onboarding.",
+      a: "Fenalt's Dhaka team conducts rigorous physical factory audits - inspecting partner micro-factories for machinery, working conditions, AQL 2.5 compliance, and needle detection capabilities before onboarding.",
     },
     {
       q: "Can I use this due diligence checklist when hiring a production liaison firm?",
@@ -162,7 +162,7 @@ export default function ManufacturerDueDiligenceChecklistPage() {
             <span className="italic font-medium text-[#2D5016]">Due Diligence Checklist.</span>
           </h1>
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
-            Use this comprehensive checklist before committing to a manufacturing relationship. It covers eight critical operational areas — from legal legitimacy to AQL quality control and ethical compliance.
+            Use this comprehensive checklist before committing to a manufacturing relationship. It covers eight critical operational areas - from legal legitimacy to AQL quality control and ethical compliance.
           </p>
           <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>
@@ -255,7 +255,7 @@ export default function ManufacturerDueDiligenceChecklistPage() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
           <h2 className="font-display text-3xl lg:text-5xl font-light text-[#1A1A1A] mb-4">Work with a pre-vetted production partner</h2>
           <p className="text-[#6B6560] leading-relaxed text-base mb-10 max-w-xl mx-auto">
-            Fenalt conducts full manufacturer vetting on your behalf — connecting brands with audited micro-factories in Dhaka, Bangladesh.
+            Fenalt conducts full manufacturer vetting on your behalf - connecting brands with audited micro-factories in Dhaka, Bangladesh.
           </p>
           <Link href="/intake" className="inline-flex items-center justify-center gap-2 px-10 py-4 bg-[#1A1A1A] text-[#FAF9F6] text-sm font-semibold tracking-wide hover:bg-[#2D5016] transition-colors duration-300">
             Submit Your Project <ArrowRight size={16} />

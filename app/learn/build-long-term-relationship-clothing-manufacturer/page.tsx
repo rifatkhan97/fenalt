@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, Handshake } from "lucide-react";
 export const metadata: Metadata = {
   title: "How to Build a Long-Term Relationship With a Manufacturer",
   description:
-    "Learn how fashion brands build strong supplier partnerships — production forecasting, timely deposit payments, clear tech packs, and mutual loyalty benefits.",
+    "Learn how fashion brands build strong supplier partnerships - production forecasting, timely deposit payments, clear tech packs, and mutual loyalty benefits.",
   alternates: {
     canonical: "https://fenalt.com/learn/build-long-term-relationship-clothing-manufacturer",
   },
   openGraph: {
     title: "How to Build a Long-Term Relationship With a Manufacturer",
     description:
-      "Learn how fashion brands build strong supplier partnerships — production forecasting, timely deposit payments, clear tech packs, and mutual loyalty benefits.",
+      "Learn how fashion brands build strong supplier partnerships - production forecasting, timely deposit payments, clear tech packs, and mutual loyalty benefits.",
     url: "https://fenalt.com/learn/build-long-term-relationship-clothing-manufacturer",
   },
 };
@@ -96,7 +96,7 @@ export default function BuildLongTermRelationshipClothingManufacturerPage() {
     },
     {
       q: "How does Fenalt foster long-term factory partnerships in Bangladesh?",
-      a: "Fenalt manages long-term relationships with audited partner micro-factories in Dhaka — providing clients with rolling capacity reservations, pre-screened fabric mills, and dedicated technical oversight.",
+      a: "Fenalt manages long-term relationships with audited partner micro-factories in Dhaka - providing clients with rolling capacity reservations, pre-screened fabric mills, and dedicated technical oversight.",
     },
   ];
 
@@ -133,7 +133,7 @@ export default function BuildLongTermRelationshipClothingManufacturerPage() {
             <span className="italic font-medium text-[#2D5016]">Relationship With a Manufacturer.</span>
           </h1>
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
-            Learn how fashion brands build strong supplier partnerships — production forecasting, timely deposit payments, clear tech packs, and mutual loyalty benefits.
+            Learn how fashion brands build strong supplier partnerships - production forecasting, timely deposit payments, clear tech packs, and mutual loyalty benefits.
           </p>
           <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>
@@ -152,7 +152,7 @@ export default function BuildLongTermRelationshipClothingManufacturerPage() {
             </p>
           </div>
           <p className="text-base text-[#6B6560] leading-relaxed">
-            Garment manufacturing is fundamentally a human business built on trust and operational reliability. Treating your factory as a strategic partner — providing rolling forecasts, paying deposit milestones promptly, delivering clear technical documentation, and consolidating fabrications — transforms transactional vendor interactions into a loyal, scalable supply chain.
+            Garment manufacturing is fundamentally a human business built on trust and operational reliability. Treating your factory as a strategic partner - providing rolling forecasts, paying deposit milestones promptly, delivering clear technical documentation, and consolidating fabrications - transforms transactional vendor interactions into a loyal, scalable supply chain.
           </p>
         </div>
       </section>
@@ -245,7 +245,7 @@ export default function BuildLongTermRelationshipClothingManufacturerPage() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
           <h2 className="font-display text-3xl lg:text-5xl font-light text-[#1A1A1A] mb-4">Build a long-term supply chain partner</h2>
           <p className="text-[#6B6560] leading-relaxed text-base mb-10 max-w-xl mx-auto">
-            Fenalt connects fashion brands with audited partner micro-factories in Dhaka — managing capacity, quality, and scaling for long-term success.
+            Fenalt connects fashion brands with audited partner micro-factories in Dhaka - managing capacity, quality, and scaling for long-term success.
           </p>
           <Link href="/intake" className="inline-flex items-center justify-center gap-2 px-10 py-4 bg-[#1A1A1A] text-[#FAF9F6] text-sm font-semibold tracking-wide hover:bg-[#2D5016] transition-colors duration-300">
             Submit Your Project <ArrowRight size={16} />

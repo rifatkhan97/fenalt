@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, Activity } from "lucide-react";
 export const metadata: Metadata = {
   title: "Activewear Manufacturing Guide for Fitness Brands",
   description:
-    "Learn how activewear is manufactured — technical polyester/spandex & nylon blends, 4-needle 6-thread flatlock stitching, moisture wicking, squat-proof opacity, and stretch testing.",
+    "Learn how activewear is manufactured - technical polyester/spandex & nylon blends, 4-needle 6-thread flatlock stitching, moisture wicking, squat-proof opacity, and stretch testing.",
   alternates: {
     canonical: "https://fenalt.com/learn/activewear-manufacturing-guide",
   },
   openGraph: {
     title: "Activewear Manufacturing Guide for Fitness Brands",
     description:
-      "Learn how activewear is manufactured — technical polyester/spandex & nylon blends, 4-needle 6-thread flatlock stitching, moisture wicking, squat-proof opacity, and stretch testing.",
+      "Learn how activewear is manufactured - technical polyester/spandex & nylon blends, 4-needle 6-thread flatlock stitching, moisture wicking, squat-proof opacity, and stretch testing.",
     url: "https://fenalt.com/learn/activewear-manufacturing-guide",
   },
 };
@@ -151,7 +151,7 @@ export default function ActivewearManufacturingGuidePage() {
             <span className="italic font-medium text-[#2D5016]">Guide for Fitness Brands.</span>
           </h1>
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
-            A technical guide to manufacturing athletic wear — nylon/spandex blends, 4-needle 6-thread flatlock stitching, moisture wicking, squat-proof opacity, and stretch testing.
+            A technical guide to manufacturing athletic wear - nylon/spandex blends, 4-needle 6-thread flatlock stitching, moisture wicking, squat-proof opacity, and stretch testing.
           </p>
           <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>

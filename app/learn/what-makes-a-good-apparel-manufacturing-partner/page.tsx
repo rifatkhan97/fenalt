@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, Award } from "lucide-react";
 export const metadata: Metadata = {
   title: "What Makes a Good Apparel Manufacturing Partner?",
   description:
-    "The qualities that separate a reliable clothing manufacturer from an unreliable one — covering communication, technical skill, quality control, MOQ flexibility, and ethical standards.",
+    "The qualities that separate a reliable clothing manufacturer from an unreliable one - covering communication, technical skill, quality control, MOQ flexibility, and ethical standards.",
   alternates: {
     canonical: "https://fenalt.com/learn/what-makes-a-good-apparel-manufacturing-partner",
   },
   openGraph: {
     title: "What Makes a Good Apparel Manufacturing Partner?",
     description:
-      "The qualities that separate a reliable clothing manufacturer from an unreliable one — covering communication, technical skill, quality control, MOQ flexibility, and ethical standards.",
+      "The qualities that separate a reliable clothing manufacturer from an unreliable one - covering communication, technical skill, quality control, MOQ flexibility, and ethical standards.",
     url: "https://fenalt.com/learn/what-makes-a-good-apparel-manufacturing-partner",
   },
 };
@@ -43,7 +43,7 @@ export default function WhatMakesAGoodApparelManufacturingPartnerPage() {
   const traits = [
     {
       title: "Proactive Communication & Transparency",
-      desc: "A good manufacturing partner tells you what is happening before you have to ask. This includes prompt updates on fabric procurement status, alerts when timelines shift, and honest notification of any problems during production — not post-shipment surprises. Response times during sampling are one of the clearest predictors of how a manufacturer will behave during bulk production under pressure.",
+      desc: "A good manufacturing partner tells you what is happening before you have to ask. This includes prompt updates on fabric procurement status, alerts when timelines shift, and honest notification of any problems during production - not post-shipment surprises. Response times during sampling are one of the clearest predictors of how a manufacturer will behave during bulk production under pressure.",
     },
     {
       title: "Technical Fluency & Pattern Accuracy",
@@ -51,7 +51,7 @@ export default function WhatMakesAGoodApparelManufacturingPartnerPage() {
     },
     {
       title: "Documented Quality Control Systems",
-      desc: "Good partners have formalized QC processes — not ad hoc end-of-line checks. This typically means inline floor audits at multiple production stages, a pre-shipment inspection against AQL sampling standards, measurement tolerance benchmarks matched to the tech pack POM sheet, and a golden sample retained at the factory as the bulk production reference. Ask directly what their process is; vague answers indicate weak systems.",
+      desc: "Good partners have formalized QC processes - not ad hoc end-of-line checks. This typically means inline floor audits at multiple production stages, a pre-shipment inspection against AQL sampling standards, measurement tolerance benchmarks matched to the tech pack POM sheet, and a golden sample retained at the factory as the bulk production reference. Ask directly what their process is; vague answers indicate weak systems.",
     },
     {
       title: "MOQ & Commercial Terms Alignment",
@@ -59,7 +59,7 @@ export default function WhatMakesAGoodApparelManufacturingPartnerPage() {
     },
     {
       title: "Ethical & Labour Standards",
-      desc: "A manufacturing partner's labour practices directly reflect on your brand. Minimum requirements include fair and legal wage payment, documented working hours, safe factory conditions, and no use of prohibited labour practices. Independent compliance audits (such as WRAP, BSCI, or similar) from partner facilities provide third-party verification — though buyers should always request and review documentation rather than accepting verbal claims.",
+      desc: "A manufacturing partner's labour practices directly reflect on your brand. Minimum requirements include fair and legal wage payment, documented working hours, safe factory conditions, and no use of prohibited labour practices. Independent compliance audits (such as WRAP, BSCI, or similar) from partner facilities provide third-party verification - though buyers should always request and review documentation rather than accepting verbal claims.",
     },
     {
       title: "Sampling Accuracy & Revision Willingness",
@@ -67,7 +67,7 @@ export default function WhatMakesAGoodApparelManufacturingPartnerPage() {
     },
     {
       title: "Realistic Timeline Commitments",
-      desc: "A reliable manufacturing partner gives you honest production timelines — including caveats about fabric sourcing, factory scheduling, and revision rounds. Manufacturers who consistently promise faster delivery than the production process allows are setting your brand up for disappointment. Timeline honesty is a marker of a professional, experienced partner who understands their own capacity.",
+      desc: "A reliable manufacturing partner gives you honest production timelines - including caveats about fabric sourcing, factory scheduling, and revision rounds. Manufacturers who consistently promise faster delivery than the production process allows are setting your brand up for disappointment. Timeline honesty is a marker of a professional, experienced partner who understands their own capacity.",
     },
     {
       title: "Scalability & Long-Term Commitment",
@@ -89,15 +89,15 @@ export default function WhatMakesAGoodApparelManufacturingPartnerPage() {
     },
     {
       q: "Is a direct factory better than a managed production partner?",
-      a: "Direct factories give you lower per-unit cost and direct control — but require on-site presence or significant remote management expertise. Managed production partners provide local ground supervision, technical oversight, language capability, and quality assurance. For brands new to overseas production or without in-house sourcing expertise, a managed partner typically delivers better outcomes despite a slightly higher cost.",
+      a: "Direct factories give you lower per-unit cost and direct control - but require on-site presence or significant remote management expertise. Managed production partners provide local ground supervision, technical oversight, language capability, and quality assurance. For brands new to overseas production or without in-house sourcing expertise, a managed partner typically delivers better outcomes despite a slightly higher cost.",
     },
     {
       q: "How important is the manufacturer's experience in my specific product category?",
-      a: "Very important. A factory specialising in knitwear (t-shirts, hoodies) has different equipment, skills, and supplier relationships than one specialising in woven denim or technical outerwear. A manufacturer outside their core category often struggles with construction accuracy and material sourcing. Always confirm category-specific experience with samples or portfolio evidence — not just stated capability.",
+      a: "Very important. A factory specialising in knitwear (t-shirts, hoodies) has different equipment, skills, and supplier relationships than one specialising in woven denim or technical outerwear. A manufacturer outside their core category often struggles with construction accuracy and material sourcing. Always confirm category-specific experience with samples or portfolio evidence - not just stated capability.",
     },
     {
       q: "What should I ask about a manufacturer's quality control before committing?",
-      a: "Ask specifically: Who conducts QC? At which production stages? What measurement tolerances do they apply? Do they retain a golden sample during bulk production? What is their pre-shipment inspection methodology — random sampling or 100% inspection? Specific answers indicate a real QC system. Vague answers like 'we ensure quality' indicate the absence of one.",
+      a: "Ask specifically: Who conducts QC? At which production stages? What measurement tolerances do they apply? Do they retain a golden sample during bulk production? What is their pre-shipment inspection methodology - random sampling or 100% inspection? Specific answers indicate a real QC system. Vague answers like 'we ensure quality' indicate the absence of one.",
     },
     {
       q: "Does a good manufacturing partner need to be in a specific country?",
@@ -105,7 +105,7 @@ export default function WhatMakesAGoodApparelManufacturingPartnerPage() {
     },
     {
       q: "What documentation should a reputable manufacturer be able to provide?",
-      a: "A reputable manufacturing partner should be able to provide: itemized pricing quotes, sampling timelines, measurement spec sheets, in-line QC audit records, AQL inspection reports, and — if applicable — documentation of any facility compliance audits. Manufacturers who are evasive about documentation are a significant risk.",
+      a: "A reputable manufacturing partner should be able to provide: itemized pricing quotes, sampling timelines, measurement spec sheets, in-line QC audit records, AQL inspection reports, and - if applicable - documentation of any facility compliance audits. Manufacturers who are evasive about documentation are a significant risk.",
     },
   ];
 
@@ -142,7 +142,7 @@ export default function WhatMakesAGoodApparelManufacturingPartnerPage() {
             <span className="italic font-medium text-[#2D5016]">Manufacturing Partner?</span>
           </h1>
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
-            A great manufacturing partner is an extension of your team — protecting your brand standards, operational timelines, and product quality. This guide identifies the eight traits that actually matter.
+            A great manufacturing partner is an extension of your team - protecting your brand standards, operational timelines, and product quality. This guide identifies the eight traits that actually matter.
           </p>
           <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>
@@ -165,7 +165,7 @@ export default function WhatMakesAGoodApparelManufacturingPartnerPage() {
               Most brands evaluate manufacturers primarily on price and perceived speed. These are legitimate considerations, but they are not the most important predictors of whether a manufacturing relationship will succeed over multiple seasons.
             </p>
             <p>
-              The characteristics that separate genuinely reliable manufacturing partners from unreliable ones are largely about process — how they communicate, how they handle problems, how they enforce quality, and how they behave when things go wrong. These attributes are observable during the sampling phase, before any bulk order is placed.
+              The characteristics that separate genuinely reliable manufacturing partners from unreliable ones are largely about process - how they communicate, how they handle problems, how they enforce quality, and how they behave when things go wrong. These attributes are observable during the sampling phase, before any bulk order is placed.
             </p>
           </div>
         </div>
@@ -250,7 +250,7 @@ export default function WhatMakesAGoodApparelManufacturingPartnerPage() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
           <h2 className="font-display text-3xl lg:text-5xl font-light text-[#1A1A1A] mb-4">Work with a pre-vetted manufacturing partner</h2>
           <p className="text-[#6B6560] leading-relaxed text-base mb-10 max-w-xl mx-auto">
-            Fenalt connects independent labels with audited micro-factories in Dhaka — managing sampling, quality control, and export execution.
+            Fenalt connects independent labels with audited micro-factories in Dhaka - managing sampling, quality control, and export execution.
           </p>
           <Link href="/intake" className="inline-flex items-center justify-center gap-2 px-10 py-4 bg-[#1A1A1A] text-[#FAF9F6] text-sm font-semibold tracking-wide hover:bg-[#2D5016] transition-colors duration-300">
             Submit Your Project <ArrowRight size={16} />

@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, Scale } from "lucide-react";
 export const metadata: Metadata = {
   title: "Low MOQ vs Bulk Manufacturing: What Changes?",
   description:
-    "Compare low minimum order quantity (MOQ) production against high-volume bulk apparel manufacturing — analyzing unit economics, fabric sourcing options, lead times, and inventory risk.",
+    "Compare low minimum order quantity (MOQ) production against high-volume bulk apparel manufacturing - analyzing unit economics, fabric sourcing options, lead times, and inventory risk.",
   alternates: {
     canonical: "https://fenalt.com/learn/low-moq-vs-bulk-manufacturing",
   },
   openGraph: {
     title: "Low MOQ vs Bulk Manufacturing: What Changes?",
     description:
-      "Compare low minimum order quantity (MOQ) production against high-volume bulk apparel manufacturing — analyzing unit economics, fabric sourcing options, lead times, and inventory risk.",
+      "Compare low minimum order quantity (MOQ) production against high-volume bulk apparel manufacturing - analyzing unit economics, fabric sourcing options, lead times, and inventory risk.",
     url: "https://fenalt.com/learn/low-moq-vs-bulk-manufacturing",
   },
 };
@@ -68,7 +68,7 @@ export default function LowMoqVsBulkManufacturingPage() {
     },
     {
       q: "Why do low MOQ orders have a higher price per garment?",
-      a: "Low MOQ orders carry higher per-unit pricing because fixed production setup expenses — such as CAD pattern grading, marker making, cutting table setup, screen printing frame preparation, and machine thread changes — are distributed across fewer units.",
+      a: "Low MOQ orders carry higher per-unit pricing because fixed production setup expenses - such as CAD pattern grading, marker making, cutting table setup, screen printing frame preparation, and machine thread changes - are distributed across fewer units.",
     },
     {
       q: "What is the safest strategy for launching an inaugural clothing collection?",
@@ -109,7 +109,7 @@ export default function LowMoqVsBulkManufacturingPage() {
             <span className="italic font-medium text-[#2D5016]">Manufacturing: What Changes?</span>
           </h1>
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
-            A comprehensive breakdown of small-batch vs bulk apparel manufacturing — comparing unit economics, fabric choices, lead times, and financial risk.
+            A comprehensive breakdown of small-batch vs bulk apparel manufacturing - comparing unit economics, fabric choices, lead times, and financial risk.
           </p>
           <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>

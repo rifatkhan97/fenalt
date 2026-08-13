@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, TrendingUp } from "lucide-react";
 export const metadata: Metadata = {
   title: "How to Scale Clothing Production After a Successful First Run",
   description:
-    "Learn how to transition from small-batch initial orders to scaled bulk production — managing supply chain capacity, custom fabric knits, greige reserves, and working capital.",
+    "Learn how to transition from small-batch initial orders to scaled bulk production - managing supply chain capacity, custom fabric knits, greige reserves, and working capital.",
   alternates: {
     canonical: "https://fenalt.com/learn/how-to-scale-clothing-production",
   },
   openGraph: {
     title: "How to Scale Clothing Production After a Successful First Run",
     description:
-      "Learn how to transition from small-batch initial orders to scaled bulk production — managing supply chain capacity, custom fabric knits, greige reserves, and working capital.",
+      "Learn how to transition from small-batch initial orders to scaled bulk production - managing supply chain capacity, custom fabric knits, greige reserves, and working capital.",
     url: "https://fenalt.com/learn/how-to-scale-clothing-production",
   },
 };
@@ -96,7 +96,7 @@ export default function HowToScaleClothingProductionPage() {
     },
     {
       q: "How does Fenalt support scaling apparel brands in Bangladesh?",
-      a: "Fenalt manages the entire scaling transition in Dhaka — from small-batch pilot runs (50–100 units) to custom mill fabric knitting, greige reserves, ocean freight logistics, and AQL 2.5 quality control for 1,000+ unit bulk orders.",
+      a: "Fenalt manages the entire scaling transition in Dhaka - from small-batch pilot runs (50–100 units) to custom mill fabric knitting, greige reserves, ocean freight logistics, and AQL 2.5 quality control for 1,000+ unit bulk orders.",
     },
   ];
 
@@ -148,7 +148,7 @@ export default function HowToScaleClothingProductionPage() {
               <span className="text-xs font-semibold uppercase tracking-[0.25em] text-[#C8A882]">The Scaling Evolution</span>
             </div>
             <p className="font-display text-2xl lg:text-3xl font-light text-[#1A1A1A] leading-relaxed">
-              Scaling is not simply multiplying your order by ten — it requires <strong className="font-medium">custom fabric mill reservations, ocean freight, and statistical AQL quality control</strong>.
+              Scaling is not simply multiplying your order by ten - it requires <strong className="font-medium">custom fabric mill reservations, ocean freight, and statistical AQL quality control</strong>.
             </p>
           </div>
           <p className="text-base text-[#6B6560] leading-relaxed">

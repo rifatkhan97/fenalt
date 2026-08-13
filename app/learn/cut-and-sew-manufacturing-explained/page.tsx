@@ -43,11 +43,11 @@ export default function CutAndSewManufacturingExplainedPage() {
   const steps = [
     {
       title: "1. Tech Pack & Pattern Development",
-      desc: "Everything begins with technical documentation. A complete tech pack — specifying measurements, fabric, construction methods, and trims — is reviewed by a pattern maker who converts the spec into physical or digital pattern pieces. These patterns are the exact templates that fabric will be cut to. Inaccurate pattern development at this stage propagates through every subsequent unit produced.",
+      desc: "Everything begins with technical documentation. A complete tech pack - specifying measurements, fabric, construction methods, and trims - is reviewed by a pattern maker who converts the spec into physical or digital pattern pieces. These patterns are the exact templates that fabric will be cut to. Inaccurate pattern development at this stage propagates through every subsequent unit produced.",
     },
     {
       title: "2. Fabric Sourcing & Lab Dip Approval",
-      desc: "Raw fabric is sourced from mills based on the tech pack's fibre specification, GSM target, and colourway. Dyeing labs produce small test swatches (lab dips) to match Pantone colour references. Brands must approve lab dips before bulk fabric is processed — a step often overlooked by first-time brands that delays production if managed poorly.",
+      desc: "Raw fabric is sourced from mills based on the tech pack's fibre specification, GSM target, and colourway. Dyeing labs produce small test swatches (lab dips) to match Pantone colour references. Brands must approve lab dips before bulk fabric is processed - a step often overlooked by first-time brands that delays production if managed poorly.",
     },
     {
       title: "3. Fabric Spreading & Marker Making",
@@ -55,7 +55,7 @@ export default function CutAndSewManufacturingExplainedPage() {
     },
     {
       title: "4. Precision Cutting",
-      desc: "Industrial straight-knife cutting machines or automated laser cutters slice through the fabric layers following the marker layout. Multiple plies are cut simultaneously for efficiency. Accurate grainline alignment during cutting is critical — off-grain cuts cause seams to twist during wear and washing.",
+      desc: "Industrial straight-knife cutting machines or automated laser cutters slice through the fabric layers following the marker layout. Multiple plies are cut simultaneously for efficiency. Accurate grainline alignment during cutting is critical - off-grain cuts cause seams to twist during wear and washing.",
     },
     {
       title: "5. Bundling & Sub-Assembly Routing",
@@ -63,11 +63,11 @@ export default function CutAndSewManufacturingExplainedPage() {
     },
     {
       title: "6. Garment Assembly & Sewing",
-      desc: "Sewing technicians stitch panels together in a sequential line operation. Different stitch types are used for different seams — lockstitch for topstitching, overlock for raw edge finishing, coverstitch or flatlock for hemming and sportswear construction. Hardware (zippers, snaps, drawcords), labels, and trim attachments are integrated at designated sewing stations.",
+      desc: "Sewing technicians stitch panels together in a sequential line operation. Different stitch types are used for different seams - lockstitch for topstitching, overlock for raw edge finishing, coverstitch or flatlock for hemming and sportswear construction. Hardware (zippers, snaps, drawcords), labels, and trim attachments are integrated at designated sewing stations.",
     },
     {
       title: "7. Finishing, Washing & QC",
-      desc: "Completed garments are thread-trimmed, steam-pressed, and subjected to any specified washing or treatment processes (enzyme wash, garment dye, silicon softener). Metal and needle detection is performed before packing — mandatory for export to most markets. Pre-shipment quality inspection checks finished units against the AQL standard and the approved golden sample.",
+      desc: "Completed garments are thread-trimmed, steam-pressed, and subjected to any specified washing or treatment processes (enzyme wash, garment dye, silicon softener). Metal and needle detection is performed before packing - mandatory for export to most markets. Pre-shipment quality inspection checks finished units against the AQL standard and the approved golden sample.",
     },
     {
       title: "8. Packaging & Export",
@@ -77,13 +77,13 @@ export default function CutAndSewManufacturingExplainedPage() {
 
   const comparisonRows = [
     { aspect: "Starting material", cutSew: "Raw fabric (unfinished rolls from mill)", blank: "Pre-made blank garment (already fully constructed)" },
-    { aspect: "Design freedom", cutSew: "Complete — custom silhouette, panels, seams, hardware", blank: "Limited — can only modify surface (print, embroidery)" },
-    { aspect: "Fit control", cutSew: "Full — brand owns patterns and size specifications", blank: "None — fixed by the blank manufacturer's sizing" },
+    { aspect: "Design freedom", cutSew: "Complete - custom silhouette, panels, seams, hardware", blank: "Limited - can only modify surface (print, embroidery)" },
+    { aspect: "Fit control", cutSew: "Full - brand owns patterns and size specifications", blank: "None - fixed by the blank manufacturer's sizing" },
     { aspect: "Fabric choice", cutSew: "Any fibre, weight, finish the brand specifies", blank: "Restricted to what blank supplier offers" },
-    { aspect: "Development cost", cutSew: "Higher — requires tech pack, pattern, and sampling", blank: "Lower — no pattern development needed" },
-    { aspect: "MOQ", cutSew: "Higher — typically 50–300+ units per style minimum", blank: "Lower — some blank suppliers accept single-unit POD" },
-    { aspect: "Lead time", cutSew: "Longer — sampling and pre-production phases add weeks", blank: "Shorter — production can often begin immediately" },
-    { aspect: "Brand ownership", cutSew: "Complete — brand owns the design, pattern, and product", blank: "Partial — brand only owns the decoration layer" },
+    { aspect: "Development cost", cutSew: "Higher - requires tech pack, pattern, and sampling", blank: "Lower - no pattern development needed" },
+    { aspect: "MOQ", cutSew: "Higher - typically 50–300+ units per style minimum", blank: "Lower - some blank suppliers accept single-unit POD" },
+    { aspect: "Lead time", cutSew: "Longer - sampling and pre-production phases add weeks", blank: "Shorter - production can often begin immediately" },
+    { aspect: "Brand ownership", cutSew: "Complete - brand owns the design, pattern, and product", blank: "Partial - brand only owns the decoration layer" },
     { aspect: "Best for", cutSew: "Brands building a distinct product with custom aesthetics", blank: "Simple branded merchandise or rapid POD fulfilment" },
   ];
 
@@ -102,11 +102,11 @@ export default function CutAndSewManufacturingExplainedPage() {
     },
     {
       q: "Is cut-and-sew manufacturing more expensive than blank printing?",
-      a: "Initial development costs are higher for cut-and-sew: tech pack creation, pattern development, sample rounds, and material minimums all add cost before a single production unit is made. However, at meaningful production scales, per-unit costs for cut-and-sew are highly competitive — and the product itself is differentiated in ways that blank-based production cannot match. Brands building genuine product value rather than simply decorating a commodity item typically find cut-and-sew cost-justified.",
+      a: "Initial development costs are higher for cut-and-sew: tech pack creation, pattern development, sample rounds, and material minimums all add cost before a single production unit is made. However, at meaningful production scales, per-unit costs for cut-and-sew are highly competitive - and the product itself is differentiated in ways that blank-based production cannot match. Brands building genuine product value rather than simply decorating a commodity item typically find cut-and-sew cost-justified.",
     },
     {
       q: "What does a brand need to provide before cut-and-sew production can begin?",
-      a: "A complete tech pack is the essential starting document — covering garment measurements, fabric specifications (composition, weight, colourway), construction details (stitch types, seam allowances, pocket construction), trim and hardware specifications (zippers, drawcords, labels), and print or embroidery placement. Without a tech pack, manufacturers can provide only rough indicative quotes and cannot begin accurate pattern development.",
+      a: "A complete tech pack is the essential starting document - covering garment measurements, fabric specifications (composition, weight, colourway), construction details (stitch types, seam allowances, pocket construction), trim and hardware specifications (zippers, drawcords, labels), and print or embroidery placement. Without a tech pack, manufacturers can provide only rough indicative quotes and cannot begin accurate pattern development.",
     },
     {
       q: "What is the typical minimum order quantity for cut-and-sew production?",
@@ -178,12 +178,12 @@ export default function CutAndSewManufacturingExplainedPage() {
               <span className="text-xs font-semibold uppercase tracking-[0.25em] text-[#C8A882]">Definition</span>
             </div>
             <p className="font-display text-2xl lg:text-3xl font-light text-[#1A1A1A] leading-relaxed">
-              <strong className="font-medium">Cut-and-sew manufacturing</strong> is the process of creating custom garments from scratch — sourcing raw fabric from mills, cutting flat pattern pieces from that fabric, and sewing them into finished garments according to a brand&apos;s technical specifications.
+              <strong className="font-medium">Cut-and-sew manufacturing</strong> is the process of creating custom garments from scratch - sourcing raw fabric from mills, cutting flat pattern pieces from that fabric, and sewing them into finished garments according to a brand&apos;s technical specifications.
             </p>
           </div>
           <div className="prose prose-lg max-w-none text-[#6B6560] leading-relaxed space-y-5">
             <p>
-              Unlike blank-based production — where a pre-made garment is purchased from a wholesale supplier and decorated with a print or embroidery — cut-and-sew manufacturing means the garment itself is built from the ground up. Every measurement, seam, panel, pocket, and trim is specified by the brand and executed by the manufacturer.
+              Unlike blank-based production - where a pre-made garment is purchased from a wholesale supplier and decorated with a print or embroidery - cut-and-sew manufacturing means the garment itself is built from the ground up. Every measurement, seam, panel, pocket, and trim is specified by the brand and executed by the manufacturer.
             </p>
             <p>
               This approach requires more upfront development work (tech pack, pattern making, sampling) and higher minimum order quantities, but it is the only method that gives a brand full ownership over their product&apos;s physical form, fabric, and construction quality.
@@ -299,7 +299,7 @@ export default function CutAndSewManufacturingExplainedPage() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
           <h2 className="font-display text-3xl lg:text-5xl font-light text-[#1A1A1A] mb-4">Build custom cut-and-sew collections</h2>
           <p className="text-[#6B6560] leading-relaxed text-base mb-10 max-w-xl mx-auto">
-            Fenalt delivers full cut-and-sew production for independent brands — offering custom pattern making, high-GSM fabric sourcing, and low MOQs.
+            Fenalt delivers full cut-and-sew production for independent brands - offering custom pattern making, high-GSM fabric sourcing, and low MOQs.
           </p>
           <Link href="/intake" className="inline-flex items-center justify-center gap-2 px-10 py-4 bg-[#1A1A1A] text-[#FAF9F6] text-sm font-semibold tracking-wide hover:bg-[#2D5016] transition-colors duration-300">
             Submit Your Project <ArrowRight size={16} />

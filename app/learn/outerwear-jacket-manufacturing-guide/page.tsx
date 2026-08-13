@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, Shield } from "lucide-react";
 export const metadata: Metadata = {
   title: "Outerwear & Jacket Manufacturing Guide for Fashion Brands",
   description:
-    "Explore outerwear jacket production — waterproof DWR coatings, hot-air seam-taping technology, down/synthetic insulation, baffle construction, and heavy YKK hardware assembly.",
+    "Explore outerwear jacket production - waterproof DWR coatings, hot-air seam-taping technology, down/synthetic insulation, baffle construction, and heavy YKK hardware assembly.",
   alternates: {
     canonical: "https://fenalt.com/learn/outerwear-jacket-manufacturing-guide",
   },
   openGraph: {
     title: "Outerwear & Jacket Manufacturing Guide for Fashion Brands",
     description:
-      "Explore outerwear jacket production — waterproof DWR coatings, hot-air seam-taping technology, down/synthetic insulation, baffle construction, and heavy YKK hardware assembly.",
+      "Explore outerwear jacket production - waterproof DWR coatings, hot-air seam-taping technology, down/synthetic insulation, baffle construction, and heavy YKK hardware assembly.",
     url: "https://fenalt.com/learn/outerwear-jacket-manufacturing-guide",
   },
 };
@@ -98,7 +98,7 @@ export default function OuterwearJacketManufacturingGuidePage() {
     },
     {
       q: "Why does outerwear jacket manufacturing carry higher minimum order quantities?",
-      a: "Outerwear jackets involve complex multi-component Bill of Materials (BOM) — including technical shell fabrics, linings, insulation, seam tape, storm flaps, and specialized waterproof zippers — requiring higher mill material minimums than simple t-shirts.",
+      a: "Outerwear jackets involve complex multi-component Bill of Materials (BOM) - including technical shell fabrics, linings, insulation, seam tape, storm flaps, and specialized waterproof zippers - requiring higher mill material minimums than simple t-shirts.",
     },
     {
       q: "What is the difference between fully seam-sealed and critically seam-sealed?",
@@ -151,7 +151,7 @@ export default function OuterwearJacketManufacturingGuidePage() {
             <span className="italic font-medium text-[#2D5016]">Manufacturing Guide.</span>
           </h1>
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
-            A technical guide to manufacturing outerwear — waterproof DWR membranes, hot-air seam taping, synthetic down insulation, quilted baffles, and heavy YKK zippers.
+            A technical guide to manufacturing outerwear - waterproof DWR membranes, hot-air seam taping, synthetic down insulation, quilted baffles, and heavy YKK zippers.
           </p>
           <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>
@@ -166,7 +166,7 @@ export default function OuterwearJacketManufacturingGuidePage() {
               <span className="text-xs font-semibold uppercase tracking-[0.25em] text-[#C8A882]">Technical Assembly</span>
             </div>
             <p className="font-display text-2xl lg:text-3xl font-light text-[#1A1A1A] leading-relaxed">
-              Outerwear manufacturing is the most complex discipline in apparel production — combining <strong className="font-medium">multi-panel technical shells, insulation, and waterproof seam sealing</strong>.
+              Outerwear manufacturing is the most complex discipline in apparel production - combining <strong className="font-medium">multi-panel technical shells, insulation, and waterproof seam sealing</strong>.
             </p>
           </div>
           <p className="text-base text-[#6B6560] leading-relaxed">
@@ -267,7 +267,7 @@ export default function OuterwearJacketManufacturingGuidePage() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
           <h2 className="font-display text-3xl lg:text-5xl font-light text-[#1A1A1A] mb-4">Manufacture technical outerwear</h2>
           <p className="text-[#6B6560] leading-relaxed text-base mb-10 max-w-xl mx-auto">
-            Fenalt executes technical outerwear production in Dhaka — managing DWR shell sourcing, seam taping, baffle filling, and hydrostatic testing.
+            Fenalt executes technical outerwear production in Dhaka - managing DWR shell sourcing, seam taping, baffle filling, and hydrostatic testing.
           </p>
           <Link href="/intake" className="inline-flex items-center justify-center gap-2 px-10 py-4 bg-[#1A1A1A] text-[#FAF9F6] text-sm font-semibold tracking-wide hover:bg-[#2D5016] transition-colors duration-300">
             Submit Your Project <ArrowRight size={16} />

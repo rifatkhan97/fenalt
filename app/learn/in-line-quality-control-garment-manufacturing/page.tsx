@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, Activity } from "lucide-react";
 export const metadata: Metadata = {
   title: "In-Line Quality Control in Garment Manufacturing",
   description:
-    "Explore In-Line Quality Control (IPQC) during garment assembly — Traffic Light Systems, roving inspectors, critical station checkpoints, and real-time defect prevention.",
+    "Explore In-Line Quality Control (IPQC) during garment assembly - Traffic Light Systems, roving inspectors, critical station checkpoints, and real-time defect prevention.",
   alternates: {
     canonical: "https://fenalt.com/learn/in-line-quality-control-garment-manufacturing",
   },
   openGraph: {
     title: "In-Line Quality Control in Garment Manufacturing",
     description:
-      "Explore In-Line Quality Control (IPQC) during garment assembly — Traffic Light Systems, roving inspectors, critical station checkpoints, and real-time defect prevention.",
+      "Explore In-Line Quality Control (IPQC) during garment assembly - Traffic Light Systems, roving inspectors, critical station checkpoints, and real-time defect prevention.",
     url: "https://fenalt.com/learn/in-line-quality-control-garment-manufacturing",
   },
 };
@@ -97,7 +97,7 @@ export default function InLineQualityControlGarmentManufacturingPage() {
     },
     {
       q: "How does Fenalt execute in-line quality control in Bangladesh?",
-      a: "Fenalt's technical team in Dhaka deploys dedicated roving QC auditors to partner sewing lines — enforcing real-time Traffic Light monitoring and POM measurement checks across every batch.",
+      a: "Fenalt's technical team in Dhaka deploys dedicated roving QC auditors to partner sewing lines - enforcing real-time Traffic Light monitoring and POM measurement checks across every batch.",
     },
   ];
 
@@ -134,7 +134,7 @@ export default function InLineQualityControlGarmentManufacturingPage() {
             <span className="italic font-medium text-[#2D5016]">in Garment Manufacturing.</span>
           </h1>
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
-            A technical guide to In-Process Quality Control (IPQC) — roving station auditors, Traffic Light Systems, critical operation gates, and real-time defect prevention.
+            A technical guide to In-Process Quality Control (IPQC) - roving station auditors, Traffic Light Systems, critical operation gates, and real-time defect prevention.
           </p>
           <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>
@@ -149,11 +149,11 @@ export default function InLineQualityControlGarmentManufacturingPage() {
               <span className="text-xs font-semibold uppercase tracking-[0.25em] text-[#C8A882]">Real-Time Prevention</span>
             </div>
             <p className="font-display text-2xl lg:text-3xl font-light text-[#1A1A1A] leading-relaxed">
-              In-Line QC catches defects <strong className="font-medium">while garments are on the needle</strong> — saving hundreds of units from systemic rework.
+              In-Line QC catches defects <strong className="font-medium">while garments are on the needle</strong> - saving hundreds of units from systemic rework.
             </p>
           </div>
           <p className="text-base text-[#6B6560] leading-relaxed">
-            In-Process Quality Control (IPQC) is the active operational engine of garment factory quality. By placing roving auditors and stationary QC gates directly along live sewing lines, factories identify machine tension errors, needle damage, and operator handling flaws immediately — stopping bad garments from moving down the line.
+            In-Process Quality Control (IPQC) is the active operational engine of garment factory quality. By placing roving auditors and stationary QC gates directly along live sewing lines, factories identify machine tension errors, needle damage, and operator handling flaws immediately - stopping bad garments from moving down the line.
           </p>
         </div>
       </section>

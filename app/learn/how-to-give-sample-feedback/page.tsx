@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, MessageSquare } from "lucide-react"
 export const metadata: Metadata = {
   title: "How to Give Useful Feedback on a Clothing Sample",
   description:
-    "Learn how to write actionable, precise sample fit feedback for your clothing manufacturer — using measuring tapes, flat-lay reference photos, and clear POM delta callouts.",
+    "Learn how to write actionable, precise sample fit feedback for your clothing manufacturer - using measuring tapes, flat-lay reference photos, and clear POM delta callouts.",
   alternates: {
     canonical: "https://fenalt.com/learn/how-to-give-sample-feedback",
   },
   openGraph: {
     title: "How to Give Useful Feedback on a Clothing Sample",
     description:
-      "Learn how to write actionable, precise sample fit feedback for your clothing manufacturer — using measuring tapes, flat-lay reference photos, and clear POM delta callouts.",
+      "Learn how to write actionable, precise sample fit feedback for your clothing manufacturer - using measuring tapes, flat-lay reference photos, and clear POM delta callouts.",
     url: "https://fenalt.com/learn/how-to-give-sample-feedback",
   },
 };
@@ -94,7 +94,7 @@ export default function HowToGiveSampleFeedbackPage() {
     },
     {
       q: "Should I cut or mark the physical sample garment?",
-      a: "Yes! Physically pinning seam adjustments, drawing cut lines with tailor's chalk, or taping altered pocket positions directly onto the sample garment — and returning it to the factory — is one of the clearest ways to communicate pattern revisions.",
+      a: "Yes! Physically pinning seam adjustments, drawing cut lines with tailor's chalk, or taping altered pocket positions directly onto the sample garment - and returning it to the factory - is one of the clearest ways to communicate pattern revisions.",
     },
     {
       q: "How long should a brand take to issue sample feedback?",
@@ -162,7 +162,7 @@ export default function HowToGiveSampleFeedbackPage() {
               <span className="text-xs font-semibold uppercase tracking-[0.25em] text-[#C8A882]">Communication Standard</span>
             </div>
             <p className="font-display text-2xl lg:text-3xl font-light text-[#1A1A1A] leading-relaxed">
-              Pattern makers work from <strong className="font-medium">measurements, CAD line adjustments, and visual evidence</strong> — not vague adjectives. Objective feedback drives accurate revisions.
+              Pattern makers work from <strong className="font-medium">measurements, CAD line adjustments, and visual evidence</strong> - not vague adjectives. Objective feedback drives accurate revisions.
             </p>
           </div>
           <p className="text-base text-[#6B6560] leading-relaxed">

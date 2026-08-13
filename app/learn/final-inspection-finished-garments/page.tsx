@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, PackageCheck } from "lucide-react";
 export const metadata: Metadata = {
   title: "Final Inspection for Finished Garments: AQL Protocol",
   description:
-    "Learn how Final Random Inspection (FRI) works — applying ANSI/ASQ Z1.4 AQL sampling tables, visual defect classification (Critical/Major/Minor), POM audits, and export packaging checks.",
+    "Learn how Final Random Inspection (FRI) works - applying ANSI/ASQ Z1.4 AQL sampling tables, visual defect classification (Critical/Major/Minor), POM audits, and export packaging checks.",
   alternates: {
     canonical: "https://fenalt.com/learn/final-inspection-finished-garments",
   },
   openGraph: {
     title: "Final Inspection for Finished Garments: AQL Protocol",
     description:
-      "Learn how Final Random Inspection (FRI) works — applying ANSI/ASQ Z1.4 AQL sampling tables, visual defect classification (Critical/Major/Minor), POM audits, and export packaging checks.",
+      "Learn how Final Random Inspection (FRI) works - applying ANSI/ASQ Z1.4 AQL sampling tables, visual defect classification (Critical/Major/Minor), POM audits, and export packaging checks.",
     url: "https://fenalt.com/learn/final-inspection-finished-garments",
   },
 };
@@ -96,7 +96,7 @@ export default function FinalInspectionFinishedGarmentsPage() {
     },
     {
       q: "How does Fenalt execute final inspections in Bangladesh?",
-      a: "Fenalt's Dhaka quality engineers conduct on-site FRI audits under ANSI/ASQ Z1.4 AQL 2.5 standards — issuing detailed photo inspection reports before releasing shipping authorization.",
+      a: "Fenalt's Dhaka quality engineers conduct on-site FRI audits under ANSI/ASQ Z1.4 AQL 2.5 standards - issuing detailed photo inspection reports before releasing shipping authorization.",
     },
   ];
 
@@ -133,7 +133,7 @@ export default function FinalInspectionFinishedGarmentsPage() {
             <span className="italic font-medium text-[#2D5016]">AQL Protocol.</span>
           </h1>
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
-            A technical guide to Final Random Inspection (FRI) — applying ANSI/ASQ Z1.4 AQL sampling tables, visual defect classifications, POM measurement audits, and packaging checks.
+            A technical guide to Final Random Inspection (FRI) - applying ANSI/ASQ Z1.4 AQL sampling tables, visual defect classifications, POM measurement audits, and packaging checks.
           </p>
           <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>

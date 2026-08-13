@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, ClipboardCheck } from "lucide-react
 export const metadata: Metadata = {
   title: "How to Prepare for Your First Clothing Sample",
   description:
-    "A comprehensive preparation checklist for fashion brands ordering their first prototype garment sample — from tech pack validation and GSM specifications to physical reference garments.",
+    "A comprehensive preparation checklist for fashion brands ordering their first prototype garment sample - from tech pack validation and GSM specifications to physical reference garments.",
   alternates: {
     canonical: "https://fenalt.com/learn/how-to-prepare-for-first-clothing-sample",
   },
   openGraph: {
     title: "How to Prepare for Your First Clothing Sample",
     description:
-      "A comprehensive preparation checklist for fashion brands ordering their first prototype garment sample — from tech pack validation and GSM specifications to physical reference garments.",
+      "A comprehensive preparation checklist for fashion brands ordering their first prototype garment sample - from tech pack validation and GSM specifications to physical reference garments.",
     url: "https://fenalt.com/learn/how-to-prepare-for-first-clothing-sample",
   },
 };
@@ -47,7 +47,7 @@ export default function HowToPrepareForFirstClothingSamplePage() {
     },
     {
       step: "2. Define Target Fabric Fibre, Weave & GSM",
-      desc: "Specify exact material targets — for example, 100% combed cotton, 450 GSM French Terry, or 95/5 cotton-spandex jersey. Indicating a specific yarn count or handfeel expectation gives the sample room clear parameters for selecting or sourcing suitable sample yardage.",
+      desc: "Specify exact material targets - for example, 100% combed cotton, 450 GSM French Terry, or 95/5 cotton-spandex jersey. Indicating a specific yarn count or handfeel expectation gives the sample room clear parameters for selecting or sourcing suitable sample yardage.",
     },
     {
       step: "3. Supply Physical Reference Garments or Fabric Swatches",
@@ -55,7 +55,7 @@ export default function HowToPrepareForFirstClothingSamplePage() {
     },
     {
       step: "4. Establish Base Sample Size & Target Fitting Standard",
-      desc: "Designate the exact size to sample — typically a Medium for menswear/unisex or a Small/Medium for womenswear. Specify whether fitting will take place on a live fit model or a calibrated dress form, and confirm base model body measurements.",
+      desc: "Designate the exact size to sample - typically a Medium for menswear/unisex or a Small/Medium for womenswear. Specify whether fitting will take place on a live fit model or a calibrated dress form, and confirm base model body measurements.",
     },
     {
       step: "5. Prepare Vector Print & Embroidery Files with Placement Coordinates",
@@ -105,7 +105,7 @@ export default function HowToPrepareForFirstClothingSamplePage() {
     },
     {
       q: "Which size should a brand sample first?",
-      a: "Brands usually sample their mid-range size — typically Medium for menswear and unisex collections, or Small/Medium for womenswear. Validating the base pattern on a central size ensures accurate size grading when scaling up to XL/2XL or down to XS.",
+      a: "Brands usually sample their mid-range size - typically Medium for menswear and unisex collections, or Small/Medium for womenswear. Validating the base pattern on a central size ensures accurate size grading when scaling up to XL/2XL or down to XS.",
     },
     {
       q: "What should I do if my tech pack has missing information?",

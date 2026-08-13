@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, Printer } from "lucide-react";
 export const metadata: Metadata = {
   title: "Screen Printing vs DTG Printing for Clothing Brands",
   description:
-    "Compare Plastisol and Water-Based Screen Printing against Direct-to-Garment (DTG) printing — analyzing ink opacity, wash durability, color accuracy, artwork detail, and volume cost efficiency.",
+    "Compare Plastisol and Water-Based Screen Printing against Direct-to-Garment (DTG) printing - analyzing ink opacity, wash durability, color accuracy, artwork detail, and volume cost efficiency.",
   alternates: {
     canonical: "https://fenalt.com/learn/screen-printing-vs-dtg-clothing",
   },
   openGraph: {
     title: "Screen Printing vs DTG Printing for Clothing Brands",
     description:
-      "Compare Plastisol and Water-Based Screen Printing against Direct-to-Garment (DTG) printing — analyzing ink opacity, wash durability, color accuracy, artwork detail, and volume cost efficiency.",
+      "Compare Plastisol and Water-Based Screen Printing against Direct-to-Garment (DTG) printing - analyzing ink opacity, wash durability, color accuracy, artwork detail, and volume cost efficiency.",
     url: "https://fenalt.com/learn/screen-printing-vs-dtg-clothing",
   },
 };
@@ -166,7 +166,7 @@ export default function ScreenPrintingVsDtgClothingPage() {
             <span className="italic font-medium text-[#2D5016]">for Clothing Brands.</span>
           </h1>
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
-            A technical breakdown of Plastisol &amp; Water-Based Screen Printing vs Direct-to-Garment (DTG) — comparing opacity, wash durability, setup costs, and unit economics.
+            A technical breakdown of Plastisol &amp; Water-Based Screen Printing vs Direct-to-Garment (DTG) - comparing opacity, wash durability, setup costs, and unit economics.
           </p>
           <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>

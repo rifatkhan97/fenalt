@@ -68,8 +68,8 @@ export default function TechPackVsSewingPatternPage() {
     },
     {
       factor: "Workflow Sequence",
-      techPack: "Created first — acts as the master reference from which sewing patterns are drafted.",
-      pattern: "Drafted second — uses tech pack POM tables and flat sketches as mathematical targets.",
+      techPack: "Created first - acts as the master reference from which sewing patterns are drafted.",
+      pattern: "Drafted second - uses tech pack POM tables and flat sketches as mathematical targets.",
     },
     {
       factor: "Standard File Extensions",
@@ -109,7 +109,7 @@ export default function TechPackVsSewingPatternPage() {
     },
     {
       q: "Can I start sampling if I only have a sewing pattern but no tech pack?",
-      a: "No. A sewing pattern only provides fabric cutting shapes — it does not specify fabric composition, GSM weight, thread types, Pantone colours, label placement, stitch callouts, or quality control tolerances. Both are required for accurate manufacturing.",
+      a: "No. A sewing pattern only provides fabric cutting shapes - it does not specify fabric composition, GSM weight, thread types, Pantone colours, label placement, stitch callouts, or quality control tolerances. Both are required for accurate manufacturing.",
     },
     {
       q: "Do brands own the CAD sewing patterns created by a factory?",

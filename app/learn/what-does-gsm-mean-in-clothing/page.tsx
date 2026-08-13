@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen } from "lucide-react";
 export const metadata: Metadata = {
   title: "What Does GSM Mean in Clothing?",
   description:
-    "GSM stands for grams per square metre — the standard measure of fabric weight. Learn what different GSM ranges mean for t-shirts, hoodies, and streetwear garments.",
+    "GSM stands for grams per square metre - the standard measure of fabric weight. Learn what different GSM ranges mean for t-shirts, hoodies, and streetwear garments.",
   alternates: {
     canonical: "https://fenalt.com/learn/what-does-gsm-mean-in-clothing",
   },
   openGraph: {
     title: "What Does GSM Mean in Clothing?",
     description:
-      "GSM stands for grams per square metre — the standard measure of fabric weight. Learn what different GSM ranges mean for t-shirts, hoodies, and streetwear garments.",
+      "GSM stands for grams per square metre - the standard measure of fabric weight. Learn what different GSM ranges mean for t-shirts, hoodies, and streetwear garments.",
     url: "https://fenalt.com/learn/what-does-gsm-mean-in-clothing",
   },
 };
@@ -94,7 +94,7 @@ export default function WhatDoesGsmMeanPage() {
     },
     {
       q: "What GSM is best for luxury streetwear t-shirts?",
-      a: "For luxury, boxy-fit streetwear t-shirts, 240 GSM to 300 GSM 100% combed cotton single jersey is the ideal weight range — providing substantial structure, crisp drape, and high opacity.",
+      a: "For luxury, boxy-fit streetwear t-shirts, 240 GSM to 300 GSM 100% combed cotton single jersey is the ideal weight range - providing substantial structure, crisp drape, and high opacity.",
     },
     {
       q: "What GSM is best for streetwear hoodies?",
@@ -149,7 +149,7 @@ export default function WhatDoesGsmMeanPage() {
           <div className="bg-[#1A1A1A] text-[#FAF9F6] p-8 lg:p-12">
             <p className="text-xs font-semibold uppercase tracking-[0.25em] text-[#C8A882] mb-4">The Simple Definition</p>
             <p className="font-display text-2xl lg:text-3xl font-light leading-relaxed">
-              GSM tells you how much one square metre of a fabric weighs, in grams. A 200gsm fabric is lighter than a 400gsm fabric of the same type. Higher GSM generally means thicker, heavier fabric — though this relationship depends on the fibre and knit construction.
+              GSM tells you how much one square metre of a fabric weighs, in grams. A 200gsm fabric is lighter than a 400gsm fabric of the same type. Higher GSM generally means thicker, heavier fabric - though this relationship depends on the fibre and knit construction.
             </p>
           </div>
         </div>
@@ -201,11 +201,11 @@ export default function WhatDoesGsmMeanPage() {
             <p>GSM measures weight only. A heavier fabric is not automatically a higher-quality fabric. Fabric quality is also determined by:</p>
             <ul className="space-y-2 ml-4">
               {[
-                "Fibre quality — combed cotton is finer and more consistent than carded cotton",
-                "Yarn count — finer yarns produce smoother, more durable fabric",
-                "Knit construction — tightly knit fabric resists pilling and distortion better",
-                "Finishing — pre-shrinking, mercerising, and softening treatments affect hand-feel",
-                "Dye quality — affects colorfastness and vibrancy over time",
+                "Fibre quality - combed cotton is finer and more consistent than carded cotton",
+                "Yarn count - finer yarns produce smoother, more durable fabric",
+                "Knit construction - tightly knit fabric resists pilling and distortion better",
+                "Finishing - pre-shrinking, mercerising, and softening treatments affect hand-feel",
+                "Dye quality - affects colorfastness and vibrancy over time",
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-2">
                   <span className="text-[#C8A882] mt-1.5"> • </span>
@@ -213,7 +213,7 @@ export default function WhatDoesGsmMeanPage() {
                 </li>
               ))}
             </ul>
-            <p>Specify GSM as part of a complete fabric specification — not as a shorthand for quality on its own.</p>
+            <p>Specify GSM as part of a complete fabric specification - not as a shorthand for quality on its own.</p>
           </div>
         </div>
       </section>

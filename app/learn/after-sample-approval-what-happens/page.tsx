@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, CheckSquare } from "lucide-react";
 export const metadata: Metadata = {
   title: "What Happens After a Sample Is Approved?",
   description:
-    "Discover the operational and administrative milestones immediately following sample approval — from golden sample sealing and CAD pattern grading to fabric milling, PO release, and bulk sewing.",
+    "Discover the operational and administrative milestones immediately following sample approval - from golden sample sealing and CAD pattern grading to fabric milling, PO release, and bulk sewing.",
   alternates: {
     canonical: "https://fenalt.com/learn/after-sample-approval-what-happens",
   },
   openGraph: {
     title: "What Happens After a Sample Is Approved?",
     description:
-      "Discover the operational and administrative milestones immediately following sample approval — from golden sample sealing and CAD pattern grading to fabric milling, PO release, and bulk sewing.",
+      "Discover the operational and administrative milestones immediately following sample approval - from golden sample sealing and CAD pattern grading to fabric milling, PO release, and bulk sewing.",
     url: "https://fenalt.com/learn/after-sample-approval-what-happens",
   },
 };
@@ -165,7 +165,7 @@ export default function AfterSampleApprovalWhatHappensPage() {
               <span className="text-xs font-semibold uppercase tracking-[0.25em] text-[#C8A882]">Transition Protocol</span>
             </div>
             <p className="font-display text-2xl lg:text-3xl font-light text-[#1A1A1A] leading-relaxed">
-              Pre-Production sample sign-off converts design prototypes into <strong className="font-medium">binding production commitments</strong> — authorising bulk fabric milling, CAD marker cutting, and line allocation.
+              Pre-Production sample sign-off converts design prototypes into <strong className="font-medium">binding production commitments</strong> - authorising bulk fabric milling, CAD marker cutting, and line allocation.
             </p>
           </div>
           <p className="text-base text-[#6B6560] leading-relaxed">

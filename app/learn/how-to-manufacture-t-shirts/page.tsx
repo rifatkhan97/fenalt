@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, Shirt } from "lucide-react";
 export const metadata: Metadata = {
   title: "How to Manufacture T-Shirts: Complete Production Guide",
   description:
-    "A step-by-step manufacturing guide for custom t-shirts — fabric GSM selection (180–300 GSM), pattern fits, collar ribbing construction, screen printing, and line sewing.",
+    "A step-by-step manufacturing guide for custom t-shirts - fabric GSM selection (180–300 GSM), pattern fits, collar ribbing construction, screen printing, and line sewing.",
   alternates: {
     canonical: "https://fenalt.com/learn/how-to-manufacture-t-shirts",
   },
   openGraph: {
     title: "How to Manufacture T-Shirts: Complete Production Guide",
     description:
-      "A step-by-step manufacturing guide for custom t-shirts — fabric GSM selection (180–300 GSM), pattern fits, collar ribbing construction, screen printing, and line sewing.",
+      "A step-by-step manufacturing guide for custom t-shirts - fabric GSM selection (180–300 GSM), pattern fits, collar ribbing construction, screen printing, and line sewing.",
     url: "https://fenalt.com/learn/how-to-manufacture-t-shirts",
   },
 };
@@ -23,7 +23,7 @@ export default function HowToManufactureTShirtsPage() {
     "@type": "Article",
     headline: "How to Manufacture T-Shirts: Complete Production Guide",
     description:
-      "A complete technical guide on custom t-shirt production — fabric sourcing, pattern drafting, collar rib attachment, printing, and quality control.",
+      "A complete technical guide on custom t-shirt production - fabric sourcing, pattern drafting, collar rib attachment, printing, and quality control.",
     author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
     publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
     url: "https://fenalt.com/learn/how-to-manufacture-t-shirts",
@@ -144,7 +144,7 @@ export default function HowToManufactureTShirtsPage() {
             <span className="italic font-medium text-[#2D5016]">Production Guide.</span>
           </h1>
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
-            A complete technical guide to custom t-shirt production — fabric GSM selection, pattern fit engineering, collar neck taping, screen printing, and line sewing.
+            A complete technical guide to custom t-shirt production - fabric GSM selection, pattern fit engineering, collar neck taping, screen printing, and line sewing.
           </p>
           <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>

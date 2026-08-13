@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, Sparkles } from "lucide-react";
 export const metadata: Metadata = {
   title: "Custom Embroidery for Clothing Brands: Technical Guide",
   description:
-    "Master custom embroidery in apparel manufacturing — flat stitching, 3D puff embroidery, stitch count calculations, backing stabilizer selection, and DST artwork digitizing.",
+    "Master custom embroidery in apparel manufacturing - flat stitching, 3D puff embroidery, stitch count calculations, backing stabilizer selection, and DST artwork digitizing.",
   alternates: {
     canonical: "https://fenalt.com/learn/custom-embroidery-for-clothing-brands",
   },
   openGraph: {
     title: "Custom Embroidery for Clothing Brands: Technical Guide",
     description:
-      "Master custom embroidery in apparel manufacturing — flat stitching, 3D puff embroidery, stitch count calculations, backing stabilizer selection, and DST artwork digitizing.",
+      "Master custom embroidery in apparel manufacturing - flat stitching, 3D puff embroidery, stitch count calculations, backing stabilizer selection, and DST artwork digitizing.",
     url: "https://fenalt.com/learn/custom-embroidery-for-clothing-brands",
   },
 };
@@ -154,7 +154,7 @@ export default function CustomEmbroideryForClothingBrandsPage() {
             <span className="italic font-medium text-[#2D5016]">for Clothing Brands.</span>
           </h1>
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
-            A technical guide to industrial apparel embroidery — flat stitching, 3D EVA foam puff, DST digitizing, stitch count calculations, and stabilizer backing.
+            A technical guide to industrial apparel embroidery - flat stitching, 3D EVA foam puff, DST digitizing, stitch count calculations, and stabilizer backing.
           </p>
           <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>

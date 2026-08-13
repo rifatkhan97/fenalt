@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, Layers } from "lucide-react";
 export const metadata: Metadata = {
   title: "Cotton Fabric Types Explained for Fashion Brands",
   description:
-    "A comprehensive guide to cotton fabric types in apparel manufacturing — Single Jersey, Interlock, French Terry, Fleece, Piqué, Ribbing, Canvas, and Twill.",
+    "A comprehensive guide to cotton fabric types in apparel manufacturing - Single Jersey, Interlock, French Terry, Fleece, Piqué, Ribbing, Canvas, and Twill.",
   alternates: {
     canonical: "https://fenalt.com/learn/cotton-fabric-types-explained",
   },
   openGraph: {
     title: "Cotton Fabric Types Explained for Fashion Brands",
     description:
-      "A comprehensive guide to cotton fabric types in apparel manufacturing — Single Jersey, Interlock, French Terry, Fleece, Piqué, Ribbing, Canvas, and Twill.",
+      "A comprehensive guide to cotton fabric types in apparel manufacturing - Single Jersey, Interlock, French Terry, Fleece, Piqué, Ribbing, Canvas, and Twill.",
     url: "https://fenalt.com/learn/cotton-fabric-types-explained",
   },
 };
@@ -158,7 +158,7 @@ export default function CottonFabricTypesExplainedPage() {
             <span className="italic font-medium text-[#2D5016]">Explained for Fashion Brands.</span>
           </h1>
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
-            A technical guide to cotton knits and wovens — Single Jersey, Interlock, French Terry, Fleece, Piqué, Ribbing, Twill, and Canvas.
+            A technical guide to cotton knits and wovens - Single Jersey, Interlock, French Terry, Fleece, Piqué, Ribbing, Twill, and Canvas.
           </p>
           <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>
@@ -177,7 +177,7 @@ export default function CottonFabricTypesExplainedPage() {
             </p>
           </div>
           <p className="text-base text-[#6B6560] leading-relaxed">
-            Understanding the difference between cotton knits (such as jersey, French Terry, and interlock) and cotton wovens (such as twill and canvas) allows fashion founders to specify exact fabric structures in their tech packs — ensuring garments drape, stretch, and perform as intended.
+            Understanding the difference between cotton knits (such as jersey, French Terry, and interlock) and cotton wovens (such as twill and canvas) allows fashion founders to specify exact fabric structures in their tech packs - ensuring garments drape, stretch, and perform as intended.
           </p>
         </div>
       </section>

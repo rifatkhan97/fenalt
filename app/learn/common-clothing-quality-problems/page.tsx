@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, AlertTriangle } from "lucide-react"
 export const metadata: Metadata = {
   title: "Common Clothing Quality Problems and Their Causes",
   description:
-    "Troubleshoot garment manufacturing defects — puckered seams, shade variation, fabric pilling, skipped stitches, print cracking, and crooked side seam spirality.",
+    "Troubleshoot garment manufacturing defects - puckered seams, shade variation, fabric pilling, skipped stitches, print cracking, and crooked side seam spirality.",
   alternates: {
     canonical: "https://fenalt.com/learn/common-clothing-quality-problems",
   },
   openGraph: {
     title: "Common Clothing Quality Problems and Their Causes",
     description:
-      "Troubleshoot garment manufacturing defects — puckered seams, shade variation, fabric pilling, skipped stitches, print cracking, and crooked side seam spirality.",
+      "Troubleshoot garment manufacturing defects - puckered seams, shade variation, fabric pilling, skipped stitches, print cracking, and crooked side seam spirality.",
     url: "https://fenalt.com/learn/common-clothing-quality-problems",
   },
 };
@@ -140,7 +140,7 @@ export default function CommonClothingQualityProblemsPage() {
             <span className="italic font-medium text-[#2D5016]">Quality Problems &amp; Causes.</span>
           </h1>
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
-            A technical troubleshooting guide analyzing common apparel manufacturing defects — puckered seams, shade variation, fabric pilling, skipped stitches, print cracking, and twisted side seams.
+            A technical troubleshooting guide analyzing common apparel manufacturing defects - puckered seams, shade variation, fabric pilling, skipped stitches, print cracking, and twisted side seams.
           </p>
           <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>

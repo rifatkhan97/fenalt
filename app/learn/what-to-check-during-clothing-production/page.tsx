@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, ClipboardList } from "lucide-react"
 export const metadata: Metadata = {
   title: "What Should Be Checked During Clothing Production?",
   description:
-    "A guide for fashion brands on inline quality control checkpoints — checking cutting markers, bundle labeling, initial sewing line setup, ironing finish, and needle detection.",
+    "A guide for fashion brands on inline quality control checkpoints - checking cutting markers, bundle labeling, initial sewing line setup, ironing finish, and needle detection.",
   alternates: {
     canonical: "https://fenalt.com/learn/what-to-check-during-clothing-production",
   },
   openGraph: {
     title: "What Should Be Checked During Clothing Production?",
     description:
-      "A guide for fashion brands on inline quality control checkpoints — checking cutting markers, bundle labeling, initial sewing line setup, ironing finish, and needle detection.",
+      "A guide for fashion brands on inline quality control checkpoints - checking cutting markers, bundle labeling, initial sewing line setup, ironing finish, and needle detection.",
     url: "https://fenalt.com/learn/what-to-check-during-clothing-production",
   },
 };
@@ -153,7 +153,7 @@ export default function WhatToCheckDuringClothingProductionPage() {
             </p>
           </div>
           <p className="text-base text-[#6B6560] leading-relaxed">
-            Active quality management requires inspecting production as it happens. By enforcing structured checkpoints — including raw fabric 4-point audits, first-off sample sign-offs, inline DUPRO station checks, pressing moisture testing, and conveyor needle scanning — brands prevent minor technical defects from compounding into major bulk failures.
+            Active quality management requires inspecting production as it happens. By enforcing structured checkpoints - including raw fabric 4-point audits, first-off sample sign-offs, inline DUPRO station checks, pressing moisture testing, and conveyor needle scanning - brands prevent minor technical defects from compounding into major bulk failures.
           </p>
         </div>
       </section>

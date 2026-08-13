@@ -19,7 +19,7 @@ export default function WhatIsAClothingSamplePage() {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: "What Is a Clothing Sample and Why Is It Important?",
-    description: "Clothing samples explained — types, purpose, and why they are essential before bulk production.",
+    description: "Clothing samples explained - types, purpose, and why they are essential before bulk production.",
     author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
     publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
     url: "https://fenalt.com/learn/what-is-a-clothing-sample",
@@ -39,9 +39,9 @@ export default function WhatIsAClothingSamplePage() {
     {
       name: "Proto Sample (Prototype)",
       purpose: "The first physical garment sewn from the pattern. Used to check overall silhouette, proportions, and construction concept.",
-      material: "Often in substitute fabric — exact target fabric may not be sourced yet.",
+      material: "Often in substitute fabric - exact target fabric may not be sourced yet.",
       stage: "Very Early",
-      whyItMatters: "Catches fundamental design flaws — wrong proportions, non-functional construction — before investing in final materials. Issues identified here cost one sample to fix; the same issue identified at bulk costs the entire production run.",
+      whyItMatters: "Catches fundamental design flaws - wrong proportions, non-functional construction - before investing in final materials. Issues identified here cost one sample to fix; the same issue identified at bulk costs the entire production run.",
     },
     {
       name: "Fit Sample (First Fit)",
@@ -55,14 +55,14 @@ export default function WhatIsAClothingSamplePage() {
       purpose: "Made from the actual production fabric, by the actual production factory. This is the critical approval gate before bulk production begins.",
       material: "Exact production fabric, trims, and labels.",
       stage: "Pre-Production",
-      whyItMatters: "The PP sample becomes the Golden Sample — the binding contractual quality standard. Every bulk production unit is compared against it. No bulk cutting should begin without PP approval in writing.",
+      whyItMatters: "The PP sample becomes the Golden Sample - the binding contractual quality standard. Every bulk production unit is compared against it. No bulk cutting should begin without PP approval in writing.",
     },
     {
       name: "Golden Sample / Salesperson Sample (SMS)",
       purpose: "The final approved sample that serves as the binding quality standard for the bulk production run. QC inspectors check bulk production against this sample.",
       material: "Production-grade in all respects.",
       stage: "Production Reference",
-      whyItMatters: "Retained at the factory throughout the bulk run. Without a Golden Sample, QC inspectors have no fixed physical standard to compare production against — making meaningful inspection impossible.",
+      whyItMatters: "Retained at the factory throughout the bulk run. Without a Golden Sample, QC inspectors have no fixed physical standard to compare production against - making meaningful inspection impossible.",
     },
     {
       name: "Counter Sample",
@@ -75,10 +75,10 @@ export default function WhatIsAClothingSamplePage() {
 
   const whySamplingMatters = [
     { reason: "Fit cannot be reliably verified from a spec sheet alone", detail: "Pattern dimensions on paper do not fully predict how a garment sits, drapes, and behaves on a moving body. Physical sampling bridges the gap between 2D documentation and real-world wearability." },
-    { reason: "Fabric behaviour is unpredictable without testing", detail: "Knit fabrics grow and relax differently depending on GSM, yarn composition, and finishing. Only a physical sample can confirm that the fabric behaves as required — particularly after washing." },
+    { reason: "Fabric behaviour is unpredictable without testing", detail: "Knit fabrics grow and relax differently depending on GSM, yarn composition, and finishing. Only a physical sample can confirm that the fabric behaves as required - particularly after washing." },
     { reason: "Corrections are exponentially cheaper pre-bulk", detail: "A measurement error discovered in a single sample costs the price of one revised sample. The same error discovered in 500 completed bulk units costs rework fees, delay, and potentially the entire production run." },
-    { reason: "The PP sample creates a binding quality contract", detail: "Without an approved PP sample, QC inspectors at the factory have no fixed standard to inspect against. The result is subjective quality assessment — inconsistent and unenforceable." },
-    { reason: "Sampling reveals manufacturer capability", detail: "How a manufacturer handles the first sample — the accuracy, the construction quality, the communication — is the clearest predictor of how they will behave during a high-pressure bulk run." },
+    { reason: "The PP sample creates a binding quality contract", detail: "Without an approved PP sample, QC inspectors at the factory have no fixed standard to inspect against. The result is subjective quality assessment - inconsistent and unenforceable." },
+    { reason: "Sampling reveals manufacturer capability", detail: "How a manufacturer handles the first sample - the accuracy, the construction quality, the communication - is the clearest predictor of how they will behave during a high-pressure bulk run." },
   ];
 
   const faqs = [
@@ -88,11 +88,11 @@ export default function WhatIsAClothingSamplePage() {
     },
     {
       q: "Do I need to pay for samples?",
-      a: "Yes. Samples cost more per unit than bulk production because they are made individually — requiring dedicated pattern engineering, small-quantity fabric sourcing, and skilled construction outside the efficiency of a normal production line. Sampling fees vary widely by garment complexity, from $30 for a simple knit to several hundred dollars for a complex woven structure. Some manufacturers credit sampling fees against the bulk order value on PO placement.",
+      a: "Yes. Samples cost more per unit than bulk production because they are made individually - requiring dedicated pattern engineering, small-quantity fabric sourcing, and skilled construction outside the efficiency of a normal production line. Sampling fees vary widely by garment complexity, from $30 for a simple knit to several hundred dollars for a complex woven structure. Some manufacturers credit sampling fees against the bulk order value on PO placement.",
     },
     {
       q: "Does Fenalt create physical samples?",
-      a: "Yes. Fenalt's Dhaka sample room builds physical prototype fit samples with an estimated turnaround of 10 to 14 days following tech pack and pattern approval. This covers first-fit prototypes, revision rounds, and pre-production sample sign-off — all managed by Fenalt's on-the-ground team.",
+      a: "Yes. Fenalt's Dhaka sample room builds physical prototype fit samples with an estimated turnaround of 10 to 14 days following tech pack and pattern approval. This covers first-fit prototypes, revision rounds, and pre-production sample sign-off - all managed by Fenalt's on-the-ground team.",
     },
     {
       q: "Can I evaluate samples remotely instead of in person?",
@@ -151,12 +151,12 @@ export default function WhatIsAClothingSamplePage() {
           <div className="bg-[#F2EFE9] border border-[#E5DDD3] p-8 lg:p-12 mb-10">
             <span className="text-xs font-semibold uppercase tracking-[0.25em] text-[#C8A882] mb-4 block">Definition</span>
             <p className="font-display text-2xl lg:text-3xl font-light text-[#1A1A1A] leading-relaxed">
-              A <strong className="font-medium">clothing sample</strong> is a single physical garment produced before bulk manufacturing — used to test that the design, measurements, construction, fabric, and overall quality meet the brand&apos;s standard before committing to a full production run.
+              A <strong className="font-medium">clothing sample</strong> is a single physical garment produced before bulk manufacturing - used to test that the design, measurements, construction, fabric, and overall quality meet the brand&apos;s standard before committing to a full production run.
             </p>
           </div>
           <div className="prose prose-lg max-w-none text-[#6B6560] leading-relaxed space-y-4">
             <p>
-              Samples are not optional extras for cautious brands — they are the mechanism that protects a brand&apos;s investment in bulk production. A bulk production run of 500 units made without sampling is 500 units manufactured to an unverified standard. If the fit is wrong, the construction is incorrect, or the fabric behaves differently than expected, every unit has the same problem — with no practical remedy after the fact.
+              Samples are not optional extras for cautious brands - they are the mechanism that protects a brand&apos;s investment in bulk production. A bulk production run of 500 units made without sampling is 500 units manufactured to an unverified standard. If the fit is wrong, the construction is incorrect, or the fabric behaves differently than expected, every unit has the same problem - with no practical remedy after the fact.
             </p>
             <p>
               Sampling introduces a structured approval process that separates design development from mass production. Each stage isolates a specific category of variable, creating a verifiable quality gate before advancing to the next phase.
@@ -246,7 +246,7 @@ export default function WhatIsAClothingSamplePage() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
           <h2 className="font-display text-3xl lg:text-5xl font-light text-[#1A1A1A] mb-4">Commission a prototype sample</h2>
           <p className="text-[#6B6560] leading-relaxed text-base mb-10 max-w-xl mx-auto">
-            Fenalt develops precision prototype fit samples and pre-production samples from your tech pack — with Dhaka-based turnaround and expert oversight.
+            Fenalt develops precision prototype fit samples and pre-production samples from your tech pack - with Dhaka-based turnaround and expert oversight.
           </p>
           <Link href="/intake" className="inline-flex items-center justify-center gap-2 px-10 py-4 bg-[#1A1A1A] text-[#FAF9F6] text-sm font-semibold tracking-wide hover:bg-[#2D5016] transition-colors duration-300">
             Submit Sampling Request <ArrowRight size={16} />

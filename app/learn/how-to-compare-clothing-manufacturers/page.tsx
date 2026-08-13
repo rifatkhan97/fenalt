@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, Scale } from "lucide-react";
 export const metadata: Metadata = {
   title: "How to Compare Clothing Manufacturers: Decision Matrix",
   description:
-    "Evaluate garment manufacturers using technical scorecards — comparing FOB unit cost, MOQs, sample lead times, social compliance, and fabric sourcing depth.",
+    "Evaluate garment manufacturers using technical scorecards - comparing FOB unit cost, MOQs, sample lead times, social compliance, and fabric sourcing depth.",
   alternates: {
     canonical: "https://fenalt.com/learn/how-to-compare-clothing-manufacturers",
   },
   openGraph: {
     title: "How to Compare Clothing Manufacturers: Decision Matrix",
     description:
-      "Evaluate garment manufacturers using technical scorecards — comparing FOB unit cost, MOQs, sample lead times, social compliance, and fabric sourcing depth.",
+      "Evaluate garment manufacturers using technical scorecards - comparing FOB unit cost, MOQs, sample lead times, social compliance, and fabric sourcing depth.",
     url: "https://fenalt.com/learn/how-to-compare-clothing-manufacturers",
   },
 };
@@ -47,7 +47,7 @@ export default function HowToCompareClothingManufacturersPage() {
     },
     {
       title: "2. Transparent Itemized FOB Price Costing",
-      desc: "Ensure quotes itemize primary fabric consumption costs, trim prices, screen printing fees, cut-make-trim (CMT) labor, and export packaging — avoiding un-itemized lump sums.",
+      desc: "Ensure quotes itemize primary fabric consumption costs, trim prices, screen printing fees, cut-make-trim (CMT) labor, and export packaging - avoiding un-itemized lump sums.",
     },
     {
       title: "3. Technical Pattern Making & Sampling Competency",
@@ -59,7 +59,7 @@ export default function HowToCompareClothingManufacturersPage() {
     },
     {
       title: "5. Quality Control Systems & AQL 2.5 Compliance",
-      desc: "Compare factory QC protocols — checking for active in-line roving inspectors, calibrated conveyor needle detectors, and formal pre-shipment FRI audits.",
+      desc: "Compare factory QC protocols - checking for active in-line roving inspectors, calibrated conveyor needle detectors, and formal pre-shipment FRI audits.",
     },
     {
       title: "6. Communication Responsiveness & Tech Pack Fluency",
@@ -135,7 +135,7 @@ export default function HowToCompareClothingManufacturersPage() {
             <span className="italic font-medium text-[#2D5016]">Manufacturers: Decision Matrix.</span>
           </h1>
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
-            Evaluate garment manufacturers using a technical scorecard — comparing FOB unit costs, MOQs, sample lead times, social compliance, and fabric sourcing depth.
+            Evaluate garment manufacturers using a technical scorecard - comparing FOB unit costs, MOQs, sample lead times, social compliance, and fabric sourcing depth.
           </p>
           <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>

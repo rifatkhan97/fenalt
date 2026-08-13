@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, Ruler } from "lucide-react";
 export const metadata: Metadata = {
   title: "How Garment Measurements Are Checked During Production",
   description:
-    "Discover how factory QC teams audit flat garment measurements on the production line — using measurement spec sheets, POM templates, steel measuring tapes, and tolerance allowances.",
+    "Discover how factory QC teams audit flat garment measurements on the production line - using measurement spec sheets, POM templates, steel measuring tapes, and tolerance allowances.",
   alternates: {
     canonical: "https://fenalt.com/learn/garment-measurement-checking-in-production",
   },
   openGraph: {
     title: "How Garment Measurements Are Checked During Production",
     description:
-      "Discover how factory QC teams audit flat garment measurements on the production line — using measurement spec sheets, POM templates, steel measuring tapes, and tolerance allowances.",
+      "Discover how factory QC teams audit flat garment measurements on the production line - using measurement spec sheets, POM templates, steel measuring tapes, and tolerance allowances.",
     url: "https://fenalt.com/learn/garment-measurement-checking-in-production",
   },
 };
@@ -59,7 +59,7 @@ export default function GarmentMeasurementCheckingInProductionPage() {
     },
     {
       title: "5. Left-to-Right Bilateral Symmetry Audit",
-      desc: "Inspectors check left-to-right symmetry — verifying that left sleeve length matches right sleeve length, shoulder seam slopes are balanced, and chest pockets line up evenly across the center placket.",
+      desc: "Inspectors check left-to-right symmetry - verifying that left sleeve length matches right sleeve length, shoulder seam slopes are balanced, and chest pockets line up evenly across the center placket.",
     },
     {
       title: "6. Pre-Wash vs Post-Wash Dimensional Shrinkage Audit",
@@ -133,7 +133,7 @@ export default function GarmentMeasurementCheckingInProductionPage() {
             <span className="italic font-medium text-[#2D5016]">Are Checked in Production.</span>
           </h1>
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
-            A technical guide to factory measurement audits — flat table conditioning, POM alignment, steel tape tension control, tolerance verification, and symmetry checks.
+            A technical guide to factory measurement audits - flat table conditioning, POM alignment, steel tape tension control, tolerance verification, and symmetry checks.
           </p>
           <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>

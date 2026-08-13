@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, Scissors } from "lucide-react";
 export const metadata: Metadata = {
   title: "How Stitch Type Affects Garment Quality",
   description:
-    "Learn how industrial sewing stitch classes (ISO 4915 / ASTM D6193) — Lockstitch 301, Overlock 504, Coverstitch 605, Chainstitch 401, and Flatlock — dictate seam strength, flexibility, and longevity.",
+    "Learn how industrial sewing stitch classes (ISO 4915 / ASTM D6193) - Lockstitch 301, Overlock 504, Coverstitch 605, Chainstitch 401, and Flatlock - dictate seam strength, flexibility, and longevity.",
   alternates: {
     canonical: "https://fenalt.com/learn/stitch-type-and-garment-quality",
   },
   openGraph: {
     title: "How Stitch Type Affects Garment Quality",
     description:
-      "Learn how industrial sewing stitch classes (ISO 4915 / ASTM D6193) — Lockstitch 301, Overlock 504, Coverstitch 605, Chainstitch 401, and Flatlock — dictate seam strength, flexibility, and longevity.",
+      "Learn how industrial sewing stitch classes (ISO 4915 / ASTM D6193) - Lockstitch 301, Overlock 504, Coverstitch 605, Chainstitch 401, and Flatlock - dictate seam strength, flexibility, and longevity.",
     url: "https://fenalt.com/learn/stitch-type-and-garment-quality",
   },
 };
@@ -101,11 +101,11 @@ export default function StitchTypeAndGarmentQualityPage() {
     },
     {
       q: "What is a Bartack stitch and why is it necessary?",
-      a: "A bartack is a tight, repeating zig-zag stitch applied across stress points — such as pocket corners, belt loops, zipper bottoms, and sleeve plackets — to prevent fabric tearing under heavy pull force.",
+      a: "A bartack is a tight, repeating zig-zag stitch applied across stress points - such as pocket corners, belt loops, zipper bottoms, and sleeve plackets - to prevent fabric tearing under heavy pull force.",
     },
     {
       q: "How does stitch type affect garment manufacturing cost?",
-      a: "Complex stitch classes (like 5-thread safety stitching or 4-needle 6-thread flatlocking) require specialized industrial sewing machines, higher thread consumption, and trained operators — slightly increasing per-unit labor cost while dramatically improving garment durability.",
+      a: "Complex stitch classes (like 5-thread safety stitching or 4-needle 6-thread flatlocking) require specialized industrial sewing machines, higher thread consumption, and trained operators - slightly increasing per-unit labor cost while dramatically improving garment durability.",
     },
     {
       q: "How does Fenalt specify stitch standards for client orders?",
@@ -146,7 +146,7 @@ export default function StitchTypeAndGarmentQualityPage() {
             <span className="italic font-medium text-[#2D5016]">Garment Quality.</span>
           </h1>
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
-            A technical guide to industrial ISO 4915 sewing stitch classes — Lockstitch 301, Overlock 504, Coverstitch 605, Chainstitch 401, and SPI density standards.
+            A technical guide to industrial ISO 4915 sewing stitch classes - Lockstitch 301, Overlock 504, Coverstitch 605, Chainstitch 401, and SPI density standards.
           </p>
           <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>
@@ -161,7 +161,7 @@ export default function StitchTypeAndGarmentQualityPage() {
               <span className="text-xs font-semibold uppercase tracking-[0.25em] text-[#C8A882]">Seam Engineering</span>
             </div>
             <p className="font-display text-2xl lg:text-3xl font-light text-[#1A1A1A] leading-relaxed">
-              Selecting the wrong stitch class can cause <strong className="font-medium">seam popping, fabric fraying, or unravelling</strong> — even when high-end fabrics are used.
+              Selecting the wrong stitch class can cause <strong className="font-medium">seam popping, fabric fraying, or unravelling</strong> - even when high-end fabrics are used.
             </p>
           </div>
           <p className="text-base text-[#6B6560] leading-relaxed">

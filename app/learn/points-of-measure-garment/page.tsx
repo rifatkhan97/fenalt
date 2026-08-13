@@ -46,7 +46,7 @@ export default function PointsOfMeasureGarmentPage() {
     { code: "Shoulder Width (Across Shoulder)", desc: "Measured from left shoulder seam join straight across the back to the opposite right shoulder seam join." },
     { code: "Sleeve Length (From CB or Shoulder)", desc: "Measured from center back (CB) neck seam or shoulder point seam down along the sleeve to the edge of the cuff." },
     { code: "Armhole Depth & Pitch", desc: "Measured straight or along the curve from the high shoulder point to the lowest point of the armhole seam." },
-    { code: "Sweep / Bottom Opening", desc: "Measured flat across the bottom hem opening edge — specified as relaxed and fully stretched for ribbed hems." },
+    { code: "Sweep / Bottom Opening", desc: "Measured flat across the bottom hem opening edge - specified as relaxed and fully stretched for ribbed hems." },
     { code: "Neck Opening & Drop", desc: "Seam-to-seam collar width and vertical drop distance measured from High Point Shoulder to front neck seam line." },
     { code: "Waist & Hip Width (Bottoms)", desc: "Measured flat across the top edge of the waistband (relaxed/stretched) and flat across the widest point of hips." },
   ];
@@ -141,7 +141,7 @@ export default function PointsOfMeasureGarmentPage() {
             </p>
           </div>
           <p className="text-base text-[#6B6560] leading-relaxed">
-            Without explicit POM callouts, pattern makers and factory inspectors measure from different anchor points — leading to false quality rejections or inconsistent bulk fitting. Defining standardized POM codes (e.g. POM-01 for Chest Width) establishes a shared technical language across global apparel supply chains.
+            Without explicit POM callouts, pattern makers and factory inspectors measure from different anchor points - leading to false quality rejections or inconsistent bulk fitting. Defining standardized POM codes (e.g. POM-01 for Chest Width) establishes a shared technical language across global apparel supply chains.
           </p>
         </div>
       </section>

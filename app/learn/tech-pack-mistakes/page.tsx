@@ -5,11 +5,11 @@ import { ArrowRight, BookOpen } from "lucide-react";
 export const metadata: Metadata = {
   title: "Common Tech Pack Mistakes That Delay Clothing Production",
   description:
-    "The most common tech pack mistakes that cause sample delays, inaccurate quotes, and production problems — and exactly how to avoid each one.",
+    "The most common tech pack mistakes that cause sample delays, inaccurate quotes, and production problems - and exactly how to avoid each one.",
   alternates: { canonical: "https://fenalt.com/learn/tech-pack-mistakes" },
   openGraph: {
     title: "Common Tech Pack Mistakes That Delay Clothing Production",
-    description: "The most common tech pack mistakes that cause sample delays, inaccurate quotes, and production problems — and exactly how to avoid each one.",
+    description: "The most common tech pack mistakes that cause sample delays, inaccurate quotes, and production problems - and exactly how to avoid each one.",
     url: "https://fenalt.com/learn/tech-pack-mistakes",
   },
 };
@@ -39,7 +39,7 @@ export default function TechPackMistakesPage() {
   const mistakes = [
     {
       mistake: "Missing or Incomplete Measurements",
-      impact: "The most common cause of first-sample rejection. Without a complete POM (points of measure) table, the manufacturer must estimate measurements — or copy a standard sizing chart that may not match your design intent.",
+      impact: "The most common cause of first-sample rejection. Without a complete POM (points of measure) table, the manufacturer must estimate measurements - or copy a standard sizing chart that may not match your design intent.",
       fix: "Include a full measurement spec table covering every measurement point for every included size, with tolerance columns. Specify how each measurement is taken (e.g. 'chest: 1\" below armhole, laid flat, total width').",
     },
     {
@@ -59,7 +59,7 @@ export default function TechPackMistakesPage() {
     },
     {
       mistake: "No Bill of Materials (BOM)",
-      impact: "Without a BOM, the manufacturer makes assumptions about trims — zipper type, zip pull style, drawcord material, label positioning, button size. Every assumption is a potential revision.",
+      impact: "Without a BOM, the manufacturer makes assumptions about trims - zipper type, zip pull style, drawcord material, label positioning, button size. Every assumption is a potential revision.",
       fix: "List every component with specification: main zipper (e.g. YKK #5 nylon coil, auto-lock pull, antique brass), drawcord (6mm flat cotton, matching body colour), main label (woven neck label, 5cm x 2.5cm, own artwork supplied).",
     },
     {
@@ -74,12 +74,12 @@ export default function TechPackMistakesPage() {
     },
     {
       mistake: "Single Size Measurement Only (No Graded Table)",
-      impact: "If you only provide measurements for one size, the manufacturer grades the rest using their standard grade rules — which may not match your intended fit across the size curve.",
-      fix: "Provide a full graded measurement table — measurements for every size in your size run. Even if you are only sampling one size initially, the manufacturer needs to know the grade plan.",
+      impact: "If you only provide measurements for one size, the manufacturer grades the rest using their standard grade rules - which may not match your intended fit across the size curve.",
+      fix: "Provide a full graded measurement table - measurements for every size in your size run. Even if you are only sampling one size initially, the manufacturer needs to know the grade plan.",
     },
     {
       mistake: "No Tolerance Column in the Measurement Sheet",
-      impact: "Without tolerances, the manufacturer and QC inspector have no defined acceptable range. Every measurement either passes or fails against the exact number — creating constant disagreement.",
+      impact: "Without tolerances, the manufacturer and QC inspector have no defined acceptable range. Every measurement either passes or fails against the exact number - creating constant disagreement.",
       fix: "Add a tolerance column to each measurement row. Common garment measurement tolerance: ±1cm for smaller measurements, ±1.5cm for body width, length, and major dimensional measurements.",
     },
     {
@@ -139,7 +139,7 @@ export default function TechPackMistakesPage() {
             <span className="italic font-medium text-[#2D5016]">That Delay Clothing Production.</span>
           </h1>
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
-            Ten avoidable mistakes that add sample rounds, inflate costs, and push timelines — with exactly how to fix each one.
+            Ten avoidable mistakes that add sample rounds, inflate costs, and push timelines - with exactly how to fix each one.
           </p>
           <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>
@@ -148,7 +148,7 @@ export default function TechPackMistakesPage() {
       <section className="py-20 lg:py-28 bg-[#FAF9F6]">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <p className="text-xs font-semibold uppercase tracking-[0.25em] text-[#C8A882] mb-4">The 10 Mistakes</p>
-          <h2 className="font-display text-3xl lg:text-5xl font-light text-[#1A1A1A] mb-12">What Causes Production Delays — and How to Avoid Them</h2>
+          <h2 className="font-display text-3xl lg:text-5xl font-light text-[#1A1A1A] mb-12">What Causes Production Delays - and How to Avoid Them</h2>
           <div className="space-y-6">
             {mistakes.map((item, i) => (
               <div key={i} className="p-6 lg:p-8 bg-[#F2EFE9] border border-[#E5DDD3]">

@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, FileSpreadsheet } from "lucide-reac
 export const metadata: Metadata = {
   title: "What Is a Bill of Materials (BOM) in Apparel Production?",
   description:
-    "Learn what an apparel Bill of Materials (BOM) is in garment manufacturing — including fabric specs, trims, threads, labels, hardware, and yield calculations.",
+    "Learn what an apparel Bill of Materials (BOM) is in garment manufacturing - including fabric specs, trims, threads, labels, hardware, and yield calculations.",
   alternates: {
     canonical: "https://fenalt.com/learn/bill-of-materials-apparel",
   },
   openGraph: {
     title: "What Is a Bill of Materials (BOM) in Apparel Production?",
     description:
-      "Learn what an apparel Bill of Materials (BOM) is in garment manufacturing — including fabric specs, trims, threads, labels, hardware, and yield calculations.",
+      "Learn what an apparel Bill of Materials (BOM) is in garment manufacturing - including fabric specs, trims, threads, labels, hardware, and yield calculations.",
     url: "https://fenalt.com/learn/bill-of-materials-apparel",
   },
 };
@@ -47,7 +47,7 @@ export default function BillOfMaterialsApparelPage() {
     },
     {
       name: "2. Linings, Interlinings & Pocketing",
-      detail: "Secondary fabrics used inside hoods, pockets, collar bands, or waistbands — including fusible woven/non-woven interlining weight (GSM), pocket twill composition, and adhesive specifications.",
+      detail: "Secondary fabrics used inside hoods, pockets, collar bands, or waistbands - including fusible woven/non-woven interlining weight (GSM), pocket twill composition, and adhesive specifications.",
     },
     {
       name: "3. Sewing Threads & Seam Tapes",
@@ -86,7 +86,7 @@ export default function BillOfMaterialsApparelPage() {
     },
     {
       q: "Why is an accurate BOM essential for FOB unit costing?",
-      a: "The BOM is the primary foundation for FOB unit cost calculation. Omitting small components — such as specialized drawstrings, care tags, or heavy-duty threads — leads to unexpected cost surcharges during bulk production.",
+      a: "The BOM is the primary foundation for FOB unit cost calculation. Omitting small components - such as specialized drawstrings, care tags, or heavy-duty threads - leads to unexpected cost surcharges during bulk production.",
     },
     {
       q: "What is fabric yield or consumption in a BOM?",

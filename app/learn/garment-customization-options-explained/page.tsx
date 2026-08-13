@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, Sliders } from "lucide-react";
 export const metadata: Metadata = {
   title: "Garment Customization Options Explained for Fashion Brands",
   description:
-    "Explore full custom garment branding — woven neck labels, screen printing, custom dyeing, engraved buttons, custom zippers, hardware, and retail polybag packaging.",
+    "Explore full custom garment branding - woven neck labels, screen printing, custom dyeing, engraved buttons, custom zippers, hardware, and retail polybag packaging.",
   alternates: {
     canonical: "https://fenalt.com/learn/garment-customization-options-explained",
   },
   openGraph: {
     title: "Garment Customization Options Explained for Fashion Brands",
     description:
-      "Explore full custom garment branding — woven neck labels, screen printing, custom dyeing, engraved buttons, custom zippers, hardware, and retail polybag packaging.",
+      "Explore full custom garment branding - woven neck labels, screen printing, custom dyeing, engraved buttons, custom zippers, hardware, and retail polybag packaging.",
     url: "https://fenalt.com/learn/garment-customization-options-explained",
   },
 };
@@ -98,7 +98,7 @@ export default function GarmentCustomizationOptionsExplainedPage() {
     },
     {
       q: "What is the difference between private labeling and full cut-and-sew manufacturing?",
-      a: "Private labeling adds your brand tags and prints onto pre-existing blank garments. Full cut-and-sew manufacturing creates garments from scratch — drafting custom CAD patterns, knitting/dyeing custom GSM fabric, and assembling custom hardware.",
+      a: "Private labeling adds your brand tags and prints onto pre-existing blank garments. Full cut-and-sew manufacturing creates garments from scratch - drafting custom CAD patterns, knitting/dyeing custom GSM fabric, and assembling custom hardware.",
     },
     {
       q: "What is the most durable print method for streetwear t-shirts?",
@@ -151,7 +151,7 @@ export default function GarmentCustomizationOptionsExplainedPage() {
             <span className="italic font-medium text-[#2D5016]">Options Explained.</span>
           </h1>
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
-            A comprehensive guide to apparel branding — woven labels, screen printing, custom hardware, industrial wash finishes, bespoke fits, and retail packaging.
+            A comprehensive guide to apparel branding - woven labels, screen printing, custom hardware, industrial wash finishes, bespoke fits, and retail packaging.
           </p>
           <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>

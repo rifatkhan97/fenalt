@@ -148,7 +148,7 @@ export default function FabricWeightAndGarmentConstructionPage() {
               <span className="text-xs font-semibold uppercase tracking-[0.25em] text-[#C8A882]">Garment Engineering</span>
             </div>
             <p className="font-display text-2xl lg:text-3xl font-light text-[#1A1A1A] leading-relaxed">
-              Fabric GSM is not just a material specification — it <strong className="font-medium">dictates the technical machinery setup</strong> and pattern engineering required on the production line.
+              Fabric GSM is not just a material specification - it <strong className="font-medium">dictates the technical machinery setup</strong> and pattern engineering required on the production line.
             </p>
           </div>
           <p className="text-base text-[#6B6560] leading-relaxed">

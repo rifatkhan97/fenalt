@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, Sparkles } from "lucide-react";
 export const metadata: Metadata = {
   title: "Garment Wash Treatments Explained: Vintage, Acid & Bio-Washing",
   description:
-    "Explore apparel wet processing treatments — Acid Wash, Mineral Wash, Stonewashing, Enzyme Bio-washing, Silicone Softening, Pigment Garment Dyeing, and Vintage Fading.",
+    "Explore apparel wet processing treatments - Acid Wash, Mineral Wash, Stonewashing, Enzyme Bio-washing, Silicone Softening, Pigment Garment Dyeing, and Vintage Fading.",
   alternates: {
     canonical: "https://fenalt.com/learn/garment-wash-treatments-explained",
   },
   openGraph: {
     title: "Garment Wash Treatments Explained: Vintage, Acid & Bio-Washing",
     description:
-      "Explore apparel wet processing treatments — Acid Wash, Mineral Wash, Stonewashing, Enzyme Bio-washing, Silicone Softening, Pigment Garment Dyeing, and Vintage Fading.",
+      "Explore apparel wet processing treatments - Acid Wash, Mineral Wash, Stonewashing, Enzyme Bio-washing, Silicone Softening, Pigment Garment Dyeing, and Vintage Fading.",
     url: "https://fenalt.com/learn/garment-wash-treatments-explained",
   },
 };
@@ -101,7 +101,7 @@ export default function GarmentWashTreatmentsExplainedPage() {
     },
     {
       q: "What is the difference between Fabric Piece Dyeing and Garment Dyeing?",
-      a: "Fabric piece dyeing colors raw fabric rolls at the mill prior to cutting (yielding perfectly uniform color throughout). Garment dyeing sews ready-to-dye white garments first, then dyes completed garments — creating signature faded seam highlights and vintage tones.",
+      a: "Fabric piece dyeing colors raw fabric rolls at the mill prior to cutting (yielding perfectly uniform color throughout). Garment dyeing sews ready-to-dye white garments first, then dyes completed garments - creating signature faded seam highlights and vintage tones.",
     },
     {
       q: "Why is enzyme bio-washing recommended for luxury streetwear?",
@@ -117,7 +117,7 @@ export default function GarmentWashTreatmentsExplainedPage() {
     },
     {
       q: "How does Fenalt manage garment wash processing in Bangladesh?",
-      a: "Fenalt's Dhaka team operates specialized wet processing units — executing enzyme bio-washing, pigment garment dyeing, acid washing, and silicone softening with eco-friendly wastewater treatment.",
+      a: "Fenalt's Dhaka team operates specialized wet processing units - executing enzyme bio-washing, pigment garment dyeing, acid washing, and silicone softening with eco-friendly wastewater treatment.",
     },
   ];
 
@@ -154,7 +154,7 @@ export default function GarmentWashTreatmentsExplainedPage() {
             <span className="italic font-medium text-[#2D5016]">Explained: Vintage &amp; Bio-Wash.</span>
           </h1>
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
-            A guide to industrial apparel wet processing — Enzyme Bio-washing, Acid Wash, Mineral Wash, Pigment Garment Dyeing, Silicone Softening, and Stonewashing.
+            A guide to industrial apparel wet processing - Enzyme Bio-washing, Acid Wash, Mineral Wash, Pigment Garment Dyeing, Silicone Softening, and Stonewashing.
           </p>
           <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>
@@ -173,7 +173,7 @@ export default function GarmentWashTreatmentsExplainedPage() {
             </p>
           </div>
           <p className="text-base text-[#6B6560] leading-relaxed">
-            Wet processing treatments are an essential finishing step in modern streetwear and lifestyle apparel manufacturing. Industrial washing relaxes rigid cotton fibers, eliminates residual wash shrinkage, enhances surface handfeel, and creates sought-after vintage aesthetics — from subtle enzyme bio-softening to dramatic marbled acid washes.
+            Wet processing treatments are an essential finishing step in modern streetwear and lifestyle apparel manufacturing. Industrial washing relaxes rigid cotton fibers, eliminates residual wash shrinkage, enhances surface handfeel, and creates sought-after vintage aesthetics - from subtle enzyme bio-softening to dramatic marbled acid washes.
           </p>
         </div>
       </section>

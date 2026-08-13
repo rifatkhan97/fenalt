@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, Factory } from "lucide-react";
 export const metadata: Metadata = {
   title: "What Does an Apparel Manufacturer Actually Do?",
   description:
-    "Discover the exact responsibilities of a garment manufacturer — from material sourcing and pattern development to sewing, quality control, and export packing.",
+    "Discover the exact responsibilities of a garment manufacturer - from material sourcing and pattern development to sewing, quality control, and export packing.",
   alternates: {
     canonical: "https://fenalt.com/learn/what-does-an-apparel-manufacturer-do",
   },
   openGraph: {
     title: "What Does an Apparel Manufacturer Actually Do?",
     description:
-      "Discover the exact responsibilities of a garment manufacturer — from material sourcing and pattern development to sewing, quality control, and export packing.",
+      "Discover the exact responsibilities of a garment manufacturer - from material sourcing and pattern development to sewing, quality control, and export packing.",
     url: "https://fenalt.com/learn/what-does-an-apparel-manufacturer-do",
   },
 };
@@ -47,7 +47,7 @@ export default function WhatDoesAnApparelManufacturerDoPage() {
     },
     {
       title: "Pattern Making & Grading",
-      desc: "Once a tech pack is received, a pattern maker converts the measurement spec sheet and construction details into 2D cut patterns — the templates used to cut fabric pieces. These master patterns are then graded across the full size run (for example, XS through 3XL), ensuring each size scales proportionally from the base pattern. Most modern manufacturers use CAD pattern software to improve consistency and reduce marker waste.",
+      desc: "Once a tech pack is received, a pattern maker converts the measurement spec sheet and construction details into 2D cut patterns - the templates used to cut fabric pieces. These master patterns are then graded across the full size run (for example, XS through 3XL), ensuring each size scales proportionally from the base pattern. Most modern manufacturers use CAD pattern software to improve consistency and reduce marker waste.",
     },
     {
       title: "Sampling & Prototype Building",
@@ -55,19 +55,19 @@ export default function WhatDoesAnApparelManufacturerDoPage() {
     },
     {
       title: "Bulk Fabric Cutting",
-      desc: "Once sampling is approved, bulk fabric is laid out in layers on industrial cutting tables. A software-generated marker (an optimised arrangement of all pattern pieces) is placed on top and the fabric is cut using straight-knife industrial cutters or automated cutting systems. Accurate cutting is critical — off-grain cuts cause twisted seams and measurement failures that cannot be corrected during sewing.",
+      desc: "Once sampling is approved, bulk fabric is laid out in layers on industrial cutting tables. A software-generated marker (an optimised arrangement of all pattern pieces) is placed on top and the fabric is cut using straight-knife industrial cutters or automated cutting systems. Accurate cutting is critical - off-grain cuts cause twisted seams and measurement failures that cannot be corrected during sewing.",
     },
     {
       title: "Assembly-Line Sewing",
-      desc: "Cut fabric panels are sorted into bundles and routed through dedicated sewing stations, where operators specialise in specific operations — attaching collars, setting sleeves, closing side seams, attaching pockets. Different stitch types (lockstitch, overlock/serger, coverstitch, flatlock) are used for different seams depending on the garment type and construction requirements. Sewing line management is where production speed and quality intersect most critically.",
+      desc: "Cut fabric panels are sorted into bundles and routed through dedicated sewing stations, where operators specialise in specific operations - attaching collars, setting sleeves, closing side seams, attaching pockets. Different stitch types (lockstitch, overlock/serger, coverstitch, flatlock) are used for different seams depending on the garment type and construction requirements. Sewing line management is where production speed and quality intersect most critically.",
     },
     {
       title: "Quality Assurance & In-Line Inspection",
-      desc: "Quality control happens at multiple stages — not just at the end of production. In-line QC involves checking measurements, stitch quality, and construction at regular intervals during sewing, allowing defects to be caught and corrected before they multiply across the entire production run. Good manufacturers also conduct pre-shipment inspections against the AQL sampling methodology, comparing finished garments to the approved golden sample.",
+      desc: "Quality control happens at multiple stages - not just at the end of production. In-line QC involves checking measurements, stitch quality, and construction at regular intervals during sewing, allowing defects to be caught and corrected before they multiply across the entire production run. Good manufacturers also conduct pre-shipment inspections against the AQL sampling methodology, comparing finished garments to the approved golden sample.",
     },
     {
       title: "Finishing & Washing",
-      desc: "After sewing, garments go through finishing operations: loose thread trimming, steam pressing, washing or treatment processes (if specified — garment washes, enzyme washes, silicon wash for softening), metal and needle detection (mandatory for export compliance), and final visual inspection. Finishing significantly affects how a garment feels, looks, and presents to the consumer.",
+      desc: "After sewing, garments go through finishing operations: loose thread trimming, steam pressing, washing or treatment processes (if specified - garment washes, enzyme washes, silicon wash for softening), metal and needle detection (mandatory for export compliance), and final visual inspection. Finishing significantly affects how a garment feels, looks, and presents to the consumer.",
     },
     {
       title: "Packaging & Export Logistics",
@@ -78,13 +78,13 @@ export default function WhatDoesAnApparelManufacturerDoPage() {
   const manufacturerTypes = [
     { type: "CMT (Cut, Make, Trim)", desc: "The brand supplies all materials and trims. The factory only provides the cutting, sewing, and trimming labour. Brands have maximum control over material sourcing but must manage the full supply chain.", suitable: "Experienced brands with established fabric supplier relationships." },
     { type: "FOB (Free on Board)", desc: "The manufacturer procures all fabrics and trims, manages production, and delivers finished goods to the origin port. The brand has less sourcing control but lower coordination burden.", suitable: "Brands that want a more managed production experience." },
-    { type: "Full-Package / Full-Service", desc: "The manufacturer or production partner handles everything from tech pack review and sampling through production, QC, and export — often including customs documentation. Closest to a turn-key solution.", suitable: "Early-stage brands and brands without in-house production expertise." },
+    { type: "Full-Package / Full-Service", desc: "The manufacturer or production partner handles everything from tech pack review and sampling through production, QC, and export - often including customs documentation. Closest to a turn-key solution.", suitable: "Early-stage brands and brands without in-house production expertise." },
   ];
 
   const faqs = [
     {
       q: "Does an apparel manufacturer design clothes for my brand?",
-      a: "Generally no. Traditional manufacturers execute your design specifications as communicated through a tech pack. However, full-service production partners can assist with technical pattern development, material selection, and construction advice based on your creative concepts — particularly for brands that have a design direction but lack the technical documentation to communicate it precisely.",
+      a: "Generally no. Traditional manufacturers execute your design specifications as communicated through a tech pack. However, full-service production partners can assist with technical pattern development, material selection, and construction advice based on your creative concepts - particularly for brands that have a design direction but lack the technical documentation to communicate it precisely.",
     },
     {
       q: "What is the difference between CMT and FOB manufacturing?",
@@ -92,7 +92,7 @@ export default function WhatDoesAnApparelManufacturerDoPage() {
     },
     {
       q: "Can a clothing manufacturer help me develop my first product?",
-      a: "Many full-service manufacturers and production management partners offer development assistance — including tech pack review, pattern development input, and fabric and trim recommendations. The extent of this support varies significantly by manufacturer. Some will only proceed with a complete tech pack, while others can work with a detailed brief and reference garment. Always confirm what the manufacturer's intake requirements are before submitting your project.",
+      a: "Many full-service manufacturers and production management partners offer development assistance - including tech pack review, pattern development input, and fabric and trim recommendations. The extent of this support varies significantly by manufacturer. Some will only proceed with a complete tech pack, while others can work with a detailed brief and reference garment. Always confirm what the manufacturer's intake requirements are before submitting your project.",
     },
     {
       q: "What does a manufacturer need from a brand before starting production?",
@@ -100,7 +100,7 @@ export default function WhatDoesAnApparelManufacturerDoPage() {
     },
     {
       q: "Is a clothing manufacturer the same as a garment factory?",
-      a: "The terms are often used interchangeably, but there is a distinction. A garment factory is the physical facility where cutting and sewing happens. A clothing manufacturer may be the factory itself, or it may be an entity that coordinates production across one or more factories (sometimes called a CMC — Contract Manufacturing Coordinator). Full-service manufacturers typically combine factory operations with additional services like sampling, QC, and export logistics.",
+      a: "The terms are often used interchangeably, but there is a distinction. A garment factory is the physical facility where cutting and sewing happens. A clothing manufacturer may be the factory itself, or it may be an entity that coordinates production across one or more factories (sometimes called a CMC - Contract Manufacturing Coordinator). Full-service manufacturers typically combine factory operations with additional services like sampling, QC, and export logistics.",
     },
     {
       q: "How do I know if a manufacturer specialises in my product type?",
@@ -156,12 +156,12 @@ export default function WhatDoesAnApparelManufacturerDoPage() {
               <span className="text-xs font-semibold uppercase tracking-[0.25em] text-[#C8A882]">Core Operational Scope</span>
             </div>
             <p className="font-display text-2xl lg:text-3xl font-light text-[#1A1A1A] leading-relaxed">
-              An apparel manufacturer handles <strong className="font-medium">material procurement, technical engineering, production management, quality control, and export preparation</strong> — acting as the physical engine of your fashion brand.
+              An apparel manufacturer handles <strong className="font-medium">material procurement, technical engineering, production management, quality control, and export preparation</strong> - acting as the physical engine of your fashion brand.
             </p>
           </div>
           <div className="prose prose-lg max-w-none text-[#6B6560] leading-relaxed space-y-5">
             <p>
-              Many fashion brands significantly underestimate the scope of what a competent apparel manufacturer manages. The visible output — a finished garment — is the result of a multi-week industrial workflow involving sourcing, engineering, scheduling, sewing, and logistics operations that are invisible to the final consumer but critical to production success.
+              Many fashion brands significantly underestimate the scope of what a competent apparel manufacturer manages. The visible output - a finished garment - is the result of a multi-week industrial workflow involving sourcing, engineering, scheduling, sewing, and logistics operations that are invisible to the final consumer but critical to production success.
             </p>
             <p>
               Understanding what a manufacturer actually does helps brands communicate more effectively, set realistic timelines, and evaluate whether a potential partner has the operational depth their project requires.
@@ -250,7 +250,7 @@ export default function WhatDoesAnApparelManufacturerDoPage() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
           <h2 className="font-display text-3xl lg:text-5xl font-light text-[#1A1A1A] mb-4">Partner with a dedicated manufacturer</h2>
           <p className="text-[#6B6560] leading-relaxed text-base mb-10 max-w-xl mx-auto">
-            Fenalt handles complete FOB garment manufacturing — managing fabric sourcing, technical development, quality control, and global shipping.
+            Fenalt handles complete FOB garment manufacturing - managing fabric sourcing, technical development, quality control, and global shipping.
           </p>
           <Link href="/intake" className="inline-flex items-center justify-center gap-2 px-10 py-4 bg-[#1A1A1A] text-[#FAF9F6] text-sm font-semibold tracking-wide hover:bg-[#2D5016] transition-colors duration-300">
             Submit Your Project <ArrowRight size={16} />

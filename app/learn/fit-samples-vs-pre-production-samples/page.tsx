@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, Scale } from "lucide-react";
 export const metadata: Metadata = {
   title: "Fit Samples vs Pre-Production Samples: What's the Difference?",
   description:
-    "Understand the key differences between fit samples and pre-production (PP) samples — their distinct purposes, material requirements, approval criteria, and role in preventing bulk production defects.",
+    "Understand the key differences between fit samples and pre-production (PP) samples - their distinct purposes, material requirements, approval criteria, and role in preventing bulk production defects.",
   alternates: {
     canonical: "https://fenalt.com/learn/fit-samples-vs-pre-production-samples",
   },
   openGraph: {
     title: "Fit Samples vs Pre-Production Samples: What's the Difference?",
     description:
-      "Understand the key differences between fit samples and pre-production (PP) samples — their distinct purposes, material requirements, approval criteria, and role in preventing bulk production defects.",
+      "Understand the key differences between fit samples and pre-production (PP) samples - their distinct purposes, material requirements, approval criteria, and role in preventing bulk production defects.",
     url: "https://fenalt.com/learn/fit-samples-vs-pre-production-samples",
   },
 };
@@ -43,11 +43,11 @@ export default function FitSamplesVsPreProductionSamplesPage() {
     {
       factor: "Primary Objective",
       fit: "Validate pattern dimensions, drape, and sizing ergonomics on a fit model or dress form.",
-      pp: "Lock in the final production standard (Golden Sample) for bulk sewing — the contractual quality reference.",
+      pp: "Lock in the final production standard (Golden Sample) for bulk sewing - the contractual quality reference.",
     },
     {
       factor: "Fabric & Material Used",
-      fit: "Substitute or available in-house fabric of similar GSM and stretch — not necessarily the exact production material.",
+      fit: "Substitute or available in-house fabric of similar GSM and stretch - not necessarily the exact production material.",
       pp: "Exact bulk production fabric, in the correct dye lot, with all production trims fully applied.",
     },
     {
@@ -57,18 +57,18 @@ export default function FitSamplesVsPreProductionSamplesPage() {
     },
     {
       factor: "Factory of Production",
-      fit: "Often produced in a dedicated sample room — may be at the same factory or at a specialist sampling studio.",
+      fit: "Often produced in a dedicated sample room - may be at the same factory or at a specialist sampling studio.",
       pp: "Must be produced by the exact production factory that will make the bulk order. Factory-specific capability is what is being verified.",
     },
     {
       factor: "Wash & Finish Treatments",
       fit: "Wash treatments (enzyme wash, garment dye, silicon softener) are typically not applied at fit sample stage.",
-      pp: "All specified wash treatments must be applied exactly as they will be in bulk — as wash treatments affect garment measurements, colour, and hand-feel.",
+      pp: "All specified wash treatments must be applied exactly as they will be in bulk - as wash treatments affect garment measurements, colour, and hand-feel.",
     },
     {
       factor: "Timing in Lifecycle",
-      fit: "Early product development phase — after initial pattern is drafted, but before final fabric and trim selection is confirmed.",
-      pp: "Immediately preceding bulk cutting — all materials, trims, and patterns must be finalised before the PP sample is made.",
+      fit: "Early product development phase - after initial pattern is drafted, but before final fabric and trim selection is confirmed.",
+      pp: "Immediately preceding bulk cutting - all materials, trims, and patterns must be finalised before the PP sample is made.",
     },
     {
       factor: "Approval Consequence",
@@ -78,7 +78,7 @@ export default function FitSamplesVsPreProductionSamplesPage() {
     {
       factor: "Revision Expectation",
       fit: "Revisions are normal and expected. 2 to 4 fit sample rounds before PP sign-off is typical for a new style.",
-      pp: "Revisions should be rare — the PP sample is made after fit is approved. If the PP sample requires major revision, there is likely a process breakdown.",
+      pp: "Revisions should be rare - the PP sample is made after fit is approved. If the PP sample requires major revision, there is likely a process breakdown.",
     },
   ];
 
@@ -93,10 +93,10 @@ export default function FitSamplesVsPreProductionSamplesPage() {
   ];
 
   const ppSampleChecklist = [
-    "Confirm fabric shade against the approved lab dip — particularly important at PP stage with final dye lot",
+    "Confirm fabric shade against the approved lab dip - particularly important at PP stage with final dye lot",
     "Verify all trims match approval references (zipper brand, puller, drawcord tip, label text)",
     "Measure all POM dimensions against final approved spec (tighter tolerance than fit sample)",
-    "Apply and evaluate all specified wash treatments — confirm they do not affect fit adversely",
+    "Apply and evaluate all specified wash treatments - confirm they do not affect fit adversely",
     "Confirm label placement (woven neck label, care label, size label, hangtag attachment point)",
     "Sign off in writing and physically tag the approved PP sample as the Golden Sample",
     "Confirm Golden Sample will be retained at the production factory throughout the bulk run",
@@ -105,27 +105,27 @@ export default function FitSamplesVsPreProductionSamplesPage() {
   const faqs = [
     {
       q: "Can I use the Fit Sample as my Pre-Production (PP) Sample?",
-      a: "Only if the fit sample was produced using the exact final bulk fabric, in the correct dye lot, with all production trims and wash treatments applied — at the actual production factory. This is an unusual scenario. In most development cycles, fit samples are made in substitute fabric and in a different environment from the bulk factory, making them unsuitable as PP samples without these conditions being met.",
+      a: "Only if the fit sample was produced using the exact final bulk fabric, in the correct dye lot, with all production trims and wash treatments applied - at the actual production factory. This is an unusual scenario. In most development cycles, fit samples are made in substitute fabric and in a different environment from the bulk factory, making them unsuitable as PP samples without these conditions being met.",
     },
     {
       q: "What happens after the Pre-Production (PP) Sample is approved?",
-      a: "The PP sample is physically signed or tagged to indicate brand approval, and retained at the production factory as the Golden Sample — the binding quality reference for the bulk run. Bulk fabric cutting can begin. QC inspectors conducting in-line and pre-shipment checks compare bulk units against the Golden Sample throughout production.",
+      a: "The PP sample is physically signed or tagged to indicate brand approval, and retained at the production factory as the Golden Sample - the binding quality reference for the bulk run. Bulk fabric cutting can begin. QC inspectors conducting in-line and pre-shipment checks compare bulk units against the Golden Sample throughout production.",
     },
     {
       q: "How detailed does fit sample feedback need to be?",
-      a: "Very specific. Feedback should reference the POM sheet line items with specific measurements: for example, 'chest measurement is 52cm — target is 56cm, please increase by 4cm'. General feedback like 'the chest is too narrow' creates ambiguity about which seam the pattern maker should adjust and by how much. Specific feedback with measurements directly reduces the number of revision rounds needed.",
+      a: "Very specific. Feedback should reference the POM sheet line items with specific measurements: for example, 'chest measurement is 52cm - target is 56cm, please increase by 4cm'. General feedback like 'the chest is too narrow' creates ambiguity about which seam the pattern maker should adjust and by how much. Specific feedback with measurements directly reduces the number of revision rounds needed.",
     },
     {
       q: "Why must the PP sample be made at the production factory?",
-      a: "Different factories have different machinery, sewing specifications, and operator skill sets. A fit sample made at a sample studio may sew cleaner seams than a production factory will produce at scale. The PP sample tests not only the final materials but also the production factory's specific capability to replicate the approved standard. This is why the production factory must make the PP sample — not a substitute sample room.",
+      a: "Different factories have different machinery, sewing specifications, and operator skill sets. A fit sample made at a sample studio may sew cleaner seams than a production factory will produce at scale. The PP sample tests not only the final materials but also the production factory's specific capability to replicate the approved standard. This is why the production factory must make the PP sample - not a substitute sample room.",
     },
     {
       q: "What should I do if I receive a PP sample that doesn't pass approval?",
-      a: "Reject it in writing with specific notes detailing exactly what needs to be corrected — not a general rejection. Require the factory to revise and resubmit a corrected PP sample before bulk cutting begins. Never approve a PP sample under time pressure if it contains genuine quality failures. The cost of a failed bulk run is always higher than the delay caused by an additional PP sample round.",
+      a: "Reject it in writing with specific notes detailing exactly what needs to be corrected - not a general rejection. Require the factory to revise and resubmit a corrected PP sample before bulk cutting begins. Never approve a PP sample under time pressure if it contains genuine quality failures. The cost of a failed bulk run is always higher than the delay caused by an additional PP sample round.",
     },
     {
       q: "How many fit sample rounds is normal before reaching the PP stage?",
-      a: "For new styles with a new manufacturer, 2 to 3 fit sample rounds before PP is typical. Brands with complete tech packs and reference garments sometimes reach PP in one or two rounds. Brands with incomplete or evolving tech packs — or brands providing conflicting feedback — may require 4 or more rounds. The PP stage is not reached until all fit and construction issues from the fit sample phase are fully resolved.",
+      a: "For new styles with a new manufacturer, 2 to 3 fit sample rounds before PP is typical. Brands with complete tech packs and reference garments sometimes reach PP in one or two rounds. Brands with incomplete or evolving tech packs - or brands providing conflicting feedback - may require 4 or more rounds. The PP stage is not reached until all fit and construction issues from the fit sample phase are fully resolved.",
     },
     {
       q: "Is there a cost difference between fit samples and PP samples?",
@@ -163,7 +163,7 @@ export default function FitSamplesVsPreProductionSamplesPage() {
             <span className="italic font-medium text-[#2D5016]">What&apos;s the Difference?</span>
           </h1>
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
-            Confusing a fit sample with a pre-production sample — or conflating their approval criteria — is one of the most common sampling process errors. Each type solves a fundamentally different problem.
+            Confusing a fit sample with a pre-production sample - or conflating their approval criteria - is one of the most common sampling process errors. Each type solves a fundamentally different problem.
           </p>
           <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>
@@ -182,7 +182,7 @@ export default function FitSamplesVsPreProductionSamplesPage() {
             </p>
           </div>
           <p className="text-base text-[#6B6560] leading-relaxed">
-            Both questions need a positive answer before bulk production begins. They require different materials, different production environments, and different approval criteria — which is why treating them as interchangeable leads to systematic sampling errors that reach the bulk order.
+            Both questions need a positive answer before bulk production begins. They require different materials, different production environments, and different approval criteria - which is why treating them as interchangeable leads to systematic sampling errors that reach the bulk order.
           </p>
         </div>
       </section>
@@ -288,7 +288,7 @@ export default function FitSamplesVsPreProductionSamplesPage() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
           <h2 className="font-display text-3xl lg:text-5xl font-light text-[#1A1A1A] mb-4">Commission sampling with proper sign-off process</h2>
           <p className="text-[#6B6560] leading-relaxed text-base mb-10 max-w-xl mx-auto">
-            Fenalt manages the complete sampling cycle — fit development through PP approval — with transparent communication at every stage.
+            Fenalt manages the complete sampling cycle - fit development through PP approval - with transparent communication at every stage.
           </p>
           <Link href="/intake" className="inline-flex items-center justify-center gap-2 px-10 py-4 bg-[#1A1A1A] text-[#FAF9F6] text-sm font-semibold tracking-wide hover:bg-[#2D5016] transition-colors duration-300">
             Submit Your Project <ArrowRight size={16} />

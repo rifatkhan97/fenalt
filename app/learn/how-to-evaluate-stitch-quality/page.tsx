@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, Search } from "lucide-react";
 export const metadata: Metadata = {
   title: "How to Evaluate Stitch Quality in Finished Garments",
   description:
-    "Learn how to audit garment sewing quality — checking SPI density, seam tension, skipped stitches, puckering, raw edge overlock coverage, and seam pull strength testing.",
+    "Learn how to audit garment sewing quality - checking SPI density, seam tension, skipped stitches, puckering, raw edge overlock coverage, and seam pull strength testing.",
   alternates: {
     canonical: "https://fenalt.com/learn/how-to-evaluate-stitch-quality",
   },
   openGraph: {
     title: "How to Evaluate Stitch Quality in Finished Garments",
     description:
-      "Learn how to audit garment sewing quality — checking SPI density, seam tension, skipped stitches, puckering, raw edge overlock coverage, and seam pull strength testing.",
+      "Learn how to audit garment sewing quality - checking SPI density, seam tension, skipped stitches, puckering, raw edge overlock coverage, and seam pull strength testing.",
     url: "https://fenalt.com/learn/how-to-evaluate-stitch-quality",
   },
 };
@@ -63,7 +63,7 @@ export default function HowToEvaluateStitchQualityPage() {
     },
     {
       title: "6. Stress-Point Bartack & Reinforcement Check",
-      desc: "Verify that high-stress points — such as kangaroo pocket corners, belt loops, side slits, and fly openings — feature dense multi-stitch bartacks to prevent fabric tearing under load.",
+      desc: "Verify that high-stress points - such as kangaroo pocket corners, belt loops, side slits, and fly openings - feature dense multi-stitch bartacks to prevent fabric tearing under load.",
     },
   ];
 
@@ -134,7 +134,7 @@ export default function HowToEvaluateStitchQualityPage() {
             <span className="italic font-medium text-[#2D5016]">Stitch Quality in Garments.</span>
           </h1>
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
-            A practical QC guide to auditing garment sewing — measuring SPI density, evaluating seam tension, detecting skipped stitches, and performing seam pull tests.
+            A practical QC guide to auditing garment sewing - measuring SPI density, evaluating seam tension, detecting skipped stitches, and performing seam pull tests.
           </p>
           <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>
@@ -153,7 +153,7 @@ export default function HowToEvaluateStitchQualityPage() {
             </p>
           </div>
           <p className="text-base text-[#6B6560] leading-relaxed">
-            Seam integrity is the ultimate test of garment craftsmanship. Even if a brand uses high-grade combed cotton fabric, poor sewing execution — such as low SPI density, skipped stitches, or tight thread tension — will cause seams to pop, pucker, or un-ravel after a few wears. Auditing stitch quality ensures your product meets retail standards.
+            Seam integrity is the ultimate test of garment craftsmanship. Even if a brand uses high-grade combed cotton fabric, poor sewing execution - such as low SPI density, skipped stitches, or tight thread tension - will cause seams to pop, pucker, or un-ravel after a few wears. Auditing stitch quality ensures your product meets retail standards.
           </p>
         </div>
       </section>

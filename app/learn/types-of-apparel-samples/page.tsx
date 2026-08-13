@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, Layers } from "lucide-react";
 export const metadata: Metadata = {
   title: "The Different Types of Apparel Samples Explained",
   description:
-    "A complete guide to the 7 garment sample types — Proto, Fit, Size Set, Salesperson (SMS), Pre-Production (PP), Top of Production (TOP), and Shipping samples — and when each is required in the production cycle.",
+    "A complete guide to the 7 garment sample types - Proto, Fit, Size Set, Salesperson (SMS), Pre-Production (PP), Top of Production (TOP), and Shipping samples - and when each is required in the production cycle.",
   alternates: {
     canonical: "https://fenalt.com/learn/types-of-apparel-samples",
   },
   openGraph: {
     title: "The Different Types of Apparel Samples Explained",
     description:
-      "A complete guide to the 7 garment sample types — Proto, Fit, Size Set, Salesperson (SMS), Pre-Production (PP), Top of Production (TOP), and Shipping samples — and when each is required in the production cycle.",
+      "A complete guide to the 7 garment sample types - Proto, Fit, Size Set, Salesperson (SMS), Pre-Production (PP), Top of Production (TOP), and Shipping samples - and when each is required in the production cycle.",
     url: "https://fenalt.com/learn/types-of-apparel-samples",
   },
 };
@@ -44,51 +44,51 @@ export default function TypesOfApparelSamplesPage() {
     {
       name: "Prototype (Proto) Sample",
       purpose: "Test general silhouette, design feasibility, and overall aesthetic intent using available in-house or substitute fabric.",
-      detail: "The prototype is made quickly from whatever fabric is available at the factory — not necessarily the final production material. Its purpose is to test whether the design concept physically works: proportions, panel placement, pocket functionality, and basic construction logic. At this stage, minor deviations from the final tech pack measurements are expected and normal. Brands should evaluate the proto for silhouette and overall impression, not final measurement accuracy.",
+      detail: "The prototype is made quickly from whatever fabric is available at the factory - not necessarily the final production material. Its purpose is to test whether the design concept physically works: proportions, panel placement, pocket functionality, and basic construction logic. At this stage, minor deviations from the final tech pack measurements are expected and normal. Brands should evaluate the proto for silhouette and overall impression, not final measurement accuracy.",
       usedBy: "All brands developing custom styles",
-      required: "Yes — for all new styles",
+      required: "Yes - for all new styles",
     },
     {
       name: "Fit Sample",
-      purpose: "Evaluate anatomical drape, measurement accuracy, and sizing on a physical fit model — using actual or representative fabric.",
+      purpose: "Evaluate anatomical drape, measurement accuracy, and sizing on a physical fit model - using actual or representative fabric.",
       detail: "The fit sample is typically the second iteration of the prototype after initial revision. Its primary function is technical: verifying that the garment fits correctly on a live body or standard dress form, that all measurements match the tech pack POM sheet within tolerances, and that the construction details (seam positioning, pocket placement, collar sit) perform as specified. Written fit notes from this evaluation drive the next revision round.",
       usedBy: "All brands with custom fit requirements",
-      required: "Yes — for all new styles",
+      required: "Yes - for all new styles",
     },
     {
       name: "Size Set Samples",
       purpose: "Verify pattern grading accuracy across the complete size spectrum (e.g. XS through 3XL).",
-      detail: "Once the base size pattern is approved, size set samples are made in each size to verify that the incremental grading measurements are correct — and that proportions remain consistent across the range. For example, a sleeve length graded from M to XL might show the correct total length but incorrect proportion if the grading algorithm is applied incorrectly. Size sets are most important for brands with a wide size range or those targeting markets with strict size compliance standards.",
+      detail: "Once the base size pattern is approved, size set samples are made in each size to verify that the incremental grading measurements are correct - and that proportions remain consistent across the range. For example, a sleeve length graded from M to XL might show the correct total length but incorrect proportion if the grading algorithm is applied incorrectly. Size sets are most important for brands with a wide size range or those targeting markets with strict size compliance standards.",
       usedBy: "Brands with full size runs (particularly activewear, inclusive sizing)",
-      required: "Conditional — required for wide size ranges; smaller ranges may be sampled selectively",
+      required: "Conditional - required for wide size ranges; smaller ranges may be sampled selectively",
     },
     {
       name: "Salesperson Sample (SMS)",
       purpose: "Showcase finished garments in exact bulk fabrics for trade shows, lookbooks, wholesale buyers, and pre-season ordering.",
-      detail: "SMS (sometimes called Showroom Samples or Sales Samples) are made in final production fabric and colours, with all trims, labels, and finishing details exactly as the bulk product will appear. They are used for sales presentations, photography, lookbooks, and buyer review before the production run is completed. They are not quality inspection documents — they are marketing and pre-sales tools. Many brands treat their approved PP sample as their SMS to reduce cost.",
+      detail: "SMS (sometimes called Showroom Samples or Sales Samples) are made in final production fabric and colours, with all trims, labels, and finishing details exactly as the bulk product will appear. They are used for sales presentations, photography, lookbooks, and buyer review before the production run is completed. They are not quality inspection documents - they are marketing and pre-sales tools. Many brands treat their approved PP sample as their SMS to reduce cost.",
       usedBy: "Brands with wholesale accounts, trade show presence, or pre-season ordering",
-      required: "Conditional — only needed for brands with external sales presentations",
+      required: "Conditional - only needed for brands with external sales presentations",
     },
     {
       name: "Pre-Production (PP) Sample",
-      purpose: "The binding production standard — constructed from actual bulk fabric, with all production trims, labels, and wash treatments applied, at the production factory.",
-      detail: "The PP sample is the most critical sample in the production cycle. Once signed off by the brand, it becomes the Golden Sample — the physical quality benchmark retained at the factory against which every bulk production unit is compared during in-line inspection and pre-shipment audit. A PP sample that passes brand approval contains all production materials and cannot deviate from the bulk order in fabric, colour, construction, or trims. Never allow bulk cutting to begin without PP sample sign-off.",
-      usedBy: "All brands — mandatory for all production runs",
-      required: "Yes — non-negotiable before bulk cutting",
+      purpose: "The binding production standard - constructed from actual bulk fabric, with all production trims, labels, and wash treatments applied, at the production factory.",
+      detail: "The PP sample is the most critical sample in the production cycle. Once signed off by the brand, it becomes the Golden Sample - the physical quality benchmark retained at the factory against which every bulk production unit is compared during in-line inspection and pre-shipment audit. A PP sample that passes brand approval contains all production materials and cannot deviate from the bulk order in fabric, colour, construction, or trims. Never allow bulk cutting to begin without PP sample sign-off.",
+      usedBy: "All brands - mandatory for all production runs",
+      required: "Yes - non-negotiable before bulk cutting",
     },
     {
       name: "Top of Production (TOP) Sample",
       purpose: "Pulled directly from the first 10% of bulk sewing to audit that production-line quality matches the approved PP standard.",
-      detail: "A TOP sample is taken from the live production run — typically from the first batch to come off the sewing line — to verify that the production environment is replicating the approved PP sample standard at scale. Problems found at TOP stage can still be corrected across the remaining 90% of the order. Problems found at pre-shipment on 100% of units are exponentially more expensive to address. TOP sampling is standard practice for high-volume or high-value orders.",
+      detail: "A TOP sample is taken from the live production run - typically from the first batch to come off the sewing line - to verify that the production environment is replicating the approved PP sample standard at scale. Problems found at TOP stage can still be corrected across the remaining 90% of the order. Problems found at pre-shipment on 100% of units are exponentially more expensive to address. TOP sampling is standard practice for high-volume or high-value orders.",
       usedBy: "High-volume brands and brands with premium quality requirements",
       required: "Recommended for orders above 500 units or premium product tiers",
     },
     {
       name: "Shipping Sample",
       purpose: "Pulled from final packed export cartons to verify polybagging, hangtag placement, folding method, and correct carton ratio.",
-      detail: "A shipping sample is the final quality check before garments leave the factory — confirming that the physical product matches the approved standard and that all packaging elements (polybag, hangtag, sticker, barcode, size label) are correctly applied. It also verifies that the carton size ratios match the purchase order. Discrepancies found at shipping sample stage can still be corrected before export; those found by the buyer after delivery cannot.",
+      detail: "A shipping sample is the final quality check before garments leave the factory - confirming that the physical product matches the approved standard and that all packaging elements (polybag, hangtag, sticker, barcode, size label) are correctly applied. It also verifies that the carton size ratios match the purchase order. Discrepancies found at shipping sample stage can still be corrected before export; those found by the buyer after delivery cannot.",
       usedBy: "All brands shipping international orders",
-      required: "Strongly recommended — especially for export orders",
+      required: "Strongly recommended - especially for export orders",
     },
   ];
 
@@ -106,23 +106,23 @@ export default function TypesOfApparelSamplesPage() {
     },
     {
       q: "Who pays for sample development?",
-      a: "The brand pays for sample development — covering pattern drafting labour, sample machinist labour, and any fabric or trim costs for the sample units. Sampling fees vary by manufacturer, garment complexity, and number of units produced per sample. Some manufacturers credit sampling fees against the bulk order value upon PO issuance; others treat sampling as a separate fixed cost. Always confirm the sampling fee structure before commissioning.",
+      a: "The brand pays for sample development - covering pattern drafting labour, sample machinist labour, and any fabric or trim costs for the sample units. Sampling fees vary by manufacturer, garment complexity, and number of units produced per sample. Some manufacturers credit sampling fees against the bulk order value upon PO issuance; others treat sampling as a separate fixed cost. Always confirm the sampling fee structure before commissioning.",
     },
     {
       q: "What is the difference between a fit sample and a pre-production sample?",
-      a: "A fit sample tests the pattern — usually using substitute or available fabric — with the primary goal of achieving correct measurements and proportions. A pre-production (PP) sample is made from the actual bulk production fabric, at the production factory, with all production trims and labels in place. The PP sample represents the exact standard that bulk production will be held to. It is the binding quality reference, not a design iteration.",
+      a: "A fit sample tests the pattern - usually using substitute or available fabric - with the primary goal of achieving correct measurements and proportions. A pre-production (PP) sample is made from the actual bulk production fabric, at the production factory, with all production trims and labels in place. The PP sample represents the exact standard that bulk production will be held to. It is the binding quality reference, not a design iteration.",
     },
     {
       q: "Can a salesperson sample be the same as the PP sample?",
-      a: "In practice, many brands combine these. If the PP sample is made in final production fabric with all trims and labels, it is often used as the showroom or sales presentation sample before bulk production begins. The key constraint is that the PP sample should not leave the brand's possession if it is also serving as the golden sample for factory QC — some brands make two identical units at PP stage for this reason.",
+      a: "In practice, many brands combine these. If the PP sample is made in final production fabric with all trims and labels, it is often used as the showroom or sales presentation sample before bulk production begins. The key constraint is that the PP sample should not leave the brand's possession if it is also serving as the golden sample for factory QC - some brands make two identical units at PP stage for this reason.",
     },
     {
       q: "What should I evaluate when I receive a fit sample?",
-      a: "Measure every point of measure (POM) on the spec sheet and compare against the target measurements and tolerance. Evaluate fit on a live model or dress form in the target size. Assess: does the silhouette match the intended design? Do pockets function as intended? Is the fabric draping correctly? Is construction (seam allowances, stitching) acceptable? Document all adjustment notes in writing with specific measurements — not general impressions.",
+      a: "Measure every point of measure (POM) on the spec sheet and compare against the target measurements and tolerance. Evaluate fit on a live model or dress form in the target size. Assess: does the silhouette match the intended design? Do pockets function as intended? Is the fabric draping correctly? Is construction (seam allowances, stitching) acceptable? Document all adjustment notes in writing with specific measurements - not general impressions.",
     },
     {
       q: "How long does sample development take between rounds?",
-      a: "Each revision round typically takes 7 to 14 days at the factory — plus 3 to 7 business days each way for international shipping if samples are reviewed in person. International brands evaluating samples physically should plan 2 to 3 weeks per revision round including transit. Brands using digital photo or video review can reduce this to the production time only, provided the feedback methodology is sufficiently rigorous.",
+      a: "Each revision round typically takes 7 to 14 days at the factory - plus 3 to 7 business days each way for international shipping if samples are reviewed in person. International brands evaluating samples physically should plan 2 to 3 weeks per revision round including transit. Brands using digital photo or video review can reduce this to the production time only, provided the feedback methodology is sufficiently rigorous.",
     },
   ];
 
@@ -159,7 +159,7 @@ export default function TypesOfApparelSamplesPage() {
             <span className="italic font-medium text-[#2D5016]">Samples Explained.</span>
           </h1>
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
-            Not all apparel samples serve the same purpose. Each type in the sampling hierarchy isolates specific variables — from silhouette to fit to production replication. This guide explains all seven.
+            Not all apparel samples serve the same purpose. Each type in the sampling hierarchy isolates specific variables - from silhouette to fit to production replication. This guide explains all seven.
           </p>
           <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>
@@ -174,11 +174,11 @@ export default function TypesOfApparelSamplesPage() {
               <span className="text-xs font-semibold uppercase tracking-[0.25em] text-[#C8A882]">Sampling Taxonomy</span>
             </div>
             <p className="font-display text-2xl lg:text-3xl font-light text-[#1A1A1A] leading-relaxed">
-              Each sample stage isolates specific variables — <strong className="font-medium">silhouette (proto), fit & drape (fit sample), aesthetics (SMS), and final production standard (PP sample)</strong>.
+              Each sample stage isolates specific variables - <strong className="font-medium">silhouette (proto), fit & drape (fit sample), aesthetics (SMS), and final production standard (PP sample)</strong>.
             </p>
           </div>
           <p className="text-base text-[#6B6560] leading-relaxed">
-            A structured sampling process protects the bulk order. Each approval gate catches a specific category of problem before it can multiply across hundreds or thousands of production units. Understanding which samples serve which function allows brands to move through development more efficiently — rather than combining conflicting objectives in a single sample round.
+            A structured sampling process protects the bulk order. Each approval gate catches a specific category of problem before it can multiply across hundreds or thousands of production units. Understanding which samples serve which function allows brands to move through development more efficiently - rather than combining conflicting objectives in a single sample round.
           </p>
         </div>
       </section>
@@ -187,7 +187,7 @@ export default function TypesOfApparelSamplesPage() {
       <section className="py-20 lg:py-28 bg-[#1A1A1A] text-[#FAF9F6]">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <p className="text-xs font-semibold uppercase tracking-[0.25em] text-[#C8A882] mb-4">Sampling Spectrum</p>
-          <h2 className="font-display text-3xl lg:text-5xl font-light text-[#FAF9F6] mb-12">7 Garment Sample Types — What Each One Is For</h2>
+          <h2 className="font-display text-3xl lg:text-5xl font-light text-[#FAF9F6] mb-12">7 Garment Sample Types - What Each One Is For</h2>
           <div className="space-y-5">
             {sampleTypes.map((st, i) => (
               <div key={i} className="p-6 lg:p-8 bg-[#262626] border border-[#333333]">
@@ -278,7 +278,7 @@ export default function TypesOfApparelSamplesPage() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
           <h2 className="font-display text-3xl lg:text-5xl font-light text-[#1A1A1A] mb-4">Develop your prototype samples</h2>
           <p className="text-[#6B6560] leading-relaxed text-base mb-10 max-w-xl mx-auto">
-            Fenalt offers fast-turnaround sampling services — developing precision proto, fit, and pre-production samples in Dhaka.
+            Fenalt offers fast-turnaround sampling services - developing precision proto, fit, and pre-production samples in Dhaka.
           </p>
           <Link href="/intake" className="inline-flex items-center justify-center gap-2 px-10 py-4 bg-[#1A1A1A] text-[#FAF9F6] text-sm font-semibold tracking-wide hover:bg-[#2D5016] transition-colors duration-300">
             Submit Sampling Request <ArrowRight size={16} />

@@ -5,11 +5,11 @@ import { ArrowRight, BookOpen, CheckCircle2 } from "lucide-react";
 export const metadata: Metadata = {
   title: "How to Choose a Clothing Manufacturer for a New Fashion Brand",
   description:
-    "A practical decision guide for fashion brands evaluating clothing manufacturers — the criteria that matter, the questions to ask, the red flags to avoid, and how to make the right choice.",
+    "A practical decision guide for fashion brands evaluating clothing manufacturers - the criteria that matter, the questions to ask, the red flags to avoid, and how to make the right choice.",
   alternates: { canonical: "https://fenalt.com/learn/how-to-choose-a-clothing-manufacturer" },
   openGraph: {
     title: "How to Choose a Clothing Manufacturer for a New Fashion Brand",
-    description: "A practical decision guide for fashion brands evaluating clothing manufacturers — the criteria that matter, the questions to ask, the red flags to avoid, and how to make the right choice.",
+    description: "A practical decision guide for fashion brands evaluating clothing manufacturers - the criteria that matter, the questions to ask, the red flags to avoid, and how to make the right choice.",
     url: "https://fenalt.com/learn/how-to-choose-a-clothing-manufacturer",
   },
 };
@@ -38,12 +38,12 @@ export default function HowToChooseAClothingManufacturerPage() {
   const criteria = [
     {
       title: "Product Category Match",
-      body: "Manufacturers typically specialise. A factory excellent at heavyweight fleece hoodies may have limited capability for woven denim or technical activewear. Verify the manufacturer has genuine experience with your specific product type — not just a claim on their website. Request samples or portfolio evidence from comparable product categories. Category mismatch is one of the most common causes of unexpected quality problems.",
+      body: "Manufacturers typically specialise. A factory excellent at heavyweight fleece hoodies may have limited capability for woven denim or technical activewear. Verify the manufacturer has genuine experience with your specific product type - not just a claim on their website. Request samples or portfolio evidence from comparable product categories. Category mismatch is one of the most common causes of unexpected quality problems.",
       importance: "Essential",
     },
     {
       title: "MOQ Compatibility",
-      body: "A manufacturer whose minimum order quantity is 1,000 units per style is not a suitable partner for a 100-unit capsule launch, regardless of quality. Confirm that the manufacturer's MOQ structure is compatible with your current production volume — not your aspirational future volume. Some factories have lower MOQs for returning clients or when combining multiple styles, so always clarify whether per-style or total MOQ thresholds apply.",
+      body: "A manufacturer whose minimum order quantity is 1,000 units per style is not a suitable partner for a 100-unit capsule launch, regardless of quality. Confirm that the manufacturer's MOQ structure is compatible with your current production volume - not your aspirational future volume. Some factories have lower MOQs for returning clients or when combining multiple styles, so always clarify whether per-style or total MOQ thresholds apply.",
       importance: "Essential",
     },
     {
@@ -58,12 +58,12 @@ export default function HowToChooseAClothingManufacturerPage() {
     },
     {
       title: "Production Timeline Honesty",
-      body: "Ask for realistic lead times — including sampling rounds, fabric procurement, and bulk production. Be cautious of manufacturers who promise unusually short timelines without qualification. An honest manufacturer gives you a realistic window with caveats; an unreliable one tells you what they think you want to hear. Timeline honesty is one of the strongest predictors of how a manufacturing partner behaves under pressure.",
+      body: "Ask for realistic lead times - including sampling rounds, fabric procurement, and bulk production. Be cautious of manufacturers who promise unusually short timelines without qualification. An honest manufacturer gives you a realistic window with caveats; an unreliable one tells you what they think you want to hear. Timeline honesty is one of the strongest predictors of how a manufacturing partner behaves under pressure.",
       importance: "High",
     },
     {
       title: "Transparency on Subcontracting",
-      body: "Some manufacturers accept orders and then subcontract production to third-party factories without your knowledge. Ask directly whether they own or operate the production facility, or coordinate with partner factories. Subcontracting is not inherently problematic — but it should be disclosed, and the subcontracted facility should be verifiable. Undisclosed subcontracting affects quality oversight and ethical accountability.",
+      body: "Some manufacturers accept orders and then subcontract production to third-party factories without your knowledge. Ask directly whether they own or operate the production facility, or coordinate with partner factories. Subcontracting is not inherently problematic - but it should be disclosed, and the subcontracted facility should be verifiable. Undisclosed subcontracting affects quality oversight and ethical accountability.",
       importance: "High",
     },
     {
@@ -73,7 +73,7 @@ export default function HowToChooseAClothingManufacturerPage() {
     },
     {
       title: "Pricing Clarity",
-      body: "A quote should be detailed: per-unit cost at your MOQ, sampling fee, packaging cost, shipping terms (FOB or DDP), and what additional services are included. Vague lump-sum quotes that don't break down components make cost comparison impossible and create disputes later. Always ask what is included in the quoted price — and what will be invoiced separately.",
+      body: "A quote should be detailed: per-unit cost at your MOQ, sampling fee, packaging cost, shipping terms (FOB or DDP), and what additional services are included. Vague lump-sum quotes that don't break down components make cost comparison impossible and create disputes later. Always ask what is included in the quoted price - and what will be invoiced separately.",
       importance: "Medium",
     },
   ];
@@ -83,7 +83,7 @@ export default function HowToChooseAClothingManufacturerPage() {
     "Cannot or will not show previous work or provide client references",
     "Claims certifications (GOTS, WRAP, OEKO-TEX, etc.) without being able to provide documentation",
     "Requires full payment upfront before any sample is produced",
-    "Refuses to work from your tech pack — insists on their own templates without explanation",
+    "Refuses to work from your tech pack - insists on their own templates without explanation",
     "Communication is delayed, vague, or evasive during the initial enquiry stage",
     "Cannot explain their quality control process in specific, concrete terms",
     "Offers per-unit pricing that appears implausibly low for the product type at your stated MOQ",
@@ -112,7 +112,7 @@ export default function HowToChooseAClothingManufacturerPage() {
     },
     {
       q: "How many manufacturers should I approach before choosing one?",
-      a: "For a first collection, it is generally useful to brief two or three manufacturers and compare their responses, quotes, and communication quality. Briefing more than five without a strong reason adds complexity without proportionally better outcomes. Focus on depth of evaluation — how thoroughly you assess each candidate — rather than breadth of options.",
+      a: "For a first collection, it is generally useful to brief two or three manufacturers and compare their responses, quotes, and communication quality. Briefing more than five without a strong reason adds complexity without proportionally better outcomes. Focus on depth of evaluation - how thoroughly you assess each candidate - rather than breadth of options.",
     },
     {
       q: "Is it better to choose a manufacturer in a specific country?",
@@ -124,7 +124,7 @@ export default function HowToChooseAClothingManufacturerPage() {
     },
     {
       q: "When is it appropriate to place a bulk order with a new manufacturer?",
-      a: "Place a bulk order only after completing a full sampling cycle — including at least one revised fit sample and a pre-production sample approved in writing. Never commit to bulk before seeing a sample made from the actual production fabric, by the actual production facility. Even if the manufacturer has strong references, the PP sample sign-off is the non-negotiable prerequisite to bulk commitment.",
+      a: "Place a bulk order only after completing a full sampling cycle - including at least one revised fit sample and a pre-production sample approved in writing. Never commit to bulk before seeing a sample made from the actual production fabric, by the actual production facility. Even if the manufacturer has strong references, the PP sample sign-off is the non-negotiable prerequisite to bulk commitment.",
     },
   ];
 
@@ -268,7 +268,7 @@ export default function HowToChooseAClothingManufacturerPage() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
           <h2 className="font-display text-3xl lg:text-5xl font-light text-[#1A1A1A] mb-4">Work with a pre-vetted manufacturing partner</h2>
           <p className="text-[#6B6560] leading-relaxed text-base mb-10 max-w-xl mx-auto">
-            Fenalt connects brands with audited independent micro-factories in Dhaka — with transparent production oversight from day one.
+            Fenalt connects brands with audited independent micro-factories in Dhaka - with transparent production oversight from day one.
           </p>
           <Link href="/intake" className="inline-flex items-center justify-center gap-2 px-10 py-4 bg-[#1A1A1A] text-[#FAF9F6] text-sm font-semibold tracking-wide hover:bg-[#2D5016] transition-colors duration-300">
             Submit Your Project <ArrowRight size={16} />

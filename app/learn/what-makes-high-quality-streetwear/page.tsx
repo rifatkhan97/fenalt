@@ -39,19 +39,19 @@ export default function WhatMakesHighQualityStreetwearPage() {
     {
       area: "Fabric Weight & Composition",
       indicators: [
-        "Heavyweight cotton — typically 240–300gsm for t-shirts, 400–480gsm+ for hoodies — provides the structured, substantial hand-feel associated with premium streetwear",
+        "Heavyweight cotton - typically 240–300gsm for t-shirts, 400–480gsm+ for hoodies - provides the structured, substantial hand-feel associated with premium streetwear",
         "Combed ring-spun cotton (vs standard carded cotton) produces a smooth print canvas with fewer loose fibres, better pill resistance, and consistent dyeing",
-        "French Terry fleece (looped back, flat face) is the industry standard for quality hoodies — not low-pile fleece or brushed poly",
-        "Fabric weight is consistent across the garment — not thinner in the body vs sleeve panels",
+        "French Terry fleece (looped back, flat face) is the industry standard for quality hoodies - not low-pile fleece or brushed poly",
+        "Fabric weight is consistent across the garment - not thinner in the body vs sleeve panels",
       ],
     },
     {
       area: "Stitch Quality & Density",
       indicators: [
         "Higher stitch density (10–12 stitches per inch) produces stronger seams with less chance of thread popping under tension",
-        "Consistent stitch tension across the garment — no loose loops or wavy gather puckering",
+        "Consistent stitch tension across the garment - no loose loops or wavy gather puckering",
         "Topstitching is even and parallel to seams across the entire garment",
-        "No loose thread ends at seam starts or ends — properly secured with bartacks or thread locks",
+        "No loose thread ends at seam starts or ends - properly secured with bartacks or thread locks",
       ],
     },
     {
@@ -66,9 +66,9 @@ export default function WhatMakesHighQualityStreetwearPage() {
     {
       area: "Print & Embroidery Execution",
       indicators: [
-        "Screen print or 3D puff print coverage is complete — no ink gaps, pinholes, or spotty application",
-        "Print placement is consistent across units — measured strictly from reference seams",
-        "Embroidery thread density is sufficient — backing fabric does not show through design stitches",
+        "Screen print or 3D puff print coverage is complete - no ink gaps, pinholes, or spotty application",
+        "Print placement is consistent across units - measured strictly from reference seams",
+        "Embroidery thread density is sufficient - backing fabric does not show through design stitches",
         "Prints remain intact without cracking or peeling after 50+ commercial wash tests",
       ],
     },
@@ -124,7 +124,7 @@ export default function WhatMakesHighQualityStreetwearPage() {
             <span className="italic font-medium text-[#2D5016]">High-Quality Streetwear Garment?</span>
           </h1>
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
-            Premium streetwear is a construction and material standard, not just a price point. This guide breaks down the areas where quality is either built in — or compromised.
+            Premium streetwear is a construction and material standard, not just a price point. This guide breaks down the areas where quality is either built in - or compromised.
           </p>
           <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>
@@ -193,7 +193,7 @@ export default function WhatMakesHighQualityStreetwearPage() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
           <h2 className="font-display text-3xl lg:text-5xl font-light text-[#1A1A1A] mb-4">Manufacture premium streetwear with Fenalt</h2>
           <p className="text-[#6B6560] leading-relaxed text-base mb-10 max-w-xl mx-auto">
-            Fenalt specialises in heavyweight streetwear manufacturing — hoodies, crewnecks, and tees — with on-the-ground QC in Dhaka.
+            Fenalt specialises in heavyweight streetwear manufacturing - hoodies, crewnecks, and tees - with on-the-ground QC in Dhaka.
           </p>
           <Link href="/intake" className="inline-flex items-center justify-center gap-2 px-10 py-4 bg-[#1A1A1A] text-[#FAF9F6] text-sm font-semibold tracking-wide hover:bg-[#2D5016] transition-colors duration-300">
             Submit Your Project <ArrowRight size={16} />

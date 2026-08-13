@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, ShieldAlert } from "lucide-react";
 export const metadata: Metadata = {
   title: "What to Know Before Sourcing From Bangladesh: Brand Pre-Check",
   description:
-    "Essential pre-sourcing guidance for fashion brands entering Bangladesh — understanding MOQs, lead times, GSP duty-free trade rules, compliance certificates, and deposit payment terms.",
+    "Essential pre-sourcing guidance for fashion brands entering Bangladesh - understanding MOQs, lead times, GSP duty-free trade rules, compliance certificates, and deposit payment terms.",
   alternates: {
     canonical: "https://fenalt.com/learn/what-to-know-before-sourcing-from-bangladesh",
   },
   openGraph: {
     title: "What to Know Before Sourcing From Bangladesh: Brand Pre-Check",
     description:
-      "Essential pre-sourcing guidance for fashion brands entering Bangladesh — understanding MOQs, lead times, GSP duty-free trade rules, compliance certificates, and deposit payment terms.",
+      "Essential pre-sourcing guidance for fashion brands entering Bangladesh - understanding MOQs, lead times, GSP duty-free trade rules, compliance certificates, and deposit payment terms.",
     url: "https://fenalt.com/learn/what-to-know-before-sourcing-from-bangladesh",
   },
 };
@@ -63,7 +63,7 @@ export default function WhatToKnowBeforeSourcingFromBangladeshPage() {
     },
     {
       title: "6. On-the-Ground Local Technical Liaison Advantage",
-      desc: "Partnering with a Dhaka-based liaison team (like Fenalt) bridges time zones and language gaps — enforcing AQL 2.5 quality control directly on the factory floor.",
+      desc: "Partnering with a Dhaka-based liaison team (like Fenalt) bridges time zones and language gaps - enforcing AQL 2.5 quality control directly on the factory floor.",
     },
   ];
 
@@ -97,7 +97,7 @@ export default function WhatToKnowBeforeSourcingFromBangladeshPage() {
     },
     {
       q: "How does Fenalt help international brands source from Bangladesh?",
-      a: "Fenalt operates as your on-the-ground technical team in Dhaka — managing fabric development, lab-dips, sample approvals, inline Traffic Light QC, and AQL 2.5 export inspections.",
+      a: "Fenalt operates as your on-the-ground technical team in Dhaka - managing fabric development, lab-dips, sample approvals, inline Traffic Light QC, and AQL 2.5 export inspections.",
     },
   ];
 
@@ -134,7 +134,7 @@ export default function WhatToKnowBeforeSourcingFromBangladeshPage() {
             <span className="italic font-medium text-[#2D5016]">Sourcing From Bangladesh.</span>
           </h1>
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
-            Essential pre-sourcing guidance for fashion brands entering Bangladesh — understanding MOQs, lead times, GSP duty-free trade rules, compliance certificates, and deposit payment terms.
+            Essential pre-sourcing guidance for fashion brands entering Bangladesh - understanding MOQs, lead times, GSP duty-free trade rules, compliance certificates, and deposit payment terms.
           </p>
           <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>

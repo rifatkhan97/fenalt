@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, Scissors } from "lucide-react";
 export const metadata: Metadata = {
   title: "What Is Pattern Making in Clothing Production?",
   description:
-    "Explore pattern making in apparel manufacturing — translating 3D fashion designs into 2D flat paper or digital CAD cutting templates.",
+    "Explore pattern making in apparel manufacturing - translating 3D fashion designs into 2D flat paper or digital CAD cutting templates.",
   alternates: {
     canonical: "https://fenalt.com/learn/what-is-pattern-making",
   },
   openGraph: {
     title: "What Is Pattern Making in Clothing Production?",
     description:
-      "Explore pattern making in apparel manufacturing — translating 3D fashion designs into 2D flat paper or digital CAD cutting templates.",
+      "Explore pattern making in apparel manufacturing - translating 3D fashion designs into 2D flat paper or digital CAD cutting templates.",
     url: "https://fenalt.com/learn/what-is-pattern-making",
   },
 };
@@ -146,7 +146,7 @@ export default function WhatIsPatternMakingPage() {
             <span className="italic font-medium text-[#2D5016]">in Clothing Production?</span>
           </h1>
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
-            Pattern making is the engineering bridge between fashion design and manufacturing — translating 3D creative vision into 2D flat paper or digital CAD cutting templates.
+            Pattern making is the engineering bridge between fashion design and manufacturing - translating 3D creative vision into 2D flat paper or digital CAD cutting templates.
           </p>
           <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>

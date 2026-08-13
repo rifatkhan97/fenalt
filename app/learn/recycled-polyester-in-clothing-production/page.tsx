@@ -101,7 +101,7 @@ export default function RecycledPolyesterInClothingProductionPage() {
     },
     {
       q: "Can rPET be blended with natural cotton?",
-      a: "Yes. CVC (Chief Value Cotton) knits — such as 60% combed cotton / 40% rPET — are widely used in hoodies and sweatshirts. The cotton outer face provides a soft handfeel and screen print surface, while the rPET interior adds warmth, strength, and shrinkage resistance.",
+      a: "Yes. CVC (Chief Value Cotton) knits - such as 60% combed cotton / 40% rPET - are widely used in hoodies and sweatshirts. The cotton outer face provides a soft handfeel and screen print surface, while the rPET interior adds warmth, strength, and shrinkage resistance.",
     },
     {
       q: "Does rPET require different sewing machinery than virgin polyester?",
@@ -150,7 +150,7 @@ export default function RecycledPolyesterInClothingProductionPage() {
             <span className="italic font-medium text-[#2D5016]">in Clothing Production.</span>
           </h1>
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
-            A technical brand guide to recycled polyester (rPET) — understanding post-consumer bottle upcycling, GRS certification standards, activewear performance, and fabric blends.
+            A technical brand guide to recycled polyester (rPET) - understanding post-consumer bottle upcycling, GRS certification standards, activewear performance, and fabric blends.
           </p>
           <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>

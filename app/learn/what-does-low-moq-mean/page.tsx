@@ -22,7 +22,7 @@ export default function WhatDoesLowMoqMeanPage() {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: "What Does Low MOQ Mean in Clothing Manufacturing?",
-    description: "MOQ (minimum order quantity) explained — what it means, why factories set MOQs, and what low MOQ means for small fashion brands.",
+    description: "MOQ (minimum order quantity) explained - what it means, why factories set MOQs, and what low MOQ means for small fashion brands.",
     author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
     publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
     url: "https://fenalt.com/learn/what-does-low-moq-mean",
@@ -48,7 +48,7 @@ export default function WhatDoesLowMoqMeanPage() {
   const faqs = [
     {
       q: "Why do clothing manufacturers enforce minimum order quantities (MOQs)?",
-      a: "Garment manufacturing involves fixed setup costs — CAD pattern grading, marker making, fabric cutting table layout, screen printing frame preparation, and machine thread changeovers — that occur regardless of whether 50 or 500 units are produced. MOQs ensure those fixed setup costs are absorbed economically.",
+      a: "Garment manufacturing involves fixed setup costs - CAD pattern grading, marker making, fabric cutting table layout, screen printing frame preparation, and machine thread changeovers - that occur regardless of whether 50 or 500 units are produced. MOQs ensure those fixed setup costs are absorbed economically.",
     },
     {
       q: "Does low MOQ production mean lower garment quality?",
@@ -109,7 +109,7 @@ export default function WhatDoesLowMoqMeanPage() {
           <div className="space-y-4 text-base text-[#E5DDD3] leading-relaxed">
             <p>Every apparel production run carries fixed setup costs that do not change with volume: digital pattern grading, marker making, spreading cutting tables, screen printing frame alignment, and sewing line machine thread setup. A factory sewing 50 garments incurs nearly the same initial setup labor as one sewing 500.</p>
             <p>MOQs exist so factories can distribute fixed setup costs across sufficient unit volume, ensuring commercial viability for the manufacturer while keeping per-unit pricing reasonable for the fashion brand.</p>
-            <p>Low-MOQ specialized supply chains restructure operations to absorb setup costs efficiently — through modular sewing lines, organized stock fabric libraries, and optimized multi-style batch scheduling.</p>
+            <p>Low-MOQ specialized supply chains restructure operations to absorb setup costs efficiently - through modular sewing lines, organized stock fabric libraries, and optimized multi-style batch scheduling.</p>
           </div>
         </div>
       </section>

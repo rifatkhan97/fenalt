@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2 } from "lucide-react";
 export const metadata: Metadata = {
   title: "Clothing Manufacturer vs Garment Sourcing Agent: What's the Difference?",
   description:
-    "Understand the difference between working directly with a clothing manufacturer and using a garment sourcing agent — and when each makes more sense for your brand.",
+    "Understand the difference between working directly with a clothing manufacturer and using a garment sourcing agent - and when each makes more sense for your brand.",
   alternates: {
     canonical: "https://fenalt.com/learn/clothing-manufacturer-vs-sourcing-agent",
   },
   openGraph: {
     title: "Clothing Manufacturer vs Garment Sourcing Agent: What's the Difference?",
     description:
-      "Understand the difference between working directly with a clothing manufacturer and using a garment sourcing agent — and when each makes more sense for your brand.",
+      "Understand the difference between working directly with a clothing manufacturer and using a garment sourcing agent - and when each makes more sense for your brand.",
     url: "https://fenalt.com/learn/clothing-manufacturer-vs-sourcing-agent",
   },
 };
@@ -46,7 +46,7 @@ export default function ManufacturerVsSourcingAgentPage() {
   const comparison = [
     {
       aspect: "Who They Are",
-      manufacturer: "A factory or factory network that physically produces garments — cutting, sewing, and finishing.",
+      manufacturer: "A factory or factory network that physically produces garments - cutting, sewing, and finishing.",
       agent: "An intermediary who connects brands with suitable factories and manages the production relationship on the brand's behalf.",
     },
     {
@@ -56,18 +56,18 @@ export default function ManufacturerVsSourcingAgentPage() {
     },
     {
       aspect: "Communication",
-      manufacturer: "You communicate directly with factory staff — often across language and time-zone barriers without local representation.",
+      manufacturer: "You communicate directly with factory staff - often across language and time-zone barriers without local representation.",
       agent: "The agent acts as your local representative, handling day-to-day communications in the manufacturing country.",
     },
     {
       aspect: "Minimum Orders",
-      manufacturer: "Factories set their own MOQs — often higher for direct relationships, especially for new brands without a track record.",
+      manufacturer: "Factories set their own MOQs - often higher for direct relationships, especially for new brands without a track record.",
       agent: "A well-connected agent may access lower-MOQ factories or negotiate better terms by aggregating orders or leveraging existing relationships.",
     },
     {
       aspect: "Quality Control",
       manufacturer: "Varies widely by factory. QC systems may or may not be robust, and brands have limited visibility into production floor conditions.",
-      agent: "A good agent provides on-the-ground QC oversight — inspecting samples and production floors — on the brand's behalf.",
+      agent: "A good agent provides on-the-ground QC oversight - inspecting samples and production floors - on the brand's behalf.",
     },
     {
       aspect: "Cost",
@@ -77,11 +77,11 @@ export default function ManufacturerVsSourcingAgentPage() {
     {
       aspect: "Risk",
       manufacturer: "Higher risk for brands new to overseas production. Factory problems become the brand's problem directly, without an intermediary to escalate through.",
-      agent: "A reputable agent absorbs much of the operational risk-management function — at the cost of the service fee.",
+      agent: "A reputable agent absorbs much of the operational risk-management function - at the cost of the service fee.",
     },
     {
       aspect: "Transparency",
-      manufacturer: "Full visibility into the factory relationship, pricing, and operations — no intermediary layer.",
+      manufacturer: "Full visibility into the factory relationship, pricing, and operations - no intermediary layer.",
       agent: "Varies. Some agents provide full factory transparency; others act as brokers and obscure factory relationships. Always clarify the agent's disclosure policy.",
     },
     {
@@ -94,7 +94,7 @@ export default function ManufacturerVsSourcingAgentPage() {
   const faqs = [
     {
       q: "Is Fenalt a manufacturer or a sourcing agent?",
-      a: "Fenalt operates as an on-the-ground operational liaison in Dhaka, Bangladesh — closer in function to a production management partner than a factory directly. Fenalt coordinates manufacturing with audited independent partner micro-factories and provides full production oversight, sampling, quality control, and logistics coordination. This model offers brands the local expertise of a sourcing agent with the technical depth of a production management partner.",
+      a: "Fenalt operates as an on-the-ground operational liaison in Dhaka, Bangladesh - closer in function to a production management partner than a factory directly. Fenalt coordinates manufacturing with audited independent partner micro-factories and provides full production oversight, sampling, quality control, and logistics coordination. This model offers brands the local expertise of a sourcing agent with the technical depth of a production management partner.",
     },
     {
       q: "Can I work directly with a factory without an agent?",
@@ -102,11 +102,11 @@ export default function ManufacturerVsSourcingAgentPage() {
     },
     {
       q: "What should I look for in a sourcing agent?",
-      a: "Physical presence in the manufacturing country — not remote brokering from a different country. Documented quality control processes with examples. A clear fee structure disclosed upfront. References or portfolio from comparable brands in your product category. Transparent factory access — they should be willing to disclose which factories they work with rather than maintaining exclusivity over supplier relationships.",
+      a: "Physical presence in the manufacturing country - not remote brokering from a different country. Documented quality control processes with examples. A clear fee structure disclosed upfront. References or portfolio from comparable brands in your product category. Transparent factory access - they should be willing to disclose which factories they work with rather than maintaining exclusivity over supplier relationships.",
     },
     {
       q: "What does a garment sourcing agent typically charge?",
-      a: "Sourcing agent fees vary by model. Commission-based agents typically charge 5 to 15% of FOB order value. Flat-fee or retainer-based agents charge a monthly or per-project management fee regardless of order value. Some agents also mark up factory pricing and take margin on the difference. Always clarify the exact fee structure — and whether the agent's fees are disclosed separately from unit cost or embedded in pricing.",
+      a: "Sourcing agent fees vary by model. Commission-based agents typically charge 5 to 15% of FOB order value. Flat-fee or retainer-based agents charge a monthly or per-project management fee regardless of order value. Some agents also mark up factory pricing and take margin on the difference. Always clarify the exact fee structure - and whether the agent's fees are disclosed separately from unit cost or embedded in pricing.",
     },
     {
       q: "What is the risk of using an unverified sourcing agent?",
@@ -148,7 +148,7 @@ export default function ManufacturerVsSourcingAgentPage() {
             <span className="italic font-medium text-[#2D5016]">What&apos;s the Difference?</span>
           </h1>
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
-            Two very different relationships — and choosing the wrong one for your brand&apos;s stage of development can cost significant time and money. This guide explains both options and when each makes sense.
+            Two very different relationships - and choosing the wrong one for your brand&apos;s stage of development can cost significant time and money. This guide explains both options and when each makes sense.
           </p>
           <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>
@@ -273,7 +273,7 @@ export default function ManufacturerVsSourcingAgentPage() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
           <h2 className="font-display text-3xl lg:text-5xl font-light text-[#1A1A1A] mb-4">Work with Fenalt&apos;s Dhaka team</h2>
           <p className="text-[#6B6560] leading-relaxed text-base mb-10 max-w-xl mx-auto">
-            Fenalt provides on-the-ground production management in Bangladesh — combining factory access, sampling, QC oversight, and export coordination.
+            Fenalt provides on-the-ground production management in Bangladesh - combining factory access, sampling, QC oversight, and export coordination.
           </p>
           <Link href="/intake" className="inline-flex items-center justify-center gap-2 px-10 py-4 bg-[#1A1A1A] text-[#FAF9F6] text-sm font-semibold tracking-wide hover:bg-[#2D5016] transition-colors duration-300">
             Submit Your Project <ArrowRight size={16} />

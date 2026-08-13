@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, Truck } from "lucide-react";
 export const metadata: Metadata = {
   title: "What Happens After Clothing Is Manufactured Overseas?",
   description:
-    "Explore post-production clothing logistics — polybagging, FRI inspection sign-off, container stuffing, ocean vs air freight, customs clearance, and 3PL warehouse intake.",
+    "Explore post-production clothing logistics - polybagging, FRI inspection sign-off, container stuffing, ocean vs air freight, customs clearance, and 3PL warehouse intake.",
   alternates: {
     canonical: "https://fenalt.com/learn/what-happens-after-clothing-manufactured-overseas",
   },
   openGraph: {
     title: "What Happens After Clothing Is Manufactured Overseas?",
     description:
-      "Explore post-production clothing logistics — polybagging, FRI inspection sign-off, container stuffing, ocean vs air freight, customs clearance, and 3PL warehouse intake.",
+      "Explore post-production clothing logistics - polybagging, FRI inspection sign-off, container stuffing, ocean vs air freight, customs clearance, and 3PL warehouse intake.",
     url: "https://fenalt.com/learn/what-happens-after-clothing-manufactured-overseas",
   },
 };
@@ -97,7 +97,7 @@ export default function WhatHappensAfterClothingManufacturedOverseasPage() {
     },
     {
       q: "How does Fenalt manage post-production logistics from Bangladesh?",
-      a: "Fenalt manages the entire post-production pipeline in Dhaka — conducting FRI audits, booking ocean/air freight, managing export customs clearance, and organizing DDP delivery to your 3PL warehouse.",
+      a: "Fenalt manages the entire post-production pipeline in Dhaka - conducting FRI audits, booking ocean/air freight, managing export customs clearance, and organizing DDP delivery to your 3PL warehouse.",
     },
   ];
 
@@ -134,7 +134,7 @@ export default function WhatHappensAfterClothingManufacturedOverseasPage() {
             <span className="italic font-medium text-[#2D5016]">Is Manufactured Overseas?</span>
           </h1>
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
-            A comprehensive guide to post-production clothing logistics — polybagging, FRI inspection sign-off, container stuffing, ocean vs air freight, customs clearance, and 3PL warehouse intake.
+            A comprehensive guide to post-production clothing logistics - polybagging, FRI inspection sign-off, container stuffing, ocean vs air freight, customs clearance, and 3PL warehouse intake.
           </p>
           <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>
@@ -149,7 +149,7 @@ export default function WhatHappensAfterClothingManufacturedOverseasPage() {
               <span className="text-xs font-semibold uppercase tracking-[0.25em] text-[#C8A882]">Post-Production Pipeline</span>
             </div>
             <p className="font-display text-2xl lg:text-3xl font-light text-[#1A1A1A] leading-relaxed">
-              Manufacturing completion is only halfway — <strong className="font-medium">post-production logistics deliver garments safely to retail shelves</strong>.
+              Manufacturing completion is only halfway - <strong className="font-medium">post-production logistics deliver garments safely to retail shelves</strong>.
             </p>
           </div>
           <p className="text-base text-[#6B6560] leading-relaxed">

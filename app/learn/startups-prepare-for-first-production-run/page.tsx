@@ -104,7 +104,7 @@ export default function StartupsPrepareForFirstProductionRunPage() {
     },
     {
       q: "Can Fenalt help with a brand's first production run?",
-      a: "Yes. Fenalt specialises in supporting independent brands, emerging designers, and startups through their first production projects in Bangladesh — including tech pack review, sampling, production oversight, QC, and export coordination. Brands can submit a project brief directly through the intake form.",
+      a: "Yes. Fenalt specialises in supporting independent brands, emerging designers, and startups through their first production projects in Bangladesh - including tech pack review, sampling, production oversight, QC, and export coordination. Brands can submit a project brief directly through the intake form.",
     },
     {
       q: "Do I need a full tech pack before contacting a manufacturer?",
@@ -120,7 +120,7 @@ export default function StartupsPrepareForFirstProductionRunPage() {
     },
     {
       q: "What is the biggest mistake first-time brands make in production?",
-      a: "Committing to bulk production before approving a pre-production sample. This is the single most avoidable cause of bulk order defects. The PP sample approval is the contractual quality gate that defines the standard for the entire run. Brands who feel time pressure and approve a PP sample with known unresolved issues — or worse, begin bulk cutting before a PP sample is made — are accepting full financial responsibility for whatever defects result.",
+      a: "Committing to bulk production before approving a pre-production sample. This is the single most avoidable cause of bulk order defects. The PP sample approval is the contractual quality gate that defines the standard for the entire run. Brands who feel time pressure and approve a PP sample with known unresolved issues - or worse, begin bulk cutting before a PP sample is made - are accepting full financial responsibility for whatever defects result.",
     },
   ];
 

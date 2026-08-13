@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, Globe2 } from "lucide-react";
 export const metadata: Metadata = {
   title: "How Apparel Manufacturing in Bangladesh Works",
   description:
-    "An insider's guide to Bangladesh's garment industry — understanding vertical mill integration, Dhaka infrastructure, Chittagong port logistics, duty-free trade benefits, and low MOQs.",
+    "An insider's guide to Bangladesh's garment industry - understanding vertical mill integration, Dhaka infrastructure, Chittagong port logistics, duty-free trade benefits, and low MOQs.",
   alternates: {
     canonical: "https://fenalt.com/learn/how-apparel-manufacturing-in-bangladesh-works",
   },
   openGraph: {
     title: "How Apparel Manufacturing in Bangladesh Works",
     description:
-      "An insider's guide to Bangladesh's garment industry — understanding vertical mill integration, Dhaka infrastructure, Chittagong port logistics, duty-free trade benefits, and low MOQs.",
+      "An insider's guide to Bangladesh's garment industry - understanding vertical mill integration, Dhaka infrastructure, Chittagong port logistics, duty-free trade benefits, and low MOQs.",
     url: "https://fenalt.com/learn/how-apparel-manufacturing-in-bangladesh-works",
   },
 };
@@ -43,7 +43,7 @@ export default function HowApparelManufacturingInBangladeshWorksPage() {
   const pillars = [
     {
       title: "1. Vertical Cotton Knitting & Dyeing Infrastructure",
-      desc: "Dhaka features world-class composite mills where raw cotton yarn is circular knitted, lab-dip dyed, and bio-washed under one roof — ensuring fast fabric turnaround and strict GSM weight control.",
+      desc: "Dhaka features world-class composite mills where raw cotton yarn is circular knitted, lab-dip dyed, and bio-washed under one roof - ensuring fast fabric turnaround and strict GSM weight control.",
     },
     {
       title: "2. Highly Skilled Specialized Cut-and-Sew Workforce",
@@ -63,7 +63,7 @@ export default function HowApparelManufacturingInBangladeshWorksPage() {
     },
     {
       title: "6. Micro-Factory Networks for Startup Low MOQs",
-      desc: "Through production management partners like Fenalt, independent fashion brands access specialized micro-factories in Dhaka — unlocking trial production runs starting at 50 to 100 units.",
+      desc: "Through production management partners like Fenalt, independent fashion brands access specialized micro-factories in Dhaka - unlocking trial production runs starting at 50 to 100 units.",
     },
   ];
 
@@ -97,7 +97,7 @@ export default function HowApparelManufacturingInBangladeshWorksPage() {
     },
     {
       q: "How does Fenalt coordinate apparel manufacturing in Dhaka?",
-      a: "Fenalt operates as your on-the-ground technical liaison in Dhaka — managing fabric milling, sample development, inline Traffic Light QC, AQL 2.5 FRI audits, and export logistics.",
+      a: "Fenalt operates as your on-the-ground technical liaison in Dhaka - managing fabric milling, sample development, inline Traffic Light QC, AQL 2.5 FRI audits, and export logistics.",
     },
   ];
 
@@ -134,7 +134,7 @@ export default function HowApparelManufacturingInBangladeshWorksPage() {
             <span className="italic font-medium text-[#2D5016]">in Bangladesh Works.</span>
           </h1>
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
-            An insider&apos;s technical guide to Bangladesh&apos;s garment industry — understanding vertical mill integration, Dhaka infrastructure, Chittagong port logistics, and duty-free import benefits.
+            An insider&apos;s technical guide to Bangladesh&apos;s garment industry - understanding vertical mill integration, Dhaka infrastructure, Chittagong port logistics, and duty-free import benefits.
           </p>
           <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>

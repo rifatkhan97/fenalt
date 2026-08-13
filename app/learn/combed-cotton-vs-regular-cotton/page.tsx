@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, Award } from "lucide-react";
 export const metadata: Metadata = {
   title: "Combed Cotton vs Regular Cotton: Key Differences",
   description:
-    "Compare combed ring-spun cotton against regular carded cotton — understanding spinning processes, fiber length, soft handfeel, print surface quality, and wash durability.",
+    "Compare combed ring-spun cotton against regular carded cotton - understanding spinning processes, fiber length, soft handfeel, print surface quality, and wash durability.",
   alternates: {
     canonical: "https://fenalt.com/learn/combed-cotton-vs-regular-cotton",
   },
   openGraph: {
     title: "Combed Cotton vs Regular Cotton: Key Differences",
     description:
-      "Compare combed ring-spun cotton against regular carded cotton — understanding spinning processes, fiber length, soft handfeel, print surface quality, and wash durability.",
+      "Compare combed ring-spun cotton against regular carded cotton - understanding spinning processes, fiber length, soft handfeel, print surface quality, and wash durability.",
     url: "https://fenalt.com/learn/combed-cotton-vs-regular-cotton",
   },
 };
@@ -177,7 +177,7 @@ export default function CombedCottonVsRegularCottonPage() {
               <span className="text-xs font-semibold uppercase tracking-[0.25em] text-[#C8A882]">Fibre Quality Standard</span>
             </div>
             <p className="font-display text-2xl lg:text-3xl font-light text-[#1A1A1A] leading-relaxed">
-              <strong className="font-medium">Combed cotton</strong> removes short staple fibers and raw impurities before spinning — producing a smoother, stronger yarn that eliminates fabric pilling.
+              <strong className="font-medium">Combed cotton</strong> removes short staple fibers and raw impurities before spinning - producing a smoother, stronger yarn that eliminates fabric pilling.
             </p>
           </div>
           <p className="text-base text-[#6B6560] leading-relaxed">

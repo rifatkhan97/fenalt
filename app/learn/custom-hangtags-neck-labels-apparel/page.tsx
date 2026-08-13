@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, Tag } from "lucide-react";
 export const metadata: Metadata = {
   title: "Custom Hangtags & Neck Labels in Apparel Manufacturing",
   description:
-    "Explore brand labeling options — woven damask neck labels, tagless heat-transfer neck prints, legal care/content labels, custom hangtags, and retail barcode stickers.",
+    "Explore brand labeling options - woven damask neck labels, tagless heat-transfer neck prints, legal care/content labels, custom hangtags, and retail barcode stickers.",
   alternates: {
     canonical: "https://fenalt.com/learn/custom-hangtags-neck-labels-apparel",
   },
   openGraph: {
     title: "Custom Hangtags & Neck Labels in Apparel Manufacturing",
     description:
-      "Explore brand labeling options — woven damask neck labels, tagless heat-transfer neck prints, legal care/content labels, custom hangtags, and retail barcode stickers.",
+      "Explore brand labeling options - woven damask neck labels, tagless heat-transfer neck prints, legal care/content labels, custom hangtags, and retail barcode stickers.",
     url: "https://fenalt.com/learn/custom-hangtags-neck-labels-apparel",
   },
 };
@@ -134,7 +134,7 @@ export default function CustomHangtagsNeckLabelsApparelPage() {
             <span className="italic font-medium text-[#2D5016]">in Apparel Manufacturing.</span>
           </h1>
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
-            A guide to brand labeling — woven damask neck tags, tagless heat-transfer prints, legal care labels, heavy cardstock hangtags, and barcode compliance.
+            A guide to brand labeling - woven damask neck tags, tagless heat-transfer prints, legal care labels, heavy cardstock hangtags, and barcode compliance.
           </p>
           <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>

@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, Layers } from "lucide-react";
 export const metadata: Metadata = {
   title: "How to Choose Fabric for a Clothing Brand: Complete Guide",
   description:
-    "Learn how to select the right fabric for your apparel line — evaluating fiber content, weight (GSM), drape, stretch, shrinkage, mill MOQs, and manufacturing cost.",
+    "Learn how to select the right fabric for your apparel line - evaluating fiber content, weight (GSM), drape, stretch, shrinkage, mill MOQs, and manufacturing cost.",
   alternates: {
     canonical: "https://fenalt.com/learn/how-to-choose-fabric-for-clothing-brand",
   },
   openGraph: {
     title: "How to Choose Fabric for a Clothing Brand: Complete Guide",
     description:
-      "Learn how to select the right fabric for your apparel line — evaluating fiber content, weight (GSM), drape, stretch, shrinkage, mill MOQs, and manufacturing cost.",
+      "Learn how to select the right fabric for your apparel line - evaluating fiber content, weight (GSM), drape, stretch, shrinkage, mill MOQs, and manufacturing cost.",
     url: "https://fenalt.com/learn/how-to-choose-fabric-for-clothing-brand",
   },
 };

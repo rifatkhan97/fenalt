@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, MessageSquare } from "lucide-react"
 export const metadata: Metadata = {
   title: "How to Communicate With Overseas Apparel Suppliers",
   description:
-    "Master cross-border communication with clothing manufacturers — tech pack clarity, visual feedback PDFs, time zone management, and clear payment terms.",
+    "Master cross-border communication with clothing manufacturers - tech pack clarity, visual feedback PDFs, time zone management, and clear payment terms.",
   alternates: {
     canonical: "https://fenalt.com/learn/how-to-communicate-with-overseas-suppliers",
   },
   openGraph: {
     title: "How to Communicate With Overseas Apparel Suppliers",
     description:
-      "Master cross-border communication with clothing manufacturers — tech pack clarity, visual feedback PDFs, time zone management, and clear payment terms.",
+      "Master cross-border communication with clothing manufacturers - tech pack clarity, visual feedback PDFs, time zone management, and clear payment terms.",
     url: "https://fenalt.com/learn/how-to-communicate-with-overseas-suppliers",
   },
 };
@@ -51,7 +51,7 @@ export default function HowToCommunicateWithOverseasSuppliersPage() {
     },
     {
       title: "3. Confirm Written Understanding of Critical Path Milestones",
-      desc: "Always request written email confirmation of key deadline dates — including lab-dip submission, sample dispatch, bulk fabric cutting start, and final FRI inspection.",
+      desc: "Always request written email confirmation of key deadline dates - including lab-dip submission, sample dispatch, bulk fabric cutting start, and final FRI inspection.",
     },
     {
       title: "4. Designate a Single Brand Point-of-Contact",
@@ -96,7 +96,7 @@ export default function HowToCommunicateWithOverseasSuppliersPage() {
     },
     {
       q: "How does Fenalt streamline communication between brands and Dhaka factories?",
-      a: "Fenalt acts as your bilingual technical team in Dhaka — managing daily factory floor updates, translating brand design notes into technical spec sheets, and providing structured photo inspection reports.",
+      a: "Fenalt acts as your bilingual technical team in Dhaka - managing daily factory floor updates, translating brand design notes into technical spec sheets, and providing structured photo inspection reports.",
     },
   ];
 
@@ -133,7 +133,7 @@ export default function HowToCommunicateWithOverseasSuppliersPage() {
             <span className="italic font-medium text-[#2D5016]">Overseas Apparel Suppliers.</span>
           </h1>
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
-            Master cross-border communication with clothing manufacturers — tech pack clarity, visual feedback PDFs, time zone management, and clear payment terms.
+            Master cross-border communication with clothing manufacturers - tech pack clarity, visual feedback PDFs, time zone management, and clear payment terms.
           </p>
           <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>
@@ -245,7 +245,7 @@ export default function HowToCommunicateWithOverseasSuppliersPage() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
           <h2 className="font-display text-3xl lg:text-5xl font-light text-[#1A1A1A] mb-4">Bridge the communication gap</h2>
           <p className="text-[#6B6560] leading-relaxed text-base mb-10 max-w-xl mx-auto">
-            Fenalt acts as your local technical office in Dhaka — translating tech packs, managing sample revisions, and providing daily updates.
+            Fenalt acts as your local technical office in Dhaka - translating tech packs, managing sample revisions, and providing daily updates.
           </p>
           <Link href="/intake" className="inline-flex items-center justify-center gap-2 px-10 py-4 bg-[#1A1A1A] text-[#FAF9F6] text-sm font-semibold tracking-wide hover:bg-[#2D5016] transition-colors duration-300">
             Submit Your Project <ArrowRight size={16} />

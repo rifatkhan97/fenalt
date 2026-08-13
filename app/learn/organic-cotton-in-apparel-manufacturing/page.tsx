@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, Leaf } from "lucide-react";
 export const metadata: Metadata = {
   title: "Organic Cotton in Apparel Manufacturing: What Brands Should Know",
   description:
-    "A guide to organic cotton in clothing manufacturing — certification standards (GOTS, OCS), water reduction, fabric sourcing, transaction certificates, and realistic mill MOQs.",
+    "A guide to organic cotton in clothing manufacturing - certification standards (GOTS, OCS), water reduction, fabric sourcing, transaction certificates, and realistic mill MOQs.",
   alternates: {
     canonical: "https://fenalt.com/learn/organic-cotton-in-apparel-manufacturing",
   },
   openGraph: {
     title: "Organic Cotton in Apparel Manufacturing: What Brands Should Know",
     description:
-      "A guide to organic cotton in clothing manufacturing — certification standards (GOTS, OCS), water reduction, fabric sourcing, transaction certificates, and realistic mill MOQs.",
+      "A guide to organic cotton in clothing manufacturing - certification standards (GOTS, OCS), water reduction, fabric sourcing, transaction certificates, and realistic mill MOQs.",
     url: "https://fenalt.com/learn/organic-cotton-in-apparel-manufacturing",
   },
 };
@@ -43,7 +43,7 @@ export default function OrganicCottonInApparelManufacturingPage() {
   const pillars = [
     {
       title: "1. Zero Synthetic Pesticides & Non-GMO Seeds",
-      desc: "Organic cotton is grown using natural non-genetically modified (non-GMO) seeds, without synthetic pesticides, toxic insecticides, or synthetic nitrogen fertilizers — protecting farm soil health and groundwater quality.",
+      desc: "Organic cotton is grown using natural non-genetically modified (non-GMO) seeds, without synthetic pesticides, toxic insecticides, or synthetic nitrogen fertilizers - protecting farm soil health and groundwater quality.",
     },
     {
       title: "2. Independent Certification (GOTS & OCS)",
@@ -95,7 +95,7 @@ export default function OrganicCottonInApparelManufacturingPage() {
     },
     {
       q: "Can brands market garments as 'GOTS Certified' if only the fabric is certified?",
-      a: "To use the official GOTS logo on finished retail garments, the entire manufacturing chain — including the garment sewing factory and printing facility — must hold independent GOTS facility certification. If only the fabric mill is certified, brands state 'made with GOTS-certified organic cotton fabric'.",
+      a: "To use the official GOTS logo on finished retail garments, the entire manufacturing chain - including the garment sewing factory and printing facility - must hold independent GOTS facility certification. If only the fabric mill is certified, brands state 'made with GOTS-certified organic cotton fabric'.",
     },
     {
       q: "Is organic cotton available for low MOQ production runs?",
@@ -140,7 +140,7 @@ export default function OrganicCottonInApparelManufacturingPage() {
             <span className="italic font-medium text-[#2D5016]">in Apparel Manufacturing.</span>
           </h1>
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
-            A brand guide to organic cotton fiber sourcing — understanding GOTS and OCS certification standards, chain-of-custody documentation, and manufacturing cost realities.
+            A brand guide to organic cotton fiber sourcing - understanding GOTS and OCS certification standards, chain-of-custody documentation, and manufacturing cost realities.
           </p>
           <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>

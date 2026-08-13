@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, DollarSign } from "lucide-react";
 export const metadata: Metadata = {
   title: "What Should Be Included in an Apparel Manufacturing Quote?",
   description:
-    "Learn how to review garment manufacturing FOB quotes — itemized fabric yields, cut-and-sew labor, printing surcharges, packaging, Incoterms shipping terms, and payment milestones.",
+    "Learn how to review garment manufacturing FOB quotes - itemized fabric yields, cut-and-sew labor, printing surcharges, packaging, Incoterms shipping terms, and payment milestones.",
   alternates: {
     canonical: "https://fenalt.com/learn/what-should-be-in-an-apparel-manufacturing-quote",
   },
   openGraph: {
     title: "What Should Be Included in an Apparel Manufacturing Quote?",
     description:
-      "Learn how to review garment manufacturing FOB quotes — itemized fabric yields, cut-and-sew labor, printing surcharges, packaging, Incoterms shipping terms, and payment milestones.",
+      "Learn how to review garment manufacturing FOB quotes - itemized fabric yields, cut-and-sew labor, printing surcharges, packaging, Incoterms shipping terms, and payment milestones.",
     url: "https://fenalt.com/learn/what-should-be-in-an-apparel-manufacturing-quote",
   },
 };
@@ -97,7 +97,7 @@ export default function WhatShouldBeInAnApparelManufacturingQuotePage() {
     },
     {
       q: "How does Fenalt structure apparel quotes for client brands in Bangladesh?",
-      a: "Fenalt provides transparent, itemized FOB price quotations in Dhaka — breaking down fabric yields, CMT labor, trims, screen printing, and AQL 2.5 inspection milestones with no hidden surcharges.",
+      a: "Fenalt provides transparent, itemized FOB price quotations in Dhaka - breaking down fabric yields, CMT labor, trims, screen printing, and AQL 2.5 inspection milestones with no hidden surcharges.",
     },
   ];
 
@@ -134,7 +134,7 @@ export default function WhatShouldBeInAnApparelManufacturingQuotePage() {
             <span className="italic font-medium text-[#2D5016]">Apparel Manufacturing Quote?</span>
           </h1>
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
-            A technical guide to reviewing garment FOB quotes — auditing fabric yields, CMT labor, decoration surcharges, packaging, Incoterms, and payment milestones.
+            A technical guide to reviewing garment FOB quotes - auditing fabric yields, CMT labor, decoration surcharges, packaging, Incoterms, and payment milestones.
           </p>
           <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>
@@ -153,7 +153,7 @@ export default function WhatShouldBeInAnApparelManufacturingQuotePage() {
             </p>
           </div>
           <p className="text-base text-[#6B6560] leading-relaxed">
-            Evaluating factory pricing requires looking beyond the bottom-line unit cost. A comprehensive manufacturer quote transparently itemizes primary fabric consumption, trims, decoration setups, cut-make-trim labor, export packaging, and Incoterms shipping conditions — empowering brand founders to make informed financial decisions.
+            Evaluating factory pricing requires looking beyond the bottom-line unit cost. A comprehensive manufacturer quote transparently itemizes primary fabric consumption, trims, decoration setups, cut-make-trim labor, export packaging, and Incoterms shipping conditions - empowering brand founders to make informed financial decisions.
           </p>
         </div>
       </section>

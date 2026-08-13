@@ -22,7 +22,7 @@ export default function WhatIsAqlPage() {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: "What Is AQL in Apparel Quality Control?",
-    description: "AQL methodology explained for fashion brands — what AQL 2.5 means, how inspection sampling works, and why it matters for bulk production.",
+    description: "AQL methodology explained for fashion brands - what AQL 2.5 means, how inspection sampling works, and why it matters for bulk production.",
     author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
     publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
     url: "https://fenalt.com/learn/what-is-aql-in-apparel-quality-control",
@@ -39,15 +39,15 @@ export default function WhatIsAqlPage() {
   };
 
   const aqlLevels = [
-    { level: "AQL 1.0", description: "Very tight — maximum 1 defect per 100 units. Used for luxury, medical, or high-precision technical garments.", use: "High-end luxury, safety-critical garments" },
+    { level: "AQL 1.0", description: "Very tight - maximum 1 defect per 100 units. Used for luxury, medical, or high-precision technical garments.", use: "High-end luxury, safety-critical garments" },
     { level: "AQL 2.5", description: "Global industry standard for retail fashion and apparel. Balances quality rigor with practical production realities.", use: "Standard fashion, premium streetwear, branded apparel" },
     { level: "AQL 4.0", description: "More lenient. Used for lower-price-point promotional items, budget accessories, or non-critical workwear categories.", use: "Value retail, accessories, promotional items" },
   ];
 
   const defectTypes = [
-    { type: "Critical Defect", description: "Renders the garment unsellable, hazardous, or illegal — e.g. a needle tip fragment left inside, sharp wire edge, missing care law label. Zero critical defects are tolerated in any shipment.", badge: "Zero Tolerance (0 Allowed)" },
-    { type: "Major Defect", description: "Significantly affects garment function, fit, or retail appearance — e.g. wrong size label, open seam hole, broken zipper, off-spec measurement beyond tolerance. Governed strictly by AQL 2.5.", badge: "AQL 2.5 Governs (Max 7 per 125)" },
-    { type: "Minor Defect", description: "Slight cosmetic deviation that does not affect wearability, structural integrity, or fit — e.g. slightly uneven topstitching, loose thread end longer than 1cm. Governed by AQL 4.0.", badge: "AQL 4.0 Governs (Max 10 per 125)" },
+    { type: "Critical Defect", description: "Renders the garment unsellable, hazardous, or illegal - e.g. a needle tip fragment left inside, sharp wire edge, missing care law label. Zero critical defects are tolerated in any shipment.", badge: "Zero Tolerance (0 Allowed)" },
+    { type: "Major Defect", description: "Significantly affects garment function, fit, or retail appearance - e.g. wrong size label, open seam hole, broken zipper, off-spec measurement beyond tolerance. Governed strictly by AQL 2.5.", badge: "AQL 2.5 Governs (Max 7 per 125)" },
+    { type: "Minor Defect", description: "Slight cosmetic deviation that does not affect wearability, structural integrity, or fit - e.g. slightly uneven topstitching, loose thread end longer than 1cm. Governed by AQL 4.0.", badge: "AQL 4.0 Governs (Max 10 per 125)" },
   ];
 
   const faqs = [
@@ -108,7 +108,7 @@ export default function WhatIsAqlPage() {
             <span className="italic font-medium text-[#2D5016]">Quality Control?</span>
           </h1>
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
-            AQL — Acceptable Quality Limit — is the statistical inspection standard used across the global garment industry. Learn what AQL 2.5 means and how it protects your brand.
+            AQL - Acceptable Quality Limit - is the statistical inspection standard used across the global garment industry. Learn what AQL 2.5 means and how it protects your brand.
           </p>
           <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>
@@ -125,7 +125,7 @@ export default function WhatIsAqlPage() {
             <p className="font-display text-2xl lg:text-3xl font-light leading-relaxed">
               AQL (Acceptable Quality Limit) is a statistical threshold defining the maximum percentage of defective units in a production lot that is considered acceptable. It determines how many units are inspected and how many defects trigger rejection of the full lot.
             </p>
-            <p className="mt-4 text-sm text-[#9B948E]">Standard reference: ANSI/ASQ Z1.4 — Sampling Procedures and Tables for Inspection by Attributes.</p>
+            <p className="mt-4 text-sm text-[#9B948E]">Standard reference: ANSI/ASQ Z1.4 - Sampling Procedures and Tables for Inspection by Attributes.</p>
           </div>
         </div>
       </section>
@@ -136,7 +136,7 @@ export default function WhatIsAqlPage() {
           <p className="text-xs font-semibold uppercase tracking-[0.25em] text-[#C8A882] mb-4">How It Works</p>
           <h2 className="font-display text-3xl lg:text-5xl font-light text-[#FAF9F6] mb-8">Statistical Sampling, Not 100% Inspection</h2>
           <div className="space-y-5 text-base text-[#E5DDD3] leading-relaxed">
-            <p>Rather than inspecting every single garment — which would be impractical for bulk orders — AQL uses statistical sampling. The inspector selects a random sample of garments from packed export cartons, inspects them against tech pack specs, and compares the number of defects found against the AQL acceptance table.</p>
+            <p>Rather than inspecting every single garment - which would be impractical for bulk orders - AQL uses statistical sampling. The inspector selects a random sample of garments from packed export cartons, inspects them against tech pack specs, and compares the number of defects found against the AQL acceptance table.</p>
             <p>If the number of defects found in the sample exceeds the acceptance threshold for the chosen AQL level, the entire lot is rejected for 100% factory re-screening. If defects remain within acceptable limits, the lot passes for export.</p>
             <p>The sample size and acceptance number are determined by total order quantity and inspection level, as defined in ANSI/ASQ Z1.4 tables.</p>
           </div>

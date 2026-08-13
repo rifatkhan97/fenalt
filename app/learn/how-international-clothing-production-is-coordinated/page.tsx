@@ -5,14 +5,14 @@ import { ArrowRight, BookOpen, CheckCircle2, Network } from "lucide-react";
 export const metadata: Metadata = {
   title: "How International Clothing Production Is Coordinated",
   description:
-    "Discover how global supply chain teams orchestrate overseas garment manufacturing — tech pack handoffs, lab-dip approvals, inline inspections, FRI audits, and freight booking.",
+    "Discover how global supply chain teams orchestrate overseas garment manufacturing - tech pack handoffs, lab-dip approvals, inline inspections, FRI audits, and freight booking.",
   alternates: {
     canonical: "https://fenalt.com/learn/how-international-clothing-production-is-coordinated",
   },
   openGraph: {
     title: "How International Clothing Production Is Coordinated",
     description:
-      "Discover how global supply chain teams orchestrate overseas garment manufacturing — tech pack handoffs, lab-dip approvals, inline inspections, FRI audits, and freight booking.",
+      "Discover how global supply chain teams orchestrate overseas garment manufacturing - tech pack handoffs, lab-dip approvals, inline inspections, FRI audits, and freight booking.",
     url: "https://fenalt.com/learn/how-international-clothing-production-is-coordinated",
   },
 };
@@ -78,11 +78,11 @@ export default function HowInternationalClothingProductionIsCoordinatedPage() {
   const faqs = [
     {
       q: "What role does a factory merchandiser play in international clothing coordination?",
-      a: "The factory merchandiser serves as the central operational bridge — coordinating raw yarn purchasing with textile mills, managing print house schedules, tracking sample revisions, and issuing shipping documentation.",
+      a: "The factory merchandiser serves as the central operational bridge - coordinating raw yarn purchasing with textile mills, managing print house schedules, tracking sample revisions, and issuing shipping documentation.",
     },
     {
       q: "How long does global supply chain coordination take from tech pack to delivery?",
-      a: "Total turnaround for custom international apparel production ranges from 60 to 90 days — including 2 weeks for sampling, 4 to 5 weeks for bulk manufacturing, and 4 weeks for ocean freight transit.",
+      a: "Total turnaround for custom international apparel production ranges from 60 to 90 days - including 2 weeks for sampling, 4 to 5 weeks for bulk manufacturing, and 4 weeks for ocean freight transit.",
     },
     {
       q: "What digital tools are used to coordinate overseas apparel production?",
@@ -90,7 +90,7 @@ export default function HowInternationalClothingProductionIsCoordinatedPage() {
     },
     {
       q: "How do brands prevent communication errors across time zones?",
-      a: "By using standardized technical documentation — including ISO 4915 stitch numbers, 4-digit Pantone TCX color codes, flat POM measurement diagrams, and working with an on-the-ground liaison in Dhaka.",
+      a: "By using standardized technical documentation - including ISO 4915 stitch numbers, 4-digit Pantone TCX color codes, flat POM measurement diagrams, and working with an on-the-ground liaison in Dhaka.",
     },
     {
       q: "What is a Critical Path Schedule in garment production?",
@@ -98,7 +98,7 @@ export default function HowInternationalClothingProductionIsCoordinatedPage() {
     },
     {
       q: "How does Fenalt coordinate international apparel production in Dhaka?",
-      a: "Fenalt provides end-to-end supply chain management in Bangladesh — operating as your local technical office to direct fabric mills, oversee sewing lines, enforce AQL 2.5 QC, and manage export logistics.",
+      a: "Fenalt provides end-to-end supply chain management in Bangladesh - operating as your local technical office to direct fabric mills, oversee sewing lines, enforce AQL 2.5 QC, and manage export logistics.",
     },
   ];
 
@@ -135,7 +135,7 @@ export default function HowInternationalClothingProductionIsCoordinatedPage() {
             <span className="italic font-medium text-[#2D5016]">Is Coordinated.</span>
           </h1>
           <p className="text-lg lg:text-xl text-[#6B6560] leading-relaxed max-w-2xl">
-            Discover how global supply chain teams orchestrate overseas garment manufacturing — tech pack handoffs, lab-dip approvals, inline inspections, FRI audits, and freight booking.
+            Discover how global supply chain teams orchestrate overseas garment manufacturing - tech pack handoffs, lab-dip approvals, inline inspections, FRI audits, and freight booking.
           </p>
           <p className="mt-4 text-xs text-[#9B948E] uppercase tracking-widest">General industry knowledge • Reviewed by Fenalt editorial team</p>
         </div>
