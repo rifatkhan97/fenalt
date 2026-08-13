@@ -5,8 +5,9 @@ export default function robots(): MetadataRoute.Robots {
     rules: {
       userAgent: "*",
       allow: "/",
-      disallow: ["/api/"],
+      disallow: ["/api/", "/_next/"],
     },
     sitemap: "https://fenalt.com/sitemap.xml",
+    host: "https://fenalt.com",
   };
 }
