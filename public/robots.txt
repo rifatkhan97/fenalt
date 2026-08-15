@@ -1,7 +1,6 @@
-User-agent: *
+User-Agent: *
 Allow: /
 Disallow: /api/
 Disallow: /_next/
 
 Sitemap: https://fenalt.com/sitemap.xml
-Host: https://fenalt.com
