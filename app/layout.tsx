@@ -19,7 +19,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://fenalt.com"),
+  // 1. Updated metadataBase to include www.
+  metadataBase: new URL("https://www.fenalt.com"),
   title: {
     default: "Fenalt | Sustainable Low-MOQ Apparel Manufacturing (Fully Managed)",
     template: "%s | Fenalt",
@@ -60,7 +61,8 @@ export const metadata: Metadata = {
     title: "Fenalt - Sustainable B2B Apparel Manufacturing Platform",
     description:
       "Connect with ethical micro-factories. Launch clothing collections with low MOQs, circular fabrics, and fully managed quality control.",
-    url: "https://fenalt.com",
+    // 2. Updated OpenGraph URL to include www.
+    url: "https://www.fenalt.com",
     siteName: "Fenalt",
     locale: "en_US",
     type: "website",
@@ -92,8 +94,9 @@ export default function RootLayout({
     "@type": "Organization",
     "name": "Fenalt",
     "description": "Sustainable B2B apparel manufacturing platform connecting fashion brands with ethical micro-factories.",
-    "url": "https://fenalt.com",
-    "logo": "https://fenalt.com/logo.png",
+    // 3. Updated Schema organization URLs to include www.
+    "url": "https://www.fenalt.com",
+    "logo": "https://www.fenalt.com/logo.png",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Dhaka Housing Main Road, Holding - 4, Level - 9",
@@ -119,7 +122,8 @@ export default function RootLayout({
     "@context": "https://schema.org",
     "@type": "WebSite",
     "name": "Fenalt",
-    "url": "https://fenalt.com"
+    // 4. Updated Schema website URL to include www.
+    "url": "https://www.fenalt.com"
   };
 
   return (
