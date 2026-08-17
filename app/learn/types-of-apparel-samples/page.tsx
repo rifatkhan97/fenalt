@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "A complete guide to the 7 garment sample types - Proto, Fit, Size Set, Salesperson (SMS), Pre-Production (PP), Top of Production (TOP), and Shipping samples - and when each is required in the production cycle.",
   alternates: {
-    canonical: "https://fenalt.com/learn/types-of-apparel-samples",
+    canonical: "https://www.fenalt.com/learn/types-of-apparel-samples",
   },
   openGraph: {
     title: "The Different Types of Apparel Samples Explained",
     description:
       "A complete guide to the 7 garment sample types - Proto, Fit, Size Set, Salesperson (SMS), Pre-Production (PP), Top of Production (TOP), and Shipping samples - and when each is required in the production cycle.",
-    url: "https://fenalt.com/learn/types-of-apparel-samples",
+    url: "https://www.fenalt.com/learn/types-of-apparel-samples",
   },
 };
 
@@ -24,19 +24,19 @@ export default function TypesOfApparelSamplesPage() {
     headline: "The Different Types of Apparel Samples Explained",
     description:
       "A technical guide detailing every sample stage in garment manufacturing, from initial proto sample to Top of Production (TOP).",
-    author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    url: "https://fenalt.com/learn/types-of-apparel-samples",
-    mainEntityOfPage: "https://fenalt.com/learn/types-of-apparel-samples",
+    author: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    publisher: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    url: "https://www.fenalt.com/learn/types-of-apparel-samples",
+    mainEntityOfPage: "https://www.fenalt.com/learn/types-of-apparel-samples",
   };
 
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://fenalt.com/resources" },
-      { "@type": "ListItem", position: 3, name: "Types of Apparel Samples", item: "https://fenalt.com/learn/types-of-apparel-samples" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.fenalt.com/resources" },
+      { "@type": "ListItem", position: 3, name: "Types of Apparel Samples", item: "https://www.fenalt.com/learn/types-of-apparel-samples" },
     ],
   };
 

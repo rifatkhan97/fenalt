@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "MOQ stands for minimum order quantity. Learn what low MOQ means in garment production, why it matters for small brands, and how it affects cost, sampling, and production.",
   alternates: {
-    canonical: "https://fenalt.com/learn/what-does-low-moq-mean",
+    canonical: "https://www.fenalt.com/learn/what-does-low-moq-mean",
   },
   openGraph: {
     title: "What Does Low MOQ Mean in Clothing Manufacturing?",
     description:
       "MOQ stands for minimum order quantity. Learn what low MOQ means in garment production, why it matters for small brands, and how it affects cost, sampling, and production.",
-    url: "https://fenalt.com/learn/what-does-low-moq-mean",
+    url: "https://www.fenalt.com/learn/what-does-low-moq-mean",
   },
 };
 
@@ -23,18 +23,18 @@ export default function WhatDoesLowMoqMeanPage() {
     "@type": "Article",
     headline: "What Does Low MOQ Mean in Clothing Manufacturing?",
     description: "MOQ (minimum order quantity) explained - what it means, why factories set MOQs, and what low MOQ means for small fashion brands.",
-    author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    url: "https://fenalt.com/learn/what-does-low-moq-mean",
+    author: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    publisher: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    url: "https://www.fenalt.com/learn/what-does-low-moq-mean",
   };
 
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://fenalt.com/resources" },
-      { "@type": "ListItem", position: 3, name: "What Does Low MOQ Mean", item: "https://fenalt.com/learn/what-does-low-moq-mean" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.fenalt.com/resources" },
+      { "@type": "ListItem", position: 3, name: "What Does Low MOQ Mean", item: "https://www.fenalt.com/learn/what-does-low-moq-mean" },
     ],
   };
 

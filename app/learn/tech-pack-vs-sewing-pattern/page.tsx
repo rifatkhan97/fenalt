@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Understand the core differences between a tech pack (blueprint specification document) and a sewing pattern (physical or CAD cutting template) in garment manufacturing.",
   alternates: {
-    canonical: "https://fenalt.com/learn/tech-pack-vs-sewing-pattern",
+    canonical: "https://www.fenalt.com/learn/tech-pack-vs-sewing-pattern",
   },
   openGraph: {
     title: "Tech Pack vs Sewing Pattern: What's the Difference?",
     description:
       "Understand the core differences between a tech pack (blueprint specification document) and a sewing pattern (physical or CAD cutting template) in garment manufacturing.",
-    url: "https://fenalt.com/learn/tech-pack-vs-sewing-pattern",
+    url: "https://www.fenalt.com/learn/tech-pack-vs-sewing-pattern",
   },
 };
 
@@ -24,19 +24,19 @@ export default function TechPackVsSewingPatternPage() {
     headline: "Tech Pack vs Sewing Pattern: What's the Difference?",
     description:
       "A technical comparison defining the distinct roles of tech packs and sewing patterns in clothing manufacturing.",
-    author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    url: "https://fenalt.com/learn/tech-pack-vs-sewing-pattern",
-    mainEntityOfPage: "https://fenalt.com/learn/tech-pack-vs-sewing-pattern",
+    author: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    publisher: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    url: "https://www.fenalt.com/learn/tech-pack-vs-sewing-pattern",
+    mainEntityOfPage: "https://www.fenalt.com/learn/tech-pack-vs-sewing-pattern",
   };
 
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://fenalt.com/resources" },
-      { "@type": "ListItem", position: 3, name: "Tech Pack vs Sewing Pattern", item: "https://fenalt.com/learn/tech-pack-vs-sewing-pattern" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.fenalt.com/resources" },
+      { "@type": "ListItem", position: 3, name: "Tech Pack vs Sewing Pattern", item: "https://www.fenalt.com/learn/tech-pack-vs-sewing-pattern" },
     ],
   };
 

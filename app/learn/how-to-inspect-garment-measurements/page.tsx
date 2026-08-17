@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "A practical guide for brand QC managers on measuring flat garments - checking chest width, HPS length, shoulder slope, sleeve inseams, and leg openings against tech pack spec sheets.",
   alternates: {
-    canonical: "https://fenalt.com/learn/how-to-inspect-garment-measurements",
+    canonical: "https://www.fenalt.com/learn/how-to-inspect-garment-measurements",
   },
   openGraph: {
     title: "How to Inspect Garment Measurements: Practical Guide",
     description:
       "A practical guide for brand QC managers on measuring flat garments - checking chest width, HPS length, shoulder slope, sleeve inseams, and leg openings against tech pack spec sheets.",
-    url: "https://fenalt.com/learn/how-to-inspect-garment-measurements",
+    url: "https://www.fenalt.com/learn/how-to-inspect-garment-measurements",
   },
 };
 
@@ -24,19 +24,19 @@ export default function HowToInspectGarmentMeasurementsPage() {
     headline: "How to Inspect Garment Measurements: Practical Guide",
     description:
       "A step-by-step measurement inspection guide for auditing garment sample and bulk production dimensions.",
-    author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    url: "https://fenalt.com/learn/how-to-inspect-garment-measurements",
-    mainEntityOfPage: "https://fenalt.com/learn/how-to-inspect-garment-measurements",
+    author: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    publisher: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    url: "https://www.fenalt.com/learn/how-to-inspect-garment-measurements",
+    mainEntityOfPage: "https://www.fenalt.com/learn/how-to-inspect-garment-measurements",
   };
 
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://fenalt.com/resources" },
-      { "@type": "ListItem", position: 3, name: "Inspect Garment Measurements", item: "https://fenalt.com/learn/how-to-inspect-garment-measurements" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.fenalt.com/resources" },
+      { "@type": "ListItem", position: 3, name: "Inspect Garment Measurements", item: "https://www.fenalt.com/learn/how-to-inspect-garment-measurements" },
     ],
   };
 

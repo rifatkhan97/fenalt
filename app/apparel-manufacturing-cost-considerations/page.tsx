@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Comprehensive guide breaking down garment manufacturing costs. Evaluate FOB vs DDP pricing, fabric GSM impacts, sampling fees, and low MOQ unit economics.",
   alternates: {
-    canonical: "https://fenalt.com/apparel-manufacturing-cost-considerations",
+    canonical: "https://www.fenalt.com/apparel-manufacturing-cost-considerations",
   },
   openGraph: {
     title: "Apparel Manufacturing Cost Considerations | Fenalt Guide",
     description:
       "Comprehensive guide breaking down garment manufacturing costs. Evaluate FOB vs DDP pricing, fabric GSM impacts, sampling fees, and low MOQ unit economics.",
-    url: "https://fenalt.com/apparel-manufacturing-cost-considerations",
+    url: "https://www.fenalt.com/apparel-manufacturing-cost-considerations",
   },
 };
 
@@ -27,12 +27,12 @@ export default function CostConsiderationsPage() {
     "author": {
       "@type": "Organization",
       "name": "Fenalt",
-      "url": "https://fenalt.com",
+      "url": "https://www.fenalt.com",
     },
     "publisher": {
       "@type": "Organization",
       "name": "Fenalt",
-      "url": "https://fenalt.com",
+      "url": "https://www.fenalt.com",
     },
   };
 
@@ -44,13 +44,13 @@ export default function CostConsiderationsPage() {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://fenalt.com",
+        "item": "https://www.fenalt.com",
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Apparel Manufacturing Cost Considerations",
-        "item": "https://fenalt.com/apparel-manufacturing-cost-considerations",
+        "item": "https://www.fenalt.com/apparel-manufacturing-cost-considerations",
       },
     ],
   };

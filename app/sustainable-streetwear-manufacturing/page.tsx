@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Eco-conscious streetwear manufacturing in Dhaka, Bangladesh. Reclaim heavy circular deadstock fleece ('Jhoot'), organic cotton, and low MOQs from 50 units.",
   alternates: {
-    canonical: "https://fenalt.com/sustainable-streetwear-manufacturing",
+    canonical: "https://www.fenalt.com/sustainable-streetwear-manufacturing",
   },
   openGraph: {
     title: "Sustainable Streetwear Manufacturing | Fenalt",
     description:
       "Eco-conscious streetwear manufacturing in Dhaka, Bangladesh. Reclaim heavy circular deadstock fleece ('Jhoot'), organic cotton, and low MOQs from 50 units.",
-    url: "https://fenalt.com/sustainable-streetwear-manufacturing",
+    url: "https://www.fenalt.com/sustainable-streetwear-manufacturing",
   },
 };
 
@@ -25,7 +25,7 @@ export default function SustainableStreetwearManufacturingPage() {
     "provider": {
       "@type": "Organization",
       "name": "Fenalt",
-      "url": "https://fenalt.com",
+      "url": "https://www.fenalt.com",
     },
     "serviceType": "Sustainable Streetwear Apparel Manufacturing, Circular Deadstock Sourcing, Eco-Friendly Streetwear Drops",
     "areaServed": ["United States", "United Kingdom", "European Union", "Australia", "Canada"],
@@ -41,13 +41,13 @@ export default function SustainableStreetwearManufacturingPage() {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://fenalt.com",
+        "item": "https://www.fenalt.com",
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Sustainable Streetwear Manufacturing",
-        "item": "https://fenalt.com/sustainable-streetwear-manufacturing",
+        "item": "https://www.fenalt.com/sustainable-streetwear-manufacturing",
       },
     ],
   };

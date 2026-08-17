@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Analyze how fabric composition, GSM weight, mill MOQs, yield consumption, marker efficiency, and custom dyeing choices impact total garment FOB pricing.",
   alternates: {
-    canonical: "https://fenalt.com/learn/fabric-choice-and-manufacturing-cost",
+    canonical: "https://www.fenalt.com/learn/fabric-choice-and-manufacturing-cost",
   },
   openGraph: {
     title: "How Fabric Choice Affects Apparel Manufacturing Cost",
     description:
       "Analyze how fabric composition, GSM weight, mill MOQs, yield consumption, marker efficiency, and custom dyeing choices impact total garment FOB pricing.",
-    url: "https://fenalt.com/learn/fabric-choice-and-manufacturing-cost",
+    url: "https://www.fenalt.com/learn/fabric-choice-and-manufacturing-cost",
   },
 };
 
@@ -24,19 +24,19 @@ export default function FabricChoiceAndManufacturingCostPage() {
     headline: "How Fabric Choice Affects Apparel Manufacturing Cost",
     description:
       "A financial and technical breakdown of fabric costs in clothing manufacturing, yield consumption math, and raw material pricing drivers.",
-    author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    url: "https://fenalt.com/learn/fabric-choice-and-manufacturing-cost",
-    mainEntityOfPage: "https://fenalt.com/learn/fabric-choice-and-manufacturing-cost",
+    author: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    publisher: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    url: "https://www.fenalt.com/learn/fabric-choice-and-manufacturing-cost",
+    mainEntityOfPage: "https://www.fenalt.com/learn/fabric-choice-and-manufacturing-cost",
   };
 
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://fenalt.com/resources" },
-      { "@type": "ListItem", position: 3, name: "Fabric Choice and Cost", item: "https://fenalt.com/learn/fabric-choice-and-manufacturing-cost" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.fenalt.com/resources" },
+      { "@type": "ListItem", position: 3, name: "Fabric Choice and Cost", item: "https://www.fenalt.com/learn/fabric-choice-and-manufacturing-cost" },
     ],
   };
 

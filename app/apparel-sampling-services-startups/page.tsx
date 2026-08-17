@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Professional garment sampling and prototype development for startup fashion brands. Physical fit samples in 10–14 days with tech pack pattern development.",
   alternates: {
-    canonical: "https://fenalt.com/apparel-sampling-services-startups",
+    canonical: "https://www.fenalt.com/apparel-sampling-services-startups",
   },
   openGraph: {
     title: "Apparel Sampling Services for Startups | Fenalt",
     description:
       "Professional garment sampling and prototype development for startup fashion brands. Physical fit samples in 10–14 days with tech pack pattern development.",
-    url: "https://fenalt.com/apparel-sampling-services-startups",
+    url: "https://www.fenalt.com/apparel-sampling-services-startups",
   },
 };
 
@@ -25,7 +25,7 @@ export default function StartupSamplingPage() {
     "provider": {
       "@type": "Organization",
       "name": "Fenalt",
-      "url": "https://fenalt.com",
+      "url": "https://www.fenalt.com",
     },
     "serviceType": "Apparel Prototype Development, Garment Sampling, Fit Approval for Fashion Startups",
     "areaServed": ["United States", "United Kingdom", "European Union", "Australia", "Canada"],
@@ -41,13 +41,13 @@ export default function StartupSamplingPage() {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://fenalt.com",
+        "item": "https://www.fenalt.com",
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Apparel Sampling Services for Startups",
-        "item": "https://fenalt.com/apparel-sampling-services-startups",
+        "item": "https://www.fenalt.com/apparel-sampling-services-startups",
       },
     ],
   };

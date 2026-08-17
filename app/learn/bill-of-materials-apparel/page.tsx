@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Learn what an apparel Bill of Materials (BOM) is in garment manufacturing - including fabric specs, trims, threads, labels, hardware, and yield calculations.",
   alternates: {
-    canonical: "https://fenalt.com/learn/bill-of-materials-apparel",
+    canonical: "https://www.fenalt.com/learn/bill-of-materials-apparel",
   },
   openGraph: {
     title: "What Is a Bill of Materials (BOM) in Apparel Production?",
     description:
       "Learn what an apparel Bill of Materials (BOM) is in garment manufacturing - including fabric specs, trims, threads, labels, hardware, and yield calculations.",
-    url: "https://fenalt.com/learn/bill-of-materials-apparel",
+    url: "https://www.fenalt.com/learn/bill-of-materials-apparel",
   },
 };
 
@@ -24,19 +24,19 @@ export default function BillOfMaterialsApparelPage() {
     headline: "What Is a Bill of Materials (BOM) in Apparel Production?",
     description:
       "A technical guide to the Bill of Materials (BOM) in apparel tech packs, costings, and inventory procurement.",
-    author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    url: "https://fenalt.com/learn/bill-of-materials-apparel",
-    mainEntityOfPage: "https://fenalt.com/learn/bill-of-materials-apparel",
+    author: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    publisher: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    url: "https://www.fenalt.com/learn/bill-of-materials-apparel",
+    mainEntityOfPage: "https://www.fenalt.com/learn/bill-of-materials-apparel",
   };
 
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://fenalt.com/resources" },
-      { "@type": "ListItem", position: 3, name: "Bill of Materials Apparel", item: "https://fenalt.com/learn/bill-of-materials-apparel" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.fenalt.com/resources" },
+      { "@type": "ListItem", position: 3, name: "Bill of Materials Apparel", item: "https://www.fenalt.com/learn/bill-of-materials-apparel" },
     ],
   };
 

@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Specialized low MOQ clothing manufacturing specifically tailored for fashion boutiques. Order small batch apparel drops starting at 50 units with complete private labeling.",
   alternates: {
-    canonical: "https://fenalt.com/low-moq-clothing-manufacturer-for-boutiques",
+    canonical: "https://www.fenalt.com/low-moq-clothing-manufacturer-for-boutiques",
   },
   openGraph: {
     title: "Low MOQ Clothing Manufacturer for Boutiques | Fenalt",
     description:
       "Specialized low MOQ clothing manufacturing specifically tailored for fashion boutiques. Order small batch apparel drops starting at 50 units with complete private labeling.",
-    url: "https://fenalt.com/low-moq-clothing-manufacturer-for-boutiques",
+    url: "https://www.fenalt.com/low-moq-clothing-manufacturer-for-boutiques",
   },
 };
 
@@ -25,7 +25,7 @@ export default function LowMOQBoutiquesPage() {
     "provider": {
       "@type": "Organization",
       "name": "Fenalt",
-      "url": "https://fenalt.com",
+      "url": "https://www.fenalt.com",
     },
     "serviceType": "Boutique Low MOQ Apparel Manufacturing, Small Batch Retail Sourcing, Private Label Boutique Drops",
     "areaServed": ["United States", "United Kingdom", "European Union", "Australia", "Canada"],
@@ -41,13 +41,13 @@ export default function LowMOQBoutiquesPage() {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://fenalt.com",
+        "item": "https://www.fenalt.com",
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Low MOQ Clothing Manufacturer for Boutiques",
-        "item": "https://fenalt.com/low-moq-clothing-manufacturer-for-boutiques",
+        "item": "https://www.fenalt.com/low-moq-clothing-manufacturer-for-boutiques",
       },
     ],
   };

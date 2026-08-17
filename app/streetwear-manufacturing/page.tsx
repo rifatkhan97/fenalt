@@ -7,18 +7,18 @@ export const metadata: Metadata = {
   description:
     "Specialized B2B streetwear manufacturing for independent brands. Produce heavyweight hoodies, oversized tees, and custom fleece with low MOQs and managed quality control.",
   alternates: {
-    canonical: "https://fenalt.com/streetwear-manufacturing",
+    canonical: "https://www.fenalt.com/streetwear-manufacturing",
     languages: {
-      "en": "https://fenalt.com/streetwear-manufacturing",
-      "de": "https://fenalt.com/de/streetwear-hersteller",
-      "x-default": "https://fenalt.com/streetwear-manufacturing",
+      "en": "https://www.fenalt.com/streetwear-manufacturing",
+      "de": "https://www.fenalt.com/de/streetwear-hersteller",
+      "x-default": "https://www.fenalt.com/streetwear-manufacturing",
     },
   },
   openGraph: {
     title: "Custom Streetwear Apparel Manufacturing | Fenalt",
     description:
       "Specialized B2B streetwear manufacturing for independent brands. Produce heavyweight hoodies, oversized tees, and custom fleece with low MOQs and managed quality control.",
-    url: "https://fenalt.com/streetwear-manufacturing",
+    url: "https://www.fenalt.com/streetwear-manufacturing",
   },
 };
 
@@ -30,7 +30,7 @@ export default function StreetwearManufacturingPage() {
     "provider": {
       "@type": "Organization",
       "name": "Fenalt",
-      "url": "https://fenalt.com",
+      "url": "https://www.fenalt.com",
     },
     "serviceType": "Streetwear Manufacturing, Heavyweight Hoodie Production, Oversized T-Shirt Sourcing",
     "areaServed": ["United States", "United Kingdom", "European Union", "Australia", "Canada"],
@@ -46,13 +46,13 @@ export default function StreetwearManufacturingPage() {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://fenalt.com",
+        "item": "https://www.fenalt.com",
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Streetwear Manufacturing",
-        "item": "https://fenalt.com/streetwear-manufacturing",
+        "item": "https://www.fenalt.com/streetwear-manufacturing",
       },
     ],
   };

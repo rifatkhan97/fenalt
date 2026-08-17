@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "A comprehensive guide to manufacturing luxury streetwear collections - oversized patterns, 240+ GSM t-shirts, 450+ GSM fleece, puff printing, and wash distress.",
   alternates: {
-    canonical: "https://fenalt.com/learn/streetwear-manufacturing-guide",
+    canonical: "https://www.fenalt.com/learn/streetwear-manufacturing-guide",
   },
   openGraph: {
     title: "Streetwear Manufacturing Guide: Boxy Fits, Heavy Knits & Prints",
     description:
       "A comprehensive guide to manufacturing luxury streetwear collections - oversized patterns, 240+ GSM t-shirts, 450+ GSM fleece, puff printing, and wash distress.",
-    url: "https://fenalt.com/learn/streetwear-manufacturing-guide",
+    url: "https://www.fenalt.com/learn/streetwear-manufacturing-guide",
   },
 };
 
@@ -24,19 +24,19 @@ export default function StreetwearManufacturingGuidePage() {
     headline: "Streetwear Manufacturing Guide: Boxy Fits, Heavy Knits & Prints",
     description:
       "A strategic manufacturing guide for independent streetwear brands - covering oversized pattern cuts, heavy cotton knits, puff screen prints, and vintage washes.",
-    author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    url: "https://fenalt.com/learn/streetwear-manufacturing-guide",
-    mainEntityOfPage: "https://fenalt.com/learn/streetwear-manufacturing-guide",
+    author: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    publisher: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    url: "https://www.fenalt.com/learn/streetwear-manufacturing-guide",
+    mainEntityOfPage: "https://www.fenalt.com/learn/streetwear-manufacturing-guide",
   };
 
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://fenalt.com/resources" },
-      { "@type": "ListItem", position: 3, name: "Streetwear Manufacturing Guide", item: "https://fenalt.com/learn/streetwear-manufacturing-guide" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.fenalt.com/resources" },
+      { "@type": "ListItem", position: 3, name: "Streetwear Manufacturing Guide", item: "https://www.fenalt.com/learn/streetwear-manufacturing-guide" },
     ],
   };
 

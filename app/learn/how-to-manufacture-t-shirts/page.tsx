@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "A step-by-step manufacturing guide for custom t-shirts - fabric GSM selection (180–300 GSM), pattern fits, collar ribbing construction, screen printing, and line sewing.",
   alternates: {
-    canonical: "https://fenalt.com/learn/how-to-manufacture-t-shirts",
+    canonical: "https://www.fenalt.com/learn/how-to-manufacture-t-shirts",
   },
   openGraph: {
     title: "How to Manufacture T-Shirts: Complete Production Guide",
     description:
       "A step-by-step manufacturing guide for custom t-shirts - fabric GSM selection (180–300 GSM), pattern fits, collar ribbing construction, screen printing, and line sewing.",
-    url: "https://fenalt.com/learn/how-to-manufacture-t-shirts",
+    url: "https://www.fenalt.com/learn/how-to-manufacture-t-shirts",
   },
 };
 
@@ -24,19 +24,19 @@ export default function HowToManufactureTShirtsPage() {
     headline: "How to Manufacture T-Shirts: Complete Production Guide",
     description:
       "A complete technical guide on custom t-shirt production - fabric sourcing, pattern drafting, collar rib attachment, printing, and quality control.",
-    author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    url: "https://fenalt.com/learn/how-to-manufacture-t-shirts",
-    mainEntityOfPage: "https://fenalt.com/learn/how-to-manufacture-t-shirts",
+    author: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    publisher: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    url: "https://www.fenalt.com/learn/how-to-manufacture-t-shirts",
+    mainEntityOfPage: "https://www.fenalt.com/learn/how-to-manufacture-t-shirts",
   };
 
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://fenalt.com/resources" },
-      { "@type": "ListItem", position: 3, name: "How to Manufacture T-Shirts", item: "https://fenalt.com/learn/how-to-manufacture-t-shirts" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.fenalt.com/resources" },
+      { "@type": "ListItem", position: 3, name: "How to Manufacture T-Shirts", item: "https://www.fenalt.com/learn/how-to-manufacture-t-shirts" },
     ],
   };
 

@@ -6,11 +6,11 @@ export const metadata: Metadata = {
   title: "What Makes a High-Quality Streetwear Garment?",
   description:
     "A practical guide to the construction, fabric, and finishing characteristics that distinguish a high-quality streetwear garment from an average one.",
-  alternates: { canonical: "https://fenalt.com/learn/what-makes-high-quality-streetwear" },
+  alternates: { canonical: "https://www.fenalt.com/learn/what-makes-high-quality-streetwear" },
   openGraph: {
     title: "What Makes a High-Quality Streetwear Garment?",
     description: "A practical guide to the construction, fabric, and finishing characteristics that distinguish a high-quality streetwear garment from an average one.",
-    url: "https://fenalt.com/learn/what-makes-high-quality-streetwear",
+    url: "https://www.fenalt.com/learn/what-makes-high-quality-streetwear",
   },
 };
 
@@ -20,18 +20,18 @@ export default function WhatMakesHighQualityStreetwearPage() {
     "@type": "Article",
     headline: "What Makes a High-Quality Streetwear Garment?",
     description: "Fabric, construction, and finishing standards that define premium streetwear quality.",
-    author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    url: "https://fenalt.com/learn/what-makes-high-quality-streetwear",
+    author: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    publisher: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    url: "https://www.fenalt.com/learn/what-makes-high-quality-streetwear",
   };
 
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://fenalt.com/resources" },
-      { "@type": "ListItem", position: 3, name: "What Makes High Quality Streetwear", item: "https://fenalt.com/learn/what-makes-high-quality-streetwear" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.fenalt.com/resources" },
+      { "@type": "ListItem", position: 3, name: "What Makes High Quality Streetwear", item: "https://www.fenalt.com/learn/what-makes-high-quality-streetwear" },
     ],
   };
 

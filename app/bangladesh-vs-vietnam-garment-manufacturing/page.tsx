@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Analytical comparison of Bangladesh vs Vietnam apparel manufacturing. Compare cotton knits vs outerwear specialization, labor costs, MOQs, and lead times.",
   alternates: {
-    canonical: "https://fenalt.com/bangladesh-vs-vietnam-garment-manufacturing",
+    canonical: "https://www.fenalt.com/bangladesh-vs-vietnam-garment-manufacturing",
   },
   openGraph: {
     title: "Bangladesh vs Vietnam Garment Manufacturing | Fenalt Guide",
     description:
       "Analytical comparison of Bangladesh vs Vietnam apparel manufacturing. Compare cotton knits vs outerwear specialization, labor costs, MOQs, and lead times.",
-    url: "https://fenalt.com/bangladesh-vs-vietnam-garment-manufacturing",
+    url: "https://www.fenalt.com/bangladesh-vs-vietnam-garment-manufacturing",
   },
 };
 
@@ -27,12 +27,12 @@ export default function BangladeshVsVietnamPage() {
     "author": {
       "@type": "Organization",
       "name": "Fenalt",
-      "url": "https://fenalt.com",
+      "url": "https://www.fenalt.com",
     },
     "publisher": {
       "@type": "Organization",
       "name": "Fenalt",
-      "url": "https://fenalt.com",
+      "url": "https://www.fenalt.com",
     },
   };
 
@@ -44,13 +44,13 @@ export default function BangladeshVsVietnamPage() {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://fenalt.com",
+        "item": "https://www.fenalt.com",
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Bangladesh vs Vietnam Garment Manufacturing",
-        "item": "https://fenalt.com/bangladesh-vs-vietnam-garment-manufacturing",
+        "item": "https://www.fenalt.com/bangladesh-vs-vietnam-garment-manufacturing",
       },
     ],
   };

@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Explore In-Line Quality Control (IPQC) during garment assembly - Traffic Light Systems, roving inspectors, critical station checkpoints, and real-time defect prevention.",
   alternates: {
-    canonical: "https://fenalt.com/learn/in-line-quality-control-garment-manufacturing",
+    canonical: "https://www.fenalt.com/learn/in-line-quality-control-garment-manufacturing",
   },
   openGraph: {
     title: "In-Line Quality Control in Garment Manufacturing",
     description:
       "Explore In-Line Quality Control (IPQC) during garment assembly - Traffic Light Systems, roving inspectors, critical station checkpoints, and real-time defect prevention.",
-    url: "https://fenalt.com/learn/in-line-quality-control-garment-manufacturing",
+    url: "https://www.fenalt.com/learn/in-line-quality-control-garment-manufacturing",
   },
 };
 
@@ -24,19 +24,19 @@ export default function InLineQualityControlGarmentManufacturingPage() {
     headline: "In-Line Quality Control in Garment Manufacturing",
     description:
       "A technical operational guide to In-Process Quality Control (IPQC) and real-time sewing line defect management.",
-    author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    url: "https://fenalt.com/learn/in-line-quality-control-garment-manufacturing",
-    mainEntityOfPage: "https://fenalt.com/learn/in-line-quality-control-garment-manufacturing",
+    author: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    publisher: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    url: "https://www.fenalt.com/learn/in-line-quality-control-garment-manufacturing",
+    mainEntityOfPage: "https://www.fenalt.com/learn/in-line-quality-control-garment-manufacturing",
   };
 
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://fenalt.com/resources" },
-      { "@type": "ListItem", position: 3, name: "In-Line Quality Control", item: "https://fenalt.com/learn/in-line-quality-control-garment-manufacturing" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.fenalt.com/resources" },
+      { "@type": "ListItem", position: 3, name: "In-Line Quality Control", item: "https://www.fenalt.com/learn/in-line-quality-control-garment-manufacturing" },
     ],
   };
 

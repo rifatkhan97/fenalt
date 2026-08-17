@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Informational guide explaining Bangladesh apparel Rules of Origin, GSP preferential tariffs, DCTS regulations, and Certificate of Origin compliance.",
   alternates: {
-    canonical: "https://fenalt.com/bangladesh-garment-rules-of-origin",
+    canonical: "https://www.fenalt.com/bangladesh-garment-rules-of-origin",
   },
   openGraph: {
     title: "Bangladesh Garment Rules of Origin Guide | Fenalt",
     description:
       "Informational guide explaining Bangladesh apparel Rules of Origin, GSP preferential tariffs, DCTS regulations, and Certificate of Origin compliance.",
-    url: "https://fenalt.com/bangladesh-garment-rules-of-origin",
+    url: "https://www.fenalt.com/bangladesh-garment-rules-of-origin",
   },
 };
 
@@ -27,12 +27,12 @@ export default function RulesOfOriginPage() {
     "author": {
       "@type": "Organization",
       "name": "Fenalt",
-      "url": "https://fenalt.com",
+      "url": "https://www.fenalt.com",
     },
     "publisher": {
       "@type": "Organization",
       "name": "Fenalt",
-      "url": "https://fenalt.com",
+      "url": "https://www.fenalt.com",
     },
   };
 
@@ -44,13 +44,13 @@ export default function RulesOfOriginPage() {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://fenalt.com",
+        "item": "https://www.fenalt.com",
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Bangladesh Garment Rules of Origin",
-        "item": "https://fenalt.com/bangladesh-garment-rules-of-origin",
+        "item": "https://www.fenalt.com/bangladesh-garment-rules-of-origin",
       },
     ],
   };

@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Learn how many sampling rounds (typically 2 to 4) a clothing brand should expect before bulk manufacturing - and the specific factors that increase or reduce revision cycles.",
   alternates: {
-    canonical: "https://fenalt.com/learn/how-many-samples-before-production",
+    canonical: "https://www.fenalt.com/learn/how-many-samples-before-production",
   },
   openGraph: {
     title: "How Many Samples Should a Fashion Brand Expect Before Production?",
     description:
       "Learn how many sampling rounds (typically 2 to 4) a clothing brand should expect before bulk manufacturing - and the specific factors that increase or reduce revision cycles.",
-    url: "https://fenalt.com/learn/how-many-samples-before-production",
+    url: "https://www.fenalt.com/learn/how-many-samples-before-production",
   },
 };
 
@@ -24,19 +24,19 @@ export default function HowManySamplesBeforeProductionPage() {
     headline: "How Many Samples Should a Fashion Brand Expect Before Production?",
     description:
       "A realistic breakdown of sampling rounds, iteration expectations, and sample costs for clothing brands.",
-    author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    url: "https://fenalt.com/learn/how-many-samples-before-production",
-    mainEntityOfPage: "https://fenalt.com/learn/how-many-samples-before-production",
+    author: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    publisher: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    url: "https://www.fenalt.com/learn/how-many-samples-before-production",
+    mainEntityOfPage: "https://www.fenalt.com/learn/how-many-samples-before-production",
   };
 
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://fenalt.com/resources" },
-      { "@type": "ListItem", position: 3, name: "How Many Samples Before Production", item: "https://fenalt.com/learn/how-many-samples-before-production" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.fenalt.com/resources" },
+      { "@type": "ListItem", position: 3, name: "How Many Samples Before Production", item: "https://www.fenalt.com/learn/how-many-samples-before-production" },
     ],
   };
 

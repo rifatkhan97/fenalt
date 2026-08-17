@@ -7,18 +7,18 @@ export const metadata: Metadata = {
   description:
     "Spezialisierter Streetwear Hersteller für Modemarken im DACH-Raum. Produktion von Heavyweight Hoodies, Oversized T-Shirts & Fleece ab 50 Stück mit Vor-Ort QC.",
   alternates: {
-    canonical: "https://fenalt.com/de/streetwear-hersteller",
+    canonical: "https://www.fenalt.com/de/streetwear-hersteller",
     languages: {
-      "de": "https://fenalt.com/de/streetwear-hersteller",
-      "en": "https://fenalt.com/streetwear-manufacturing",
-      "x-default": "https://fenalt.com/streetwear-manufacturing",
+      "de": "https://www.fenalt.com/de/streetwear-hersteller",
+      "en": "https://www.fenalt.com/streetwear-manufacturing",
+      "x-default": "https://www.fenalt.com/streetwear-manufacturing",
     },
   },
   openGraph: {
     title: "Streetwear Hersteller für Heavyweight Kollektionen | Fenalt",
     description:
       "Spezialisierter Streetwear Hersteller für Modemarken im DACH-Raum. Produktion von Heavyweight Hoodies, Oversized T-Shirts & Fleece ab 50 Stück mit Vor-Ort QC.",
-    url: "https://fenalt.com/de/streetwear-hersteller",
+    url: "https://www.fenalt.com/de/streetwear-hersteller",
   },
 };
 
@@ -30,7 +30,7 @@ export default function GermanStreetwearHerstellerPage() {
     "provider": {
       "@type": "Organization",
       "name": "Fenalt",
-      "url": "https://fenalt.com",
+      "url": "https://www.fenalt.com",
     },
     "serviceType": "Streetwear Hersteller, Heavyweight Hoodie Produktion, Oversized T-Shirt Hersteller",
     "areaServed": ["Germany", "Austria", "Switzerland"],
@@ -46,13 +46,13 @@ export default function GermanStreetwearHerstellerPage() {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://fenalt.com",
+        "item": "https://www.fenalt.com",
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Streetwear Hersteller",
-        "item": "https://fenalt.com/de/streetwear-hersteller",
+        "item": "https://www.fenalt.com/de/streetwear-hersteller",
       },
     ],
   };

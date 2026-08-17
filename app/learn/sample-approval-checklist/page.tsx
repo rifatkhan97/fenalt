@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "A systematic sample evaluation checklist covering measurement verification, seam construction, fabric handfeel, wash testing, artwork accuracy, and pre-production sign-off.",
   alternates: {
-    canonical: "https://fenalt.com/learn/sample-approval-checklist",
+    canonical: "https://www.fenalt.com/learn/sample-approval-checklist",
   },
   openGraph: {
     title: "Sample Approval Checklist for Fashion Brands",
     description:
       "A systematic sample evaluation checklist covering measurement verification, seam construction, fabric handfeel, wash testing, artwork accuracy, and pre-production sign-off.",
-    url: "https://fenalt.com/learn/sample-approval-checklist",
+    url: "https://www.fenalt.com/learn/sample-approval-checklist",
   },
 };
 
@@ -24,19 +24,19 @@ export default function SampleApprovalChecklistPage() {
     headline: "Sample Approval Checklist for Fashion Brands",
     description:
       "An exhaustive sample inspection checklist for evaluating prototype and pre-production garments before authorizing bulk cutting.",
-    author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    url: "https://fenalt.com/learn/sample-approval-checklist",
-    mainEntityOfPage: "https://fenalt.com/learn/sample-approval-checklist",
+    author: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    publisher: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    url: "https://www.fenalt.com/learn/sample-approval-checklist",
+    mainEntityOfPage: "https://www.fenalt.com/learn/sample-approval-checklist",
   };
 
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://fenalt.com/resources" },
-      { "@type": "ListItem", position: 3, name: "Sample Approval Checklist", item: "https://fenalt.com/learn/sample-approval-checklist" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.fenalt.com/resources" },
+      { "@type": "ListItem", position: 3, name: "Sample Approval Checklist", item: "https://www.fenalt.com/learn/sample-approval-checklist" },
     ],
   };
 

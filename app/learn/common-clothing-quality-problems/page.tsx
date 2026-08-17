@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Troubleshoot garment manufacturing defects - puckered seams, shade variation, fabric pilling, skipped stitches, print cracking, and crooked side seam spirality.",
   alternates: {
-    canonical: "https://fenalt.com/learn/common-clothing-quality-problems",
+    canonical: "https://www.fenalt.com/learn/common-clothing-quality-problems",
   },
   openGraph: {
     title: "Common Clothing Quality Problems and Their Causes",
     description:
       "Troubleshoot garment manufacturing defects - puckered seams, shade variation, fabric pilling, skipped stitches, print cracking, and crooked side seam spirality.",
-    url: "https://fenalt.com/learn/common-clothing-quality-problems",
+    url: "https://www.fenalt.com/learn/common-clothing-quality-problems",
   },
 };
 
@@ -24,19 +24,19 @@ export default function CommonClothingQualityProblemsPage() {
     headline: "Common Clothing Quality Problems and Their Causes",
     description:
       "A technical troubleshooting guide analyzing common apparel defects, root causes, and factory preventive measures.",
-    author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    url: "https://fenalt.com/learn/common-clothing-quality-problems",
-    mainEntityOfPage: "https://fenalt.com/learn/common-clothing-quality-problems",
+    author: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    publisher: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    url: "https://www.fenalt.com/learn/common-clothing-quality-problems",
+    mainEntityOfPage: "https://www.fenalt.com/learn/common-clothing-quality-problems",
   };
 
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://fenalt.com/resources" },
-      { "@type": "ListItem", position: 3, name: "Common Clothing Quality Problems", item: "https://fenalt.com/learn/common-clothing-quality-problems" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.fenalt.com/resources" },
+      { "@type": "ListItem", position: 3, name: "Common Clothing Quality Problems", item: "https://www.fenalt.com/learn/common-clothing-quality-problems" },
     ],
   };
 

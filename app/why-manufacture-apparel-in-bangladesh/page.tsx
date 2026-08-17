@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Comprehensive guide explaining why global apparel brands manufacture in Bangladesh. Scale, vertical textile integration, cost efficiency, and low MOQ management.",
   alternates: {
-    canonical: "https://fenalt.com/why-manufacture-apparel-in-bangladesh",
+    canonical: "https://www.fenalt.com/why-manufacture-apparel-in-bangladesh",
   },
   openGraph: {
     title: "Why Manufacture Apparel in Bangladesh | Fenalt Guide",
     description:
       "Comprehensive guide explaining why global apparel brands manufacture in Bangladesh. Scale, vertical textile integration, cost efficiency, and low MOQ management.",
-    url: "https://fenalt.com/why-manufacture-apparel-in-bangladesh",
+    url: "https://www.fenalt.com/why-manufacture-apparel-in-bangladesh",
   },
 };
 
@@ -27,12 +27,12 @@ export default function WhyManufactureInBangladeshPage() {
     "author": {
       "@type": "Organization",
       "name": "Fenalt",
-      "url": "https://fenalt.com",
+      "url": "https://www.fenalt.com",
     },
     "publisher": {
       "@type": "Organization",
       "name": "Fenalt",
-      "url": "https://fenalt.com",
+      "url": "https://www.fenalt.com",
     },
   };
 
@@ -44,13 +44,13 @@ export default function WhyManufactureInBangladeshPage() {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://fenalt.com",
+        "item": "https://www.fenalt.com",
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Why Manufacture Apparel in Bangladesh",
-        "item": "https://fenalt.com/why-manufacture-apparel-in-bangladesh",
+        "item": "https://www.fenalt.com/why-manufacture-apparel-in-bangladesh",
       },
     ],
   };

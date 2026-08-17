@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Technical outerwear and jacket manufacturing in Dhaka, Bangladesh. Windbreakers, padded jackets, rainwear, and lined outerwear with managed quality control.",
   alternates: {
-    canonical: "https://fenalt.com/outerwear-manufacturing-bangladesh",
+    canonical: "https://www.fenalt.com/outerwear-manufacturing-bangladesh",
   },
   openGraph: {
     title: "Technical Outerwear Manufacturing Bangladesh | Fenalt",
     description:
       "Technical outerwear and jacket manufacturing in Dhaka, Bangladesh. Windbreakers, padded jackets, rainwear, and lined outerwear with managed quality control.",
-    url: "https://fenalt.com/outerwear-manufacturing-bangladesh",
+    url: "https://www.fenalt.com/outerwear-manufacturing-bangladesh",
   },
 };
 
@@ -25,7 +25,7 @@ export default function OuterwearManufacturingBangladeshPage() {
     "provider": {
       "@type": "Organization",
       "name": "Fenalt",
-      "url": "https://fenalt.com",
+      "url": "https://www.fenalt.com",
     },
     "serviceType": "Outerwear Jacket Production, Technical Apparel Manufacturing, Water-Resistant Garment Sourcing",
     "areaServed": ["United States", "United Kingdom", "European Union", "Australia", "Canada"],
@@ -41,13 +41,13 @@ export default function OuterwearManufacturingBangladeshPage() {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://fenalt.com",
+        "item": "https://www.fenalt.com",
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Outerwear Manufacturing Bangladesh",
-        "item": "https://fenalt.com/outerwear-manufacturing-bangladesh",
+        "item": "https://www.fenalt.com/outerwear-manufacturing-bangladesh",
       },
     ],
   };

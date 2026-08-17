@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Fenalt serves as the dedicated manufacturing partner for new fashion designers. Guide your brand from sketch to sample approval and small-batch production.",
   alternates: {
-    canonical: "https://fenalt.com/manufacturing-partner-new-designers",
+    canonical: "https://www.fenalt.com/manufacturing-partner-new-designers",
   },
   openGraph: {
     title: "Manufacturing Partner for New Designers | Fenalt",
     description:
       "Fenalt serves as the dedicated manufacturing partner for new fashion designers. Guide your brand from sketch to sample approval and small-batch production.",
-    url: "https://fenalt.com/manufacturing-partner-new-designers",
+    url: "https://www.fenalt.com/manufacturing-partner-new-designers",
   },
 };
 
@@ -25,7 +25,7 @@ export default function NewDesignersPartnerPage() {
     "provider": {
       "@type": "Organization",
       "name": "Fenalt",
-      "url": "https://fenalt.com",
+      "url": "https://www.fenalt.com",
     },
     "serviceType": "Independent Designer Sourcing, Apparel Manufacturing Partnership, Prototype Development",
     "areaServed": ["United States", "United Kingdom", "European Union", "Australia", "Canada"],
@@ -41,13 +41,13 @@ export default function NewDesignersPartnerPage() {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://fenalt.com",
+        "item": "https://www.fenalt.com",
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Manufacturing Partner for New Designers",
-        "item": "https://fenalt.com/manufacturing-partner-new-designers",
+        "item": "https://www.fenalt.com/manufacturing-partner-new-designers",
       },
     ],
   };

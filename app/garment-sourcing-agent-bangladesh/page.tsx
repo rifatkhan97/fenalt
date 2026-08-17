@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Fenalt acts as your managed garment sourcing partner in Dhaka, Bangladesh. Micro-factory matching, physical quality control, fabric sourcing, and DDP freight handling.",
   alternates: {
-    canonical: "https://fenalt.com/garment-sourcing-agent-bangladesh",
+    canonical: "https://www.fenalt.com/garment-sourcing-agent-bangladesh",
   },
   openGraph: {
     title: "Garment Sourcing Agent Bangladesh | Fenalt",
     description:
       "Fenalt acts as your managed garment sourcing partner in Dhaka, Bangladesh. Micro-factory matching, physical quality control, fabric sourcing, and DDP freight handling.",
-    url: "https://fenalt.com/garment-sourcing-agent-bangladesh",
+    url: "https://www.fenalt.com/garment-sourcing-agent-bangladesh",
   },
 };
 
@@ -25,7 +25,7 @@ export default function GarmentSourcingAgentBangladeshPage() {
     "provider": {
       "@type": "Organization",
       "name": "Fenalt",
-      "url": "https://fenalt.com",
+      "url": "https://www.fenalt.com",
     },
     "serviceType": "Bangladesh Apparel Sourcing, Garment Factory Management, Dhaka Quality Auditing",
     "areaServed": ["United States", "United Kingdom", "European Union", "Australia", "Canada"],
@@ -41,13 +41,13 @@ export default function GarmentSourcingAgentBangladeshPage() {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://fenalt.com",
+        "item": "https://www.fenalt.com",
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Garment Sourcing Agent Bangladesh",
-        "item": "https://fenalt.com/garment-sourcing-agent-bangladesh",
+        "item": "https://www.fenalt.com/garment-sourcing-agent-bangladesh",
       },
     ],
   };

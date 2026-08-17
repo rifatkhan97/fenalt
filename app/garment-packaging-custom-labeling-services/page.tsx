@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Custom clothing packaging and labeling services in Dhaka, Bangladesh. Woven neck tags, care labels, retail hangtags, eco-polybags, and barcode stickers.",
   alternates: {
-    canonical: "https://fenalt.com/garment-packaging-custom-labeling-services",
+    canonical: "https://www.fenalt.com/garment-packaging-custom-labeling-services",
   },
   openGraph: {
     title: "Garment Packaging & Custom Labeling Services | Fenalt",
     description:
       "Custom clothing packaging and labeling services in Dhaka, Bangladesh. Woven neck tags, care labels, retail hangtags, eco-polybags, and barcode stickers.",
-    url: "https://fenalt.com/garment-packaging-custom-labeling-services",
+    url: "https://www.fenalt.com/garment-packaging-custom-labeling-services",
   },
 };
 
@@ -25,7 +25,7 @@ export default function GarmentPackagingCustomLabelingServicesPage() {
     "provider": {
       "@type": "Organization",
       "name": "Fenalt",
-      "url": "https://fenalt.com",
+      "url": "https://www.fenalt.com",
     },
     "serviceType": "Apparel Packaging Services, Custom Woven Labeling, Retail Polybagging & Barcoding",
     "areaServed": ["United States", "United Kingdom", "European Union", "Australia", "Canada"],
@@ -41,13 +41,13 @@ export default function GarmentPackagingCustomLabelingServicesPage() {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://fenalt.com",
+        "item": "https://www.fenalt.com",
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Garment Packaging Custom Labeling Services",
-        "item": "https://fenalt.com/garment-packaging-custom-labeling-services",
+        "item": "https://www.fenalt.com/garment-packaging-custom-labeling-services",
       },
     ],
   };

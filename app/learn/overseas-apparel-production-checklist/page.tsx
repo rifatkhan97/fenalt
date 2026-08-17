@@ -6,11 +6,11 @@ export const metadata: Metadata = {
   title: "A Complete Checklist for Starting Overseas Apparel Production",
   description:
     "Everything a fashion brand needs to check before starting an overseas clothing production project - from tech pack handoff through sampling, QC, and customs clearance.",
-  alternates: { canonical: "https://fenalt.com/learn/overseas-apparel-production-checklist" },
+  alternates: { canonical: "https://www.fenalt.com/learn/overseas-apparel-production-checklist" },
   openGraph: {
     title: "A Complete Checklist for Starting Overseas Apparel Production",
     description: "Everything a fashion brand needs to check before starting an overseas clothing production project.",
-    url: "https://fenalt.com/learn/overseas-apparel-production-checklist",
+    url: "https://www.fenalt.com/learn/overseas-apparel-production-checklist",
   },
 };
 
@@ -20,19 +20,19 @@ export default function OverseasApparelProductionChecklistPage() {
     "@type": "Article",
     headline: "A Complete Checklist for Starting Overseas Apparel Production",
     description: "Comprehensive checklist for brands starting overseas clothing production.",
-    author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    url: "https://fenalt.com/learn/overseas-apparel-production-checklist",
-    mainEntityOfPage: "https://fenalt.com/learn/overseas-apparel-production-checklist",
+    author: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    publisher: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    url: "https://www.fenalt.com/learn/overseas-apparel-production-checklist",
+    mainEntityOfPage: "https://www.fenalt.com/learn/overseas-apparel-production-checklist",
   };
 
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://fenalt.com/resources" },
-      { "@type": "ListItem", position: 3, name: "Overseas Production Checklist", item: "https://fenalt.com/learn/overseas-apparel-production-checklist" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.fenalt.com/resources" },
+      { "@type": "ListItem", position: 3, name: "Overseas Production Checklist", item: "https://www.fenalt.com/learn/overseas-apparel-production-checklist" },
     ],
   };
 

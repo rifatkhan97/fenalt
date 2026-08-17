@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Evaluate garment manufacturers using technical scorecards - comparing FOB unit cost, MOQs, sample lead times, social compliance, and fabric sourcing depth.",
   alternates: {
-    canonical: "https://fenalt.com/learn/how-to-compare-clothing-manufacturers",
+    canonical: "https://www.fenalt.com/learn/how-to-compare-clothing-manufacturers",
   },
   openGraph: {
     title: "How to Compare Clothing Manufacturers: Decision Matrix",
     description:
       "Evaluate garment manufacturers using technical scorecards - comparing FOB unit cost, MOQs, sample lead times, social compliance, and fabric sourcing depth.",
-    url: "https://fenalt.com/learn/how-to-compare-clothing-manufacturers",
+    url: "https://www.fenalt.com/learn/how-to-compare-clothing-manufacturers",
   },
 };
 
@@ -24,19 +24,19 @@ export default function HowToCompareClothingManufacturersPage() {
     headline: "How to Compare Clothing Manufacturers: Decision Matrix",
     description:
       "A strategic decision matrix for fashion brand founders comparing prospective apparel manufacturing partners.",
-    author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    url: "https://fenalt.com/learn/how-to-compare-clothing-manufacturers",
-    mainEntityOfPage: "https://fenalt.com/learn/how-to-compare-clothing-manufacturers",
+    author: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    publisher: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    url: "https://www.fenalt.com/learn/how-to-compare-clothing-manufacturers",
+    mainEntityOfPage: "https://www.fenalt.com/learn/how-to-compare-clothing-manufacturers",
   };
 
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://fenalt.com/resources" },
-      { "@type": "ListItem", position: 3, name: "Compare Clothing Manufacturers", item: "https://fenalt.com/learn/how-to-compare-clothing-manufacturers" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.fenalt.com/resources" },
+      { "@type": "ListItem", position: 3, name: "Compare Clothing Manufacturers", item: "https://www.fenalt.com/learn/how-to-compare-clothing-manufacturers" },
     ],
   };
 

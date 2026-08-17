@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Compare Plastisol and Water-Based Screen Printing against Direct-to-Garment (DTG) printing - analyzing ink opacity, wash durability, color accuracy, artwork detail, and volume cost efficiency.",
   alternates: {
-    canonical: "https://fenalt.com/learn/screen-printing-vs-dtg-clothing",
+    canonical: "https://www.fenalt.com/learn/screen-printing-vs-dtg-clothing",
   },
   openGraph: {
     title: "Screen Printing vs DTG Printing for Clothing Brands",
     description:
       "Compare Plastisol and Water-Based Screen Printing against Direct-to-Garment (DTG) printing - analyzing ink opacity, wash durability, color accuracy, artwork detail, and volume cost efficiency.",
-    url: "https://fenalt.com/learn/screen-printing-vs-dtg-clothing",
+    url: "https://www.fenalt.com/learn/screen-printing-vs-dtg-clothing",
   },
 };
 
@@ -24,19 +24,19 @@ export default function ScreenPrintingVsDtgClothingPage() {
     headline: "Screen Printing vs DTG Printing for Clothing Brands",
     description:
       "A technical comparison of industrial screen printing vs digital DTG printing for fashion brands.",
-    author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    url: "https://fenalt.com/learn/screen-printing-vs-dtg-clothing",
-    mainEntityOfPage: "https://fenalt.com/learn/screen-printing-vs-dtg-clothing",
+    author: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    publisher: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    url: "https://www.fenalt.com/learn/screen-printing-vs-dtg-clothing",
+    mainEntityOfPage: "https://www.fenalt.com/learn/screen-printing-vs-dtg-clothing",
   };
 
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://fenalt.com/resources" },
-      { "@type": "ListItem", position: 3, name: "Screen Printing vs DTG", item: "https://fenalt.com/learn/screen-printing-vs-dtg-clothing" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.fenalt.com/resources" },
+      { "@type": "ListItem", position: 3, name: "Screen Printing vs DTG", item: "https://www.fenalt.com/learn/screen-printing-vs-dtg-clothing" },
     ],
   };
 

@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Sustainable clothing production and eco-friendly garment sourcing in Dhaka, Bangladesh. Access circular deadstock ('Jhoot') fabrics, organic cotton, and low MOQs.",
   alternates: {
-    canonical: "https://fenalt.com/sustainable-apparel-manufacturing-bangladesh",
+    canonical: "https://www.fenalt.com/sustainable-apparel-manufacturing-bangladesh",
   },
   openGraph: {
     title: "Sustainable Apparel Manufacturing Bangladesh | Fenalt",
     description:
       "Sustainable clothing production and eco-friendly garment sourcing in Dhaka, Bangladesh. Access circular deadstock ('Jhoot') fabrics, organic cotton, and low MOQs.",
-    url: "https://fenalt.com/sustainable-apparel-manufacturing-bangladesh",
+    url: "https://www.fenalt.com/sustainable-apparel-manufacturing-bangladesh",
   },
 };
 
@@ -25,7 +25,7 @@ export default function SustainableApparelManufacturingBangladeshPage() {
     "provider": {
       "@type": "Organization",
       "name": "Fenalt",
-      "url": "https://fenalt.com",
+      "url": "https://www.fenalt.com",
     },
     "serviceType": "Sustainable Garment Production, Circular Deadstock Fabric Sourcing, Eco-Friendly Apparel Sourcing",
     "areaServed": ["United States", "United Kingdom", "European Union", "Australia", "Canada"],
@@ -41,13 +41,13 @@ export default function SustainableApparelManufacturingBangladeshPage() {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://fenalt.com",
+        "item": "https://www.fenalt.com",
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Sustainable Apparel Manufacturing Bangladesh",
-        "item": "https://fenalt.com/sustainable-apparel-manufacturing-bangladesh",
+        "item": "https://www.fenalt.com/sustainable-apparel-manufacturing-bangladesh",
       },
     ],
   };

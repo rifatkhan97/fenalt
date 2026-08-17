@@ -6,11 +6,11 @@ export const metadata: Metadata = {
   title: "What Information Does a Clothing Manufacturer Need From a Brand?",
   description:
     "Before a clothing manufacturer can quote, sample, or produce your garments, they need specific information from you. This guide covers exactly what to prepare at each production stage.",
-  alternates: { canonical: "https://fenalt.com/learn/what-a-clothing-manufacturer-needs-from-a-brand" },
+  alternates: { canonical: "https://www.fenalt.com/learn/what-a-clothing-manufacturer-needs-from-a-brand" },
   openGraph: {
     title: "What Information Does a Clothing Manufacturer Need From a Brand?",
     description: "Before a clothing manufacturer can quote, sample, or produce your garments, they need specific information from you. This guide covers exactly what to prepare at each production stage.",
-    url: "https://fenalt.com/learn/what-a-clothing-manufacturer-needs-from-a-brand",
+    url: "https://www.fenalt.com/learn/what-a-clothing-manufacturer-needs-from-a-brand",
   },
 };
 
@@ -20,18 +20,18 @@ export default function WhatManufacturerNeedsFromBrandPage() {
     "@type": "Article",
     headline: "What Information Does a Clothing Manufacturer Need From a Brand?",
     description: "A guide to what information brands must provide to clothing manufacturers before production can begin.",
-    author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    url: "https://fenalt.com/learn/what-a-clothing-manufacturer-needs-from-a-brand",
+    author: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    publisher: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    url: "https://www.fenalt.com/learn/what-a-clothing-manufacturer-needs-from-a-brand",
   };
 
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://fenalt.com/resources" },
-      { "@type": "ListItem", position: 3, name: "What a Manufacturer Needs From a Brand", item: "https://fenalt.com/learn/what-a-clothing-manufacturer-needs-from-a-brand" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.fenalt.com/resources" },
+      { "@type": "ListItem", position: 3, name: "What a Manufacturer Needs From a Brand", item: "https://www.fenalt.com/learn/what-a-clothing-manufacturer-needs-from-a-brand" },
     ],
   };
 

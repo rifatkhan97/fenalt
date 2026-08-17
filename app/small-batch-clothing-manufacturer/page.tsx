@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Fenalt enables fashion labels and boutique brands to produce small batch clothing collections starting at 50 units with physically managed on-site quality control.",
   alternates: {
-    canonical: "https://fenalt.com/small-batch-clothing-manufacturer",
+    canonical: "https://www.fenalt.com/small-batch-clothing-manufacturer",
   },
   openGraph: {
     title: "Small Batch Clothing Manufacturer | Fenalt",
     description:
       "Fenalt enables fashion labels and boutique brands to produce small batch clothing collections starting at 50 units with physically managed on-site quality control.",
-    url: "https://fenalt.com/small-batch-clothing-manufacturer",
+    url: "https://www.fenalt.com/small-batch-clothing-manufacturer",
   },
 };
 
@@ -25,7 +25,7 @@ export default function SmallBatchClothingManufacturerPage() {
     "provider": {
       "@type": "Organization",
       "name": "Fenalt",
-      "url": "https://fenalt.com",
+      "url": "https://www.fenalt.com",
     },
     "serviceType": "Small Batch Clothing Production, Small Quantity Apparel Manufacturing, Capsule Run Production",
     "areaServed": ["United States", "United Kingdom", "European Union", "Australia", "Canada"],
@@ -41,13 +41,13 @@ export default function SmallBatchClothingManufacturerPage() {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://fenalt.com",
+        "item": "https://www.fenalt.com",
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Small Batch Clothing Manufacturer",
-        "item": "https://fenalt.com/small-batch-clothing-manufacturer",
+        "item": "https://www.fenalt.com/small-batch-clothing-manufacturer",
       },
     ],
   };

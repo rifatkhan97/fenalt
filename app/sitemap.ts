@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://fenalt.com";
+  const baseUrl = "https://www.fenalt.com";
 
   const routes: Array<{
     path: string;

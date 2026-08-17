@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Evaluate whether to work directly with a clothing factory or partner with a sourcing agent - comparing communication overhead, MOQ flexibility, quality control, and unit economics.",
   alternates: {
-    canonical: "https://fenalt.com/learn/direct-manufacturer-vs-sourcing-agent",
+    canonical: "https://www.fenalt.com/learn/direct-manufacturer-vs-sourcing-agent",
   },
   openGraph: {
     title: "Direct Manufacturer vs Sourcing Agent: Channel Choice Guide",
     description:
       "Evaluate whether to work directly with a clothing factory or partner with a sourcing agent - comparing communication overhead, MOQ flexibility, quality control, and unit economics.",
-    url: "https://fenalt.com/learn/direct-manufacturer-vs-sourcing-agent",
+    url: "https://www.fenalt.com/learn/direct-manufacturer-vs-sourcing-agent",
   },
 };
 
@@ -24,19 +24,19 @@ export default function DirectManufacturerVsSourcingAgentPage() {
     headline: "Direct Manufacturer vs Sourcing Agent: Channel Choice Guide",
     description:
       "A strategic comparison for apparel founders on choosing between direct factory partnerships and full-service sourcing agents.",
-    author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    url: "https://fenalt.com/learn/direct-manufacturer-vs-sourcing-agent",
-    mainEntityOfPage: "https://fenalt.com/learn/direct-manufacturer-vs-sourcing-agent",
+    author: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    publisher: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    url: "https://www.fenalt.com/learn/direct-manufacturer-vs-sourcing-agent",
+    mainEntityOfPage: "https://www.fenalt.com/learn/direct-manufacturer-vs-sourcing-agent",
   };
 
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://fenalt.com/resources" },
-      { "@type": "ListItem", position: 3, name: "Direct Manufacturer vs Sourcing Agent", item: "https://fenalt.com/learn/direct-manufacturer-vs-sourcing-agent" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.fenalt.com/resources" },
+      { "@type": "ListItem", position: 3, name: "Direct Manufacturer vs Sourcing Agent", item: "https://www.fenalt.com/learn/direct-manufacturer-vs-sourcing-agent" },
     ],
   };
 

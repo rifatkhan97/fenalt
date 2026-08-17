@@ -6,11 +6,11 @@ export const metadata: Metadata = {
   title: "What Is a Clothing Sample and Why Is It Important?",
   description:
     "A clothing sample is a physical prototype garment made before bulk production. Learn what samples are, the types, why they exist, and why skipping them is one of the most costly mistakes a brand can make.",
-  alternates: { canonical: "https://fenalt.com/learn/what-is-a-clothing-sample" },
+  alternates: { canonical: "https://www.fenalt.com/learn/what-is-a-clothing-sample" },
   openGraph: {
     title: "What Is a Clothing Sample and Why Is It Important?",
     description: "A clothing sample is a physical prototype garment made before bulk production. Learn what samples are, the types, why they exist, and why skipping them is one of the most costly mistakes a brand can make.",
-    url: "https://fenalt.com/learn/what-is-a-clothing-sample",
+    url: "https://www.fenalt.com/learn/what-is-a-clothing-sample",
   },
 };
 
@@ -20,18 +20,18 @@ export default function WhatIsAClothingSamplePage() {
     "@type": "Article",
     headline: "What Is a Clothing Sample and Why Is It Important?",
     description: "Clothing samples explained - types, purpose, and why they are essential before bulk production.",
-    author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    url: "https://fenalt.com/learn/what-is-a-clothing-sample",
+    author: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    publisher: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    url: "https://www.fenalt.com/learn/what-is-a-clothing-sample",
   };
 
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://fenalt.com/resources" },
-      { "@type": "ListItem", position: 3, name: "What Is a Clothing Sample", item: "https://fenalt.com/learn/what-is-a-clothing-sample" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.fenalt.com/resources" },
+      { "@type": "ListItem", position: 3, name: "What Is a Clothing Sample", item: "https://www.fenalt.com/learn/what-is-a-clothing-sample" },
     ],
   };
 

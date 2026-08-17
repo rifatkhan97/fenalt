@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "A guide for fashion brands on inline quality control checkpoints - checking cutting markers, bundle labeling, initial sewing line setup, ironing finish, and needle detection.",
   alternates: {
-    canonical: "https://fenalt.com/learn/what-to-check-during-clothing-production",
+    canonical: "https://www.fenalt.com/learn/what-to-check-during-clothing-production",
   },
   openGraph: {
     title: "What Should Be Checked During Clothing Production?",
     description:
       "A guide for fashion brands on inline quality control checkpoints - checking cutting markers, bundle labeling, initial sewing line setup, ironing finish, and needle detection.",
-    url: "https://fenalt.com/learn/what-to-check-during-clothing-production",
+    url: "https://www.fenalt.com/learn/what-to-check-during-clothing-production",
   },
 };
 
@@ -24,19 +24,19 @@ export default function WhatToCheckDuringClothingProductionPage() {
     headline: "What Should Be Checked During Clothing Production?",
     description:
       "An inline factory audit guide for fashion brands detailing critical quality checkpoints across cutting, sewing, and finishing.",
-    author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    url: "https://fenalt.com/learn/what-to-check-during-clothing-production",
-    mainEntityOfPage: "https://fenalt.com/learn/what-to-check-during-clothing-production",
+    author: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    publisher: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    url: "https://www.fenalt.com/learn/what-to-check-during-clothing-production",
+    mainEntityOfPage: "https://www.fenalt.com/learn/what-to-check-during-clothing-production",
   };
 
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://fenalt.com/resources" },
-      { "@type": "ListItem", position: 3, name: "What to Check During Production", item: "https://fenalt.com/learn/what-to-check-during-clothing-production" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.fenalt.com/resources" },
+      { "@type": "ListItem", position: 3, name: "What to Check During Production", item: "https://www.fenalt.com/learn/what-to-check-during-clothing-production" },
     ],
   };
 

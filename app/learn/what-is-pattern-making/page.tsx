@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Explore pattern making in apparel manufacturing - translating 3D fashion designs into 2D flat paper or digital CAD cutting templates.",
   alternates: {
-    canonical: "https://fenalt.com/learn/what-is-pattern-making",
+    canonical: "https://www.fenalt.com/learn/what-is-pattern-making",
   },
   openGraph: {
     title: "What Is Pattern Making in Clothing Production?",
     description:
       "Explore pattern making in apparel manufacturing - translating 3D fashion designs into 2D flat paper or digital CAD cutting templates.",
-    url: "https://fenalt.com/learn/what-is-pattern-making",
+    url: "https://www.fenalt.com/learn/what-is-pattern-making",
   },
 };
 
@@ -24,19 +24,19 @@ export default function WhatIsPatternMakingPage() {
     headline: "What Is Pattern Making in Clothing Production?",
     description:
       "An introductory guide to apparel pattern drafting, flat pattern manipulation, draping, and digital CAD pattern engineering.",
-    author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    url: "https://fenalt.com/learn/what-is-pattern-making",
-    mainEntityOfPage: "https://fenalt.com/learn/what-is-pattern-making",
+    author: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    publisher: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    url: "https://www.fenalt.com/learn/what-is-pattern-making",
+    mainEntityOfPage: "https://www.fenalt.com/learn/what-is-pattern-making",
   };
 
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://fenalt.com/resources" },
-      { "@type": "ListItem", position: 3, name: "What Is Pattern Making", item: "https://fenalt.com/learn/what-is-pattern-making" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.fenalt.com/resources" },
+      { "@type": "ListItem", position: 3, name: "What Is Pattern Making", item: "https://www.fenalt.com/learn/what-is-pattern-making" },
     ],
   };
 

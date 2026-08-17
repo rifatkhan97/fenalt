@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Learn how fashion brands build strong supplier partnerships - production forecasting, timely deposit payments, clear tech packs, and mutual loyalty benefits.",
   alternates: {
-    canonical: "https://fenalt.com/learn/build-long-term-relationship-clothing-manufacturer",
+    canonical: "https://www.fenalt.com/learn/build-long-term-relationship-clothing-manufacturer",
   },
   openGraph: {
     title: "How to Build a Long-Term Relationship With a Manufacturer",
     description:
       "Learn how fashion brands build strong supplier partnerships - production forecasting, timely deposit payments, clear tech packs, and mutual loyalty benefits.",
-    url: "https://fenalt.com/learn/build-long-term-relationship-clothing-manufacturer",
+    url: "https://www.fenalt.com/learn/build-long-term-relationship-clothing-manufacturer",
   },
 };
 
@@ -24,19 +24,19 @@ export default function BuildLongTermRelationshipClothingManufacturerPage() {
     headline: "How to Build a Long-Term Relationship With a Manufacturer",
     description:
       "A strategic guide for apparel brand owners on fostering long-term factory partnerships, securing priority line allocation, and unlocking lower MOQs.",
-    author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    url: "https://fenalt.com/learn/build-long-term-relationship-clothing-manufacturer",
-    mainEntityOfPage: "https://fenalt.com/learn/build-long-term-relationship-clothing-manufacturer",
+    author: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    publisher: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    url: "https://www.fenalt.com/learn/build-long-term-relationship-clothing-manufacturer",
+    mainEntityOfPage: "https://www.fenalt.com/learn/build-long-term-relationship-clothing-manufacturer",
   };
 
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://fenalt.com/resources" },
-      { "@type": "ListItem", position: 3, name: "Build Long-Term Manufacturer Relationship", item: "https://fenalt.com/learn/build-long-term-relationship-clothing-manufacturer" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.fenalt.com/resources" },
+      { "@type": "ListItem", position: 3, name: "Build Long-Term Manufacturer Relationship", item: "https://www.fenalt.com/learn/build-long-term-relationship-clothing-manufacturer" },
     ],
   };
 

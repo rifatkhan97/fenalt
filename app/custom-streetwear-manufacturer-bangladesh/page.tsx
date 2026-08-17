@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Custom streetwear apparel manufacturing in Dhaka, Bangladesh. Produce 320gsm–480gsm French Terry hoodies, boxy tees, and cargo pants from 50 units with on-site QC.",
   alternates: {
-    canonical: "https://fenalt.com/custom-streetwear-manufacturer-bangladesh",
+    canonical: "https://www.fenalt.com/custom-streetwear-manufacturer-bangladesh",
   },
   openGraph: {
     title: "Custom Streetwear Manufacturer Bangladesh | Fenalt",
     description:
       "Custom streetwear apparel manufacturing in Dhaka, Bangladesh. Produce 320gsm–480gsm French Terry hoodies, boxy tees, and cargo pants from 50 units with on-site QC.",
-    url: "https://fenalt.com/custom-streetwear-manufacturer-bangladesh",
+    url: "https://www.fenalt.com/custom-streetwear-manufacturer-bangladesh",
   },
 };
 
@@ -25,7 +25,7 @@ export default function CustomStreetwearManufacturerBangladeshPage() {
     "provider": {
       "@type": "Organization",
       "name": "Fenalt",
-      "url": "https://fenalt.com",
+      "url": "https://www.fenalt.com",
     },
     "serviceType": "Streetwear Apparel Manufacturing, Cut and Sew Streetwear Production, Heavyweight Fleece Sourcing",
     "areaServed": ["United States", "United Kingdom", "European Union", "Australia", "Canada"],
@@ -41,13 +41,13 @@ export default function CustomStreetwearManufacturerBangladeshPage() {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://fenalt.com",
+        "item": "https://www.fenalt.com",
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Custom Streetwear Manufacturer Bangladesh",
-        "item": "https://fenalt.com/custom-streetwear-manufacturer-bangladesh",
+        "item": "https://www.fenalt.com/custom-streetwear-manufacturer-bangladesh",
       },
     ],
   };

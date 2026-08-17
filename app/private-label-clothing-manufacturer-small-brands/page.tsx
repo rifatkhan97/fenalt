@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Fenalt provides end-to-end private label clothing manufacturing for small fashion brands. Produce custom garments with your own neck labels, hangtags, and custom fits from 50 units.",
   alternates: {
-    canonical: "https://fenalt.com/private-label-clothing-manufacturer-small-brands",
+    canonical: "https://www.fenalt.com/private-label-clothing-manufacturer-small-brands",
   },
   openGraph: {
     title: "Private Label Clothing Manufacturer for Small Brands | Fenalt",
     description:
       "Fenalt provides end-to-end private label clothing manufacturing for small fashion brands. Produce custom garments with your own neck labels, hangtags, and custom fits from 50 units.",
-    url: "https://fenalt.com/private-label-clothing-manufacturer-small-brands",
+    url: "https://www.fenalt.com/private-label-clothing-manufacturer-small-brands",
   },
 };
 
@@ -25,7 +25,7 @@ export default function PrivateLabelSmallBrandsPage() {
     "provider": {
       "@type": "Organization",
       "name": "Fenalt",
-      "url": "https://fenalt.com",
+      "url": "https://www.fenalt.com",
     },
     "serviceType": "Private Label Apparel Manufacturing, Custom Brand Clothing Production, Small Batch Private Labeling",
     "areaServed": ["United States", "United Kingdom", "European Union", "Australia", "Canada"],
@@ -41,13 +41,13 @@ export default function PrivateLabelSmallBrandsPage() {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://fenalt.com",
+        "item": "https://www.fenalt.com",
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Private Label Clothing Manufacturer for Small Brands",
-        "item": "https://fenalt.com/private-label-clothing-manufacturer-small-brands",
+        "item": "https://www.fenalt.com/private-label-clothing-manufacturer-small-brands",
       },
     ],
   };

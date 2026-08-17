@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Recycled polyester clothing and activewear manufacturing in Dhaka, Bangladesh. Custom rPET activewear, outerwear shells, and performance knits from 50 units.",
   alternates: {
-    canonical: "https://fenalt.com/recycled-polyester-garment-sourcing",
+    canonical: "https://www.fenalt.com/recycled-polyester-garment-sourcing",
   },
   openGraph: {
     title: "Recycled Polyester Garment Sourcing | Fenalt",
     description:
       "Recycled polyester clothing and activewear manufacturing in Dhaka, Bangladesh. Custom rPET activewear, outerwear shells, and performance knits from 50 units.",
-    url: "https://fenalt.com/recycled-polyester-garment-sourcing",
+    url: "https://www.fenalt.com/recycled-polyester-garment-sourcing",
   },
 };
 
@@ -25,7 +25,7 @@ export default function RecycledPolyesterGarmentSourcingPage() {
     "provider": {
       "@type": "Organization",
       "name": "Fenalt",
-      "url": "https://fenalt.com",
+      "url": "https://www.fenalt.com",
     },
     "serviceType": "Recycled Polyester Garment Production, rPET Activewear Manufacturing, Eco Synthetic Apparel Sourcing",
     "areaServed": ["United States", "United Kingdom", "European Union", "Australia", "Canada"],
@@ -41,13 +41,13 @@ export default function RecycledPolyesterGarmentSourcingPage() {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://fenalt.com",
+        "item": "https://www.fenalt.com",
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Recycled Polyester Garment Sourcing",
-        "item": "https://fenalt.com/recycled-polyester-garment-sourcing",
+        "item": "https://www.fenalt.com/recycled-polyester-garment-sourcing",
       },
     ],
   };

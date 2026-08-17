@@ -6,11 +6,11 @@ export const metadata: Metadata = {
   title: "How Long Does Clothing Manufacturing Usually Take?",
   description:
     "A realistic guide to clothing manufacturing timelines - what each stage takes, what causes delays, and how to build a production schedule that actually works.",
-  alternates: { canonical: "https://fenalt.com/learn/clothing-manufacturing-timeline" },
+  alternates: { canonical: "https://www.fenalt.com/learn/clothing-manufacturing-timeline" },
   openGraph: {
     title: "How Long Does Clothing Manufacturing Usually Take?",
     description: "A realistic guide to clothing manufacturing timelines - what each stage takes, what causes delays, and how to build a production schedule that actually works.",
-    url: "https://fenalt.com/learn/clothing-manufacturing-timeline",
+    url: "https://www.fenalt.com/learn/clothing-manufacturing-timeline",
   },
 };
 
@@ -20,18 +20,18 @@ export default function ClothingManufacturingTimelinePage() {
     "@type": "Article",
     headline: "How Long Does Clothing Manufacturing Usually Take?",
     description: "Realistic guide to clothing manufacturing timelines - stage-by-stage breakdown and delay causes.",
-    author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    url: "https://fenalt.com/learn/clothing-manufacturing-timeline",
+    author: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    publisher: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    url: "https://www.fenalt.com/learn/clothing-manufacturing-timeline",
   };
 
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://fenalt.com/resources" },
-      { "@type": "ListItem", position: 3, name: "Clothing Manufacturing Timeline", item: "https://fenalt.com/learn/clothing-manufacturing-timeline" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.fenalt.com/resources" },
+      { "@type": "ListItem", position: 3, name: "Clothing Manufacturing Timeline", item: "https://www.fenalt.com/learn/clothing-manufacturing-timeline" },
     ],
   };
 

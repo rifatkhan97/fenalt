@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Discover how factory QC teams audit flat garment measurements on the production line - using measurement spec sheets, POM templates, steel measuring tapes, and tolerance allowances.",
   alternates: {
-    canonical: "https://fenalt.com/learn/garment-measurement-checking-in-production",
+    canonical: "https://www.fenalt.com/learn/garment-measurement-checking-in-production",
   },
   openGraph: {
     title: "How Garment Measurements Are Checked During Production",
     description:
       "Discover how factory QC teams audit flat garment measurements on the production line - using measurement spec sheets, POM templates, steel measuring tapes, and tolerance allowances.",
-    url: "https://fenalt.com/learn/garment-measurement-checking-in-production",
+    url: "https://www.fenalt.com/learn/garment-measurement-checking-in-production",
   },
 };
 
@@ -24,19 +24,19 @@ export default function GarmentMeasurementCheckingInProductionPage() {
     headline: "How Garment Measurements Are Checked During Production",
     description:
       "A technical walkthrough of factory measurement inspection procedures, POM auditing, and spec sheet verification.",
-    author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    url: "https://fenalt.com/learn/garment-measurement-checking-in-production",
-    mainEntityOfPage: "https://fenalt.com/learn/garment-measurement-checking-in-production",
+    author: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    publisher: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    url: "https://www.fenalt.com/learn/garment-measurement-checking-in-production",
+    mainEntityOfPage: "https://www.fenalt.com/learn/garment-measurement-checking-in-production",
   };
 
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://fenalt.com/resources" },
-      { "@type": "ListItem", position: 3, name: "Garment Measurement Checking", item: "https://fenalt.com/learn/garment-measurement-checking-in-production" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.fenalt.com/resources" },
+      { "@type": "ListItem", position: 3, name: "Garment Measurement Checking", item: "https://www.fenalt.com/learn/garment-measurement-checking-in-production" },
     ],
   };
 

@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Guide for European fashion brands importing clothing from Bangladesh under EU GSP/EBA trade preferences. Tariff entry rules, customs documentation, and DDP freight.",
   alternates: {
-    canonical: "https://fenalt.com/eu-apparel-import-considerations",
+    canonical: "https://www.fenalt.com/eu-apparel-import-considerations",
   },
   openGraph: {
     title: "EU Apparel Import Considerations | Fenalt Guide",
     description:
       "Guide for European fashion brands importing clothing from Bangladesh under EU GSP/EBA trade preferences. Tariff entry rules, customs documentation, and DDP freight.",
-    url: "https://fenalt.com/eu-apparel-import-considerations",
+    url: "https://www.fenalt.com/eu-apparel-import-considerations",
   },
 };
 
@@ -27,12 +27,12 @@ export default function EUApparelImportPage() {
     "author": {
       "@type": "Organization",
       "name": "Fenalt",
-      "url": "https://fenalt.com",
+      "url": "https://www.fenalt.com",
     },
     "publisher": {
       "@type": "Organization",
       "name": "Fenalt",
-      "url": "https://fenalt.com",
+      "url": "https://www.fenalt.com",
     },
   };
 
@@ -44,13 +44,13 @@ export default function EUApparelImportPage() {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://fenalt.com",
+        "item": "https://www.fenalt.com",
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "EU Apparel Import Considerations",
-        "item": "https://fenalt.com/eu-apparel-import-considerations",
+        "item": "https://www.fenalt.com/eu-apparel-import-considerations",
       },
     ],
   };

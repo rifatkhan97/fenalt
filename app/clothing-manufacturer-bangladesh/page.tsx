@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Fenalt connects international fashion brands directly with ethical micro-factories in Bangladesh. Fully managed on-site quality control, low MOQs, and clear communication.",
   alternates: {
-    canonical: "https://fenalt.com/clothing-manufacturer-bangladesh",
+    canonical: "https://www.fenalt.com/clothing-manufacturer-bangladesh",
   },
   openGraph: {
     title: "Ethical Clothing Manufacturer in Bangladesh | Fenalt",
     description:
       "Fenalt connects international fashion brands directly with ethical micro-factories in Bangladesh. Fully managed on-site quality control, low MOQs, and clear communication.",
-    url: "https://fenalt.com/clothing-manufacturer-bangladesh",
+    url: "https://www.fenalt.com/clothing-manufacturer-bangladesh",
   },
 };
 
@@ -25,7 +25,7 @@ export default function BangladeshManufacturerPage() {
     "provider": {
       "@type": "Organization",
       "name": "Fenalt",
-      "url": "https://fenalt.com",
+      "url": "https://www.fenalt.com",
     },
     "serviceType": "Bangladesh Apparel Sourcing, Ethical Micro-Factory Production, On-Site Quality Audit",
     "areaServed": ["United States", "United Kingdom", "European Union", "Australia", "Canada"],
@@ -41,13 +41,13 @@ export default function BangladeshManufacturerPage() {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://fenalt.com",
+        "item": "https://www.fenalt.com",
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Clothing Manufacturer Bangladesh",
-        "item": "https://fenalt.com/clothing-manufacturer-bangladesh",
+        "item": "https://www.fenalt.com/clothing-manufacturer-bangladesh",
       },
     ],
   };

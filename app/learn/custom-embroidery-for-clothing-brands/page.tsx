@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Master custom embroidery in apparel manufacturing - flat stitching, 3D puff embroidery, stitch count calculations, backing stabilizer selection, and DST artwork digitizing.",
   alternates: {
-    canonical: "https://fenalt.com/learn/custom-embroidery-for-clothing-brands",
+    canonical: "https://www.fenalt.com/learn/custom-embroidery-for-clothing-brands",
   },
   openGraph: {
     title: "Custom Embroidery for Clothing Brands: Technical Guide",
     description:
       "Master custom embroidery in apparel manufacturing - flat stitching, 3D puff embroidery, stitch count calculations, backing stabilizer selection, and DST artwork digitizing.",
-    url: "https://fenalt.com/learn/custom-embroidery-for-clothing-brands",
+    url: "https://www.fenalt.com/learn/custom-embroidery-for-clothing-brands",
   },
 };
 
@@ -24,19 +24,19 @@ export default function CustomEmbroideryForClothingBrandsPage() {
     headline: "Custom Embroidery for Clothing Brands: Technical Guide",
     description:
       "A technical breakdown of industrial embroidery, DST file digitizing, 3D foam puff embroidery, and fabric stabilization.",
-    author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    url: "https://fenalt.com/learn/custom-embroidery-for-clothing-brands",
-    mainEntityOfPage: "https://fenalt.com/learn/custom-embroidery-for-clothing-brands",
+    author: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    publisher: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    url: "https://www.fenalt.com/learn/custom-embroidery-for-clothing-brands",
+    mainEntityOfPage: "https://www.fenalt.com/learn/custom-embroidery-for-clothing-brands",
   };
 
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://fenalt.com/resources" },
-      { "@type": "ListItem", position: 3, name: "Custom Embroidery for Clothing Brands", item: "https://fenalt.com/learn/custom-embroidery-for-clothing-brands" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.fenalt.com/resources" },
+      { "@type": "ListItem", position: 3, name: "Custom Embroidery for Clothing Brands", item: "https://www.fenalt.com/learn/custom-embroidery-for-clothing-brands" },
     ],
   };
 

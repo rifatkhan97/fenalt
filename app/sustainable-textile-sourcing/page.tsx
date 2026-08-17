@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Sustainable textile and fabric sourcing in Dhaka, Bangladesh. Access circular deadstock ('Jhoot') fabrics, organic cotton, and eco-certified knits without mill MOQs.",
   alternates: {
-    canonical: "https://fenalt.com/sustainable-textile-sourcing",
+    canonical: "https://www.fenalt.com/sustainable-textile-sourcing",
   },
   openGraph: {
     title: "Sustainable Textile Sourcing | Fenalt",
     description:
       "Sustainable textile and fabric sourcing in Dhaka, Bangladesh. Access circular deadstock ('Jhoot') fabrics, organic cotton, and eco-certified knits without mill MOQs.",
-    url: "https://fenalt.com/sustainable-textile-sourcing",
+    url: "https://www.fenalt.com/sustainable-textile-sourcing",
   },
 };
 
@@ -25,7 +25,7 @@ export default function SustainableTextileSourcingPage() {
     "provider": {
       "@type": "Organization",
       "name": "Fenalt",
-      "url": "https://fenalt.com",
+      "url": "https://www.fenalt.com",
     },
     "serviceType": "Sustainable Fabric Procurement, Eco Textile Sourcing, Reclaimed Deadstock Fabrics in Dhaka",
     "areaServed": ["United States", "United Kingdom", "European Union", "Australia", "Canada"],
@@ -41,13 +41,13 @@ export default function SustainableTextileSourcingPage() {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://fenalt.com",
+        "item": "https://www.fenalt.com",
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Sustainable Textile Sourcing",
-        "item": "https://fenalt.com/sustainable-textile-sourcing",
+        "item": "https://www.fenalt.com/sustainable-textile-sourcing",
       },
     ],
   };

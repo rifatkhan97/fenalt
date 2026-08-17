@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Circular apparel manufacturing and deadstock fabric utilization. Reclaim surplus cotton knits in Dhaka, reduce textile waste, and launch low MOQ collections from 50 units.",
   alternates: {
-    canonical: "https://fenalt.com/circular-fashion-manufacturing",
+    canonical: "https://www.fenalt.com/circular-fashion-manufacturing",
   },
   openGraph: {
     title: "Circular Fashion Manufacturing | Fenalt",
     description:
       "Circular apparel manufacturing and deadstock fabric utilization. Reclaim surplus cotton knits in Dhaka, reduce textile waste, and launch low MOQ collections from 50 units.",
-    url: "https://fenalt.com/circular-fashion-manufacturing",
+    url: "https://www.fenalt.com/circular-fashion-manufacturing",
   },
 };
 
@@ -25,7 +25,7 @@ export default function CircularFashionManufacturingPage() {
     "provider": {
       "@type": "Organization",
       "name": "Fenalt",
-      "url": "https://fenalt.com",
+      "url": "https://www.fenalt.com",
     },
     "serviceType": "Circular Apparel Production, Reclaimed Fabric Sourcing, Zero Waste Garment Sourcing",
     "areaServed": ["United States", "United Kingdom", "European Union", "Australia", "Canada"],
@@ -41,13 +41,13 @@ export default function CircularFashionManufacturingPage() {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://fenalt.com",
+        "item": "https://www.fenalt.com",
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Circular Fashion Manufacturing",
-        "item": "https://fenalt.com/circular-fashion-manufacturing",
+        "item": "https://www.fenalt.com/circular-fashion-manufacturing",
       },
     ],
   };

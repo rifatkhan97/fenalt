@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Custom embroidered clothing manufacturing in Dhaka, Bangladesh. Direct-to-garment 3D puff embroidery, woven patches, and heavy fleece tops from 50 units.",
   alternates: {
-    canonical: "https://fenalt.com/custom-embroidery-apparel-manufacturing",
+    canonical: "https://www.fenalt.com/custom-embroidery-apparel-manufacturing",
   },
   openGraph: {
     title: "Custom Embroidery Apparel Manufacturing | Fenalt",
     description:
       "Custom embroidered clothing manufacturing in Dhaka, Bangladesh. Direct-to-garment 3D puff embroidery, woven patches, and heavy fleece tops from 50 units.",
-    url: "https://fenalt.com/custom-embroidery-apparel-manufacturing",
+    url: "https://www.fenalt.com/custom-embroidery-apparel-manufacturing",
   },
 };
 
@@ -25,7 +25,7 @@ export default function CustomEmbroideryApparelManufacturingPage() {
     "provider": {
       "@type": "Organization",
       "name": "Fenalt",
-      "url": "https://fenalt.com",
+      "url": "https://www.fenalt.com",
     },
     "serviceType": "Apparel Embroidery Manufacturing, Direct Garment Embroidery, 3D Puff Embroidery",
     "areaServed": ["United States", "United Kingdom", "European Union", "Australia", "Canada"],
@@ -41,13 +41,13 @@ export default function CustomEmbroideryApparelManufacturingPage() {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://fenalt.com",
+        "item": "https://www.fenalt.com",
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Custom Embroidery Apparel Manufacturing",
-        "item": "https://fenalt.com/custom-embroidery-apparel-manufacturing",
+        "item": "https://www.fenalt.com/custom-embroidery-apparel-manufacturing",
       },
     ],
   };

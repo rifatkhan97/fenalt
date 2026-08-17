@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "A complete end-to-end breakdown of the apparel production workflow - from design concept through tech pack, sampling, fabric sourcing, bulk cutting, sewing, quality control, and export.",
   alternates: {
-    canonical: "https://fenalt.com/learn/apparel-production-process-explained",
+    canonical: "https://www.fenalt.com/learn/apparel-production-process-explained",
   },
   openGraph: {
     title: "The Apparel Production Process Explained Step by Step",
     description:
       "A complete end-to-end breakdown of the apparel production workflow - from design concept through tech pack, sampling, fabric sourcing, bulk cutting, sewing, quality control, and export.",
-    url: "https://fenalt.com/learn/apparel-production-process-explained",
+    url: "https://www.fenalt.com/learn/apparel-production-process-explained",
   },
 };
 
@@ -24,19 +24,19 @@ export default function ApparelProductionProcessExplainedPage() {
     headline: "The Apparel Production Process Explained Step by Step",
     description:
       "A step-by-step master guide covering every phase of garment manufacturing and product development for fashion brands.",
-    author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    url: "https://fenalt.com/learn/apparel-production-process-explained",
-    mainEntityOfPage: "https://fenalt.com/learn/apparel-production-process-explained",
+    author: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    publisher: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    url: "https://www.fenalt.com/learn/apparel-production-process-explained",
+    mainEntityOfPage: "https://www.fenalt.com/learn/apparel-production-process-explained",
   };
 
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://fenalt.com/resources" },
-      { "@type": "ListItem", position: 3, name: "Apparel Production Process Explained", item: "https://fenalt.com/learn/apparel-production-process-explained" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.fenalt.com/resources" },
+      { "@type": "ListItem", position: 3, name: "Apparel Production Process Explained", item: "https://www.fenalt.com/learn/apparel-production-process-explained" },
     ],
   };
 

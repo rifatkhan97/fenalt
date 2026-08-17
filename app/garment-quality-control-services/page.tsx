@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Comprehensive apparel quality control and inspection services in Dhaka, Bangladesh. In-line stitching audits, measurement tolerance checks (±1.5cm), needle detection, and AQL 2.5.",
   alternates: {
-    canonical: "https://fenalt.com/garment-quality-control-services",
+    canonical: "https://www.fenalt.com/garment-quality-control-services",
   },
   openGraph: {
     title: "Garment Quality Control Services | Fenalt",
     description:
       "Comprehensive apparel quality control and inspection services in Dhaka, Bangladesh. In-line stitching audits, measurement tolerance checks (±1.5cm), needle detection, and AQL 2.5.",
-    url: "https://fenalt.com/garment-quality-control-services",
+    url: "https://www.fenalt.com/garment-quality-control-services",
   },
 };
 
@@ -25,7 +25,7 @@ export default function GarmentQualityControlServicesPage() {
     "provider": {
       "@type": "Organization",
       "name": "Fenalt",
-      "url": "https://fenalt.com",
+      "url": "https://www.fenalt.com",
     },
     "serviceType": "Apparel Quality Inspection, In-Line Factory Auditing, AQL 2.5 Quality Assurance",
     "areaServed": ["United States", "United Kingdom", "European Union", "Australia", "Canada"],
@@ -41,13 +41,13 @@ export default function GarmentQualityControlServicesPage() {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://fenalt.com",
+        "item": "https://www.fenalt.com",
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Garment Quality Control Services",
-        "item": "https://fenalt.com/garment-quality-control-services",
+        "item": "https://www.fenalt.com/garment-quality-control-services",
       },
     ],
   };

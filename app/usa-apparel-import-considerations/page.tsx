@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Guide for US apparel brands importing garments from Bangladesh. Harmonized Tariff Schedule (HTS) codes, CBP entry clearance, and landed DDP freight.",
   alternates: {
-    canonical: "https://fenalt.com/usa-apparel-import-considerations",
+    canonical: "https://www.fenalt.com/usa-apparel-import-considerations",
   },
   openGraph: {
     title: "USA Apparel Import Considerations | Fenalt Guide",
     description:
       "Guide for US apparel brands importing garments from Bangladesh. Harmonized Tariff Schedule (HTS) codes, CBP entry clearance, and landed DDP freight.",
-    url: "https://fenalt.com/usa-apparel-import-considerations",
+    url: "https://www.fenalt.com/usa-apparel-import-considerations",
   },
 };
 
@@ -27,12 +27,12 @@ export default function USAApparelImportPage() {
     "author": {
       "@type": "Organization",
       "name": "Fenalt",
-      "url": "https://fenalt.com",
+      "url": "https://www.fenalt.com",
     },
     "publisher": {
       "@type": "Organization",
       "name": "Fenalt",
-      "url": "https://fenalt.com",
+      "url": "https://www.fenalt.com",
     },
   };
 
@@ -44,13 +44,13 @@ export default function USAApparelImportPage() {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://fenalt.com",
+        "item": "https://www.fenalt.com",
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "USA Apparel Import Considerations",
-        "item": "https://fenalt.com/usa-apparel-import-considerations",
+        "item": "https://www.fenalt.com/usa-apparel-import-considerations",
       },
     ],
   };

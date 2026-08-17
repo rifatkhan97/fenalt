@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Comprehensive comparison of Bangladesh vs China apparel manufacturing. Evaluate FOB cost differences, cotton knits vs synthetics, MOQs, and lead times for fashion brands.",
   alternates: {
-    canonical: "https://fenalt.com/bangladesh-vs-china-garment-manufacturing",
+    canonical: "https://www.fenalt.com/bangladesh-vs-china-garment-manufacturing",
   },
   openGraph: {
     title: "Bangladesh vs China Garment Manufacturing | Fenalt Guide",
     description:
       "Comprehensive comparison of Bangladesh vs China apparel manufacturing. Evaluate FOB cost differences, cotton knits vs synthetics, MOQs, and lead times for fashion brands.",
-    url: "https://fenalt.com/bangladesh-vs-china-garment-manufacturing",
+    url: "https://www.fenalt.com/bangladesh-vs-china-garment-manufacturing",
   },
 };
 
@@ -27,12 +27,12 @@ export default function BangladeshVsChinaPage() {
     "author": {
       "@type": "Organization",
       "name": "Fenalt",
-      "url": "https://fenalt.com",
+      "url": "https://www.fenalt.com",
     },
     "publisher": {
       "@type": "Organization",
       "name": "Fenalt",
-      "url": "https://fenalt.com",
+      "url": "https://www.fenalt.com",
     },
   };
 
@@ -44,13 +44,13 @@ export default function BangladeshVsChinaPage() {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://fenalt.com",
+        "item": "https://www.fenalt.com",
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Bangladesh vs China Garment Manufacturing",
-        "item": "https://fenalt.com/bangladesh-vs-china-garment-manufacturing",
+        "item": "https://www.fenalt.com/bangladesh-vs-china-garment-manufacturing",
       },
     ],
   };

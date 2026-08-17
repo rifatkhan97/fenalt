@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Fenalt provides managed boutique clothing manufacturing for retail store owners and boutique fashion labels. Small batch production starting at 50 units with on-site quality control.",
   alternates: {
-    canonical: "https://fenalt.com/boutique-clothing-manufacturer",
+    canonical: "https://www.fenalt.com/boutique-clothing-manufacturer",
   },
   openGraph: {
     title: "Boutique Clothing Manufacturer | Fenalt",
     description:
       "Fenalt provides managed boutique clothing manufacturing for retail store owners and boutique fashion labels. Small batch production starting at 50 units with on-site quality control.",
-    url: "https://fenalt.com/boutique-clothing-manufacturer",
+    url: "https://www.fenalt.com/boutique-clothing-manufacturer",
   },
 };
 
@@ -25,7 +25,7 @@ export default function BoutiqueClothingManufacturerPage() {
     "provider": {
       "@type": "Organization",
       "name": "Fenalt",
-      "url": "https://fenalt.com",
+      "url": "https://www.fenalt.com",
     },
     "serviceType": "Boutique Apparel Manufacturing, Small Batch Retail Sourcing, Private Label Clothing Production",
     "areaServed": ["United States", "United Kingdom", "European Union", "Australia", "Canada"],
@@ -41,13 +41,13 @@ export default function BoutiqueClothingManufacturerPage() {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://fenalt.com",
+        "item": "https://www.fenalt.com",
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Boutique Clothing Manufacturer",
-        "item": "https://fenalt.com/boutique-clothing-manufacturer",
+        "item": "https://www.fenalt.com/boutique-clothing-manufacturer",
       },
     ],
   };

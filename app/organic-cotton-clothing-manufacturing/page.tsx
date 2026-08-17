@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Custom organic cotton clothing manufacturing for eco-conscious apparel brands. Produce 180gsm–300gsm combed organic cotton t-shirts and fleece starting from 50 units.",
   alternates: {
-    canonical: "https://fenalt.com/organic-cotton-clothing-manufacturing",
+    canonical: "https://www.fenalt.com/organic-cotton-clothing-manufacturing",
   },
   openGraph: {
     title: "Organic Cotton Clothing Manufacturing | Fenalt",
     description:
       "Custom organic cotton clothing manufacturing for eco-conscious apparel brands. Produce 180gsm–300gsm combed organic cotton t-shirts and fleece starting from 50 units.",
-    url: "https://fenalt.com/organic-cotton-clothing-manufacturing",
+    url: "https://www.fenalt.com/organic-cotton-clothing-manufacturing",
   },
 };
 
@@ -25,7 +25,7 @@ export default function OrganicCottonClothingManufacturingPage() {
     "provider": {
       "@type": "Organization",
       "name": "Fenalt",
-      "url": "https://fenalt.com",
+      "url": "https://www.fenalt.com",
     },
     "serviceType": "Organic Cotton Garment Production, Eco-Friendly Knitwear Sourcing, Organic Apparel Manufacturing",
     "areaServed": ["United States", "United Kingdom", "European Union", "Australia", "Canada"],
@@ -41,13 +41,13 @@ export default function OrganicCottonClothingManufacturingPage() {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://fenalt.com",
+        "item": "https://www.fenalt.com",
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Organic Cotton Clothing Manufacturing",
-        "item": "https://fenalt.com/organic-cotton-clothing-manufacturing",
+        "item": "https://www.fenalt.com/organic-cotton-clothing-manufacturing",
       },
     ],
   };

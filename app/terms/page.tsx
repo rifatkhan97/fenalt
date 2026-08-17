@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "Fenalt Terms of Service. Understand the agreement governing the use of our manufacturing platform and services.",
   alternates: {
-    canonical: "https://fenalt.com/terms",
+    canonical: "https://www.fenalt.com/terms",
   },
 };
 

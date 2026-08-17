@@ -6,11 +6,11 @@ export const metadata: Metadata = {
   title: "Puff Print vs Screen Print for Streetwear",
   description:
     "A practical comparison of puff print and screen print for streetwear garments - how each technique works, the visual and tactile differences, and when to use which.",
-  alternates: { canonical: "https://fenalt.com/learn/puff-print-vs-screen-print-streetwear" },
+  alternates: { canonical: "https://www.fenalt.com/learn/puff-print-vs-screen-print-streetwear" },
   openGraph: {
     title: "Puff Print vs Screen Print for Streetwear",
     description: "A practical comparison of puff print and screen print for streetwear - how each technique works, differences, and when to use which.",
-    url: "https://fenalt.com/learn/puff-print-vs-screen-print-streetwear",
+    url: "https://www.fenalt.com/learn/puff-print-vs-screen-print-streetwear",
   },
 };
 
@@ -20,18 +20,18 @@ export default function PuffPrintVsScreenPrintPage() {
     "@type": "Article",
     headline: "Puff Print vs Screen Print for Streetwear",
     description: "Comparison of puff print and screen print techniques for streetwear garments.",
-    author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    url: "https://fenalt.com/learn/puff-print-vs-screen-print-streetwear",
+    author: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    publisher: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    url: "https://www.fenalt.com/learn/puff-print-vs-screen-print-streetwear",
   };
 
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://fenalt.com/resources" },
-      { "@type": "ListItem", position: 3, name: "Puff Print vs Screen Print", item: "https://fenalt.com/learn/puff-print-vs-screen-print-streetwear" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.fenalt.com/resources" },
+      { "@type": "ListItem", position: 3, name: "Puff Print vs Screen Print", item: "https://www.fenalt.com/learn/puff-print-vs-screen-print-streetwear" },
     ],
   };
 

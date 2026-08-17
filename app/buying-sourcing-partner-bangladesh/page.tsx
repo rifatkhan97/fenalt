@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "End-to-end apparel buying and sourcing partner in Dhaka, Bangladesh. We manage micro-factory matching, fabric procurement, on-site QC, and global DDP freight.",
   alternates: {
-    canonical: "https://fenalt.com/buying-sourcing-partner-bangladesh",
+    canonical: "https://www.fenalt.com/buying-sourcing-partner-bangladesh",
   },
   openGraph: {
     title: "Buying & Sourcing Partner Bangladesh | Fenalt",
     description:
       "End-to-end apparel buying and sourcing partner in Dhaka, Bangladesh. We manage micro-factory matching, fabric procurement, on-site QC, and global DDP freight.",
-    url: "https://fenalt.com/buying-sourcing-partner-bangladesh",
+    url: "https://www.fenalt.com/buying-sourcing-partner-bangladesh",
   },
 };
 
@@ -25,7 +25,7 @@ export default function BuyingSourcingPartnerBangladeshPage() {
     "provider": {
       "@type": "Organization",
       "name": "Fenalt",
-      "url": "https://fenalt.com",
+      "url": "https://www.fenalt.com",
     },
     "serviceType": "Apparel Sourcing Partner, Garment Buying Liaison, Bangladesh Production Management",
     "areaServed": ["United States", "United Kingdom", "European Union", "Australia", "Canada"],
@@ -41,13 +41,13 @@ export default function BuyingSourcingPartnerBangladeshPage() {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://fenalt.com",
+        "item": "https://www.fenalt.com",
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Buying Sourcing Partner Bangladesh",
-        "item": "https://fenalt.com/buying-sourcing-partner-bangladesh",
+        "item": "https://www.fenalt.com/buying-sourcing-partner-bangladesh",
       },
     ],
   };

@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Professional garment pattern making and size grading services in Dhaka, Bangladesh. Translate design sketches into digital CAD marker patterns and POM tables.",
   alternates: {
-    canonical: "https://fenalt.com/apparel-pattern-making-services",
+    canonical: "https://www.fenalt.com/apparel-pattern-making-services",
   },
   openGraph: {
     title: "Apparel Pattern Making Services | Fenalt",
     description:
       "Professional garment pattern making and size grading services in Dhaka, Bangladesh. Translate design sketches into digital CAD marker patterns and POM tables.",
-    url: "https://fenalt.com/apparel-pattern-making-services",
+    url: "https://www.fenalt.com/apparel-pattern-making-services",
   },
 };
 
@@ -25,7 +25,7 @@ export default function ApparelPatternMakingServicesPage() {
     "provider": {
       "@type": "Organization",
       "name": "Fenalt",
-      "url": "https://fenalt.com",
+      "url": "https://www.fenalt.com",
     },
     "serviceType": "Apparel Pattern Making, CAD Pattern Grading, Point-of-Measure (POM) Table Creation",
     "areaServed": ["United States", "United Kingdom", "European Union", "Australia", "Canada"],
@@ -41,13 +41,13 @@ export default function ApparelPatternMakingServicesPage() {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://fenalt.com",
+        "item": "https://www.fenalt.com",
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Apparel Pattern Making Services",
-        "item": "https://fenalt.com/apparel-pattern-making-services",
+        "item": "https://www.fenalt.com/apparel-pattern-making-services",
       },
     ],
   };

@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Understand the key differences between fit samples and pre-production (PP) samples - their distinct purposes, material requirements, approval criteria, and role in preventing bulk production defects.",
   alternates: {
-    canonical: "https://fenalt.com/learn/fit-samples-vs-pre-production-samples",
+    canonical: "https://www.fenalt.com/learn/fit-samples-vs-pre-production-samples",
   },
   openGraph: {
     title: "Fit Samples vs Pre-Production Samples: What's the Difference?",
     description:
       "Understand the key differences between fit samples and pre-production (PP) samples - their distinct purposes, material requirements, approval criteria, and role in preventing bulk production defects.",
-    url: "https://fenalt.com/learn/fit-samples-vs-pre-production-samples",
+    url: "https://www.fenalt.com/learn/fit-samples-vs-pre-production-samples",
   },
 };
 
@@ -23,19 +23,19 @@ export default function FitSamplesVsPreProductionSamplesPage() {
     "@type": "Article",
     headline: "Fit Samples vs Pre-Production Samples: What's the Difference?",
     description: "A technical comparison of fit samples versus pre-production (PP) samples in clothing manufacturing.",
-    author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    url: "https://fenalt.com/learn/fit-samples-vs-pre-production-samples",
-    mainEntityOfPage: "https://fenalt.com/learn/fit-samples-vs-pre-production-samples",
+    author: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    publisher: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    url: "https://www.fenalt.com/learn/fit-samples-vs-pre-production-samples",
+    mainEntityOfPage: "https://www.fenalt.com/learn/fit-samples-vs-pre-production-samples",
   };
 
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://fenalt.com/resources" },
-      { "@type": "ListItem", position: 3, name: "Fit Samples vs Pre-Production Samples", item: "https://fenalt.com/learn/fit-samples-vs-pre-production-samples" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.fenalt.com/resources" },
+      { "@type": "ListItem", position: 3, name: "Fit Samples vs Pre-Production Samples", item: "https://www.fenalt.com/learn/fit-samples-vs-pre-production-samples" },
     ],
   };
 

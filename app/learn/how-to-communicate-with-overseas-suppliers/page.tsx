@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Master cross-border communication with clothing manufacturers - tech pack clarity, visual feedback PDFs, time zone management, and clear payment terms.",
   alternates: {
-    canonical: "https://fenalt.com/learn/how-to-communicate-with-overseas-suppliers",
+    canonical: "https://www.fenalt.com/learn/how-to-communicate-with-overseas-suppliers",
   },
   openGraph: {
     title: "How to Communicate With Overseas Apparel Suppliers",
     description:
       "Master cross-border communication with clothing manufacturers - tech pack clarity, visual feedback PDFs, time zone management, and clear payment terms.",
-    url: "https://fenalt.com/learn/how-to-communicate-with-overseas-suppliers",
+    url: "https://www.fenalt.com/learn/how-to-communicate-with-overseas-suppliers",
   },
 };
 
@@ -24,19 +24,19 @@ export default function HowToCommunicateWithOverseasSuppliersPage() {
     headline: "How to Communicate With Overseas Apparel Suppliers",
     description:
       "A practical communication manual for fashion brand founders managing overseas clothing factories in South Asia.",
-    author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    url: "https://fenalt.com/learn/how-to-communicate-with-overseas-suppliers",
-    mainEntityOfPage: "https://fenalt.com/learn/how-to-communicate-with-overseas-suppliers",
+    author: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    publisher: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    url: "https://www.fenalt.com/learn/how-to-communicate-with-overseas-suppliers",
+    mainEntityOfPage: "https://www.fenalt.com/learn/how-to-communicate-with-overseas-suppliers",
   };
 
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://fenalt.com/resources" },
-      { "@type": "ListItem", position: 3, name: "Communicate With Overseas Suppliers", item: "https://fenalt.com/learn/how-to-communicate-with-overseas-suppliers" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.fenalt.com/resources" },
+      { "@type": "ListItem", position: 3, name: "Communicate With Overseas Suppliers", item: "https://www.fenalt.com/learn/how-to-communicate-with-overseas-suppliers" },
     ],
   };
 

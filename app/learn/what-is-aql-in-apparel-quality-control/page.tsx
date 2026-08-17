@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "AQL (Acceptable Quality Limit) is the standard statistical inspection method used in garment manufacturing. Learn what AQL 2.5 means and how it protects your brand.",
   alternates: {
-    canonical: "https://fenalt.com/learn/what-is-aql-in-apparel-quality-control",
+    canonical: "https://www.fenalt.com/learn/what-is-aql-in-apparel-quality-control",
   },
   openGraph: {
     title: "What Is AQL in Apparel Quality Control?",
     description:
       "AQL (Acceptable Quality Limit) is the standard statistical inspection method used in garment manufacturing. Learn what AQL 2.5 means and how it protects your brand.",
-    url: "https://fenalt.com/learn/what-is-aql-in-apparel-quality-control",
+    url: "https://www.fenalt.com/learn/what-is-aql-in-apparel-quality-control",
   },
 };
 
@@ -23,18 +23,18 @@ export default function WhatIsAqlPage() {
     "@type": "Article",
     headline: "What Is AQL in Apparel Quality Control?",
     description: "AQL methodology explained for fashion brands - what AQL 2.5 means, how inspection sampling works, and why it matters for bulk production.",
-    author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    url: "https://fenalt.com/learn/what-is-aql-in-apparel-quality-control",
+    author: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    publisher: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    url: "https://www.fenalt.com/learn/what-is-aql-in-apparel-quality-control",
   };
 
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://fenalt.com/resources" },
-      { "@type": "ListItem", position: 3, name: "What Is AQL", item: "https://fenalt.com/learn/what-is-aql-in-apparel-quality-control" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.fenalt.com/resources" },
+      { "@type": "ListItem", position: 3, name: "What Is AQL", item: "https://www.fenalt.com/learn/what-is-aql-in-apparel-quality-control" },
     ],
   };
 

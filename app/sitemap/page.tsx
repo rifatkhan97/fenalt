@@ -25,13 +25,13 @@ export const metadata: Metadata = {
   description:
     "Complete human-readable HTML sitemap and website directory for Fenalt. Explore all commercial apparel manufacturing services, boutique solutions, educational library guides, and trade resources.",
   alternates: {
-    canonical: "https://fenalt.com/sitemap",
+    canonical: "https://www.fenalt.com/sitemap",
   },
   openGraph: {
     title: "HTML Sitemap & Complete Website Directory | Fenalt",
     description:
       "Complete human-readable HTML sitemap and website directory for Fenalt. Explore all commercial apparel manufacturing services, boutique solutions, educational library guides, and trade resources.",
-    url: "https://fenalt.com/sitemap",
+    url: "https://www.fenalt.com/sitemap",
   },
 };
 
@@ -44,13 +44,13 @@ export default function HTMLSitemapPage() {
         "@type": "ListItem",
         position: 1,
         name: "Home",
-        item: "https://fenalt.com",
+        item: "https://www.fenalt.com",
       },
       {
         "@type": "ListItem",
         position: 2,
         name: "Sitemap",
-        item: "https://fenalt.com/sitemap",
+        item: "https://www.fenalt.com/sitemap",
       },
     ],
   };

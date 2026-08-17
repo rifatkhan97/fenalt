@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Explore the crucial intermediate steps between completing your apparel tech pack and launching bulk garment production - from prototype sampling to final pre-production sign-off.",
   alternates: {
-    canonical: "https://fenalt.com/learn/tech-pack-to-bulk-production",
+    canonical: "https://www.fenalt.com/learn/tech-pack-to-bulk-production",
   },
   openGraph: {
     title: "What Happens Between a Tech Pack and Bulk Production?",
     description:
       "Explore the crucial intermediate steps between completing your apparel tech pack and launching bulk garment production - from prototype sampling to final pre-production sign-off.",
-    url: "https://fenalt.com/learn/tech-pack-to-bulk-production",
+    url: "https://www.fenalt.com/learn/tech-pack-to-bulk-production",
   },
 };
 
@@ -24,19 +24,19 @@ export default function TechPackToBulkProductionPage() {
     headline: "What Happens Between a Tech Pack and Bulk Production?",
     description:
       "A step-by-step guide to the product development phase that bridges technical specification documents and full-scale garment manufacturing.",
-    author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    url: "https://fenalt.com/learn/tech-pack-to-bulk-production",
-    mainEntityOfPage: "https://fenalt.com/learn/tech-pack-to-bulk-production",
+    author: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    publisher: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    url: "https://www.fenalt.com/learn/tech-pack-to-bulk-production",
+    mainEntityOfPage: "https://www.fenalt.com/learn/tech-pack-to-bulk-production",
   };
 
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://fenalt.com/resources" },
-      { "@type": "ListItem", position: 3, name: "Tech Pack to Bulk Production", item: "https://fenalt.com/learn/tech-pack-to-bulk-production" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.fenalt.com/resources" },
+      { "@type": "ListItem", position: 3, name: "Tech Pack to Bulk Production", item: "https://www.fenalt.com/learn/tech-pack-to-bulk-production" },
     ],
   };
 

@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Fenalt connects independent fashion designers and founder-led apparel labels with managed micro-factories. Launch capsule collections starting at 50 units with physically audited quality control.",
   alternates: {
-    canonical: "https://fenalt.com/clothing-manufacturer-independent-brands",
+    canonical: "https://www.fenalt.com/clothing-manufacturer-independent-brands",
   },
   openGraph: {
     title: "Clothing Manufacturer for Independent Brands | Fenalt",
     description:
       "Fenalt connects independent fashion designers and founder-led apparel labels with managed micro-factories. Launch capsule collections starting at 50 units with physically audited quality control.",
-    url: "https://fenalt.com/clothing-manufacturer-independent-brands",
+    url: "https://www.fenalt.com/clothing-manufacturer-independent-brands",
   },
 };
 
@@ -25,7 +25,7 @@ export default function IndependentBrandsPage() {
     "provider": {
       "@type": "Organization",
       "name": "Fenalt",
-      "url": "https://fenalt.com",
+      "url": "https://www.fenalt.com",
     },
     "serviceType": "Independent Brand Apparel Manufacturing, Emerging Designer Sourcing, Small Batch Clothing Production",
     "areaServed": ["United States", "United Kingdom", "European Union", "Australia", "Canada"],
@@ -41,13 +41,13 @@ export default function IndependentBrandsPage() {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://fenalt.com",
+        "item": "https://www.fenalt.com",
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Clothing Manufacturer Independent Brands",
-        "item": "https://fenalt.com/clothing-manufacturer-independent-brands",
+        "item": "https://www.fenalt.com/clothing-manufacturer-independent-brands",
       },
     ],
   };

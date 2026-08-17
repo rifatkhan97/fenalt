@@ -6,11 +6,11 @@ export const metadata: Metadata = {
   title: "How to Choose a Clothing Manufacturer for a New Fashion Brand",
   description:
     "A practical decision guide for fashion brands evaluating clothing manufacturers - the criteria that matter, the questions to ask, the red flags to avoid, and how to make the right choice.",
-  alternates: { canonical: "https://fenalt.com/learn/how-to-choose-a-clothing-manufacturer" },
+  alternates: { canonical: "https://www.fenalt.com/learn/how-to-choose-a-clothing-manufacturer" },
   openGraph: {
     title: "How to Choose a Clothing Manufacturer for a New Fashion Brand",
     description: "A practical decision guide for fashion brands evaluating clothing manufacturers - the criteria that matter, the questions to ask, the red flags to avoid, and how to make the right choice.",
-    url: "https://fenalt.com/learn/how-to-choose-a-clothing-manufacturer",
+    url: "https://www.fenalt.com/learn/how-to-choose-a-clothing-manufacturer",
   },
 };
 
@@ -20,18 +20,18 @@ export default function HowToChooseAClothingManufacturerPage() {
     "@type": "Article",
     headline: "How to Choose a Clothing Manufacturer for a New Fashion Brand",
     description: "Decision guide for evaluating and selecting a clothing manufacturer.",
-    author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    url: "https://fenalt.com/learn/how-to-choose-a-clothing-manufacturer",
+    author: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    publisher: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    url: "https://www.fenalt.com/learn/how-to-choose-a-clothing-manufacturer",
   };
 
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://fenalt.com/resources" },
-      { "@type": "ListItem", position: 3, name: "How to Choose a Clothing Manufacturer", item: "https://fenalt.com/learn/how-to-choose-a-clothing-manufacturer" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.fenalt.com/resources" },
+      { "@type": "ListItem", position: 3, name: "How to Choose a Clothing Manufacturer", item: "https://www.fenalt.com/learn/how-to-choose-a-clothing-manufacturer" },
     ],
   };
 

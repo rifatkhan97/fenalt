@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Explore post-production clothing logistics - polybagging, FRI inspection sign-off, container stuffing, ocean vs air freight, customs clearance, and 3PL warehouse intake.",
   alternates: {
-    canonical: "https://fenalt.com/learn/what-happens-after-clothing-manufactured-overseas",
+    canonical: "https://www.fenalt.com/learn/what-happens-after-clothing-manufactured-overseas",
   },
   openGraph: {
     title: "What Happens After Clothing Is Manufactured Overseas?",
     description:
       "Explore post-production clothing logistics - polybagging, FRI inspection sign-off, container stuffing, ocean vs air freight, customs clearance, and 3PL warehouse intake.",
-    url: "https://fenalt.com/learn/what-happens-after-clothing-manufactured-overseas",
+    url: "https://www.fenalt.com/learn/what-happens-after-clothing-manufactured-overseas",
   },
 };
 
@@ -24,19 +24,19 @@ export default function WhatHappensAfterClothingManufacturedOverseasPage() {
     headline: "What Happens After Clothing Is Manufactured Overseas?",
     description:
       "A complete guide to post-production apparel shipping, customs clearance, ocean freight transit, and 3PL warehouse distribution.",
-    author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    url: "https://fenalt.com/learn/what-happens-after-clothing-manufactured-overseas",
-    mainEntityOfPage: "https://fenalt.com/learn/what-happens-after-clothing-manufactured-overseas",
+    author: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    publisher: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    url: "https://www.fenalt.com/learn/what-happens-after-clothing-manufactured-overseas",
+    mainEntityOfPage: "https://www.fenalt.com/learn/what-happens-after-clothing-manufactured-overseas",
   };
 
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://fenalt.com/resources" },
-      { "@type": "ListItem", position: 3, name: "What Happens After Manufacturing", item: "https://fenalt.com/learn/what-happens-after-clothing-manufactured-overseas" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.fenalt.com/resources" },
+      { "@type": "ListItem", position: 3, name: "What Happens After Manufacturing", item: "https://www.fenalt.com/learn/what-happens-after-clothing-manufactured-overseas" },
     ],
   };
 

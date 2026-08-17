@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Explore proven strategies to minimize garment manufacturing defects - implementing poka-yoke jigs, preventative machine maintenance, operator training, and AQL 2.5 auditing.",
   alternates: {
-    canonical: "https://fenalt.com/learn/how-to-reduce-defects-in-apparel-production",
+    canonical: "https://www.fenalt.com/learn/how-to-reduce-defects-in-apparel-production",
   },
   openGraph: {
     title: "How to Reduce Defects in Apparel Production: Factory Guide",
     description:
       "Explore proven strategies to minimize garment manufacturing defects - implementing poka-yoke jigs, preventative machine maintenance, operator training, and AQL 2.5 auditing.",
-    url: "https://fenalt.com/learn/how-to-reduce-defects-in-apparel-production",
+    url: "https://www.fenalt.com/learn/how-to-reduce-defects-in-apparel-production",
   },
 };
 
@@ -24,19 +24,19 @@ export default function HowToReduceDefectsInApparelProductionPage() {
     headline: "How to Reduce Defects in Apparel Production: Factory Guide",
     description:
       "A technical guide to reducing garment defects through Poka-Yoke error proofing, sewing machine maintenance, and operator quality training.",
-    author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    url: "https://fenalt.com/learn/how-to-reduce-defects-in-apparel-production",
-    mainEntityOfPage: "https://fenalt.com/learn/how-to-reduce-defects-in-apparel-production",
+    author: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    publisher: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    url: "https://www.fenalt.com/learn/how-to-reduce-defects-in-apparel-production",
+    mainEntityOfPage: "https://www.fenalt.com/learn/how-to-reduce-defects-in-apparel-production",
   };
 
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://fenalt.com/resources" },
-      { "@type": "ListItem", position: 3, name: "Reduce Defects in Production", item: "https://fenalt.com/learn/how-to-reduce-defects-in-apparel-production" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.fenalt.com/resources" },
+      { "@type": "ListItem", position: 3, name: "Reduce Defects in Production", item: "https://www.fenalt.com/learn/how-to-reduce-defects-in-apparel-production" },
     ],
   };
 

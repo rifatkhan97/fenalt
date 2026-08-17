@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Learn how Final Random Inspection (FRI) works - applying ANSI/ASQ Z1.4 AQL sampling tables, visual defect classification (Critical/Major/Minor), POM audits, and export packaging checks.",
   alternates: {
-    canonical: "https://fenalt.com/learn/final-inspection-finished-garments",
+    canonical: "https://www.fenalt.com/learn/final-inspection-finished-garments",
   },
   openGraph: {
     title: "Final Inspection for Finished Garments: AQL Protocol",
     description:
       "Learn how Final Random Inspection (FRI) works - applying ANSI/ASQ Z1.4 AQL sampling tables, visual defect classification (Critical/Major/Minor), POM audits, and export packaging checks.",
-    url: "https://fenalt.com/learn/final-inspection-finished-garments",
+    url: "https://www.fenalt.com/learn/final-inspection-finished-garments",
   },
 };
 
@@ -24,19 +24,19 @@ export default function FinalInspectionFinishedGarmentsPage() {
     headline: "Final Inspection for Finished Garments: AQL Protocol",
     description:
       "A technical walkthrough of Final Random Inspection (FRI), AQL sampling procedures, and carton export audits.",
-    author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    url: "https://fenalt.com/learn/final-inspection-finished-garments",
-    mainEntityOfPage: "https://fenalt.com/learn/final-inspection-finished-garments",
+    author: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    publisher: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    url: "https://www.fenalt.com/learn/final-inspection-finished-garments",
+    mainEntityOfPage: "https://www.fenalt.com/learn/final-inspection-finished-garments",
   };
 
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://fenalt.com/resources" },
-      { "@type": "ListItem", position: 3, name: "Final Inspection Finished Garments", item: "https://fenalt.com/learn/final-inspection-finished-garments" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.fenalt.com/resources" },
+      { "@type": "ListItem", position: 3, name: "Final Inspection Finished Garments", item: "https://www.fenalt.com/learn/final-inspection-finished-garments" },
     ],
   };
 

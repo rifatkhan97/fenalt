@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Explore the top technical reasons garment samples require multiple revisions - fabric shrinkage, tech pack ambiguities, pattern drafting shifts, wash treatments, and trim calibration.",
   alternates: {
-    canonical: "https://fenalt.com/learn/why-samples-need-multiple-revisions",
+    canonical: "https://www.fenalt.com/learn/why-samples-need-multiple-revisions",
   },
   openGraph: {
     title: "Why Apparel Samples Sometimes Need Multiple Revisions",
     description:
       "Explore the top technical reasons garment samples require multiple revisions - fabric shrinkage, tech pack ambiguities, pattern drafting shifts, wash treatments, and trim calibration.",
-    url: "https://fenalt.com/learn/why-samples-need-multiple-revisions",
+    url: "https://www.fenalt.com/learn/why-samples-need-multiple-revisions",
   },
 };
 
@@ -24,19 +24,19 @@ export default function WhySamplesNeedMultipleRevisionsPage() {
     headline: "Why Apparel Samples Sometimes Need Multiple Revisions",
     description:
       "A technical explanation of why apparel sampling requires multiple iterations and how brands can reduce revision counts.",
-    author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    url: "https://fenalt.com/learn/why-samples-need-multiple-revisions",
-    mainEntityOfPage: "https://fenalt.com/learn/why-samples-need-multiple-revisions",
+    author: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    publisher: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    url: "https://www.fenalt.com/learn/why-samples-need-multiple-revisions",
+    mainEntityOfPage: "https://www.fenalt.com/learn/why-samples-need-multiple-revisions",
   };
 
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://fenalt.com/resources" },
-      { "@type": "ListItem", position: 3, name: "Why Samples Need Multiple Revisions", item: "https://fenalt.com/learn/why-samples-need-multiple-revisions" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.fenalt.com/resources" },
+      { "@type": "ListItem", position: 3, name: "Why Samples Need Multiple Revisions", item: "https://www.fenalt.com/learn/why-samples-need-multiple-revisions" },
     ],
   };
 

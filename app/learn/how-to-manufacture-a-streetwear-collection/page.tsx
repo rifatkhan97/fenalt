@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "A practical guide to manufacturing a streetwear collection - from heavyweight fabric sourcing and oversized pattern creation to drop strategy and small-batch planning.",
   alternates: {
-    canonical: "https://fenalt.com/learn/how-to-manufacture-a-streetwear-collection",
+    canonical: "https://www.fenalt.com/learn/how-to-manufacture-a-streetwear-collection",
   },
   openGraph: {
     title: "How to Manufacture a Streetwear Collection: Step-by-Step Guide",
     description:
       "A practical guide to manufacturing a streetwear collection - from heavyweight fabric sourcing and oversized pattern creation to drop strategy and small-batch planning.",
-    url: "https://fenalt.com/learn/how-to-manufacture-a-streetwear-collection",
+    url: "https://www.fenalt.com/learn/how-to-manufacture-a-streetwear-collection",
   },
 };
 
@@ -24,19 +24,19 @@ export default function HowToManufactureStreetwearCollectionPage() {
     headline: "How to Manufacture a Streetwear Collection: Step-by-Step Guide",
     description:
       "A strategic manufacturing walkthrough for streetwear brands, covering fabric weights, graphic techniques, tech packs, and capsule collection planning.",
-    author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    url: "https://fenalt.com/learn/how-to-manufacture-a-streetwear-collection",
-    mainEntityOfPage: "https://fenalt.com/learn/how-to-manufacture-a-streetwear-collection",
+    author: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    publisher: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    url: "https://www.fenalt.com/learn/how-to-manufacture-a-streetwear-collection",
+    mainEntityOfPage: "https://www.fenalt.com/learn/how-to-manufacture-a-streetwear-collection",
   };
 
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://fenalt.com/resources" },
-      { "@type": "ListItem", position: 3, name: "Manufacture a Streetwear Collection", item: "https://fenalt.com/learn/how-to-manufacture-a-streetwear-collection" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.fenalt.com/resources" },
+      { "@type": "ListItem", position: 3, name: "Manufacture a Streetwear Collection", item: "https://www.fenalt.com/learn/how-to-manufacture-a-streetwear-collection" },
     ],
   };
 

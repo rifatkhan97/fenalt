@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Strategic guide for fashion brands diversifying apparel manufacturing outside China. Move cotton knits, streetwear fleece, and denim production to Dhaka, Bangladesh.",
   alternates: {
-    canonical: "https://fenalt.com/sourcing-garments-outside-china",
+    canonical: "https://www.fenalt.com/sourcing-garments-outside-china",
   },
   openGraph: {
     title: "Sourcing Garments Outside China | Supply Chain Diversification",
     description:
       "Strategic guide for fashion brands diversifying apparel manufacturing outside China. Move cotton knits, streetwear fleece, and denim production to Dhaka, Bangladesh.",
-    url: "https://fenalt.com/sourcing-garments-outside-china",
+    url: "https://www.fenalt.com/sourcing-garments-outside-china",
   },
 };
 
@@ -27,12 +27,12 @@ export default function SourcingOutsideChinaPage() {
     "author": {
       "@type": "Organization",
       "name": "Fenalt",
-      "url": "https://fenalt.com",
+      "url": "https://www.fenalt.com",
     },
     "publisher": {
       "@type": "Organization",
       "name": "Fenalt",
-      "url": "https://fenalt.com",
+      "url": "https://www.fenalt.com",
     },
   };
 
@@ -44,13 +44,13 @@ export default function SourcingOutsideChinaPage() {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://fenalt.com",
+        "item": "https://www.fenalt.com",
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Sourcing Garments Outside China",
-        "item": "https://fenalt.com/sourcing-garments-outside-china",
+        "item": "https://www.fenalt.com/sourcing-garments-outside-china",
       },
     ],
   };

@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Learn how recycled polyester (rPET) is produced, GRS certification requirements, fiber performance in activewear, poly-cotton blends, and environmental considerations.",
   alternates: {
-    canonical: "https://fenalt.com/learn/recycled-polyester-in-clothing-production",
+    canonical: "https://www.fenalt.com/learn/recycled-polyester-in-clothing-production",
   },
   openGraph: {
     title: "Recycled Polyester in Clothing Production: Brand Guide",
     description:
       "Learn how recycled polyester (rPET) is produced, GRS certification requirements, fiber performance in activewear, poly-cotton blends, and environmental considerations.",
-    url: "https://fenalt.com/learn/recycled-polyester-in-clothing-production",
+    url: "https://www.fenalt.com/learn/recycled-polyester-in-clothing-production",
   },
 };
 
@@ -24,19 +24,19 @@ export default function RecycledPolyesterInClothingProductionPage() {
     headline: "Recycled Polyester in Clothing Production: Brand Guide",
     description:
       "A technical guide to recycled polyester (rPET) fiber sourcing, Global Recycled Standard (GRS) compliance, and synthetic fabric performance.",
-    author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    url: "https://fenalt.com/learn/recycled-polyester-in-clothing-production",
-    mainEntityOfPage: "https://fenalt.com/learn/recycled-polyester-in-clothing-production",
+    author: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    publisher: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    url: "https://www.fenalt.com/learn/recycled-polyester-in-clothing-production",
+    mainEntityOfPage: "https://www.fenalt.com/learn/recycled-polyester-in-clothing-production",
   };
 
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://fenalt.com/resources" },
-      { "@type": "ListItem", position: 3, name: "Recycled Polyester in Production", item: "https://fenalt.com/learn/recycled-polyester-in-clothing-production" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.fenalt.com/resources" },
+      { "@type": "ListItem", position: 3, name: "Recycled Polyester in Production", item: "https://www.fenalt.com/learn/recycled-polyester-in-clothing-production" },
     ],
   };
 

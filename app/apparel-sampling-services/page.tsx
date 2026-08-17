@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "End-to-end garment sampling and prototype development services. Pattern making, fit sample creation in 10–14 days, fabric matching, and pre-production approvals.",
   alternates: {
-    canonical: "https://fenalt.com/apparel-sampling-services",
+    canonical: "https://www.fenalt.com/apparel-sampling-services",
   },
   openGraph: {
     title: "Professional Apparel Sampling Services | Fenalt",
     description:
       "End-to-end garment sampling and prototype development services. Pattern making, fit sample creation in 10–14 days, fabric matching, and pre-production approvals.",
-    url: "https://fenalt.com/apparel-sampling-services",
+    url: "https://www.fenalt.com/apparel-sampling-services",
   },
 };
 
@@ -25,7 +25,7 @@ export default function ProfessionalApparelSamplingServicesPage() {
     "provider": {
       "@type": "Organization",
       "name": "Fenalt",
-      "url": "https://fenalt.com",
+      "url": "https://www.fenalt.com",
     },
     "serviceType": "Apparel Prototype Sampling, Fit Sample Development, Pattern Making Services",
     "areaServed": ["United States", "United Kingdom", "European Union", "Australia", "Canada"],
@@ -41,13 +41,13 @@ export default function ProfessionalApparelSamplingServicesPage() {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://fenalt.com",
+        "item": "https://www.fenalt.com",
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Apparel Sampling Services",
-        "item": "https://fenalt.com/apparel-sampling-services",
+        "item": "https://www.fenalt.com/apparel-sampling-services",
       },
     ],
   };

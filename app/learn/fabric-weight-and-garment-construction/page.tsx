@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Explore how fabric weight (GSM) impacts sewing needle selection, seam thread tension, ribbing choices, pattern volume ease, and structural reinforcement.",
   alternates: {
-    canonical: "https://fenalt.com/learn/fabric-weight-and-garment-construction",
+    canonical: "https://www.fenalt.com/learn/fabric-weight-and-garment-construction",
   },
   openGraph: {
     title: "How Fabric Weight Affects Garment Construction",
     description:
       "Explore how fabric weight (GSM) impacts sewing needle selection, seam thread tension, ribbing choices, pattern volume ease, and structural reinforcement.",
-    url: "https://fenalt.com/learn/fabric-weight-and-garment-construction",
+    url: "https://www.fenalt.com/learn/fabric-weight-and-garment-construction",
   },
 };
 
@@ -24,19 +24,19 @@ export default function FabricWeightAndGarmentConstructionPage() {
     headline: "How Fabric Weight Affects Garment Construction",
     description:
       "A technical analysis of how fabric GSM dictates sewing machine needle gauges, thread tension, seam reinforcement, and pattern grading.",
-    author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    url: "https://fenalt.com/learn/fabric-weight-and-garment-construction",
-    mainEntityOfPage: "https://fenalt.com/learn/fabric-weight-and-garment-construction",
+    author: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    publisher: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    url: "https://www.fenalt.com/learn/fabric-weight-and-garment-construction",
+    mainEntityOfPage: "https://www.fenalt.com/learn/fabric-weight-and-garment-construction",
   };
 
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://fenalt.com/resources" },
-      { "@type": "ListItem", position: 3, name: "Fabric Weight and Construction", item: "https://fenalt.com/learn/fabric-weight-and-garment-construction" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.fenalt.com/resources" },
+      { "@type": "ListItem", position: 3, name: "Fabric Weight and Construction", item: "https://www.fenalt.com/learn/fabric-weight-and-garment-construction" },
     ],
   };
 

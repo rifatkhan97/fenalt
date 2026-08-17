@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "A comprehensive checklist of the essential pages, technical specs, callouts, and measurement tables required in a production-ready apparel tech pack.",
   alternates: {
-    canonical: "https://fenalt.com/learn/what-to-include-in-a-tech-pack",
+    canonical: "https://www.fenalt.com/learn/what-to-include-in-a-tech-pack",
   },
   openGraph: {
     title: "What Should Be Included in a Clothing Tech Pack?",
     description:
       "A comprehensive checklist of the essential pages, technical specs, callouts, and measurement tables required in a production-ready apparel tech pack.",
-    url: "https://fenalt.com/learn/what-to-include-in-a-tech-pack",
+    url: "https://www.fenalt.com/learn/what-to-include-in-a-tech-pack",
   },
 };
 
@@ -24,19 +24,19 @@ export default function WhatToIncludeInATechPackPage() {
     headline: "What Should Be Included in a Clothing Tech Pack?",
     description:
       "A complete guide and itemized checklist for creating exhaustive, factory-ready tech packs for fashion brands.",
-    author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    url: "https://fenalt.com/learn/what-to-include-in-a-tech-pack",
-    mainEntityOfPage: "https://fenalt.com/learn/what-to-include-in-a-tech-pack",
+    author: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    publisher: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    url: "https://www.fenalt.com/learn/what-to-include-in-a-tech-pack",
+    mainEntityOfPage: "https://www.fenalt.com/learn/what-to-include-in-a-tech-pack",
   };
 
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://fenalt.com/resources" },
-      { "@type": "ListItem", position: 3, name: "What to Include in a Tech Pack", item: "https://fenalt.com/learn/what-to-include-in-a-tech-pack" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.fenalt.com/resources" },
+      { "@type": "ListItem", position: 3, name: "What to Include in a Tech Pack", item: "https://www.fenalt.com/learn/what-to-include-in-a-tech-pack" },
     ],
   };
 

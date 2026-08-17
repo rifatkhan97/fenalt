@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "An insider's guide to Bangladesh's garment industry - understanding vertical mill integration, Dhaka infrastructure, Chittagong port logistics, duty-free trade benefits, and low MOQs.",
   alternates: {
-    canonical: "https://fenalt.com/learn/how-apparel-manufacturing-in-bangladesh-works",
+    canonical: "https://www.fenalt.com/learn/how-apparel-manufacturing-in-bangladesh-works",
   },
   openGraph: {
     title: "How Apparel Manufacturing in Bangladesh Works",
     description:
       "An insider's guide to Bangladesh's garment industry - understanding vertical mill integration, Dhaka infrastructure, Chittagong port logistics, duty-free trade benefits, and low MOQs.",
-    url: "https://fenalt.com/learn/how-apparel-manufacturing-in-bangladesh-works",
+    url: "https://www.fenalt.com/learn/how-apparel-manufacturing-in-bangladesh-works",
   },
 };
 
@@ -24,19 +24,19 @@ export default function HowApparelManufacturingInBangladeshWorksPage() {
     headline: "How Apparel Manufacturing in Bangladesh Works",
     description:
       "A comprehensive guide to Bangladesh's garment ecosystem, vertical knitting mills, cut-and-sew operations, and global export shipping.",
-    author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    url: "https://fenalt.com/learn/how-apparel-manufacturing-in-bangladesh-works",
-    mainEntityOfPage: "https://fenalt.com/learn/how-apparel-manufacturing-in-bangladesh-works",
+    author: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    publisher: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    url: "https://www.fenalt.com/learn/how-apparel-manufacturing-in-bangladesh-works",
+    mainEntityOfPage: "https://www.fenalt.com/learn/how-apparel-manufacturing-in-bangladesh-works",
   };
 
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://fenalt.com/resources" },
-      { "@type": "ListItem", position: 3, name: "How Manufacturing in Bangladesh Works", item: "https://fenalt.com/learn/how-apparel-manufacturing-in-bangladesh-works" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.fenalt.com/resources" },
+      { "@type": "ListItem", position: 3, name: "How Manufacturing in Bangladesh Works", item: "https://www.fenalt.com/learn/how-apparel-manufacturing-in-bangladesh-works" },
     ],
   };
 

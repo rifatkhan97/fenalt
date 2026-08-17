@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Spot red flags when vetting clothing factories - un-itemized quotes, reluctance to sign NDAs, untraceable subcontracting, upfront payment demands, and missing AQL QC protocols.",
   alternates: {
-    canonical: "https://fenalt.com/learn/warning-signs-of-poor-apparel-manufacturer",
+    canonical: "https://www.fenalt.com/learn/warning-signs-of-poor-apparel-manufacturer",
   },
   openGraph: {
     title: "Warning Signs of a Poor Apparel Manufacturing Partner",
     description:
       "Spot red flags when vetting clothing factories - un-itemized quotes, reluctance to sign NDAs, untraceable subcontracting, upfront payment demands, and missing AQL QC protocols.",
-    url: "https://fenalt.com/learn/warning-signs-of-poor-apparel-manufacturer",
+    url: "https://www.fenalt.com/learn/warning-signs-of-poor-apparel-manufacturer",
   },
 };
 
@@ -24,19 +24,19 @@ export default function WarningSignsOfPoorApparelManufacturerPage() {
     headline: "Warning Signs of a Poor Apparel Manufacturing Partner",
     description:
       "A risk-mitigation guide for fashion brands identifying major red flags during clothing factory vetting.",
-    author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    url: "https://fenalt.com/learn/warning-signs-of-poor-apparel-manufacturer",
-    mainEntityOfPage: "https://fenalt.com/learn/warning-signs-of-poor-apparel-manufacturer",
+    author: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    publisher: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    url: "https://www.fenalt.com/learn/warning-signs-of-poor-apparel-manufacturer",
+    mainEntityOfPage: "https://www.fenalt.com/learn/warning-signs-of-poor-apparel-manufacturer",
   };
 
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://fenalt.com/resources" },
-      { "@type": "ListItem", position: 3, name: "Warning Signs of Poor Manufacturer", item: "https://fenalt.com/learn/warning-signs-of-poor-apparel-manufacturer" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.fenalt.com/resources" },
+      { "@type": "ListItem", position: 3, name: "Warning Signs of Poor Manufacturer", item: "https://www.fenalt.com/learn/warning-signs-of-poor-apparel-manufacturer" },
     ],
   };
 

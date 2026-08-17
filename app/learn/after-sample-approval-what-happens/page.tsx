@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Discover the operational and administrative milestones immediately following sample approval - from golden sample sealing and CAD pattern grading to fabric milling, PO release, and bulk sewing.",
   alternates: {
-    canonical: "https://fenalt.com/learn/after-sample-approval-what-happens",
+    canonical: "https://www.fenalt.com/learn/after-sample-approval-what-happens",
   },
   openGraph: {
     title: "What Happens After a Sample Is Approved?",
     description:
       "Discover the operational and administrative milestones immediately following sample approval - from golden sample sealing and CAD pattern grading to fabric milling, PO release, and bulk sewing.",
-    url: "https://fenalt.com/learn/after-sample-approval-what-happens",
+    url: "https://www.fenalt.com/learn/after-sample-approval-what-happens",
   },
 };
 
@@ -24,19 +24,19 @@ export default function AfterSampleApprovalWhatHappensPage() {
     headline: "What Happens After a Sample Is Approved?",
     description:
       "An operational walkthrough of the transition from sample sign-off to bulk production authorization.",
-    author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    url: "https://fenalt.com/learn/after-sample-approval-what-happens",
-    mainEntityOfPage: "https://fenalt.com/learn/after-sample-approval-what-happens",
+    author: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    publisher: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    url: "https://www.fenalt.com/learn/after-sample-approval-what-happens",
+    mainEntityOfPage: "https://www.fenalt.com/learn/after-sample-approval-what-happens",
   };
 
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://fenalt.com/resources" },
-      { "@type": "ListItem", position: 3, name: "After Sample Approval", item: "https://fenalt.com/learn/after-sample-approval-what-happens" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.fenalt.com/resources" },
+      { "@type": "ListItem", position: 3, name: "After Sample Approval", item: "https://www.fenalt.com/learn/after-sample-approval-what-happens" },
     ],
   };
 

@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Understand the 6 stages of garment quality control - fabric 4-point inspection, pre-production meetings, inline DUPRO, metal detection, and final AQL 2.5 audits.",
   alternates: {
-    canonical: "https://fenalt.com/learn/apparel-quality-control-explained",
+    canonical: "https://www.fenalt.com/learn/apparel-quality-control-explained",
   },
   openGraph: {
     title: "Apparel Quality Control Explained: Complete Framework",
     description:
       "Understand the 6 stages of garment quality control - fabric 4-point inspection, pre-production meetings, inline DUPRO, metal detection, and final AQL 2.5 audits.",
-    url: "https://fenalt.com/learn/apparel-quality-control-explained",
+    url: "https://www.fenalt.com/learn/apparel-quality-control-explained",
   },
 };
 
@@ -24,19 +24,19 @@ export default function ApparelQualityControlExplainedPage() {
     headline: "Apparel Quality Control Explained: Complete Framework",
     description:
       "A technical walkthrough of garment quality control systems, inspection stages, defect classifications, and factory audit practices.",
-    author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    url: "https://fenalt.com/learn/apparel-quality-control-explained",
-    mainEntityOfPage: "https://fenalt.com/learn/apparel-quality-control-explained",
+    author: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    publisher: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    url: "https://www.fenalt.com/learn/apparel-quality-control-explained",
+    mainEntityOfPage: "https://www.fenalt.com/learn/apparel-quality-control-explained",
   };
 
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://fenalt.com/resources" },
-      { "@type": "ListItem", position: 3, name: "Apparel Quality Control Explained", item: "https://fenalt.com/learn/apparel-quality-control-explained" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.fenalt.com/resources" },
+      { "@type": "ListItem", position: 3, name: "Apparel Quality Control Explained", item: "https://www.fenalt.com/learn/apparel-quality-control-explained" },
     ],
   };
 

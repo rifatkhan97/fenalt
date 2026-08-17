@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Explore brand labeling options - woven damask neck labels, tagless heat-transfer neck prints, legal care/content labels, custom hangtags, and retail barcode stickers.",
   alternates: {
-    canonical: "https://fenalt.com/learn/custom-hangtags-neck-labels-apparel",
+    canonical: "https://www.fenalt.com/learn/custom-hangtags-neck-labels-apparel",
   },
   openGraph: {
     title: "Custom Hangtags & Neck Labels in Apparel Manufacturing",
     description:
       "Explore brand labeling options - woven damask neck labels, tagless heat-transfer neck prints, legal care/content labels, custom hangtags, and retail barcode stickers.",
-    url: "https://fenalt.com/learn/custom-hangtags-neck-labels-apparel",
+    url: "https://www.fenalt.com/learn/custom-hangtags-neck-labels-apparel",
   },
 };
 
@@ -24,19 +24,19 @@ export default function CustomHangtagsNeckLabelsApparelPage() {
     headline: "Custom Hangtags & Neck Labels in Apparel Manufacturing",
     description:
       "A technical guide to woven damask labels, heat-seal neck prints, care label legal requirements, and hangtag design.",
-    author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    url: "https://fenalt.com/learn/custom-hangtags-neck-labels-apparel",
-    mainEntityOfPage: "https://fenalt.com/learn/custom-hangtags-neck-labels-apparel",
+    author: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    publisher: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    url: "https://www.fenalt.com/learn/custom-hangtags-neck-labels-apparel",
+    mainEntityOfPage: "https://www.fenalt.com/learn/custom-hangtags-neck-labels-apparel",
   };
 
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://fenalt.com/resources" },
-      { "@type": "ListItem", position: 3, name: "Custom Hangtags and Neck Labels", item: "https://fenalt.com/learn/custom-hangtags-neck-labels-apparel" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.fenalt.com/resources" },
+      { "@type": "ListItem", position: 3, name: "Custom Hangtags and Neck Labels", item: "https://www.fenalt.com/learn/custom-hangtags-neck-labels-apparel" },
     ],
   };
 

@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "A practical guide to drafting accurate garment measurements, defining base size spec tables, establishing POM codes, and setting industrial tolerances for apparel tech packs.",
   alternates: {
-    canonical: "https://fenalt.com/learn/tech-pack-measurements",
+    canonical: "https://www.fenalt.com/learn/tech-pack-measurements",
   },
   openGraph: {
     title: "How to Create Measurements for a Clothing Tech Pack",
     description:
       "A practical guide to drafting accurate garment measurements, defining base size spec tables, establishing POM codes, and setting industrial tolerances for apparel tech packs.",
-    url: "https://fenalt.com/learn/tech-pack-measurements",
+    url: "https://www.fenalt.com/learn/tech-pack-measurements",
   },
 };
 
@@ -24,19 +24,19 @@ export default function TechPackMeasurementsPage() {
     headline: "How to Create Measurements for a Clothing Tech Pack",
     description:
       "A step-by-step technical walkthrough on measuring reference garments and building measurement spec sheets for apparel tech packs.",
-    author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    url: "https://fenalt.com/learn/tech-pack-measurements",
-    mainEntityOfPage: "https://fenalt.com/learn/tech-pack-measurements",
+    author: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    publisher: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    url: "https://www.fenalt.com/learn/tech-pack-measurements",
+    mainEntityOfPage: "https://www.fenalt.com/learn/tech-pack-measurements",
   };
 
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://fenalt.com/resources" },
-      { "@type": "ListItem", position: 3, name: "Tech Pack Measurements", item: "https://fenalt.com/learn/tech-pack-measurements" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.fenalt.com/resources" },
+      { "@type": "ListItem", position: 3, name: "Tech Pack Measurements", item: "https://www.fenalt.com/learn/tech-pack-measurements" },
     ],
   };
 

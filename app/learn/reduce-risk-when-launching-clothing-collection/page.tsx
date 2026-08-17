@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "A risk management framework for new apparel brands - covering pre-order models, sample wash testing, milestone payments, AQL 2.5 quality control, and low MOQ trial runs.",
   alternates: {
-    canonical: "https://fenalt.com/learn/reduce-risk-when-launching-clothing-collection",
+    canonical: "https://www.fenalt.com/learn/reduce-risk-when-launching-clothing-collection",
   },
   openGraph: {
     title: "How to Reduce Risk When Launching a Clothing Collection",
     description:
       "A risk management framework for new apparel brands - covering pre-order models, sample wash testing, milestone payments, AQL 2.5 quality control, and low MOQ trial runs.",
-    url: "https://fenalt.com/learn/reduce-risk-when-launching-clothing-collection",
+    url: "https://www.fenalt.com/learn/reduce-risk-when-launching-clothing-collection",
   },
 };
 
@@ -24,19 +24,19 @@ export default function ReduceRiskWhenLaunchingClothingCollectionPage() {
     headline: "How to Reduce Risk When Launching a Clothing Collection",
     description:
       "A strategic guide for clothing brand founders to mitigate financial, quality, and supply chain risks prior to collection launches.",
-    author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    url: "https://fenalt.com/learn/reduce-risk-when-launching-clothing-collection",
-    mainEntityOfPage: "https://fenalt.com/learn/reduce-risk-when-launching-clothing-collection",
+    author: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    publisher: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    url: "https://www.fenalt.com/learn/reduce-risk-when-launching-clothing-collection",
+    mainEntityOfPage: "https://www.fenalt.com/learn/reduce-risk-when-launching-clothing-collection",
   };
 
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://fenalt.com/resources" },
-      { "@type": "ListItem", position: 3, name: "Reduce Risk When Launching", item: "https://fenalt.com/learn/reduce-risk-when-launching-clothing-collection" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.fenalt.com/resources" },
+      { "@type": "ListItem", position: 3, name: "Reduce Risk When Launching", item: "https://www.fenalt.com/learn/reduce-risk-when-launching-clothing-collection" },
     ],
   };
 

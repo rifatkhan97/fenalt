@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Direct fabric sourcing services in Dhaka, Bangladesh. Access circular deadstock ('Jhoot') fabrics, combed cotton knits, French Terry, and custom mill textiles.",
   alternates: {
-    canonical: "https://fenalt.com/fabric-sourcing-bangladesh",
+    canonical: "https://www.fenalt.com/fabric-sourcing-bangladesh",
   },
   openGraph: {
     title: "Fabric Sourcing Bangladesh | Fenalt",
     description:
       "Direct fabric sourcing services in Dhaka, Bangladesh. Access circular deadstock ('Jhoot') fabrics, combed cotton knits, French Terry, and custom mill textiles.",
-    url: "https://fenalt.com/fabric-sourcing-bangladesh",
+    url: "https://www.fenalt.com/fabric-sourcing-bangladesh",
   },
 };
 
@@ -25,7 +25,7 @@ export default function FabricSourcingBangladeshPage() {
     "provider": {
       "@type": "Organization",
       "name": "Fenalt",
-      "url": "https://fenalt.com",
+      "url": "https://www.fenalt.com",
     },
     "serviceType": "Textile Sourcing Bangladesh, Deadstock Fabric Sourcing, Combed Cotton Knit Procurement",
     "areaServed": ["United States", "United Kingdom", "European Union", "Australia", "Canada"],
@@ -41,13 +41,13 @@ export default function FabricSourcingBangladeshPage() {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://fenalt.com",
+        "item": "https://www.fenalt.com",
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Fabric Sourcing Bangladesh",
-        "item": "https://fenalt.com/fabric-sourcing-bangladesh",
+        "item": "https://www.fenalt.com/fabric-sourcing-bangladesh",
       },
     ],
   };

@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Custom puff print hoodie manufacturing for streetwear brands. Produce 380gsm–480gsm French Terry fleece hoodies with 3D high-density puff printing from 50 units.",
   alternates: {
-    canonical: "https://fenalt.com/puff-print-hoodie-manufacturer",
+    canonical: "https://www.fenalt.com/puff-print-hoodie-manufacturer",
   },
   openGraph: {
     title: "Puff Print Hoodie Manufacturer | Fenalt",
     description:
       "Custom puff print hoodie manufacturing for streetwear brands. Produce 380gsm–480gsm French Terry fleece hoodies with 3D high-density puff printing from 50 units.",
-    url: "https://fenalt.com/puff-print-hoodie-manufacturer",
+    url: "https://www.fenalt.com/puff-print-hoodie-manufacturer",
   },
 };
 
@@ -25,7 +25,7 @@ export default function PuffPrintHoodieManufacturerPage() {
     "provider": {
       "@type": "Organization",
       "name": "Fenalt",
-      "url": "https://fenalt.com",
+      "url": "https://www.fenalt.com",
     },
     "serviceType": "Puff Print Sweatshirt Production, Heavyweight Fleece Hoodie Manufacturing, Streetwear Printing",
     "areaServed": ["United States", "United Kingdom", "European Union", "Australia", "Canada"],
@@ -41,13 +41,13 @@ export default function PuffPrintHoodieManufacturerPage() {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://fenalt.com",
+        "item": "https://www.fenalt.com",
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Puff Print Hoodie Manufacturer",
-        "item": "https://fenalt.com/puff-print-hoodie-manufacturer",
+        "item": "https://www.fenalt.com/puff-print-hoodie-manufacturer",
       },
     ],
   };

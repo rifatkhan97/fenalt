@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Learn how luxury hoodies are manufactured - selecting 400–500+ GSM fleece/French Terry, double-layered hood construction, kangaroo pocket bartacking, and heavy ribbing.",
   alternates: {
-    canonical: "https://fenalt.com/learn/how-to-manufacture-hoodies",
+    canonical: "https://www.fenalt.com/learn/how-to-manufacture-hoodies",
   },
   openGraph: {
     title: "How to Manufacture Hoodies: Complete Technical Guide",
     description:
       "Learn how luxury hoodies are manufactured - selecting 400–500+ GSM fleece/French Terry, double-layered hood construction, kangaroo pocket bartacking, and heavy ribbing.",
-    url: "https://fenalt.com/learn/how-to-manufacture-hoodies",
+    url: "https://www.fenalt.com/learn/how-to-manufacture-hoodies",
   },
 };
 
@@ -24,19 +24,19 @@ export default function HowToManufactureHoodiesPage() {
     headline: "How to Manufacture Hoodies: Complete Technical Guide",
     description:
       "A technical manufacturing guide for heavy luxury streetwear hoodies - covering fleece GSM weights, double-layer hoods, flatlock stitching, and pocket construction.",
-    author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    url: "https://fenalt.com/learn/how-to-manufacture-hoodies",
-    mainEntityOfPage: "https://fenalt.com/learn/how-to-manufacture-hoodies",
+    author: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    publisher: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    url: "https://www.fenalt.com/learn/how-to-manufacture-hoodies",
+    mainEntityOfPage: "https://www.fenalt.com/learn/how-to-manufacture-hoodies",
   };
 
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://fenalt.com/resources" },
-      { "@type": "ListItem", position: 3, name: "How to Manufacture Hoodies", item: "https://fenalt.com/learn/how-to-manufacture-hoodies" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.fenalt.com/resources" },
+      { "@type": "ListItem", position: 3, name: "How to Manufacture Hoodies", item: "https://www.fenalt.com/learn/how-to-manufacture-hoodies" },
     ],
   };
 

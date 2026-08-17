@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Discover how Fenalt manages tech pack translation, micro-factory matching, multi-point on-site quality control, and end-to-end international freight for apparel brands.",
   alternates: {
-    canonical: "https://fenalt.com/operations",
+    canonical: "https://www.fenalt.com/operations",
   },
   openGraph: {
     title: "How Fenalt Operates - On-Site QC & Garment Logistics | Fenalt",
     description:
       "Discover how Fenalt manages tech pack translation, micro-factory matching, multi-point on-site quality control, and end-to-end international freight for apparel brands.",
-    url: "https://fenalt.com/operations",
+    url: "https://www.fenalt.com/operations",
   },
 };
 

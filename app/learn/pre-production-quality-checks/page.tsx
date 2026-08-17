@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Master Pre-Production (PP) quality audits - verifying lab-dip colors, approved golden samples, fabric shrinkage reports, trim cards, and CAD cutting markers.",
   alternates: {
-    canonical: "https://fenalt.com/learn/pre-production-quality-checks",
+    canonical: "https://www.fenalt.com/learn/pre-production-quality-checks",
   },
   openGraph: {
     title: "Pre-Production Quality Checks for Fashion Brands",
     description:
       "Master Pre-Production (PP) quality audits - verifying lab-dip colors, approved golden samples, fabric shrinkage reports, trim cards, and CAD cutting markers.",
-    url: "https://fenalt.com/learn/pre-production-quality-checks",
+    url: "https://www.fenalt.com/learn/pre-production-quality-checks",
   },
 };
 
@@ -24,19 +24,19 @@ export default function PreProductionQualityChecksPage() {
     headline: "Pre-Production Quality Checks for Fashion Brands",
     description:
       "An essential pre-flight quality audit guide for fashion brands prior to authorizing bulk fabric cutting.",
-    author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    url: "https://fenalt.com/learn/pre-production-quality-checks",
-    mainEntityOfPage: "https://fenalt.com/learn/pre-production-quality-checks",
+    author: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    publisher: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    url: "https://www.fenalt.com/learn/pre-production-quality-checks",
+    mainEntityOfPage: "https://www.fenalt.com/learn/pre-production-quality-checks",
   };
 
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://fenalt.com/resources" },
-      { "@type": "ListItem", position: 3, name: "Pre-Production Quality Checks", item: "https://fenalt.com/learn/pre-production-quality-checks" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.fenalt.com/resources" },
+      { "@type": "ListItem", position: 3, name: "Pre-Production Quality Checks", item: "https://www.fenalt.com/learn/pre-production-quality-checks" },
     ],
   };
 

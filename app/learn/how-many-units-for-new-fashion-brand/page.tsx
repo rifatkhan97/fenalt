@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "A realistic unit volume guide for emerging apparel labels - balancing minimum order quantities (MOQs), cash flow, inventory risk, and size ratio distribution.",
   alternates: {
-    canonical: "https://fenalt.com/learn/how-many-units-for-new-fashion-brand",
+    canonical: "https://www.fenalt.com/learn/how-many-units-for-new-fashion-brand",
   },
   openGraph: {
     title: "How Many Units Should a New Fashion Brand Produce?",
     description:
       "A realistic unit volume guide for emerging apparel labels - balancing minimum order quantities (MOQs), cash flow, inventory risk, and size ratio distribution.",
-    url: "https://fenalt.com/learn/how-many-units-for-new-fashion-brand",
+    url: "https://www.fenalt.com/learn/how-many-units-for-new-fashion-brand",
   },
 };
 
@@ -24,19 +24,19 @@ export default function HowManyUnitsForNewFashionBrandPage() {
     headline: "How Many Units Should a New Fashion Brand Produce?",
     description:
       "A practical volume and size-ratio allocation guide for early-stage clothing brands planning their initial production runs.",
-    author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    url: "https://fenalt.com/learn/how-many-units-for-new-fashion-brand",
-    mainEntityOfPage: "https://fenalt.com/learn/how-many-units-for-new-fashion-brand",
+    author: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    publisher: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    url: "https://www.fenalt.com/learn/how-many-units-for-new-fashion-brand",
+    mainEntityOfPage: "https://www.fenalt.com/learn/how-many-units-for-new-fashion-brand",
   };
 
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://fenalt.com/resources" },
-      { "@type": "ListItem", position: 3, name: "Initial Unit Production Volumes", item: "https://fenalt.com/learn/how-many-units-for-new-fashion-brand" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.fenalt.com/resources" },
+      { "@type": "ListItem", position: 3, name: "Initial Unit Production Volumes", item: "https://www.fenalt.com/learn/how-many-units-for-new-fashion-brand" },
     ],
   };
 

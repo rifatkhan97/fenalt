@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Practical guide for relocating garment manufacturing to South Asia. Manage factory pattern transitions, physical sampling in 10–14 days, and Dhaka floor QC.",
   alternates: {
-    canonical: "https://fenalt.com/relocating-apparel-production-south-asia",
+    canonical: "https://www.fenalt.com/relocating-apparel-production-south-asia",
   },
   openGraph: {
     title: "Relocating Apparel Production to South Asia | Fenalt Guide",
     description:
       "Practical guide for relocating garment manufacturing to South Asia. Manage factory pattern transitions, physical sampling in 10–14 days, and Dhaka floor QC.",
-    url: "https://fenalt.com/relocating-apparel-production-south-asia",
+    url: "https://www.fenalt.com/relocating-apparel-production-south-asia",
   },
 };
 
@@ -27,12 +27,12 @@ export default function RelocatingApparelProductionSouthAsiaPage() {
     "author": {
       "@type": "Organization",
       "name": "Fenalt",
-      "url": "https://fenalt.com",
+      "url": "https://www.fenalt.com",
     },
     "publisher": {
       "@type": "Organization",
       "name": "Fenalt",
-      "url": "https://fenalt.com",
+      "url": "https://www.fenalt.com",
     },
   };
 
@@ -44,13 +44,13 @@ export default function RelocatingApparelProductionSouthAsiaPage() {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://fenalt.com",
+        "item": "https://www.fenalt.com",
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Relocating Apparel Production South Asia",
-        "item": "https://fenalt.com/relocating-apparel-production-south-asia",
+        "item": "https://www.fenalt.com/relocating-apparel-production-south-asia",
       },
     ],
   };

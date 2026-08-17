@@ -6,11 +6,11 @@ export const metadata: Metadata = {
   title: "Clothing Manufacturer Due Diligence Checklist",
   description:
     "A structured due diligence checklist for evaluating clothing manufacturers - covering capabilities, quality systems, compliance, references, and financial terms.",
-  alternates: { canonical: "https://fenalt.com/learn/clothing-manufacturer-due-diligence-checklist" },
+  alternates: { canonical: "https://www.fenalt.com/learn/clothing-manufacturer-due-diligence-checklist" },
   openGraph: {
     title: "Clothing Manufacturer Due Diligence Checklist",
     description: "A structured due diligence checklist for evaluating clothing manufacturers - covering capabilities, quality systems, compliance, references, and financial terms.",
-    url: "https://fenalt.com/learn/clothing-manufacturer-due-diligence-checklist",
+    url: "https://www.fenalt.com/learn/clothing-manufacturer-due-diligence-checklist",
   },
 };
 
@@ -20,19 +20,19 @@ export default function ManufacturerDueDiligenceChecklistPage() {
     "@type": "Article",
     headline: "Clothing Manufacturer Due Diligence Checklist",
     description: "Structured due diligence checklist for evaluating and vetting clothing manufacturers.",
-    author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    url: "https://fenalt.com/learn/clothing-manufacturer-due-diligence-checklist",
-    mainEntityOfPage: "https://fenalt.com/learn/clothing-manufacturer-due-diligence-checklist",
+    author: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    publisher: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    url: "https://www.fenalt.com/learn/clothing-manufacturer-due-diligence-checklist",
+    mainEntityOfPage: "https://www.fenalt.com/learn/clothing-manufacturer-due-diligence-checklist",
   };
 
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://fenalt.com/resources" },
-      { "@type": "ListItem", position: 3, name: "Due Diligence Checklist", item: "https://fenalt.com/learn/clothing-manufacturer-due-diligence-checklist" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.fenalt.com/resources" },
+      { "@type": "ListItem", position: 3, name: "Due Diligence Checklist", item: "https://www.fenalt.com/learn/clothing-manufacturer-due-diligence-checklist" },
     ],
   };
 

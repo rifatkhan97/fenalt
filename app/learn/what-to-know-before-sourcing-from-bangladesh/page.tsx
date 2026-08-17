@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Essential pre-sourcing guidance for fashion brands entering Bangladesh - understanding MOQs, lead times, GSP duty-free trade rules, compliance certificates, and deposit payment terms.",
   alternates: {
-    canonical: "https://fenalt.com/learn/what-to-know-before-sourcing-from-bangladesh",
+    canonical: "https://www.fenalt.com/learn/what-to-know-before-sourcing-from-bangladesh",
   },
   openGraph: {
     title: "What to Know Before Sourcing From Bangladesh: Brand Pre-Check",
     description:
       "Essential pre-sourcing guidance for fashion brands entering Bangladesh - understanding MOQs, lead times, GSP duty-free trade rules, compliance certificates, and deposit payment terms.",
-    url: "https://fenalt.com/learn/what-to-know-before-sourcing-from-bangladesh",
+    url: "https://www.fenalt.com/learn/what-to-know-before-sourcing-from-bangladesh",
   },
 };
 
@@ -24,19 +24,19 @@ export default function WhatToKnowBeforeSourcingFromBangladeshPage() {
     headline: "What to Know Before Sourcing From Bangladesh: Brand Pre-Check",
     description:
       "A strategic pre-sourcing checklist for international clothing brands planning production in Bangladesh.",
-    author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    url: "https://fenalt.com/learn/what-to-know-before-sourcing-from-bangladesh",
-    mainEntityOfPage: "https://fenalt.com/learn/what-to-know-before-sourcing-from-bangladesh",
+    author: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    publisher: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    url: "https://www.fenalt.com/learn/what-to-know-before-sourcing-from-bangladesh",
+    mainEntityOfPage: "https://www.fenalt.com/learn/what-to-know-before-sourcing-from-bangladesh",
   };
 
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://fenalt.com/resources" },
-      { "@type": "ListItem", position: 3, name: "What to Know Before Sourcing Bangladesh", item: "https://fenalt.com/learn/what-to-know-before-sourcing-from-bangladesh" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.fenalt.com/resources" },
+      { "@type": "ListItem", position: 3, name: "What to Know Before Sourcing Bangladesh", item: "https://www.fenalt.com/learn/what-to-know-before-sourcing-from-bangladesh" },
     ],
   };
 

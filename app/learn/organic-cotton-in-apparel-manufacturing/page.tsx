@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "A guide to organic cotton in clothing manufacturing - certification standards (GOTS, OCS), water reduction, fabric sourcing, transaction certificates, and realistic mill MOQs.",
   alternates: {
-    canonical: "https://fenalt.com/learn/organic-cotton-in-apparel-manufacturing",
+    canonical: "https://www.fenalt.com/learn/organic-cotton-in-apparel-manufacturing",
   },
   openGraph: {
     title: "Organic Cotton in Apparel Manufacturing: What Brands Should Know",
     description:
       "A guide to organic cotton in clothing manufacturing - certification standards (GOTS, OCS), water reduction, fabric sourcing, transaction certificates, and realistic mill MOQs.",
-    url: "https://fenalt.com/learn/organic-cotton-in-apparel-manufacturing",
+    url: "https://www.fenalt.com/learn/organic-cotton-in-apparel-manufacturing",
   },
 };
 
@@ -24,19 +24,19 @@ export default function OrganicCottonInApparelManufacturingPage() {
     headline: "Organic Cotton in Apparel Manufacturing: What Brands Should Know",
     description:
       "An educational guide on organic cotton fiber sourcing, certification documentation (GOTS/OCS), environmental benefits, and apparel manufacturing considerations.",
-    author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    url: "https://fenalt.com/learn/organic-cotton-in-apparel-manufacturing",
-    mainEntityOfPage: "https://fenalt.com/learn/organic-cotton-in-apparel-manufacturing",
+    author: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    publisher: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    url: "https://www.fenalt.com/learn/organic-cotton-in-apparel-manufacturing",
+    mainEntityOfPage: "https://www.fenalt.com/learn/organic-cotton-in-apparel-manufacturing",
   };
 
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://fenalt.com/resources" },
-      { "@type": "ListItem", position: 3, name: "Organic Cotton in Apparel Manufacturing", item: "https://fenalt.com/learn/organic-cotton-in-apparel-manufacturing" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.fenalt.com/resources" },
+      { "@type": "ListItem", position: 3, name: "Organic Cotton in Apparel Manufacturing", item: "https://www.fenalt.com/learn/organic-cotton-in-apparel-manufacturing" },
     ],
   };
 

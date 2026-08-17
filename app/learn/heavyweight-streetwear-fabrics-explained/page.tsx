@@ -6,11 +6,11 @@ export const metadata: Metadata = {
   title: "Heavyweight Streetwear Fabrics Explained",
   description:
     "A practical guide to the heavyweight fabrics used in premium streetwear - French Terry, loop-back fleece, combed cotton jersey - including GSM ranges, construction types, and what to specify.",
-  alternates: { canonical: "https://fenalt.com/learn/heavyweight-streetwear-fabrics-explained" },
+  alternates: { canonical: "https://www.fenalt.com/learn/heavyweight-streetwear-fabrics-explained" },
   openGraph: {
     title: "Heavyweight Streetwear Fabrics Explained",
     description: "A practical guide to heavyweight streetwear fabrics - French Terry, loop-back fleece, combed cotton jersey - including GSM ranges and what to specify.",
-    url: "https://fenalt.com/learn/heavyweight-streetwear-fabrics-explained",
+    url: "https://www.fenalt.com/learn/heavyweight-streetwear-fabrics-explained",
   },
 };
 
@@ -20,18 +20,18 @@ export default function HeavyweightStreetwearFabricsPage() {
     "@type": "Article",
     headline: "Heavyweight Streetwear Fabrics Explained",
     description: "Guide to heavyweight streetwear fabrics - types, GSM ranges, construction, and what to specify.",
-    author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    url: "https://fenalt.com/learn/heavyweight-streetwear-fabrics-explained",
+    author: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    publisher: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    url: "https://www.fenalt.com/learn/heavyweight-streetwear-fabrics-explained",
   };
 
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://fenalt.com/resources" },
-      { "@type": "ListItem", position: 3, name: "Heavyweight Streetwear Fabrics Explained", item: "https://fenalt.com/learn/heavyweight-streetwear-fabrics-explained" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.fenalt.com/resources" },
+      { "@type": "ListItem", position: 3, name: "Heavyweight Streetwear Fabrics Explained", item: "https://www.fenalt.com/learn/heavyweight-streetwear-fabrics-explained" },
     ],
   };
 

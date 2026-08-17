@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Professional tech pack development and garment spec sheet creation. Translate design sketches into factory-ready production tech packs with full size grading.",
   alternates: {
-    canonical: "https://fenalt.com/tech-pack-development-apparel",
+    canonical: "https://www.fenalt.com/tech-pack-development-apparel",
   },
   openGraph: {
     title: "Tech Pack Development for Apparel | Fenalt",
     description:
       "Professional tech pack development and garment spec sheet creation. Translate design sketches into factory-ready production tech packs with full size grading.",
-    url: "https://fenalt.com/tech-pack-development-apparel",
+    url: "https://www.fenalt.com/tech-pack-development-apparel",
   },
 };
 
@@ -25,7 +25,7 @@ export default function TechPackDevelopmentApparelPage() {
     "provider": {
       "@type": "Organization",
       "name": "Fenalt",
-      "url": "https://fenalt.com",
+      "url": "https://www.fenalt.com",
     },
     "serviceType": "Apparel Tech Pack Creation, Garment Specification Sheets, CAD Pattern Engineering",
     "areaServed": ["United States", "United Kingdom", "European Union", "Australia", "Canada"],
@@ -41,13 +41,13 @@ export default function TechPackDevelopmentApparelPage() {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://fenalt.com",
+        "item": "https://www.fenalt.com",
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Tech Pack Development Apparel",
-        "item": "https://fenalt.com/tech-pack-development-apparel",
+        "item": "https://www.fenalt.com/tech-pack-development-apparel",
       },
     ],
   };

@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Learn how activewear is manufactured - technical polyester/spandex & nylon blends, 4-needle 6-thread flatlock stitching, moisture wicking, squat-proof opacity, and stretch testing.",
   alternates: {
-    canonical: "https://fenalt.com/learn/activewear-manufacturing-guide",
+    canonical: "https://www.fenalt.com/learn/activewear-manufacturing-guide",
   },
   openGraph: {
     title: "Activewear Manufacturing Guide for Fitness Brands",
     description:
       "Learn how activewear is manufactured - technical polyester/spandex & nylon blends, 4-needle 6-thread flatlock stitching, moisture wicking, squat-proof opacity, and stretch testing.",
-    url: "https://fenalt.com/learn/activewear-manufacturing-guide",
+    url: "https://www.fenalt.com/learn/activewear-manufacturing-guide",
   },
 };
 
@@ -24,19 +24,19 @@ export default function ActivewearManufacturingGuidePage() {
     headline: "Activewear Manufacturing Guide for Fitness Brands",
     description:
       "A technical manufacturing guide for athletic wear, leggings, sports bras, and technical activewear.",
-    author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    url: "https://fenalt.com/learn/activewear-manufacturing-guide",
-    mainEntityOfPage: "https://fenalt.com/learn/activewear-manufacturing-guide",
+    author: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    publisher: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    url: "https://www.fenalt.com/learn/activewear-manufacturing-guide",
+    mainEntityOfPage: "https://www.fenalt.com/learn/activewear-manufacturing-guide",
   };
 
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://fenalt.com/resources" },
-      { "@type": "ListItem", position: 3, name: "Activewear Manufacturing Guide", item: "https://fenalt.com/learn/activewear-manufacturing-guide" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.fenalt.com/resources" },
+      { "@type": "ListItem", position: 3, name: "Activewear Manufacturing Guide", item: "https://www.fenalt.com/learn/activewear-manufacturing-guide" },
     ],
   };
 

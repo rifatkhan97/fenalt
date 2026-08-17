@@ -8,13 +8,13 @@ export const metadata: Metadata = {
   description:
     "Explore 88 comprehensive, plain-language technical guides covering garment manufacturing, tech packs, pattern making, sampling, fabrics, quality control, and overseas sourcing.",
   alternates: {
-    canonical: "https://fenalt.com/learn",
+    canonical: "https://www.fenalt.com/learn",
   },
   openGraph: {
     title: "Apparel Manufacturing Educational Library | Fenalt",
     description:
       "Explore 88 comprehensive, plain-language technical guides covering garment manufacturing, tech packs, pattern making, sampling, fabrics, quality control, and overseas sourcing.",
-    url: "https://fenalt.com/learn",
+    url: "https://www.fenalt.com/learn",
   },
 };
 
@@ -128,9 +128,9 @@ export default function LearnLibraryPage() {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Resources", item: "https://fenalt.com/resources" },
-      { "@type": "ListItem", position: 3, name: "Educational Library", item: "https://fenalt.com/learn" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Resources", item: "https://www.fenalt.com/resources" },
+      { "@type": "ListItem", position: 3, name: "Educational Library", item: "https://www.fenalt.com/learn" },
     ],
   };
 

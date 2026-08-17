@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "Fenalt Privacy Policy. Learn how we collect, use, and protect your personal information.",
   alternates: {
-    canonical: "https://fenalt.com/privacy",
+    canonical: "https://www.fenalt.com/privacy",
   },
 };
 

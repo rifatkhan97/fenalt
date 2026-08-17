@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Custom sweatshirt and crewneck manufacturing in Dhaka, Bangladesh. Produce 350gsm–480gsm French Terry pullover sweatshirts from 50 units with managed QC.",
   alternates: {
-    canonical: "https://fenalt.com/sweatshirt-manufacturer-bangladesh",
+    canonical: "https://www.fenalt.com/sweatshirt-manufacturer-bangladesh",
   },
   openGraph: {
     title: "Sweatshirt Manufacturer Bangladesh | Fenalt",
     description:
       "Custom sweatshirt and crewneck manufacturing in Dhaka, Bangladesh. Produce 350gsm–480gsm French Terry pullover sweatshirts from 50 units with managed QC.",
-    url: "https://fenalt.com/sweatshirt-manufacturer-bangladesh",
+    url: "https://www.fenalt.com/sweatshirt-manufacturer-bangladesh",
   },
 };
 
@@ -25,7 +25,7 @@ export default function SweatshirtManufacturerBangladeshPage() {
     "provider": {
       "@type": "Organization",
       "name": "Fenalt",
-      "url": "https://fenalt.com",
+      "url": "https://www.fenalt.com",
     },
     "serviceType": "Sweatshirt Manufacturing, Crewneck Fleece Production, Heavyweight Pullover Manufacturing",
     "areaServed": ["United States", "United Kingdom", "European Union", "Australia", "Canada"],
@@ -41,13 +41,13 @@ export default function SweatshirtManufacturerBangladeshPage() {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://fenalt.com",
+        "item": "https://www.fenalt.com",
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Sweatshirt Manufacturer Bangladesh",
-        "item": "https://fenalt.com/sweatshirt-manufacturer-bangladesh",
+        "item": "https://www.fenalt.com/sweatshirt-manufacturer-bangladesh",
       },
     ],
   };

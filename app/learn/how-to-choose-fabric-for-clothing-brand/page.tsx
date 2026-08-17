@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Learn how to select the right fabric for your apparel line - evaluating fiber content, weight (GSM), drape, stretch, shrinkage, mill MOQs, and manufacturing cost.",
   alternates: {
-    canonical: "https://fenalt.com/learn/how-to-choose-fabric-for-clothing-brand",
+    canonical: "https://www.fenalt.com/learn/how-to-choose-fabric-for-clothing-brand",
   },
   openGraph: {
     title: "How to Choose Fabric for a Clothing Brand: Complete Guide",
     description:
       "Learn how to select the right fabric for your apparel line - evaluating fiber content, weight (GSM), drape, stretch, shrinkage, mill MOQs, and manufacturing cost.",
-    url: "https://fenalt.com/learn/how-to-choose-fabric-for-clothing-brand",
+    url: "https://www.fenalt.com/learn/how-to-choose-fabric-for-clothing-brand",
   },
 };
 
@@ -24,19 +24,19 @@ export default function HowToChooseFabricForClothingBrandPage() {
     headline: "How to Choose Fabric for a Clothing Brand: Complete Guide",
     description:
       "A strategic decision guide for fashion brand founders on selecting knitted and woven fabrics based on category, GSM weight, and garment performance.",
-    author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    url: "https://fenalt.com/learn/how-to-choose-fabric-for-clothing-brand",
-    mainEntityOfPage: "https://fenalt.com/learn/how-to-choose-fabric-for-clothing-brand",
+    author: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    publisher: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    url: "https://www.fenalt.com/learn/how-to-choose-fabric-for-clothing-brand",
+    mainEntityOfPage: "https://www.fenalt.com/learn/how-to-choose-fabric-for-clothing-brand",
   };
 
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://fenalt.com/resources" },
-      { "@type": "ListItem", position: 3, name: "How to Choose Fabric", item: "https://fenalt.com/learn/how-to-choose-fabric-for-clothing-brand" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.fenalt.com/resources" },
+      { "@type": "ListItem", position: 3, name: "How to Choose Fabric", item: "https://www.fenalt.com/learn/how-to-choose-fabric-for-clothing-brand" },
     ],
   };
 

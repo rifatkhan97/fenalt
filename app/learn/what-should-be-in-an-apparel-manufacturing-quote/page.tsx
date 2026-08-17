@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Learn how to review garment manufacturing FOB quotes - itemized fabric yields, cut-and-sew labor, printing surcharges, packaging, Incoterms shipping terms, and payment milestones.",
   alternates: {
-    canonical: "https://fenalt.com/learn/what-should-be-in-an-apparel-manufacturing-quote",
+    canonical: "https://www.fenalt.com/learn/what-should-be-in-an-apparel-manufacturing-quote",
   },
   openGraph: {
     title: "What Should Be Included in an Apparel Manufacturing Quote?",
     description:
       "Learn how to review garment manufacturing FOB quotes - itemized fabric yields, cut-and-sew labor, printing surcharges, packaging, Incoterms shipping terms, and payment milestones.",
-    url: "https://fenalt.com/learn/what-should-be-in-an-apparel-manufacturing-quote",
+    url: "https://www.fenalt.com/learn/what-should-be-in-an-apparel-manufacturing-quote",
   },
 };
 
@@ -24,19 +24,19 @@ export default function WhatShouldBeInAnApparelManufacturingQuotePage() {
     headline: "What Should Be Included in an Apparel Manufacturing Quote?",
     description:
       "A technical guide for fashion brands on auditing manufacturer FOB price quotations and line-item cost structures.",
-    author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    url: "https://fenalt.com/learn/what-should-be-in-an-apparel-manufacturing-quote",
-    mainEntityOfPage: "https://fenalt.com/learn/what-should-be-in-an-apparel-manufacturing-quote",
+    author: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    publisher: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    url: "https://www.fenalt.com/learn/what-should-be-in-an-apparel-manufacturing-quote",
+    mainEntityOfPage: "https://www.fenalt.com/learn/what-should-be-in-an-apparel-manufacturing-quote",
   };
 
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://fenalt.com/resources" },
-      { "@type": "ListItem", position: 3, name: "Manufacturing Quote Requirements", item: "https://fenalt.com/learn/what-should-be-in-an-apparel-manufacturing-quote" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.fenalt.com/resources" },
+      { "@type": "ListItem", position: 3, name: "Manufacturing Quote Requirements", item: "https://www.fenalt.com/learn/what-should-be-in-an-apparel-manufacturing-quote" },
     ],
   };
 

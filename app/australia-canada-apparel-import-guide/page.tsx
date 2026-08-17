@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Guide for Australian and Canadian fashion brands importing clothing from Bangladesh. Preferential tariff trade, customs clearance, and DDP freight handling.",
   alternates: {
-    canonical: "https://fenalt.com/australia-canada-apparel-import-guide",
+    canonical: "https://www.fenalt.com/australia-canada-apparel-import-guide",
   },
   openGraph: {
     title: "Australia & Canada Apparel Import Guide | Fenalt",
     description:
       "Guide for Australian and Canadian fashion brands importing clothing from Bangladesh. Preferential tariff trade, customs clearance, and DDP freight handling.",
-    url: "https://fenalt.com/australia-canada-apparel-import-guide",
+    url: "https://www.fenalt.com/australia-canada-apparel-import-guide",
   },
 };
 
@@ -27,12 +27,12 @@ export default function AustraliaCanadaApparelImportGuidePage() {
     "author": {
       "@type": "Organization",
       "name": "Fenalt",
-      "url": "https://fenalt.com",
+      "url": "https://www.fenalt.com",
     },
     "publisher": {
       "@type": "Organization",
       "name": "Fenalt",
-      "url": "https://fenalt.com",
+      "url": "https://www.fenalt.com",
     },
   };
 
@@ -44,13 +44,13 @@ export default function AustraliaCanadaApparelImportGuidePage() {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://fenalt.com",
+        "item": "https://www.fenalt.com",
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Australia Canada Apparel Import Guide",
-        "item": "https://fenalt.com/australia-canada-apparel-import-guide",
+        "item": "https://www.fenalt.com/australia-canada-apparel-import-guide",
       },
     ],
   };

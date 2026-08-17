@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Specialized clothing production for Instagram and TikTok fashion brands. Fast sample drops from 50 units, custom streetwear knits, and managed quality control.",
   alternates: {
-    canonical: "https://fenalt.com/clothing-production-for-instagram-brands",
+    canonical: "https://www.fenalt.com/clothing-production-for-instagram-brands",
   },
   openGraph: {
     title: "Clothing Production for Instagram Brands | Fenalt",
     description:
       "Specialized clothing production for Instagram and TikTok fashion brands. Fast sample drops from 50 units, custom streetwear knits, and managed quality control.",
-    url: "https://fenalt.com/clothing-production-for-instagram-brands",
+    url: "https://www.fenalt.com/clothing-production-for-instagram-brands",
   },
 };
 
@@ -25,7 +25,7 @@ export default function InstagramBrandProductionPage() {
     "provider": {
       "@type": "Organization",
       "name": "Fenalt",
-      "url": "https://fenalt.com",
+      "url": "https://www.fenalt.com",
     },
     "serviceType": "Social DTC Apparel Manufacturing, Small Batch Drop Sourcing, Streetwear Production",
     "areaServed": ["United States", "United Kingdom", "European Union", "Australia", "Canada"],
@@ -41,13 +41,13 @@ export default function InstagramBrandProductionPage() {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://fenalt.com",
+        "item": "https://www.fenalt.com",
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Clothing Production for Instagram Brands",
-        "item": "https://fenalt.com/clothing-production-for-instagram-brands",
+        "item": "https://www.fenalt.com/clothing-production-for-instagram-brands",
       },
     ],
   };

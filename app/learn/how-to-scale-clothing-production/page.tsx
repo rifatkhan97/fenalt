@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Learn how to transition from small-batch initial orders to scaled bulk production - managing supply chain capacity, custom fabric knits, greige reserves, and working capital.",
   alternates: {
-    canonical: "https://fenalt.com/learn/how-to-scale-clothing-production",
+    canonical: "https://www.fenalt.com/learn/how-to-scale-clothing-production",
   },
   openGraph: {
     title: "How to Scale Clothing Production After a Successful First Run",
     description:
       "Learn how to transition from small-batch initial orders to scaled bulk production - managing supply chain capacity, custom fabric knits, greige reserves, and working capital.",
-    url: "https://fenalt.com/learn/how-to-scale-clothing-production",
+    url: "https://www.fenalt.com/learn/how-to-scale-clothing-production",
   },
 };
 
@@ -24,19 +24,19 @@ export default function HowToScaleClothingProductionPage() {
     headline: "How to Scale Clothing Production After a Successful First Run",
     description:
       "A strategic operational roadmap for scaling apparel manufacturing from initial trial runs to multi-thousand unit production volumes.",
-    author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    url: "https://fenalt.com/learn/how-to-scale-clothing-production",
-    mainEntityOfPage: "https://fenalt.com/learn/how-to-scale-clothing-production",
+    author: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    publisher: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    url: "https://www.fenalt.com/learn/how-to-scale-clothing-production",
+    mainEntityOfPage: "https://www.fenalt.com/learn/how-to-scale-clothing-production",
   };
 
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://fenalt.com/resources" },
-      { "@type": "ListItem", position: 3, name: "Scale Clothing Production", item: "https://fenalt.com/learn/how-to-scale-clothing-production" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.fenalt.com/resources" },
+      { "@type": "ListItem", position: 3, name: "Scale Clothing Production", item: "https://www.fenalt.com/learn/how-to-scale-clothing-production" },
     ],
   };
 

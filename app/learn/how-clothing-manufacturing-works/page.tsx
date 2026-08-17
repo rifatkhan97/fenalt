@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "A complete, plain-language guide to how clothing manufacturing works - from initial design sketches and tech packs through sampling, production, quality control, and export.",
   alternates: {
-    canonical: "https://fenalt.com/learn/how-clothing-manufacturing-works",
+    canonical: "https://www.fenalt.com/learn/how-clothing-manufacturing-works",
   },
   openGraph: {
     title: "How Clothing Manufacturing Works: From Design to Finished Garment",
     description:
       "A complete, plain-language guide to how clothing manufacturing works - from initial design sketches and tech packs through sampling, production, quality control, and export.",
-    url: "https://fenalt.com/learn/how-clothing-manufacturing-works",
+    url: "https://www.fenalt.com/learn/how-clothing-manufacturing-works",
   },
 };
 
@@ -27,28 +27,28 @@ export default function HowClothingManufacturingWorksPage() {
     author: {
       "@type": "Organization",
       name: "Fenalt",
-      url: "https://fenalt.com",
+      url: "https://www.fenalt.com",
     },
     publisher: {
       "@type": "Organization",
       name: "Fenalt",
-      url: "https://fenalt.com",
+      url: "https://www.fenalt.com",
     },
-    url: "https://fenalt.com/learn/how-clothing-manufacturing-works",
-    mainEntityOfPage: "https://fenalt.com/learn/how-clothing-manufacturing-works",
+    url: "https://www.fenalt.com/learn/how-clothing-manufacturing-works",
+    mainEntityOfPage: "https://www.fenalt.com/learn/how-clothing-manufacturing-works",
   };
 
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://fenalt.com/resources" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.fenalt.com/resources" },
       {
         "@type": "ListItem",
         position: 3,
         name: "How Clothing Manufacturing Works",
-        item: "https://fenalt.com/learn/how-clothing-manufacturing-works",
+        item: "https://www.fenalt.com/learn/how-clothing-manufacturing-works",
       },
     ],
   };

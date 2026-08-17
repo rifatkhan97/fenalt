@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Learn how to audit fabric quality prior to bulk sewing - evaluating GSM weight accuracy, dimensional shrinkage, colorfastness, pilling resistance, and 4-Point System roll inspection.",
   alternates: {
-    canonical: "https://fenalt.com/learn/how-to-evaluate-fabric-quality",
+    canonical: "https://www.fenalt.com/learn/how-to-evaluate-fabric-quality",
   },
   openGraph: {
     title: "How to Evaluate Fabric Quality Before Bulk Production",
     description:
       "Learn how to audit fabric quality prior to bulk sewing - evaluating GSM weight accuracy, dimensional shrinkage, colorfastness, pilling resistance, and 4-Point System roll inspection.",
-    url: "https://fenalt.com/learn/how-to-evaluate-fabric-quality",
+    url: "https://www.fenalt.com/learn/how-to-evaluate-fabric-quality",
   },
 };
 
@@ -24,19 +24,19 @@ export default function HowToEvaluateFabricQualityPage() {
     headline: "How to Evaluate Fabric Quality Before Bulk Production",
     description:
       "A technical fabric testing guide covering GSM verification, lab-dip color matching, skewing/bowing, and lab wash audits.",
-    author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    url: "https://fenalt.com/learn/how-to-evaluate-fabric-quality",
-    mainEntityOfPage: "https://fenalt.com/learn/how-to-evaluate-fabric-quality",
+    author: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    publisher: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    url: "https://www.fenalt.com/learn/how-to-evaluate-fabric-quality",
+    mainEntityOfPage: "https://www.fenalt.com/learn/how-to-evaluate-fabric-quality",
   };
 
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://fenalt.com/resources" },
-      { "@type": "ListItem", position: 3, name: "Evaluate Fabric Quality", item: "https://fenalt.com/learn/how-to-evaluate-fabric-quality" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.fenalt.com/resources" },
+      { "@type": "ListItem", position: 3, name: "Evaluate Fabric Quality", item: "https://www.fenalt.com/learn/how-to-evaluate-fabric-quality" },
     ],
   };
 

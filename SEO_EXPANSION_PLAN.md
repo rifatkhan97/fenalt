@@ -36,16 +36,16 @@ Phase 2 SEO Expansion focuses exclusively on high-intent, commercially valuable 
 
 ## 3. PROPOSED PHASE 2 NEW URLS (10 APPROVED PAGES)
 
-1. `https://fenalt.com/custom-streetwear-manufacturer-bangladesh`
-2. `https://fenalt.com/sweatshirt-manufacturer-bangladesh`
-3. `https://fenalt.com/cut-and-sew-clothing-manufacturer-bangladesh`
-4. `https://fenalt.com/private-label-streetwear-manufacturer`
-5. `https://fenalt.com/sustainable-streetwear-manufacturing`
-6. `https://fenalt.com/apparel-pattern-making-services`
-7. `https://fenalt.com/clothing-manufacturer-luxury-brands`
-8. `https://fenalt.com/custom-embroidery-apparel-manufacturing`
-9. `https://fenalt.com/eu-apparel-import-considerations`
-10. `https://fenalt.com/garment-packaging-custom-labeling-services`
+1. `https://www.fenalt.com/custom-streetwear-manufacturer-bangladesh`
+2. `https://www.fenalt.com/sweatshirt-manufacturer-bangladesh`
+3. `https://www.fenalt.com/cut-and-sew-clothing-manufacturer-bangladesh`
+4. `https://www.fenalt.com/private-label-streetwear-manufacturer`
+5. `https://www.fenalt.com/sustainable-streetwear-manufacturing`
+6. `https://www.fenalt.com/apparel-pattern-making-services`
+7. `https://www.fenalt.com/clothing-manufacturer-luxury-brands`
+8. `https://www.fenalt.com/custom-embroidery-apparel-manufacturing`
+9. `https://www.fenalt.com/eu-apparel-import-considerations`
+10. `https://www.fenalt.com/garment-packaging-custom-labeling-services`
 
 ---
 

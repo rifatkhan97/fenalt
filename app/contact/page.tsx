@@ -6,13 +6,13 @@ export const metadata: Metadata = {
   description:
     "Get in touch with Fenalt's operational team in Dhaka. Inquire about factory partnerships, supply chain management, micro-factory sourcing, or press inquiries.",
   alternates: {
-    canonical: "https://fenalt.com/contact",
+    canonical: "https://www.fenalt.com/contact",
   },
   openGraph: {
     title: "Contact Fenalt - B2B Manufacturing & Factory Partnerships | Fenalt",
     description:
       "Get in touch with Fenalt's operational team in Dhaka. Inquire about factory partnerships, supply chain management, micro-factory sourcing, or press inquiries.",
-    url: "https://fenalt.com/contact",
+    url: "https://www.fenalt.com/contact",
   },
 };
 

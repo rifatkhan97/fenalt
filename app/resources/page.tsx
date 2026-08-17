@@ -8,13 +8,13 @@ export const metadata: Metadata = {
   description:
     "Comprehensive directory of garment manufacturing guides, trade & tariff resources, Bangladesh sourcing insights, and eco-textile guides for apparel brand founders.",
   alternates: {
-    canonical: "https://fenalt.com/resources",
+    canonical: "https://www.fenalt.com/resources",
   },
   openGraph: {
     title: "Manufacturing & Sourcing Resources Hub | Fenalt",
     description:
       "Comprehensive directory of garment manufacturing guides, trade & tariff resources, Bangladesh sourcing insights, and eco-textile guides for apparel brand founders.",
-    url: "https://fenalt.com/resources",
+    url: "https://www.fenalt.com/resources",
   },
 };
 
@@ -132,13 +132,13 @@ export default function ResourcesHubPage() {
         "@type": "ListItem",
         position: 1,
         name: "Home",
-        item: "https://fenalt.com",
+        item: "https://www.fenalt.com",
       },
       {
         "@type": "ListItem",
         position: 2,
         name: "Resources Hub",
-        item: "https://fenalt.com/resources",
+        item: "https://www.fenalt.com/resources",
       },
     ],
   };

@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Compare custom embroidery against screen printing - evaluating aesthetic appeal, fabric weight requirements, longevity, pricing structures, and best garment use-cases.",
   alternates: {
-    canonical: "https://fenalt.com/learn/embroidery-vs-screen-printing-apparel",
+    canonical: "https://www.fenalt.com/learn/embroidery-vs-screen-printing-apparel",
   },
   openGraph: {
     title: "Embroidery vs Screen Printing for Clothing Brands",
     description:
       "Compare custom embroidery against screen printing - evaluating aesthetic appeal, fabric weight requirements, longevity, pricing structures, and best garment use-cases.",
-    url: "https://fenalt.com/learn/embroidery-vs-screen-printing-apparel",
+    url: "https://www.fenalt.com/learn/embroidery-vs-screen-printing-apparel",
   },
 };
 
@@ -24,19 +24,19 @@ export default function EmbroideryVsScreenPrintingApparelPage() {
     headline: "Embroidery vs Screen Printing for Clothing Brands",
     description:
       "A technical comparison of custom embroidery vs screen printing in apparel manufacturing.",
-    author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    url: "https://fenalt.com/learn/embroidery-vs-screen-printing-apparel",
-    mainEntityOfPage: "https://fenalt.com/learn/embroidery-vs-screen-printing-apparel",
+    author: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    publisher: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    url: "https://www.fenalt.com/learn/embroidery-vs-screen-printing-apparel",
+    mainEntityOfPage: "https://www.fenalt.com/learn/embroidery-vs-screen-printing-apparel",
   };
 
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://fenalt.com/resources" },
-      { "@type": "ListItem", position: 3, name: "Embroidery vs Screen Printing", item: "https://fenalt.com/learn/embroidery-vs-screen-printing-apparel" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.fenalt.com/resources" },
+      { "@type": "ListItem", position: 3, name: "Embroidery vs Screen Printing", item: "https://www.fenalt.com/learn/embroidery-vs-screen-printing-apparel" },
     ],
   };
 

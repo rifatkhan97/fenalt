@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Performance activewear and athletic clothing manufacturing in Dhaka, Bangladesh. Custom leggings, sports bras, moisture-wicking tops, and seamless flatlock stitching.",
   alternates: {
-    canonical: "https://fenalt.com/activewear-manufacturing-bangladesh",
+    canonical: "https://www.fenalt.com/activewear-manufacturing-bangladesh",
   },
   openGraph: {
     title: "Activewear Manufacturing Bangladesh | Fenalt",
     description:
       "Performance activewear and athletic clothing manufacturing in Dhaka, Bangladesh. Custom leggings, sports bras, moisture-wicking tops, and seamless flatlock stitching.",
-    url: "https://fenalt.com/activewear-manufacturing-bangladesh",
+    url: "https://www.fenalt.com/activewear-manufacturing-bangladesh",
   },
 };
 
@@ -25,7 +25,7 @@ export default function ActivewearManufacturingBangladeshPage() {
     "provider": {
       "@type": "Organization",
       "name": "Fenalt",
-      "url": "https://fenalt.com",
+      "url": "https://www.fenalt.com",
     },
     "serviceType": "Athletic Clothing Production, Performance Activewear Manufacturing, Flatlock Seam Sourcing",
     "areaServed": ["United States", "United Kingdom", "European Union", "Australia", "Canada"],
@@ -41,13 +41,13 @@ export default function ActivewearManufacturingBangladeshPage() {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://fenalt.com",
+        "item": "https://www.fenalt.com",
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Activewear Manufacturing Bangladesh",
-        "item": "https://fenalt.com/activewear-manufacturing-bangladesh",
+        "item": "https://www.fenalt.com/activewear-manufacturing-bangladesh",
       },
     ],
   };

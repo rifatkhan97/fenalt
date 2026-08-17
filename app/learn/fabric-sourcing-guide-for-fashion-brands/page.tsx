@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Master fabric procurement - working with textile mills, understanding greige fabric stock, negotiating minimums (MOQs), approving lab-dips, and managing lead times.",
   alternates: {
-    canonical: "https://fenalt.com/learn/fabric-sourcing-guide-for-fashion-brands",
+    canonical: "https://www.fenalt.com/learn/fabric-sourcing-guide-for-fashion-brands",
   },
   openGraph: {
     title: "Fabric Sourcing Guide for Fashion Brands: Step-by-Step",
     description:
       "Master fabric procurement - working with textile mills, understanding greige fabric stock, negotiating minimums (MOQs), approving lab-dips, and managing lead times.",
-    url: "https://fenalt.com/learn/fabric-sourcing-guide-for-fashion-brands",
+    url: "https://www.fenalt.com/learn/fabric-sourcing-guide-for-fashion-brands",
   },
 };
 
@@ -24,19 +24,19 @@ export default function FabricSourcingGuideForFashionBrandsPage() {
     headline: "Fabric Sourcing Guide for Fashion Brands: Step-by-Step",
     description:
       "A strategic guide for apparel founders on navigating textile mills, fabric agents, stock vs custom milling, and lead times.",
-    author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    url: "https://fenalt.com/learn/fabric-sourcing-guide-for-fashion-brands",
-    mainEntityOfPage: "https://fenalt.com/learn/fabric-sourcing-guide-for-fashion-brands",
+    author: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    publisher: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    url: "https://www.fenalt.com/learn/fabric-sourcing-guide-for-fashion-brands",
+    mainEntityOfPage: "https://www.fenalt.com/learn/fabric-sourcing-guide-for-fashion-brands",
   };
 
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://fenalt.com/resources" },
-      { "@type": "ListItem", position: 3, name: "Fabric Sourcing Guide", item: "https://fenalt.com/learn/fabric-sourcing-guide-for-fashion-brands" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.fenalt.com/resources" },
+      { "@type": "ListItem", position: 3, name: "Fabric Sourcing Guide", item: "https://www.fenalt.com/learn/fabric-sourcing-guide-for-fashion-brands" },
     ],
   };
 

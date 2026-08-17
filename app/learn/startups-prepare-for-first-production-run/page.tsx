@@ -6,11 +6,11 @@ export const metadata: Metadata = {
   title: "How Startups Can Prepare for Their First Production Run",
   description:
     "A step-by-step preparation guide for fashion startups approaching their first clothing production run - what to have ready, what to expect, and how to reduce risk.",
-  alternates: { canonical: "https://fenalt.com/learn/startups-prepare-for-first-production-run" },
+  alternates: { canonical: "https://www.fenalt.com/learn/startups-prepare-for-first-production-run" },
   openGraph: {
     title: "How Startups Can Prepare for Their First Production Run",
     description: "A step-by-step preparation guide for fashion startups approaching their first clothing production run - what to have ready, what to expect, and how to reduce risk.",
-    url: "https://fenalt.com/learn/startups-prepare-for-first-production-run",
+    url: "https://www.fenalt.com/learn/startups-prepare-for-first-production-run",
   },
 };
 
@@ -20,18 +20,18 @@ export default function StartupsPrepareForFirstProductionRunPage() {
     "@type": "Article",
     headline: "How Startups Can Prepare for Their First Production Run",
     description: "Step-by-step preparation guide for fashion startups approaching their first clothing production run.",
-    author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    url: "https://fenalt.com/learn/startups-prepare-for-first-production-run",
+    author: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    publisher: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    url: "https://www.fenalt.com/learn/startups-prepare-for-first-production-run",
   };
 
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://fenalt.com/resources" },
-      { "@type": "ListItem", position: 3, name: "Startups Prepare for First Production Run", item: "https://fenalt.com/learn/startups-prepare-for-first-production-run" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.fenalt.com/resources" },
+      { "@type": "ListItem", position: 3, name: "Startups Prepare for First Production Run", item: "https://www.fenalt.com/learn/startups-prepare-for-first-production-run" },
     ],
   };
 

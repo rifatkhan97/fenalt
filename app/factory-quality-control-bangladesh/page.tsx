@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "On-site garment quality control services in Dhaka, Bangladesh. In-line stitching audits, measurement tolerance verification (±1.5cm), needle detection, and AQL 2.5 inspections.",
   alternates: {
-    canonical: "https://fenalt.com/factory-quality-control-bangladesh",
+    canonical: "https://www.fenalt.com/factory-quality-control-bangladesh",
   },
   openGraph: {
     title: "Factory Quality Control Bangladesh | Fenalt",
     description:
       "On-site garment quality control services in Dhaka, Bangladesh. In-line stitching audits, measurement tolerance verification (±1.5cm), needle detection, and AQL 2.5 inspections.",
-    url: "https://fenalt.com/factory-quality-control-bangladesh",
+    url: "https://www.fenalt.com/factory-quality-control-bangladesh",
   },
 };
 
@@ -25,7 +25,7 @@ export default function FactoryQualityControlBangladeshPage() {
     "provider": {
       "@type": "Organization",
       "name": "Fenalt",
-      "url": "https://fenalt.com",
+      "url": "https://www.fenalt.com",
     },
     "serviceType": "Garment Quality Inspection, In-Line Factory Audits, ANSI/ASQ Z1.4 AQL Auditing in Dhaka",
     "areaServed": ["United States", "United Kingdom", "European Union", "Australia", "Canada"],
@@ -41,13 +41,13 @@ export default function FactoryQualityControlBangladeshPage() {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://fenalt.com",
+        "item": "https://www.fenalt.com",
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Factory Quality Control Bangladesh",
-        "item": "https://fenalt.com/factory-quality-control-bangladesh",
+        "item": "https://www.fenalt.com/factory-quality-control-bangladesh",
       },
     ],
   };

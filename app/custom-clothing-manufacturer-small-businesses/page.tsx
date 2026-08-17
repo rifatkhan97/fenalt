@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Fenalt provides low risk custom clothing manufacturing for small businesses and independent brands. Produce custom apparel starting from 50 units with managed QC.",
   alternates: {
-    canonical: "https://fenalt.com/custom-clothing-manufacturer-small-businesses",
+    canonical: "https://www.fenalt.com/custom-clothing-manufacturer-small-businesses",
   },
   openGraph: {
     title: "Custom Clothing Manufacturer for Small Businesses | Fenalt",
     description:
       "Fenalt provides low risk custom clothing manufacturing for small businesses and independent brands. Produce custom apparel starting from 50 units with managed QC.",
-    url: "https://fenalt.com/custom-clothing-manufacturer-small-businesses",
+    url: "https://www.fenalt.com/custom-clothing-manufacturer-small-businesses",
   },
 };
 
@@ -25,7 +25,7 @@ export default function SmallBusinessClothingManufacturerPage() {
     "provider": {
       "@type": "Organization",
       "name": "Fenalt",
-      "url": "https://fenalt.com",
+      "url": "https://www.fenalt.com",
     },
     "serviceType": "Small Business Apparel Manufacturing, Custom Brand Clothing Sourcing, Low MOQ Production",
     "areaServed": ["United States", "United Kingdom", "European Union", "Australia", "Canada"],
@@ -41,13 +41,13 @@ export default function SmallBusinessClothingManufacturerPage() {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://fenalt.com",
+        "item": "https://www.fenalt.com",
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Custom Clothing Manufacturer for Small Businesses",
-        "item": "https://fenalt.com/custom-clothing-manufacturer-small-businesses",
+        "item": "https://www.fenalt.com/custom-clothing-manufacturer-small-businesses",
       },
     ],
   };

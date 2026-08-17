@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "A step-by-step guide for fashion brands on drafting custom garment quality control checklists, defect classification manuals, and factory inspection protocols.",
   alternates: {
-    canonical: "https://fenalt.com/learn/garment-quality-checklist-for-brands",
+    canonical: "https://www.fenalt.com/learn/garment-quality-checklist-for-brands",
   },
   openGraph: {
     title: "How Fashion Brands Can Create a Garment Quality Checklist",
     description:
       "A step-by-step guide for fashion brands on drafting custom garment quality control checklists, defect classification manuals, and factory inspection protocols.",
-    url: "https://fenalt.com/learn/garment-quality-checklist-for-brands",
+    url: "https://www.fenalt.com/learn/garment-quality-checklist-for-brands",
   },
 };
 
@@ -24,19 +24,19 @@ export default function GarmentQualityChecklistForBrandsPage() {
     headline: "How Fashion Brands Can Create a Garment Quality Checklist",
     description:
       "A practical guide for apparel founders on building customized quality control manuals and inspection checklists.",
-    author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    url: "https://fenalt.com/learn/garment-quality-checklist-for-brands",
-    mainEntityOfPage: "https://fenalt.com/learn/garment-quality-checklist-for-brands",
+    author: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    publisher: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    url: "https://www.fenalt.com/learn/garment-quality-checklist-for-brands",
+    mainEntityOfPage: "https://www.fenalt.com/learn/garment-quality-checklist-for-brands",
   };
 
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://fenalt.com/resources" },
-      { "@type": "ListItem", position: 3, name: "Garment Quality Checklist for Brands", item: "https://fenalt.com/learn/garment-quality-checklist-for-brands" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.fenalt.com/resources" },
+      { "@type": "ListItem", position: 3, name: "Garment Quality Checklist for Brands", item: "https://www.fenalt.com/learn/garment-quality-checklist-for-brands" },
     ],
   };
 

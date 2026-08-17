@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "A comprehensive preparation checklist for fashion brands ordering their first prototype garment sample - from tech pack validation and GSM specifications to physical reference garments.",
   alternates: {
-    canonical: "https://fenalt.com/learn/how-to-prepare-for-first-clothing-sample",
+    canonical: "https://www.fenalt.com/learn/how-to-prepare-for-first-clothing-sample",
   },
   openGraph: {
     title: "How to Prepare for Your First Clothing Sample",
     description:
       "A comprehensive preparation checklist for fashion brands ordering their first prototype garment sample - from tech pack validation and GSM specifications to physical reference garments.",
-    url: "https://fenalt.com/learn/how-to-prepare-for-first-clothing-sample",
+    url: "https://www.fenalt.com/learn/how-to-prepare-for-first-clothing-sample",
   },
 };
 
@@ -24,19 +24,19 @@ export default function HowToPrepareForFirstClothingSamplePage() {
     headline: "How to Prepare for Your First Clothing Sample",
     description:
       "A step-by-step guide for fashion brands preparing documentation, physical swatches, and design specs for initial garment sampling.",
-    author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    url: "https://fenalt.com/learn/how-to-prepare-for-first-clothing-sample",
-    mainEntityOfPage: "https://fenalt.com/learn/how-to-prepare-for-first-clothing-sample",
+    author: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    publisher: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    url: "https://www.fenalt.com/learn/how-to-prepare-for-first-clothing-sample",
+    mainEntityOfPage: "https://www.fenalt.com/learn/how-to-prepare-for-first-clothing-sample",
   };
 
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://fenalt.com/resources" },
-      { "@type": "ListItem", position: 3, name: "Prepare for First Sample", item: "https://fenalt.com/learn/how-to-prepare-for-first-clothing-sample" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.fenalt.com/resources" },
+      { "@type": "ListItem", position: 3, name: "Prepare for First Sample", item: "https://www.fenalt.com/learn/how-to-prepare-for-first-clothing-sample" },
     ],
   };
 

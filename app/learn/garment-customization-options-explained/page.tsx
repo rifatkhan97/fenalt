@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Explore full custom garment branding - woven neck labels, screen printing, custom dyeing, engraved buttons, custom zippers, hardware, and retail polybag packaging.",
   alternates: {
-    canonical: "https://fenalt.com/learn/garment-customization-options-explained",
+    canonical: "https://www.fenalt.com/learn/garment-customization-options-explained",
   },
   openGraph: {
     title: "Garment Customization Options Explained for Fashion Brands",
     description:
       "Explore full custom garment branding - woven neck labels, screen printing, custom dyeing, engraved buttons, custom zippers, hardware, and retail polybag packaging.",
-    url: "https://fenalt.com/learn/garment-customization-options-explained",
+    url: "https://www.fenalt.com/learn/garment-customization-options-explained",
   },
 };
 
@@ -24,19 +24,19 @@ export default function GarmentCustomizationOptionsExplainedPage() {
     headline: "Garment Customization Options Explained for Fashion Brands",
     description:
       "A complete guide to apparel customization techniques for independent fashion labels and premium streetwear brands.",
-    author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    url: "https://fenalt.com/learn/garment-customization-options-explained",
-    mainEntityOfPage: "https://fenalt.com/learn/garment-customization-options-explained",
+    author: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    publisher: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    url: "https://www.fenalt.com/learn/garment-customization-options-explained",
+    mainEntityOfPage: "https://www.fenalt.com/learn/garment-customization-options-explained",
   };
 
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://fenalt.com/resources" },
-      { "@type": "ListItem", position: 3, name: "Garment Customization Options", item: "https://fenalt.com/learn/garment-customization-options-explained" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.fenalt.com/resources" },
+      { "@type": "ListItem", position: 3, name: "Garment Customization Options", item: "https://www.fenalt.com/learn/garment-customization-options-explained" },
     ],
   };
 

@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "A strategic roadmap for fashion startups launching small-batch clothing collections - low MOQs, fabric stock sourcing, pre-orders, tech packs, and risk-managed inventory.",
   alternates: {
-    canonical: "https://fenalt.com/learn/how-to-plan-small-batch-apparel-launch",
+    canonical: "https://www.fenalt.com/learn/how-to-plan-small-batch-apparel-launch",
   },
   openGraph: {
     title: "How to Plan a Small-Batch Apparel Launch",
     description:
       "A strategic roadmap for fashion startups launching small-batch clothing collections - low MOQs, fabric stock sourcing, pre-orders, tech packs, and risk-managed inventory.",
-    url: "https://fenalt.com/learn/how-to-plan-small-batch-apparel-launch",
+    url: "https://www.fenalt.com/learn/how-to-plan-small-batch-apparel-launch",
   },
 };
 
@@ -24,19 +24,19 @@ export default function HowToPlanSmallBatchApparelLaunchPage() {
     headline: "How to Plan a Small-Batch Apparel Launch",
     description:
       "A step-by-step launch framework for emerging fashion brands entering production with low minimum quantities.",
-    author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    url: "https://fenalt.com/learn/how-to-plan-small-batch-apparel-launch",
-    mainEntityOfPage: "https://fenalt.com/learn/how-to-plan-small-batch-apparel-launch",
+    author: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    publisher: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    url: "https://www.fenalt.com/learn/how-to-plan-small-batch-apparel-launch",
+    mainEntityOfPage: "https://www.fenalt.com/learn/how-to-plan-small-batch-apparel-launch",
   };
 
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://fenalt.com/resources" },
-      { "@type": "ListItem", position: 3, name: "Plan Small Batch Launch", item: "https://fenalt.com/learn/how-to-plan-small-batch-apparel-launch" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.fenalt.com/resources" },
+      { "@type": "ListItem", position: 3, name: "Plan Small Batch Launch", item: "https://www.fenalt.com/learn/how-to-plan-small-batch-apparel-launch" },
     ],
   };
 

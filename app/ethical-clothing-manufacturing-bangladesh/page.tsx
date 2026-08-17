@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Ethical and transparent garment production in Dhaka, Bangladesh. Partner with vetted micro-factories offering fair working conditions, on-site QC, and low MOQs.",
   alternates: {
-    canonical: "https://fenalt.com/ethical-clothing-manufacturing-bangladesh",
+    canonical: "https://www.fenalt.com/ethical-clothing-manufacturing-bangladesh",
   },
   openGraph: {
     title: "Ethical Clothing Manufacturing Bangladesh | Fenalt",
     description:
       "Ethical and transparent garment production in Dhaka, Bangladesh. Partner with vetted micro-factories offering fair working conditions, on-site QC, and low MOQs.",
-    url: "https://fenalt.com/ethical-clothing-manufacturing-bangladesh",
+    url: "https://www.fenalt.com/ethical-clothing-manufacturing-bangladesh",
   },
 };
 
@@ -25,7 +25,7 @@ export default function EthicalClothingManufacturingBangladeshPage() {
     "provider": {
       "@type": "Organization",
       "name": "Fenalt",
-      "url": "https://fenalt.com",
+      "url": "https://www.fenalt.com",
     },
     "serviceType": "Ethical Garment Production, Fair Labor Apparel Sourcing, Transparent Bangladesh Sourcing",
     "areaServed": ["United States", "United Kingdom", "European Union", "Australia", "Canada"],
@@ -41,13 +41,13 @@ export default function EthicalClothingManufacturingBangladeshPage() {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://fenalt.com",
+        "item": "https://www.fenalt.com",
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Ethical Clothing Manufacturing Bangladesh",
-        "item": "https://fenalt.com/ethical-clothing-manufacturing-bangladesh",
+        "item": "https://www.fenalt.com/ethical-clothing-manufacturing-bangladesh",
       },
     ],
   };

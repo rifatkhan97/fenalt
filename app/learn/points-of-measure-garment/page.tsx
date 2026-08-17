@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Learn what Points of Measure (POM) are in apparel tech packs, how measurement codes work, and why POM tables are critical for CAD pattern grading and quality control.",
   alternates: {
-    canonical: "https://fenalt.com/learn/points-of-measure-garment",
+    canonical: "https://www.fenalt.com/learn/points-of-measure-garment",
   },
   openGraph: {
     title: "What Are Points of Measure in Garment Manufacturing?",
     description:
       "Learn what Points of Measure (POM) are in apparel tech packs, how measurement codes work, and why POM tables are critical for CAD pattern grading and quality control.",
-    url: "https://fenalt.com/learn/points-of-measure-garment",
+    url: "https://www.fenalt.com/learn/points-of-measure-garment",
   },
 };
 
@@ -24,19 +24,19 @@ export default function PointsOfMeasureGarmentPage() {
     headline: "What Are Points of Measure in Garment Manufacturing?",
     description:
       "An explanatory guide to Points of Measure (POM) in clothing tech packs and quality control inspection.",
-    author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    url: "https://fenalt.com/learn/points-of-measure-garment",
-    mainEntityOfPage: "https://fenalt.com/learn/points-of-measure-garment",
+    author: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    publisher: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    url: "https://www.fenalt.com/learn/points-of-measure-garment",
+    mainEntityOfPage: "https://www.fenalt.com/learn/points-of-measure-garment",
   };
 
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://fenalt.com/resources" },
-      { "@type": "ListItem", position: 3, name: "Points of Measure", item: "https://fenalt.com/learn/points-of-measure-garment" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.fenalt.com/resources" },
+      { "@type": "ListItem", position: 3, name: "Points of Measure", item: "https://www.fenalt.com/learn/points-of-measure-garment" },
     ],
   };
 

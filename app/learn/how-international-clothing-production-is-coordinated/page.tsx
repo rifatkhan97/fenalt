@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Discover how global supply chain teams orchestrate overseas garment manufacturing - tech pack handoffs, lab-dip approvals, inline inspections, FRI audits, and freight booking.",
   alternates: {
-    canonical: "https://fenalt.com/learn/how-international-clothing-production-is-coordinated",
+    canonical: "https://www.fenalt.com/learn/how-international-clothing-production-is-coordinated",
   },
   openGraph: {
     title: "How International Clothing Production Is Coordinated",
     description:
       "Discover how global supply chain teams orchestrate overseas garment manufacturing - tech pack handoffs, lab-dip approvals, inline inspections, FRI audits, and freight booking.",
-    url: "https://fenalt.com/learn/how-international-clothing-production-is-coordinated",
+    url: "https://www.fenalt.com/learn/how-international-clothing-production-is-coordinated",
   },
 };
 
@@ -24,19 +24,19 @@ export default function HowInternationalClothingProductionIsCoordinatedPage() {
     headline: "How International Clothing Production Is Coordinated",
     description:
       "A technical supply chain operations guide explaining cross-border apparel manufacturing workflows.",
-    author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    url: "https://fenalt.com/learn/how-international-clothing-production-is-coordinated",
-    mainEntityOfPage: "https://fenalt.com/learn/how-international-clothing-production-is-coordinated",
+    author: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    publisher: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    url: "https://www.fenalt.com/learn/how-international-clothing-production-is-coordinated",
+    mainEntityOfPage: "https://www.fenalt.com/learn/how-international-clothing-production-is-coordinated",
   };
 
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://fenalt.com/resources" },
-      { "@type": "ListItem", position: 3, name: "International Production Coordination", item: "https://fenalt.com/learn/how-international-clothing-production-is-coordinated" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.fenalt.com/resources" },
+      { "@type": "ListItem", position: 3, name: "International Production Coordination", item: "https://www.fenalt.com/learn/how-international-clothing-production-is-coordinated" },
     ],
   };
 

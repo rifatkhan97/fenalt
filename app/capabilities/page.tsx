@@ -18,18 +18,18 @@ export const metadata: Metadata = {
   description:
     "Discover Fenalt's end-to-end B2B garment manufacturing capabilities. We offer professional sample development, low-MOQ capsule runs, custom finishing, and scaling production with on-site quality control.",
   alternates: {
-    canonical: "https://fenalt.com/capabilities",
+    canonical: "https://www.fenalt.com/capabilities",
     languages: {
-      "en": "https://fenalt.com/capabilities",
-      "de": "https://fenalt.com/de/bekleidungshersteller",
-      "x-default": "https://fenalt.com/capabilities",
+      "en": "https://www.fenalt.com/capabilities",
+      "de": "https://www.fenalt.com/de/bekleidungshersteller",
+      "x-default": "https://www.fenalt.com/capabilities",
     },
   },
   openGraph: {
     title: "B2B Apparel Manufacturing & Sourcing Capabilities | Fenalt",
     description:
       "Discover Fenalt's end-to-end B2B garment manufacturing capabilities. We offer professional sample development, low-MOQ capsule runs, custom finishing, and scaling production with on-site quality control.",
-    url: "https://fenalt.com/capabilities",
+    url: "https://www.fenalt.com/capabilities",
   },
 };
 
@@ -118,7 +118,7 @@ export default function CapabilitiesPage() {
     "provider": {
       "@type": "Organization",
       "name": "Fenalt",
-      "url": "https://fenalt.com"
+      "url": "https://www.fenalt.com"
     },
     "serviceType": "Apparel Sourcing, Sample Development, Low-MOQ Capsule Production, Quality Control Management",
     "areaServed": ["United States", "United Kingdom", "European Union", "Australia", "Canada"],

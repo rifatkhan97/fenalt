@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Discover the exact responsibilities of a garment manufacturer - from material sourcing and pattern development to sewing, quality control, and export packing.",
   alternates: {
-    canonical: "https://fenalt.com/learn/what-does-an-apparel-manufacturer-do",
+    canonical: "https://www.fenalt.com/learn/what-does-an-apparel-manufacturer-do",
   },
   openGraph: {
     title: "What Does an Apparel Manufacturer Actually Do?",
     description:
       "Discover the exact responsibilities of a garment manufacturer - from material sourcing and pattern development to sewing, quality control, and export packing.",
-    url: "https://fenalt.com/learn/what-does-an-apparel-manufacturer-do",
+    url: "https://www.fenalt.com/learn/what-does-an-apparel-manufacturer-do",
   },
 };
 
@@ -24,19 +24,19 @@ export default function WhatDoesAnApparelManufacturerDoPage() {
     headline: "What Does an Apparel Manufacturer Actually Do?",
     description:
       "A breakdown of the core services, technical operations, and responsibilities provided by clothing manufacturers.",
-    author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    url: "https://fenalt.com/learn/what-does-an-apparel-manufacturer-do",
-    mainEntityOfPage: "https://fenalt.com/learn/what-does-an-apparel-manufacturer-do",
+    author: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    publisher: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    url: "https://www.fenalt.com/learn/what-does-an-apparel-manufacturer-do",
+    mainEntityOfPage: "https://www.fenalt.com/learn/what-does-an-apparel-manufacturer-do",
   };
 
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://fenalt.com/resources" },
-      { "@type": "ListItem", position: 3, name: "What Does a Manufacturer Do", item: "https://fenalt.com/learn/what-does-an-apparel-manufacturer-do" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.fenalt.com/resources" },
+      { "@type": "ListItem", position: 3, name: "What Does a Manufacturer Do", item: "https://www.fenalt.com/learn/what-does-an-apparel-manufacturer-do" },
     ],
   };
 

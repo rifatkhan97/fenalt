@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Discover the most frequent technical, fabric, pattern, and decoration pitfalls that emerging streetwear brands encounter during bulk manufacturing - and how to avoid each one.",
   alternates: {
-    canonical: "https://fenalt.com/learn/common-streetwear-manufacturing-mistakes",
+    canonical: "https://www.fenalt.com/learn/common-streetwear-manufacturing-mistakes",
   },
   openGraph: {
     title: "Common Streetwear Manufacturing Mistakes to Avoid",
     description:
       "Discover the most frequent technical, fabric, pattern, and decoration pitfalls that emerging streetwear brands encounter during bulk manufacturing - and how to avoid each one.",
-    url: "https://fenalt.com/learn/common-streetwear-manufacturing-mistakes",
+    url: "https://www.fenalt.com/learn/common-streetwear-manufacturing-mistakes",
   },
 };
 
@@ -24,19 +24,19 @@ export default function CommonStreetwearManufacturingMistakesPage() {
     headline: "Common Streetwear Manufacturing Mistakes to Avoid",
     description:
       "A technical breakdown of common garment manufacturing errors made by new streetwear labels and how to avoid them.",
-    author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    url: "https://fenalt.com/learn/common-streetwear-manufacturing-mistakes",
-    mainEntityOfPage: "https://fenalt.com/learn/common-streetwear-manufacturing-mistakes",
+    author: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    publisher: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    url: "https://www.fenalt.com/learn/common-streetwear-manufacturing-mistakes",
+    mainEntityOfPage: "https://www.fenalt.com/learn/common-streetwear-manufacturing-mistakes",
   };
 
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://fenalt.com/resources" },
-      { "@type": "ListItem", position: 3, name: "Common Streetwear Mistakes", item: "https://fenalt.com/learn/common-streetwear-manufacturing-mistakes" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.fenalt.com/resources" },
+      { "@type": "ListItem", position: 3, name: "Common Streetwear Mistakes", item: "https://www.fenalt.com/learn/common-streetwear-manufacturing-mistakes" },
     ],
   };
 

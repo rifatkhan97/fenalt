@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Fenalt provides low MOQ clothing manufacturing for startup fashion brands. Launch collections starting at 50 units with physically managed on-site quality control.",
   alternates: {
-    canonical: "https://fenalt.com/clothing-manufacturer-for-startups",
+    canonical: "https://www.fenalt.com/clothing-manufacturer-for-startups",
   },
   openGraph: {
     title: "Clothing Manufacturer for Startups | Fenalt",
     description:
       "Fenalt provides low MOQ clothing manufacturing for startup fashion brands. Launch collections starting at 50 units with physically managed on-site quality control.",
-    url: "https://fenalt.com/clothing-manufacturer-for-startups",
+    url: "https://www.fenalt.com/clothing-manufacturer-for-startups",
   },
 };
 
@@ -25,7 +25,7 @@ export default function StartupClothingManufacturerPage() {
     "provider": {
       "@type": "Organization",
       "name": "Fenalt",
-      "url": "https://fenalt.com",
+      "url": "https://www.fenalt.com",
     },
     "serviceType": "Startup Apparel Manufacturing, Low MOQ Clothing Production, Fashion Brand Prototype Sourcing",
     "areaServed": ["United States", "United Kingdom", "European Union", "Australia", "Canada"],
@@ -41,13 +41,13 @@ export default function StartupClothingManufacturerPage() {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://fenalt.com",
+        "item": "https://www.fenalt.com",
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Clothing Manufacturer for Startups",
-        "item": "https://fenalt.com/clothing-manufacturer-for-startups",
+        "item": "https://www.fenalt.com/clothing-manufacturer-for-startups",
       },
     ],
   };

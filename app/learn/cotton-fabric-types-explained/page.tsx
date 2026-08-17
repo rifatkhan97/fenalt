@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "A comprehensive guide to cotton fabric types in apparel manufacturing - Single Jersey, Interlock, French Terry, Fleece, Piqué, Ribbing, Canvas, and Twill.",
   alternates: {
-    canonical: "https://fenalt.com/learn/cotton-fabric-types-explained",
+    canonical: "https://www.fenalt.com/learn/cotton-fabric-types-explained",
   },
   openGraph: {
     title: "Cotton Fabric Types Explained for Fashion Brands",
     description:
       "A comprehensive guide to cotton fabric types in apparel manufacturing - Single Jersey, Interlock, French Terry, Fleece, Piqué, Ribbing, Canvas, and Twill.",
-    url: "https://fenalt.com/learn/cotton-fabric-types-explained",
+    url: "https://www.fenalt.com/learn/cotton-fabric-types-explained",
   },
 };
 
@@ -24,19 +24,19 @@ export default function CottonFabricTypesExplainedPage() {
     headline: "Cotton Fabric Types Explained for Fashion Brands",
     description:
       "A technical walkthrough of cotton knit and woven fabric constructions used in t-shirts, hoodies, sweatpants, and trousers.",
-    author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    url: "https://fenalt.com/learn/cotton-fabric-types-explained",
-    mainEntityOfPage: "https://fenalt.com/learn/cotton-fabric-types-explained",
+    author: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    publisher: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    url: "https://www.fenalt.com/learn/cotton-fabric-types-explained",
+    mainEntityOfPage: "https://www.fenalt.com/learn/cotton-fabric-types-explained",
   };
 
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://fenalt.com/resources" },
-      { "@type": "ListItem", position: 3, name: "Cotton Fabric Types Explained", item: "https://fenalt.com/learn/cotton-fabric-types-explained" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.fenalt.com/resources" },
+      { "@type": "ListItem", position: 3, name: "Cotton Fabric Types Explained", item: "https://www.fenalt.com/learn/cotton-fabric-types-explained" },
     ],
   };
 

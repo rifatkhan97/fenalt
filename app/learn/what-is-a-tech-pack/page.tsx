@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Understand what an apparel tech pack is, why every clothing manufacturer requires one, and the essential pages needed to get accurate samples, pricing, and production.",
   alternates: {
-    canonical: "https://fenalt.com/learn/what-is-a-tech-pack",
+    canonical: "https://www.fenalt.com/learn/what-is-a-tech-pack",
   },
   openGraph: {
     title: "What Is a Tech Pack in Apparel Manufacturing?",
     description:
       "Understand what an apparel tech pack is, why every clothing manufacturer requires one, and the essential pages needed to get accurate samples, pricing, and production.",
-    url: "https://fenalt.com/learn/what-is-a-tech-pack",
+    url: "https://www.fenalt.com/learn/what-is-a-tech-pack",
   },
 };
 
@@ -24,19 +24,19 @@ export default function WhatIsATechPackPage() {
     headline: "What Is a Tech Pack in Apparel Manufacturing?",
     description:
       "A complete guide to tech packs - what they are, what sections they contain, and why they are essential for clothing production.",
-    author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    url: "https://fenalt.com/learn/what-is-a-tech-pack",
-    mainEntityOfPage: "https://fenalt.com/learn/what-is-a-tech-pack",
+    author: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    publisher: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    url: "https://www.fenalt.com/learn/what-is-a-tech-pack",
+    mainEntityOfPage: "https://www.fenalt.com/learn/what-is-a-tech-pack",
   };
 
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://fenalt.com/resources" },
-      { "@type": "ListItem", position: 3, name: "What Is a Tech Pack", item: "https://fenalt.com/learn/what-is-a-tech-pack" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.fenalt.com/resources" },
+      { "@type": "ListItem", position: 3, name: "What Is a Tech Pack", item: "https://www.fenalt.com/learn/what-is-a-tech-pack" },
     ],
   };
 

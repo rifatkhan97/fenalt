@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Custom denim jeans and jacket manufacturing in Dhaka, Bangladesh. 12oz–14.5oz rigid and stretch cotton denim with specialized washes starting at 100 units.",
   alternates: {
-    canonical: "https://fenalt.com/denim-jeans-manufacturer-bangladesh",
+    canonical: "https://www.fenalt.com/denim-jeans-manufacturer-bangladesh",
   },
   openGraph: {
     title: "Denim Jeans Manufacturer Bangladesh | Fenalt",
     description:
       "Custom denim jeans and jacket manufacturing in Dhaka, Bangladesh. 12oz–14.5oz rigid and stretch cotton denim with specialized washes starting at 100 units.",
-    url: "https://fenalt.com/denim-jeans-manufacturer-bangladesh",
+    url: "https://www.fenalt.com/denim-jeans-manufacturer-bangladesh",
   },
 };
 
@@ -25,7 +25,7 @@ export default function DenimJeansManufacturerBangladeshPage() {
     "provider": {
       "@type": "Organization",
       "name": "Fenalt",
-      "url": "https://fenalt.com",
+      "url": "https://www.fenalt.com",
     },
     "serviceType": "Denim Apparel Production, Custom Jeans Manufacturing, Bangladesh Denim Washing",
     "areaServed": ["United States", "United Kingdom", "European Union", "Australia", "Canada"],
@@ -41,13 +41,13 @@ export default function DenimJeansManufacturerBangladeshPage() {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://fenalt.com",
+        "item": "https://www.fenalt.com",
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Denim Jeans Manufacturer Bangladesh",
-        "item": "https://fenalt.com/denim-jeans-manufacturer-bangladesh",
+        "item": "https://www.fenalt.com/denim-jeans-manufacturer-bangladesh",
       },
     ],
   };

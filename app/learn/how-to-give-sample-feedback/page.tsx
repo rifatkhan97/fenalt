@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Learn how to write actionable, precise sample fit feedback for your clothing manufacturer - using measuring tapes, flat-lay reference photos, and clear POM delta callouts.",
   alternates: {
-    canonical: "https://fenalt.com/learn/how-to-give-sample-feedback",
+    canonical: "https://www.fenalt.com/learn/how-to-give-sample-feedback",
   },
   openGraph: {
     title: "How to Give Useful Feedback on a Clothing Sample",
     description:
       "Learn how to write actionable, precise sample fit feedback for your clothing manufacturer - using measuring tapes, flat-lay reference photos, and clear POM delta callouts.",
-    url: "https://fenalt.com/learn/how-to-give-sample-feedback",
+    url: "https://www.fenalt.com/learn/how-to-give-sample-feedback",
   },
 };
 
@@ -24,19 +24,19 @@ export default function HowToGiveSampleFeedbackPage() {
     headline: "How to Give Useful Feedback on a Clothing Sample",
     description:
       "A technical guide for fashion brand founders on structuring clear, actionable sample fit comments and measurement revision requests.",
-    author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    url: "https://fenalt.com/learn/how-to-give-sample-feedback",
-    mainEntityOfPage: "https://fenalt.com/learn/how-to-give-sample-feedback",
+    author: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    publisher: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    url: "https://www.fenalt.com/learn/how-to-give-sample-feedback",
+    mainEntityOfPage: "https://www.fenalt.com/learn/how-to-give-sample-feedback",
   };
 
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://fenalt.com/resources" },
-      { "@type": "ListItem", position: 3, name: "How to Give Sample Feedback", item: "https://fenalt.com/learn/how-to-give-sample-feedback" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.fenalt.com/resources" },
+      { "@type": "ListItem", position: 3, name: "How to Give Sample Feedback", item: "https://www.fenalt.com/learn/how-to-give-sample-feedback" },
     ],
   };
 

@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "The qualities that separate a reliable clothing manufacturer from an unreliable one - covering communication, technical skill, quality control, MOQ flexibility, and ethical standards.",
   alternates: {
-    canonical: "https://fenalt.com/learn/what-makes-a-good-apparel-manufacturing-partner",
+    canonical: "https://www.fenalt.com/learn/what-makes-a-good-apparel-manufacturing-partner",
   },
   openGraph: {
     title: "What Makes a Good Apparel Manufacturing Partner?",
     description:
       "The qualities that separate a reliable clothing manufacturer from an unreliable one - covering communication, technical skill, quality control, MOQ flexibility, and ethical standards.",
-    url: "https://fenalt.com/learn/what-makes-a-good-apparel-manufacturing-partner",
+    url: "https://www.fenalt.com/learn/what-makes-a-good-apparel-manufacturing-partner",
   },
 };
 
@@ -24,19 +24,19 @@ export default function WhatMakesAGoodApparelManufacturingPartnerPage() {
     headline: "What Makes a Good Apparel Manufacturing Partner?",
     description:
       "A strategic benchmark guide for fashion brand founders evaluating long-term apparel production partners.",
-    author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    url: "https://fenalt.com/learn/what-makes-a-good-apparel-manufacturing-partner",
-    mainEntityOfPage: "https://fenalt.com/learn/what-makes-a-good-apparel-manufacturing-partner",
+    author: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    publisher: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    url: "https://www.fenalt.com/learn/what-makes-a-good-apparel-manufacturing-partner",
+    mainEntityOfPage: "https://www.fenalt.com/learn/what-makes-a-good-apparel-manufacturing-partner",
   };
 
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://fenalt.com/resources" },
-      { "@type": "ListItem", position: 3, name: "What Makes a Good Partner", item: "https://fenalt.com/learn/what-makes-a-good-apparel-manufacturing-partner" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.fenalt.com/resources" },
+      { "@type": "ListItem", position: 3, name: "What Makes a Good Partner", item: "https://www.fenalt.com/learn/what-makes-a-good-apparel-manufacturing-partner" },
     ],
   };
 

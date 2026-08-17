@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Compare low minimum order quantity (MOQ) production against high-volume bulk apparel manufacturing - analyzing unit economics, fabric sourcing options, lead times, and inventory risk.",
   alternates: {
-    canonical: "https://fenalt.com/learn/low-moq-vs-bulk-manufacturing",
+    canonical: "https://www.fenalt.com/learn/low-moq-vs-bulk-manufacturing",
   },
   openGraph: {
     title: "Low MOQ vs Bulk Manufacturing: What Changes?",
     description:
       "Compare low minimum order quantity (MOQ) production against high-volume bulk apparel manufacturing - analyzing unit economics, fabric sourcing options, lead times, and inventory risk.",
-    url: "https://fenalt.com/learn/low-moq-vs-bulk-manufacturing",
+    url: "https://www.fenalt.com/learn/low-moq-vs-bulk-manufacturing",
   },
 };
 
@@ -24,19 +24,19 @@ export default function LowMoqVsBulkManufacturingPage() {
     headline: "Low MOQ vs Bulk Manufacturing: What Changes?",
     description:
       "A detailed comparison of small-batch vs bulk garment manufacturing across pricing, fabric choices, lead times, and risk management.",
-    author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    url: "https://fenalt.com/learn/low-moq-vs-bulk-manufacturing",
-    mainEntityOfPage: "https://fenalt.com/learn/low-moq-vs-bulk-manufacturing",
+    author: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    publisher: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    url: "https://www.fenalt.com/learn/low-moq-vs-bulk-manufacturing",
+    mainEntityOfPage: "https://www.fenalt.com/learn/low-moq-vs-bulk-manufacturing",
   };
 
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://fenalt.com/resources" },
-      { "@type": "ListItem", position: 3, name: "Low MOQ vs Bulk Manufacturing", item: "https://fenalt.com/learn/low-moq-vs-bulk-manufacturing" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.fenalt.com/resources" },
+      { "@type": "ListItem", position: 3, name: "Low MOQ vs Bulk Manufacturing", item: "https://www.fenalt.com/learn/low-moq-vs-bulk-manufacturing" },
     ],
   };
 

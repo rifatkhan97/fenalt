@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Explore apparel wet processing treatments - Acid Wash, Mineral Wash, Stonewashing, Enzyme Bio-washing, Silicone Softening, Pigment Garment Dyeing, and Vintage Fading.",
   alternates: {
-    canonical: "https://fenalt.com/learn/garment-wash-treatments-explained",
+    canonical: "https://www.fenalt.com/learn/garment-wash-treatments-explained",
   },
   openGraph: {
     title: "Garment Wash Treatments Explained: Vintage, Acid & Bio-Washing",
     description:
       "Explore apparel wet processing treatments - Acid Wash, Mineral Wash, Stonewashing, Enzyme Bio-washing, Silicone Softening, Pigment Garment Dyeing, and Vintage Fading.",
-    url: "https://fenalt.com/learn/garment-wash-treatments-explained",
+    url: "https://www.fenalt.com/learn/garment-wash-treatments-explained",
   },
 };
 
@@ -24,19 +24,19 @@ export default function GarmentWashTreatmentsExplainedPage() {
     headline: "Garment Wash Treatments Explained: Vintage, Acid & Bio-Washing",
     description:
       "A technical walkthrough of industrial garment washing, vintage distress effects, enzyme bio-softening, and garment dye processes.",
-    author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    url: "https://fenalt.com/learn/garment-wash-treatments-explained",
-    mainEntityOfPage: "https://fenalt.com/learn/garment-wash-treatments-explained",
+    author: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    publisher: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    url: "https://www.fenalt.com/learn/garment-wash-treatments-explained",
+    mainEntityOfPage: "https://www.fenalt.com/learn/garment-wash-treatments-explained",
   };
 
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://fenalt.com/resources" },
-      { "@type": "ListItem", position: 3, name: "Garment Wash Treatments", item: "https://fenalt.com/learn/garment-wash-treatments-explained" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.fenalt.com/resources" },
+      { "@type": "ListItem", position: 3, name: "Garment Wash Treatments", item: "https://www.fenalt.com/learn/garment-wash-treatments-explained" },
     ],
   };
 

@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "End-to-end garment production management services in Dhaka, Bangladesh. Factory scheduling, in-line quality audits, milestone updates, and DDP freight handling.",
   alternates: {
-    canonical: "https://fenalt.com/apparel-production-management",
+    canonical: "https://www.fenalt.com/apparel-production-management",
   },
   openGraph: {
     title: "Apparel Production Management Services | Fenalt",
     description:
       "End-to-end garment production management services in Dhaka, Bangladesh. Factory scheduling, in-line quality audits, milestone updates, and DDP freight handling.",
-    url: "https://fenalt.com/apparel-production-management",
+    url: "https://www.fenalt.com/apparel-production-management",
   },
 };
 
@@ -25,7 +25,7 @@ export default function ApparelProductionManagementPage() {
     "provider": {
       "@type": "Organization",
       "name": "Fenalt",
-      "url": "https://fenalt.com",
+      "url": "https://www.fenalt.com",
     },
     "serviceType": "Garment Production Management, Overseas Factory Liaison, Production Scheduling",
     "areaServed": ["United States", "United Kingdom", "European Union", "Australia", "Canada"],
@@ -41,13 +41,13 @@ export default function ApparelProductionManagementPage() {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://fenalt.com",
+        "item": "https://www.fenalt.com",
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Apparel Production Management",
-        "item": "https://fenalt.com/apparel-production-management",
+        "item": "https://www.fenalt.com/apparel-production-management",
       },
     ],
   };

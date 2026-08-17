@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Explore outerwear jacket production - waterproof DWR coatings, hot-air seam-taping technology, down/synthetic insulation, baffle construction, and heavy YKK hardware assembly.",
   alternates: {
-    canonical: "https://fenalt.com/learn/outerwear-jacket-manufacturing-guide",
+    canonical: "https://www.fenalt.com/learn/outerwear-jacket-manufacturing-guide",
   },
   openGraph: {
     title: "Outerwear & Jacket Manufacturing Guide for Fashion Brands",
     description:
       "Explore outerwear jacket production - waterproof DWR coatings, hot-air seam-taping technology, down/synthetic insulation, baffle construction, and heavy YKK hardware assembly.",
-    url: "https://fenalt.com/learn/outerwear-jacket-manufacturing-guide",
+    url: "https://www.fenalt.com/learn/outerwear-jacket-manufacturing-guide",
   },
 };
 
@@ -24,19 +24,19 @@ export default function OuterwearJacketManufacturingGuidePage() {
     headline: "Outerwear & Jacket Manufacturing Guide for Fashion Brands",
     description:
       "A technical manufacturing guide for windbreakers, puffer jackets, parkas, and technical outerwear.",
-    author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    url: "https://fenalt.com/learn/outerwear-jacket-manufacturing-guide",
-    mainEntityOfPage: "https://fenalt.com/learn/outerwear-jacket-manufacturing-guide",
+    author: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    publisher: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    url: "https://www.fenalt.com/learn/outerwear-jacket-manufacturing-guide",
+    mainEntityOfPage: "https://www.fenalt.com/learn/outerwear-jacket-manufacturing-guide",
   };
 
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://fenalt.com/resources" },
-      { "@type": "ListItem", position: 3, name: "Outerwear Jacket Manufacturing", item: "https://fenalt.com/learn/outerwear-jacket-manufacturing-guide" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.fenalt.com/resources" },
+      { "@type": "ListItem", position: 3, name: "Outerwear Jacket Manufacturing", item: "https://www.fenalt.com/learn/outerwear-jacket-manufacturing-guide" },
     ],
   };
 

@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Learn how industrial sewing stitch classes (ISO 4915 / ASTM D6193) - Lockstitch 301, Overlock 504, Coverstitch 605, Chainstitch 401, and Flatlock - dictate seam strength, flexibility, and longevity.",
   alternates: {
-    canonical: "https://fenalt.com/learn/stitch-type-and-garment-quality",
+    canonical: "https://www.fenalt.com/learn/stitch-type-and-garment-quality",
   },
   openGraph: {
     title: "How Stitch Type Affects Garment Quality",
     description:
       "Learn how industrial sewing stitch classes (ISO 4915 / ASTM D6193) - Lockstitch 301, Overlock 504, Coverstitch 605, Chainstitch 401, and Flatlock - dictate seam strength, flexibility, and longevity.",
-    url: "https://fenalt.com/learn/stitch-type-and-garment-quality",
+    url: "https://www.fenalt.com/learn/stitch-type-and-garment-quality",
   },
 };
 
@@ -24,19 +24,19 @@ export default function StitchTypeAndGarmentQualityPage() {
     headline: "How Stitch Type Affects Garment Quality",
     description:
       "A technical guide to ISO 4915 sewing stitch classifications, SPI density, and seam elasticity in clothing manufacturing.",
-    author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    url: "https://fenalt.com/learn/stitch-type-and-garment-quality",
-    mainEntityOfPage: "https://fenalt.com/learn/stitch-type-and-garment-quality",
+    author: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    publisher: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    url: "https://www.fenalt.com/learn/stitch-type-and-garment-quality",
+    mainEntityOfPage: "https://www.fenalt.com/learn/stitch-type-and-garment-quality",
   };
 
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://fenalt.com/resources" },
-      { "@type": "ListItem", position: 3, name: "Stitch Type and Garment Quality", item: "https://fenalt.com/learn/stitch-type-and-garment-quality" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.fenalt.com/resources" },
+      { "@type": "ListItem", position: 3, name: "Stitch Type and Garment Quality", item: "https://www.fenalt.com/learn/stitch-type-and-garment-quality" },
     ],
   };
 

@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Learn how to audit garment sewing quality - checking SPI density, seam tension, skipped stitches, puckering, raw edge overlock coverage, and seam pull strength testing.",
   alternates: {
-    canonical: "https://fenalt.com/learn/how-to-evaluate-stitch-quality",
+    canonical: "https://www.fenalt.com/learn/how-to-evaluate-stitch-quality",
   },
   openGraph: {
     title: "How to Evaluate Stitch Quality in Finished Garments",
     description:
       "Learn how to audit garment sewing quality - checking SPI density, seam tension, skipped stitches, puckering, raw edge overlock coverage, and seam pull strength testing.",
-    url: "https://fenalt.com/learn/how-to-evaluate-stitch-quality",
+    url: "https://www.fenalt.com/learn/how-to-evaluate-stitch-quality",
   },
 };
 
@@ -24,19 +24,19 @@ export default function HowToEvaluateStitchQualityPage() {
     headline: "How to Evaluate Stitch Quality in Finished Garments",
     description:
       "An inspection guide for fashion brand QC managers on auditing sewing stitch quality, tension, and seam integrity.",
-    author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    url: "https://fenalt.com/learn/how-to-evaluate-stitch-quality",
-    mainEntityOfPage: "https://fenalt.com/learn/how-to-evaluate-stitch-quality",
+    author: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    publisher: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    url: "https://www.fenalt.com/learn/how-to-evaluate-stitch-quality",
+    mainEntityOfPage: "https://www.fenalt.com/learn/how-to-evaluate-stitch-quality",
   };
 
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://fenalt.com/resources" },
-      { "@type": "ListItem", position: 3, name: "Evaluate Stitch Quality", item: "https://fenalt.com/learn/how-to-evaluate-stitch-quality" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.fenalt.com/resources" },
+      { "@type": "ListItem", position: 3, name: "Evaluate Stitch Quality", item: "https://www.fenalt.com/learn/how-to-evaluate-stitch-quality" },
     ],
   };
 

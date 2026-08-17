@@ -6,11 +6,11 @@ export const metadata: Metadata = {
   title: "How to Evaluate an Overseas Clothing Manufacturer",
   description:
     "A due diligence guide for evaluating overseas clothing manufacturers - what to verify, how to assess quality and reliability from a distance, and what red flags to look for.",
-  alternates: { canonical: "https://fenalt.com/learn/how-to-evaluate-an-overseas-clothing-manufacturer" },
+  alternates: { canonical: "https://www.fenalt.com/learn/how-to-evaluate-an-overseas-clothing-manufacturer" },
   openGraph: {
     title: "How to Evaluate an Overseas Clothing Manufacturer",
     description: "A due diligence guide for evaluating overseas clothing manufacturers - what to verify, how to assess quality and reliability from a distance.",
-    url: "https://fenalt.com/learn/how-to-evaluate-an-overseas-clothing-manufacturer",
+    url: "https://www.fenalt.com/learn/how-to-evaluate-an-overseas-clothing-manufacturer",
   },
 };
 
@@ -20,19 +20,19 @@ export default function HowToEvaluateOverseasManufacturerPage() {
     "@type": "Article",
     headline: "How to Evaluate an Overseas Clothing Manufacturer",
     description: "Guide to evaluating overseas clothing manufacturers - verification, quality assessment, and red flags.",
-    author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    url: "https://fenalt.com/learn/how-to-evaluate-an-overseas-clothing-manufacturer",
-    mainEntityOfPage: "https://fenalt.com/learn/how-to-evaluate-an-overseas-clothing-manufacturer",
+    author: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    publisher: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    url: "https://www.fenalt.com/learn/how-to-evaluate-an-overseas-clothing-manufacturer",
+    mainEntityOfPage: "https://www.fenalt.com/learn/how-to-evaluate-an-overseas-clothing-manufacturer",
   };
 
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://fenalt.com/resources" },
-      { "@type": "ListItem", position: 3, name: "How to Evaluate an Overseas Manufacturer", item: "https://fenalt.com/learn/how-to-evaluate-an-overseas-clothing-manufacturer" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.fenalt.com/resources" },
+      { "@type": "ListItem", position: 3, name: "How to Evaluate an Overseas Manufacturer", item: "https://www.fenalt.com/learn/how-to-evaluate-an-overseas-clothing-manufacturer" },
     ],
   };
 

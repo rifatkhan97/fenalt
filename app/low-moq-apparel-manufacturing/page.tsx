@@ -7,18 +7,18 @@ export const metadata: Metadata = {
   description:
     "Launch clothing collections with minimum order quantities starting from 50 units. Fenalt provides fully managed B2B manufacturing, circular fabrics, and on-site quality control.",
   alternates: {
-    canonical: "https://fenalt.com/low-moq-apparel-manufacturing",
+    canonical: "https://www.fenalt.com/low-moq-apparel-manufacturing",
     languages: {
-      "en": "https://fenalt.com/low-moq-apparel-manufacturing",
-      "de": "https://fenalt.com/de/low-moq-bekleidungshersteller",
-      "x-default": "https://fenalt.com/low-moq-apparel-manufacturing",
+      "en": "https://www.fenalt.com/low-moq-apparel-manufacturing",
+      "de": "https://www.fenalt.com/de/low-moq-bekleidungshersteller",
+      "x-default": "https://www.fenalt.com/low-moq-apparel-manufacturing",
     },
   },
   openGraph: {
     title: "Low-MOQ Apparel Manufacturing for Independent Brands | Fenalt",
     description:
       "Launch clothing collections with minimum order quantities starting from 50 units. Fenalt provides fully managed B2B manufacturing, circular fabrics, and on-site quality control.",
-    url: "https://fenalt.com/low-moq-apparel-manufacturing",
+    url: "https://www.fenalt.com/low-moq-apparel-manufacturing",
   },
 };
 
@@ -30,7 +30,7 @@ export default function LowMOQPage() {
     "provider": {
       "@type": "Organization",
       "name": "Fenalt",
-      "url": "https://fenalt.com",
+      "url": "https://www.fenalt.com",
     },
     "serviceType": "Low MOQ Clothing Manufacturing, Small Batch Production, Sample Development",
     "areaServed": ["United States", "United Kingdom", "European Union", "Australia", "Canada"],
@@ -46,13 +46,13 @@ export default function LowMOQPage() {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://fenalt.com",
+        "item": "https://www.fenalt.com",
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Low-MOQ Apparel Manufacturing",
-        "item": "https://fenalt.com/low-moq-apparel-manufacturing",
+        "item": "https://www.fenalt.com/low-moq-apparel-manufacturing",
       },
     ],
   };

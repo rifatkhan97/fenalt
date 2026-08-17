@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Develop custom heavyweight hoodies, fleece sweatshirts, and zip-ups starting at low MOQs. Managed sample development, premium cotton French Terry, and on-site QC.",
   alternates: {
-    canonical: "https://fenalt.com/hoodie-manufacturing",
+    canonical: "https://www.fenalt.com/hoodie-manufacturing",
   },
   openGraph: {
     title: "Custom Hoodie & Sweatshirt Manufacturing | Fenalt",
     description:
       "Develop custom heavyweight hoodies, fleece sweatshirts, and zip-ups starting at low MOQs. Managed sample development, premium cotton French Terry, and on-site QC.",
-    url: "https://fenalt.com/hoodie-manufacturing",
+    url: "https://www.fenalt.com/hoodie-manufacturing",
   },
 };
 
@@ -25,7 +25,7 @@ export default function HoodieManufacturingPage() {
     "provider": {
       "@type": "Organization",
       "name": "Fenalt",
-      "url": "https://fenalt.com",
+      "url": "https://www.fenalt.com",
     },
     "serviceType": "Hoodie Manufacturing, Custom Fleece Sourcing, Sweatshirt Sample Development",
     "areaServed": ["United States", "United Kingdom", "European Union", "Australia", "Canada"],
@@ -41,13 +41,13 @@ export default function HoodieManufacturingPage() {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://fenalt.com",
+        "item": "https://www.fenalt.com",
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Hoodie Manufacturing",
-        "item": "https://fenalt.com/hoodie-manufacturing",
+        "item": "https://www.fenalt.com/hoodie-manufacturing",
       },
     ],
   };

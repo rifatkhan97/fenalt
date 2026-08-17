@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Private label streetwear manufacturing for independent fashion brands. Custom neck labels, woven tags, printed polybags, and heavy fleece drops from 50 units.",
   alternates: {
-    canonical: "https://fenalt.com/private-label-streetwear-manufacturer",
+    canonical: "https://www.fenalt.com/private-label-streetwear-manufacturer",
   },
   openGraph: {
     title: "Private Label Streetwear Manufacturer | Fenalt",
     description:
       "Private label streetwear manufacturing for independent fashion brands. Custom neck labels, woven tags, printed polybags, and heavy fleece drops from 50 units.",
-    url: "https://fenalt.com/private-label-streetwear-manufacturer",
+    url: "https://www.fenalt.com/private-label-streetwear-manufacturer",
   },
 };
 
@@ -25,7 +25,7 @@ export default function PrivateLabelStreetwearManufacturerPage() {
     "provider": {
       "@type": "Organization",
       "name": "Fenalt",
-      "url": "https://fenalt.com",
+      "url": "https://www.fenalt.com",
     },
     "serviceType": "Private Label Apparel Manufacturing, Custom Woven Neck Labels, Custom Streetwear Packaging",
     "areaServed": ["United States", "United Kingdom", "European Union", "Australia", "Canada"],
@@ -41,13 +41,13 @@ export default function PrivateLabelStreetwearManufacturerPage() {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://fenalt.com",
+        "item": "https://www.fenalt.com",
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Private Label Streetwear Manufacturer",
-        "item": "https://fenalt.com/private-label-streetwear-manufacturer",
+        "item": "https://www.fenalt.com/private-label-streetwear-manufacturer",
       },
     ],
   };

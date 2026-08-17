@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Guide for UK fashion brands importing clothing from Bangladesh under the Developing Countries Trading Scheme (DCTS). Duty rates, customs clearance, and DDP shipping.",
   alternates: {
-    canonical: "https://fenalt.com/uk-apparel-import-considerations",
+    canonical: "https://www.fenalt.com/uk-apparel-import-considerations",
   },
   openGraph: {
     title: "UK Apparel Import Considerations | Fenalt Guide",
     description:
       "Guide for UK fashion brands importing clothing from Bangladesh under the Developing Countries Trading Scheme (DCTS). Duty rates, customs clearance, and DDP shipping.",
-    url: "https://fenalt.com/uk-apparel-import-considerations",
+    url: "https://www.fenalt.com/uk-apparel-import-considerations",
   },
 };
 
@@ -27,12 +27,12 @@ export default function UKApparelImportPage() {
     "author": {
       "@type": "Organization",
       "name": "Fenalt",
-      "url": "https://fenalt.com",
+      "url": "https://www.fenalt.com",
     },
     "publisher": {
       "@type": "Organization",
       "name": "Fenalt",
-      "url": "https://fenalt.com",
+      "url": "https://www.fenalt.com",
     },
   };
 
@@ -44,13 +44,13 @@ export default function UKApparelImportPage() {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://fenalt.com",
+        "item": "https://www.fenalt.com",
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "UK Apparel Import Considerations",
-        "item": "https://fenalt.com/uk-apparel-import-considerations",
+        "item": "https://www.fenalt.com/uk-apparel-import-considerations",
       },
     ],
   };

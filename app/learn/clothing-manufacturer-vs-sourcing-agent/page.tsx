@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Understand the difference between working directly with a clothing manufacturer and using a garment sourcing agent - and when each makes more sense for your brand.",
   alternates: {
-    canonical: "https://fenalt.com/learn/clothing-manufacturer-vs-sourcing-agent",
+    canonical: "https://www.fenalt.com/learn/clothing-manufacturer-vs-sourcing-agent",
   },
   openGraph: {
     title: "Clothing Manufacturer vs Garment Sourcing Agent: What's the Difference?",
     description:
       "Understand the difference between working directly with a clothing manufacturer and using a garment sourcing agent - and when each makes more sense for your brand.",
-    url: "https://fenalt.com/learn/clothing-manufacturer-vs-sourcing-agent",
+    url: "https://www.fenalt.com/learn/clothing-manufacturer-vs-sourcing-agent",
   },
 };
 
@@ -23,22 +23,22 @@ export default function ManufacturerVsSourcingAgentPage() {
     "@type": "Article",
     headline: "Clothing Manufacturer vs Garment Sourcing Agent: What's the Difference?",
     description: "A comparison of direct manufacturer relationships vs garment sourcing agents for fashion brands.",
-    author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    url: "https://fenalt.com/learn/clothing-manufacturer-vs-sourcing-agent",
+    author: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    publisher: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    url: "https://www.fenalt.com/learn/clothing-manufacturer-vs-sourcing-agent",
   };
 
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://fenalt.com/resources" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.fenalt.com/resources" },
       {
         "@type": "ListItem",
         position: 3,
         name: "Manufacturer vs Sourcing Agent",
-        item: "https://fenalt.com/learn/clothing-manufacturer-vs-sourcing-agent",
+        item: "https://www.fenalt.com/learn/clothing-manufacturer-vs-sourcing-agent",
       },
     ],
   };

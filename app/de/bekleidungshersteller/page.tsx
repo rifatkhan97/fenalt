@@ -7,18 +7,18 @@ export const metadata: Metadata = {
   description:
     "Nachhaltige Bekleidungsherstellung und Textilproduktion für europäische Modemarken. Low-MOQ Ab 50 Stück, geprüfte Micro-Factories und Vor-Ort-Qualitätskontrolle.",
   alternates: {
-    canonical: "https://fenalt.com/de/bekleidungshersteller",
+    canonical: "https://www.fenalt.com/de/bekleidungshersteller",
     languages: {
-      "de": "https://fenalt.com/de/bekleidungshersteller",
-      "en": "https://fenalt.com/capabilities",
-      "x-default": "https://fenalt.com/capabilities",
+      "de": "https://www.fenalt.com/de/bekleidungshersteller",
+      "en": "https://www.fenalt.com/capabilities",
+      "x-default": "https://www.fenalt.com/capabilities",
     },
   },
   openGraph: {
     title: "Bekleidungshersteller für nachhaltige Modemarken | Fenalt",
     description:
       "Nachhaltige Bekleidungsherstellung und Textilproduktion für europäische Modemarken. Low-MOQ Ab 50 Stück, geprüfte Micro-Factories und Vor-Ort-Qualitätskontrolle.",
-    url: "https://fenalt.com/de/bekleidungshersteller",
+    url: "https://www.fenalt.com/de/bekleidungshersteller",
   },
 };
 
@@ -30,7 +30,7 @@ export default function GermanBekleidungsherstellerPage() {
     "provider": {
       "@type": "Organization",
       "name": "Fenalt",
-      "url": "https://fenalt.com",
+      "url": "https://www.fenalt.com",
     },
     "serviceType": "Bekleidungshersteller, Textilproduktion, Musterentwicklung, Qualitätskontrolle",
     "areaServed": ["Germany", "Austria", "Switzerland"],
@@ -46,13 +46,13 @@ export default function GermanBekleidungsherstellerPage() {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://fenalt.com",
+        "item": "https://www.fenalt.com",
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Bekleidungshersteller",
-        "item": "https://fenalt.com/de/bekleidungshersteller",
+        "item": "https://www.fenalt.com/de/bekleidungshersteller",
       },
     ],
   };

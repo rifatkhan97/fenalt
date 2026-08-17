@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "GSM stands for grams per square metre - the standard measure of fabric weight. Learn what different GSM ranges mean for t-shirts, hoodies, and streetwear garments.",
   alternates: {
-    canonical: "https://fenalt.com/learn/what-does-gsm-mean-in-clothing",
+    canonical: "https://www.fenalt.com/learn/what-does-gsm-mean-in-clothing",
   },
   openGraph: {
     title: "What Does GSM Mean in Clothing?",
     description:
       "GSM stands for grams per square metre - the standard measure of fabric weight. Learn what different GSM ranges mean for t-shirts, hoodies, and streetwear garments.",
-    url: "https://fenalt.com/learn/what-does-gsm-mean-in-clothing",
+    url: "https://www.fenalt.com/learn/what-does-gsm-mean-in-clothing",
   },
 };
 
@@ -23,18 +23,18 @@ export default function WhatDoesGsmMeanPage() {
     "@type": "Article",
     headline: "What Does GSM Mean in Clothing?",
     description: "GSM (grams per square metre) is the standard measure of fabric weight. This guide explains what it means and why it matters for brands.",
-    author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    url: "https://fenalt.com/learn/what-does-gsm-mean-in-clothing",
+    author: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    publisher: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    url: "https://www.fenalt.com/learn/what-does-gsm-mean-in-clothing",
   };
 
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://fenalt.com/resources" },
-      { "@type": "ListItem", position: 3, name: "What Does GSM Mean", item: "https://fenalt.com/learn/what-does-gsm-mean-in-clothing" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.fenalt.com/resources" },
+      { "@type": "ListItem", position: 3, name: "What Does GSM Mean", item: "https://www.fenalt.com/learn/what-does-gsm-mean-in-clothing" },
     ],
   };
 

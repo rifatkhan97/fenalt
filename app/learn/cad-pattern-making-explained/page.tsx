@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Discover how Computer-Aided Design (CAD) pattern making works - digital vector drafting, automated marker efficiency, DXF export, 3D simulation, and rapid size grading.",
   alternates: {
-    canonical: "https://fenalt.com/learn/cad-pattern-making-explained",
+    canonical: "https://www.fenalt.com/learn/cad-pattern-making-explained",
   },
   openGraph: {
     title: "CAD Pattern Making for Fashion Brands Explained",
     description:
       "Discover how Computer-Aided Design (CAD) pattern making works - digital vector drafting, automated marker efficiency, DXF export, 3D simulation, and rapid size grading.",
-    url: "https://fenalt.com/learn/cad-pattern-making-explained",
+    url: "https://www.fenalt.com/learn/cad-pattern-making-explained",
   },
 };
 
@@ -24,19 +24,19 @@ export default function CadPatternMakingExplainedPage() {
     headline: "CAD Pattern Making for Fashion Brands Explained",
     description:
       "A technical guide to digital CAD pattern software, vector pattern drafting, marker optimization, and automated fabric yield calculations.",
-    author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    url: "https://fenalt.com/learn/cad-pattern-making-explained",
-    mainEntityOfPage: "https://fenalt.com/learn/cad-pattern-making-explained",
+    author: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    publisher: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    url: "https://www.fenalt.com/learn/cad-pattern-making-explained",
+    mainEntityOfPage: "https://www.fenalt.com/learn/cad-pattern-making-explained",
   };
 
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://fenalt.com/resources" },
-      { "@type": "ListItem", position: 3, name: "CAD Pattern Making Explained", item: "https://fenalt.com/learn/cad-pattern-making-explained" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.fenalt.com/resources" },
+      { "@type": "ListItem", position: 3, name: "CAD Pattern Making Explained", item: "https://www.fenalt.com/learn/cad-pattern-making-explained" },
     ],
   };
 

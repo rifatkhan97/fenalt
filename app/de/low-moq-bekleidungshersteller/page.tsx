@@ -7,18 +7,18 @@ export const metadata: Metadata = {
   description:
     "Textilproduktion in kleinen Mengen ab 50 Stück für Modemarken im DACH-Raum. Fenalt bietet Kapsel-Produktion mit Vor-Ort Qualitätskontrolle und Circular-Stoffen.",
   alternates: {
-    canonical: "https://fenalt.com/de/low-moq-bekleidungshersteller",
+    canonical: "https://www.fenalt.com/de/low-moq-bekleidungshersteller",
     languages: {
-      "de": "https://fenalt.com/de/low-moq-bekleidungshersteller",
-      "en": "https://fenalt.com/low-moq-apparel-manufacturing",
-      "x-default": "https://fenalt.com/low-moq-apparel-manufacturing",
+      "de": "https://www.fenalt.com/de/low-moq-bekleidungshersteller",
+      "en": "https://www.fenalt.com/low-moq-apparel-manufacturing",
+      "x-default": "https://www.fenalt.com/low-moq-apparel-manufacturing",
     },
   },
   openGraph: {
     title: "Low-MOQ Bekleidungshersteller ab 50 Stück | Fenalt",
     description:
       "Textilproduktion in kleinen Mengen ab 50 Stück für Modemarken im DACH-Raum. Fenalt bietet Kapsel-Produktion mit Vor-Ort Qualitätskontrolle und Circular-Stoffen.",
-    url: "https://fenalt.com/de/low-moq-bekleidungshersteller",
+    url: "https://www.fenalt.com/de/low-moq-bekleidungshersteller",
   },
 };
 
@@ -30,7 +30,7 @@ export default function GermanLowMOQBekleidungsherstellerPage() {
     "provider": {
       "@type": "Organization",
       "name": "Fenalt",
-      "url": "https://fenalt.com",
+      "url": "https://www.fenalt.com",
     },
     "serviceType": "Low MOQ Bekleidungshersteller, Kleine Mengen Kleidung produzieren, Kleinserien Bekleidung",
     "areaServed": ["Germany", "Austria", "Switzerland"],
@@ -46,13 +46,13 @@ export default function GermanLowMOQBekleidungsherstellerPage() {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://fenalt.com",
+        "item": "https://www.fenalt.com",
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Low-MOQ Bekleidungshersteller",
-        "item": "https://fenalt.com/de/low-moq-bekleidungshersteller",
+        "item": "https://www.fenalt.com/de/low-moq-bekleidungshersteller",
       },
     ],
   };

@@ -7,7 +7,7 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
       disallow: ["/api/", "/_next/"],
     },
-    sitemap: "https://fenalt.com/sitemap.xml",
-    host: "https://fenalt.com",
+    sitemap: "https://www.fenalt.com/sitemap.xml",
+    host: "https://www.fenalt.com",
   };
 }

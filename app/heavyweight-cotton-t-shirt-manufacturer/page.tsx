@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Custom heavyweight cotton t-shirt manufacturing for streetwear brands. Produce 240gsm–300gsm combed ring-spun cotton tees with boxy fits starting at 50 units.",
   alternates: {
-    canonical: "https://fenalt.com/heavyweight-cotton-t-shirt-manufacturer",
+    canonical: "https://www.fenalt.com/heavyweight-cotton-t-shirt-manufacturer",
   },
   openGraph: {
     title: "Heavyweight Cotton T-Shirt Manufacturer | Fenalt",
     description:
       "Custom heavyweight cotton t-shirt manufacturing for streetwear brands. Produce 240gsm–300gsm combed ring-spun cotton tees with boxy fits starting at 50 units.",
-    url: "https://fenalt.com/heavyweight-cotton-t-shirt-manufacturer",
+    url: "https://www.fenalt.com/heavyweight-cotton-t-shirt-manufacturer",
   },
 };
 
@@ -25,7 +25,7 @@ export default function HeavyweightTShirtManufacturerPage() {
     "provider": {
       "@type": "Organization",
       "name": "Fenalt",
-      "url": "https://fenalt.com",
+      "url": "https://www.fenalt.com",
     },
     "serviceType": "Heavyweight T-Shirt Production, Streetwear Tee Manufacturing, Combed Cotton Knit Sourcing",
     "areaServed": ["United States", "United Kingdom", "European Union", "Australia", "Canada"],
@@ -41,13 +41,13 @@ export default function HeavyweightTShirtManufacturerPage() {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://fenalt.com",
+        "item": "https://www.fenalt.com",
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Heavyweight Cotton T-Shirt Manufacturer",
-        "item": "https://fenalt.com/heavyweight-cotton-t-shirt-manufacturer",
+        "item": "https://www.fenalt.com/heavyweight-cotton-t-shirt-manufacturer",
       },
     ],
   };

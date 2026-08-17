@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Compare combed ring-spun cotton against regular carded cotton - understanding spinning processes, fiber length, soft handfeel, print surface quality, and wash durability.",
   alternates: {
-    canonical: "https://fenalt.com/learn/combed-cotton-vs-regular-cotton",
+    canonical: "https://www.fenalt.com/learn/combed-cotton-vs-regular-cotton",
   },
   openGraph: {
     title: "Combed Cotton vs Regular Cotton: Key Differences",
     description:
       "Compare combed ring-spun cotton against regular carded cotton - understanding spinning processes, fiber length, soft handfeel, print surface quality, and wash durability.",
-    url: "https://fenalt.com/learn/combed-cotton-vs-regular-cotton",
+    url: "https://www.fenalt.com/learn/combed-cotton-vs-regular-cotton",
   },
 };
 
@@ -24,19 +24,19 @@ export default function CombedCottonVsRegularCottonPage() {
     headline: "Combed Cotton vs Regular Cotton: Key Differences",
     description:
       "A technical comparison of combed ring-spun cotton vs carded open-end cotton for apparel manufacturing.",
-    author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    url: "https://fenalt.com/learn/combed-cotton-vs-regular-cotton",
-    mainEntityOfPage: "https://fenalt.com/learn/combed-cotton-vs-regular-cotton",
+    author: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    publisher: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    url: "https://www.fenalt.com/learn/combed-cotton-vs-regular-cotton",
+    mainEntityOfPage: "https://www.fenalt.com/learn/combed-cotton-vs-regular-cotton",
   };
 
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://fenalt.com/resources" },
-      { "@type": "ListItem", position: 3, name: "Combed Cotton vs Regular Cotton", item: "https://fenalt.com/learn/combed-cotton-vs-regular-cotton" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.fenalt.com/resources" },
+      { "@type": "ListItem", position: 3, name: "Combed Cotton vs Regular Cotton", item: "https://www.fenalt.com/learn/combed-cotton-vs-regular-cotton" },
     ],
   };
 

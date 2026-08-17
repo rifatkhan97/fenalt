@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Explore fabric and garment shrinkage - understanding length vs width shrinkage rates, CAD pattern scale-up compensation, mill compacting, Sanforizing, and bio-washing treatments.",
   alternates: {
-    canonical: "https://fenalt.com/learn/garment-shrinkage-in-apparel-manufacturing",
+    canonical: "https://www.fenalt.com/learn/garment-shrinkage-in-apparel-manufacturing",
   },
   openGraph: {
     title: "Understanding Shrinkage in Apparel Manufacturing",
     description:
       "Explore fabric and garment shrinkage - understanding length vs width shrinkage rates, CAD pattern scale-up compensation, mill compacting, Sanforizing, and bio-washing treatments.",
-    url: "https://fenalt.com/learn/garment-shrinkage-in-apparel-manufacturing",
+    url: "https://www.fenalt.com/learn/garment-shrinkage-in-apparel-manufacturing",
   },
 };
 
@@ -24,19 +24,19 @@ export default function GarmentShrinkageInApparelManufacturingPage() {
     headline: "Understanding Shrinkage in Apparel Manufacturing",
     description:
       "A technical guide to managing fabric shrinkage in clothing production, pattern shrinkage allowances, and pre-shrinking mill processes.",
-    author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    url: "https://fenalt.com/learn/garment-shrinkage-in-apparel-manufacturing",
-    mainEntityOfPage: "https://fenalt.com/learn/garment-shrinkage-in-apparel-manufacturing",
+    author: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    publisher: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    url: "https://www.fenalt.com/learn/garment-shrinkage-in-apparel-manufacturing",
+    mainEntityOfPage: "https://www.fenalt.com/learn/garment-shrinkage-in-apparel-manufacturing",
   };
 
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://fenalt.com/resources" },
-      { "@type": "ListItem", position: 3, name: "Understanding Shrinkage in Manufacturing", item: "https://fenalt.com/learn/garment-shrinkage-in-apparel-manufacturing" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.fenalt.com/resources" },
+      { "@type": "ListItem", position: 3, name: "Understanding Shrinkage in Manufacturing", item: "https://www.fenalt.com/learn/garment-shrinkage-in-apparel-manufacturing" },
     ],
   };
 

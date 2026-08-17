@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "High-end circular and flatbed knitwear manufacturing in Dhaka, Bangladesh. Custom cotton sweaters, cardigans, fine gauge knits, and heavy fleece from 50 units.",
   alternates: {
-    canonical: "https://fenalt.com/knitwear-manufacturing-bangladesh",
+    canonical: "https://www.fenalt.com/knitwear-manufacturing-bangladesh",
   },
   openGraph: {
     title: "High-End Knitwear Manufacturing Bangladesh | Fenalt",
     description:
       "High-end circular and flatbed knitwear manufacturing in Dhaka, Bangladesh. Custom cotton sweaters, cardigans, fine gauge knits, and heavy fleece from 50 units.",
-    url: "https://fenalt.com/knitwear-manufacturing-bangladesh",
+    url: "https://www.fenalt.com/knitwear-manufacturing-bangladesh",
   },
 };
 
@@ -25,7 +25,7 @@ export default function KnitwearManufacturingBangladeshPage() {
     "provider": {
       "@type": "Organization",
       "name": "Fenalt",
-      "url": "https://fenalt.com",
+      "url": "https://www.fenalt.com",
     },
     "serviceType": "Circular Knitwear Production, Sweaters & Cardigans Manufacturing, Fine Gauge Knit Sourcing",
     "areaServed": ["United States", "United Kingdom", "European Union", "Australia", "Canada"],
@@ -41,13 +41,13 @@ export default function KnitwearManufacturingBangladeshPage() {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://fenalt.com",
+        "item": "https://www.fenalt.com",
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Knitwear Manufacturing Bangladesh",
-        "item": "https://fenalt.com/knitwear-manufacturing-bangladesh",
+        "item": "https://www.fenalt.com/knitwear-manufacturing-bangladesh",
       },
     ],
   };

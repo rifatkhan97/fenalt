@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Cut-and-sew manufacturing builds garments from raw fabric using custom patterns. Learn how the process works, when brands should use it, and how it differs from blank-based production.",
   alternates: {
-    canonical: "https://fenalt.com/learn/cut-and-sew-manufacturing-explained",
+    canonical: "https://www.fenalt.com/learn/cut-and-sew-manufacturing-explained",
   },
   openGraph: {
     title: "Cut-and-Sew Manufacturing Explained for Fashion Brands",
     description:
       "Cut-and-sew manufacturing builds garments from raw fabric using custom patterns. Learn how the process works, when brands should use it, and how it differs from blank-based production.",
-    url: "https://fenalt.com/learn/cut-and-sew-manufacturing-explained",
+    url: "https://www.fenalt.com/learn/cut-and-sew-manufacturing-explained",
   },
 };
 
@@ -24,19 +24,19 @@ export default function CutAndSewManufacturingExplainedPage() {
     headline: "Cut-and-Sew Manufacturing Explained for Fashion Brands",
     description:
       "A comprehensive guide to cut-and-sew garment manufacturing, pattern development, fabric spreading, cutting, and sewing workflows.",
-    author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    url: "https://fenalt.com/learn/cut-and-sew-manufacturing-explained",
-    mainEntityOfPage: "https://fenalt.com/learn/cut-and-sew-manufacturing-explained",
+    author: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    publisher: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    url: "https://www.fenalt.com/learn/cut-and-sew-manufacturing-explained",
+    mainEntityOfPage: "https://www.fenalt.com/learn/cut-and-sew-manufacturing-explained",
   };
 
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://fenalt.com/resources" },
-      { "@type": "ListItem", position: 3, name: "Cut-and-Sew Manufacturing Explained", item: "https://fenalt.com/learn/cut-and-sew-manufacturing-explained" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.fenalt.com/resources" },
+      { "@type": "ListItem", position: 3, name: "Cut-and-Sew Manufacturing Explained", item: "https://www.fenalt.com/learn/cut-and-sew-manufacturing-explained" },
     ],
   };
 

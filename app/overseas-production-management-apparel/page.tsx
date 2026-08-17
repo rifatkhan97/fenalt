@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Overseas garment manufacturing management in Dhaka, Bangladesh. We bridge international apparel brands with micro-factories, managing sampling, QC, and DDP freight.",
   alternates: {
-    canonical: "https://fenalt.com/overseas-production-management-apparel",
+    canonical: "https://www.fenalt.com/overseas-production-management-apparel",
   },
   openGraph: {
     title: "Overseas Production Management for Apparel | Fenalt",
     description:
       "Overseas garment manufacturing management in Dhaka, Bangladesh. We bridge international apparel brands with micro-factories, managing sampling, QC, and DDP freight.",
-    url: "https://fenalt.com/overseas-production-management-apparel",
+    url: "https://www.fenalt.com/overseas-production-management-apparel",
   },
 };
 
@@ -25,7 +25,7 @@ export default function OverseasProductionManagementApparelPage() {
     "provider": {
       "@type": "Organization",
       "name": "Fenalt",
-      "url": "https://fenalt.com",
+      "url": "https://www.fenalt.com",
     },
     "serviceType": "Overseas Garment Manufacturing Management, Offshore Supply Chain Control, Bangladesh Factory Coordination",
     "areaServed": ["United States", "United Kingdom", "European Union", "Australia", "Canada"],
@@ -41,13 +41,13 @@ export default function OverseasProductionManagementApparelPage() {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://fenalt.com",
+        "item": "https://www.fenalt.com",
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Overseas Production Management Apparel",
-        "item": "https://fenalt.com/overseas-production-management-apparel",
+        "item": "https://www.fenalt.com/overseas-production-management-apparel",
       },
     ],
   };

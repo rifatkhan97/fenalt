@@ -6,11 +6,11 @@ export const metadata: Metadata = {
   title: "Common Tech Pack Mistakes That Delay Clothing Production",
   description:
     "The most common tech pack mistakes that cause sample delays, inaccurate quotes, and production problems - and exactly how to avoid each one.",
-  alternates: { canonical: "https://fenalt.com/learn/tech-pack-mistakes" },
+  alternates: { canonical: "https://www.fenalt.com/learn/tech-pack-mistakes" },
   openGraph: {
     title: "Common Tech Pack Mistakes That Delay Clothing Production",
     description: "The most common tech pack mistakes that cause sample delays, inaccurate quotes, and production problems - and exactly how to avoid each one.",
-    url: "https://fenalt.com/learn/tech-pack-mistakes",
+    url: "https://www.fenalt.com/learn/tech-pack-mistakes",
   },
 };
 
@@ -20,19 +20,19 @@ export default function TechPackMistakesPage() {
     "@type": "Article",
     headline: "Common Tech Pack Mistakes That Delay Clothing Production",
     description: "Common tech pack mistakes that cause sample misalignment, pricing inaccuracies, and production delays.",
-    author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    url: "https://fenalt.com/learn/tech-pack-mistakes",
-    mainEntityOfPage: "https://fenalt.com/learn/tech-pack-mistakes",
+    author: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    publisher: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    url: "https://www.fenalt.com/learn/tech-pack-mistakes",
+    mainEntityOfPage: "https://www.fenalt.com/learn/tech-pack-mistakes",
   };
 
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://fenalt.com/resources" },
-      { "@type": "ListItem", position: 3, name: "Common Tech Pack Mistakes", item: "https://fenalt.com/learn/tech-pack-mistakes" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.fenalt.com/resources" },
+      { "@type": "ListItem", position: 3, name: "Common Tech Pack Mistakes", item: "https://www.fenalt.com/learn/tech-pack-mistakes" },
     ],
   };
 

@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "High-spec clothing manufacturing for premium & luxury fashion brands. Custom heavy GSM fabrics, fine stitching, AQL 2.5 floor audits, and small batch production in Dhaka.",
   alternates: {
-    canonical: "https://fenalt.com/clothing-manufacturer-luxury-brands",
+    canonical: "https://www.fenalt.com/clothing-manufacturer-luxury-brands",
   },
   openGraph: {
     title: "Clothing Manufacturer for Luxury Fashion Brands | Fenalt",
     description:
       "High-spec clothing manufacturing for premium & luxury fashion brands. Custom heavy GSM fabrics, fine stitching, AQL 2.5 floor audits, and small batch production in Dhaka.",
-    url: "https://fenalt.com/clothing-manufacturer-luxury-brands",
+    url: "https://www.fenalt.com/clothing-manufacturer-luxury-brands",
   },
 };
 
@@ -25,7 +25,7 @@ export default function ClothingManufacturerLuxuryBrandsPage() {
     "provider": {
       "@type": "Organization",
       "name": "Fenalt",
-      "url": "https://fenalt.com",
+      "url": "https://www.fenalt.com",
     },
     "serviceType": "High-Spec Apparel Manufacturing, Luxury Garment Production, Premium Sourcing",
     "areaServed": ["United States", "United Kingdom", "European Union", "Australia", "Canada"],
@@ -41,13 +41,13 @@ export default function ClothingManufacturerLuxuryBrandsPage() {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://fenalt.com",
+        "item": "https://www.fenalt.com",
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Clothing Manufacturer Luxury Brands",
-        "item": "https://fenalt.com/clothing-manufacturer-luxury-brands",
+        "item": "https://www.fenalt.com/clothing-manufacturer-luxury-brands",
       },
     ],
   };

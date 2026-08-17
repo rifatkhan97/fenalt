@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Understand pattern size grading - how base size patterns (Medium) scale proportionally to XS, Small, Large, and 3XL using technical grade rules.",
   alternates: {
-    canonical: "https://fenalt.com/learn/apparel-size-grading-explained",
+    canonical: "https://www.fenalt.com/learn/apparel-size-grading-explained",
   },
   openGraph: {
     title: "How Apparel Size Grading Works Across Sizes",
     description:
       "Understand pattern size grading - how base size patterns (Medium) scale proportionally to XS, Small, Large, and 3XL using technical grade rules.",
-    url: "https://fenalt.com/learn/apparel-size-grading-explained",
+    url: "https://www.fenalt.com/learn/apparel-size-grading-explained",
   },
 };
 
@@ -24,19 +24,19 @@ export default function ApparelSizeGradingExplainedPage() {
     headline: "How Apparel Size Grading Works Across Sizes",
     description:
       "A technical explanation of garment pattern size grading, grade rules, CAD software scaling, and size ratio specs.",
-    author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    url: "https://fenalt.com/learn/apparel-size-grading-explained",
-    mainEntityOfPage: "https://fenalt.com/learn/apparel-size-grading-explained",
+    author: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    publisher: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    url: "https://www.fenalt.com/learn/apparel-size-grading-explained",
+    mainEntityOfPage: "https://www.fenalt.com/learn/apparel-size-grading-explained",
   };
 
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://fenalt.com/resources" },
-      { "@type": "ListItem", position: 3, name: "Apparel Size Grading Explained", item: "https://fenalt.com/learn/apparel-size-grading-explained" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.fenalt.com/resources" },
+      { "@type": "ListItem", position: 3, name: "Apparel Size Grading Explained", item: "https://www.fenalt.com/learn/apparel-size-grading-explained" },
     ],
   };
 

@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Cut and sew apparel manufacturing in Dhaka, Bangladesh. Custom pattern making, size grading, prototype fit sampling, and low MOQ production from 50 units.",
   alternates: {
-    canonical: "https://fenalt.com/cut-and-sew-clothing-manufacturer-bangladesh",
+    canonical: "https://www.fenalt.com/cut-and-sew-clothing-manufacturer-bangladesh",
   },
   openGraph: {
     title: "Cut and Sew Clothing Manufacturer Bangladesh | Fenalt",
     description:
       "Cut and sew apparel manufacturing in Dhaka, Bangladesh. Custom pattern making, size grading, prototype fit sampling, and low MOQ production from 50 units.",
-    url: "https://fenalt.com/cut-and-sew-clothing-manufacturer-bangladesh",
+    url: "https://www.fenalt.com/cut-and-sew-clothing-manufacturer-bangladesh",
   },
 };
 
@@ -25,7 +25,7 @@ export default function CutAndSewClothingManufacturerBangladeshPage() {
     "provider": {
       "@type": "Organization",
       "name": "Fenalt",
-      "url": "https://fenalt.com",
+      "url": "https://www.fenalt.com",
     },
     "serviceType": "Cut and Sew Apparel Manufacturing, Custom Pattern Grading, Prototype Fit Sampling",
     "areaServed": ["United States", "United Kingdom", "European Union", "Australia", "Canada"],
@@ -41,13 +41,13 @@ export default function CutAndSewClothingManufacturerBangladeshPage() {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://fenalt.com",
+        "item": "https://www.fenalt.com",
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Cut and Sew Clothing Manufacturer Bangladesh",
-        "item": "https://fenalt.com/cut-and-sew-clothing-manufacturer-bangladesh",
+        "item": "https://www.fenalt.com/cut-and-sew-clothing-manufacturer-bangladesh",
       },
     ],
   };

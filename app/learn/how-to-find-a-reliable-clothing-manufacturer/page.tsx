@@ -6,11 +6,11 @@ export const metadata: Metadata = {
   title: "How to Find a Reliable Clothing Manufacturer",
   description:
     "A practical guide to finding a reliable clothing manufacturer - where to look, how to evaluate options, and what distinguishes a trustworthy manufacturing partner.",
-  alternates: { canonical: "https://fenalt.com/learn/how-to-find-a-reliable-clothing-manufacturer" },
+  alternates: { canonical: "https://www.fenalt.com/learn/how-to-find-a-reliable-clothing-manufacturer" },
   openGraph: {
     title: "How to Find a Reliable Clothing Manufacturer",
     description: "A practical guide to finding a reliable clothing manufacturer - where to look, how to evaluate options, and what distinguishes a trustworthy partner.",
-    url: "https://fenalt.com/learn/how-to-find-a-reliable-clothing-manufacturer",
+    url: "https://www.fenalt.com/learn/how-to-find-a-reliable-clothing-manufacturer",
   },
 };
 
@@ -20,19 +20,19 @@ export default function HowToFindAReliableManufacturerPage() {
     "@type": "Article",
     headline: "How to Find a Reliable Clothing Manufacturer",
     description: "Where and how to find reliable clothing manufacturers for fashion brands.",
-    author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    url: "https://fenalt.com/learn/how-to-find-a-reliable-clothing-manufacturer",
-    mainEntityOfPage: "https://fenalt.com/learn/how-to-find-a-reliable-clothing-manufacturer",
+    author: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    publisher: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    url: "https://www.fenalt.com/learn/how-to-find-a-reliable-clothing-manufacturer",
+    mainEntityOfPage: "https://www.fenalt.com/learn/how-to-find-a-reliable-clothing-manufacturer",
   };
 
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://fenalt.com/resources" },
-      { "@type": "ListItem", position: 3, name: "How to Find a Reliable Clothing Manufacturer", item: "https://fenalt.com/learn/how-to-find-a-reliable-clothing-manufacturer" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.fenalt.com/resources" },
+      { "@type": "ListItem", position: 3, name: "How to Find a Reliable Clothing Manufacturer", item: "https://www.fenalt.com/learn/how-to-find-a-reliable-clothing-manufacturer" },
     ],
   };
 

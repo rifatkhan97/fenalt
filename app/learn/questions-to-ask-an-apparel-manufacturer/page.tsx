@@ -6,11 +6,11 @@ export const metadata: Metadata = {
   title: "Questions to Ask an Apparel Manufacturer Before Working Together",
   description:
     "Before committing to a clothing manufacturer, ask these technical questions. A practical checklist covering capabilities, quality control, lead times, pricing, and accountability.",
-  alternates: { canonical: "https://fenalt.com/learn/questions-to-ask-an-apparel-manufacturer" },
+  alternates: { canonical: "https://www.fenalt.com/learn/questions-to-ask-an-apparel-manufacturer" },
   openGraph: {
     title: "Questions to Ask an Apparel Manufacturer Before Working Together",
     description: "Before committing to a clothing manufacturer, ask these technical questions. A practical checklist covering capabilities, quality control, lead times, pricing, and accountability.",
-    url: "https://fenalt.com/learn/questions-to-ask-an-apparel-manufacturer",
+    url: "https://www.fenalt.com/learn/questions-to-ask-an-apparel-manufacturer",
   },
 };
 
@@ -20,19 +20,19 @@ export default function QuestionsToAskManufacturerPage() {
     "@type": "Article",
     headline: "Questions to Ask an Apparel Manufacturer Before Working Together",
     description: "Checklist of questions to ask clothing manufacturers before committing.",
-    author: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    publisher: { "@type": "Organization", name: "Fenalt", url: "https://fenalt.com" },
-    url: "https://fenalt.com/learn/questions-to-ask-an-apparel-manufacturer",
-    mainEntityOfPage: "https://fenalt.com/learn/questions-to-ask-an-apparel-manufacturer",
+    author: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    publisher: { "@type": "Organization", name: "Fenalt", url: "https://www.fenalt.com" },
+    url: "https://www.fenalt.com/learn/questions-to-ask-an-apparel-manufacturer",
+    mainEntityOfPage: "https://www.fenalt.com/learn/questions-to-ask-an-apparel-manufacturer",
   };
 
   const breadcrumbsJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://fenalt.com" },
-      { "@type": "ListItem", position: 2, name: "Learn", item: "https://fenalt.com/resources" },
-      { "@type": "ListItem", position: 3, name: "Questions to Ask a Manufacturer", item: "https://fenalt.com/learn/questions-to-ask-an-apparel-manufacturer" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.fenalt.com" },
+      { "@type": "ListItem", position: 2, name: "Learn", item: "https://www.fenalt.com/resources" },
+      { "@type": "ListItem", position: 3, name: "Questions to Ask a Manufacturer", item: "https://www.fenalt.com/learn/questions-to-ask-an-apparel-manufacturer" },
     ],
   };
 
