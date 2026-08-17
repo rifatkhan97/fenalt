@@ -5,17 +5,17 @@ import { MessageSquare, Leaf, Heart, ArrowRight } from "lucide-react";
 import TestimonialsCarousel from "@/components/TestimonialsCarousel";
 
 export const metadata: Metadata = {
-  title: "Fenalt | Sustainable Low-MOQ Apparel Manufacturing (Fully Managed)",
+  title: "Sustainable Low-MOQ Apparel Manufacturing (Fully Managed)",
   description:
     "Fenalt is a premium B2B clothing manufacturing platform connecting fashion brands with ethical micro-factories. Source with low MOQ, zero communication barriers, circular fabrics, and fully managed on-site quality control.",
   alternates: {
-    canonical: "https://fenalt.com",
+    canonical: "/",
   },
   openGraph: {
     title: "Fenalt | Sustainable Low-MOQ Apparel Manufacturing (Fully Managed)",
     description:
       "Fenalt is a premium B2B clothing manufacturing platform connecting fashion brands with ethical micro-factories. Source with low MOQ, zero communication barriers, circular fabrics, and fully managed on-site quality control.",
-    url: "https://fenalt.com",
+    url: "https://www.fenalt.com",
   },
 };
 
