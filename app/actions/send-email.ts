@@ -15,17 +15,22 @@ interface IntakeInput {
   category: string;
   units: string;
   description: string;
-  attachments?: AttachmentInput[];
+  fileLink?: string;
+  attachment?: AttachmentInput;
 }
 
 const ALLOWED_MIME_TYPES = ["application/pdf", "image/jpeg", "image/png"];
 const ALLOWED_EXTENSIONS = [".pdf", ".jpg", ".jpeg", ".png"];
-const MAX_FILE_BYTES = 1 * 1024 * 1024;  // 1 MB raw (Vercel 4.5 MB limit: 3×1 MB raw → ~4.1 MB Base64)
-const MAX_TOTAL_BYTES = 3 * 1024 * 1024; // 3 MB raw combined
+const MAX_FILE_BYTES = 3 * 1024 * 1024; // 3 MB raw
 
-/** Estimate raw byte size from a Base64 string (no padding correction needed — approximate is fine for limits). */
+/** Estimate raw byte size from a Base64 string. */
 function base64ToBytes(b64: string): number {
   return Math.floor(b64.length * 0.75);
+}
+
+/** Basic URL format check — no network request. */
+function isValidUrl(val: string): boolean {
+  return /^https?:\/\/.+/.test(val.trim());
 }
 
 export async function sendIntakeEmail(data: IntakeInput) {
@@ -36,39 +41,47 @@ export async function sendIntakeEmail(data: IntakeInput) {
 
     const resend = new Resend(process.env.RESEND_API_KEY);
 
-    const { name, brandName, email, category, units, description, attachments = [] } = data;
+    const { name, brandName, email, category, units, description, fileLink, attachment } = data;
 
-    // ── Server-side attachment validation ──────────────────────────────────
-    if (attachments.length > 3) {
-      return { error: "You can upload a maximum of 3 files." };
+    // ── Server-side validation ──────────────────────────────────────────────
+
+    // Validate link format if provided
+    if (fileLink && fileLink.trim() !== "") {
+      if (!isValidUrl(fileLink)) {
+        return { error: "Please enter a valid file or folder link." };
+      }
     }
 
-    let totalBytes = 0;
-    for (const file of attachments) {
-      // MIME type check
-      if (!ALLOWED_MIME_TYPES.includes(file.type)) {
-        return { error: "Unsupported file type. Please upload PDF, JPG, or PNG files only." };
+    // Validate attachment if provided
+    if (attachment) {
+      if (!ALLOWED_MIME_TYPES.includes(attachment.type)) {
+        return { error: "Unsupported file type. Please upload a PDF, JPG, or PNG file." };
       }
 
-      // Extension check (guard against mismatched client metadata)
-      const ext = "." + file.name.split(".").pop()?.toLowerCase();
+      const ext = "." + attachment.name.split(".").pop()?.toLowerCase();
       if (!ALLOWED_EXTENSIONS.includes(ext)) {
-        return { error: "Unsupported file type. Please upload PDF, JPG, or PNG files only." };
+        return { error: "Unsupported file type. Please upload a PDF, JPG, or PNG file." };
       }
 
-      // Per-file size check
-      const fileBytes = base64ToBytes(file.content);
+      const fileBytes = base64ToBytes(attachment.content);
       if (fileBytes > MAX_FILE_BYTES) {
-        return { error: "Each file must be 1MB or smaller." };
+        return { error: "The uploaded file must be 3MB or smaller." };
       }
-
-      totalBytes += fileBytes;
     }
 
-    if (totalBytes > MAX_TOTAL_BYTES) {
-      return { error: "Your files are too large. Please keep the total upload size under 3MB." };
-    }
-    // ── End validation ─────────────────────────────────────────────────────
+    // ── End validation ──────────────────────────────────────────────────────
+
+    // Build optional link section for the internal email
+    const fileLinkSection =
+      fileLink && fileLink.trim() !== ""
+        ? `
+        <div style="margin-bottom: 25px;">
+          <h3 style="color: #1A1A1A; font-size: 16px; border-left: 3px solid #C8A882; padding-left: 10px; margin-bottom: 15px;">Tech Pack / Design Files Link</h3>
+          <div style="background-color: #F2EFE9; padding: 15px; border-radius: 4px; font-size: 14px; line-height: 1.6;">
+            <a href="${fileLink.trim()}" style="color: #2D5016; text-decoration: underline; word-break: break-all;">${fileLink.trim()}</a>
+          </div>
+        </div>`
+        : "";
 
     const htmlContent = `
       <div style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; max-width: 600px; margin: 0 auto; border: 1px solid #E5DDD3; background-color: #FAF9F6; padding: 30px; color: #1A1A1A;">
@@ -114,6 +127,8 @@ export async function sendIntakeEmail(data: IntakeInput) {
           <div style="background-color: #F2EFE9; padding: 15px; border-radius: 4px; font-size: 14px; line-height: 1.6; color: #1A1A1A; white-space: pre-wrap;">${description}</div>
         </div>
 
+        ${fileLinkSection}
+
         <div style="border-top: 1px solid #E5DDD3; padding-top: 15px; text-align: center; font-size: 12px; color: #6B6560;">
           <p style="margin: 0;">This inquiry was submitted from the Fenalt website intake form.</p>
           <p style="margin: 5px 0 0 0;">© ${new Date().getFullYear()} Fenalt. All rights reserved.</p>
@@ -129,11 +144,13 @@ export async function sendIntakeEmail(data: IntakeInput) {
       html: htmlContent,
     };
 
-    if (attachments.length > 0) {
-      internalEmailPayload.attachments = attachments.map((file) => ({
-        filename: file.name,
-        content: file.content,
-      }));
+    if (attachment) {
+      internalEmailPayload.attachments = [
+        {
+          filename: attachment.name,
+          content: attachment.content,
+        },
+      ];
     }
 
     const internalEmailPromise = resend.emails.send(internalEmailPayload);

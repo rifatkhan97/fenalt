@@ -25,6 +25,13 @@ const schema = z.object({
   category: z.string().min(1, "Garment category is required"),
   units: z.string().min(1, "Estimated units is required"),
   description: z.string().min(10, "Project description must be at least 10 characters"),
+  fileLink: z
+    .string()
+    .optional()
+    .refine(
+      (val) => !val || /^https?:\/\/.+/.test(val.trim()),
+      { message: "Please enter a valid file or folder link." }
+    ),
 });
 
 type FormData = z.infer<typeof schema>;
@@ -85,8 +92,7 @@ const faqItems = [
 ];
 
 const ALLOWED_TYPES = ["application/pdf", "image/jpeg", "image/png"];
-const MAX_FILE_BYTES = 1 * 1024 * 1024;  // 1 MB per file
-const MAX_TOTAL_BYTES = 3 * 1024 * 1024; // 3 MB combined
+const MAX_FILE_SIZE = 3 * 1024 * 1024; // 3 MB
 
 /** Read a File and return its Base64 content string (no data-URI prefix). */
 function readFileAsBase64(file: File): Promise<string> {
@@ -106,7 +112,7 @@ export default function IntakeForm() {
   const [openFaq, setOpenFaq] = useState<number | null>(null);
   const [submitted, setSubmitted] = useState(false);
   const [serverError, setServerError] = useState<string | null>(null);
-  const [uploadedFiles, setUploadedFiles] = useState<File[]>([]);
+  const [uploadedFile, setUploadedFile] = useState<File | null>(null);
   const [uploadError, setUploadError] = useState<string | null>(null);
   const fileInputRef = useRef<HTMLInputElement>(null);
 
@@ -124,91 +130,68 @@ export default function IntakeForm() {
       category: "",
       units: "",
       description: "",
+      fileLink: "",
     },
   });
 
-  /** Validate and stage newly chosen files. */
+  /** Validate and stage a single chosen file. */
   const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setUploadError(null);
-    const chosen = Array.from(e.target.files ?? []);
-    if (!chosen.length) return;
+    const file = e.target.files?.[0];
+    if (!file) return;
 
-    const merged = [...uploadedFiles, ...chosen];
-
-    if (merged.length > 3) {
-      setUploadError("You can upload a maximum of 3 files.");
-      // Reset the input so the same file can be re-selected
+    if (!ALLOWED_TYPES.includes(file.type)) {
+      setUploadError("Unsupported file type. Please upload a PDF, JPG, or PNG file.");
+      if (fileInputRef.current) fileInputRef.current.value = "";
+      return;
+    }
+    if (file.size > MAX_FILE_SIZE) {
+      setUploadError(
+        "This file is larger than 3MB. Please use the file/link field below to share your tech pack instead."
+      );
       if (fileInputRef.current) fileInputRef.current.value = "";
       return;
     }
 
-    for (const file of chosen) {
-      if (!ALLOWED_TYPES.includes(file.type)) {
-        setUploadError("Unsupported file type. Please upload PDF, JPG, or PNG files only.");
-        if (fileInputRef.current) fileInputRef.current.value = "";
-        return;
-      }
-      if (file.size > MAX_FILE_BYTES) {
-        setUploadError("Each file must be 1MB or smaller.");
-        if (fileInputRef.current) fileInputRef.current.value = "";
-        return;
-      }
-    }
-
-    const totalSize = merged.reduce((sum, f) => sum + f.size, 0);
-    if (totalSize > MAX_TOTAL_BYTES) {
-      setUploadError("Your files are too large. Please keep the total upload size under 3MB.");
-      if (fileInputRef.current) fileInputRef.current.value = "";
-      return;
-    }
-
-    setUploadedFiles(merged);
+    setUploadedFile(file);
     if (fileInputRef.current) fileInputRef.current.value = "";
   };
 
-  /** Remove a single file by index. */
-  const removeFile = (index: number) => {
-    setUploadedFiles((prev) => prev.filter((_, i) => i !== index));
+  /** Clear the staged file. */
+  const removeFile = () => {
+    setUploadedFile(null);
     setUploadError(null);
+    if (fileInputRef.current) fileInputRef.current.value = "";
   };
 
   const onSubmit = async (data: FormData) => {
     setServerError(null);
     setUploadError(null);
     try {
-      // Client-side guard (mirrors handleFileChange, protects against stale state)
-      if (uploadedFiles.length > 3) {
-        setUploadError("You can upload a maximum of 3 files.");
-        return;
-      }
-      for (const file of uploadedFiles) {
-        if (!ALLOWED_TYPES.includes(file.type)) {
-          setUploadError("Unsupported file type. Please upload PDF, JPG, or PNG files only.");
+      // Client-side guard against stale state
+      if (uploadedFile) {
+        if (!ALLOWED_TYPES.includes(uploadedFile.type)) {
+          setUploadError("Unsupported file type. Please upload a PDF, JPG, or PNG file.");
           return;
         }
-        if (file.size > MAX_FILE_BYTES) {
-          setUploadError("Each file must be 1MB or smaller.");
+        if (uploadedFile.size > MAX_FILE_SIZE) {
+          setUploadError(
+            "This file is larger than 3MB. Please use the file/link field below to share your tech pack instead."
+          );
           return;
         }
       }
-      const totalSize = uploadedFiles.reduce((sum, f) => sum + f.size, 0);
-      if (totalSize > MAX_TOTAL_BYTES) {
-        setUploadError("Your files are too large. Please keep the total upload size under 3MB.");
-        return;
+
+      // Build payload: Base64-encode file in-memory if present (never written to disk)
+      const payload: Parameters<typeof sendIntakeEmail>[0] = { ...data };
+
+      if (uploadedFile) {
+        payload.attachment = {
+          name: uploadedFile.name,
+          type: uploadedFile.type,
+          content: await readFileAsBase64(uploadedFile),
+        };
       }
-
-      // Build attachments array (Base64 encoded in-memory, never written to disk)
-      const attachments: AttachmentInput[] = await Promise.all(
-        uploadedFiles.map(async (file) => ({
-          name: file.name,
-          type: file.type,
-          content: await readFileAsBase64(file),
-        }))
-      );
-
-      const payload = attachments.length > 0
-        ? { ...data, attachments }
-        : data;
 
       const result = await sendIntakeEmail(payload);
       if (result && "error" in result && result.error) {
@@ -222,7 +205,7 @@ export default function IntakeForm() {
           });
         }
         setSubmitted(true);
-        setUploadedFiles([]);
+        setUploadedFile(null);
         setUploadError(null);
         reset();
       }
@@ -474,64 +457,83 @@ export default function IntakeForm() {
 
                 {/* Row 5: File Upload (Optional) */}
                 <div>
-                  <label className="block text-xs font-semibold uppercase tracking-widest text-[#6B6560] mb-2">
-                    Tech Pack / Design References
+                  <label
+                    htmlFor="file-upload"
+                    className="block text-xs font-semibold uppercase tracking-widest text-[#6B6560] mb-2"
+                  >
+                    Tech Pack / Design Reference
                     <span className="normal-case tracking-normal font-normal text-[#C8A882] ml-1.5">(Optional)</span>
                   </label>
                   <p className="text-xs text-[#6B6560] mb-3">
-                    PDF, JPG, or PNG&nbsp;&bull;&nbsp;Up to 3 files&nbsp;&bull;&nbsp;1MB each
+                    Upload 1 PDF, JPG, or PNG up to 3MB. For larger or multiple files, use the link below.
                   </p>
 
-                  {/* Hidden native file input */}
+                  {/* Hidden native file input — single file only */}
                   <input
                     ref={fileInputRef}
                     id="file-upload"
                     type="file"
-                    multiple
                     accept="application/pdf,image/jpeg,image/png"
                     onChange={handleFileChange}
                     className="sr-only"
-                    aria-label="Upload tech pack or design references"
+                    aria-label="Upload tech pack or design reference"
                   />
 
-                  {/* Styled trigger area */}
-                  {uploadedFiles.length < 3 && (
+                  {/* Styled trigger — hidden once a file is staged */}
+                  {!uploadedFile && (
                     <button
                       type="button"
                       onClick={() => fileInputRef.current?.click()}
                       className="w-full flex items-center justify-center gap-2 px-4 py-4 border border-dashed border-[#C8A882] bg-[#F2EFE9] text-sm text-[#6B6560] hover:border-[#2D5016] hover:text-[#2D5016] transition-colors duration-200 cursor-pointer"
                     >
                       <Paperclip size={14} className="flex-shrink-0" />
-                      <span>Click to browse files</span>
+                      <span>Click to browse</span>
                     </button>
                   )}
 
-                  {/* Selected file list */}
-                  {uploadedFiles.length > 0 && (
-                    <ul className="mt-3 space-y-2">
-                      {uploadedFiles.map((file, index) => (
-                        <li
-                          key={index}
-                          className="flex items-center justify-between px-4 py-2.5 bg-[#F2EFE9] border border-[#E5DDD3] text-sm"
-                        >
-                          <span className="text-[#1A1A1A] truncate max-w-[75%]">{file.name}</span>
-                          <button
-                            type="button"
-                            onClick={() => removeFile(index)}
-                            className="flex items-center gap-1 ml-4 text-xs text-[#6B6560] hover:text-red-600 transition-colors flex-shrink-0"
-                            aria-label={`Remove ${file.name}`}
-                          >
-                            <X size={12} />
-                            Remove
-                          </button>
-                        </li>
-                      ))}
-                    </ul>
+                  {/* Staged file row */}
+                  {uploadedFile && (
+                    <div className="flex items-center justify-between px-4 py-2.5 bg-[#F2EFE9] border border-[#E5DDD3] text-sm">
+                      <span className="text-[#1A1A1A] truncate max-w-[75%]">{uploadedFile.name}</span>
+                      <button
+                        type="button"
+                        onClick={removeFile}
+                        className="flex items-center gap-1 ml-4 text-xs text-[#6B6560] hover:text-red-600 transition-colors flex-shrink-0"
+                        aria-label={`Remove ${uploadedFile.name}`}
+                      >
+                        <X size={12} />
+                        Remove
+                      </button>
+                    </div>
                   )}
 
                   {/* Upload validation error */}
                   {uploadError && (
                     <p className="mt-2 text-xs text-red-600">{uploadError}</p>
+                  )}
+                </div>
+
+                {/* Row 6: External File Link (Optional) */}
+                <div>
+                  <label
+                    htmlFor="fileLink"
+                    className="block text-xs font-semibold uppercase tracking-widest text-[#6B6560] mb-2"
+                  >
+                    Tech Pack / Design Files Link
+                    <span className="normal-case tracking-normal font-normal text-[#C8A882] ml-1.5">(Optional)</span>
+                  </label>
+                  <p className="text-xs text-[#6B6560] mb-3">
+                    For larger tech packs or multiple files, share a Google Drive, Dropbox, WeTransfer, OneDrive, or similar link.
+                  </p>
+                  <input
+                    id="fileLink"
+                    type="url"
+                    {...register("fileLink")}
+                    placeholder="https://..."
+                    className="w-full px-4 py-3 bg-[#F2EFE9] border border-[#E5DDD3] text-sm text-[#1A1A1A] placeholder-[#6B6560] focus:outline-none focus:border-[#2D5016] transition-colors"
+                  />
+                  {errors.fileLink && (
+                    <p className="mt-1 text-xs text-red-600">{errors.fileLink.message}</p>
                   )}
                 </div>
 
