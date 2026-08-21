@@ -20,8 +20,8 @@ interface IntakeInput {
 
 const ALLOWED_MIME_TYPES = ["application/pdf", "image/jpeg", "image/png"];
 const ALLOWED_EXTENSIONS = [".pdf", ".jpg", ".jpeg", ".png"];
-const MAX_FILE_BYTES = 10 * 1024 * 1024; // 10 MB raw
-const MAX_TOTAL_BYTES = 20 * 1024 * 1024; // 20 MB raw
+const MAX_FILE_BYTES = 1 * 1024 * 1024;  // 1 MB raw (Vercel 4.5 MB limit: 3×1 MB raw → ~4.1 MB Base64)
+const MAX_TOTAL_BYTES = 3 * 1024 * 1024; // 3 MB raw combined
 
 /** Estimate raw byte size from a Base64 string (no padding correction needed — approximate is fine for limits). */
 function base64ToBytes(b64: string): number {
@@ -59,14 +59,14 @@ export async function sendIntakeEmail(data: IntakeInput) {
       // Per-file size check
       const fileBytes = base64ToBytes(file.content);
       if (fileBytes > MAX_FILE_BYTES) {
-        return { error: "Each file must be 10MB or smaller." };
+        return { error: "Each file must be 1MB or smaller." };
       }
 
       totalBytes += fileBytes;
     }
 
     if (totalBytes > MAX_TOTAL_BYTES) {
-      return { error: "Your files are too large. Please keep the total upload size under 20MB." };
+      return { error: "Your files are too large. Please keep the total upload size under 3MB." };
     }
     // ── End validation ─────────────────────────────────────────────────────
 

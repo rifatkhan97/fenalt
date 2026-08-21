@@ -85,8 +85,8 @@ const faqItems = [
 ];
 
 const ALLOWED_TYPES = ["application/pdf", "image/jpeg", "image/png"];
-const MAX_FILE_BYTES = 10 * 1024 * 1024;
-const MAX_TOTAL_BYTES = 20 * 1024 * 1024;
+const MAX_FILE_BYTES = 1 * 1024 * 1024;  // 1 MB per file
+const MAX_TOTAL_BYTES = 3 * 1024 * 1024; // 3 MB combined
 
 /** Read a File and return its Base64 content string (no data-URI prefix). */
 function readFileAsBase64(file: File): Promise<string> {
@@ -149,7 +149,7 @@ export default function IntakeForm() {
         return;
       }
       if (file.size > MAX_FILE_BYTES) {
-        setUploadError("Each file must be 10MB or smaller.");
+        setUploadError("Each file must be 1MB or smaller.");
         if (fileInputRef.current) fileInputRef.current.value = "";
         return;
       }
@@ -157,7 +157,7 @@ export default function IntakeForm() {
 
     const totalSize = merged.reduce((sum, f) => sum + f.size, 0);
     if (totalSize > MAX_TOTAL_BYTES) {
-      setUploadError("Your files are too large. Please keep the total upload size under 20MB.");
+      setUploadError("Your files are too large. Please keep the total upload size under 3MB.");
       if (fileInputRef.current) fileInputRef.current.value = "";
       return;
     }
@@ -187,13 +187,13 @@ export default function IntakeForm() {
           return;
         }
         if (file.size > MAX_FILE_BYTES) {
-          setUploadError("Each file must be 10MB or smaller.");
+          setUploadError("Each file must be 1MB or smaller.");
           return;
         }
       }
       const totalSize = uploadedFiles.reduce((sum, f) => sum + f.size, 0);
       if (totalSize > MAX_TOTAL_BYTES) {
-        setUploadError("Your files are too large. Please keep the total upload size under 20MB.");
+        setUploadError("Your files are too large. Please keep the total upload size under 3MB.");
         return;
       }
 
@@ -479,7 +479,7 @@ export default function IntakeForm() {
                     <span className="normal-case tracking-normal font-normal text-[#C8A882] ml-1.5">(Optional)</span>
                   </label>
                   <p className="text-xs text-[#6B6560] mb-3">
-                    PDF, JPG, or PNG&nbsp;&bull;&nbsp;Up to 3 files&nbsp;&bull;&nbsp;10MB each
+                    PDF, JPG, or PNG&nbsp;&bull;&nbsp;Up to 3 files&nbsp;&bull;&nbsp;1MB each
                   </p>
 
                   {/* Hidden native file input */}

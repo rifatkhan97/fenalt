@@ -7,8 +7,9 @@ const nextConfig: NextConfig = {
   },
   experimental: {
     serverActions: {
-      // Max upload: 20MB raw → ~26.7MB Base64. Add headroom for multipart overhead.
-      bodySizeLimit: "27mb",
+      // Vercel hard cap is 4.5MB for all plans — keep Next.js limit below that
+      // so Next.js rejects oversized requests with a clean error before Vercel does.
+      bodySizeLimit: "4mb",
     },
   },
 };
