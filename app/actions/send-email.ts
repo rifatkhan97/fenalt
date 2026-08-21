@@ -2,6 +2,12 @@
 
 import { Resend } from "resend";
 
+export interface AttachmentInput {
+  name: string;
+  type: string;
+  content: string; // Base64-encoded file content (no data URI prefix)
+}
+
 interface IntakeInput {
   name: string;
   brandName: string;
@@ -9,6 +15,17 @@ interface IntakeInput {
   category: string;
   units: string;
   description: string;
+  attachments?: AttachmentInput[];
+}
+
+const ALLOWED_MIME_TYPES = ["application/pdf", "image/jpeg", "image/png"];
+const ALLOWED_EXTENSIONS = [".pdf", ".jpg", ".jpeg", ".png"];
+const MAX_FILE_BYTES = 10 * 1024 * 1024; // 10 MB raw
+const MAX_TOTAL_BYTES = 20 * 1024 * 1024; // 20 MB raw
+
+/** Estimate raw byte size from a Base64 string (no padding correction needed — approximate is fine for limits). */
+function base64ToBytes(b64: string): number {
+  return Math.floor(b64.length * 0.75);
 }
 
 export async function sendIntakeEmail(data: IntakeInput) {
@@ -19,7 +36,39 @@ export async function sendIntakeEmail(data: IntakeInput) {
 
     const resend = new Resend(process.env.RESEND_API_KEY);
 
-    const { name, brandName, email, category, units, description } = data;
+    const { name, brandName, email, category, units, description, attachments = [] } = data;
+
+    // ── Server-side attachment validation ──────────────────────────────────
+    if (attachments.length > 3) {
+      return { error: "You can upload a maximum of 3 files." };
+    }
+
+    let totalBytes = 0;
+    for (const file of attachments) {
+      // MIME type check
+      if (!ALLOWED_MIME_TYPES.includes(file.type)) {
+        return { error: "Unsupported file type. Please upload PDF, JPG, or PNG files only." };
+      }
+
+      // Extension check (guard against mismatched client metadata)
+      const ext = "." + file.name.split(".").pop()?.toLowerCase();
+      if (!ALLOWED_EXTENSIONS.includes(ext)) {
+        return { error: "Unsupported file type. Please upload PDF, JPG, or PNG files only." };
+      }
+
+      // Per-file size check
+      const fileBytes = base64ToBytes(file.content);
+      if (fileBytes > MAX_FILE_BYTES) {
+        return { error: "Each file must be 10MB or smaller." };
+      }
+
+      totalBytes += fileBytes;
+    }
+
+    if (totalBytes > MAX_TOTAL_BYTES) {
+      return { error: "Your files are too large. Please keep the total upload size under 20MB." };
+    }
+    // ── End validation ─────────────────────────────────────────────────────
 
     const htmlContent = `
       <div style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; max-width: 600px; margin: 0 auto; border: 1px solid #E5DDD3; background-color: #FAF9F6; padding: 30px; color: #1A1A1A;">
@@ -72,13 +121,22 @@ export async function sendIntakeEmail(data: IntakeInput) {
       </div>
     `;
 
-    const internalEmailPromise = resend.emails.send({
+    const internalEmailPayload: Parameters<typeof resend.emails.send>[0] = {
       from: "Fenalt Intake <hello@fenalt.com>",
       to: "hello@fenalt.com",
       replyTo: email,
       subject: `New Project Intake from Fenalt - ${brandName}`,
       html: htmlContent,
-    });
+    };
+
+    if (attachments.length > 0) {
+      internalEmailPayload.attachments = attachments.map((file) => ({
+        filename: file.name,
+        content: file.content,
+      }));
+    }
+
+    const internalEmailPromise = resend.emails.send(internalEmailPayload);
 
     const customerEmailPromise = resend.emails.send({
       from: "Fenalt Intake <hello@fenalt.com>",

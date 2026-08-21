@@ -1,10 +1,10 @@
 "use client";
 
-import { useState } from "react";
+import { useRef, useState } from "react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import * as z from "zod";
-import { sendIntakeEmail } from "@/app/actions/send-email";
+import { sendIntakeEmail, type AttachmentInput } from "@/app/actions/send-email";
 import {
   Shield,
   CheckCircle2,
@@ -14,6 +14,8 @@ import {
   FileCheck,
   Layers,
   Package,
+  Paperclip,
+  X,
 } from "lucide-react";
 
 const schema = z.object({
@@ -82,10 +84,31 @@ const faqItems = [
   },
 ];
 
+const ALLOWED_TYPES = ["application/pdf", "image/jpeg", "image/png"];
+const MAX_FILE_BYTES = 10 * 1024 * 1024;
+const MAX_TOTAL_BYTES = 20 * 1024 * 1024;
+
+/** Read a File and return its Base64 content string (no data-URI prefix). */
+function readFileAsBase64(file: File): Promise<string> {
+  return new Promise((resolve, reject) => {
+    const reader = new FileReader();
+    reader.onload = () => {
+      const result = reader.result as string;
+      // Strip "data:<mime>;base64," prefix
+      resolve(result.split(",")[1]);
+    };
+    reader.onerror = () => reject(reader.error);
+    reader.readAsDataURL(file);
+  });
+}
+
 export default function IntakeForm() {
   const [openFaq, setOpenFaq] = useState<number | null>(null);
   const [submitted, setSubmitted] = useState(false);
   const [serverError, setServerError] = useState<string | null>(null);
+  const [uploadedFiles, setUploadedFiles] = useState<File[]>([]);
+  const [uploadError, setUploadError] = useState<string | null>(null);
+  const fileInputRef = useRef<HTMLInputElement>(null);
 
   const {
     register,
@@ -104,10 +127,90 @@ export default function IntakeForm() {
     },
   });
 
+  /** Validate and stage newly chosen files. */
+  const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setUploadError(null);
+    const chosen = Array.from(e.target.files ?? []);
+    if (!chosen.length) return;
+
+    const merged = [...uploadedFiles, ...chosen];
+
+    if (merged.length > 3) {
+      setUploadError("You can upload a maximum of 3 files.");
+      // Reset the input so the same file can be re-selected
+      if (fileInputRef.current) fileInputRef.current.value = "";
+      return;
+    }
+
+    for (const file of chosen) {
+      if (!ALLOWED_TYPES.includes(file.type)) {
+        setUploadError("Unsupported file type. Please upload PDF, JPG, or PNG files only.");
+        if (fileInputRef.current) fileInputRef.current.value = "";
+        return;
+      }
+      if (file.size > MAX_FILE_BYTES) {
+        setUploadError("Each file must be 10MB or smaller.");
+        if (fileInputRef.current) fileInputRef.current.value = "";
+        return;
+      }
+    }
+
+    const totalSize = merged.reduce((sum, f) => sum + f.size, 0);
+    if (totalSize > MAX_TOTAL_BYTES) {
+      setUploadError("Your files are too large. Please keep the total upload size under 20MB.");
+      if (fileInputRef.current) fileInputRef.current.value = "";
+      return;
+    }
+
+    setUploadedFiles(merged);
+    if (fileInputRef.current) fileInputRef.current.value = "";
+  };
+
+  /** Remove a single file by index. */
+  const removeFile = (index: number) => {
+    setUploadedFiles((prev) => prev.filter((_, i) => i !== index));
+    setUploadError(null);
+  };
+
   const onSubmit = async (data: FormData) => {
     setServerError(null);
+    setUploadError(null);
     try {
-      const result = await sendIntakeEmail(data);
+      // Client-side guard (mirrors handleFileChange, protects against stale state)
+      if (uploadedFiles.length > 3) {
+        setUploadError("You can upload a maximum of 3 files.");
+        return;
+      }
+      for (const file of uploadedFiles) {
+        if (!ALLOWED_TYPES.includes(file.type)) {
+          setUploadError("Unsupported file type. Please upload PDF, JPG, or PNG files only.");
+          return;
+        }
+        if (file.size > MAX_FILE_BYTES) {
+          setUploadError("Each file must be 10MB or smaller.");
+          return;
+        }
+      }
+      const totalSize = uploadedFiles.reduce((sum, f) => sum + f.size, 0);
+      if (totalSize > MAX_TOTAL_BYTES) {
+        setUploadError("Your files are too large. Please keep the total upload size under 20MB.");
+        return;
+      }
+
+      // Build attachments array (Base64 encoded in-memory, never written to disk)
+      const attachments: AttachmentInput[] = await Promise.all(
+        uploadedFiles.map(async (file) => ({
+          name: file.name,
+          type: file.type,
+          content: await readFileAsBase64(file),
+        }))
+      );
+
+      const payload = attachments.length > 0
+        ? { ...data, attachments }
+        : data;
+
+      const result = await sendIntakeEmail(payload);
       if (result && "error" in result && result.error) {
         setServerError(result.error);
       } else if (result && "success" in result && result.success) {
@@ -119,6 +222,8 @@ export default function IntakeForm() {
           });
         }
         setSubmitted(true);
+        setUploadedFiles([]);
+        setUploadError(null);
         reset();
       }
     } catch (err: unknown) {
@@ -359,11 +464,74 @@ export default function IntakeForm() {
                     id="description"
                     rows={5}
                     {...register("description")}
-                    placeholder="Describe your garment, fabric preferences, construction details, and timeline. (Note: We will request your tech packs and reference images via email after you submit this request.)"
+                    placeholder="Describe your garment, fabric preferences, construction details, and timeline."
                     className="w-full px-4 py-3 bg-[#F2EFE9] border border-[#E5DDD3] text-sm text-[#1A1A1A] placeholder-[#6B6560] focus:outline-none focus:border-[#2D5016] transition-colors resize-none"
                   />
                   {errors.description && (
                     <p className="mt-1 text-xs text-red-600">{errors.description.message}</p>
+                  )}
+                </div>
+
+                {/* Row 5: File Upload (Optional) */}
+                <div>
+                  <label className="block text-xs font-semibold uppercase tracking-widest text-[#6B6560] mb-2">
+                    Tech Pack / Design References
+                    <span className="normal-case tracking-normal font-normal text-[#C8A882] ml-1.5">(Optional)</span>
+                  </label>
+                  <p className="text-xs text-[#6B6560] mb-3">
+                    PDF, JPG, or PNG&nbsp;&bull;&nbsp;Up to 3 files&nbsp;&bull;&nbsp;10MB each
+                  </p>
+
+                  {/* Hidden native file input */}
+                  <input
+                    ref={fileInputRef}
+                    id="file-upload"
+                    type="file"
+                    multiple
+                    accept="application/pdf,image/jpeg,image/png"
+                    onChange={handleFileChange}
+                    className="sr-only"
+                    aria-label="Upload tech pack or design references"
+                  />
+
+                  {/* Styled trigger area */}
+                  {uploadedFiles.length < 3 && (
+                    <button
+                      type="button"
+                      onClick={() => fileInputRef.current?.click()}
+                      className="w-full flex items-center justify-center gap-2 px-4 py-4 border border-dashed border-[#C8A882] bg-[#F2EFE9] text-sm text-[#6B6560] hover:border-[#2D5016] hover:text-[#2D5016] transition-colors duration-200 cursor-pointer"
+                    >
+                      <Paperclip size={14} className="flex-shrink-0" />
+                      <span>Click to browse files</span>
+                    </button>
+                  )}
+
+                  {/* Selected file list */}
+                  {uploadedFiles.length > 0 && (
+                    <ul className="mt-3 space-y-2">
+                      {uploadedFiles.map((file, index) => (
+                        <li
+                          key={index}
+                          className="flex items-center justify-between px-4 py-2.5 bg-[#F2EFE9] border border-[#E5DDD3] text-sm"
+                        >
+                          <span className="text-[#1A1A1A] truncate max-w-[75%]">{file.name}</span>
+                          <button
+                            type="button"
+                            onClick={() => removeFile(index)}
+                            className="flex items-center gap-1 ml-4 text-xs text-[#6B6560] hover:text-red-600 transition-colors flex-shrink-0"
+                            aria-label={`Remove ${file.name}`}
+                          >
+                            <X size={12} />
+                            Remove
+                          </button>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+
+                  {/* Upload validation error */}
+                  {uploadError && (
+                    <p className="mt-2 text-xs text-red-600">{uploadError}</p>
                   )}
                 </div>
 
