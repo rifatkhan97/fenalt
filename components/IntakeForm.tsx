@@ -30,7 +30,7 @@ const schema = z.object({
     .optional()
     .refine(
       (val) => !val || /^https?:\/\/.+/.test(val.trim()),
-      { message: "Please enter a valid file or folder link." }
+      { message: "Please enter a full link starting with https:// or http://" }
     ),
 });
 
@@ -527,7 +527,7 @@ export default function IntakeForm() {
                   </p>
                   <input
                     id="fileLink"
-                    type="url"
+                    type="text"
                     {...register("fileLink")}
                     placeholder="https://..."
                     className="w-full px-4 py-3 bg-[#F2EFE9] border border-[#E5DDD3] text-sm text-[#1A1A1A] placeholder-[#6B6560] focus:outline-none focus:border-[#2D5016] transition-colors"

@@ -48,7 +48,7 @@ export async function sendIntakeEmail(data: IntakeInput) {
     // Validate link format if provided
     if (fileLink && fileLink.trim() !== "") {
       if (!isValidUrl(fileLink)) {
-        return { error: "Please enter a valid file or folder link." };
+        return { error: "Please enter a full link starting with https:// or http://" };
       }
     }
 
